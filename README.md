@@ -1,4 +1,4 @@
-dota-data-processor
+dota-datafiles
 ===============
 Python scripts I use to generate json and other data files used in my dota website and projects like my [hero calculator](https://github.com/devilesk/hero-calculator)
 
