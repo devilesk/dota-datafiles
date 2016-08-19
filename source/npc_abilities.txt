@@ -715,7 +715,7 @@
 			"02"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"movement_damage_pct"		"26 42 60"
+				"movement_damage_pct"		"30 45 60"
 			}
 			"03"
 			{
@@ -795,7 +795,7 @@
 		"AbilityCastRange"				"900"
 		"AbilityCastPoint"				"0.4 0.4 0.4 0.4"
 
-		"AbilityCooldown"				"13"
+		"AbilityCooldown"				"16 15 14 13"
 		"AbilityDuration"				"3.0 4.0 5.0 6.0"
 
 		"AbilityDamage"					"0 0 0 0"
@@ -8009,7 +8009,7 @@
 		"AbilityCastRange"				"600"
 		"AbilityCastPoint"				"0.35 0.35 0.35"
 
-		"AbilityCooldown"				"130.0 115.0 100.0"
+		"AbilityCooldown"				"140.0 125.0 110.0"
 
 		"AbilityManaCost"				"150 225 300"
 
@@ -15551,12 +15551,12 @@
 			"05"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"illusion_incoming_damage"	"50.0 50.0 50.0 50.0"
+				"illusion_incoming_damage"	"100"
 			}
 			"06"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"tooltip_total_illusion_incoming_damage"	"150.0 150.0 150.0 150.0"
+				"tooltip_total_illusion_incoming_damage"	"200"
 			}			
 		}
 	}
@@ -16170,7 +16170,7 @@
 			"02"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"health_regen"		"4 7 10 13"
+				"health_regen"		"4 8 12 16"
 			}
 			"03"
 			{
@@ -18250,7 +18250,7 @@
 			"02"
 			{
 				"var_type"							"FIELD_FLOAT"
-				"stun_delay"						"0.85"
+				"stun_delay"						"0.55"
 			}			
 			"03"
 			{
@@ -19528,7 +19528,7 @@
 		"AbilityCastPoint"				"0.3 0.3 0.3 0.3"
 		"AbilityCastRange"				"850 1050 1250 1450"
 		
-		"AbilityCooldown"				"4.0 4.0 4.0 4.0"
+		"AbilityCooldown"				"4"
 		
 		"AbilityManaCost"				"60 70 80 90"
 		
@@ -19588,7 +19588,7 @@
 			"04"
 			{
 				"var_type"							"FIELD_FLOAT"
-				"stack_duration"					"14 16 18 20"
+				"stack_duration"					"10 13 16 19"
 			}
 		}
 	}
@@ -20644,7 +20644,7 @@
 			"04"
 			{
 				"var_type"						"FIELD_INTEGER"
-				"stomp_damage"					"85 110 135 160"
+				"stomp_damage"					"70 100 130 160"
 			}
 			"05"
 			{
@@ -20693,7 +20693,7 @@
 			"04"
 			{
 				"var_type"						"FIELD_INTEGER"
-				"stomp_damage"					"85 110 135 160"
+				"stomp_damage"					"70 100 130 160"
 			}
 			"05"
 			{
@@ -21817,7 +21817,7 @@
 		"AbilityCastRange"				"0"
 		"AbilityCastPoint"				"0.6"
 		
-		"AbilityCooldown"				"130.0"
+		"AbilityCooldown"				"130 120 110"
 
 		"AbilityManaCost"				"75 150 225"
 	
@@ -22543,7 +22543,7 @@
 		"AbilityCastRange"				"1000"
 		"AbilityCastPoint"				"0.3"
 		
-		"AbilityCooldown"				"90 60 30"
+		"AbilityCooldown"				"100 65 30"
 
 		"AbilityManaCost"				"100"
 

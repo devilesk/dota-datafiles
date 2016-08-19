@@ -4976,8 +4976,8 @@
       "name": "movement_damage_pct", 
       "tooltip": "%MOVE DAMAGE:", 
       "value": [
-       26, 
-       42, 
+       30, 
+       45, 
        60
       ]
      }, 
@@ -13931,9 +13931,9 @@
       "name": "stomp_damage", 
       "tooltip": "STOMP DAMAGE:", 
       "value": [
-       85, 
-       110, 
-       135, 
+       70, 
+       100, 
+       130, 
        160
       ]
      }, 
@@ -16269,9 +16269,9 @@
      "DOTA_ABILITY_BEHAVIOR_POINT"
     ], 
     "cooldown": [
-     130, 
-     115, 
-     100
+     140, 
+     125, 
+     110
     ], 
     "damage": [
      0, 
@@ -22647,7 +22647,7 @@
   "items": [], 
   "level": 0, 
   "magicalresistance": 25, 
-  "movementspeed": 320, 
+  "movementspeed": 325, 
   "movementturnrate": 0.5, 
   "name": "npc_dota_hero_leshrac", 
   "projectilespeed": 900, 
@@ -24216,7 +24216,7 @@
   "attackdamagemin": 13, 
   "attackpoint": 0.75, 
   "attackrange": 670, 
-  "attackrate": 1.7, 
+  "attackrate": 1.6, 
   "attacktype": "DOTA_UNIT_CAP_RANGED_ATTACK", 
   "attributeagilitygain": 1.5, 
   "attributebaseagility": 16, 
@@ -33143,8 +33143,8 @@
      "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
     ], 
     "cooldown": [
-     90, 
-     60, 
+     100, 
+     65, 
      30
     ], 
     "damage": [
@@ -39716,20 +39716,14 @@
      {
       "name": "illusion_incoming_damage", 
       "value": [
-       50, 
-       50, 
-       50, 
-       50
+       100.0
       ]
      }, 
      {
       "name": "tooltip_total_illusion_incoming_damage", 
       "tooltip": "%ILLUSION DAMAGE TAKEN:", 
       "value": [
-       150, 
-       150, 
-       150, 
-       150
+       200.0
       ]
      }
     ], 
@@ -40833,9 +40827,6 @@
      "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
     ], 
     "cooldown": [
-     4, 
-     4, 
-     4, 
      4
     ], 
     "damage": [
@@ -40916,10 +40907,10 @@
       "name": "stack_duration", 
       "tooltip": "STACK DURATION:", 
       "value": [
-       14, 
+       10, 
+       13, 
        16, 
-       18, 
-       20
+       19
       ]
      }
     ], 
@@ -49373,9 +49364,9 @@
       "tooltip": "REGEN:", 
       "value": [
        4, 
-       7, 
-       10, 
-       13
+       8, 
+       12, 
+       16
       ]
      }, 
      {

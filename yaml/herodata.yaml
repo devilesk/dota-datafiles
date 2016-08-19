@@ -2096,7 +2096,7 @@ npc_dota_hero_bloodseeker:
       value: [12.0]
     - name: movement_damage_pct
       tooltip: '%MOVE DAMAGE:'
-      value: [26, 42, 60]
+      value: [30, 45, 60]
     - name: damage_cap_amount
       value: [200]
     - name: damage_cap_interval
@@ -5834,7 +5834,7 @@ npc_dota_hero_elder_titan:
       value: [2, 3, 4, 5]
     - name: stomp_damage
       tooltip: 'STOMP DAMAGE:'
-      value: [85, 110, 135, 160]
+      value: [70, 100, 130, 160]
     - name: initial_stun_duration
       value: [0.8]
     - name: animation_rate
@@ -6802,7 +6802,7 @@ npc_dota_hero_faceless_void:
     - name: bonus_attack_speed
       value: [0]
     behavior: [DOTA_ABILITY_BEHAVIOR_AOE, DOTA_ABILITY_BEHAVIOR_POINT]
-    cooldown: [130, 115, 100]
+    cooldown: [140, 125, 110]
     damage: [0, 0, 0, 0]
     description: Creates a blister in spacetime, trapping all units caught in its
       sphere of influence and causes you to move very quickly inside it.  Only Faceless
@@ -9425,7 +9425,7 @@ npc_dota_hero_leshrac:
   items: []
   level: 0
   magicalresistance: 25
-  movementspeed: 320
+  movementspeed: 325
   movementturnrate: 0.5
   name: npc_dota_hero_leshrac
   projectilespeed: 900
@@ -10059,7 +10059,7 @@ npc_dota_hero_lina:
   attackdamagemin: 13
   attackpoint: 0.75
   attackrange: 670
-  attackrate: 1.7
+  attackrate: 1.6
   attacktype: DOTA_UNIT_CAP_RANGED_ATTACK
   attributeagilitygain: 1.5
   attributebaseagility: 16
@@ -13839,7 +13839,7 @@ npc_dota_hero_oracle:
     - name: radius
       value: [400.0]
     behavior: [DOTA_ABILITY_BEHAVIOR_UNIT_TARGET]
-    cooldown: [90, 60, 30]
+    cooldown: [100, 65, 30]
     damage: [0, 0, 0, 0]
     description: Temporarily alters an ally's destiny, delaying any healing or damage
       taken until False Promise ends. Any healing that is delayed by False Promise
@@ -16575,10 +16575,10 @@ npc_dota_hero_shadow_demon:
       tooltip: '%ILLUSION DAMAGE:'
       value: [30, 45, 60, 75]
     - name: illusion_incoming_damage
-      value: [50, 50, 50, 50]
+      value: [100.0]
     - name: tooltip_total_illusion_incoming_damage
       tooltip: '%ILLUSION DAMAGE TAKEN:'
-      value: [150, 150, 150, 150]
+      value: [200.0]
     behavior: [DOTA_ABILITY_BEHAVIOR_UNIT_TARGET, DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK]
     cooldown: [25, 22, 19, 16]
     damage: [0, 0, 0, 0]
@@ -17045,7 +17045,7 @@ npc_dota_hero_shredder:
       tooltip: 'DAMAGE:'
       value: [100, 140, 180, 220]
     behavior: [DOTA_ABILITY_BEHAVIOR_POINT, DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING]
-    cooldown: [4, 4, 4, 4]
+    cooldown: [4]
     damage: [0, 0, 0, 0]
     description: Timbersaw fires a chain that embeds itself in the first tree it hits,
       pulling him towards it.  Any enemy in the path takes damage.
@@ -17075,7 +17075,7 @@ npc_dota_hero_shredder:
       value: [5, 10, 15, 20]
     - name: stack_duration
       tooltip: 'STACK DURATION:'
-      value: [14, 16, 18, 20]
+      value: [10, 13, 16, 19]
     behavior: [DOTA_ABILITY_BEHAVIOR_PASSIVE]
     cooldown: [0, 0, 0, 0]
     damage: [0, 0, 0, 0]
@@ -20583,7 +20583,7 @@ npc_dota_hero_treant:
       value: [4, 5, 6, 7]
     - name: health_regen
       tooltip: 'REGEN:'
-      value: [4, 7, 10, 13]
+      value: [4, 8, 12, 16]
     - name: damage_block
       tooltip: 'BLOCK:'
       value: [20, 40, 60, 80]
