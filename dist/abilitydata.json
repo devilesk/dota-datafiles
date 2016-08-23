@@ -471,7 +471,10 @@
     "name": "bonus_damage_from_hero", 
     "tooltip": "BONUS DAMAGE(HERO):", 
     "value": [
-     30
+     30, 
+     35, 
+     40, 
+     45
     ]
    }, 
    {
@@ -479,9 +482,9 @@
     "tooltip": "DURATION:", 
     "value": [
      30, 
-     35, 
      40, 
-     45
+     50, 
+     60
     ]
    }
   ], 
@@ -501,10 +504,10 @@
    0, 
    0
   ], 
-  "description": "Nearby enemy units are weakened, losing a portion of their base damage.  If it dies while under this effect, Pit Lord gains bonus damage.", 
+  "description": "Nearby enemy units are weakened, losing a portion of their base damage. If a unit dies while under this effect, Underlord gains bonus damage.", 
   "displayname": "Atrophy Aura", 
   "level": 0, 
-  "lore": "", 
+  "lore": "To merely stand in the presence of the Underlord is to feel the conviction of battle sapped from one's soul.", 
   "manacost": [
    0, 
    0, 
@@ -621,10 +624,10 @@
    0, 
    0
   ], 
-  "description": "Opens a dark rift at the targeted friendly unit's position.  After a short delay, Abyssal Underlord and all nearby friendly heroes are teleported to that unit's location.  Dark Rift can be cancelled at anytime during the cast.  If it is cancelled in this way or the target unit dies before the spell becomes active, Dark Rift goes into cooldown.", 
+  "description": "Opens a dark rift at the targeted friendly unit's position.  After a short delay, Underlord and all nearby friendly heroes are teleported to that unit's location.  Dark Rift can be cancelled at anytime during the cast.  If it is cancelled in this way or the target unit dies before the spell becomes active, Dark Rift goes into cooldown.", 
   "displayname": "Dark Rift", 
   "level": 0, 
-  "lore": "", 
+  "lore": "They come without warning, leaving fire and blood where kingdoms once flourished.", 
   "manacost": [
    75, 
    150, 
@@ -693,12 +696,12 @@
    }, 
    {
     "name": "burn_damage", 
-    "tooltip": "BURN DAMAGE:", 
+    "tooltip": "%MAX HP BURN DAMAGE:", 
     "value": [
-     5, 
-     10, 
-     15, 
-     20
+     0.75, 
+     1.5, 
+     2.25, 
+     3
     ]
    }, 
    {
@@ -717,7 +720,7 @@
    {
     "name": "first_wave_delay", 
     "value": [
-     0.9
+     0.0
     ]
    }
   ], 
@@ -726,7 +729,7 @@
    "DOTA_ABILITY_BEHAVIOR_AOE"
   ], 
   "cooldown": [
-   14
+   12
   ], 
   "damage": [
    0, 
@@ -734,10 +737,10 @@
    0, 
    0
   ], 
-  "description": "Calls down waves of fire that damage enemy units in the target area, and continues to burn them for additional damage over time.", 
+  "description": "Calls down waves of fire that damage enemy units in the target area, burning for additional damage over time.", 
   "displayname": "Firestorm", 
   "level": 0, 
-  "lore": "", 
+  "lore": "The flames of conquest blaze forth from the darkest depths of the abyss.", 
   "manacost": [
    100, 
    110, 
@@ -811,10 +814,10 @@
    "DOTA_ABILITY_BEHAVIOR_AOE"
   ], 
   "cooldown": [
-   24, 
    21, 
    18, 
-   15
+   15, 
+   12
   ], 
   "damage": [
    0, 
@@ -822,10 +825,10 @@
    0, 
    0
   ], 
-  "description": "A deadly pit is conjured at the target location; any unit that enters is unable to move for some time and takes damage.  Each enemy unit can only be affected once.", 
+  "description": "A deadly pit is conjured at the target location; any unit that enters is unable to move for some time and takes damage. Each enemy unit can only be affected once.", 
   "displayname": "Pit of Malice", 
   "level": 0, 
-  "lore": "", 
+  "lore": "Twisting into the seams of reality itself, Vrogros' manifest hatred paralyzes those who defy his will.", 
   "manacost": [
    100, 
    115, 
@@ -13973,6 +13976,9 @@
    "DOTA_ABILITY_BEHAVIOR_POINT"
   ], 
   "cooldown": [
+   16, 
+   15, 
+   14, 
    13
   ], 
   "damage": [

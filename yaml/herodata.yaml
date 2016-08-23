@@ -224,38 +224,222 @@ npc_dota_hero_abaddon:
   visiondaytimerange: 1800
   visionnighttimerange: 800
 npc_dota_hero_abyssal_underlord:
-  AttackAcquisitionRange: 800
+  AttackAcquisitionRange: 600
   AttackDamageType: DAMAGE_TYPE_ArmorPhysical
   HeroID: 108
   abilities:
+  - AbilityCastPoint: 0.6
+    AbilityCastRange: 750
+    AbilityCastRangeBuffer: 250
+    AbilityChannelTime: [0, 0, 0, 0]
+    AbilityDuration: [0, 0, 0, 0]
+    AbilityModifierSupportBonus: 0
+    AbilityModifierSupportValue: 1
+    ID: 5613
+    abilitytype: DOTA_ABILITY_TYPE_BASIC
+    abilityunitdamagetype: DAMAGE_TYPE_MAGICAL
+    attributes:
+    - name: radius
+      tooltip: 'RADIUS:'
+      value: [400]
+    - name: wave_duration
+      value: [7.0]
+    - name: wave_count
+      tooltip: 'WAVE COUNT:'
+      value: [6]
+    - name: wave_damage
+      tooltip: 'WAVE DAMAGE:'
+      value: [25, 40, 55, 70]
+    - name: wave_interval
+      tooltip: WAVE INTERVAL
+      value: [1.0]
+    - name: burn_damage
+      tooltip: '%MAX HP BURN DAMAGE:'
+      value: [0.75, 1.5, 2.25, 3]
+    - name: burn_interval
+      value: [1.0]
+    - name: burn_duration
+      tooltip: 'BURN DURATION:'
+      value: [2.0]
+    - name: first_wave_delay
+      value: [0.0]
+    behavior: [DOTA_ABILITY_BEHAVIOR_POINT, DOTA_ABILITY_BEHAVIOR_AOE]
+    cooldown: [12]
+    damage: [0, 0, 0, 0]
+    description: Calls down waves of fire that damage enemy units in the target area,
+      burning for additional damage over time.
+    displayname: Firestorm
+    level: 0
+    lore: The flames of conquest blaze forth from the darkest depths of the abyss.
+    manacost: [100, 110, 120, 130]
+    name: abyssal_underlord_firestorm
+  - AbilityCastPoint: 0.6
+    AbilityCastRange: 750
+    AbilityCastRangeBuffer: 250
+    AbilityChannelTime: [0, 0, 0, 0]
+    AbilityDuration: [0, 0, 0, 0]
+    AbilityModifierSupportBonus: 0
+    AbilityModifierSupportValue: 1
+    ID: 5614
+    abilitytype: DOTA_ABILITY_TYPE_BASIC
+    abilityunitdamagetype: DAMAGE_TYPE_MAGICAL
+    attributes:
+    - name: radius
+      tooltip: 'RADIUS:'
+      value: [275]
+    - name: pit_duration
+      tooltip: 'PIT DURATION:'
+      value: [7.0]
+    - name: pit_interval
+      value: [0.5]
+    - name: pit_damage
+      tooltip: 'PIT DAMAGE:'
+      value: [100]
+    - name: ensnare_duration
+      tooltip: 'DISABLE DURATION:'
+      value: [1, 1.5, 2, 2.5]
+    behavior: [DOTA_ABILITY_BEHAVIOR_POINT, DOTA_ABILITY_BEHAVIOR_AOE]
+    cooldown: [21, 18, 15, 12]
+    damage: [0, 0, 0, 0]
+    description: A deadly pit is conjured at the target location; any unit that enters
+      is unable to move for some time and takes damage. Each enemy unit can only be
+      affected once.
+    displayname: Pit of Malice
+    level: 0
+    lore: Twisting into the seams of reality itself, Vrogros' manifest hatred paralyzes
+      those who defy his will.
+    manacost: [100, 115, 130, 145]
+    name: abyssal_underlord_pit_of_malice
+  - AbilityCastPoint: [0, 0, 0, 0]
+    AbilityCastRange: 900
+    AbilityCastRangeBuffer: 250
+    AbilityChannelTime: [0, 0, 0, 0]
+    AbilityDuration: [0, 0, 0, 0]
+    AbilityModifierSupportBonus: 0
+    AbilityModifierSupportValue: 1
+    ID: 5615
+    abilitytype: DOTA_ABILITY_TYPE_BASIC
+    attributes:
+    - name: radius
+      tooltip: 'RADIUS:'
+      value: [900]
+    - name: damage_reduction_pct
+      tooltip: '%DAMAGE REDUCTION:'
+      value: [18, 26, 34, 42]
+    - name: bonus_damage_from_creep
+      tooltip: 'BONUS DAMAGE(CREEP):'
+      value: [5]
+    - name: bonus_damage_from_hero
+      tooltip: 'BONUS DAMAGE(HERO):'
+      value: [30, 35, 40, 45]
+    - name: bonus_damage_duration
+      tooltip: 'DURATION:'
+      value: [30, 40, 50, 60]
+    behavior: [DOTA_ABILITY_BEHAVIOR_PASSIVE, DOTA_ABILITY_BEHAVIOR_AURA]
+    cooldown: [0, 0, 0, 0]
+    damage: [0, 0, 0, 0]
+    description: Nearby enemy units are weakened, losing a portion of their base damage.
+      If a unit dies while under this effect, Underlord gains bonus damage.
+    displayname: Atrophy Aura
+    level: 0
+    lore: To merely stand in the presence of the Underlord is to feel the conviction
+      of battle sapped from one's soul.
+    manacost: [0, 0, 0, 0]
+    name: abyssal_underlord_atrophy_aura
+  - AbilityCastPoint: 0.6
+    AbilityCastRange: 0
+    AbilityCastRangeBuffer: 250
+    AbilityChannelTime: [0, 0, 0, 0]
+    AbilityDuration: [0, 0, 0, 0]
+    AbilityModifierSupportBonus: 0
+    AbilityModifierSupportValue: 1
+    ID: 5616
+    abilitytype: DOTA_ABILITY_TYPE_ULTIMATE
+    attributes:
+    - name: radius
+      tooltip: 'TELEPORT RADIUS:'
+      value: [450]
+    - name: teleport_delay
+      tooltip: 'TELEPORT DELAY:'
+      value: [5, 4, 3]
+    behavior: [DOTA_ABILITY_BEHAVIOR_POINT, DOTA_ABILITY_BEHAVIOR_UNIT_TARGET]
+    cooldown: [130, 120, 110]
+    damage: [0, 0, 0, 0]
+    description: Opens a dark rift at the targeted friendly unit's position.  After
+      a short delay, Underlord and all nearby friendly heroes are teleported to that
+      unit's location.  Dark Rift can be cancelled at anytime during the cast.  If
+      it is cancelled in this way or the target unit dies before the spell becomes
+      active, Dark Rift goes into cooldown.
+    displayname: Dark Rift
+    level: 0
+    lore: They come without warning, leaving fire and blood where kingdoms once flourished.
+    manacost: [75, 150, 225]
+    name: abyssal_underlord_dark_rift
+  - AbilityCastPoint: [0, 0, 0, 0]
+    AbilityCastRange: 0
+    AbilityCastRangeBuffer: 250
+    AbilityChannelTime: [0, 0, 0, 0]
+    AbilityDuration: [0, 0, 0, 0]
+    AbilityModifierSupportBonus: 0
+    AbilityModifierSupportValue: 1
+    ID: 5617
+    abilitytype: DOTA_ABILITY_TYPE_ULTIMATE
+    attributes: []
+    behavior: [DOTA_ABILITY_BEHAVIOR_NO_TARGET, DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE,
+      DOTA_ABILITY_BEHAVIOR_HIDDEN, DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK]
+    cooldown: [0, 0, 0, 0]
+    damage: [0, 0, 0, 0]
+    description: Stop the teleport.
+    displayname: Cancel Dark Rift
+    level: 0
+    manacost: [0, 0, 0, 0]
+    name: abyssal_underlord_cancel_dark_rift
   - *id001
   abilitylayout: 4
-  armorphysical: -1
-  attackdamagemax: 1
-  attackdamagemin: 1
-  attackpoint: 0.75
-  attackrange: 600
+  armorphysical: 2
+  attackdamagemax: 43
+  attackdamagemin: 37
+  attackpoint: 0.45
+  attackrange: 150
   attackrate: 1.7
-  attacktype: DOTA_UNIT_CAP_RANGED_ATTACK
-  attributeagilitygain: 0
-  attributebaseagility: 0
-  attributebaseintelligence: 0
-  attributebasestrength: 0
-  attributeintelligencegain: 0
+  attacktype: DOTA_UNIT_CAP_MELEE_ATTACK
+  attributeagilitygain: 1.3
+  attributebaseagility: 12
+  attributebaseintelligence: 17
+  attributebasestrength: 25
+  attributeintelligencegain: 2.6
   attributeprimary: DOTA_ATTRIBUTE_STRENGTH
-  attributestrengthgain: 0
+  attributestrengthgain: 2.6
+  bio: Neither myth nor song exist to tell of their coming. <br><br>Deep below the
+    surface of the world lay unknown wonders and horrors. Down and down again, well
+    beneath the slithering magma fields and simmering roots of dormant volcanoes stands
+    the obsidian city of Aziyog, its incomparable stonework spanning an endless cavern.
+    Within honeycomb walls mortared with the bones of countless slaves lies the domain
+    of the Abyssal Horde, and their brutal underlord Vrogros. <br><br>Armed by the
+    monstrous forgemasters of his kind and well-practiced in the arts of the Dark
+    Rift, Vrogros is able to conjure forth flame and crippling malice through the
+    twist between worlds. He seeks always to expand his holdings, destroying or enslaving
+    all he encounters. Yet the lands offered by the subterranean realm are few, and
+    so his sights have turned upward. By his command the first waves of abyssal invaders
+    have already marched through the rift, a few doomed legions meant merely to test
+    the might of nations above. Now, as his full force readies itself for unending
+    conquest, Vrogros himself steps into a sunlit world to announce his coming reign.
+    Those who face the Underlord will bow and pay tribute, or be crushed where they
+    stand.
   displayname: Underlord
   items: []
   level: 0
   magicalresistance: 25
-  movementspeed: 300
-  movementturnrate: 0.5
+  movementspeed: 305
+  movementturnrate: 0.6
   name: npc_dota_hero_abyssal_underlord
   projectilespeed: 900
+  role: Support,Nuker,Disabler,Durable,Escape
   statushealth: 200
   statushealthregen: 0.25
   statusmana: 50
   statusmanaregen: 0.01
+  team: Bad
   visiondaytimerange: 1800
   visionnighttimerange: 800
 npc_dota_hero_alchemist:
@@ -5207,7 +5391,7 @@ npc_dota_hero_drow_ranger:
     - name: knockback_height
       value: [0]
     behavior: [DOTA_ABILITY_BEHAVIOR_POINT]
-    cooldown: [13]
+    cooldown: [16, 15, 14, 13]
     damage: [0, 0, 0, 0]
     description: Releases a wave that silences and knocks back enemy units. Knockback
       distance is relative to how close they are to you.
