@@ -1183,7 +1183,7 @@
   "Lore": "The Sacred Warrior ignites his weaponry after marking it with his own blood - causing far greater pain than he himself feels."
  }, 
  "huskar_inner_vitality": {
-  "Description": "Unlocks the regenerative power of a friendly unit, with healing based upon its primary attribute. If the target is below 40%%, it will heal faster.  Lasts 16 seconds.", 
+  "Description": "Unlocks the regenerative power of a friendly unit, with healing based upon its primary attribute. If the target is below 35%%, it will heal faster.  Lasts 16 seconds.", 
   "DisplayName": "Inner Vitality", 
   "Lore": "While Huskar has little use for magic, this minor enchantment was learned from the Dazzle and the Dezun priests, to be used in times of great injury."
  }, 

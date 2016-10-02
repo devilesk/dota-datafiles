@@ -2923,9 +2923,9 @@
    0.3
   ], 
   "damage": [
-   90, 
-   120, 
-   150, 
+   75, 
+   110, 
+   145, 
    180
   ], 
   "description": "When attacked, Axe performs a helix counter attack, dealing pure damage to all nearby enemies.", 
@@ -3813,7 +3813,7 @@
    "DOTA_ABILITY_BEHAVIOR_POINT"
   ], 
   "cooldown": [
-   14
+   17
   ], 
   "damage": [
    0, 
@@ -6064,7 +6064,7 @@
   "level": 0, 
   "lore": "Using his elevated senses of sight and smell, Gondar's hits have quite a good chance of success.", 
   "manacost": [
-   50
+   65
   ], 
   "name": "bounty_hunter_track"
  }, 
@@ -15189,7 +15189,7 @@
   ], 
   "AbilityCastRange": 500, 
   "AbilityCastRangeBuffer": 250, 
-  "AbilityChannelTime": 1.2, 
+  "AbilityChannelTime": 1.3, 
   "AbilityDuration": [
    0, 
    0, 
@@ -15207,7 +15207,7 @@
     "name": "cast_time", 
     "tooltip": "CAST TIME:", 
     "value": [
-     1.6
+     1.7
     ]
    }, 
    {
@@ -15279,7 +15279,7 @@
   "AbilityCastPoint": 0, 
   "AbilityCastRange": 500, 
   "AbilityCastRangeBuffer": 250, 
-  "AbilityChannelTime": 1.2, 
+  "AbilityChannelTime": 1.3, 
   "AbilityDuration": [
    0, 
    0, 
@@ -15297,7 +15297,7 @@
     "name": "cast_time", 
     "tooltip": "CAST TIME:", 
     "value": [
-     1.6
+     1.7
     ]
    }, 
    {
@@ -16986,7 +16986,7 @@
     "name": "slow", 
     "tooltip": "%SLOW PER COOLDOWN:", 
     "value": [
-     8
+     10
     ]
    }
   ], 
@@ -21797,7 +21797,7 @@
    {
     "name": "hurt_percent", 
     "value": [
-     0.4
+     0.35
     ]
    }, 
    {
@@ -21837,7 +21837,7 @@
    0, 
    0
   ], 
-  "description": "Unlocks the regenerative power of a friendly unit, with healing based upon its primary attribute. If the target is below 40%%, it will heal faster.  Lasts 16 seconds.", 
+  "description": "Unlocks the regenerative power of a friendly unit, with healing based upon its primary attribute. If the target is below 35%%, it will heal faster.  Lasts 16 seconds.", 
   "displayname": "Inner Vitality", 
   "level": 0, 
   "lore": "While Huskar has little use for magic, this minor enchantment was learned from the Dazzle and the Dezun priests, to be used in times of great injury.", 
@@ -24362,7 +24362,7 @@
     "name": "knockback_distance", 
     "tooltip": "KNOCKBACK DISTANCE:", 
     "value": [
-     400
+     525
     ]
    }, 
    {
@@ -24654,10 +24654,7 @@
     "name": "radius", 
     "tooltip": "WIDTH:", 
     "value": [
-     350, 
-     350, 
-     350, 
-     350
+     375
     ]
    }, 
    {
@@ -24694,7 +24691,7 @@
    {
     "name": "channel_vision_radius", 
     "value": [
-     350
+     375
     ]
    }, 
    {
@@ -24889,10 +24886,7 @@
   "level": 0, 
   "lore": "Ezalor disrupts Primordial harmony, draining magical energy from those with poor constitution.", 
   "manacost": [
-   75, 
-   75, 
-   75, 
-   75
+   150
   ], 
   "name": "keeper_of_the_light_mana_leak"
  }, 
@@ -24941,8 +24935,6 @@
    "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
   ], 
   "cooldown": [
-   15, 
-   15, 
    15
   ], 
   "damage": [
@@ -25612,9 +25604,9 @@
    10
   ], 
   "damage": [
-   120, 
-   180, 
-   240, 
+   75, 
+   150, 
+   225, 
    300
   ], 
   "description": "Summons a rising torrent that, after a short delay, hurls enemy units into the sky, stunning, dealing damage and slowing movement speed.", 
@@ -31282,7 +31274,7 @@
     "name": "interval_scepter", 
     "tooltip": "SCEPTER INTERVAL:", 
     "value": [
-     8.0
+     9.0
     ]
    }
   ], 
@@ -35947,7 +35939,7 @@
   "name": "omniknight_purification"
  }, 
  "omniknight_repel": {
-  "AbilityCastPoint": 0.5, 
+  "AbilityCastPoint": 0.35, 
   "AbilityCastRange": 500, 
   "AbilityCastRangeBuffer": 250, 
   "AbilityChannelTime": [
@@ -35972,10 +35964,10 @@
     "name": "duration", 
     "tooltip": "DURATION:", 
     "value": [
+     4, 
      6, 
      8, 
-     10, 
-     12
+     10
     ]
    }
   ], 
@@ -36566,7 +36558,12 @@
    0.3, 
    0.3
   ], 
-  "AbilityCastRange": 1200, 
+  "AbilityCastRange": [
+   825, 
+   950, 
+   1075, 
+   1200
+  ], 
   "AbilityCastRangeBuffer": 250, 
   "AbilityChannelTime": [
    0, 
@@ -40503,6 +40500,9 @@
     "name": "movement_speed_reduction", 
     "tooltip": "%MOVEMENT SLOW:", 
     "value": [
+     19, 
+     21, 
+     23, 
      25
     ]
    }, 
@@ -43382,10 +43382,7 @@
    {
     "name": "bonus_stack_damage", 
     "value": [
-     50, 
-     50, 
-     50, 
-     50
+     50.0
     ]
    }, 
    {
@@ -43424,9 +43421,9 @@
    2.5
   ], 
   "damage": [
-   50, 
-   50, 
-   50, 
+   26, 
+   34, 
+   42, 
    50
   ], 
   "description": "Deals damage in a line, and afflicts enemy units with a poison effect. The poison deals 1/2/4/8/16 times the stack damage based on the number of stacks on the target, up to 5 stacks. Additional stacks cause 50 damage each.  This deferred damage is dealt when Shadow Poison's duration is expired, or the Release sub-ability is used.", 
@@ -57151,8 +57148,8 @@
     "name": "cast_delay", 
     "tooltip": "CAST DELAY:", 
     "value": [
-     2.5, 
-     2.25, 
+     2.7, 
+     2.35, 
      2
     ]
    }, 
