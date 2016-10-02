@@ -638,7 +638,7 @@
 		"DOTA_Chat_NoBattlePoints_CheatsEnabled" "Experience Trophy Progress will not be awarded for this match because cheats are enabled."
 		"DOTA_Chat_NoBattlePoints_LowPriority" "You will not receive Experience Trophy Progress because you are in the Low Priority Punishment Pool."
 		"DOTA_Chat_CoopBattlePointsRules"	"The standard abandonment and AFK rules apply to Co-op Bot games!  Experience Trophy Progress and end-of-game drops have also been re-enabled."
-		"DOTA_Chat_CoopLowPriorityNoPassiveReminder" "You will not receive credit for playing through a low-priority match in Coop-Bot mode if you are playing on passive difficulty.  To receive credit, please play on easy difficulty or greater."
+		"DOTA_Chat_CoopLowPriorityNoPassiveReminder" "You will not receive credit for playing through a low-priority match in Co-op Bot mode if you are playing on passive difficulty.  To receive credit, please play on easy difficulty or greater."
 		"DOTA_Chat_Frostivus_Abandon_Reminder"	"The standard abandonment and AFK rules apply to Wraith-Night matches!  Abandoning Wraith-Night games may lead to punishment by placement in the low-priority queue." 
 		"DOTA_Chat_Ranked_Reminder"		"Abandonment is treated more severely in ranked matches.  Matchmaking rating (MMR) will be updated for any match that progresses past first blood."
 		"DOTA_Chat_ItemGifted"			"%s1 received the gift %s2 from %s3!"
@@ -7823,6 +7823,7 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 		"DOTA_Tooltip_modifier_pudge_rot_Description"		"Causes damage to every fighter in a radius every second."
 		"DOTA_Tooltip_modifier_pudge_flesh_heap"			"Flesh Heap"
 		"DOTA_Tooltip_modifier_pudge_flesh_heap_Description""Gives Pudge %dMODIFIER_PROPERTY_MAGICAL_RESISTANCE_BONUS%%% additional resistance to spells and a bonus %0fMODIFIER_PROPERTY_STATS_STRENGTH_BONUS% strength"
+		"DOTA_Tooltip_modifier_pudge_flesh_heap_Description_Dashboard" "Gives Pudge bonus strength that increases each time Pudge kills an enemy Hero or it dies in his vicinity."
 		"DOTA_Tooltip_modifier_pudge_dismember"				"Dismember"
 		"DOTA_Tooltip_modifier_pudge_dismember_Description"	"Getting dismembered by Pudge."
 		"DOTA_Tooltip_modifier_pudge_meat_hook"				"Meat Hook"
@@ -8776,6 +8777,8 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 		"DOTA_Tooltip_modifier_abyssal_underlord_atrophy_aura_effect_Description"		"Damage reduced by %dMODIFIER_PROPERTY_BASEDAMAGEOUTGOING_PERCENTAGE%%%."
 		"DOTA_Tooltip_modifier_abyssal_underlord_atrophy_aura_dmg_buff_counter"				"Atrophy Aura"
 		"DOTA_Tooltip_modifier_abyssal_underlord_atrophy_aura_dmg_buff_counter_Description"	"Receiving %dMODIFIER_PROPERTY_TOOLTIP% bonus damage."
+		"DOTA_Tooltip_modifier_abyssal_underlord_dark_rift"								"Dark Rift"
+		"DOTA_Tooltip_modifier_abyssal_underlord_dark_rift_Description"					"Underlord is teleporting to this unit."
 
 		"DOTA_Tooltip_modifier_phoenix_icarus_dive_burn"					"Icarus Dive Burn"
 		"DOTA_Tooltip_modifier_phoenix_icarus_dive_burn_Description"		"Taking %dMODIFIER_PROPERTY_TOOLTIP% damage per second and movement slowed by %dMODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE%%%."
@@ -9113,6 +9116,7 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 		
 		"DOTA_Tooltip_modifier_item_moon_shard_consumed"	"Moon Shard"
 		"DOTA_Tooltip_modifier_item_moon_shard_consumed_Description"	"Permanently granted %dMODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT% attack speed by consuming a Moon Shard."
+		"DOTA_Tooltip_modifier_item_moon_shard_consumed_Description_Dashboard"	"Permanently granted 60 attack speed by consuming a Moon Shard."
 		
 		"DOTA_Tooltip_modifier_item_guardian_greaves_aura"		"Guardian Aura"
 		"DOTA_Tooltip_modifier_item_guardian_greaves_aura_Description"		"Receiving %dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% additional health regeneration, and %dMODIFIER_PROPERTY_PHYSICAL_ARMOR_BONUS% armor."
@@ -12536,6 +12540,7 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 		"client_version_out_of_date"		"Game client is out of date.  Please close Dota 2 and restart to get the latest version."
 		"missing_league_subscription"		"This game is a league game that requires a subscription to watch."
 		"DOTA_Limited_User_Chat"			"A non-limited Steam account is required to participate in public chat channels."
+		"DOTA_Low_Badge_Level_Chat"			"You must reach at least level 5 to participate in public chat channels."
 
 		"GameUI_Disconnected"						"Disconnected from Server"
 		"GameUI_Disconnect_ServerInfoOverflow"		"Info data overflow"
@@ -12745,7 +12750,9 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 		"match_details_denied"				"Access to Match ID %s1 denied."
 		"match_details_failed"				"Invalid Match ID %s1."
 		"loot_dropped"						"Loot Dropped"
-		"dota_game_end_signout_pending"		"Due to high load, match results are still pending.  All items and rewards will still be granted though, so check back in the Armory in a little while."
+		"dota_game_end_signout_delayed"		"The game server is attempting to send match results to the game coordinator..."
+		"dota_game_end_signout_pending_title"	"Match signout delayed."
+		"dota_game_end_signout_pending"		"Due to high load, match results are still pending.  Items and rewards might not be available immediately.  They will appear when the gameserver finalizes the match with the game coordinator."
 		"dota_game_end_not_scored_leaver"	"This match is not being scored because a player abandoned before first blood."
 		"dota_game_end_not_scored_poor_network"	"This match is not being scored due to poor network conditions."
 		"dota_game_end_not_scored_generic"	"This match is not being scored."
@@ -12762,10 +12769,16 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 		"DOTA_RP_LOBBY_CUSTOM"				"%s1 Lobby"
 		"DOTA_RP_LOBBY_CUSTOM_UNNAMED"		"Custom Game Lobby"
 		"DOTA_RP_PLAYING_AS"				"as %s2 (Lvl %s1)"
+		"DOTA_RP_BOTPRACTICE_PLAYING_AS"	"as %s1 (Bot Practice)"
+		"DOTA_RP_COOPBOT_PLAYING_AS"		"as %s1 (Co-op Bot)"
 		"DOTA_RP_POST_GAME"					"Post Game"
 		"DOTA_RP_DISCONNECT"				"Disconnecting"
 		"DOTA_RP_SPECTATING"				"Spectating A Game"
 		"DOTA_RP_CASTING"					"Casting A Game"
+		"DOTA_RP_PRIVATE_LOBBY"				"Private Lobby"
+		"DOTA_RP_PRIVATE_LOBBY_PLAYING_AS"	"as %s1 (Private Lobby)"
+		"DOTA_RP_LEAGUE_MATCH"				"Playing in a Tournament"
+		"DOTA_RP_LEAGUE_MATCH_PLAYING_AS"	"as %s1 (Tournament)"
 		"DOTA_RP_WATCHING_REPLAY"			"Watching A Replay"
 		"DOTA_RP_WATCHING_TOURNAMENT"		"Watching A Tournament Game"
 		"DOTA_RP_WATCHING_TOURNAMENT_REPLAY" "Watching A Tournament Replay"
@@ -12784,14 +12797,16 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 		"DOTA_RichPresence_Help"			"What's new? Set a custom status here!"
 		"DOTA_RP_QUEST"						"On A Training Mission"
 		"DOTA_RP_BOTPRACTICE"				"Playing Against Bots"
+		"DOTA_RP_COOPBOT"					"Co-op Bot match"
 		"DOTA_RP_TRAINING"					"On a Training Mission"
 		"DOTA_RP_OPEN_SOLO"					"Looking for party members"
 		"DOTA_RP_OPEN_PARTY"				"In party looking for members"
 		"DOTA_RP_PLAYING_DOTA_S1"			"Playing Dota 2"
-		"DOTA_RP_PLAYING_DOTA_S2"			"Playing Dota 2 - Reborn Beta"
 
 		"DOTA_VoiceTextBanned_Reports"		"No one hears you. Your account has been flagged as disruptive and your communication privileges temporarily revoked. Time remaining: %s1 hours"
 		"DOTA_VoiceTextBanned_Reports_Avoid_Overflow"	"No one hears you. Your account has been flagged as disruptive and your communication privileges temporarily revoked."
+		"DOTA_PublicTextBanned_Reports"		"No one hears you. Your account has been flagged as disruptive and your public chat privileges temporarily revoked. Time remaining: %s1 hours"
+		"DOTA_PublicTextBanned_Reports_Avoid_Overflow"	"No one hears you. Your account has been flagged as disruptive and your public chat privileges temporarily revoked."
 		"DOTA_SpectatorsAreWatchingYourGame" "There are %s1 spectators watching this game right now."
 
 		"DOTA_WATCH_GAME_STATUS"		"Watch Game Status"
@@ -15025,6 +15040,8 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 		"StoreBanner_Header_2016_Lockless_Luckvase"		"THE INTERNATIONAL 2016 LOCKLESS LUCKVASE"
 		"StoreBanner_Text_2016_Lockless_Luckvase"		"Includes new Immortal items. Available with Autographs from your favorite casters."
 		
+		"StoreBanner_Header_Warhammer_Treasure"		"WARHAMMER: TREASURE OF THE OLD WORLD"
+		"StoreBanner_Text_Warhammer_Treasure"		"Contains thirteen Warhammer-themed sets from the Dota 2 Workshop."
 		
 		
 
@@ -15721,6 +15738,7 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 		
 		"DOTA_HoF_Champions"				"World Champions"
 		"DOTA_HoF_US"						"United States"
+		"DOTA_HoF_China"					"China"
 		
 		"DOTA_HoF_ArtStyle"					"Ivan Antonov"
 		"DOTA_HoF_Puppey"					"Clement Ivanov"
@@ -15751,6 +15769,13 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 		"DOTA_HoF_UNiVeRsE"					"Saahil Arora"
 		"DOTA_HoF_Aui_2000"					"Kurtis Ling"
 		"DOTA_HoF_ppd"						"Peter Dager"
+
+		"TI6_Winner"						"Wings Gaming"
+		"DOTA_HoF_shadow"					"Chu Zeyu"
+		"DOTA_HoF_blink"					"Zhou Yang"
+		"DOTA_HoF_faith_bian"				"Zhang Ruida"
+		"DOTA_HoF_y"						"Zhang Yiping"
+		"DOTA_HoF_iceice"					"Li Peng"
 
 		"DOTA_ARDM_Loading"					"Loading Heroes"
 		"DOTA_ARDM_Loading_Text"			"Please wait, preloading ARDM hero data..."
@@ -16725,6 +16750,18 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 		"DOTA_Announcer_Preview_Crystal_Maiden_Killing_Spree_02"	"Unstoppable!"
 		"DOTA_Announcer_Preview_Crystal_Maiden_Killing_Spree_03"	"Wicked sickle!"
 		"DOTA_Announcer_Preview_Crystal_Maiden_Killing_Spree_04"	"Holy Sh-ice-r!"
+		
+		"DOTA_Announcer_Preview_Deus_Ex_01"	"Become a Dota Announcer, they said. 'It'll be fun, Adam!'"
+		"DOTA_Announcer_Preview_Deus_Ex_02"	"Done your warm-up stretches, boss?"
+		"DOTA_Announcer_Preview_Deus_Ex_03"	"Bad call by the Dire in bot. Their tower's gone."
+		"DOTA_Announcer_Preview_Deus_Ex_04"	"The Dire have killed Roshan. Again. Guy can't take a hint."
+		"DOTA_Announcer_Preview_Deus_Ex_05"	"Radiant's courier is down, boss."
+		"DOTA_Announcer_Preview_Deus_Ex_06"	"And *that's* how you win Dota!"
+			
+		"DOTA_Announcer_Preview_Deus_Ex_Killing_Spree_01"	"Dominating."
+		"DOTA_Announcer_Preview_Deus_Ex_Killing_Spree_02"	"They won't like that."
+		"DOTA_Announcer_Preview_Deus_Ex_Killing_Spree_03"	"I think that's everyone."
+		"DOTA_Announcer_Preview_Deus_Ex_Killing_Spree_04"	"Protip: Don't bother with buyback."
 		
 		"DOTA_Announcer_Preview_Spectre_Voice_Default_01"	"What is this place?"
 		"DOTA_Announcer_Preview_Spectre_Voice_Default_02"	"First blood!"
@@ -20672,6 +20709,14 @@ Special Techies Taunt"
 		"DOTA_TrophyUnits_MVP_Singular"			"%s1 MVP Award"
 		"DOTA_TrophyUnits_MVP_Plural"			"%s1 MVP Awards"
 
+		"DOTA_TrophyName_TI6SeasonalMMR_Solo"			"International 2016 Peak Solo Rank"
+		"DOTA_TrophyDesc_TI6SeasonalMMR_Solo"			"Commemorates the Peak Solo Rank achieved in International 2016 Ranked matchmaking."
+		"DOTA_TrophyUnits_TI6SeasonalMMR_Solo"			"Peak Solo Rank: %s1"
+
+		"DOTA_TrophyName_TI6SeasonalMMR_Party"			"International 2016 Peak Party Rank"
+		"DOTA_TrophyDesc_TI6SeasonalMMR_Party"			"Commemorates the Peak Party Rank achieved in International 2016 Ranked matchmaking."
+		"DOTA_TrophyUnits_TI6SeasonalMMR_Party"			"Peak Party Rank: %s1"
+
 		"DOTA_AllHeroChallenge_ProfileHead"				"All-Hero Challenge\nProgress"
 		"DOTA_AllHeroChallenge_ProfileButton"			"View Details"	
 
@@ -22880,6 +22925,13 @@ Special Techies Taunt"
 		"FrontPage_Spring_2016_Collectors_Cache_Title"				"Collector's Cache 2016"
 		"FrontPage_Spring_2016_Collectors_Cache_Description"		"Available exclusively to Battle Pass owners. Contains item sets for heroes previously unrepresented."
 
+		"FrontPage_WarhammerTreasure_Header"			"Treasure"
+		"FrontPage_WarhammerTreasure_Title"				"Warhammer: Treasure of the Old World"
+		"FrontPage_WarhammerTreasure_Description"		"Community created sets themed to the Warhammer universe."
+		
+		"FrontPage_CrumblingIsland_Header"				"Custom Game Pass"
+		"FrontPage_CrumblingIsland_Title"				"Crumbling Island Arena"
+		"FrontPage_CrumblingIsland_Description"			"Purchase a pass to unlock leaderboards, character progression, cosmetics and more"
 
 		"DOTA_Custom_Game_Of_The_Day"			"Game of the Day"
 
@@ -22969,6 +23021,7 @@ Special Techies Taunt"
 		"DOTA_PlayTourneyStatus_Open"				"{s:weekendtourney_duration_until_window_close} remaining to join<br/>{s:weekend_tourney_selected_division_name} Division Battle Cup"
 		"DOTA_PlayTourneyStatus_OpenRateLimited"	"{s:weekend_tourney_selected_division_name} Division Battle Cup is now Open. Your party will be eligible to find an opponent in {s:weekendtourney_duration_until_rate_limit_close}"
 		"DOTA_PlayTourneyStatus_TooLate"			"Registration for {s:weekend_tourney_selected_division_name} Division Battle Cup - ended {t:s:t:m:weekendtourney_time_window_close}."
+		"DOTA_PlayTourneyStatus_Offseason"			"The Battle Cup is in offseason."
 		"DOTA_PlayTourneyStatus_NoTournamentScheduled"	"No {s:weekend_tourney_selected_division_name} Division<br/>Battle Cup is currently scheduled."
 		"DOTA_PlayTourneyStatus_QueueDeadlineTimeRemaining"	"{s:weekendtourney_queue_deadline_remaining} remaining to enter matchmaking"
 		"DOTA_PlayTourneyStatus_QueueDeadlineMissed"	"You missed a matchmaking deadline.  If an opponent cannot be found, you will forfeit your entry fee."
@@ -23118,7 +23171,10 @@ Special Techies Taunt"
 		"WeekendTourney_PickupTeamLogoPopupTitle"	"Pickup Team Logo"
 		"WeekendTourney_TeamMemberNotEligible"		"Team member not eligible.  Level {d:required_badge_level_weekend_tourney} is required."
 		"WeekendTourney_LocalPlayerNotEligible"		"You must be level {d:required_badge_level_weekend_tourney} to play in the Battle Cup."
+		"WeekendTourney_TeamMemberPlayedTooRecently"	"Team member has already played in the Battle Cup this weekend."
+		"WeekendTourney_LocalPlayerPlayedTooRecently"	"You've already played in the Battle Cup this weekend."
 		"WeekendTourney_NoBuyInRequiredBeta"		"During the beta, no tickets are required.  Availability is limited, so get your team ready to join as soon as the tournament starts!"
+		"WeekendTourney_NoBuyInOffSeason"			"Battle Cup tickets are not available for purchase during the offseason."
 		"WeekendTourney_JoinDivisionDisabledTooltipNoTicket"		"To keep this chat channel useful, only players who currently own a ticket may join."
 		"Please_Wait"								"Please Wait"
 		"WeekendTourney_PickupTeamLogoUploadError"	"Failed to upload logo"
@@ -23212,7 +23268,8 @@ Special Techies Taunt"
 		"dota_popup_battle_cup_winners_tier"							"Tier {d:BattleCupSkillLevel}"
 		"dota_popup_battle_cup_winners_win_date"						"{t:s:BattleCupDate}"
 
-		"dota_chat_is_muted"	"Chat is Muted"
+		"dota_chat_is_muted"											"Chat is Muted"
+		"dota_chat_is_muted_newplayer"									"Chat is Muted for new players for 20 games"
 	}
 }
 

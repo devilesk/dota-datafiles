@@ -236,6 +236,7 @@ npc_dota_hero_abyssal_underlord:
     AbilityModifierSupportBonus: 0
     AbilityModifierSupportValue: 1
     ID: 5613
+    SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     abilitytype: DOTA_ABILITY_TYPE_BASIC
     abilityunitdamagetype: DAMAGE_TYPE_MAGICAL
     attributes:
@@ -281,6 +282,7 @@ npc_dota_hero_abyssal_underlord:
     AbilityModifierSupportBonus: 0
     AbilityModifierSupportValue: 1
     ID: 5614
+    SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     abilitytype: DOTA_ABILITY_TYPE_BASIC
     abilityunitdamagetype: DAMAGE_TYPE_MAGICAL
     attributes:
@@ -1112,7 +1114,7 @@ npc_dota_hero_arc_warden:
       value: [0.5]
     - name: move_speed_slow_pct
       tooltip: '%MOVEMENT SPEED SLOW:'
-      value: [35, 40, 45, 50]
+      value: [20, 30, 40, 50]
     - name: cast_range_tooltip
       tooltip: 'CAST RANGE:'
       value: [600, 700, 800, 900]
@@ -7001,8 +7003,8 @@ npc_dota_hero_faceless_void:
   - *id001
   abilitylayout: 4
   armorphysical: 1
-  attackdamagemax: 43
-  attackdamagemin: 37
+  attackdamagemax: 39
+  attackdamagemin: 33
   attackpoint: 0.5
   attackrange: 150
   attackrate: 1.7
@@ -16764,7 +16766,7 @@ npc_dota_hero_shadow_demon:
       tooltip: '%ILLUSION DAMAGE TAKEN:'
       value: [200.0]
     behavior: [DOTA_ABILITY_BEHAVIOR_UNIT_TARGET, DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK]
-    cooldown: [25, 22, 19, 16]
+    cooldown: [27, 24, 21, 18]
     damage: [0, 0, 0, 0]
     description: Banishes the targeted unit from the battlefield for a short duration.  Upon
       returning, two illusions of the banished unit are created under Shadow Demon's
