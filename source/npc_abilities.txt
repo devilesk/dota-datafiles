@@ -1163,7 +1163,7 @@
 		"AbilityCooldown"				"60.0 60.0 60.0 60.0"
 		"AbilityDuration"				"25.0 25.0 25.0 25.0"
 	
-		"AbilityManaCost"				"120 125 130 135"
+		"AbilityManaCost"				"140"
 
 		"AbilitySpecial"
 		{
@@ -1259,7 +1259,7 @@
 		"AbilityCastRange"				"1500"
 		"AbilityCastPoint"				"0.4"
 		
-		"AbilityCooldown"				"10"
+		"AbilityCooldown"				"16 14 12 10"
 
 		"AbilityDamage"					"75 150 225 300"
 	
@@ -1404,7 +1404,7 @@
 		"AbilityCastRange"				"1000"
 		"AbilityCastPoint"				"0.3"
 		
-		"AbilityCooldown"				"60.0 50.0 40.0"
+		"AbilityCooldown"				"60 50 40"
 
 		"AbilityDamage"					"400 500 600"
 	
@@ -1456,6 +1456,11 @@
 			{
 				"var_type"					"FIELD_INTEGER"
 				"ghostship_width_scepter"	"200"
+			}
+			"10"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"ghostship_absorb"			"40 45 50"
 			}
 		}
 	}
@@ -1975,7 +1980,7 @@
 			"03"
 			{
 				"var_type"			"FIELD_FLOAT"
-				"interval_scepter"	"9.0"
+				"interval_scepter"	"10.0"
 			}
 		}
 	}
@@ -2224,7 +2229,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		
 		"AbilityManaCost"				"150 150 150"
-		"AbilityCastPoint"				"0.25"
+		"AbilityCastPoint"				"0.35"
 	}
 
 	"morphling_hybrid"
@@ -6152,7 +6157,7 @@
 			"03"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"movement_speed_reduction"	"19 21 23 25"
+				"movement_speed_reduction"	"13 17 21 25"
 			}
 			"04"
 			{
@@ -7112,7 +7117,7 @@
 			"04"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"golem_hp_tooltip"			"900 1200 1500"
+				"golem_hp_tooltip"			"1000 1500 2000"
 			}
 			"05"
 			{
@@ -7137,7 +7142,7 @@
 			"09"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"golem_hp_tooltip_scepter"			"675 900 1125"
+				"golem_hp_tooltip_scepter"	"750 1125 1500"
 			}
 			"10"
 			{
@@ -8206,8 +8211,9 @@
 		{
 			"01"
 			{
-				"var_type"					"FIELD_INTEGER"
-				"health_drain"				"150 200 250"
+				"var_type"						"FIELD_INTEGER"
+				"health_drain"					"150 200 250"
+				"CalculateSpellDamageTooltip"	"1"
 			}
 			"02"
 			{
@@ -8223,6 +8229,7 @@
 			{
 				"var_type"					"FIELD_INTEGER"
 				"health_drain_scepter"		"180 240 300"
+				"CalculateSpellDamageTooltip"	"1"
 			}
 			"05"
 			{
@@ -8246,7 +8253,7 @@
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"	
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
 
-		"AbilityCastRange"				"825 950 1075 1200"
+		"AbilityCastRange"				"525 750 975 1200"
 		"AbilityCastPoint"				"0.3 0.3 0.3 0.3"
 		
 		"AbilityCooldown"				"6"
@@ -10050,6 +10057,7 @@
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
 		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
 		"MaxLevel"						"1"
 		"FightRecapLevel"				"1"
 		"IsGrantedByScepter"			"1"
@@ -10088,6 +10096,7 @@
 	{
 		"ID"					"5675"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
 		"FightRecapLevel"				"1"
 		"MaxLevel"						"1"
 		
@@ -10312,6 +10321,7 @@
 			{
 				"var_type"				"FIELD_INTEGER"
 				"tooltip_replica_total_damage_incoming"	"400 400 400"
+				"CalculateSpellDamageTooltip"	"0"
 			}				
 			"07"
 			{
@@ -10471,10 +10481,10 @@
 		"SpellImmunityType"				"SPELL_IMMUNITY_ALLIES_NO"
 		"FightRecapLevel"				"1"
 
-		"AbilityCastRange"				"700"
-		"AbilityCastPoint"				"0.25"
+		"AbilityCastRange"				"575"
+		"AbilityCastPoint"				"0.2"
 		
-		"AbilityCooldown"				"10.0"
+		"AbilityCooldown"				"9"
 		
 		"AbilityManaCost"				"100 120 140 160"
 		
@@ -10505,7 +10515,7 @@
 		"AbilityCastRange"				"500"
 		"AbilityCastPoint"				"0.35"
 		
-		"AbilityCooldown"				"14"
+		"AbilityCooldown"				"20 18 16 14"
 		
 		"AbilityManaCost"				"50 50 50 50"
 
@@ -10517,7 +10527,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"duration"				"4 6 8 10"
+				"duration"				"5 6 7 8"
 			}
 		}
 	}
@@ -10885,6 +10895,7 @@
 			{
 				"var_type"							"FIELD_INTEGER"
 				"tooltip_health_cost_percent"		"35"
+				"CalculateSpellDamageTooltip"		"1"
 			}
 			"07"
 			{
@@ -11394,7 +11405,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_move_speed_pct"	"20 20 20"
+				"bonus_move_speed_pct"	"16 18 20"
 			}
 			"03"
 			{
@@ -11670,6 +11681,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
 		"FightRecapLevel"				"1"
 
@@ -11825,6 +11837,7 @@
 		"ID"					"5320"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
 		
 		"AbilityCastRange"				"700"
 		"AbilityCastPoint"				"0.2 0.2 0.2 0.2"
@@ -11842,6 +11855,7 @@
 			{
 				"var_type"				"FIELD_INTEGER"
 				"damage"				"10 15 20 25"
+				"CalculateSpellDamageTooltip"		"1"
 			}
 			"02"
 			{
@@ -11898,12 +11912,13 @@
 			"02"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"damage_duration"		"3 4 5 6"
+				"damage_duration"		"4 5 6 7"
+				"CalculateSpellDamageTooltip"	"0"
 			}			
 			"03"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"damage_total_tooltip"		"75 120 175 240"
+				"damage_total_tooltip"		"100 150 210 280"
 			}
 			"04"
 			{
@@ -14006,6 +14021,7 @@
 			{
 				"var_type"				"FIELD_FLOAT"
 				"damage_interval"		"0.5"
+				"CalculateSpellDamageTooltip"	"0"
 			}
 			"06"
 			{
@@ -14033,6 +14049,7 @@
 				"var_type"				"FIELD_FLOAT"
 				"burn_dps"				"11.5 15 18.5 22 25.5 29 32.5 36"
 				"levelkey"				"exortlevel"
+				"CalculateSpellDamageTooltip"	"1"
 			}
 		}
 	}
@@ -15610,7 +15627,7 @@
 		"AbilityCastRange"				"1500"
 		"AbilityCastPoint"				"0.3 0.3 0.3 0.3"
 
-		"AbilityManaCost"				"40"
+		"AbilityManaCost"				"55"
 
 		"AbilityDamage"					"26 34 42 50"
 
@@ -15949,6 +15966,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
 		"FightRecapLevel"				"1"
 		
@@ -15976,6 +15994,7 @@
 		"ID"							"5432"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
 		
 		"AbilityDamage"					"10 20 30 40"
 
@@ -16230,6 +16249,7 @@
 		"ID"							"5649"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_TREE"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
 		"MaxLevel"						"1"
 		"FightRecapLevel"				"1"
 		"IsGrantedByScepter"			"1"
@@ -16914,16 +16934,19 @@
 			{
 				"var_type"					"FIELD_INTEGER"
 				"jump_damage_reduction_pct"	"4 4 4 4"
+				"CalculateSpellDamageTooltip"	"0"
 			}
 			"03"
 			{
 				"var_type"						"FIELD_INTEGER"
 				"hero_attack_damage_reduction"	"20 25 30 35"
+				"CalculateSpellDamageTooltip"	"0"
 			}
 			"04"
 			{
 				"var_type"						"FIELD_INTEGER"
 				"creep_attack_damage_reduction"	"10 13 15 17"
+				"CalculateSpellDamageTooltip"	"0"
 			}			
 			"05"
 			{
@@ -17404,7 +17427,7 @@
 
 		"HasScepterUpgrade"			"1"
 
-		"AbilityCastPoint"				"1.0"
+		"AbilityCastPoint"				"1.5"
 		
 		"AbilitySpecial"
 		{
@@ -17426,29 +17449,24 @@
 			"04"
 			{
 				"var_type"						"FIELD_INTEGER"
-				"burrow_delay"			"1"
-			}
-			"05"
-			{
-				"var_type"						"FIELD_INTEGER"
 				"impale_burn_range_increase_pct_tooltip"			"75"
 			}			
-			"06"
+			"05"
 			{
 				"var_type"						"FIELD_INTEGER"
 				"mana_burn_burrow_range_tooltip"			"1050"
 			}
-			"07"
+			"06"
 			{
 				"var_type"						"FIELD_INTEGER"
 				"impale_burrow_range_tooltip"			"1225"
 			}
-			"08"
+			"07"
 			{
 				"var_type"						"FIELD_INTEGER"
 				"impale_burrow_cooldown_tooltip"			"7"
 			}
-			"09"
+			"08"
 			{
 				"var_type"						"FIELD_INTEGER"
 				"carapace_burrow_range_tooltip"			"300"
@@ -17971,7 +17989,7 @@
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"radius"				"350 350 350 350"
+				"radius"				"375"
 			}
 			"04"
 			{
@@ -17996,7 +18014,7 @@
 			"08"
 			{	
 				"var_type"				"FIELD_INTEGER"
-				"channel_vision_radius"	"350"
+				"channel_vision_radius"	"375"
 			}
 			"09"
 			{	
@@ -19203,6 +19221,7 @@
 			{
 				"var_type"					"FIELD_INTEGER"
 				"strength_pct"				"30 45 60 75"
+				"CalculateSpellDamageTooltip"		"1"
 			}
 		}
 	}
@@ -19213,6 +19232,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
 		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"AbilityUnitDamageType"				"DAMAGE_TYPE_MAGICAL"
 		"FightRecapLevel"				"2"
 
 		"HasScepterUpgrade"			"1"
@@ -19239,6 +19259,7 @@
 			{
 				"var_type"			"FIELD_FLOAT"
 				"strength_damage"	"1.0 2.0 3.0"
+				"CalculateSpellDamageTooltip"	"1"
 			}
 			"04"
 			{
@@ -20193,6 +20214,7 @@
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
 		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
 		"MaxLevel"						"1"
 		"FightRecapLevel"				"1"
@@ -20284,6 +20306,7 @@
 			{
 				"var_type"				"FIELD_FLOAT"
 				"int_multiplier"		"1.6"
+				"CalculateSpellDamageTooltip"	"1"
 			}
 			"05"
 			{
@@ -20759,11 +20782,13 @@
 			{
 				"var_type"						"FIELD_INTEGER"
 				"damage_creeps"					"6 9 12 15"
+				"CalculateSpellDamageTooltip"				"0"
 			}
 			"09"
 			{
 				"var_type"						"FIELD_INTEGER"
 				"damage_heroes"					"10 20 30 40"
+				"CalculateSpellDamageTooltip"				"0"
 			}	
 			"10"
 			{
@@ -20938,6 +20963,7 @@
 			{
 				"var_type"				"FIELD_INTEGER"
 				"illusion_dmg_pct"		"25"
+				"CalculateSpellDamageTooltip"	"1"
 			}
 			"05"
 			{
@@ -21703,6 +21729,7 @@
 			{
 				"var_type"						"FIELD_FLOAT"
 				"burn_damage"					"0.75 1.5 2.25 3"
+				"CalculateSpellDamageTooltip"			"0"
 			}
 			"07"
 			{
@@ -21786,7 +21813,7 @@
 			"02"
 			{
 				"var_type"						"FIELD_INTEGER"
-				"damage_reduction_pct"			"18 26 34 42"
+				"damage_reduction_pct"			"10 20 30 40"
 			}
 			"03"
 			{
@@ -22491,7 +22518,7 @@
 		
 		"AbilityCooldown"				"2.25"
 
-		"AbilityManaCost"				"50 60 70 80"
+		"AbilityManaCost"				"80 85 90 95"
 
 		"AbilitySpecial"
 		{

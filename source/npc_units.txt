@@ -10464,6 +10464,8 @@
 		"ProjectileModel"			""			// Particle system model for projectile.
 		"ProjectileSpeed"			"0"			// Speed of projectile.		   
 
+		"HealthBarOffset"			"220"
+
 		"BountyXP"					"20"		// Experience earn.
 		"BountyGoldMin"				"20"		// Gold earned min.
 		"BountyGoldMax"				"30"		// Gold earned max.

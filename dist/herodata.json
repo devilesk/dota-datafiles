@@ -711,10 +711,10 @@
       "name": "damage_reduction_pct", 
       "tooltip": "%DAMAGE REDUCTION:", 
       "value": [
-       18, 
-       26, 
-       34, 
-       42
+       10, 
+       20, 
+       30, 
+       40
       ]
      }, 
      {
@@ -2981,7 +2981,7 @@
   "items": [], 
   "level": 0, 
   "magicalresistance": 25, 
-  "movementspeed": 295, 
+  "movementspeed": 285, 
   "movementturnrate": 0.4, 
   "name": "npc_dota_hero_arc_warden", 
   "projectilespeed": 900, 
@@ -3958,6 +3958,7 @@
     "ID": 5320, 
     "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO", 
     "abilitytype": "DOTA_ABILITY_TYPE_BASIC", 
+    "abilityunitdamagetype": "DAMAGE_TYPE_MAGICAL", 
     "attributes": [
      {
       "name": "damage", 
@@ -4090,20 +4091,20 @@
       "name": "damage_duration", 
       "tooltip": "BURN DURATION:", 
       "value": [
-       3, 
        4, 
        5, 
-       6
+       6, 
+       7
       ]
      }, 
      {
       "name": "damage_total_tooltip", 
       "tooltip": "TOTAL DAMAGE:", 
       "value": [
-       75, 
-       120, 
-       175, 
-       240
+       100, 
+       150, 
+       210, 
+       280
       ]
      }, 
      {
@@ -5859,8 +5860,8 @@
       "name": "bonus_move_speed_pct", 
       "tooltip": "%BONUS SPEED:", 
       "value": [
-       20, 
-       20, 
+       16, 
+       18, 
        20
       ]
      }, 
@@ -7737,6 +7738,7 @@
     "ID": 5517, 
     "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO", 
     "abilitytype": "DOTA_ABILITY_TYPE_ULTIMATE", 
+    "abilityunitdamagetype": "DAMAGE_TYPE_MAGICAL", 
     "attributes": [
      {
       "name": "duration", 
@@ -12035,8 +12037,8 @@
      0, 
      0
     ], 
-    "description": "", 
-    "displayname": "Empty", 
+    "description": "This slot will be replaced with abilities acquired using Devour.", 
+    "displayname": "Devoured Ability", 
     "level": 0, 
     "manacost": [
      0, 
@@ -12088,8 +12090,8 @@
      0, 
      0
     ], 
-    "description": "", 
-    "displayname": "Empty", 
+    "description": "This slot will be replaced with abilities acquired using Devour.", 
+    "displayname": "Devoured Ability", 
     "level": 0, 
     "manacost": [
      0, 
@@ -13182,7 +13184,7 @@
   "attributebasestrength": 17, 
   "attributeintelligencegain": 1.4, 
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY", 
-  "attributestrengthgain": 1.9, 
+  "attributestrengthgain": 1.6, 
   "bio": "Drow Ranger's given name is Traxex--a name well suited to the short, trollish, rather repulsive Drow people. But Traxex herself is not a Drow. Her parents were travelers in a caravan set upon by bandits, whose noisy slaughter of innocents roused the ire of the quiet Drow people. After the battle settled, the Drow discovered a small girl-child hiding in the ruined wagons, and agreed she could not be abandoned. Even as child, Traxex showed herself naturally adept at the arts they prized: Stealth, silence, subtlety. In spirit, if not in physique, she might have been a Drow changeling, returned to her proper home. But as she grew, she towered above her family and came to think of herself as ugly. After all,  her features were smooth and symmetrical, entirely devoid of warts and coarse whiskers. Estranged from her adopted tribe, she withdrew to live alone in the woods. Lost travelers who find their way from the forest sometimes speak of an impossibly beautiful Ranger who peered at them from deep among the trees, then vanished like a dream before they could approach. Lithe and stealthy, icy hot, she moves like mist in silence. That whispering you hear is her frozen arrows finding an enemy's heart. ", 
   "displayname": "Drow Ranger", 
   "items": [], 
@@ -16780,7 +16782,7 @@
    }
   ], 
   "abilitylayout": 4, 
-  "armorphysical": 1, 
+  "armorphysical": 0, 
   "attackdamagemax": 39, 
   "attackdamagemin": 33, 
   "attackpoint": 0.5, 
@@ -18533,8 +18535,8 @@
      0, 
      0
     ], 
-    "description": "", 
-    "displayname": "Empty", 
+    "description": "Casting Invoke will replace this slot with one of ten unique spells based on Invoker's currently active <font color='#7998b5'>Quas</font>, <font color='#d671a9'>Wex</font>, and <font color='#cabe68'>Exort</font> buffs.", 
+    "displayname": "Invoked Spell", 
     "level": 0, 
     "manacost": [
      0, 
@@ -18586,8 +18588,8 @@
      0, 
      0
     ], 
-    "description": "", 
-    "displayname": "Empty", 
+    "description": "Casting Invoke will replace this slot with one of ten unique spells based on Invoker's currently active <font color='#7998b5'>Quas</font>, <font color='#d671a9'>Wex</font>, and <font color='#cabe68'>Exort</font> buffs.", 
+    "displayname": "Invoked Spell", 
     "level": 0, 
     "manacost": [
      0, 
@@ -19971,6 +19973,7 @@
     "ID": 5298, 
     "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO", 
     "abilitytype": "DOTA_ABILITY_TYPE_BASIC", 
+    "abilityunitdamagetype": "DAMAGE_TYPE_MAGICAL", 
     "attributes": [
      {
       "name": "path_delay", 
@@ -20485,10 +20488,7 @@
     "level": 0, 
     "lore": "Of the rituals learned at the Isle of Masks, tending wounds with a bit of voodoo magic has proven to be quite useful.", 
     "manacost": [
-     120, 
-     125, 
-     130, 
-     135
+     140
     ], 
     "name": "juggernaut_healing_ward"
    }, 
@@ -21422,10 +21422,7 @@
       "name": "radius", 
       "tooltip": "WIDTH:", 
       "value": [
-       350, 
-       350, 
-       350, 
-       350
+       375
       ]
      }, 
      {
@@ -21462,7 +21459,7 @@
      {
       "name": "channel_vision_radius", 
       "value": [
-       350
+       375
       ]
      }, 
      {
@@ -21737,6 +21734,9 @@
      "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
     ], 
     "cooldown": [
+     16, 
+     14, 
+     12, 
      10
     ], 
     "damage": [
@@ -22025,6 +22025,15 @@
       "value": [
        200
       ]
+     }, 
+     {
+      "name": "ghostship_absorb", 
+      "tooltip": "%DAMAGE DELAYED:", 
+      "value": [
+       40, 
+       45, 
+       50
+      ]
      }
     ], 
     "behavior": [
@@ -22042,7 +22051,7 @@
      500, 
      600
     ], 
-    "description": "Summons a ghostly ship that sails through the battle before smashing apart, damaging and stunning all enemies caught near the wreckage. Allied heroes touched by the Ghostship are given a swig of The Admiral's Rum, receiving bonus movement speed and a delayed reaction to 50%% of all incoming damage.\\n\\nUpgradeable by Aghanim's Scepter.", 
+    "description": "Summons a ghostly ship that sails through the battle before smashing apart, damaging and stunning all enemies caught near the wreckage. Allied heroes touched by the Ghostship are given a swig of The Admiral's Rum, receiving bonus movement speed and a delayed reaction to incoming damage.\\n\\nUpgradeable by Aghanim's Scepter.", 
     "displayname": "Ghostship", 
     "level": 0, 
     "lore": "The final ship of the Claddish Navy is nothing but a phantom, but it is all too real to the enemies of the Admiral.", 
@@ -23838,6 +23847,7 @@
     "AbilityModifierSupportValue": 1, 
     "ID": 5671, 
     "abilitytype": "DOTA_ABILITY_TYPE_BASIC", 
+    "abilityunitdamagetype": "DAMAGE_TYPE_MAGICAL", 
     "attributes": [
      {
       "name": "damage", 
@@ -23909,6 +23919,7 @@
     "AbilityModifierSupportValue": 1, 
     "ID": 5675, 
     "abilitytype": "DOTA_ABILITY_TYPE_BASIC", 
+    "abilityunitdamagetype": "DAMAGE_TYPE_MAGICAL", 
     "attributes": [
      {
       "name": "damage_tooltip", 
@@ -27717,6 +27728,7 @@
     "ID": 5431, 
     "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO", 
     "abilitytype": "DOTA_ABILITY_TYPE_BASIC", 
+    "abilityunitdamagetype": "DAMAGE_TYPE_MAGICAL", 
     "attributes": [
      {
       "name": "radius", 
@@ -27775,6 +27787,7 @@
     "ID": 5432, 
     "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES", 
     "abilitytype": "DOTA_ABILITY_TYPE_BASIC", 
+    "abilityunitdamagetype": "DAMAGE_TYPE_MAGICAL", 
     "attributes": [
      {
       "name": "slow", 
@@ -28052,7 +28065,7 @@
       "name": "interval_scepter", 
       "tooltip": "SCEPTER INTERVAL:", 
       "value": [
-       9.0
+       10.0
       ]
      }
     ], 
@@ -29090,7 +29103,7 @@
     "name": "morphling_morph"
    }, 
    {
-    "AbilityCastPoint": 0.25, 
+    "AbilityCastPoint": 0.35, 
     "AbilityCastRange": 0, 
     "AbilityCastRangeBuffer": 250, 
     "AbilityChannelTime": [
@@ -29201,8 +29214,8 @@
   ], 
   "abilitylayout": 5, 
   "armorphysical": -2, 
-  "attackdamagemax": 22, 
-  "attackdamagemin": 13, 
+  "attackdamagemax": 18, 
+  "attackdamagemin": 9, 
   "attackpoint": 0.5, 
   "attackrange": 350, 
   "attackrate": 1.6, 
@@ -31501,7 +31514,7 @@
     "name": "nyx_assassin_spiked_carapace"
    }, 
    {
-    "AbilityCastPoint": 1, 
+    "AbilityCastPoint": 1.5, 
     "AbilityCastRange": 0, 
     "AbilityCastRangeBuffer": 250, 
     "AbilityChannelTime": [
@@ -31539,12 +31552,6 @@
       "tooltip": "%BURROW DAMAGE REDUCTION:", 
       "value": [
        40
-      ]
-     }, 
-     {
-      "name": "burrow_delay", 
-      "value": [
-       1
       ]
      }, 
      {
@@ -32300,8 +32307,8 @@
   ], 
   "abilitylayout": 4, 
   "armorphysical": 0.5, 
-  "attackdamagemax": 35, 
-  "attackdamagemin": 20, 
+  "attackdamagemax": 29, 
+  "attackdamagemin": 14, 
   "attackpoint": 0.46, 
   "attackrange": 450, 
   "attackrate": 1.7, 
@@ -32880,8 +32887,8 @@
   "HeroID": 57, 
   "abilities": [
    {
-    "AbilityCastPoint": 0.25, 
-    "AbilityCastRange": 700, 
+    "AbilityCastPoint": 0.2, 
+    "AbilityCastRange": 575, 
     "AbilityCastRangeBuffer": 250, 
     "AbilityChannelTime": [
      0, 
@@ -32925,7 +32932,7 @@
      "DOTA_ABILITY_BEHAVIOR_AOE"
     ], 
     "cooldown": [
-     10
+     9
     ], 
     "damage": [
      0, 
@@ -32971,10 +32978,10 @@
       "name": "duration", 
       "tooltip": "DURATION:", 
       "value": [
-       4, 
+       5, 
        6, 
-       8, 
-       10
+       7, 
+       8
       ]
      }
     ], 
@@ -32982,6 +32989,9 @@
      "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
     ], 
     "cooldown": [
+     20, 
+     18, 
+     16, 
      14
     ], 
     "damage": [
@@ -33515,10 +33525,10 @@
     "level": 0, 
     "lore": "Like a hall of mirrors might amplify the light of a single candle, the shattered walls of the universe can transform the light of prophecy into a burning torch.", 
     "manacost": [
-     50, 
-     60, 
-     70, 
-     80
+     80, 
+     85, 
+     90, 
+     95
     ], 
     "name": "oracle_purifying_flames"
    }, 
@@ -33689,9 +33699,9 @@
      0.3
     ], 
     "AbilityCastRange": [
-     825, 
-     950, 
-     1075, 
+     525, 
+     750, 
+     975, 
      1200
     ], 
     "AbilityCastRangeBuffer": 250, 
@@ -38530,9 +38540,9 @@
       "name": "movement_speed_reduction", 
       "tooltip": "%MOVEMENT SLOW:", 
       "value": [
-       19, 
+       13, 
+       17, 
        21, 
-       23, 
        25
       ]
      }, 
@@ -39321,8 +39331,8 @@
      0, 
      0
     ], 
-    "description": "", 
-    "displayname": "", 
+    "description": "Spells acquired with Spell Steal will replace this slot.", 
+    "displayname": "Stolen Spell", 
     "level": 0, 
     "manacost": [
      0, 
@@ -39374,8 +39384,8 @@
      0, 
      0
     ], 
-    "description": "", 
-    "displayname": "", 
+    "description": "Spells acquired with Spell Steal will replace this slot.", 
+    "displayname": "Stolen Spell", 
     "level": 0, 
     "manacost": [
      0, 
@@ -40368,7 +40378,7 @@
     "level": 0, 
     "lore": "The ever growing influence of the Shadow Demon can pollute the most valiant and pure of heroes.", 
     "manacost": [
-     40
+     55
     ], 
     "name": "shadow_demon_shadow_poison"
    }, 
@@ -49857,6 +49867,7 @@
     "AbilityModifierSupportValue": 1, 
     "ID": 5649, 
     "abilitytype": "DOTA_ABILITY_TYPE_BASIC", 
+    "abilityunitdamagetype": "DAMAGE_TYPE_MAGICAL", 
     "attributes": [
      {
       "name": "vision_aoe", 
@@ -51058,6 +51069,7 @@
     "ID": 5672, 
     "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES", 
     "abilitytype": "DOTA_ABILITY_TYPE_BASIC", 
+    "abilityunitdamagetype": "DAMAGE_TYPE_MAGICAL", 
     "attributes": [
      {
       "name": "crit_multiplier", 
@@ -54518,9 +54530,9 @@
       "name": "golem_hp_tooltip", 
       "tooltip": "GOLEM HEALTH:", 
       "value": [
-       900, 
-       1200, 
-       1500
+       1000, 
+       1500, 
+       2000
       ]
      }, 
      {
@@ -54561,9 +54573,9 @@
       "name": "golem_hp_tooltip_scepter", 
       "tooltip": "SCEPTER GOLEM HEALTH:", 
       "value": [
-       675, 
-       900, 
-       1125
+       750, 
+       1125, 
+       1500
       ]
      }, 
      {
@@ -56660,8 +56672,8 @@
      0, 
      0
     ], 
-    "description": "", 
-    "displayname": "Empty", 
+    "description": "Calls the spirits closer to you. Can be toggled on and off. Only available while Spirits is active.", 
+    "displayname": "Spirits In", 
     "level": 0, 
     "manacost": [
      0, 
@@ -56713,8 +56725,8 @@
      0, 
      0
     ], 
-    "description": "", 
-    "displayname": "Empty", 
+    "description": "Sends the spirits farther away from you. Can be toggled on and off. Only available while Spirits is active.", 
+    "displayname": "Spirits Out", 
     "level": 0, 
     "manacost": [
      0, 
