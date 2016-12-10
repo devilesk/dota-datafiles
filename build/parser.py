@@ -258,6 +258,7 @@ def process(src_dir, subset_dir, yaml_dir):
     if 'Ability11' in hero_data_subset['npc_dota_hero_rubick'] and hero_data_subset['npc_dota_hero_rubick']['Ability11'] == 'rubick_hidden3':
         del hero_data_subset['npc_dota_hero_rubick']['Ability11']
                 
+    abilitytooltip_data = {}
     for a in ability_data_subset:
         ability_data_subset[a]['name'] = a
         ability_data_subset[a]['level'] = 0
@@ -265,10 +266,12 @@ def process(src_dir, subset_dir, yaml_dir):
             ability_data_subset[a]['attributes'] = []
         if a in tooltip_data_subset and 'DisplayName' in tooltip_data_subset[a]:
             ability_data_subset[a]['displayname'] = tooltip_data_subset[a]['DisplayName']
+            
+        abilitytooltip_data[a] = {}
         if a in tooltip_data_subset and 'Description' in tooltip_data_subset[a]:
-            ability_data_subset[a]['description'] = tooltip_data_subset[a]['Description']
+            abilitytooltip_data[a]['description'] = tooltip_data_subset[a]['Description']
         if a in tooltip_data_subset and 'Lore' in tooltip_data_subset[a]:
-            ability_data_subset[a]['lore'] = tooltip_data_subset[a]['Lore']
+            abilitytooltip_data[a]['lore'] = tooltip_data_subset[a]['Lore']
 
     for a in item_data_subset:
         item_data_subset[a]['name'] = a
@@ -289,7 +292,8 @@ def process(src_dir, subset_dir, yaml_dir):
             item_data_subset[a]['lore'] = tooltip_data_subset[a]['Lore']
         else:
             item_data_subset[a]['lore'] = None
-                        
+
+    herobio_data = {}
     for h in hero_data_subset:
         abilities = []
         for x in range(1,17):
@@ -301,10 +305,12 @@ def process(src_dir, subset_dir, yaml_dir):
         hero_data_subset[h]['items'] = []
         hero_data_subset[h]['displayname'] = tooltip_data_subset[h]['DisplayName']
         hero_data_subset[h]['name'] = h
+        
+        herobio_data[h] = {}
         if 'Bio' in tooltip_data_subset[h]:
-            hero_data_subset[h]['bio'] = tooltip_data_subset[h]['Bio']
-        if 'Hype' in tooltip_data_subset[h]:
-            hero_data_subset[h]['hype'] = tooltip_data_subset[h]['Hype']
+            herobio_data[h]['bio'] = tooltip_data_subset[h]['Bio']
+        #if 'Hype' in tooltip_data_subset[h]:
+        #    hero_data_subset[h]['hype'] = tooltip_data_subset[h]['Hype']
                     
     for h in unit_data_subset:
         abilities = []
@@ -325,7 +331,9 @@ def process(src_dir, subset_dir, yaml_dir):
   
     print 'writing subset files'
     write_json(hero_data_subset, subset_dir + 'herodata.json')
+    write_json(herobio_data, subset_dir + 'herobiodata.json')
     write_json(ability_data_subset, subset_dir + 'abilitydata.json')
+    write_json(abilitytooltip_data, subset_dir + 'abilitytooltipdata.json')
     write_json(unit_data_subset, subset_dir + 'unitdata.json')
     write_json(item_data_subset, subset_dir + 'itemdata.json')
     write_json(tooltip_data_subset, subset_dir + 'tooltipdata.json')
