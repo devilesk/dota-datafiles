@@ -202,7 +202,7 @@
   "Lore": "When an enemy escapes into the Yama Raskav Jungle, most would cut through the brush to find the fugitive.  Batrider just chooses to destroy the jungle along with his foes."
  }, 
  "batrider_flamebreak": {
-  "Description": "Hurls an explosive cocktail that explodes when it reaches the target location, knocking back, briefly stunning, and dealing damage over time to enemies in the area.", 
+  "Description": "Hurls an explosive cocktail that explodes when it reaches the target location, knocking back, and dealing damage over time to enemies in the area.", 
   "DisplayName": "Flamebreak", 
   "Lore": "A molotov cocktail is the weapon of choice for Batrider."
  }, 

@@ -394,7 +394,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -499,7 +498,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -604,7 +602,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -709,7 +706,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -814,7 +810,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -919,7 +914,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -1024,7 +1018,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -1129,7 +1122,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -1513,7 +1505,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -1624,7 +1615,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -1735,7 +1725,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -1840,7 +1829,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -1945,7 +1933,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -2050,7 +2037,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -2155,7 +2141,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -2353,7 +2338,6 @@
      0, 
      0
     ], 
-    "description": "Inflicts a poison that slows attack and movement speeds.", 
     "displayname": "Poison", 
     "level": 0, 
     "manacost": [
@@ -2475,7 +2459,6 @@
      0, 
      0
     ], 
-    "description": "Inflicts a poison that slows attack and movement speeds.", 
     "displayname": "Poison", 
     "level": 0, 
     "manacost": [
@@ -2597,7 +2580,6 @@
      0, 
      0
     ], 
-    "description": "Inflicts a poison that slows attack and movement speeds.", 
     "displayname": "Poison", 
     "level": 0, 
     "manacost": [
@@ -2719,7 +2701,6 @@
      0, 
      0
     ], 
-    "description": "Inflicts a poison that slows attack and movement speeds.", 
     "displayname": "Poison", 
     "level": 0, 
     "manacost": [
@@ -2841,7 +2822,6 @@
      0, 
      0
     ], 
-    "description": "Inflicts a poison that slows attack and movement speeds.", 
     "displayname": "Poison", 
     "level": 0, 
     "manacost": [
@@ -2957,7 +2937,6 @@
      0, 
      0
     ], 
-    "description": "Inflicts a poison that slows attack and movement speeds.", 
     "displayname": "Poison", 
     "level": 0, 
     "manacost": [
@@ -3150,7 +3129,6 @@
      0, 
      0
     ], 
-    "description": "If motionless for some time, the hawk becomes invisible.", 
     "displayname": "Invisibility", 
     "level": 0, 
     "manacost": [
@@ -3265,7 +3243,6 @@
      0, 
      0
     ], 
-    "description": "If motionless for some time, the hawk becomes invisible.", 
     "displayname": "Invisibility", 
     "level": 0, 
     "manacost": [
@@ -3385,10 +3362,8 @@
      0, 
      0
     ], 
-    "description": "Throws a boulder at a unit, doing damage and stunning it.", 
     "displayname": "Hurl Boulder", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      0
     ], 
@@ -3435,10 +3410,8 @@
      0, 
      0
     ], 
-    "description": "Immune to spells.", 
     "displayname": "Spell Immunity", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      0, 
      0, 
@@ -3496,10 +3469,8 @@
      0, 
      0
     ], 
-    "description": "Deals %bonus_building_damage%%% bonus damage to buildings.", 
     "displayname": "Demolish", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      0, 
      0, 
@@ -3605,10 +3576,8 @@
      0, 
      0
     ], 
-    "description": "Slams the ground, dealing damage and slowing the movement speed and attack rate of nearby enemy land units.", 
     "displayname": "Thunder Clap", 
     "level": 0, 
-    "lore": "A slam of Mangix' mighty keg starts the festivities.", 
     "manacost": [
      90, 
      105, 
@@ -3726,10 +3695,8 @@
      0, 
      0
     ], 
-    "description": "Throws a boulder at a unit, doing damage and stunning it.", 
     "displayname": "Hurl Boulder", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      0
     ], 
@@ -3776,10 +3743,8 @@
      0, 
      0
     ], 
-    "description": "Immune to spells.", 
     "displayname": "Spell Immunity", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      0, 
      0, 
@@ -3837,10 +3802,8 @@
      0, 
      0
     ], 
-    "description": "Deals %bonus_building_damage%%% bonus damage to buildings.", 
     "displayname": "Demolish", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      0, 
      0, 
@@ -3946,10 +3909,8 @@
      0, 
      0
     ], 
-    "description": "Slams the ground, dealing damage and slowing the movement speed and attack rate of nearby enemy land units.", 
     "displayname": "Thunder Clap", 
     "level": 0, 
-    "lore": "A slam of Mangix' mighty keg starts the festivities.", 
     "manacost": [
      90, 
      105, 
@@ -4067,10 +4028,8 @@
      0, 
      0
     ], 
-    "description": "Throws a boulder at a unit, doing damage and stunning it.", 
     "displayname": "Hurl Boulder", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      0
     ], 
@@ -4117,10 +4076,8 @@
      0, 
      0
     ], 
-    "description": "Immune to spells.", 
     "displayname": "Spell Immunity", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      0, 
      0, 
@@ -4178,10 +4135,8 @@
      0, 
      0
     ], 
-    "description": "Deals %bonus_building_damage%%% bonus damage to buildings.", 
     "displayname": "Demolish", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      0, 
      0, 
@@ -4287,10 +4242,8 @@
      0, 
      0
     ], 
-    "description": "Slams the ground, dealing damage and slowing the movement speed and attack rate of nearby enemy land units.", 
     "displayname": "Thunder Clap", 
     "level": 0, 
-    "lore": "A slam of Mangix' mighty keg starts the festivities.", 
     "manacost": [
      90, 
      105, 
@@ -4401,10 +4354,8 @@
      0, 
      0
     ], 
-    "description": "Burns nearby enemy units.", 
     "displayname": "Permanent Immolation", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      0, 
      0, 
@@ -4492,10 +4443,8 @@
      0, 
      0
     ], 
-    "description": "Gives a chance to avoid attacks and to deal critical damage. Drunken Brawler will always trigger if you have not attacked, or have not been attacked, in the last several seconds.\\n\\nStacks diminishingly with other sources of Evasion.", 
     "displayname": "Drunken Brawler", 
     "level": 0, 
-    "lore": "When Mangix won his title as the Brewmaster of the Order of Oyo, he also claimed his place in the mastery of inebriation.", 
     "manacost": [
      0, 
      0, 
@@ -4606,10 +4555,8 @@
      0, 
      0
     ], 
-    "description": "Burns nearby enemy units.", 
     "displayname": "Permanent Immolation", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      0, 
      0, 
@@ -4697,10 +4644,8 @@
      0, 
      0
     ], 
-    "description": "Gives a chance to avoid attacks and to deal critical damage. Drunken Brawler will always trigger if you have not attacked, or have not been attacked, in the last several seconds.\\n\\nStacks diminishingly with other sources of Evasion.", 
     "displayname": "Drunken Brawler", 
     "level": 0, 
-    "lore": "When Mangix won his title as the Brewmaster of the Order of Oyo, he also claimed his place in the mastery of inebriation.", 
     "manacost": [
      0, 
      0, 
@@ -4811,10 +4756,8 @@
      0, 
      0
     ], 
-    "description": "Burns nearby enemy units.", 
     "displayname": "Permanent Immolation", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      0, 
      0, 
@@ -4902,10 +4845,8 @@
      0, 
      0
     ], 
-    "description": "Gives a chance to avoid attacks and to deal critical damage. Drunken Brawler will always trigger if you have not attacked, or have not been attacked, in the last several seconds.\\n\\nStacks diminishingly with other sources of Evasion.", 
     "displayname": "Drunken Brawler", 
     "level": 0, 
-    "lore": "When Mangix won his title as the Brewmaster of the Order of Oyo, he also claimed his place in the mastery of inebriation.", 
     "manacost": [
      0, 
      0, 
@@ -5009,10 +4950,8 @@
      0, 
      0
     ], 
-    "description": "Damages summoned units in an area and purges most buffs or debuffs.", 
     "displayname": "Dispel Magic", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      75, 
      75, 
@@ -5079,10 +5018,8 @@
      0, 
      0
     ], 
-    "description": "Encloses a unit in a tornado, removing it from the battlefield.", 
     "displayname": "Cyclone", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      150, 
      150, 
@@ -5170,10 +5107,8 @@
      0, 
      0
     ], 
-    "description": "Provides temporary invisibility.  Bonus movement speed and attack damage when invisible.", 
     "displayname": "Wind Walk", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      75, 
      75, 
@@ -5277,10 +5212,8 @@
      0, 
      0
     ], 
-    "description": "Drenches a small area in alcohol, causing their movement speed to be reduced, and causing their attacks to have a chance to miss.", 
     "displayname": "Drunken Haze", 
     "level": 0, 
-    "lore": "The Order of the Oyo's solution to all problems - another round!", 
     "manacost": [
      50
     ], 
@@ -5381,10 +5314,8 @@
      0, 
      0
     ], 
-    "description": "Damages summoned units in an area and purges most buffs or debuffs.", 
     "displayname": "Dispel Magic", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      75, 
      75, 
@@ -5451,10 +5382,8 @@
      0, 
      0
     ], 
-    "description": "Encloses a unit in a tornado, removing it from the battlefield.", 
     "displayname": "Cyclone", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      150, 
      150, 
@@ -5542,10 +5471,8 @@
      0, 
      0
     ], 
-    "description": "Provides temporary invisibility.  Bonus movement speed and attack damage when invisible.", 
     "displayname": "Wind Walk", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      75, 
      75, 
@@ -5649,10 +5576,8 @@
      0, 
      0
     ], 
-    "description": "Drenches a small area in alcohol, causing their movement speed to be reduced, and causing their attacks to have a chance to miss.", 
     "displayname": "Drunken Haze", 
     "level": 0, 
-    "lore": "The Order of the Oyo's solution to all problems - another round!", 
     "manacost": [
      50
     ], 
@@ -5753,10 +5678,8 @@
      0, 
      0
     ], 
-    "description": "Damages summoned units in an area and purges most buffs or debuffs.", 
     "displayname": "Dispel Magic", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      75, 
      75, 
@@ -5823,10 +5746,8 @@
      0, 
      0
     ], 
-    "description": "Encloses a unit in a tornado, removing it from the battlefield.", 
     "displayname": "Cyclone", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      150, 
      150, 
@@ -5914,10 +5835,8 @@
      0, 
      0
     ], 
-    "description": "Provides temporary invisibility.  Bonus movement speed and attack damage when invisible.", 
     "displayname": "Wind Walk", 
     "level": 0, 
-    "lore": "", 
     "manacost": [
      75, 
      75, 
@@ -6021,10 +5940,8 @@
      0, 
      0
     ], 
-    "description": "Drenches a small area in alcohol, causing their movement speed to be reduced, and causing their attacks to have a chance to miss.", 
     "displayname": "Drunken Haze", 
     "level": 0, 
-    "lore": "The Order of the Oyo's solution to all problems - another round!", 
     "manacost": [
      50
     ], 
@@ -6180,7 +6097,6 @@
      0, 
      0
     ], 
-    "description": "Poisons and slows enemies with each attack.", 
     "displayname": "Poison Sting", 
     "level": 0, 
     "manacost": [
@@ -6247,7 +6163,6 @@
      0, 
      0
     ], 
-    "description": "Applies debuff on attack. If debuffed unit dies, a spiderite will spawn.", 
     "displayname": "Spawn Spiderite", 
     "level": 0, 
     "manacost": [
@@ -6332,7 +6247,6 @@
      0, 
      0
     ], 
-    "description": "Destroys the selected Spin Web.", 
     "displayname": "Destroy Spin Web", 
     "level": 0, 
     "manacost": [
@@ -6460,7 +6374,6 @@
      0, 
      0
     ], 
-    "description": "Returns the courier to base", 
     "displayname": "Return to Base", 
     "level": 0, 
     "manacost": [
@@ -6513,7 +6426,6 @@
      0, 
      0
     ], 
-    "description": "Sends the courier to your team's secret shop", 
     "displayname": "Go To Secret Shop", 
     "level": 0, 
     "manacost": [
@@ -6566,7 +6478,6 @@
      0, 
      0
     ], 
-    "description": "Return items to stash", 
     "displayname": "Return Items", 
     "level": 0, 
     "manacost": [
@@ -6626,7 +6537,6 @@
      0, 
      0
     ], 
-    "description": "Retrieve items from stash", 
     "displayname": "Retrieve Items", 
     "level": 0, 
     "manacost": [
@@ -6686,7 +6596,6 @@
      0, 
      0
     ], 
-    "description": "Transfer items to hero", 
     "displayname": "Transfer Items", 
     "level": 0, 
     "manacost": [
@@ -6758,7 +6667,6 @@
      0, 
      0
     ], 
-    "description": "The courier gains a burst of speed for %duration% seconds", 
     "displayname": "Speed Burst", 
     "level": 0, 
     "manacost": [
@@ -7803,10 +7711,8 @@
      0, 
      0
     ], 
-    "description": "Elder Titan and his Astral Spirit both stomp the ground, damaging and knocking nearby enemy units unconscious around their locations.  The Elder Titan stomp deals physical damage, while the Spirit stomp deals magical damage.  Unconscious enemies will wake if they take damage.", 
     "displayname": "Echo Stomp", 
     "level": 0, 
-    "lore": "The force of creation still echoes in the stomp of the Titan.", 
     "manacost": [
      0, 
      0, 
@@ -7861,7 +7767,6 @@
      0, 
      0
     ], 
-    "description": "Returns the Astral Spirit to Elder Titan.", 
     "displayname": "Return Astral Spirit", 
     "level": 0, 
     "manacost": [
@@ -7946,10 +7851,8 @@
      0, 
      0
     ], 
-    "description": "Reduces all elements to their basic levels, removing base armor and magic damage resistance from nearby enemy units.", 
     "displayname": "Natural Order", 
     "level": 0, 
-    "lore": "As it was at the beginning, Elder Titan makes it so again.", 
     "manacost": [
      0, 
      0, 
@@ -8127,7 +8030,6 @@
      0, 
      0
     ], 
-    "description": "The Tornado's overpowering winds slow all nearby enemies, flinging debris at them and inflicting damage every second. Enemies closer to the center of the Tornado take more damage.", 
     "displayname": "Tempest", 
     "level": 0, 
     "manacost": [
@@ -8220,7 +8122,6 @@
      0, 
      0
     ], 
-    "description": "Returns the courier to base", 
     "displayname": "Return to Base", 
     "level": 0, 
     "manacost": [
@@ -8273,7 +8174,6 @@
      0, 
      0
     ], 
-    "description": "Return items to stash", 
     "displayname": "Return Items", 
     "level": 0, 
     "manacost": [
@@ -8333,7 +8233,6 @@
      0, 
      0
     ], 
-    "description": "Retrieve items from stash", 
     "displayname": "Retrieve Items", 
     "level": 0, 
     "manacost": [
@@ -8393,7 +8292,6 @@
      0, 
      0
     ], 
-    "description": "Transfer items to hero", 
     "displayname": "Transfer Items", 
     "level": 0, 
     "manacost": [
@@ -8446,7 +8344,6 @@
      0, 
      0
     ], 
-    "description": "Sends the courier to your team's secret shop", 
     "displayname": "Go To Secret Shop", 
     "level": 0, 
     "manacost": [
@@ -8518,7 +8415,6 @@
      0, 
      0
     ], 
-    "description": "The courier gains a burst of speed for %duration% seconds", 
     "displayname": "Speed Burst", 
     "level": 0, 
     "manacost": [
@@ -8840,7 +8736,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -8945,7 +8840,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -9050,7 +8944,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -9155,7 +9048,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -9260,7 +9152,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -9365,7 +9256,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -9470,7 +9360,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -9575,7 +9464,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -9959,7 +9847,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -10070,7 +9957,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -10181,7 +10067,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -10286,7 +10171,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -10391,7 +10275,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -10496,7 +10379,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -10601,7 +10483,6 @@
      0, 
      0
     ], 
-    "description": "Structure takes reduced damage, and quickly regenerates any damage taken while no enemy creeps are nearby.", 
     "displayname": "Backdoor Protection", 
     "level": 0, 
     "manacost": [
@@ -10755,7 +10636,6 @@
      0, 
      0
     ], 
-    "description": "If motionless for some time, the hawk becomes invisible.", 
     "displayname": "Invisibility", 
     "level": 0, 
     "manacost": [
@@ -10900,7 +10780,6 @@
      15
     ], 
     "damage": 20, 
-    "description": "Puts the target enemy or friendly Hero to sleep and deals damage per second.  Sleeping units are awakened when attacked, but the Greevilmare passes to the attacking unit.  The nightmared unit instantly wakes up if it takes damage.", 
     "displayname": "Greevilmare", 
     "level": 0, 
     "manacost": [
@@ -10944,7 +10823,6 @@
      14
     ], 
     "damage": 200, 
-    "description": "Feasts on the vital energies of an enemy unit, dealing damage and gaining health equal to the damage dealt.", 
     "displayname": "Greevil Brain Sap", 
     "level": 0, 
     "manacost": [
@@ -11000,7 +10878,6 @@
      0, 
      0
     ], 
-    "description": "There is nothing the googly greevils eyes can't see!", 
     "displayname": "Greevil Sight", 
     "level": 0, 
     "manacost": [
@@ -11108,7 +10985,6 @@
      0, 
      0
     ], 
-    "description": "Places a frozen hex on an enemy unit that deals damage over time, but can be dispelled by moving away from the initial cast point.  If the enemy unit doesn't move outside of the given range, it will be stunned and frozen in place after 4 seconds.", 
     "displayname": "Cold Greevil Feet", 
     "level": 0, 
     "manacost": [
@@ -11173,7 +11049,6 @@
      0, 
      0
     ], 
-    "description": "Creates a vortex of icy energy that slows movement speed and increases magic damage done in its range.  Lasts 12 seconds.", 
     "displayname": "Ice Greevortex", 
     "level": 0, 
     "manacost": [
@@ -11229,7 +11104,6 @@
      0, 
      0
     ], 
-    "description": "There is nothing the googly greevils eyes can't see!", 
     "displayname": "Greevil Sight", 
     "level": 0, 
     "manacost": [
@@ -11353,7 +11227,6 @@
      0, 
      0
     ], 
-    "description": "Infuses the target with a protective coating which grants bonus regeneration. Also grants physical damage block from damage from heroes. Dispels when a number of damage instances are taken.", 
     "displayname": "Greeviling Armor", 
     "level": 0, 
     "manacost": [
@@ -11421,7 +11294,6 @@
      0, 
      0
     ], 
-    "description": "Summons an overgrowth of vines and branches that prevent afflicted enemies from moving, blinking, going invisible, or attacking.", 
     "displayname": "Greevil Overgrowth", 
     "level": 0, 
     "manacost": [
@@ -11477,7 +11349,6 @@
      0, 
      0
     ], 
-    "description": "There is nothing the googly greevils eyes can't see!", 
     "displayname": "Greevil Sight", 
     "level": 0, 
     "manacost": [
@@ -11594,7 +11465,6 @@
      9
     ], 
     "damage": 170, 
-    "description": "Channels the breath of a dragon, sending out a wave of fire that scorches every enemy in its path.", 
     "displayname": "Greevil Dragon Breath", 
     "level": 0, 
     "manacost": [
@@ -11662,7 +11532,6 @@
      11
     ], 
     "damage": 150, 
-    "description": "Summons a column of flames that damages and stuns enemies.", 
     "displayname": "Greevil Light Strike", 
     "level": 0, 
     "manacost": [
@@ -11718,7 +11587,6 @@
      0, 
      0
     ], 
-    "description": "There is nothing the googly greevils eyes can't see!", 
     "displayname": "Greevil Sight", 
     "level": 0, 
     "manacost": [
@@ -11862,7 +11730,6 @@
      0, 
      0
     ], 
-    "description": "Launches a ball of venom in a line, poisoning enemy units so that they take both initial damage and damage over time, as well as suffering slowed movement.  Venomous Gale deals damage every 2 seconds over its duration.", 
     "displayname": "Venomous Greevil Spit", 
     "level": 0, 
     "manacost": [
@@ -11937,7 +11804,6 @@
      0, 
      0
     ], 
-    "description": "Summons a  ward to attack enemy units and structures. The ward is immune to magic.", 
     "displayname": "Greevil Ward", 
     "level": 0, 
     "manacost": [
@@ -11993,7 +11859,6 @@
      0, 
      0
     ], 
-    "description": "There is nothing the googly greevils eyes can't see!", 
     "displayname": "Greevil Sight", 
     "level": 0, 
     "manacost": [
@@ -12089,7 +11954,6 @@
      6
     ], 
     "damage": 240, 
-    "description": "Slams the earth, causing a powerful shock to damage and slow all enemy units in a nearby area for 4 seconds.", 
     "displayname": "Greevilshock", 
     "level": 0, 
     "manacost": [
@@ -12146,7 +12010,6 @@
      0, 
      0
     ], 
-    "description": "Gains increased attack speed for a number of subsequent attacks.", 
     "displayname": "Greevilpower", 
     "level": 0, 
     "manacost": [
@@ -12202,7 +12065,6 @@
      0, 
      0
     ], 
-    "description": "There is nothing the googly greevils eyes can't see!", 
     "displayname": "Greevil Sight", 
     "level": 0, 
     "manacost": [
@@ -12308,7 +12170,6 @@
      0, 
      0
     ], 
-    "description": "Instantly heals a friendly unit and damages all nearby enemy units.", 
     "displayname": "Greevilication", 
     "level": 0, 
     "manacost": [
@@ -12373,7 +12234,6 @@
      0, 
      0
     ], 
-    "description": "Greatly degenerates the movement and attack capabilities of enemy units that stray too near.", 
     "displayname": "Degreevil Aura", 
     "level": 0, 
     "manacost": [
@@ -12432,7 +12292,6 @@
      0, 
      0
     ], 
-    "description": "There is nothing the googly greevils eyes can't see!", 
     "displayname": "Greevil Sight", 
     "level": 0, 
     "manacost": [
@@ -12545,7 +12404,6 @@
      0, 
      0
     ], 
-    "description": "Surrounds the target unit with a bristling shield that damages enemy units in an area around it.", 
     "displayname": "Greevil Shell", 
     "level": 0, 
     "manacost": [
@@ -12600,7 +12458,6 @@
      0, 
      0
     ], 
-    "description": "Charges a target friendly unit with power, giving it a brief burst of maximum movement speed.", 
     "displayname": "Greevil Surge", 
     "level": 0, 
     "manacost": [
@@ -12656,7 +12513,6 @@
      0, 
      0
     ], 
-    "description": "There is nothing the googly greevils eyes can't see!", 
     "displayname": "Greevil Sight", 
     "level": 0, 
     "manacost": [
@@ -13237,7 +13093,6 @@
      0, 
      0
     ], 
-    "description": "Melts away the armor of heroes hit by the spirit's attack if the spirit has enough mana. Each successive hit increases the amount of armor melted.", 
     "displayname": "Melting Strike", 
     "level": 0, 
     "manacost": [
@@ -13464,7 +13319,6 @@
      0, 
      0
     ], 
-    "description": "Spirit Bear roars fiercely causing nearby enemies to flee towards their base in terror. Their movement speed is increased by %bonus_speed%%%.", 
     "displayname": "Savage Roar", 
     "level": 0, 
     "manacost": [
@@ -13552,7 +13406,6 @@
      0, 
      0
     ], 
-    "description": "Immediately teleports the Spirit Bear back to the Lone Druid.  The Spirit Bear cannot teleport if it has taken damage from a player unit in the last 3 seconds.", 
     "displayname": "Return", 
     "level": 0, 
     "manacost": [
@@ -13623,7 +13476,6 @@
      0, 
      0
     ], 
-    "description": "Spirit Bear roars fiercely causing nearby enemies to flee towards their base in terror. Their movement speed is increased by %bonus_speed%%%.", 
     "displayname": "Savage Roar", 
     "level": 0, 
     "manacost": [
@@ -13711,7 +13563,6 @@
      0, 
      0
     ], 
-    "description": "Immediately teleports the Spirit Bear back to the Lone Druid.  The Spirit Bear cannot teleport if it has taken damage from a player unit in the last 3 seconds.", 
     "displayname": "Return", 
     "level": 0, 
     "manacost": [
@@ -13776,7 +13627,6 @@
      5
     ], 
     "damage": 60, 
-    "description": "Attacks have a chance to cause roots to burst from the ground, immobilizing the attacked enemy unit, and dealing damage per second.", 
     "displayname": "Entangling Claws", 
     "level": 0, 
     "manacost": [
@@ -13850,7 +13700,6 @@
      0, 
      0
     ], 
-    "description": "Spirit Bear roars fiercely causing nearby enemies to flee towards their base in terror. Their movement speed is increased by %bonus_speed%%%.", 
     "displayname": "Savage Roar", 
     "level": 0, 
     "manacost": [
@@ -13938,7 +13787,6 @@
      0, 
      0
     ], 
-    "description": "Immediately teleports the Spirit Bear back to the Lone Druid.  The Spirit Bear cannot teleport if it has taken damage from a player unit in the last 3 seconds.", 
     "displayname": "Return", 
     "level": 0, 
     "manacost": [
@@ -14003,7 +13851,6 @@
      5
     ], 
     "damage": 60, 
-    "description": "Attacks have a chance to cause roots to burst from the ground, immobilizing the attacked enemy unit, and dealing damage per second.", 
     "displayname": "Entangling Claws", 
     "level": 0, 
     "manacost": [
@@ -14077,7 +13924,6 @@
      0, 
      0
     ], 
-    "description": "Spirit Bear roars fiercely causing nearby enemies to flee towards their base in terror. Their movement speed is increased by %bonus_speed%%%.", 
     "displayname": "Savage Roar", 
     "level": 0, 
     "manacost": [
@@ -14141,7 +13987,6 @@
      0, 
      0
     ], 
-    "description": "Increases the power of the Spirit Bear, causing it to deal more damage to buildings and have additional spell resistance.", 
     "displayname": "Demolish", 
     "level": 0, 
     "manacost": [
@@ -14383,7 +14228,6 @@
      0, 
      0
     ], 
-    "description": "Gives %maim_chance%%% to cripple the target, causing %maim_damage% damage per second and lose %maim_attack_speed% Attack Speed for %maim_duration% seconds.", 
     "displayname": "Cripple", 
     "level": 0, 
     "manacost": [
@@ -14510,7 +14354,6 @@
      0, 
      0
     ], 
-    "description": "Gives %maim_chance%%% to cripple the target, causing %maim_damage% damage per second and lose %maim_attack_speed% Attack Speed for %maim_duration% seconds.", 
     "displayname": "Cripple", 
     "level": 0, 
     "manacost": [
@@ -14577,7 +14420,6 @@
      0, 
      0
     ], 
-    "description": "Permanently invisible when not attacking.", 
     "displayname": "Invisibility", 
     "level": 0, 
     "manacost": [
@@ -14704,7 +14546,6 @@
      0, 
      0
     ], 
-    "description": "Gives %maim_chance%%% to cripple the target, causing %maim_damage% damage per second and lose %maim_attack_speed% Attack Speed for %maim_duration% seconds.", 
     "displayname": "Cripple", 
     "level": 0, 
     "manacost": [
@@ -14771,7 +14612,6 @@
      0, 
      0
     ], 
-    "description": "Permanently invisible when not attacking.", 
     "displayname": "Invisibility", 
     "level": 0, 
     "manacost": [
@@ -14884,7 +14724,6 @@
      0, 
      0
     ], 
-    "description": "Launches an arrow that burns away the targeted unit's mana, dealing damage equal to the amount of mana burned.", 
     "displayname": "Mana Burn", 
     "level": 0, 
     "manacost": [
@@ -14952,7 +14791,6 @@
      0, 
      0
     ], 
-    "description": "Increases movement and attack speed of nearby units.", 
     "displayname": "Archer Aura", 
     "level": 0, 
     "manacost": [
@@ -15065,7 +14903,6 @@
      0, 
      0
     ], 
-    "description": "Launches an arrow that burns away the targeted unit's mana, dealing damage equal to the amount of mana burned.", 
     "displayname": "Mana Burn", 
     "level": 0, 
     "manacost": [
@@ -15133,7 +14970,6 @@
      0, 
      0
     ], 
-    "description": "Increases movement and attack speed of nearby units.", 
     "displayname": "Archer Aura", 
     "level": 0, 
     "manacost": [
@@ -15246,7 +15082,6 @@
      0, 
      0
     ], 
-    "description": "Launches an arrow that burns away the targeted unit's mana, dealing damage equal to the amount of mana burned.", 
     "displayname": "Mana Burn", 
     "level": 0, 
     "manacost": [
@@ -15314,7 +15149,6 @@
      0, 
      0
     ], 
-    "description": "Increases movement and attack speed of nearby units.", 
     "displayname": "Archer Aura", 
     "level": 0, 
     "manacost": [
@@ -15424,7 +15258,6 @@
      0, 
      0
     ], 
-    "description": "Mana burned per hit, a portion of which is dealt as damage.", 
     "displayname": "Mana Break", 
     "level": 0, 
     "manacost": [
@@ -15487,7 +15320,6 @@
      0, 
      0
     ], 
-    "description": "Deals damage to the unit that kills the Necronomicon Warrior.", 
     "displayname": "Last Will", 
     "level": 0, 
     "manacost": [
@@ -15596,7 +15428,6 @@
      0, 
      0
     ], 
-    "description": "Mana burned per hit, a portion of which is dealt as damage.", 
     "displayname": "Mana Break", 
     "level": 0, 
     "manacost": [
@@ -15659,7 +15490,6 @@
      0, 
      0
     ], 
-    "description": "Deals damage to the unit that kills the Necronomicon Warrior.", 
     "displayname": "Last Will", 
     "level": 0, 
     "manacost": [
@@ -15768,7 +15598,6 @@
      0, 
      0
     ], 
-    "description": "Mana burned per hit, a portion of which is dealt as damage.", 
     "displayname": "Mana Break", 
     "level": 0, 
     "manacost": [
@@ -15831,7 +15660,6 @@
      0, 
      0
     ], 
-    "description": "Deals damage to the unit that kills the Necronomicon Warrior.", 
     "displayname": "Last Will", 
     "level": 0, 
     "manacost": [
@@ -15891,7 +15719,6 @@
      0, 
      0
     ], 
-    "description": "Reveals invisible units.", 
     "displayname": "True Sight", 
     "level": 0, 
     "manacost": [
@@ -15997,7 +15824,6 @@
      0, 
      0
     ], 
-    "description": "The cruel Alpha Wolf attacks his enemy's unprotected vitals at every opportunity, inflicting critical damage.", 
     "displayname": "Critical Strike", 
     "level": 0, 
     "manacost": [
@@ -16064,7 +15890,6 @@
      0, 
      0
     ], 
-    "description": "The Alpha Wolf's ruthless attacks do extra damage. His commanding presence inspires nearby allies to attack ruthlessly as well.", 
     "displayname": "Packleader's Aura", 
     "level": 0, 
     "manacost": [
@@ -16180,7 +16005,6 @@
      6
     ], 
     "damage": 70, 
-    "description": "The Ancient Thunderhide slams his mammoth body against the ground. The shock damages nearby enemies and throws them off their footing. Heroes regain their balance more quickly.", 
     "displayname": "Slam", 
     "level": 0, 
     "manacost": [
@@ -16236,7 +16060,6 @@
      0, 
      0
     ], 
-    "description": "The Ancient Thunderhide works an ally into a frenzy, causing his ally to have increased attack speed.", 
     "displayname": "Frenzy", 
     "level": 0, 
     "manacost": [
@@ -16307,7 +16130,6 @@
      0, 
      0
     ], 
-    "description": "The rhythm of the Thunderhide's heartbeat increases the attack speed and attack damage of nearby allies.", 
     "displayname": "War Drums Aura", 
     "level": 0, 
     "manacost": [
@@ -16428,7 +16250,6 @@
      0, 
      0
     ], 
-    "description": "The Black Dragon hurls a fire blast on the ground, igniting the area in a %radius% radius for %duration% seconds. Enemies caught in the fire will take %damage% damage per second.", 
     "displayname": "Fireball", 
     "level": 0, 
     "manacost": [
@@ -16492,7 +16313,6 @@
      0, 
      0
     ], 
-    "description": "The Ancient Black Dragon's dreaded presence grants nearby allies additional armor. This bonus can stack with itself.", 
     "displayname": "Dragonhide Aura", 
     "level": 0, 
     "manacost": [
@@ -16587,7 +16407,6 @@
      0, 
      0
     ], 
-    "description": "The Black Dragon's explosive attacks are felt by all nearby enemies. Units closer to the blast take more damage.", 
     "displayname": "Splash Attack", 
     "level": 0, 
     "manacost": [
@@ -16726,7 +16545,6 @@
      0, 
      0
     ], 
-    "description": "The Drakken Armorer moves about quickly, making him difficult to hit with attacks.", 
     "displayname": "Evasion", 
     "level": 0, 
     "manacost": [
@@ -16793,7 +16611,6 @@
      0, 
      0
     ], 
-    "description": "The Drakken Armorer is wholly devoted to his cause, increasing his tolerance for physical attacks. Nearby allies are similarly devoted to the Overseer and are able to withstand more blows.", 
     "displayname": "Guardian Aura", 
     "level": 0, 
     "manacost": [
@@ -16893,7 +16710,6 @@
      0, 
      0
     ], 
-    "description": "The Drakken Sentinel has assumed a partially ethereal form, making him difficult to hit with attacks.", 
     "displayname": "Evasion", 
     "level": 0, 
     "manacost": [
@@ -16995,7 +16811,6 @@
      20
     ], 
     "damage": 25, 
-    "description": "The Centaur Conqueror's powerful hooves stomp the ground, stunning and damaging nearby enemies. Heroes recover more quickly.", 
     "displayname": "War Stomp", 
     "level": 0, 
     "manacost": [
@@ -17106,7 +16921,6 @@
      0, 
      0
     ], 
-    "description": "This creature protects its allies with a Magic Resistance aura. Creeps are better protected.", 
     "displayname": "Cloak Aura", 
     "level": 0, 
     "manacost": [
@@ -17238,7 +17052,6 @@
      0, 
      0
     ], 
-    "description": "The Dark Troll Summoner tosses netting around an enemy's feet, briefly immobilizing the unit, though the unit can still attack and use abilities. Interrupts channeling abilities.", 
     "displayname": "Ensnare", 
     "level": 0, 
     "manacost": [
@@ -17287,7 +17100,6 @@
      0, 
      0
     ], 
-    "description": "The Dark Troll Summoner stirs the ground underfoot, raising the remains of trolls long dead, bringing to life two skeleton Warriors who will fight at his side.", 
     "displayname": "Raise Dead", 
     "level": 0, 
     "manacost": [
@@ -17376,7 +17188,6 @@
      0, 
      0
     ], 
-    "description": "This creature does not feel the effects of most magical spells.", 
     "displayname": "Spell Immunity", 
     "level": 0, 
     "manacost": [
@@ -17465,7 +17276,6 @@
      0, 
      0
     ], 
-    "description": "CHANNELED - The Wildwing Ripper calls on the spirit of the wind, creating a sentient Tornado that he can control. The Tornado slows nearby enemies and does damage. It is invulnerable and can move anywhere.", 
     "displayname": "Tornado", 
     "level": 0, 
     "manacost": [
@@ -17529,7 +17339,6 @@
      0, 
      0
     ], 
-    "description": "The Wildwing Ripper's fury numbs it to attacks and inspires nearby allies to withstand more blows.", 
     "displayname": "Toughness Aura", 
     "level": 0, 
     "manacost": [
@@ -17701,7 +17510,6 @@
      0, 
      0
     ], 
-    "description": "The Hill Troll Priest lays his holy blessing upon the target ally, replenishing some health.", 
     "displayname": "Heal", 
     "level": 0, 
     "manacost": [
@@ -17765,7 +17573,6 @@
      0, 
      0
     ], 
-    "description": "Provides bonus mana regeneration to all nearby allies.", 
     "displayname": "Mana Aura", 
     "level": 0, 
     "manacost": [
@@ -17879,7 +17686,6 @@
      0, 
      0
     ], 
-    "description": "The Ghost launches an eerie attack that chills her enemies to their bones.", 
     "displayname": "Frost Attack", 
     "level": 0, 
     "manacost": [
@@ -17986,7 +17792,6 @@
      0, 
      0
     ], 
-    "description": "The Giant Wolf's ferocious attacks occasionally tear a vital tendon, inflicting critical damage.", 
     "displayname": "Critical Strike", 
     "level": 0, 
     "manacost": [
@@ -18101,7 +17906,6 @@
      0, 
      0
     ], 
-    "description": "The Vhoul Assassin has soaked his weapons in his own blend of painful predator venoms. Heroes recover from the poison more quickly.", 
     "displayname": "Envenomed Weapon", 
     "level": 0, 
     "manacost": [
@@ -18208,7 +18012,6 @@
      0, 
      0
     ], 
-    "description": "Increases the health capacity of nearby units.", 
     "displayname": "Granite Aura", 
     "level": 0, 
     "manacost": [
@@ -18260,7 +18063,6 @@
      0, 
      0
     ], 
-    "description": "This creature does not feel the effects of most magical spells.", 
     "displayname": "Spell Immunity", 
     "level": 0, 
     "manacost": [
@@ -18419,7 +18221,6 @@
      0, 
      0
     ], 
-    "description": "The Harpy Stormcrafter releases a high-voltage bolt of electricity at the target enemy, dealing damage. The bolt jumps to other nearby enemies, losing power with each jump.", 
     "displayname": "Chain Lightning", 
     "level": 0, 
     "manacost": [
@@ -18601,7 +18402,6 @@
      0, 
      0
     ], 
-    "description": "The Kobold Foreman's cruel efficiency increases his movement speed and the movement speed of all nearby allies.", 
     "displayname": "Speed Aura", 
     "level": 0, 
     "manacost": [
@@ -18747,10 +18547,8 @@
      0, 
      0
     ], 
-    "description": "Hurls a boulder at the target, damaging and stunning them. Golems do not do this unless commanded to.", 
     "displayname": "Hurl Boulder", 
     "level": 0, 
-    "lore": "\\\"Why do they hesitate? What are they afraid of throwing?\\\"", 
     "manacost": [
      0
     ], 
@@ -18834,7 +18632,6 @@
      0, 
      0
     ], 
-    "description": "On death, Mud Golems shatter into 2 Shard Golems. Shard Golems have %shard_health_tooltip% health, deal %shard_damage_tooltip% damage per attack, and live for %shard_duration_tooltip% seconds.", 
     "displayname": "Shard Split", 
     "level": 0, 
     "manacost": [
@@ -18941,10 +18738,8 @@
      0, 
      0
     ], 
-    "description": "Hurls a boulder at the target, damaging and stunning them. Golems do not do this unless commanded to.", 
     "displayname": "Hurl Boulder", 
     "level": 0, 
-    "lore": "\\\"Why do they hesitate? What are they afraid of throwing?\\\"", 
     "manacost": [
      0
     ], 
@@ -19046,10 +18841,8 @@
      0, 
      0
     ], 
-    "description": "Hurls a boulder at the target, damaging and stunning them. Golems do not do this unless commanded to.", 
     "displayname": "Hurl Boulder", 
     "level": 0, 
-    "lore": "\\\"Why do they hesitate? What are they afraid of throwing?\\\"", 
     "manacost": [
      0
     ], 
@@ -19165,7 +18958,6 @@
      0, 
      0
     ], 
-    "description": "The Ogre Frostmage summons an invisible layer of icy air that surrounds the target friendly unit, increasing its armor and temporarily slowing any melee enemies that dare attack it.", 
     "displayname": "Ice Armor", 
     "level": 0, 
     "manacost": [
@@ -19315,7 +19107,6 @@
      0, 
      0
     ], 
-    "description": "This creature protects its allies with a Magic Resistance aura. Creeps are better protected.", 
     "displayname": "Cloak Aura", 
     "level": 0, 
     "manacost": [
@@ -19424,7 +19215,6 @@
      12
     ], 
     "damage": 150, 
-    "description": "The Hellbear Smasher claps his massive hands together, creating a deafening blast. The blast damages nearby enemies and throws them off their footing.", 
     "displayname": "Thunder Clap", 
     "level": 0, 
     "manacost": [
@@ -19488,7 +19278,6 @@
      0, 
      0
     ], 
-    "description": "The fearsome Hellbear Smasher attacks more quickly and bullies nearby allies into following suit.", 
     "displayname": "Swiftness Aura", 
     "level": 0, 
     "manacost": [
@@ -19580,7 +19369,6 @@
      0, 
      0
     ], 
-    "description": "This creature does not feel the effects of most magical spells.", 
     "displayname": "Spell Immunity", 
     "level": 0, 
     "manacost": [
@@ -19687,7 +19475,6 @@
      8
     ], 
     "damage": 160, 
-    "description": "The Satyr Tormenter tears open an unstable rift to the underworld, creating a shockwave that travels in a line along the ground, dealing damage to enemies it hits.", 
     "displayname": "Shockwave", 
     "level": 0, 
     "manacost": [
@@ -19751,7 +19538,6 @@
      0, 
      0
     ], 
-    "description": "The Satyr Tormenter's demonic communion allows him to emanate regenerative power, increasing the health regeneration of himself and all nearby allies.", 
     "displayname": "Unholy Aura", 
     "level": 0, 
     "manacost": [
@@ -19844,7 +19630,6 @@
      0, 
      0
     ], 
-    "description": "The Satyr Mindstealer removes a fragment of his enemy's soul, burning away some mana and dealing damage equal to the amount of mana burned.", 
     "displayname": "Mana Burn", 
     "level": 0, 
     "manacost": [
@@ -19946,7 +19731,6 @@
      0, 
      0
     ], 
-    "description": "The Satyr Banisher knows every trick in the book, allowing him to remove debuffs from allies or buffs from enemies. His trickery also slows the enemy's movement.", 
     "displayname": "Purge", 
     "level": 0, 
     "manacost": [
@@ -20035,7 +19819,6 @@
      0, 
      0
     ], 
-    "description": "This creature does not feel the effects of most magical spells.", 
     "displayname": "Spell Immunity", 
     "level": 0, 
     "manacost": [
@@ -20590,7 +20373,6 @@
      0, 
      0
     ], 
-    "description": "Roshan will block one targeted spell every 15 seconds.", 
     "displayname": "Spell Block", 
     "level": 0, 
     "manacost": [
@@ -20665,7 +20447,6 @@
      0, 
      0
     ], 
-    "description": "Roshan has a chance to stun on attack.", 
     "displayname": "Bash", 
     "level": 0, 
     "manacost": [
@@ -20751,7 +20532,6 @@
      0, 
      0
     ], 
-    "description": "Roshan slams the ground, damaging and slowing all nearby enemies. Slam's damage will increase every 4 minutes.", 
     "displayname": "Slam", 
     "level": 0, 
     "manacost": [
@@ -20859,7 +20639,6 @@
      0, 
      0
     ], 
-    "description": "Roshan possesses numerous protective abilities, including 55%% magic damage resistance, the ability to instantly purge attacking illusions, and a scaling armor bonus that increases as time goes on.", 
     "displayname": "Strength of the Immortal", 
     "level": 0, 
     "manacost": [
@@ -20966,7 +20745,6 @@
      0, 
      0
     ], 
-    "description": "Roshan launches devastating beams of incineration from the sky at all enemy heroes outside of 400 range, but within 1200 range.", 
     "displayname": "Apocalypse", 
     "level": 0, 
     "manacost": [
@@ -21041,7 +20819,6 @@
      12
     ], 
     "damage": 600, 
-    "description": "After a delay, Roshan smashes the ground, causing massive radial damage in an area around him, knocking back all enemies.  The closer to Roshan the enemy is, the more damage it takes.", 
     "displayname": "Wave of Force", 
     "level": 0, 
     "manacost": [
@@ -21127,7 +20904,6 @@
      0, 
      0
     ], 
-    "description": "Roshan tosses a nearby enemy unit at an enemy that is further away.", 
     "displayname": "Toss", 
     "level": 0, 
     "manacost": [
@@ -21196,7 +20972,6 @@
      0, 
      0
     ], 
-    "description": "Roshan breathes a lethal arc of searing fire.", 
     "displayname": "Fire Breath", 
     "level": 0, 
     "manacost": [
@@ -21269,7 +21044,6 @@
      0, 
      0
     ], 
-    "description": "Roshan launches a number of slow moving fireballs at all nearby enemies.", 
     "displayname": "Fireball ", 
     "level": 0, 
     "manacost": [
@@ -21311,7 +21085,6 @@
      0, 
      0
     ], 
-    "description": "Roshan calls a group of Roshlings to aid him.", 
     "displayname": "Summon Roshlings", 
     "level": 0, 
     "manacost": [
@@ -21371,7 +21144,6 @@
      0, 
      0
     ], 
-    "description": "Roshan becomes immune to physical damage, but takes enhanced magical damage for a brief time.  When Roshan uses Shell, all ability and item cooldowns are refreshed.", 
     "displayname": "Shell", 
     "level": 0, 
     "manacost": [
@@ -21529,7 +21301,6 @@
      0, 
      0
     ], 
-    "description": "Roshan's current level", 
     "displayname": "Roshan's level", 
     "level": 0, 
     "manacost": [
@@ -22255,10 +22026,8 @@
      0, 
      0
     ], 
-    "description": "Detonate all selected remote mines.", 
     "displayname": "PINPOINT DETONATE", 
     "level": 0, 
-    "lore": "Kablooey!", 
     "manacost": [
      0, 
      0, 
@@ -22407,7 +22176,6 @@
      0, 
      0
     ], 
-    "description": "Springs the trap, slowing nearby enemies.", 
     "displayname": "Trap", 
     "level": 0, 
     "manacost": [
@@ -22766,7 +22534,6 @@
      0, 
      0
     ], 
-    "description": "This creature does not feel the effects of most magical spells.", 
     "displayname": "Spell Immunity", 
     "level": 0, 
     "manacost": [
@@ -22858,7 +22625,6 @@
      0, 
      0
     ], 
-    "description": "This creature does not feel the effects of most magical spells.", 
     "displayname": "Spell Immunity", 
     "level": 0, 
     "manacost": [
@@ -22950,7 +22716,6 @@
      0, 
      0
     ], 
-    "description": "This creature does not feel the effects of most magical spells.", 
     "displayname": "Spell Immunity", 
     "level": 0, 
     "manacost": [
@@ -23042,7 +22807,6 @@
      0, 
      0
     ], 
-    "description": "This creature does not feel the effects of most magical spells.", 
     "displayname": "Spell Immunity", 
     "level": 0, 
     "manacost": [
@@ -23183,7 +22947,6 @@
      0, 
      0
     ], 
-    "description": "Slows enemy units on attack.  If the attacked unit's health goes below the threshold, the zombie receives enhanced movement and attack speed.", 
     "displayname": "Deathlust", 
     "level": 0, 
     "manacost": [
@@ -23235,7 +22998,6 @@
      0, 
      0
     ], 
-    "description": "This creature does not feel the effects of most magical spells.", 
     "displayname": "Spell Immunity", 
     "level": 0, 
     "manacost": [
@@ -23375,7 +23137,6 @@
      0, 
      0
     ], 
-    "description": "Slows enemy units on attack.  If the attacked unit's health goes below the threshold, the zombie receives enhanced movement and attack speed.", 
     "displayname": "Deathlust", 
     "level": 0, 
     "manacost": [
@@ -23427,7 +23188,6 @@
      0, 
      0
     ], 
-    "description": "This creature does not feel the effects of most magical spells.", 
     "displayname": "Spell Immunity", 
     "level": 0, 
     "manacost": [
@@ -23723,7 +23483,6 @@
      0, 
      0
     ], 
-    "description": "After a short delay, the Familiar turns into stone and smashes into the ground, stunning and damaging all targets in the area.  The Familiar becomes invulnerable, and will regain its damage charges and health very rapidly.  After 8 seconds, the Familiar will automatically leave Stone Form.", 
     "displayname": "Stone Form", 
     "level": 0, 
     "manacost": [
@@ -23775,7 +23534,6 @@
      0, 
      0
     ], 
-    "description": "This creature does not feel the effects of most magical spells.", 
     "displayname": "Spell Immunity", 
     "level": 0, 
     "manacost": [
@@ -23916,7 +23674,6 @@
      0, 
      0
     ], 
-    "description": "After a short delay, the Familiar turns into stone and smashes into the ground, stunning and damaging all targets in the area.  The Familiar becomes invulnerable, and will regain its damage charges and health very rapidly.  After 8 seconds, the Familiar will automatically leave Stone Form.", 
     "displayname": "Stone Form", 
     "level": 0, 
     "manacost": [
@@ -23968,7 +23725,6 @@
      0, 
      0
     ], 
-    "description": "This creature does not feel the effects of most magical spells.", 
     "displayname": "Spell Immunity", 
     "level": 0, 
     "manacost": [
@@ -24109,7 +23865,6 @@
      0, 
      0
     ], 
-    "description": "After a short delay, the Familiar turns into stone and smashes into the ground, stunning and damaging all targets in the area.  The Familiar becomes invulnerable, and will regain its damage charges and health very rapidly.  After 8 seconds, the Familiar will automatically leave Stone Form.", 
     "displayname": "Stone Form", 
     "level": 0, 
     "manacost": [
@@ -24161,7 +23916,6 @@
      0, 
      0
     ], 
-    "description": "This creature does not feel the effects of most magical spells.", 
     "displayname": "Spell Immunity", 
     "level": 0, 
     "manacost": [
@@ -24273,7 +24027,6 @@
      0, 
      0
     ], 
-    "description": "Deals extra damage to nearby units when attacking.", 
     "displayname": "Flaming Fists", 
     "level": 0, 
     "manacost": [
@@ -24344,7 +24097,6 @@
      0, 
      0
     ], 
-    "description": "Burns the Golem's nearby enemy units, with damage per second.", 
     "displayname": "Permanent Immolation", 
     "level": 0, 
     "manacost": [
@@ -24456,7 +24208,6 @@
      0, 
      0
     ], 
-    "description": "Deals extra damage to nearby units when attacking.", 
     "displayname": "Flaming Fists", 
     "level": 0, 
     "manacost": [
@@ -24527,7 +24278,6 @@
      0, 
      0
     ], 
-    "description": "Burns the Golem's nearby enemy units, with damage per second.", 
     "displayname": "Permanent Immolation", 
     "level": 0, 
     "manacost": [
@@ -24639,7 +24389,6 @@
      0, 
      0
     ], 
-    "description": "Deals extra damage to nearby units when attacking.", 
     "displayname": "Flaming Fists", 
     "level": 0, 
     "manacost": [
@@ -24710,7 +24459,6 @@
      0, 
      0
     ], 
-    "description": "Burns the Golem's nearby enemy units, with damage per second.", 
     "displayname": "Permanent Immolation", 
     "level": 0, 
     "manacost": [
@@ -24822,7 +24570,6 @@
      0, 
      0
     ], 
-    "description": "Deals extra damage to nearby units when attacking.", 
     "displayname": "Flaming Fists", 
     "level": 0, 
     "manacost": [
@@ -24893,7 +24640,6 @@
      0, 
      0
     ], 
-    "description": "Burns the Golem's nearby enemy units, with damage per second.", 
     "displayname": "Permanent Immolation", 
     "level": 0, 
     "manacost": [
@@ -25005,7 +24751,6 @@
      0, 
      0
     ], 
-    "description": "Deals extra damage to nearby units when attacking.", 
     "displayname": "Flaming Fists", 
     "level": 0, 
     "manacost": [
@@ -25076,7 +24821,6 @@
      0, 
      0
     ], 
-    "description": "Burns the Golem's nearby enemy units, with damage per second.", 
     "displayname": "Permanent Immolation", 
     "level": 0, 
     "manacost": [
@@ -25188,7 +24932,6 @@
      0, 
      0
     ], 
-    "description": "Deals extra damage to nearby units when attacking.", 
     "displayname": "Flaming Fists", 
     "level": 0, 
     "manacost": [
@@ -25259,7 +25002,6 @@
      0, 
      0
     ], 
-    "description": "Burns the Golem's nearby enemy units, with damage per second.", 
     "displayname": "Permanent Immolation", 
     "level": 0, 
     "manacost": [
@@ -25489,7 +25231,6 @@
      0, 
      0
     ], 
-    "description": "The Ghost launches an eerie attack that chills her enemies to their bones.", 
     "displayname": "Frost Attack", 
     "level": 0, 
     "manacost": [

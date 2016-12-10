@@ -4317,7 +4317,7 @@ It is said that on the dawn of the First Day, all the night creatures perished. 
 		"DOTA_Tooltip_ability_batrider_sticky_napalm_turn_rate_pct"			"%TURN RATE SLOW:"
 		"DOTA_Tooltip_ability_batrider_sticky_napalm_radius"				"RADIUS:"
 		"DOTA_Tooltip_ability_batrider_flamebreak"							"Flamebreak"
-		"DOTA_Tooltip_ability_batrider_flamebreak_Description"				"Hurls an explosive cocktail that explodes when it reaches the target location, knocking back, briefly stunning, and dealing damage over time to enemies in the area."
+		"DOTA_Tooltip_ability_batrider_flamebreak_Description"				"Hurls an explosive cocktail that explodes when it reaches the target location, knocking back, and dealing damage over time to enemies in the area."
 		"DOTA_Tooltip_ability_batrider_flamebreak_Lore"						"A molotov cocktail is the weapon of choice for Batrider."
 		"DOTA_Tooltip_ability_batrider_flamebreak_damage_per_second"					"DAMAGE PER SECOND:"
 		"DOTA_Tooltip_ability_batrider_flamebreak_damage_duration"				"BURN DURATION:"	
@@ -9917,7 +9917,7 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 		"no_reports_remaining"									"You have already used your allotted number of submissions for this week."
 		"player_report_fail_too_late"							"It's too late to submit player feedback for this match."
 		"player_report_fail_generic"							"Failed to submit player feedback."
-		"DOTA_ReportReminder"									"Don't forget to report players for bad conduct, or commend them for being fun to play with. You can do this by clicking on their name in the scoreboard at any time."
+		"DOTA_ReportReminder"									"Don't forget to report players for bad conduct, or commend them for being fun to play with. You can do this by clicking on the Report or Commend icons above a player's name in the Post-Game Overview."
 
 		"matchmaking_status_title"								"Matchmaking Status"
 		"matchmaking_status_text"								"Your game is ready"
@@ -13411,6 +13411,10 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 		"DOTA_Workshop_Nightstalker_Back"			"Night Stalker Wings Day"
 		"DOTA_Workshop_Nightstalker_Back_Night"			"Night Stalker Wings Night"
 		
+		"DOTA_Import_Visage_Familiar"		"Familiar"
+		"DOTA_Import_Visage_Familiar_Desc"		"Visage's Familiar requires a single model."
+
+		
 
 		
 
@@ -15063,8 +15067,9 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 
 		"StoreBanner_Header_Warhammer_Treasure"		"WARHAMMER: TREASURE OF THE OLD WORLD"
 		"StoreBanner_Text_Warhammer_Treasure"		"Contains thirteen Warhammer-themed sets from the Dota 2 Workshop."
-		
-		
+
+		"StoreBanner_Header_SinglesDay_2016"		"FALL SALE - 60% OFF"
+		"StoreBanner_Text_SinglesDay_2016"		"Celebrate fall and reap steep savings with a 24-hour flash sale featuring 60% off most treasures!"
 
 		
 		"Playtab_Quiz_Title"				"The Shopkeeper's Quiz"
@@ -18738,6 +18743,17 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 		"Dota_Style_Wabbit_2"		"Level 3"
 		"Dota_Style_Wabbit_3"		"Level 4"
 		
+		"DOTA_Style_Imperious_Tactician_Back_0"	"Default"
+		"DOTA_Style_Imperious_Tactician_Back_1"	"Infused"
+		
+		"DOTA_Style_Silent_Guardian_OffHand_0"	"Default"
+		"DOTA_Style_Silent_Guardian_OffHand_1"	"Infused"
+		
+		"DOTA_Style_Tormenta_Armor_0"	"Default"
+		"DOTA_Style_Tormenta_Armor_1"	"Infused"
+		
+		"DOTA_Style_Default"	"Default"
+		"DOTA_Style_Infused"	"Infused"
 		
 		
 		"TeamCup_Description"	"Earned by fans during The International Weekly Team Cup"
@@ -22539,6 +22555,8 @@ Special Techies Taunt"
 		"DOTA_ChallengeDesc_DebuffDurationMultiMatch"	"Debuff enemy Heroes for <font color='#75a92e'>%s1</font> seconds."
 		"DOTA_ChallengeDesc_EmberChainsMultiMatch"		"Ensnare <font color='#75a92e'>%s1</font> enemy Heroes with <font color='#75a92e'>Searing Chains</font> as <font color='#75a92e'>Ember Spirit</font>."
 		
+		
+		
 
 		"DOTA_ChallengeDesc_Rampage"					"Go on a <font color='#75a92e'>Rampage</font>."
 
@@ -22624,8 +22642,63 @@ Special Techies Taunt"
 		"DOTA_ChallengeStatusText_KillCountByTime"						"[ALLIES] %s1: %s3I have %s4 seconds left to kill %s2 more enemy Heroes!"
 		"DOTA_ChallengeStatusText_SplitPushBuildingDamage"				"[ALLIES] %s1: %s3I need to deal %s2 more damage to towers, while our towers are under attack!"
 		
-
-
+		"DOTA_ChallengeDesc_AbaddonMistCoilPurge"						"Use <font color='#75a92e'>Mist Coil</font> to damage enemies or heal allies for a total of <font color='#75a92e'>%s1</font> health, and purge <font color='#75a92e'>%s2</font> debuffs from allied heroes with <font color='#75a92e'>Aphotic Shield</font>."
+		"DOTA_ChallengeDesc_AbaddonMistCoilPurge_Sub1"					"Use <font color='#75a92e'>Mist Coil</font> to damage enemies or heal allies for a total of <font color='#75a92e'>%s1</font> health."
+		"DOTA_ChallengeDesc_AbaddonMistCoilPurge_Sub2"					"Purge <font color='#75a92e'>%s2</font> debuffs from allied heroes with <font color='#75a92e'>Aphotic Shield</font>."
+		"DOTA_ChallengeStatusText_AbaddonMistCoilPurge_Sub1"			"[ALLIES] %s1: %s3I need to damage enemies or heal allies for a total for %s2 health with Mist Coil!"
+		"DOTA_ChallengeStatusText_AbaddonMistCoilPurge_Sub2"			"[ALLIES] %s1: %s3I need to purge %s2 more debuff(s) with Apothic Shield!"
+		
+		"DOTA_ChallengeDesc_ClinkzDeathPactDebuff"						"Kill <font color='#75a92e'>%s1</font> enemies while under effect of <font color='#75a92e'>Death Pact</font>, and debuff enemy heroes for a total of <font color='#75a92e'>%s2</font> seconds."
+		"DOTA_ChallengeDesc_ClinkzDeathPactDebuff_Sub1"					"Kill <font color='#75a92e'>%s1</font> enemies while under effect of <font color='#75a92e'>Death Pact</font>"
+		"DOTA_ChallengeDesc_ClinkzDeathPactDebuff_Sub2"					"Debuff enemy heroes for a total of <font color='#75a92e'>%s2</font> seconds."
+		"DOTA_ChallengeStatusText_ClinkzDeathPactDebuff_Sub1"			"[ALLIES] %s1: %s3I need to get %s2 more kill(s) while affected by Death Pact!"
+		"DOTA_ChallengeStatusText_ClinkzDeathPactDebuff_Sub2"			"[ALLIES] %s1: %s3I need to debuff enemies for %s2 more second(s)!"		
+		
+		"DOTA_ChallengeDesc_DeathProphetSpiritSiphon"					"Use <font color='#75a92e'>Spirit Siphon</font> on enemies for a total of <font color='#75a92e'>%s1</font> seconds, and hit two or more enemy heroes at once with <font color='#75a92e'>Silence</font> <font color='#75a92e'>%s2</font> times."
+		"DOTA_ChallengeDesc_DeathProphetSpiritSiphon_Sub1"				"Use <font color='#75a92e'>Spirit Siphon</font> on enemies for a total of <font color='#75a92e'>%s1</font> seconds."
+		"DOTA_ChallengeDesc_DeathProphetSpiritSiphon_Sub2"				"Hit two or more enemy heroes at once with <font color='#75a92e'>Silence</font> <font color='#75a92e'>%s2</font> times."
+		"DOTA_ChallengeStatusText_DeathProphetSpiritSiphon_Sub1"		"[ALLIES] %s1: %s3I need to Spirit Siphon enemies for %s2 more second(s)!"
+		"DOTA_ChallengeStatusText_DeathProphetSpiritSiphon_Sub2"		"[ALLIES] %s1: %s3I need to hit two or more enemies with silence %s2 more times(s)!"		
+	
+		"DOTA_ChallengeDesc_LichDenyCreepsSlow"							"<font color='#75a92e'>Sacrifice</font> or kill <font color='#75a92e'>%s1</font> allied units, and <font color='#75a92e'>slow</font> enemies for <font color='#75a92e'>%s2</font> seconds."
+		"DOTA_ChallengeDesc_LichDenyCreepsSlow_Sub1"					"<font color='#75a92e'>Sacrifice</font> or kill <font color='#75a92e'>%s1</font> allied units."
+		"DOTA_ChallengeDesc_LichDenyCreepsSlow_Sub2"					"<font color='#75a92e'>Slow</font> enemies for <font color='#75a92e'>%s2</font> seconds."
+		"DOTA_ChallengeStatus_LichDenyCreepsSlow_Sub1"					"[ALLIES] %s1: %s3I need to kill or Sacrifice %s2 more allied unit(s)!"
+		"DOTA_ChallengeStatus_LichDenyCreepsSlow_Sub2"					"[ALLIES] %s1: %s3I need to slow enemies for %s2 more second(s)!"	
+	
+		"DOTA_ChallengeDesc_SpectreDispersionReality"					"Deal <font color='#75a92e'>%s1</font> damage with <font color='#75a92e'>Dispersion</font>, and kill <font color='#75a92e'>%s2</font> enemies after using <font color='#75a92e'>Reality</font>."
+		"DOTA_ChallengeDesc_SpectreDispersionReality_Sub1"				"Deal <font color='#75a92e'>%s1</font> damage with <font color='#75a92e'>Dispersion</font>."
+		"DOTA_ChallengeDesc_SpectreDispersionReality_Sub2"				"Kill <font color='#75a92e'>%s2</font> enemies after using <font color='#75a92e'>Reality</font>."
+		"DOTA_ChallengeStatus_SpectreDispersionReality_Sub1"			"[ALLIES] %s1: %s3I need to deal %s2 more damage with Dispersion!"
+		"DOTA_ChallengeStatus_SpectreDispersionReality_Sub2"			"[ALLIES] %s1: %s3I need to get %s2 more kill(s) after using Reality!"	
+		
+		"DOTA_ChallengeDesc_WraithKingReincarnation"					"Kill <font color='#75a92e'>%s1</font> enemies after <font color='#75a92e'>Reincarnation</font>, and steal <font color='#75a92e'>%s2</font> HP from enemy Heroes using sources of <font color='#75a92e'>Lifesteal</font>."
+		"DOTA_ChallengeDesc_WraithKingReincarnation_Sub1"				"Kill <font color='#75a92e'>%s1</font> enemies after <font color='#75a92e'>Reincarnation</font>."
+		"DOTA_ChallengeDesc_WraithKingReincarnation_Sub2"				"Steal <font color='#75a92e'>%s2</font> HP from enemy Heroes using sources of <font color='#75a92e'>Lifesteal</font>."
+		"DOTA_ChallengeStatus_WraithKingReincarnation_Sub1"				"[ALLIES] %s1: %s3I need to get %s2 more kill(s) or assist(s) after Reincarnation!"
+		"DOTA_ChallengeStatus_WraithKingReincarnation_Sub2"				"[ALLIES] %s1: %s3I need to Lifesteal %s2 more HP!"	
+		
+		"DOTA_ChallengeDesc_UseCheese_Multigame"						"Consume the <font color='#75a92e'>Cheese</font> <font color='#75a92e'>%s1</font> times."
+		"DOTA_ChallengeStatusText_UseCheese_Multigame"					"[ALLIES] %s1: %s3I need to consume the Cheese %s2 more time(s)"
+		
+		"DOTA_Quest_Fall_2016_Halloween_Title"							"The Twin Forks"
+		"DOTA_Quest_Fall_2016_Halloween_Desc"							""
+		"DOTA_Quest_Fall_2016_Halloween_Abaddon_Title"					"MIST OPPORTUNITIES"
+		"DOTA_Quest_Fall_2016_Halloween_Abaddon_Lore"					""
+		"DOTA_Quest_Fall_2016_Halloween_Clinkz_Title"					"PACT AND READY"
+		"DOTA_Quest_Fall_2016_Halloween_Clinkz_Lore"					""
+		"DOTA_Quest_Fall_2016_Halloween_DeathProphet_Title"				"SIPHON DEMAND"
+		"DOTA_Quest_Fall_2016_Halloween_DeathProphet_Lore"				""
+		"DOTA_Quest_Fall_2016_Halloween_Lich_Title"						"A LICH IN YOUR PLANS"
+		"DOTA_Quest_Fall_2016_Halloween_Lich_Lore"						""
+		"DOTA_Quest_Fall_2016_Halloween_Spectre_Title"					"REALITY CHECK"
+		"DOTA_Quest_Fall_2016_Halloween_Spectre_Lore"					""
+		"DOTA_Quest_Fall_2016_Halloween_WraithKing_Title"				"COMEBACK MECHANIC"
+		"DOTA_Quest_Fall_2016_Halloween_WraithKing_Lore"				""
+		"DOTA_Quest_Fall_2016_Halloween_Roshan_Title"					"CHEESY PEASY"
+		"DOTA_Quest_Fall_2016_Halloween_Roshan_Lore"					""
+		
+		
 		"DOTA_ChallengeVar_ItemLevel2"					"( Level 2 )"
 		"DOTA_ChallengeVar_ItemLevel3"					"( Level 3 )"
 		"DOTA_ChallengeVar_ItemLevel4"					"( Level 4 )"
@@ -22872,7 +22945,7 @@ Special Techies Taunt"
 		"DOTA_Quest_Fall_2016_Support_StackCamps_Title"			"MONSTER FARMER"
 		"DOTA_Quest_Fall_2016_Support_StackCamps_Lore"			""
 		"DOTA_Quest_Fall_2016_Support_KillsAfterDusting_Title"			"DUSTBUSTED"
-		"DOTA_Quest_Fall_2016_Support_KillsAfterDusting__Lore"			""
+		"DOTA_Quest_Fall_2016_Support_KillsAfterDusting_Lore"			""
 		"DOTA_Quest_Fall_2016_Support_PlaceObserverWards_Title"			"THE CLIFFS HAVE EYES"
 		"DOTA_Quest_Fall_2016_Support_PlaceObserverWards_Lore"			""
 		"DOTA_Quest_Fall_2016_Support_InterruptChannels_Title"			"HOLD THAT THOUGHT"
@@ -23194,7 +23267,7 @@ Special Techies Taunt"
 		"FrontPage_WarhammerTreasure_Title"				"Warhammer: Treasure of the Old World"
 		"FrontPage_WarhammerTreasure_Description"		"Community created sets themed to the Warhammer universe."
 		
-		"FrontPage_MovieSeries_Header"			"Watch episode one"
+		"FrontPage_MovieSeries_Header"			"Episode two"
 		"FrontPage_MovieSeries_Title"				"True Sight"
 		"FrontPage_MovieSeries_Description"		""
 
@@ -23205,6 +23278,15 @@ Special Techies Taunt"
 		"FrontPage_Fall2016_Treasure_1_Title"			"Fall 2016 Treasure I"
 		"FrontPage_Fall2016_Treasure_1_Description"		"This treasure is only available to Fall 2016 Battle Pass owners."
 
+		"FrontPage_Fall2016_Treasure_2_Title"			"Fall 2016 Treasure II"
+		"FrontPage_Fall2016_Treasure_2_Description"		"This treasure is only available to Fall 2016 Battle Pass owners."
+
+		"FrontPage_Fall2016_Treasure_3_Title"			"Fall 2016 Treasure III"
+		"FrontPage_Fall2016_Treasure_3_Description"		"This treasure is only available to Fall 2016 Battle Pass owners."
+
+		"FrontPage_Fall2016_Treasure_4_Title"			"Fall 2016 Treasure IV"
+		"FrontPage_Fall2016_Treasure_4_Description"		"This treasure is only available to Fall 2016 Battle Pass owners."
+		
 		"DOTA_Custom_Game_Of_The_Day"			"Game of the Day"
 
 		"DOTA_Quest_Winter_2016_Support_Title"			"Path of the Patron"
@@ -23273,6 +23355,8 @@ Special Techies Taunt"
 		"WeekendTourney_FrontPage_PlayersLastWeek"		"Players last week:"
 		"WeekendTourney_FrontPage_FAQButton"			"Learn more"
 		"WeekendTourney_FrontPage_FindTeam"		    	"Find a Team"
+		"WeekendTourney_FrontPage_BattlePassNotRequired"	"Battle Pass<br/>not Required"
+		"WeekendTourney_FrontPage_AlreadyOwnTicketLabel"	"You already own<br/>a ticket.  Use it!"
 
 		"WeekendTourneyDivisionStatus_NoTournamentScheduled"	"No Battle Cup scheduled for this division."
 		"WeekendTourneyDivisionStatus_StartingTimeLong"			"Starts {t:l:t:m:weekendtourney_time_window_open}"
@@ -23426,6 +23510,7 @@ Special Techies Taunt"
 		"WeekendTourney_TitleSelectedDivision"	"{s:selected_division}<br/>Division"
 		"WeekendTourney_ChangeDivision"			"Change"
 		"WeekendTourney_Party_Title"			"Party up"
+		"WeekendTourney_TierNotInThisDivision"	"Sorry, there are not enough players in this division / tier."
 		"WeekendTourney_PartyBuilderSoloButton"	"Find party"
 		"WeekendTourney_PartyBuilderSearching"	"Searching..."
 		"WeekendTourney_PartyBuilderPartyButton"	"Find player"
@@ -23563,7 +23648,9 @@ Special Techies Taunt"
 		"dota_popup_battle_cup_winners_win_date"						"{t:s:BattleCupDate}"
 
 		"dota_chat_is_muted"											"Chat is Muted"
-		"dota_chat_is_muted_newplayer"									"Chat is Muted for new players for 20 games"
+		"dota_chat_is_muted_newplayer"									"Chat is Muted for new players for 20 games"	
+		"DOTA_Cannot_Random_Time"										"You cannot random with 10 seconds or less remaining in All Pick."
+		"DOTA_Cannot_Random_PickOrder"									"You cannot random the last pick for your team in Ranked All Pick."
 
 		"DOTA_HUD_Gold_Each"					"each"
 
@@ -23592,6 +23679,14 @@ Special Techies Taunt"
 		"DOTA_HealthBar_Status_Disarmed" "DISARMED!"
 		"DOTA_HealthBar_Status_Rooted"	"ROOTED!"
 		"DOTA_HealthBar_Status_Slowed"	"SLOWED!"
+
+		"DOTA_SinglesDaySale_Name"	"Fall Sale - 60% OFF"
+		"DOTA_SinglesDaySale_Title"	"Save 60% on Select Treasures"
+		"DOTA_SinglesDaySale_Description"	"Celebrate fall and reap steep savings with a 24-hour flash sale featuring 60% off most treasures!"
+
+		"DOTA_SaleTimeRemaining"	"Ends in"
+		"DOTA_SaleUpcoming"	"Starting in"
+		"DOTA_SaleEnded"	"Sale Has Ended"
 	}
 }
 
