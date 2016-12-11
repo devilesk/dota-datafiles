@@ -54,29 +54,29 @@ def strip_comments(src):
             if l[:2] != '//':
                 f.write(line)
 
-def copy_source_from_dotabuff(dotabuff_dir):
-    copy_source_txt_from_dotabuff(dotabuff_dir)
-    copy_source_json_from_dotabuff(dotabuff_dir)
+def copy_source_from_dotabuff(dotabuff_dir, dotabuff_branch):
+    copy_source_txt_from_dotabuff(dotabuff_dir, dotabuff_branch)
+    copy_source_json_from_dotabuff(dotabuff_dir, dotabuff_branch)
   
-def copy_source_txt_from_dotabuff(dotabuff_dir):
-    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/npc_heroes.txt', dotabuff_dir + 'npc_heroes.txt')
+def copy_source_txt_from_dotabuff(dotabuff_dir, dotabuff_branch):
+    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/scripts/npc/npc_heroes.txt', dotabuff_dir + 'npc_heroes.txt')
     strip_comments(dotabuff_dir + 'npc_heroes.txt')
-    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/npc_abilities.txt', dotabuff_dir + 'npc_abilities.txt')
+    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/scripts/npc/npc_abilities.txt', dotabuff_dir + 'npc_abilities.txt')
     strip_comments(dotabuff_dir + 'npc_abilities.txt')
-    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/npc_units.txt', dotabuff_dir + 'npc_units.txt')
+    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/scripts/npc/npc_units.txt', dotabuff_dir + 'npc_units.txt')
     strip_comments(dotabuff_dir + 'npc_units.txt')
-    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/items.txt', dotabuff_dir + 'items.txt')
+    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/scripts/npc/items.txt', dotabuff_dir + 'items.txt')
     strip_comments(dotabuff_dir + 'items.txt')
-    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/resource/dota_english.txt', dotabuff_dir + 'dota_english.txt')
+    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/resource/dota_english.txt', dotabuff_dir + 'dota_english.txt')
     strip_comments(dotabuff_dir + 'dota_english.txt')
     print 'copy txt from dotabuff'
     
-def copy_source_json_from_dotabuff(dotabuff_dir):
-    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/npc_heroes.json', dotabuff_dir + 'npc_heroes.json')
-    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/npc_abilities.json', dotabuff_dir + 'npc_abilities.json')
-    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/npc_units.json', dotabuff_dir + 'npc_units.json')
-    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/scripts/npc/items.json', dotabuff_dir + 'items.json')
-    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/master/dota/resource/dota_english.json', dotabuff_dir + 'dota_english.json')
+def copy_source_json_from_dotabuff(dotabuff_dir, dotabuff_branch):
+    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/scripts/npc/npc_heroes.json', dotabuff_dir + 'npc_heroes.json')
+    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/scripts/npc/npc_abilities.json', dotabuff_dir + 'npc_abilities.json')
+    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/scripts/npc/npc_units.json', dotabuff_dir + 'npc_units.json')
+    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/scripts/npc/items.json', dotabuff_dir + 'items.json')
+    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/resource/dota_english.json', dotabuff_dir + 'dota_english.json')
     print 'copy json from dotabuff'
 
 def process(src_dir, subset_dir, yaml_dir):
@@ -165,7 +165,7 @@ def process(src_dir, subset_dir, yaml_dir):
                 itemrequirements_data = []
                 for x in item_data_subset[a][k]:
                     if x != item_data_subset[a]['ItemResult']:
-                        itemrequirements_data = [i for i in x.split(';')]
+                        itemrequirements_data = [i for i in x.strip(';').split(';')]
                 item_data_subset[a][k] = itemrequirements_data
     ##print item_data_subset['item_broadsword']['AbilitySpecial']
     
@@ -353,6 +353,7 @@ def main():
     parser.add_argument("--clean", action='store_true')
     parser.add_argument("--make_dirs", action='store_true')
     parser.add_argument("--dotabuff", action='store_true')
+    parser.add_argument("--dotabuff_branch", default='master')
     parser.add_argument("--dotabuff_in", default='../source/')
     parser.add_argument("--parse", action='store_true')
     parser.add_argument("--parse_in", default='../source/')
@@ -371,7 +372,7 @@ def main():
     if args.make_dirs:
         make_dirs(folders)
     if args.dotabuff:
-        copy_source_from_dotabuff(args.dotabuff_in)
+        copy_source_from_dotabuff(args.dotabuff_in, args.dotabuff_branch)
     if args.parse:
         parse_all_vdf_to_json(args.parse_in, args.parse_out)
     if args.process:
