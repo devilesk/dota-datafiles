@@ -3,6 +3,7 @@ import json
 import vdf
 import yaml
 import datetime
+import math
 from common import *
 import schema
 import mapping
@@ -22,7 +23,8 @@ file_data = [
     ('items', 'DOTAAbilities', None),
     ('dota_english', 'lang', None)
 ]
-      
+MAX_ABILITY_LEVEL = 25
+
 def parse_vdf_to_json(filename, src_dir, out_dir):
     print 'parse', filename
     with open(src_dir + filename, 'r') as f:
@@ -296,11 +298,18 @@ def process(src_dir, subset_dir, yaml_dir):
     herobio_data = {}
     for h in hero_data_subset:
         abilities = []
-        for x in range(1,17):
+        talents = [[], [], [], []]
+        talentCount = 0
+        for x in range(1,MAX_ABILITY_LEVEL):
             if 'Ability' + str(x) in hero_data_subset[h]:
-                abilities.append(ability_data_subset[hero_data_subset[h]['Ability' + str(x)]])
+                if 'special_bonus_' in hero_data_subset[h]['Ability' + str(x)]:
+                    talents[int(math.floor(talentCount/2))].append(ability_data_subset[hero_data_subset[h]['Ability' + str(x)]])
+                    talentCount = talentCount + 1
+                else:
+                    abilities.append(ability_data_subset[hero_data_subset[h]['Ability' + str(x)]])
                 del hero_data_subset[h]['Ability' + str(x)]
         hero_data_subset[h]['abilities'] = abilities
+        hero_data_subset[h]['talents'] = talents
         hero_data_subset[h]['level'] = 0
         hero_data_subset[h]['items'] = []
         hero_data_subset[h]['displayname'] = tooltip_data_subset[h]['DisplayName']
@@ -314,7 +323,7 @@ def process(src_dir, subset_dir, yaml_dir):
                     
     for h in unit_data_subset:
         abilities = []
-        for x in range(1,17):
+        for x in range(1,MAX_ABILITY_LEVEL):
             if 'Ability' + str(x) in unit_data_subset[h]:
                 if unit_data_subset[h]['Ability' + str(x)] in ability_data_subset:
                     abilities.append(ability_data_subset[unit_data_subset[h]['Ability' + str(x)]])

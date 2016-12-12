@@ -9,3 +9,9 @@ cd build
 
 python parser.py --make_dirs --dotabuff --process
 ```
+
+test client:
+
+```
+python parser.py --make_dirs --dotabuff_branch test-client-20161211 --dotabuff --process
+```
