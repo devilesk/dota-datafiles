@@ -14767,6 +14767,7 @@
      }, 
      {
       "name": "cooldown_scepter", 
+      "tooltip": "SCEPTER COOLDOWN:", 
       "value": [
        110
       ]
@@ -33949,7 +33950,7 @@
     "ID": 5383, 
     "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO", 
     "abilitytype": "DOTA_ABILITY_TYPE_BASIC", 
-    "abilityunitdamagetype": "DAMAGE_TYPE_MAGIC", 
+    "abilityunitdamagetype": "DAMAGE_TYPE_MAGICAL", 
     "attributes": [
      {
       "name": "delay", 
@@ -43091,7 +43092,12 @@
      0, 
      0
     ], 
-    "AbilityDuration": 10, 
+    "AbilityDuration": [
+     0, 
+     0, 
+     0, 
+     0
+    ], 
     "AbilityModifierSupportBonus": 0, 
     "AbilityModifierSupportValue": 1, 
     "ID": 5042, 
@@ -43125,8 +43131,7 @@
       ]
      }, 
      {
-      "name": "duration_tooltip", 
-      "tooltip": "DURATION:", 
+      "name": "fiery_soul_stack_duration", 
       "value": [
        10
       ]
@@ -50891,7 +50896,8 @@
      }
     ], 
     "behavior": [
-     "DOTA_ABILITY_BEHAVIOR_POINT"
+     "DOTA_ABILITY_BEHAVIOR_POINT", 
+     "DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN"
     ], 
     "cooldown": [
      25
@@ -54290,59 +54296,6 @@
      50
     ], 
     "name": "necrolyte_sadist"
-   }, 
-   {
-    "AbilityCastPoint": [
-     0, 
-     0, 
-     0, 
-     0
-    ], 
-    "AbilityCastRange": 0, 
-    "AbilityCastRangeBuffer": 250, 
-    "AbilityChannelTime": [
-     0, 
-     0, 
-     0, 
-     0
-    ], 
-    "AbilityDuration": [
-     0, 
-     0, 
-     0, 
-     0
-    ], 
-    "AbilityModifierSupportBonus": 0, 
-    "AbilityModifierSupportValue": 1, 
-    "ID": 6316, 
-    "abilitytype": "DOTA_ABILITY_TYPE_BASIC", 
-    "attributes": [], 
-    "behavior": [
-     "DOTA_ABILITY_BEHAVIOR_NO_TARGET", 
-     "DOTA_ABILITY_BEHAVIOR_HIDDEN", 
-     "DOTA_ABILITY_BEHAVIOR_IMMEDIATE", 
-     "DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
-    ], 
-    "cooldown": [
-     0, 
-     0, 
-     0, 
-     0
-    ], 
-    "damage": [
-     0, 
-     0, 
-     0, 
-     0
-    ], 
-    "level": 0, 
-    "manacost": [
-     0, 
-     0, 
-     0, 
-     0
-    ], 
-    "name": "necrolyte_sadist_stop"
    }, 
    {
     "AbilityCastPoint": [
@@ -70091,6 +70044,7 @@
      }, 
      {
       "name": "scepter_bonus", 
+      "tooltip": "SCEPTER BONUS DURATION:", 
       "value": [
        4
       ]
@@ -79482,7 +79436,7 @@
      }, 
      {
       "name": "scepter_aoe", 
-      "tooltip": "SCEPTER AOE:", 
+      "tooltip": "SCEPTER RADIUS:", 
       "value": [
        325
       ]
@@ -80330,13 +80284,13 @@
      }, 
      {
       "name": "scepter_radius", 
-      "tooltip": "SCEPTER AOE:", 
+      "tooltip": "SCEPTER RADIUS:", 
       "value": [
        400
       ]
      }, 
      {
-      "name": "crit_bonus", 
+      "name": "scepter_crit_bonus", 
       "tooltip": "%SCEPTER CRITICAL DAMAGE:", 
       "value": [
        280
@@ -84436,7 +84390,7 @@
       0, 
       0
      ], 
-     "displayname": "-5s Stormbolt Cooldown", 
+     "displayname": "-5s Storm Hammer Cooldown", 
      "level": 0, 
      "manacost": [
       0, 
@@ -84711,7 +84665,8 @@
     ], 
     "behavior": [
      "DOTA_ABILITY_BEHAVIOR_POINT", 
-     "DOTA_ABILITY_BEHAVIOR_AOE"
+     "DOTA_ABILITY_BEHAVIOR_AOE", 
+     "DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN"
     ], 
     "cooldown": [
      35
@@ -94781,7 +94736,7 @@
     "ID": 5124, 
     "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES", 
     "abilitytype": "DOTA_ABILITY_TYPE_BASIC", 
-    "abilityunitdamagetype": "DAMAGE_TYPE_MAGIC", 
+    "abilityunitdamagetype": "DAMAGE_TYPE_MAGICAL", 
     "attributes": [
      {
       "name": "wave_speed", 
@@ -97703,7 +97658,7 @@
       "name": "familiar_speed", 
       "tooltip": "FAMILIAR SPEED:", 
       "value": [
-       450
+       430
       ]
      }, 
      {
@@ -104319,15 +104274,6 @@
        225, 
        325, 
        425
-      ]
-     }, 
-     {
-      "name": "damage_scepter", 
-      "tooltip": "SCEPTER DAMAGE:", 
-      "value": [
-       440, 
-       540, 
-       640
       ]
      }
     ], 

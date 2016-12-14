@@ -207,6 +207,7 @@
       "ItemPermanent": "0",
       "ItemInitialCharges": "1",
       "ItemHideCharges": "1",
+      "IsTempestDoubleClonable": "0",
       "UIPickupSound": "Item.PickUpRingShop",
       "UIDropSound": "Item.DropRingShop",
       "WorldDropSound": "Item.DropRingWorld",
@@ -547,10 +548,10 @@
       "SideShop": "1",
       "AbilitySpecial": [
         {
-          "lifesteal_percent": 15
+          "bonus_damage": 15
         },
         {
-          "bonus_damage": 15
+          "lifesteal_percent": 15
         }
       ]
     },
@@ -620,6 +621,7 @@
       "ItemKillable": "0",
       "ItemContributesToNetWorthWhenDropped": "0",
       "AllowedInBackpack": "0",
+      "IsTempestDoubleClonable": "0",
       "UIPickupSound": "Item.PickUpGemShop",
       "UIDropSound": "Item.DropGemShop",
       "WorldDropSound": "Item.DropGemWorld",
@@ -676,6 +678,7 @@
       "ItemInitialCharges": "1",
       "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
       "ItemContributesToNetWorthWhenDropped": "0",
+      "IsTempestDoubleClonable": "0",
       "AbilitySpecial": [
         {
           "health_restore": 2500
@@ -786,6 +789,7 @@
       "ItemPermanent": "0",
       "ItemInitialCharges": "1",
       "SideShop": "0",
+      "IsTempestDoubleClonable": "0",
       "AbilitySpecial": [
         {
           "total_mana": 190
@@ -812,6 +816,7 @@
       "ItemInitialCharges": "1",
       "SideShop": "0",
       "ItemHideCharges": "1",
+      "IsTempestDoubleClonable": "0",
       "AbilitySpecial": [
         {
           "hp_regen": 1.0
@@ -836,6 +841,7 @@
       "ItemStackable": "1",
       "ItemPermanent": "0",
       "ItemInitialCharges": "1",
+      "IsTempestDoubleClonable": "0",
       "AbilitySpecial": [
         {
           "buff_duration": 8
@@ -862,6 +868,7 @@
       "ItemInitialCharges": "2",
       "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES",
       "ItemSupport": "1",
+      "IsTempestDoubleClonable": "0",
       "AbilitySpecial": [
         {
           "duration": 12
@@ -895,6 +902,7 @@
       "ItemPermanent": "1",
       "ItemInitialCharges": "3",
       "ItemDisplayCharges": "1",
+      "IsTempestDoubleClonable": "0",
       "AbilitySpecial": [
         {
           "health_restore": 90
@@ -933,6 +941,7 @@
       "ItemStockTime": "150.0",
       "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES",
       "ItemSupport": "1",
+      "IsTempestDoubleClonable": "0",
       "AbilitySpecial": [
         {
           "lifetime": 360
@@ -968,6 +977,7 @@
       "ItemInitialCharges": "2",
       "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES",
       "ItemSupport": "1",
+      "IsTempestDoubleClonable": "0",
       "AbilitySpecial": [
         {
           "lifetime": 240
@@ -1014,6 +1024,7 @@
       "ItemPurchasable": "0",
       "ItemDeclarations": "DECLARE_PURCHASES_TO_SPECTATORS",
       "ItemDisassembleRule": "DOTA_ITEM_DISASSEMBLE_NEVER",
+      "IsTempestDoubleClonable": "0",
       "AbilityCastRange": "500",
       "AbilityCooldown": "0",
       "AbilitySpecial": [
@@ -1066,6 +1077,7 @@
       "ItemPermanent": "0",
       "ItemInitialCharges": "4",
       "SideShop": "0",
+      "IsTempestDoubleClonable": "0",
       "AbilitySpecial": [
         {
           "total_heal": 115
@@ -1100,6 +1112,7 @@
       "ItemPurchasable": "0",
       "ItemSellable": "0",
       "ItemShareability": "ITEM_FULLY_SHAREABLE",
+      "IsTempestDoubleClonable": "0",
       "AbilitySpecial": [
         {
           "total_heal": 115
@@ -1126,7 +1139,8 @@
       "ItemShareability": "ITEM_FULLY_SHAREABLE",
       "ItemStockMax": "1",
       "ItemStockTime": "120.0",
-      "ItemSupport": "1"
+      "ItemSupport": "1",
+      "IsTempestDoubleClonable": "0"
     },
     "item_tpscroll": {
       "ID": "46",
@@ -1832,7 +1846,8 @@
       "ItemStockMax": "1",
       "ItemStockInitial": "0",
       "ItemStockTime": "270.0",
-      "ItemSupport": "1"
+      "ItemSupport": "1",
+      "IsTempestDoubleClonable": "0"
     },
     "item_recipe_buckler": {
       "ID": "85",
@@ -2884,9 +2899,9 @@
         },
         {
           "warrior_damage_tooltip": [
-            50,
-            70,
-            90
+            75,
+            100,
+            125
           ]
         },
         {
@@ -2997,9 +3012,9 @@
         },
         {
           "warrior_damage_tooltip": [
-            50,
-            70,
-            90
+            75,
+            100,
+            125
           ]
         },
         {
@@ -3108,9 +3123,9 @@
         },
         {
           "warrior_damage_tooltip": [
-            50,
-            70,
-            90
+            75,
+            100,
+            125
           ]
         },
         {
@@ -3386,6 +3401,7 @@
       "ItemKillable": "1",
       "ItemContributesToNetWorthWhenDropped": "0",
       "AllowedInBackpack": "0",
+      "IsTempestDoubleClonable": "0",
       "AbilitySpecial": [
         {
           "reincarnate_time": 5.0
@@ -3832,6 +3848,7 @@
       "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH",
       "ItemContributesToNetWorthWhenDropped": "0",
       "AllowedInBackpack": "0",
+      "IsTempestDoubleClonable": "0",
       "AbilitySpecial": [
         {
           "bonus_damage": 330
@@ -4818,10 +4835,10 @@
       "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
       "AbilitySpecial": [
         {
-          "lifesteal_percent": 15
+          "bonus_damage": 15
         },
         {
-          "bonus_damage": 15
+          "lifesteal_percent": 15
         },
         {
           "berserk_bonus_attack_speed": 100
@@ -5401,6 +5418,7 @@
       "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
       "ItemSupport": "1",
       "ItemAlertable": "1",
+      "IsTempestDoubleClonable": "0",
       "AbilitySpecial": [
         {
           "application_radius": 1200
@@ -5436,9 +5454,16 @@
       "ItemInitialStockTime": "690.0",
       "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
       "ItemSupport": "1",
+      "IsTempestDoubleClonable": "0",
       "AbilitySpecial": [
         {
           "xp_bonus": 500
+        },
+        {
+          "xp_per_use": 100
+        },
+        {
+          "customval_team_tomes_used": 0
         }
       ]
     },
@@ -5944,606 +5969,6 @@
         {
           "duration": 5.0
         }
-      ]
-    },
-    "item_halloween_candy_corn": {
-      "ID": "1000",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
-      "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY | DOTA_UNIT_TARGET_TEAM_ENEMY",
-      "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING",
-      "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_INVULNERABLE",
-      "Model": "models/props_gameplay/halloween_candy.vmdl",
-      "UIPickupSound": "Item.PickUpGemShop",
-      "UIDropSound": "Item.DropGemShop",
-      "WorldDropSound": "Item.DropGemWorld",
-      "AbilityCastRange": "350",
-      "AbilityCastPoint": "0.0",
-      "AbilityCooldown": "0.0",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "1",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE_STACKING",
-      "ItemPermanent": "0",
-      "ItemInitialCharges": "1",
-      "ItemPurchasable": "0",
-      "ItemKillable": "0",
-      "ItemDroppable": "0",
-      "ItemSellable": "0",
-      "AbilitySpecial": [
-
-      ]
-    },
-    "item_mystery_hook": {
-      "ID": "1001",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
-      "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
-      "AbilityCastRange": "1300",
-      "AbilityCastPoint": "0.3",
-      "AbilityCooldown": "11.0",
-      "AbilityDamage": "360",
-      "AbilityManaCost": "140",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "1",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE",
-      "ItemPermanent": "0",
-      "ItemInitialCharges": "2",
-      "ItemPurchasable": "0",
-      "ItemSellable": "0",
-      "AbilitySpecial": [
-        {
-          "hook_speed": 1600.0
-        },
-        {
-          "hook_width": 100
-        },
-        {
-          "hook_distance": 1300
-        },
-        {
-          "vision_radius": 500
-        },
-        {
-          "vision_duration": 4.0
-        }
-      ]
-    },
-    "item_mystery_arrow": {
-      "ID": "1002",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_DIRECTIONAL | DOTA_ABILITY_BEHAVIOR_POINT",
-      "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
-      "AbilityCastRange": "3000",
-      "AbilityCastPoint": "0.5",
-      "AbilityCooldown": "2.0",
-      "AbilityDuration": "3.11",
-      "AbilityDamage": "360",
-      "AbilityManaCost": "0",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "1",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE",
-      "ItemPermanent": "0",
-      "ItemInitialCharges": "2",
-      "ItemPurchasable": "0",
-      "ItemSellable": "0",
-      "AbilitySpecial": [
-        {
-          "arrow_speed": 857.0
-        },
-        {
-          "arrow_width": 115
-        },
-        {
-          "arrow_range": 3000
-        },
-        {
-          "arrow_max_stunrange": 1500
-        },
-        {
-          "arrow_min_stun": 0.5
-        },
-        {
-          "arrow_max_stun": 5.0
-        }
-      ]
-    },
-    "item_mystery_missile": {
-      "ID": "1003",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
-      "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
-      "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
-      "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
-      "AbilityCastRange": "1050",
-      "AbilityCastPoint": "0.3",
-      "AbilityCooldown": "20.0",
-      "AbilityManaCost": "0",
-      "AbilityDamage": "440",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "1",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE",
-      "ItemPermanent": "0",
-      "ItemInitialCharges": "2",
-      "ItemPurchasable": "0",
-      "ItemSellable": "0",
-      "AbilitySpecial": [
-        {
-          "stun_duration": 2.5
-        },
-        {
-          "attack_speed_bonus_pct": 400
-        },
-        {
-          "min_damage": 50
-        },
-        {
-          "max_distance": 2000
-        },
-        {
-          "pre_flight_time": 3
-        },
-        {
-          "hero_damage": 34
-        },
-        {
-          "speed": 340.0
-        },
-        {
-          "acceleration": 20
-        },
-        {
-          "enemy_vision_time": 4
-        }
-      ]
-    },
-    "item_mystery_toss": {
-      "ID": "1004",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE",
-      "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
-      "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
-      "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
-      "AbilityCastRange": "1300",
-      "AbilityCastPoint": "0.0",
-      "AbilityCooldown": "2.0",
-      "AbilityDamage": "300",
-      "AbilityManaCost": "0",
-      "AbilityModifierSupportValue": "0.25",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "1",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE",
-      "ItemPermanent": "0",
-      "ItemInitialCharges": "2",
-      "ItemPurchasable": "0",
-      "ItemSellable": "0",
-      "AbilitySpecial": [
-        {
-          "duration": 1
-        },
-        {
-          "grab_radius": 250
-        },
-        {
-          "radius": 275
-        },
-        {
-          "bonus_damage_pct": 20
-        },
-        {
-          "grow_bonus_damage_pct": 80
-        },
-        {
-          "tooltip_range": 1300
-        },
-        {
-          "toss_damage": 300
-        }
-      ]
-    },
-    "item_mystery_vacuum": {
-      "ID": "1005",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
-      "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
-      "AbilityCastRange": "500",
-      "AbilityCastPoint": "0.4",
-      "AbilityCooldown": "2.0",
-      "AbilityManaCost": "0",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "1",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE",
-      "ItemPermanent": "0",
-      "ItemInitialCharges": "2",
-      "ItemPurchasable": "0",
-      "ItemSellable": "0",
-      "AbilitySpecial": [
-        {
-          "radius": 550
-        },
-        {
-          "duration": 0.4
-        },
-        {
-          "damage": 160
-        },
-        {
-          "radius_tree": 275
-        }
-      ]
-    },
-    "item_halloween_rapier": {
-      "ID": "1006",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
-      "ItemCost": "6200",
-      "ItemShopTags": "damage",
-      "ItemQuality": "epic",
-      "ItemShareability": "ITEM_NOT_SHAREABLE",
-      "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
-      "ItemSellable": "0",
-      "ItemKillable": "0",
-      "ItemPurchasable": "0",
-      "ItemInitialCharges": "3",
-      "ItemPermanent": "0",
-      "AbilitySpecial": [
-        {
-          "bonus_damage": 100
-        }
-      ]
-    },
-    "item_greevil_whistle": {
-      "ID": "1007",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
-      "UIPickupSound": "Item.PickUpGemShop",
-      "UIDropSound": "Item.DropGemShop",
-      "WorldDropSound": "Item.DropGemWorld",
-      "AbilityCastRange": "0",
-      "AbilityCastPoint": "0.0",
-      "AbilityCooldown": "120.0",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "0",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE_STACKING",
-      "ItemPermanent": "1",
-      "ItemInitialCharges": "1",
-      "ItemPurchasable": "0",
-      "ItemKillable": "0",
-      "ItemDroppable": "0",
-      "ItemSellable": "0",
-      "AbilitySpecial": [
-        {
-          "duration": 30.0
-        },
-        {
-          "transform_duration": 2.0
-        }
-      ]
-    },
-    "item_greevil_whistle_toggle": {
-      "ID": "1008",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
-      "UIPickupSound": "Item.PickUpGemShop",
-      "UIDropSound": "Item.DropGemShop",
-      "WorldDropSound": "Item.DropGemWorld",
-      "AbilityCastRange": "0",
-      "AbilityCastPoint": "0.0",
-      "AbilityChannelTime": "2.0",
-      "AbilityCooldown": "2.0",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "0",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE_STACKING",
-      "ItemPermanent": "1",
-      "ItemInitialCharges": "1",
-      "ItemPurchasable": "0",
-      "ItemKillable": "0",
-      "ItemDroppable": "0",
-      "ItemSellable": "0",
-      "AbilitySpecial": [
-        {
-          "duration": 30.0
-        },
-        {
-          "transform_duration": 2.0
-        }
-      ]
-    },
-    "item_present": {
-      "ID": "1009",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
-      "Model": "models/props_winter/present.vmdl",
-      "UIPickupSound": "Item.PickUpGemShop",
-      "UIDropSound": "Item.DropGemShop",
-      "WorldDropSound": "Item.DropGemWorld",
-      "AbilityCastRange": "350",
-      "AbilityCastPoint": "0.0",
-      "AbilityCooldown": "0.0",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "1",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE_STACKING",
-      "ItemPermanent": "0",
-      "ItemInitialCharges": "2",
-      "ItemPurchasable": "0",
-      "ItemKillable": "0",
-      "ItemDroppable": "0",
-      "ItemSellable": "0",
-      "ItemCastOnPickup": "1",
-      "AbilitySpecial": [
-
-      ]
-    },
-    "item_winter_stocking": {
-      "ID": "1010",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
-      "UIPickupSound": "Item.PickUpGemShop",
-      "UIDropSound": "Item.DropGemShop",
-      "WorldDropSound": "Item.DropGemWorld",
-      "AbilityCastRange": "350",
-      "AbilityCastPoint": "0.0",
-      "AbilityCooldown": "0.0",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "1",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE_STACKING",
-      "ItemPermanent": "0",
-      "ItemInitialCharges": "1",
-      "ItemPurchasable": "0",
-      "ItemKillable": "0",
-      "ItemDroppable": "0",
-      "ItemSellable": "0",
-      "AbilitySpecial": [
-
-      ]
-    },
-    "item_winter_skates": {
-      "ID": "1011",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
-      "ItemCost": "0",
-      "ItemShopTags": "move_speed",
-      "ItemQuality": "component",
-      "ItemPurchasable": "0",
-      "AbilitySpecial": [
-        {
-          "bonus_movement_speed": 100
-        }
-      ]
-    },
-    "item_winter_cake": {
-      "ID": "1012",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
-      "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
-      "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
-      "AbilityCastRange": "150",
-      "AbilityCastPoint": "0.0",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "1",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE",
-      "ItemPermanent": "0",
-      "ItemInitialCharges": "5",
-      "ItemPurchasable": "0",
-      "AbilitySpecial": [
-        {
-          "buff_duration": 8
-        },
-        {
-          "total_health": 400
-        },
-        {
-          "total_mana": 50
-        }
-      ]
-    },
-    "item_winter_cookie": {
-      "ID": "1013",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
-      "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
-      "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
-      "AbilityCastRange": "150",
-      "AbilityCastPoint": "0.0",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "1",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE",
-      "ItemPermanent": "0",
-      "ItemInitialCharges": "5",
-      "ItemPurchasable": "0",
-      "AbilitySpecial": [
-        {
-          "buff_duration": 11
-        },
-        {
-          "total_health": 350
-        },
-        {
-          "total_mana": 100
-        }
-      ]
-    },
-    "item_winter_coco": {
-      "ID": "1014",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
-      "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
-      "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
-      "AbilityCastRange": "150",
-      "AbilityCastPoint": "0.0",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "1",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE",
-      "ItemPermanent": "0",
-      "ItemInitialCharges": "5",
-      "ItemPurchasable": "0",
-      "AbilitySpecial": [
-        {
-          "buff_duration": 14
-        },
-        {
-          "total_health": 300
-        },
-        {
-          "total_mana": 150
-        }
-      ]
-    },
-    "item_winter_ham": {
-      "ID": "1015",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
-      "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
-      "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
-      "AbilityCastRange": "150",
-      "AbilityCastPoint": "0.0",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "1",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE",
-      "ItemPermanent": "0",
-      "ItemInitialCharges": "5",
-      "ItemPurchasable": "0",
-      "AbilitySpecial": [
-        {
-          "buff_duration": 2
-        },
-        {
-          "total_health": 300
-        },
-        {
-          "total_mana": 75
-        }
-      ]
-    },
-    "item_winter_kringle": {
-      "ID": "1016",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
-      "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
-      "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
-      "AbilityCastRange": "150",
-      "AbilityCastPoint": "0.0",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "1",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE",
-      "ItemPermanent": "0",
-      "ItemInitialCharges": "5",
-      "ItemPurchasable": "0",
-      "AbilitySpecial": [
-        {
-          "buff_duration": 17
-        },
-        {
-          "total_health": 250
-        },
-        {
-          "total_mana": 200
-        }
-      ]
-    },
-    "item_winter_mushroom": {
-      "ID": "1017",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
-      "AbilityCastRange": "150",
-      "AbilityCastPoint": "0.0",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "1",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE",
-      "ItemPermanent": "0",
-      "ItemInitialCharges": "1",
-      "ItemPurchasable": "0",
-      "ItemKillable": "0",
-      "ItemDroppable": "0",
-      "ItemSellable": "0",
-      "AbilitySpecial": [
-
-      ]
-    },
-    "item_winter_greevil_treat": {
-      "ID": "1018",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
-      "AbilityCastRange": "150",
-      "AbilityCastPoint": "0.0",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "1",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE",
-      "ItemPermanent": "0",
-      "ItemInitialCharges": "2",
-      "ItemPurchasable": "0",
-      "ItemKillable": "0",
-      "ItemDroppable": "0",
-      "ItemSellable": "0",
-      "AbilitySpecial": [
-        {
-          "duration": 10
-        }
-      ]
-    },
-    "item_winter_greevil_garbage": {
-      "ID": "1019",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
-      "AbilityCastRange": "150",
-      "AbilityCastPoint": "0.0",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "1",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE",
-      "ItemPermanent": "0",
-      "ItemInitialCharges": "2",
-      "ItemPurchasable": "0",
-      "ItemKillable": "0",
-      "ItemDroppable": "0",
-      "ItemSellable": "0",
-      "AbilitySpecial": [
-        {
-          "buff_duration": 5
-        },
-        {
-          "total_health": 400
-        },
-        {
-          "total_mana": 150
-        }
-      ]
-    },
-    "item_winter_greevil_chewy": {
-      "ID": "1020",
-      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
-      "AbilityCastRange": "400",
-      "AbilityCastPoint": "0.0",
-      "AbilityCooldown": "10.0",
-      "AbilityManaCost": "0",
-      "AbilityChannelTime": "2.0",
-      "ItemCost": "0",
-      "ItemShopTags": "consumable",
-      "ItemQuality": "consumable",
-      "ItemStackable": "0",
-      "ItemShareability": "ITEM_FULLY_SHAREABLE_STACKING",
-      "ItemPermanent": "1",
-      "ItemInitialCharges": "1",
-      "ItemPurchasable": "0",
-      "ItemKillable": "0",
-      "ItemDroppable": "0",
-      "ItemSellable": "0",
-      "AbilitySpecial": [
-
       ]
     },
     "item_river_painter": {

@@ -4613,6 +4613,7 @@ npc_dota_hero_chaos_knight:
     - name: vision_radius
       value: [400]
     - name: cooldown_scepter
+      tooltip: 'SCEPTER COOLDOWN:'
       value: [110]
     behavior: [DOTA_ABILITY_BEHAVIOR_NO_TARGET]
     cooldown: [130]
@@ -9827,7 +9828,7 @@ npc_dota_hero_invoker:
     ID: 5383
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_NO
     abilitytype: DOTA_ABILITY_TYPE_BASIC
-    abilityunitdamagetype: DAMAGE_TYPE_MAGIC
+    abilityunitdamagetype: DAMAGE_TYPE_MAGICAL
     attributes:
     - name: delay
       tooltip: 'CHARGE TIME:'
@@ -12317,7 +12318,7 @@ npc_dota_hero_lina:
     AbilityCastRange: 0
     AbilityCastRangeBuffer: 250
     AbilityChannelTime: [0, 0, 0, 0]
-    AbilityDuration: 10
+    AbilityDuration: [0, 0, 0, 0]
     AbilityModifierSupportBonus: 0
     AbilityModifierSupportValue: 1
     ID: 5042
@@ -12332,8 +12333,7 @@ npc_dota_hero_lina:
     - name: fiery_soul_max_stacks
       tooltip: 'MAX STACKS:'
       value: [3]
-    - name: duration_tooltip
-      tooltip: 'DURATION:'
+    - name: fiery_soul_stack_duration
       value: [10]
     behavior: [DOTA_ABILITY_BEHAVIOR_PASSIVE]
     cooldown: [0, 0, 0, 0]
@@ -14329,7 +14329,7 @@ npc_dota_hero_monkey_king:
       value: [150]
     - name: strike_cast_range
       value: [1200]
-    behavior: [DOTA_ABILITY_BEHAVIOR_POINT]
+    behavior: [DOTA_ABILITY_BEHAVIOR_POINT, DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN]
     cooldown: [25]
     damage: [0, 0, 0, 0]
     displayname: Boundless Strike
@@ -15206,23 +15206,6 @@ npc_dota_hero_necrolyte:
     level: 0
     manacost: [50]
     name: necrolyte_sadist
-  - AbilityCastPoint: [0, 0, 0, 0]
-    AbilityCastRange: 0
-    AbilityCastRangeBuffer: 250
-    AbilityChannelTime: [0, 0, 0, 0]
-    AbilityDuration: [0, 0, 0, 0]
-    AbilityModifierSupportBonus: 0
-    AbilityModifierSupportValue: 1
-    ID: 6316
-    abilitytype: DOTA_ABILITY_TYPE_BASIC
-    attributes: []
-    behavior: [DOTA_ABILITY_BEHAVIOR_NO_TARGET, DOTA_ABILITY_BEHAVIOR_HIDDEN, DOTA_ABILITY_BEHAVIOR_IMMEDIATE,
-      DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE]
-    cooldown: [0, 0, 0, 0]
-    damage: [0, 0, 0, 0]
-    level: 0
-    manacost: [0, 0, 0, 0]
-    name: necrolyte_sadist_stop
   - AbilityCastPoint: [0, 0, 0, 0]
     AbilityCastRange: 900
     AbilityCastRangeBuffer: 250
@@ -19063,6 +19046,7 @@ npc_dota_hero_riki:
       tooltip: 'MAX ATTACKS PER UNIT:'
       value: [4, 5, 6]
     - name: scepter_bonus
+      tooltip: 'SCEPTER BONUS DURATION:'
       value: [4]
     behavior: [DOTA_ABILITY_BEHAVIOR_NO_TARGET, DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT,
       DOTA_ABILITY_BEHAVIOR_CHANNELLED, DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK,
@@ -21344,7 +21328,7 @@ npc_dota_hero_slark:
     - name: neutral_disable
       value: [2, 2, 2]
     - name: scepter_aoe
-      tooltip: 'SCEPTER AOE:'
+      tooltip: 'SCEPTER RADIUS:'
       value: [325]
     - name: cooldown_scepter
       value: [30]
@@ -21523,9 +21507,9 @@ npc_dota_hero_sniper:
     - name: total_cast_time_tooltip
       value: [2]
     - name: scepter_radius
-      tooltip: 'SCEPTER AOE:'
+      tooltip: 'SCEPTER RADIUS:'
       value: [400]
-    - name: crit_bonus
+    - name: scepter_crit_bonus
       tooltip: '%SCEPTER CRITICAL DAMAGE:'
       value: [280]
     behavior: [DOTA_ABILITY_BEHAVIOR_UNIT_TARGET, DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN]
@@ -22419,7 +22403,7 @@ npc_dota_hero_sven:
       behavior: [DOTA_ABILITY_BEHAVIOR_PASSIVE]
       cooldown: [0, 0, 0, 0]
       damage: [0, 0, 0, 0]
-      displayname: -5s Stormbolt Cooldown
+      displayname: -5s Storm Hammer Cooldown
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_unique_sven
@@ -22527,7 +22511,7 @@ npc_dota_hero_techies:
       value: [50]
     - name: duration
       value: [0.75]
-    behavior: [DOTA_ABILITY_BEHAVIOR_POINT, DOTA_ABILITY_BEHAVIOR_AOE]
+    behavior: [DOTA_ABILITY_BEHAVIOR_POINT, DOTA_ABILITY_BEHAVIOR_AOE, DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN]
     cooldown: [35]
     damage: [0, 0, 0, 0]
     displayname: Blast Off!
@@ -24901,7 +24885,7 @@ npc_dota_hero_vengefulspirit:
     ID: 5124
     SpellImmunityType: SPELL_IMMUNITY_ENEMIES_YES
     abilitytype: DOTA_ABILITY_TYPE_BASIC
-    abilityunitdamagetype: DAMAGE_TYPE_MAGIC
+    abilityunitdamagetype: DAMAGE_TYPE_MAGICAL
     attributes:
     - name: wave_speed
       value: [2000.0]
@@ -25655,7 +25639,7 @@ npc_dota_hero_visage:
       value: [0, 1, 2]
     - name: familiar_speed
       tooltip: 'FAMILIAR SPEED:'
-      value: [450]
+      value: [430]
     - name: familiar_max_damage
       tooltip: 'FAMILIAR DAMAGE:'
       value: [56, 112, 168]
@@ -27275,9 +27259,6 @@ npc_dota_hero_zuus:
     - name: damage
       tooltip: 'DAMAGE:'
       value: [225, 325, 425]
-    - name: damage_scepter
-      tooltip: 'SCEPTER DAMAGE:'
-      value: [440, 540, 640]
     behavior: [DOTA_ABILITY_BEHAVIOR_NO_TARGET]
     cooldown: [90]
     damage: [0, 0, 0, 0]

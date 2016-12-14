@@ -428,7 +428,7 @@
   "Lore": "Black Arachnia continues to raise her young, even amidst the field of combat.  The brood quickly learns how to support their mother."
  }, 
  "broodmother_spin_web": {
-  "Description": "Spins a large web that renders Broodmother invisible, grants a passive movement speed increase, gives free movement, and boosts regeneration while in its vicinity. Spin Web charges restore every %charge_restore_time% seconds. If damage is taken, free movement is disabled and the movement speed increase is halved for %damage_time% seconds. Spin Web can be cast from anywhere as long as the new web touches an existing web. Webs never expire, and can be manually destroyed. When the maximum limit of webs is exceeded, the oldest web disappears.", 
+  "Description": "Spins a large web that renders Broodmother invisible, grants a passive movement speed increase, gives free movement, and boosts regeneration while in its vicinity. Spin Web charges restore every %dcharge_restore_time% seconds. If damage is taken, free movement is disabled and the movement speed increase is halved for %damage_time% seconds. Spin Web can be cast from anywhere as long as the new web touches an existing web. Webs never expire, and can be manually destroyed. When the maximum limit of webs is exceeded, the oldest web disappears.", 
   "DisplayName": "Spin Web", 
   "Lore": "Weaving a bed of silken fibers, Arachnia's web both protects her and her offspring, as well as giving advancing opponents a sense of forboding."
  }, 
@@ -850,7 +850,7 @@
   "Lore": "With blazing speed does a spirit fly!"
  }, 
  "ember_spirit_fire_remnant": {
-  "Description": "Ember Spirit generates Fire Remnant charges every %charge_restore_time% seconds, with a max of %max_charges% charges. Releasing a charge sends a Fire Remnant that runs to the target location at 2.5x Ember Spirit's speed.  Using Activate Fire Remnant, Ember Spirit can dash out to his Remnants, exploding them for area of effect damage.  The targeted Remnant will be arrived at last.", 
+  "Description": "Ember Spirit generates Fire Remnant charges every %dcharge_restore_time% seconds, with a max of %max_charges% charges. Releasing a charge sends a Fire Remnant that runs to the target location at 2.5x Ember Spirit's speed.  Using Activate Fire Remnant, Ember Spirit can dash out to his Remnants, exploding them for area of effect damage.  The targeted Remnant will be arrived at last.", 
   "DisplayName": "Fire Remnant", 
   "Lore": "By the spirit's power are Xin's teachings spread anew."
  }, 
@@ -1239,12 +1239,12 @@
   "DisplayName": "Invoked Spell"
  }, 
  "invoker_exort": {
-  "Description": "Allows manipulation of fire elements and grants a permanent intelligence bonus. Each <font color='#cabe68'>Exort</font> instance provides increased attack damage.", 
+  "Description": "Allows manipulation of fire elements. Each <font color='#cabe68'>Exort</font> instance provides increased attack damage.", 
   "DisplayName": "Exort", 
   "Lore": ""
  }, 
  "invoker_forge_spirit": {
-  "Description": "Invoker forges a spirit embodying the strength of fire and fortitude of ice. Damage, mana, and armor are based on the level of <font color='#cabe68'>Exort</font> while attack range, health, and duration are based on the level of <font color='#7998b5'>Quas</font>. The elemental's scorching attack is capable of melting the armor of enemy heroes. If both <font color='#7998b5'>Quas</font> and <font color='#cabe68'>Exort</font> are level 4 or higher, Invoker will create two spirits instead of one.", 
+  "Description": "Invoker forges a spirit embodying the strength of fire and fortitude of ice. Damage, mana, and armor are based on the level of <font color='#cabe68'>Exort</font> while attack range, health, and duration are based on the level of <font color='#7998b5'>Quas</font>. The elemental's scorching attack is capable of melting the armor of enemy heroes.", 
   "DisplayName": "Forge Spirit", 
   "Lore": "Culween's Most Cunning Fabrications."
  }, 
@@ -1264,7 +1264,7 @@
   "Lore": "So begins a new age of knowledge."
  }, 
  "invoker_quas": {
-  "Description": "Allows manipulation of ice elements and grants a permanent strength bonus. Each <font color='#7998b5'>Quas</font> instance provides increased health regeneration.\\n", 
+  "Description": "Allows manipulation of ice elements. Each <font color='#7998b5'>Quas</font> instance provides increased health regeneration.\\n", 
   "DisplayName": "Quas", 
   "Lore": ""
  }, 
@@ -1279,12 +1279,12 @@
   "Lore": "Claws of Tornarus."
  }, 
  "invoker_wex": {
-  "Description": "Allows manipulation of storm elements and grants a permanent agility bonus. Each <font color='#d671a9'>Wex</font> instance provides increased attack speed and movement speed.", 
+  "Description": "Allows manipulation of storm elements. Each <font color='#d671a9'>Wex</font> instance provides increased attack speed and movement speed.", 
   "DisplayName": "Wex", 
   "Lore": ""
  }, 
  "item_abyssal_blade": {
-  "Description": "Active: Overwhelm - Stuns a target enemy unit for %stun_duration% seconds. Pierces Spell Immunity.\\nPassive: Bash - Grants each attack a chance to stun the target for %bash_duration% seconds and deal %bonus_chance_damage% bonus damage, based on whether the equipped hero is ranged or melee.\\nPassive: Damage Block - Grants the wielder a %block_chance%%% chance to block damage from incoming attacks based on whether the equipped hero is melee or ranged.", 
+  "Description": "Active: Overwhelm - Stuns a target enemy unit for %dstun_duration% seconds. Pierces Spell Immunity.\\nPassive: Bash - Grants each attack a chance to stun the target for %bash_duration% seconds and deal %bonus_chance_damage% bonus damage, based on whether the equipped hero is ranged or melee.\\nPassive: Damage Block - Grants the wielder a %block_chance%%% chance to block damage from incoming attacks based on whether the equipped hero is melee or ranged.", 
   "DisplayName": "Abyssal Blade", 
   "Lore": "The lost blade of the Commander of the Abyss, this edge cuts into an enemy's soul."
  }, 
@@ -1483,7 +1483,7 @@
   "Lore": "A wicked weapon, used in torturing political criminals."
  }, 
  "item_diffusal_blade": {
-  "Description": "Active: Purge - Targets an enemy, removing from the target and slowing it for %purge_slow_duration% seconds.\\nPassive: Manabreak - Each attack burns %feedback_mana_burn% mana from the target, and deals %damage_per_burn% physical damage per burned mana. Burns %feedback_mana_burn_illusion_melee% mana per attack from melee illusions and %feedback_mana_burn_illusion_ranged% mana per attack from ranged illusions. Does not stack with other manabreak abilities.\\n\\nUpgradable.\\n\\nDISPEL TYPE: Basic Dispel", 
+  "Description": "Active: Purge - Targets an enemy, removing buffs from the target and slowing it for %purge_slow_duration% seconds.\\nPassive: Manabreak - Each attack burns %feedback_mana_burn% mana from the target, and deals %damage_per_burn% physical damage per burned mana. Burns %feedback_mana_burn_illusion_melee% mana per attack from melee illusions and %feedback_mana_burn_illusion_ranged% mana per attack from ranged illusions. Does not stack with other manabreak abilities.\\n\\nUpgradable.\\n\\nDISPEL TYPE: Basic Dispel", 
   "DisplayName": "Diffusal Blade", 
   "Lore": "An enchanted blade that allows the user to cut straight into the enemy's soul."
  }, 
@@ -1573,23 +1573,10 @@
   "DisplayName": "Daedalus", 
   "Lore": "A weapon of incredible power that is difficult for even the strongest of warriors to control."
  }, 
- "item_greevil_whistle": {
-  "Description": "Use the Greevil Whistle to temporarily transform into your Greevil!", 
-  "DisplayName": "Greevil Whistle"
- }, 
- "item_greevil_whistle_toggle": {
-  "Description": "Use the Greevil Whistle to toggle between Greevil and Hero!", 
-  "DisplayName": "Greevil Whistle"
- }, 
  "item_guardian_greaves": {
   "Description": "Active: Mend - Restores %replenish_health% health and %replenish_mana% mana to nearby allies, and removes most negative buffs from the caster.\\nPassive: Guardian Aura - Provides nearby allies with %aura_health_regen% health regeneration and %aura_armor% bonus armor. If an allied hero's health falls below %aura_bonus_threshold%%%, they receive %aura_health_regen_bonus% health regeneration and %aura_armor_bonus% armor.\\n\\nDISPEL TYPE: Basic Dispel", 
   "DisplayName": "Guardian Greaves", 
   "Lore": "One of many holy instruments constructed to honor the Omniscience."
- }, 
- "item_halloween_candy_corn": {
-  "Description": "Use: Deposit the candy in your bucket to give all heroes on the map gold and XP, or use it to satisfy a rampaging Roshan's sweet tooth. Get the highest candy in your bucket to win a prize! Carrying candy makes you less healthy, and decreases your max HP.", 
-  "DisplayName": "Greevil Taffy", 
-  "Lore": "A strange looking candy, made out of Greevil cream and gummy vitamins."
  }, 
  "item_hand_of_midas": {
   "Description": "Active: Transmute - Kills a non-hero target for %bonus_gold% gold and %xp_multiplier%x experience.  Cannot be used on Ancient Creeps.", 
@@ -1670,7 +1657,7 @@
   "Lore": "The jewel at its center still reflects a pale image of its creator."
  }, 
  "item_maelstrom": {
-  "Description": "Passive: Chain Lightning - Grants a chance on attack to release a bolt of electricity that leaps between %chain_strikes% targets, dealing %chain_damage% magical damage to each.", 
+  "Description": "Passive: Chain Lightning - Grants a chance on attack to release a bolt of electricity that leaps between %dchain_strikes% targets, dealing %dchain_damage% magical damage to each.", 
   "DisplayName": "Maelstrom", 
   "Lore": "A hammer forged for the gods themselves, Maelstrom allows its user to harness the power of lightning."
  }, 
@@ -1713,7 +1700,7 @@
   "Lore": "A hammer forged of pure mithril."
  }, 
  "item_mjollnir": {
-  "Description": "Active: Static Charge - Places a charged shield on a target unit which has a %static_chance%%% chance to release a shocking bolt at a nearby attacker and %static_strikes% additional enemies.\\nPassive: Chain Lightning - Grants a chance on attack to release a bolt of electricity that leaps between %chain_strikes% targets, dealing %chain_damage% magical damage to each.", 
+  "Description": "Active: Static Charge - Places a charged shield on a target unit which has a %dstatic_chance%%% chance to release a shocking bolt at a nearby attacker and %dstatic_strikes% additional enemies.\\nPassive: Chain Lightning - Grants a chance on attack to release a bolt of electricity that leaps between %dchain_strikes% targets, dealing %dchain_damage% magical damage to each.", 
   "DisplayName": "Mjollnir", 
   "Lore": "Thor's magical hammer, made for him by the dwarves Brok and Eitri."
  }, 
@@ -1807,9 +1794,6 @@
   "DisplayName": "Power Treads", 
   "Lore": "A pair of tough-skinned boots that change to meet the demands of the wearer."
  }, 
- "item_present": {
-  "DisplayName": "A Gift!"
- }, 
  "item_quarterstaff": {
   "DisplayName": "Quarterstaff", 
   "Lore": "A basic staff that allows you to strike quickly."
@@ -1833,8 +1817,122 @@
   "DisplayName": "Reaver", 
   "Lore": "A massive axe capable of tearing whole mountains down."
  }, 
+ "item_recipe_abyssal_blade": {
+  "DisplayName": "Abyssal Blade Recipe"
+ }, 
+ "item_recipe_aether_lens": {
+  "DisplayName": "Aether Lens Recipe"
+ }, 
+ "item_recipe_ancient_janggo": {
+  "DisplayName": "Drum of Endurance Recipe"
+ }, 
+ "item_recipe_armlet": {
+  "DisplayName": "Armlet of Mordiggian Recipe"
+ }, 
+ "item_recipe_assault": {
+  "DisplayName": "Assault Cuirass Recipe"
+ }, 
+ "item_recipe_basher": {
+  "DisplayName": "Skull Basher Recipe"
+ }, 
+ "item_recipe_black_king_bar": {
+  "DisplayName": "Black King Bar Recipe"
+ }, 
+ "item_recipe_bloodstone": {
+  "DisplayName": "Bloodstone Recipe"
+ }, 
+ "item_recipe_bloodthorn": {
+  "DisplayName": "Bloodthorn Recipe"
+ }, 
+ "item_recipe_buckler": {
+  "DisplayName": "Buckler Recipe"
+ }, 
+ "item_recipe_crimson_guard": {
+  "DisplayName": "Crimson Guard Recipe"
+ }, 
+ "item_recipe_cyclone": {
+  "DisplayName": "Eul's Scepter Recipe"
+ }, 
+ "item_recipe_dagon": {
+  "DisplayName": "Dagon Recipe"
+ }, 
+ "item_recipe_diffusal_blade": {
+  "DisplayName": "Diffusal Blade Recipe"
+ }, 
  "item_recipe_force_staff": {
   "DisplayName": "Force Staff Recipe"
+ }, 
+ "item_recipe_greater_crit": {
+  "DisplayName": "Daedalus Recipe"
+ }, 
+ "item_recipe_guardian_greaves": {
+  "DisplayName": "Guardian Greaves Recipe"
+ }, 
+ "item_recipe_hand_of_midas": {
+  "DisplayName": "Hand of Midas Recipe"
+ }, 
+ "item_recipe_headdress": {
+  "DisplayName": "Headdress Recipe"
+ }, 
+ "item_recipe_heart": {
+  "DisplayName": "Heart of Tarrasque Recipe"
+ }, 
+ "item_recipe_helm_of_the_dominator": {
+  "DisplayName": "Helm of the Dominator Recipe"
+ }, 
+ "item_recipe_hurricane_pike": {
+  "DisplayName": "Hurricane Pike Recipe"
+ }, 
+ "item_recipe_iron_talon": {
+  "DisplayName": "Iron Talon Recipe"
+ }, 
+ "item_recipe_lesser_crit": {
+  "DisplayName": "Crystalys Recipe"
+ }, 
+ "item_recipe_maelstrom": {
+  "DisplayName": "Maelstrom Recipe"
+ }, 
+ "item_recipe_manta": {
+  "DisplayName": "Manta Style Recipe"
+ }, 
+ "item_recipe_mask_of_madness": {
+  "DisplayName": "Mask of Madness Recipe"
+ }, 
+ "item_recipe_mekansm": {
+  "DisplayName": "Mekansm Recipe"
+ }, 
+ "item_recipe_mjollnir": {
+  "DisplayName": "Mjollnir Recipe"
+ }, 
+ "item_recipe_necronomicon": {
+  "DisplayName": "Necronomicon Recipe"
+ }, 
+ "item_recipe_null_talisman": {
+  "DisplayName": "Null Talisman Recipe"
+ }, 
+ "item_recipe_orchid": {
+  "DisplayName": "Orchid Malevolence Recipe"
+ }, 
+ "item_recipe_pipe": {
+  "DisplayName": "Pipe of Insight Recipe"
+ }, 
+ "item_recipe_refresher": {
+  "DisplayName": "Refresher Orb Recipe"
+ }, 
+ "item_recipe_sange": {
+  "DisplayName": "Sange Recipe"
+ }, 
+ "item_recipe_shivas_guard": {
+  "DisplayName": "Shiva's Guard Recipe"
+ }, 
+ "item_recipe_silver_edge": {
+  "DisplayName": "Silver Edge Recipe"
+ }, 
+ "item_recipe_soul_ring": {
+  "DisplayName": "Soul Ring Recipe"
+ }, 
+ "item_recipe_sphere": {
+  "DisplayName": "Linken's Sphere Recipe"
  }, 
  "item_recipe_tranquil_boots": {
   "DisplayName": "Tranquil Boots Recipe"
@@ -1844,6 +1942,15 @@
  }, 
  "item_recipe_urn_of_shadows": {
   "DisplayName": "Urn of Shadows Recipe"
+ }, 
+ "item_recipe_veil_of_discord": {
+  "DisplayName": "Veil of Discord Recipe"
+ }, 
+ "item_recipe_wraith_band": {
+  "DisplayName": "Wraith Band Recipe"
+ }, 
+ "item_recipe_yasha": {
+  "DisplayName": "Yasha Recipe"
  }, 
  "item_refresher": {
   "Description": "Active: Reset Cooldowns - Resets the cooldowns of all your items and abilities.", 
@@ -2010,7 +2117,7 @@
   "Lore": "Om nom nom."
  }, 
  "item_tome_of_knowledge": {
-  "Description": "Use: Grants you experience.", 
+  "Description": "Use: Grants you %xp_bonus% experience plus %xp_per_use% per tome comsumed by your team.", 
   "DisplayName": "Tome of Knowledge", 
   "Lore": "That which raises beast to man and man to god."
  }, 
@@ -2091,51 +2198,6 @@
   "Description": "Passive: Gives increased movement speed.", 
   "DisplayName": "Wind Lace", 
   "Lore": "Hasten to battle on wind-touched heels"
- }, 
- "item_winter_cake": {
-  "Description": "Use the cake to heal 400 health and 50 mana over 8 seconds", 
-  "DisplayName": "Fruit-bit Cake"
- }, 
- "item_winter_coco": {
-  "Description": "Use the cocoa to heal 300 health and 150 mana over 14 seconds", 
-  "DisplayName": "Cocoa with Marshmallows"
- }, 
- "item_winter_cookie": {
-  "Description": "Use the cookie to heal 350 health and 100 mana over 11 seconds", 
-  "DisplayName": "Wizard Cookie"
- }, 
- "item_winter_greevil_chewy": {
-  "Description": "After channeling for 2 seconds the greevil pops to the new location.", 
-  "DisplayName": "Greevil Blink Bone"
- }, 
- "item_winter_greevil_garbage": {
-  "Description": "Use the chow to heal your greevil 400 health and 150 mana over 5 seconds.", 
-  "DisplayName": "Greevil Chow"
- }, 
- "item_winter_greevil_treat": {
-  "Description": "Makes your greevil move at max speed for 10 seconds.", 
-  "DisplayName": "Greevil Treat", 
-  "Lore": "There is nothing faster than a greevil eating his favorite treat!"
- }, 
- "item_winter_ham": {
-  "Description": "Use the ham to heal 300 health and 75 mana over 2 seconds", 
-  "DisplayName": "Clove Studded Ham"
- }, 
- "item_winter_kringle": {
-  "Description": "Use the kringle to heal 250 health and 200 mana over 17 seconds", 
-  "DisplayName": "Kringle"
- }, 
- "item_winter_mushroom": {
-  "Description": "Refreshes all the Greevil's abilities.", 
-  "DisplayName": "Snow Mushroom"
- }, 
- "item_winter_skates": {
-  "Description": "Gives a massive increase of 100 to movespeed. Increases control on the ice. Use short paths for the best result!", 
-  "DisplayName": "Speed Skates"
- }, 
- "item_winter_stocking": {
-  "Description": "Use: Open Stocking to receive your gifts!", 
-  "DisplayName": "Xmas Stocking"
  }, 
  "item_wraith_band": {
   "DisplayName": "Wraith Band", 
@@ -2587,7 +2649,7 @@
   "Lore": "Both friend and foe alike recognize Mirana's iconic white beast in the heat of battle."
  }, 
  "mirana_starfall": {
-  "Description": "Calls down a wave of meteors to damage nearby enemy units. The closest enemy unit to Mirana in a %starfall_secondary_radius% radius will be struck a second time for 75%% of the damage.\\n\\nUpgradable by Aghanim's Scepter.", 
+  "Description": "Calls down a wave of meteors to damage nearby enemy units. The closest enemy unit to Mirana in a %dstarfall_secondary_radius% radius will be struck a second time for 75%% of the damage.\\n\\nUpgradable by Aghanim's Scepter.", 
   "DisplayName": "Starstorm", 
   "Lore": "The Goddess breaks the strata to empower her Princess in the time of need."
  }, 
@@ -2612,7 +2674,7 @@
   "Lore": "Leaping from the safety of cover into the midst of his enemies, Sun Wukong attacks without mercy."
  }, 
  "monkey_king_tree_dance": {
-  "Description": "Monkey King jumps to a tree and perches atop it. While perched, he gains the Primal Spring ability\u2014a channeled leap attack. If Monkey King's tree is destroyed, he falls and is stunned for 4 seconds. Taking damage from enemy heroes while on the ground puts Tree Jump on cooldown.", 
+  "Description": "Monkey King jumps to a tree and perches atop it. While perched, he gains the Primal Spring ability\u2014a channeled leap attack. If Monkey King's tree is destroyed, he falls and is stunned for 4 seconds. Taking damage from player controlled units or Roshan while on the ground puts Tree Dance on cooldown.", 
   "DisplayName": "Tree Dance", 
   "Lore": "Sun Wukong dances nimbly along the treetop canopy, always just out of arm's reach."
  }, 
@@ -4111,7 +4173,7 @@
   "DisplayName": "Thunder Clap"
  }, 
  "puck_dream_coil": {
-  "Description": "Creates a coil of volatile magic that latches onto enemy Heroes, stunning them for %stun_duration% seconds and damaging them.  If the enemy hero stretches the coil by moving too far away, it snaps, stunning and dealing additional damage.\\n\\nUpgradable by Aghanim's Scepter.", 
+  "Description": "Creates a coil of volatile magic that latches onto enemy Heroes, stunning them for %dstun_duration% seconds and damaging them.  If the enemy hero stretches the coil by moving too far away, it snaps, stunning and dealing additional damage.\\n\\nUpgradable by Aghanim's Scepter.", 
   "DisplayName": "Dream Coil", 
   "Lore": "The Faerie Dragon sows confusion by forcing its enemies to vividly dream about their own mortality."
  }, 
@@ -4559,7 +4621,7 @@
   "Lore": "Taking potshots at steepstalkers in his childhood has been thoroughly refined into perfect leads on enemy combatants."
  }, 
  "sniper_shrapnel": {
-  "Description": "Consumes a charge to launch a ball of shrapnel that showers the target area in explosive pellets. Enemies are subject to damage and slowed movement. Reveals the targeted area. Shrapnel charges restore every %charge_restore_time% seconds.", 
+  "Description": "Consumes a charge to launch a ball of shrapnel that showers the target area in explosive pellets. Enemies are subject to damage and slowed movement. Reveals the targeted area. Shrapnel charges restore every %dcharge_restore_time% seconds.", 
   "DisplayName": "Shrapnel", 
   "Lore": "Kardel's modular rifle also fires incendiary rounds, useful for assaulting entrenched locations."
  }, 
@@ -5586,7 +5648,7 @@
   "DisplayName": "+0.75s Electric Vortex"
  }, 
  "special_bonus_unique_sven": {
-  "DisplayName": "-5s Stormbolt Cooldown"
+  "DisplayName": "-5s Storm Hammer Cooldown"
  }, 
  "special_bonus_unique_techies": {
   "DisplayName": "+400 Blast Off Damage"
@@ -6133,7 +6195,7 @@
   "Lore": "Guardians of the Narrow Maze, Necro'lic's Familiars stand watch over his domain."
  }, 
  "visage_summon_familiars_stone_form": {
-  "Description": "After a short delay, the Familiar turns into stone and smashes into the ground, stunning and damaging all targets in the area.  The Familiar becomes invulnerable, and will regain its health very rapidly.  After %stone_duration% seconds, the Familiar will automatically leave Stone Form.", 
+  "Description": "After a short delay, the Familiar turns into stone and smashes into the ground, stunning and damaging all targets in the area.  The Familiar becomes invulnerable, and will regain its health very rapidly.  After %dstone_duration% seconds, the Familiar will automatically leave Stone Form.", 
   "DisplayName": "Stone Form"
  }, 
  "warlock_fatal_bonds": {
@@ -6290,7 +6352,7 @@
   "Lore": "Arc Lightning is Zeus' favorite spell to use against puny mortals."
  }, 
  "zuus_cloud": {
-  "Description": "Creates a storm cloud in front of you that automatically casts Lightning Bolt on nearby enemies.", 
+  "Description": "Creates a storm cloud anywhere on the map that automatically casts Lightning Bolt on nearby enemies.", 
   "DisplayName": "Nimbus"
  }, 
  "zuus_lightning_bolt": {

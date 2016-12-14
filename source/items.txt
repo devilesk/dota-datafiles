@@ -314,6 +314,7 @@
 		"ItemInitialCharges"			"1"
 		"SideShop"						"0"
 		"ItemHideCharges"				"1"
+		"IsTempestDoubleClonable"		"0"
 		
 		"UIPickupSound"					"Item.PickUpRingShop"
 		"UIDropSound"					"Item.DropRingShop"
@@ -835,12 +836,12 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"lifesteal_percent"		"15"
+				"bonus_damage"		"15"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"		"15"
+				"lifesteal_percent"		"15"
 			}
 		}
 	}
@@ -937,6 +938,7 @@
 		"ItemKillable"					"0"
 		"ItemContributesToNetWorthWhenDropped"	"0"
 		"AllowedInBackpack"				"0"
+		"IsTempestDoubleClonable"		"0"
 		
 		"UIPickupSound"					"Item.PickUpGemShop"
 		"UIDropSound"					"Item.DropGemShop"
@@ -1019,6 +1021,7 @@
 		"ItemInitialCharges"			"1"
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS"
 		"ItemContributesToNetWorthWhenDropped"	"0"
+		"IsTempestDoubleClonable"		"0"
 
 		"AbilitySpecial"
 		{
@@ -1181,6 +1184,7 @@
 		"ItemPermanent"					"0"
 		"ItemInitialCharges"			"1"
 		"SideShop"						"0"
+		"IsTempestDoubleClonable"		"0"
 
 		"AbilitySpecial"
 		{
@@ -1216,6 +1220,7 @@
 		"ItemInitialCharges"			"1"
 		"SideShop"						"0"
 		"ItemHideCharges"				"1"
+		"IsTempestDoubleClonable"		"0"
 
 		"AbilitySpecial"
 		{
@@ -1251,6 +1256,7 @@
 		"ItemStackable"					"1"
 		"ItemPermanent"					"0"
 		"ItemInitialCharges"			"1"
+		"IsTempestDoubleClonable"		"0"
 
 		"AbilitySpecial"
 		{
@@ -1287,6 +1293,7 @@
 		"ItemInitialCharges"			"2"		  
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
 		"ItemSupport"					"1"
+		"IsTempestDoubleClonable"		"0"
 
 
 		"AbilitySpecial"
@@ -1333,6 +1340,7 @@
 		"ItemPermanent"					"1"
 		"ItemInitialCharges"			"3"
 		"ItemDisplayCharges"			"1"
+		"IsTempestDoubleClonable"		"0"
 		
 		"AbilitySpecial"
 		{
@@ -1386,6 +1394,7 @@
 		"ItemStockTime"					"150.0"
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
 		"ItemSupport"					"1"
+		"IsTempestDoubleClonable"		"0"
 
 		"AbilitySpecial"
 		{
@@ -1435,6 +1444,7 @@
 		"ItemInitialCharges"			"2"
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
 		"ItemSupport"					"1"
+		"IsTempestDoubleClonable"		"0"
 
 		
 		"AbilitySpecial"
@@ -1503,6 +1513,7 @@
 		"ItemPurchasable"				"0"
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
 		"ItemDisassembleRule"				"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"IsTempestDoubleClonable"		"0"
 		
 		"AbilityCastRange"				"500"
 		"AbilityCooldown"				"0"
@@ -1582,7 +1593,8 @@
 		"ItemPermanent"					"0"
 		"ItemInitialCharges"			"4"
 		"SideShop"						"0"
-		
+		"IsTempestDoubleClonable"		"0"
+
 		"AbilitySpecial"
 		{
 			"01"
@@ -1630,6 +1642,7 @@
 		"ItemPurchasable"				"0"
 		"ItemSellable"					"0"
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
+		"IsTempestDoubleClonable"		"0"
 		
 		"AbilitySpecial"
 		{
@@ -1670,6 +1683,7 @@
 		"ItemStockMax"					"1"
 		"ItemStockTime"					"120.0"
 		"ItemSupport"					"1"
+		"IsTempestDoubleClonable"		"0"
 
 	}
 	
@@ -2733,7 +2747,7 @@
 		"ItemStockInitial"				"0"
 		"ItemStockTime"					"270.0"
 		"ItemSupport"					"1"
-
+		"IsTempestDoubleClonable"		"0"
 	}
 	
 	"item_recipe_buckler"
@@ -4165,7 +4179,7 @@
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"warrior_damage_tooltip"	"50 70 90"
+				"warrior_damage_tooltip"	"75 100 125"
 			}
 			"06"
 			{
@@ -4267,7 +4281,7 @@
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"warrior_damage_tooltip"	"50 70 90"
+				"warrior_damage_tooltip"	"75 100 125"
 			}
 			"06"
 			{
@@ -4366,7 +4380,7 @@
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"warrior_damage_tooltip"	"50 70 90"
+				"warrior_damage_tooltip"	"75 100 125"
 			}
 			"06"
 			{
@@ -4725,6 +4739,8 @@
 		"ItemKillable"					"1"
 		"ItemContributesToNetWorthWhenDropped"	"0"
 		"AllowedInBackpack"				"0"
+		"IsTempestDoubleClonable"		"0"
+
 		"AbilitySpecial"
 		{
 			"01"
@@ -5412,6 +5428,7 @@
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH"
 		"ItemContributesToNetWorthWhenDropped"	"0"
 		"AllowedInBackpack"				"0"
+		"IsTempestDoubleClonable"		"0"
 		
 		"AbilitySpecial"
 		{
@@ -6951,12 +6968,12 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"lifesteal_percent"		"15"
+				"bonus_damage"		"15"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"		"15"
+				"lifesteal_percent"		"15"
 			}
 			"03"
 			{
@@ -7812,6 +7829,7 @@
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS"
 		"ItemSupport"					"1"
 		"ItemAlertable"					"1"
+		"IsTempestDoubleClonable"		"0"
 
 
 		"AbilitySpecial"
@@ -7862,6 +7880,7 @@
 		"ItemInitialStockTime"			"690.0"
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS"
 		"ItemSupport"					"1"	
+		"IsTempestDoubleClonable"		"0"
 
 
 		"AbilitySpecial"
@@ -7870,6 +7889,16 @@
 			{
 				"var_type"				"FIELD_INTEGER"
 				"xp_bonus"				"500"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"xp_per_use"			"100"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"customval_team_tomes_used"	"0"
 			}
 		}
 	}
@@ -8667,870 +8696,6 @@
 
 
 
-
-	"item_halloween_candy_corn"
-	{
-		"ID"							"1000"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
-		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY | DOTA_UNIT_TARGET_TEAM_ENEMY"
-		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING"
-		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
-		"Model"							"models/props_gameplay/halloween_candy.vmdl"
-		
-		"UIPickupSound"					"Item.PickUpGemShop"
-		"UIDropSound"					"Item.DropGemShop"
-		"WorldDropSound"				"Item.DropGemWorld"
-		
-		"AbilityCastRange"				"350"
-		"AbilityCastPoint"				"0.0"
-		
-		"AbilityCooldown"				"0.0"
-
-
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"1"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
-		"ItemPermanent"					"0"
-		"ItemInitialCharges"			"1"
-		"ItemPurchasable"				"0"
-		"ItemKillable"					"0"
-		"ItemDroppable"					"0"
-		"ItemSellable"					"0"
-
-		"AbilitySpecial"
-		{
-		}
-	}
-	
-	"item_mystery_hook"
-	{
-		"ID"							"1001"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT"
-		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"	
-		
-		"AbilityCastRange"				"1300"
-		"AbilityCastPoint"				"0.3"
-
-		"AbilityCooldown"				"11.0"
-
-		"AbilityDamage"					"360"
-
-		"AbilityManaCost"				"140"
-
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"1"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemPermanent"					"0"
-		"ItemInitialCharges"			"2"
-		"ItemPurchasable"				"0"
-		"ItemSellable"					"0"
-
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"				"FIELD_FLOAT"
-				"hook_speed"			"1600.0"
-			}
-			"02"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"hook_width"			"100"
-			}
-			"03"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"hook_distance"			"1300"
-			}
-			"04"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"vision_radius"			"500"
-			}
-			"05"
-			{
-				"var_type"				"FIELD_FLOAT"
-				"vision_duration"		"4.0"
-			}
-		}
-	}
-
-	
-	"item_mystery_arrow"
-	{
-		"ID"							"1002"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_DIRECTIONAL | DOTA_ABILITY_BEHAVIOR_POINT"
-		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
-		
-		"AbilityCastRange"				"3000"
-		"AbilityCastPoint"				"0.5"
-
-		"AbilityCooldown"				"2.0"
-		"AbilityDuration"				"3.11"
-
-		"AbilityDamage"					"360"
-
-		"AbilityManaCost"				"0"
-
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"1"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemPermanent"					"0"
-		"ItemInitialCharges"			"2"
-		"ItemPurchasable"				"0"
-		"ItemSellable"					"0"
-
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"			"FIELD_FLOAT"
-				"arrow_speed"		"857.0"
-			}
-			"02"
-			{
-				"var_type"			"FIELD_INTEGER"
-				"arrow_width"		"115"
-			}
-			"03"
-			{
-				"var_type"			"FIELD_INTEGER"
-				"arrow_range"		"3000"
-			}
-			"04"
-			{
-				"var_type"			"FIELD_INTEGER"
-				"arrow_max_stunrange"	"1500"
-			}
-			"05"
-			{
-				"var_type"			"FIELD_FLOAT"
-				"arrow_min_stun"	"0.5"
-			}
-			"06"
-			{
-				"var_type"			"FIELD_FLOAT"
-				"arrow_max_stun"	"5.0"
-			}
-		}
-	}
-
-	"item_mystery_missile"
-	{
-		"ID"							"1003"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
-		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
-		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
-		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
-		
-		"AbilityCastRange"				"1050"
-		"AbilityCastPoint"				"0.3"
-
-		"AbilityCooldown"				"20.0"
-		
-		"AbilityManaCost"				"0"
-
-		"AbilityDamage"					"440"
-
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"1"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemPermanent"					"0"
-		"ItemInitialCharges"			"2"
-		"ItemPurchasable"				"0"
-		"ItemSellable"					"0"
-
-		
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"					"FIELD_FLOAT"
-				"stun_duration"				"2.5"
-			}
-			"02"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"attack_speed_bonus_pct"	"400"
-			}
-			"03"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"min_damage"				"50"
-			}
-			"04"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"max_distance"				"2000"
-			}
-			"05"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"pre_flight_time"			"3"
-			}
-			"06"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"hero_damage"				"34"
-			}
-			"07"
-			{
-				"var_type"					"FIELD_FLOAT"
-				"speed"						"340"
-			}
-			"08"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"acceleration"				"20"
-			}
-			"09"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"enemy_vision_time"			"4"
-			}
-		}
-	}
-
-	"item_mystery_toss"
-	{
-		"ID"							"1004"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE"
-		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_CUSTOM"
-		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_CUSTOM"
-		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
-		
-		"AbilityCastRange"				"1300"
-		"AbilityCastPoint"				"0.0"
-
-		"AbilityCooldown"				"2.0"
-
-		"AbilityDamage"					"300"
-
-		"AbilityManaCost"				"0"
-
-		"AbilityModifierSupportValue"	"0.25"	// generally used for damage only
-
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"1"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemPermanent"					"0"
-		"ItemInitialCharges"			"2"
-		"ItemPurchasable"				"0"
-		"ItemSellable"					"0"
-
-
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"duration"				"1.0"
-			}
-			"02"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"grab_radius"			"250"
-			}
-			"03"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"radius"				"275"
-			}
-			"04"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"bonus_damage_pct"		"20"
-			}
-			"05"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"grow_bonus_damage_pct"		"80"
-			}
-			"06"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"tooltip_range"		"1300"
-			}
-			"07"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"toss_damage"				"300"
-			}
-		}
-	}
-
-	"item_mystery_vacuum"
-	{
-		"ID"							"1005"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
-		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
-
-		"AbilityCastRange"				"500"
-		"AbilityCastPoint"				"0.4"
-
-		"AbilityCooldown"				"2.0"
-		
-		"AbilityManaCost"				"0"
-		
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"1"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemPermanent"					"0"
-		"ItemInitialCharges"			"2"
-		"ItemPurchasable"				"0"
-		"ItemSellable"					"0"
-
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"radius"				"550"
-			}
-			"02"
-			{
-				"var_type"				"FIELD_FLOAT"
-				"duration"				"0.4"
-			}
-			"03"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"damage"				"160"
-			}
-			"04"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"radius_tree"			"275"
-			}
-		}
-	}
-
-	"item_halloween_rapier"
-	{
-		"ID"							"1006"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
-
-		"ItemCost"						"6200"
-		"ItemShopTags"					"damage"
-		"ItemQuality"					"epic"
-		"ItemShareability"				"ITEM_NOT_SHAREABLE"
-		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
-		"ItemSellable"					"0"
-		"ItemKillable"					"0"
-		"ItemPurchasable"				"0"
-		"ItemInitialCharges"			"3"
-		"ItemPermanent"					"0"
-		
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"				"100"
-			}
-		}
-	}
-
-	"item_greevil_whistle"
-	{
-		"ID"							"1007"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
-		
-		"UIPickupSound"					"Item.PickUpGemShop"
-		"UIDropSound"					"Item.DropGemShop"
-		"WorldDropSound"				"Item.DropGemWorld"
-		
-		"AbilityCastRange"				"0"
-		"AbilityCastPoint"				"0.0"
-		
-		"AbilityCooldown"				"120.0"
-
-
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"0"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
-		"ItemPermanent"					"1"
-		"ItemInitialCharges"			"1"
-		"ItemPurchasable"				"0"
-		"ItemKillable"					"0"
-		"ItemDroppable"					"0"
-		"ItemSellable"					"0"
-
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"				"FIELD_FLOAT"
-				"duration"				"30"
-			}
-			"02"
-			{
-				"var_type"				"FIELD_FLOAT"
-				"transform_duration"	"2"
-			}
-		}
-	}
-
-	"item_greevil_whistle_toggle"
-	{
-		"ID"							"1008"
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
-		
-		"UIPickupSound"					"Item.PickUpGemShop"
-		"UIDropSound"					"Item.DropGemShop"
-		"WorldDropSound"				"Item.DropGemWorld"
-		
-		"AbilityCastRange"				"0"
-		"AbilityCastPoint"				"0.0"
-		"AbilityChannelTime"			"2.0"
-		
-		"AbilityCooldown"				"2.0"
-
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"0"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
-		"ItemPermanent"					"1"
-		"ItemInitialCharges"			"1"
-		"ItemPurchasable"				"0"
-		"ItemKillable"					"0"
-		"ItemDroppable"					"0"
-		"ItemSellable"					"0"
-
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"				"FIELD_FLOAT"
-				"duration"				"30"
-			}
-			"02"
-			{
-				"var_type"				"FIELD_FLOAT"
-				"transform_duration"	"2"
-			}
-		}
-	}
-	
-	"item_present"
-	{
-		"ID"							"1009"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
-		"Model"							"models/props_winter/present.vmdl"
-		
-		"UIPickupSound"					"Item.PickUpGemShop"
-		"UIDropSound"					"Item.DropGemShop"
-		"WorldDropSound"				"Item.DropGemWorld"
-		
-		"AbilityCastRange"				"350"
-		"AbilityCastPoint"				"0.0"
-		
-		"AbilityCooldown"				"0.0"
-
-
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"1"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
-		"ItemPermanent"					"0"
-		"ItemInitialCharges"			"2"
-		"ItemPurchasable"				"0"
-		"ItemKillable"					"0"
-		"ItemDroppable"					"0"
-		"ItemSellable"					"0"
-		"ItemCastOnPickup"				"1"
-
-		"AbilitySpecial"
-		{
-		}
-	}
-
-	"item_winter_stocking"
-	{
-		"ID"							"1010"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
-		
-		"UIPickupSound"					"Item.PickUpGemShop"
-		"UIDropSound"					"Item.DropGemShop"
-		"WorldDropSound"				"Item.DropGemWorld"
-		
-		"AbilityCastRange"				"350"
-		"AbilityCastPoint"				"0.0"
-		
-		"AbilityCooldown"				"0.0"
-
-
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"1"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
-		"ItemPermanent"					"0"
-		"ItemInitialCharges"			"1"
-		"ItemPurchasable"				"0"
-		"ItemKillable"					"0"
-		"ItemDroppable"					"0"
-		"ItemSellable"					"0"
-		"AbilitySpecial"
-		{
-		}
-	}
-
-	"item_winter_skates"
-	{
-		"ID"							"1011"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
-		
-		"ItemCost"						"0"
-		"ItemShopTags"					"move_speed"
-		"ItemQuality"					"component"
-		"ItemPurchasable"                "0"
-
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"bonus_movement_speed"	"100"
-			}
-		}
-	}
-
-	"item_winter_cake"
-	{
-		"ID"							"1012"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
-		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
-		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
-		
-		"AbilityCastRange"				"150"
-		"AbilityCastPoint"				"0.0"
-		
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"1"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemPermanent"					"0"
-		"ItemInitialCharges"			"5"
-		"ItemPurchasable"               "0"
-
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"buff_duration"			"8"
-			}
-			"02"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"total_health"			"400"
-			}
-			"03"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"total_mana"			"50"
-			}
-		}
-	}
-
-	"item_winter_cookie"
-	{
-		"ID"							"1013"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
-		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
-		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
-		
-		"AbilityCastRange"				"150"
-		"AbilityCastPoint"				"0.0"
-		
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"1"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemPermanent"					"0"
-		"ItemInitialCharges"			"5"
-		"ItemPurchasable"               "0"
-
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"buff_duration"			"11"
-			}
-			"02"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"total_health"			"350"
-			}
-			"03"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"total_mana"			"100"
-			}
-		}
-	}
-
-	"item_winter_coco"
-	{
-		"ID"							"1014"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
-		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
-		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
-		
-		"AbilityCastRange"				"150"
-		"AbilityCastPoint"				"0.0"
-		
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"1"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemPermanent"					"0"
-		"ItemInitialCharges"			"5"
-		"ItemPurchasable"               "0"
-
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"buff_duration"			"14"
-			}
-			"02"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"total_health"			"300"
-			}
-			"03"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"total_mana"			"150"
-			}
-		}
-	}
-
-	"item_winter_ham"
-	{
-		"ID"							"1015"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
-		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
-		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
-		
-		"AbilityCastRange"				"150"
-		"AbilityCastPoint"				"0.0"
-		
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"1"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemPermanent"					"0"
-		"ItemInitialCharges"			"5"
-		"ItemPurchasable"               "0"
-
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"buff_duration"			"2"
-			}
-			"02"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"total_health"			"300"
-			}
-			"03"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"total_mana"			"75"
-			}
-		}
-	}
-
-	"item_winter_kringle"
-	{
-		"ID"							"1016"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
-		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
-		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
-		
-		"AbilityCastRange"				"150"
-		"AbilityCastPoint"				"0.0"
-		
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"1"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemPermanent"					"0"
-		"ItemInitialCharges"			"5"
-		"ItemPurchasable"               "0"
-
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"buff_duration"			"17"
-			}
-			"02"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"total_health"			"250"
-			}
-			"03"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"total_mana"			"200"
-			}
-		}
-	}
-
-	"item_winter_mushroom"
-	{
-		"ID"							"1017"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
-
-		
-		"AbilityCastRange"				"150"
-		"AbilityCastPoint"				"0.0"
-		
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"1"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemPermanent"					"0"
-		"ItemInitialCharges"			"1"
-		"ItemPurchasable"				"0"
-		"ItemKillable"					"0"
-		"ItemDroppable"					"0"
-		"ItemSellable"					"0"
-
-		"AbilitySpecial"
-		{
-		}
-	}
-
-	"item_winter_greevil_treat"
-	{
-		"ID"							"1018"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
-
-		"AbilityCastRange"				"150"
-		"AbilityCastPoint"				"0.0"
-		
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"1"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemPermanent"					"0"
-		"ItemInitialCharges"			"2"
-		"ItemPurchasable"				"0"
-		"ItemKillable"					"0"
-		"ItemDroppable"					"0"
-		"ItemSellable"					"0"
-
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"duration"				"10"
-			}
-		}
-	}
-
-	"item_winter_greevil_garbage"
-	{
-		"ID"							"1019"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
-		
-		"AbilityCastRange"				"150"
-		"AbilityCastPoint"				"0.0"
-		
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"1"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
-		"ItemPermanent"					"0"
-		"ItemInitialCharges"			"2"
-		"ItemPurchasable"				"0"
-		"ItemKillable"					"0"
-		"ItemDroppable"					"0"
-		"ItemSellable"					"0"
-
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"buff_duration"			"5"
-			}
-			"02"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"total_health"			"400"
-			}
-			"03"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"total_mana"			"150"
-			}
-		}
-	}
-
-	"item_winter_greevil_chewy"
-	{
-		"ID"							"1020"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES | DOTA_ABILITY_BEHAVIOR_CHANNELLED"
-
-		"AbilityCastRange"				"400"
-		"AbilityCastPoint"				"0.0"
-		"AbilityCooldown"				"10.0"
-		"AbilityManaCost"				"0"
-		"AbilityChannelTime"			"2.0"
-
-		
-		"ItemCost"						"0"
-		"ItemShopTags"					"consumable"
-		"ItemQuality"					"consumable"
-		"ItemStackable"					"0"
-		"ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
-		"ItemPermanent"					"1"
-		"ItemInitialCharges"			"1"
-		"ItemPurchasable"				"0"
-		"ItemKillable"					"0"
-		"ItemDroppable"					"0"
-		"ItemSellable"					"0"
-		
-		"AbilitySpecial"
-		{
-		}
-	}
 	"item_river_painter"
 	{
 		"ID"							"1021"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.

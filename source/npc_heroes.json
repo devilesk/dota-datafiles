@@ -1800,8 +1800,8 @@
           "SlotText": "#LoadoutSlot_Mount",
           "TextureWidth": "512",
           "TextureHeight": "512",
-          "MaxPolygonsLOD0": "2500",
-          "MaxPolygonsLOD1": "1500"
+          "MaxPolygonsLOD0": "4000",
+          "MaxPolygonsLOD1": "2000"
         },
         {
           "SlotIndex": "6",
@@ -5498,8 +5498,8 @@
           "SlotText": "#LoadoutSlot_Head_Accessory",
           "TextureWidth": "256",
           "TextureHeight": "256",
-          "MaxPolygonsLOD0": "550",
-          "MaxPolygonsLOD1": "400"
+          "MaxPolygonsLOD0": "1000",
+          "MaxPolygonsLOD1": "500"
         },
         {
           "SlotIndex": "2",
@@ -5507,8 +5507,8 @@
           "SlotText": "#LoadoutSlot_Back",
           "TextureWidth": "256",
           "TextureHeight": "256",
-          "MaxPolygonsLOD0": "650",
-          "MaxPolygonsLOD1": "650"
+          "MaxPolygonsLOD0": "1000",
+          "MaxPolygonsLOD1": "500"
         },
         {
           "SlotIndex": "3",
@@ -6327,7 +6327,7 @@
           "SlotText": "#LoadoutSlot_Head",
           "TextureWidth": "256",
           "TextureHeight": "256",
-          "MaxPolygonsLOD0": "800",
+          "MaxPolygonsLOD0": "1000",
           "MaxPolygonsLOD1": "500"
         },
         {
@@ -6874,9 +6874,8 @@
       "HeroSelectSoundEffect": "Hero_Necrolyte.Pick",
       "Ability1": "necrolyte_death_pulse",
       "Ability2": "necrolyte_sadist",
-      "Ability3": "necrolyte_sadist_stop",
-      "Ability4": "necrolyte_heartstopper_aura",
-      "Ability5": "necrolyte_reapers_scythe",
+      "Ability3": "necrolyte_heartstopper_aura",
+      "Ability4": "necrolyte_reapers_scythe",
       "Ability10": "special_bonus_attack_damage_40",
       "Ability11": "special_bonus_strength_6",
       "Ability12": "special_bonus_all_stats_6",
@@ -9246,7 +9245,7 @@
           "SlotText": "#LoadoutSlot_Mount",
           "TextureWidth": "512",
           "TextureHeight": "512",
-          "MaxPolygonsLOD0": "3000",
+          "MaxPolygonsLOD0": "4000",
           "MaxPolygonsLOD1": "2000"
         },
         {
@@ -12057,8 +12056,8 @@
           "SlotText": "#LoadoutSlot_Mount",
           "TextureWidth": "512",
           "TextureHeight": "512",
-          "MaxPolygonsLOD0": "2500",
-          "MaxPolygonsLOD1": "1500"
+          "MaxPolygonsLOD0": "4000",
+          "MaxPolygonsLOD1": "2000"
         },
         {
           "SlotIndex": "5",
@@ -12254,17 +12253,13 @@
           "SlotText": "#LoadoutSlot_Mount",
           "TextureWidth": "512",
           "TextureHeight": "512",
-          "MaxPolygonsLOD0": "2350",
-          "MaxPolygonsLOD1": "1250"
+          "MaxPolygonsLOD0": "4000",
+          "MaxPolygonsLOD1": "2000"
         },
         {
           "SlotIndex": "5",
           "SlotName": "armor",
-          "SlotText": "#LoadoutSlot_Armor",
-          "TextureWidth": "256",
-          "TextureHeight": "256",
-          "MaxPolygonsLOD0": "850",
-          "MaxPolygonsLOD1": "450"
+          "SlotText": "#LoadoutSlot_Armor"
         },
         {
           "SlotIndex": "6",
@@ -14953,7 +14948,7 @@
           "SlotText": "#LoadoutSlot_Mount",
           "TextureWidth": "512",
           "TextureHeight": "512",
-          "MaxPolygonsLOD0": "3000",
+          "MaxPolygonsLOD0": "4000",
           "MaxPolygonsLOD1": "2000"
         },
         {
@@ -15852,8 +15847,8 @@
           "SlotText": "#LoadoutSlot_Mount",
           "TextureWidth": "512",
           "TextureHeight": "512",
-          "MaxPolygonsLOD0": "2150",
-          "MaxPolygonsLOD1": "1500"
+          "MaxPolygonsLOD0": "4000",
+          "MaxPolygonsLOD1": "2000"
         },
         {
           "SlotIndex": "6",
@@ -16258,17 +16253,13 @@
           "SlotText": "#LoadoutSlot_Mount",
           "TextureWidth": "512",
           "TextureHeight": "512",
-          "MaxPolygonsLOD0": "1800",
-          "MaxPolygonsLOD1": "1250"
+          "MaxPolygonsLOD0": "4000",
+          "MaxPolygonsLOD1": "2000"
         },
         {
           "SlotIndex": "4",
           "SlotName": "armor",
-          "SlotText": "#LoadoutSlot_Armor",
-          "TextureWidth": "256",
-          "TextureHeight": "128",
-          "MaxPolygonsLOD0": "1400",
-          "MaxPolygonsLOD1": "700"
+          "SlotText": "#LoadoutSlot_Armor"
         },
         {
           "SlotIndex": "5",
@@ -18082,8 +18073,8 @@
           "SlotText": "#LoadoutSlot_Mount",
           "TextureWidth": "512",
           "TextureHeight": "512",
-          "MaxPolygonsLOD0": "2850",
-          "MaxPolygonsLOD1": "1650"
+          "MaxPolygonsLOD0": "4000",
+          "MaxPolygonsLOD1": "2000"
         },
         {
           "SlotIndex": "5",
@@ -18845,8 +18836,8 @@
           "SlotText": "#LoadoutSlot_Head",
           "TextureWidth": "256",
           "TextureHeight": "256",
-          "MaxPolygonsLOD0": "780",
-          "MaxPolygonsLOD1": "460"
+          "MaxPolygonsLOD0": "1000",
+          "MaxPolygonsLOD1": "500"
         },
         {
           "SlotIndex": "1",

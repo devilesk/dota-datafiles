@@ -110,7 +110,7 @@
   "cooldown": [
    35
   ], 
-  "description": "Active: Overwhelm - Stuns a target enemy unit for %stun_duration% seconds. Pierces Spell Immunity.\\nPassive: Bash - Grants each attack a chance to stun the target for %bash_duration% seconds and deal %bonus_chance_damage% bonus damage, based on whether the equipped hero is ranged or melee.\\nPassive: Damage Block - Grants the wielder a %block_chance%%% chance to block damage from incoming attacks based on whether the equipped hero is melee or ranged.", 
+  "description": "Active: Overwhelm - Stuns a target enemy unit for %dstun_duration% seconds. Pierces Spell Immunity.\\nPassive: Bash - Grants each attack a chance to stun the target for %bash_duration% seconds and deal %bonus_chance_damage% bonus damage, based on whether the equipped hero is ranged or melee.\\nPassive: Damage Block - Grants the wielder a %block_chance%%% chance to block damage from incoming attacks based on whether the equipped hero is melee or ranged.", 
   "displayname": "Abyssal Blade", 
   "id": 208, 
   "itemcost": 6400, 
@@ -2561,7 +2561,7 @@
   "cooldown": [
    4
   ], 
-  "description": "Active: Purge - Targets an enemy, removing from the target and slowing it for %purge_slow_duration% seconds.\\nPassive: Manabreak - Each attack burns %feedback_mana_burn% mana from the target, and deals %damage_per_burn% physical damage per burned mana. Burns %feedback_mana_burn_illusion_melee% mana per attack from melee illusions and %feedback_mana_burn_illusion_ranged% mana per attack from ranged illusions. Does not stack with other manabreak abilities.\\n\\nUpgradable.\\n\\nDISPEL TYPE: Basic Dispel", 
+  "description": "Active: Purge - Targets an enemy, removing buffs from the target and slowing it for %purge_slow_duration% seconds.\\nPassive: Manabreak - Each attack burns %feedback_mana_burn% mana from the target, and deals %damage_per_burn% physical damage per burned mana. Burns %feedback_mana_burn_illusion_melee% mana per attack from melee illusions and %feedback_mana_burn_illusion_ranged% mana per attack from ranged illusions. Does not stack with other manabreak abilities.\\n\\nUpgradable.\\n\\nDISPEL TYPE: Basic Dispel", 
   "displayname": "Diffusal Blade", 
   "id": 174, 
   "itemcost": 3150, 
@@ -3476,81 +3476,6 @@
   "manacost": [], 
   "name": "item_greater_crit"
  }, 
- "item_greevil_whistle": {
-  "AbilityBehavior": [
-   "DOTA_ABILITY_BEHAVIOR_NO_TARGET", 
-   "DOTA_ABILITY_BEHAVIOR_CHANNELLED"
-  ], 
-  "AbilityCastPoint": 0, 
-  "AbilityCastRange": 0, 
-  "ItemInitialCharges": 1, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 0, 
-  "attributes": [
-   {
-    "name": "duration", 
-    "value": [
-     30.0
-    ]
-   }, 
-   {
-    "name": "transform_duration", 
-    "value": [
-     2.0
-    ]
-   }
-  ], 
-  "cooldown": [
-   120
-  ], 
-  "description": "Use the Greevil Whistle to temporarily transform into your Greevil!", 
-  "displayname": "Greevil Whistle", 
-  "id": 1007, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [], 
-  "name": "item_greevil_whistle"
- }, 
- "item_greevil_whistle_toggle": {
-  "AbilityBehavior": [
-   "DOTA_ABILITY_BEHAVIOR_NO_TARGET", 
-   "DOTA_ABILITY_BEHAVIOR_CHANNELLED"
-  ], 
-  "AbilityCastPoint": 0, 
-  "AbilityCastRange": 0, 
-  "AbilityChannelTime": 2, 
-  "ItemInitialCharges": 1, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 0, 
-  "attributes": [
-   {
-    "name": "duration", 
-    "value": [
-     30.0
-    ]
-   }, 
-   {
-    "name": "transform_duration", 
-    "value": [
-     2.0
-    ]
-   }
-  ], 
-  "cooldown": [
-   2
-  ], 
-  "description": "Use the Greevil Whistle to toggle between Greevil and Hero!", 
-  "displayname": "Greevil Whistle", 
-  "id": 1008, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [], 
-  "name": "item_greevil_whistle_toggle"
- }, 
  "item_guardian_greaves": {
   "AbilityBehavior": [
    "DOTA_ABILITY_BEHAVIOR_IMMEDIATE", 
@@ -3667,63 +3592,6 @@
    0
   ], 
   "name": "item_guardian_greaves"
- }, 
- "item_halloween_candy_corn": {
-  "AbilityBehavior": [
-   "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET", 
-   "DOTA_ABILITY_BEHAVIOR_IMMEDIATE", 
-   "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
-  ], 
-  "AbilityCastPoint": 0, 
-  "AbilityCastRange": 350, 
-  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_INVULNERABLE", 
-  "AbilityUnitTargetTeam": [
-   "DOTA_UNIT_TARGET_TEAM_FRIENDLY", 
-   "DOTA_UNIT_TARGET_TEAM_ENEMY"
-  ], 
-  "AbilityUnitTargetType": [
-   "DOTA_UNIT_TARGET_HERO", 
-   "DOTA_UNIT_TARGET_BASIC", 
-   "DOTA_UNIT_TARGET_BUILDING"
-  ], 
-  "ItemInitialCharges": 1, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 1, 
-  "attributes": [], 
-  "cooldown": [
-   0
-  ], 
-  "description": "Use: Deposit the candy in your bucket to give all heroes on the map gold and XP, or use it to satisfy a rampaging Roshan's sweet tooth. Get the highest candy in your bucket to win a prize! Carrying candy makes you less healthy, and decreases your max HP.", 
-  "displayname": "Greevil Taffy", 
-  "id": 1000, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": "A strange looking candy, made out of Greevil cream and gummy vitamins.", 
-  "manacost": [], 
-  "name": "item_halloween_candy_corn"
- }, 
- "item_halloween_rapier": {
-  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE", 
-  "ItemInitialCharges": 3, 
-  "ItemQuality": "epic", 
-  "ItemShopTags": "damage", 
-  "attributes": [
-   {
-    "name": "bonus_damage", 
-    "value": [
-     100
-    ]
-   }
-  ], 
-  "cooldown": [], 
-  "description": null, 
-  "id": 1006, 
-  "itemcost": 6200, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [], 
-  "name": "item_halloween_rapier"
  }, 
  "item_hand_of_midas": {
   "AbilityBehavior": [
@@ -4613,14 +4481,15 @@
   "ItemShopTags": "unique", 
   "attributes": [
    {
-    "name": "lifesteal_percent", 
-    "tooltip": "%LIFESTEAL:", 
+    "name": "bonus_damage", 
+    "tooltip": "+$damage", 
     "value": [
      15
     ]
    }, 
    {
-    "name": "bonus_damage", 
+    "name": "lifesteal_percent", 
+    "tooltip": "%LIFESTEAL:", 
     "value": [
      15
     ]
@@ -4774,7 +4643,7 @@
    }
   ], 
   "cooldown": [], 
-  "description": "Passive: Chain Lightning - Grants a chance on attack to release a bolt of electricity that leaps between %chain_strikes% targets, dealing %chain_damage% magical damage to each.", 
+  "description": "Passive: Chain Lightning - Grants a chance on attack to release a bolt of electricity that leaps between %dchain_strikes% targets, dealing %dchain_damage% magical damage to each.", 
   "displayname": "Maelstrom", 
   "id": 166, 
   "itemcost": 2800, 
@@ -5078,14 +4947,15 @@
   "ItemShopTags": "unique;hard_to_tag", 
   "attributes": [
    {
-    "name": "lifesteal_percent", 
-    "tooltip": "%LIFESTEAL:", 
+    "name": "bonus_damage", 
+    "tooltip": "+$damage", 
     "value": [
      15
     ]
    }, 
    {
-    "name": "bonus_damage", 
+    "name": "lifesteal_percent", 
+    "tooltip": "%LIFESTEAL:", 
     "value": [
      15
     ]
@@ -5427,7 +5297,7 @@
   "cooldown": [
    35
   ], 
-  "description": "Active: Static Charge - Places a charged shield on a target unit which has a %static_chance%%% chance to release a shocking bolt at a nearby attacker and %static_strikes% additional enemies.\\nPassive: Chain Lightning - Grants a chance on attack to release a bolt of electricity that leaps between %chain_strikes% targets, dealing %chain_damage% magical damage to each.", 
+  "description": "Active: Static Charge - Places a charged shield on a target unit which has a %dstatic_chance%%% chance to release a shocking bolt at a nearby attacker and %dstatic_strikes% additional enemies.\\nPassive: Chain Lightning - Grants a chance on attack to release a bolt of electricity that leaps between %dchain_strikes% targets, dealing %dchain_damage% magical damage to each.", 
   "displayname": "Mjollnir", 
   "id": 158, 
   "itemcost": 5700, 
@@ -5535,334 +5405,6 @@
   "manacost": [], 
   "name": "item_moon_shard"
  }, 
- "item_mystery_arrow": {
-  "AbilityBehavior": [
-   "DOTA_ABILITY_BEHAVIOR_DIRECTIONAL", 
-   "DOTA_ABILITY_BEHAVIOR_POINT"
-  ], 
-  "AbilityCastPoint": 0.5, 
-  "AbilityCastRange": 3000, 
-  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL", 
-  "ItemInitialCharges": 2, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 1, 
-  "attributes": [
-   {
-    "name": "arrow_speed", 
-    "value": [
-     857.0
-    ]
-   }, 
-   {
-    "name": "arrow_width", 
-    "value": [
-     115
-    ]
-   }, 
-   {
-    "name": "arrow_range", 
-    "value": [
-     3000
-    ]
-   }, 
-   {
-    "name": "arrow_max_stunrange", 
-    "value": [
-     1500
-    ]
-   }, 
-   {
-    "name": "arrow_min_stun", 
-    "value": [
-     0.5
-    ]
-   }, 
-   {
-    "name": "arrow_max_stun", 
-    "value": [
-     5.0
-    ]
-   }
-  ], 
-  "cooldown": [
-   2
-  ], 
-  "damage": 360, 
-  "description": null, 
-  "duration": 3.11, 
-  "id": 1002, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [
-   0
-  ], 
-  "name": "item_mystery_arrow"
- }, 
- "item_mystery_hook": {
-  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT", 
-  "AbilityCastPoint": 0.3, 
-  "AbilityCastRange": 1300, 
-  "AbilityUnitDamageType": "DAMAGE_TYPE_PURE", 
-  "ItemInitialCharges": 2, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 1, 
-  "attributes": [
-   {
-    "name": "hook_speed", 
-    "value": [
-     1600.0
-    ]
-   }, 
-   {
-    "name": "hook_width", 
-    "value": [
-     100
-    ]
-   }, 
-   {
-    "name": "hook_distance", 
-    "value": [
-     1300
-    ]
-   }, 
-   {
-    "name": "vision_radius", 
-    "value": [
-     500
-    ]
-   }, 
-   {
-    "name": "vision_duration", 
-    "value": [
-     4.0
-    ]
-   }
-  ], 
-  "cooldown": [
-   11
-  ], 
-  "damage": 360, 
-  "description": null, 
-  "id": 1001, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [
-   140
-  ], 
-  "name": "item_mystery_hook"
- }, 
- "item_mystery_missile": {
-  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET", 
-  "AbilityCastPoint": 0.3, 
-  "AbilityCastRange": 1050, 
-  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL", 
-  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY", 
-  "AbilityUnitTargetType": [
-   "DOTA_UNIT_TARGET_HERO", 
-   "DOTA_UNIT_TARGET_BASIC"
-  ], 
-  "ItemInitialCharges": 2, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 1, 
-  "attributes": [
-   {
-    "name": "stun_duration", 
-    "value": [
-     2.5
-    ]
-   }, 
-   {
-    "name": "attack_speed_bonus_pct", 
-    "value": [
-     400
-    ]
-   }, 
-   {
-    "name": "min_damage", 
-    "value": [
-     50
-    ]
-   }, 
-   {
-    "name": "max_distance", 
-    "value": [
-     2000
-    ]
-   }, 
-   {
-    "name": "pre_flight_time", 
-    "value": [
-     3
-    ]
-   }, 
-   {
-    "name": "hero_damage", 
-    "value": [
-     34
-    ]
-   }, 
-   {
-    "name": "speed", 
-    "value": [
-     340.0
-    ]
-   }, 
-   {
-    "name": "acceleration", 
-    "value": [
-     20
-    ]
-   }, 
-   {
-    "name": "enemy_vision_time", 
-    "value": [
-     4
-    ]
-   }
-  ], 
-  "cooldown": [
-   20
-  ], 
-  "damage": 440, 
-  "description": null, 
-  "id": 1003, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [
-   0
-  ], 
-  "name": "item_mystery_missile"
- }, 
- "item_mystery_toss": {
-  "AbilityBehavior": [
-   "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET", 
-   "DOTA_ABILITY_BEHAVIOR_AOE"
-  ], 
-  "AbilityCastPoint": 0, 
-  "AbilityCastRange": 1300, 
-  "AbilityModifierSupportValue": 0.25, 
-  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL", 
-  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM", 
-  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM", 
-  "ItemInitialCharges": 2, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 1, 
-  "attributes": [
-   {
-    "name": "duration", 
-    "value": [
-     1
-    ]
-   }, 
-   {
-    "name": "grab_radius", 
-    "value": [
-     250
-    ]
-   }, 
-   {
-    "name": "radius", 
-    "value": [
-     275
-    ]
-   }, 
-   {
-    "name": "bonus_damage_pct", 
-    "value": [
-     20
-    ]
-   }, 
-   {
-    "name": "grow_bonus_damage_pct", 
-    "value": [
-     80
-    ]
-   }, 
-   {
-    "name": "tooltip_range", 
-    "value": [
-     1300
-    ]
-   }, 
-   {
-    "name": "toss_damage", 
-    "value": [
-     300
-    ]
-   }
-  ], 
-  "cooldown": [
-   2
-  ], 
-  "damage": 300, 
-  "description": null, 
-  "id": 1004, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [
-   0
-  ], 
-  "name": "item_mystery_toss"
- }, 
- "item_mystery_vacuum": {
-  "AbilityBehavior": [
-   "DOTA_ABILITY_BEHAVIOR_POINT", 
-   "DOTA_ABILITY_BEHAVIOR_AOE"
-  ], 
-  "AbilityCastPoint": 0.4, 
-  "AbilityCastRange": 500, 
-  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL", 
-  "ItemInitialCharges": 2, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 1, 
-  "attributes": [
-   {
-    "name": "radius", 
-    "value": [
-     550
-    ]
-   }, 
-   {
-    "name": "duration", 
-    "value": [
-     0.4
-    ]
-   }, 
-   {
-    "name": "damage", 
-    "value": [
-     160
-    ]
-   }, 
-   {
-    "name": "radius_tree", 
-    "value": [
-     275
-    ]
-   }
-  ], 
-  "cooldown": [
-   2
-  ], 
-  "description": null, 
-  "id": 1005, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [
-   0
-  ], 
-  "name": "item_mystery_vacuum"
- }, 
  "item_mystic_staff": {
   "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE", 
   "ItemAliases": [
@@ -5945,9 +5487,9 @@
     "name": "warrior_damage_tooltip", 
     "tooltip": "WARRIOR DAMAGE:", 
     "value": [
-     50, 
-     70, 
-     90
+     75, 
+     100, 
+     125
     ]
    }, 
    {
@@ -6103,9 +5645,9 @@
     "name": "warrior_damage_tooltip", 
     "tooltip": "WARRIOR DAMAGE:", 
     "value": [
-     50, 
-     70, 
-     90
+     75, 
+     100, 
+     125
     ]
    }, 
    {
@@ -6258,9 +5800,9 @@
     "name": "warrior_damage_tooltip", 
     "tooltip": "WARRIOR DAMAGE:", 
     "value": [
-     50, 
-     70, 
-     90
+     75, 
+     100, 
+     125
     ]
    }, 
    {
@@ -7074,30 +6616,6 @@
   "manacost": [], 
   "name": "item_power_treads"
  }, 
- "item_present": {
-  "AbilityBehavior": [
-   "DOTA_ABILITY_BEHAVIOR_IMMEDIATE", 
-   "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
-  ], 
-  "AbilityCastPoint": 0, 
-  "AbilityCastRange": 350, 
-  "ItemInitialCharges": 2, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 1, 
-  "attributes": [], 
-  "cooldown": [
-   0
-  ], 
-  "description": null, 
-  "displayname": "A Gift!", 
-  "id": 1009, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [], 
-  "name": "item_present"
- }, 
  "item_quarterstaff": {
   "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE", 
   "ItemAliases": "quarterstaff", 
@@ -7304,6 +6822,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Abyssal Blade Recipe", 
   "id": 207, 
   "itemcost": 1550, 
   "level": 0, 
@@ -7322,6 +6841,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Aether Lens Recipe", 
   "id": 233, 
   "itemcost": 600, 
   "level": 0, 
@@ -7341,6 +6861,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Drum of Endurance Recipe", 
   "id": 184, 
   "itemcost": 700, 
   "level": 0, 
@@ -7377,6 +6898,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Armlet of Mordiggian Recipe", 
   "id": 150, 
   "itemcost": 550, 
   "level": 0, 
@@ -7396,6 +6918,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Assault Cuirass Recipe", 
   "id": 111, 
   "itemcost": 1300, 
   "level": 0, 
@@ -7414,6 +6937,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Skull Basher Recipe", 
   "id": 142, 
   "itemcost": 750, 
   "level": 0, 
@@ -7451,6 +6975,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Black King Bar Recipe", 
   "id": 115, 
   "itemcost": 1375, 
   "level": 0, 
@@ -7487,6 +7012,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Bloodstone Recipe", 
   "id": 120, 
   "itemcost": 900, 
   "level": 0, 
@@ -7505,6 +7031,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Bloodthorn Recipe", 
   "id": 245, 
   "itemcost": 1000, 
   "level": 0, 
@@ -7541,6 +7068,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Buckler Recipe", 
   "id": 85, 
   "itemcost": 200, 
   "level": 0, 
@@ -7577,6 +7105,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Crimson Guard Recipe", 
   "id": 243, 
   "itemcost": 600, 
   "level": 0, 
@@ -7596,6 +7125,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Eul's Scepter Recipe", 
   "id": 99, 
   "itemcost": 650, 
   "level": 0, 
@@ -7614,6 +7144,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Dagon Recipe", 
   "id": 103, 
   "itemcost": 1250, 
   "level": 0, 
@@ -7719,6 +7250,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Diffusal Blade Recipe", 
   "id": 173, 
   "itemcost": 700, 
   "level": 0, 
@@ -7842,6 +7374,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Daedalus Recipe", 
   "id": 140, 
   "itemcost": 1000, 
   "level": 0, 
@@ -7860,6 +7393,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Guardian Greaves Recipe", 
   "id": 230, 
   "itemcost": 1700, 
   "level": 0, 
@@ -7878,6 +7412,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Hand of Midas Recipe", 
   "id": 64, 
   "itemcost": 1550, 
   "level": 0, 
@@ -7896,6 +7431,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Headdress Recipe", 
   "id": 93, 
   "itemcost": 200, 
   "level": 0, 
@@ -7914,6 +7450,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Heart of Tarrasque Recipe", 
   "id": 113, 
   "itemcost": 1400, 
   "level": 0, 
@@ -7949,6 +7486,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Helm of the Dominator Recipe", 
   "id": 163, 
   "itemcost": 725, 
   "level": 0, 
@@ -7985,6 +7523,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Hurricane Pike Recipe", 
   "id": 262, 
   "itemcost": 250, 
   "level": 0, 
@@ -8020,6 +7559,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Iron Talon Recipe", 
   "id": 238, 
   "itemcost": 125, 
   "level": 0, 
@@ -8038,6 +7578,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Crystalys Recipe", 
   "id": 148, 
   "itemcost": 500, 
   "level": 0, 
@@ -8074,6 +7615,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Maelstrom Recipe", 
   "id": 165, 
   "itemcost": 700, 
   "level": 0, 
@@ -8111,6 +7653,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Manta Style Recipe", 
   "id": 146, 
   "itemcost": 800, 
   "level": 0, 
@@ -8128,6 +7671,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Mask of Madness Recipe", 
   "id": 171, 
   "itemcost": 700, 
   "level": 0, 
@@ -8164,6 +7708,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Mekansm Recipe", 
   "id": 78, 
   "itemcost": 900, 
   "level": 0, 
@@ -8182,6 +7727,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Mjollnir Recipe", 
   "id": 157, 
   "itemcost": 900, 
   "level": 0, 
@@ -8235,6 +7781,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Necronomicon Recipe", 
   "id": 105, 
   "itemcost": 1200, 
   "level": 0, 
@@ -8289,6 +7836,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Null Talisman Recipe", 
   "id": 76, 
   "itemcost": 155, 
   "level": 0, 
@@ -8342,6 +7890,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Orchid Malevolence Recipe", 
   "id": 97, 
   "itemcost": 775, 
   "level": 0, 
@@ -8395,6 +7944,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Pipe of Insight Recipe", 
   "id": 89, 
   "itemcost": 800, 
   "level": 0, 
@@ -8483,6 +8033,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Refresher Orb Recipe", 
   "id": 109, 
   "itemcost": 1800, 
   "level": 0, 
@@ -8553,6 +8104,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Sange Recipe", 
   "id": 161, 
   "itemcost": 600, 
   "level": 0, 
@@ -8624,6 +8176,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Shiva's Guard Recipe", 
   "id": 118, 
   "itemcost": 600, 
   "level": 0, 
@@ -8642,6 +8195,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Silver Edge Recipe", 
   "id": 248, 
   "itemcost": 300, 
   "level": 0, 
@@ -8714,6 +8268,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Soul Ring Recipe", 
   "id": 177, 
   "itemcost": 150, 
   "level": 0, 
@@ -8732,6 +8287,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Linken's Sphere Recipe", 
   "id": 122, 
   "itemcost": 1000, 
   "level": 0, 
@@ -8862,6 +8418,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Veil of Discord Recipe", 
   "id": 189, 
   "itemcost": 400, 
   "level": 0, 
@@ -8915,6 +8472,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Wraith Band Recipe", 
   "id": 74, 
   "itemcost": 170, 
   "level": 0, 
@@ -8933,6 +8491,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Yasha Recipe", 
   "id": 169, 
   "itemcost": 600, 
   "level": 0, 
@@ -10699,16 +10258,30 @@
   "attributes": [
    {
     "name": "xp_bonus", 
-    "tooltip": "XP BONUS:", 
+    "tooltip": "XP BONUS BASE:", 
     "value": [
      500
+    ]
+   }, 
+   {
+    "name": "xp_per_use", 
+    "tooltip": "XP BONUS PER USE:", 
+    "value": [
+     100
+    ]
+   }, 
+   {
+    "name": "customval_team_tomes_used", 
+    "tooltip": "Tomes Used by Owner's Team:", 
+    "value": [
+     0
     ]
    }
   ], 
   "cooldown": [
    0
   ], 
-  "description": "Use: Grants you experience.", 
+  "description": "Use: Grants you %xp_bonus% experience plus %xp_per_use% per tome comsumed by your team.", 
   "displayname": "Tome of Knowledge", 
   "id": 257, 
   "itemcost": 150, 
@@ -11668,392 +11241,6 @@
   "lore": "Hasten to battle on wind-touched heels", 
   "manacost": [], 
   "name": "item_wind_lace"
- }, 
- "item_winter_cake": {
-  "AbilityBehavior": [
-   "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET", 
-   "DOTA_ABILITY_BEHAVIOR_IMMEDIATE", 
-   "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
-  ], 
-  "AbilityCastPoint": 0, 
-  "AbilityCastRange": 150, 
-  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY", 
-  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO", 
-  "ItemInitialCharges": 5, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 1, 
-  "attributes": [
-   {
-    "name": "buff_duration", 
-    "value": [
-     8
-    ]
-   }, 
-   {
-    "name": "total_health", 
-    "value": [
-     400
-    ]
-   }, 
-   {
-    "name": "total_mana", 
-    "value": [
-     50
-    ]
-   }
-  ], 
-  "cooldown": [], 
-  "description": "Use the cake to heal 400 health and 50 mana over 8 seconds", 
-  "displayname": "Fruit-bit Cake", 
-  "id": 1012, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [], 
-  "name": "item_winter_cake"
- }, 
- "item_winter_coco": {
-  "AbilityBehavior": [
-   "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET", 
-   "DOTA_ABILITY_BEHAVIOR_IMMEDIATE", 
-   "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
-  ], 
-  "AbilityCastPoint": 0, 
-  "AbilityCastRange": 150, 
-  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY", 
-  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO", 
-  "ItemInitialCharges": 5, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 1, 
-  "attributes": [
-   {
-    "name": "buff_duration", 
-    "value": [
-     14
-    ]
-   }, 
-   {
-    "name": "total_health", 
-    "value": [
-     300
-    ]
-   }, 
-   {
-    "name": "total_mana", 
-    "value": [
-     150
-    ]
-   }
-  ], 
-  "cooldown": [], 
-  "description": "Use the cocoa to heal 300 health and 150 mana over 14 seconds", 
-  "displayname": "Cocoa with Marshmallows", 
-  "id": 1014, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [], 
-  "name": "item_winter_coco"
- }, 
- "item_winter_cookie": {
-  "AbilityBehavior": [
-   "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET", 
-   "DOTA_ABILITY_BEHAVIOR_IMMEDIATE", 
-   "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
-  ], 
-  "AbilityCastPoint": 0, 
-  "AbilityCastRange": 150, 
-  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY", 
-  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO", 
-  "ItemInitialCharges": 5, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 1, 
-  "attributes": [
-   {
-    "name": "buff_duration", 
-    "value": [
-     11
-    ]
-   }, 
-   {
-    "name": "total_health", 
-    "value": [
-     350
-    ]
-   }, 
-   {
-    "name": "total_mana", 
-    "value": [
-     100
-    ]
-   }
-  ], 
-  "cooldown": [], 
-  "description": "Use the cookie to heal 350 health and 100 mana over 11 seconds", 
-  "displayname": "Wizard Cookie", 
-  "id": 1013, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [], 
-  "name": "item_winter_cookie"
- }, 
- "item_winter_greevil_chewy": {
-  "AbilityBehavior": [
-   "DOTA_ABILITY_BEHAVIOR_POINT", 
-   "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES", 
-   "DOTA_ABILITY_BEHAVIOR_CHANNELLED"
-  ], 
-  "AbilityCastPoint": 0, 
-  "AbilityCastRange": 400, 
-  "AbilityChannelTime": 2, 
-  "ItemInitialCharges": 1, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 0, 
-  "attributes": [], 
-  "cooldown": [
-   10
-  ], 
-  "description": "After channeling for 2 seconds the greevil pops to the new location.", 
-  "displayname": "Greevil Blink Bone", 
-  "id": 1020, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [
-   0
-  ], 
-  "name": "item_winter_greevil_chewy"
- }, 
- "item_winter_greevil_garbage": {
-  "AbilityBehavior": [
-   "DOTA_ABILITY_BEHAVIOR_IMMEDIATE", 
-   "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
-  ], 
-  "AbilityCastPoint": 0, 
-  "AbilityCastRange": 150, 
-  "ItemInitialCharges": 2, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 1, 
-  "attributes": [
-   {
-    "name": "buff_duration", 
-    "value": [
-     5
-    ]
-   }, 
-   {
-    "name": "total_health", 
-    "value": [
-     400
-    ]
-   }, 
-   {
-    "name": "total_mana", 
-    "value": [
-     150
-    ]
-   }
-  ], 
-  "cooldown": [], 
-  "description": "Use the chow to heal your greevil 400 health and 150 mana over 5 seconds.", 
-  "displayname": "Greevil Chow", 
-  "id": 1019, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [], 
-  "name": "item_winter_greevil_garbage"
- }, 
- "item_winter_greevil_treat": {
-  "AbilityBehavior": [
-   "DOTA_ABILITY_BEHAVIOR_IMMEDIATE", 
-   "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
-  ], 
-  "AbilityCastPoint": 0, 
-  "AbilityCastRange": 150, 
-  "ItemInitialCharges": 2, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 1, 
-  "attributes": [
-   {
-    "name": "duration", 
-    "value": [
-     10
-    ]
-   }
-  ], 
-  "cooldown": [], 
-  "description": "Makes your greevil move at max speed for 10 seconds.", 
-  "displayname": "Greevil Treat", 
-  "id": 1018, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": "There is nothing faster than a greevil eating his favorite treat!", 
-  "manacost": [], 
-  "name": "item_winter_greevil_treat"
- }, 
- "item_winter_ham": {
-  "AbilityBehavior": [
-   "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET", 
-   "DOTA_ABILITY_BEHAVIOR_IMMEDIATE", 
-   "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
-  ], 
-  "AbilityCastPoint": 0, 
-  "AbilityCastRange": 150, 
-  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY", 
-  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO", 
-  "ItemInitialCharges": 5, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 1, 
-  "attributes": [
-   {
-    "name": "buff_duration", 
-    "value": [
-     2
-    ]
-   }, 
-   {
-    "name": "total_health", 
-    "value": [
-     300
-    ]
-   }, 
-   {
-    "name": "total_mana", 
-    "value": [
-     75
-    ]
-   }
-  ], 
-  "cooldown": [], 
-  "description": "Use the ham to heal 300 health and 75 mana over 2 seconds", 
-  "displayname": "Clove Studded Ham", 
-  "id": 1015, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [], 
-  "name": "item_winter_ham"
- }, 
- "item_winter_kringle": {
-  "AbilityBehavior": [
-   "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET", 
-   "DOTA_ABILITY_BEHAVIOR_IMMEDIATE", 
-   "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
-  ], 
-  "AbilityCastPoint": 0, 
-  "AbilityCastRange": 150, 
-  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY", 
-  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO", 
-  "ItemInitialCharges": 5, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 1, 
-  "attributes": [
-   {
-    "name": "buff_duration", 
-    "value": [
-     17
-    ]
-   }, 
-   {
-    "name": "total_health", 
-    "value": [
-     250
-    ]
-   }, 
-   {
-    "name": "total_mana", 
-    "value": [
-     200
-    ]
-   }
-  ], 
-  "cooldown": [], 
-  "description": "Use the kringle to heal 250 health and 200 mana over 17 seconds", 
-  "displayname": "Kringle", 
-  "id": 1016, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [], 
-  "name": "item_winter_kringle"
- }, 
- "item_winter_mushroom": {
-  "AbilityBehavior": [
-   "DOTA_ABILITY_BEHAVIOR_IMMEDIATE", 
-   "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
-  ], 
-  "AbilityCastPoint": 0, 
-  "AbilityCastRange": 150, 
-  "ItemInitialCharges": 1, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 1, 
-  "attributes": [], 
-  "cooldown": [], 
-  "description": "Refreshes all the Greevil's abilities.", 
-  "displayname": "Snow Mushroom", 
-  "id": 1017, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [], 
-  "name": "item_winter_mushroom"
- }, 
- "item_winter_skates": {
-  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE", 
-  "ItemQuality": "component", 
-  "ItemShopTags": "move_speed", 
-  "attributes": [
-   {
-    "name": "bonus_movement_speed", 
-    "value": [
-     100
-    ]
-   }
-  ], 
-  "cooldown": [], 
-  "description": "Gives a massive increase of 100 to movespeed. Increases control on the ice. Use short paths for the best result!", 
-  "displayname": "Speed Skates", 
-  "id": 1011, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [], 
-  "name": "item_winter_skates"
- }, 
- "item_winter_stocking": {
-  "AbilityBehavior": [
-   "DOTA_ABILITY_BEHAVIOR_IMMEDIATE", 
-   "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
-  ], 
-  "AbilityCastPoint": 0, 
-  "AbilityCastRange": 350, 
-  "ItemInitialCharges": 1, 
-  "ItemQuality": "consumable", 
-  "ItemShopTags": "consumable", 
-  "ItemStackable": 1, 
-  "attributes": [], 
-  "cooldown": [
-   0
-  ], 
-  "description": "Use: Open Stocking to receive your gifts!", 
-  "displayname": "Xmas Stocking", 
-  "id": 1010, 
-  "itemcost": 0, 
-  "level": 0, 
-  "lore": null, 
-  "manacost": [], 
-  "name": "item_winter_stocking"
  }, 
  "item_wraith_band": {
   "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE", 

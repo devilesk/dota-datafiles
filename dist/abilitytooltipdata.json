@@ -340,7 +340,7 @@
   "lore": "Black Arachnia continues to raise her young, even amidst the field of combat.  The brood quickly learns how to support their mother."
  }, 
  "broodmother_spin_web": {
-  "description": "Spins a large web that renders Broodmother invisible, grants a passive movement speed increase, gives free movement, and boosts regeneration while in its vicinity. Spin Web charges restore every %charge_restore_time% seconds. If damage is taken, free movement is disabled and the movement speed increase is halved for %damage_time% seconds. Spin Web can be cast from anywhere as long as the new web touches an existing web. Webs never expire, and can be manually destroyed. When the maximum limit of webs is exceeded, the oldest web disappears.", 
+  "description": "Spins a large web that renders Broodmother invisible, grants a passive movement speed increase, gives free movement, and boosts regeneration while in its vicinity. Spin Web charges restore every %dcharge_restore_time% seconds. If damage is taken, free movement is disabled and the movement speed increase is halved for %damage_time% seconds. Spin Web can be cast from anywhere as long as the new web touches an existing web. Webs never expire, and can be manually destroyed. When the maximum limit of webs is exceeded, the oldest web disappears.", 
   "lore": "Weaving a bed of silken fibers, Arachnia's web both protects her and her offspring, as well as giving advancing opponents a sense of forboding."
  }, 
  "broodmother_spin_web_destroy": {
@@ -677,7 +677,7 @@
   "lore": "With blazing speed does a spirit fly!"
  }, 
  "ember_spirit_fire_remnant": {
-  "description": "Ember Spirit generates Fire Remnant charges every %charge_restore_time% seconds, with a max of %max_charges% charges. Releasing a charge sends a Fire Remnant that runs to the target location at 2.5x Ember Spirit's speed.  Using Activate Fire Remnant, Ember Spirit can dash out to his Remnants, exploding them for area of effect damage.  The targeted Remnant will be arrived at last.", 
+  "description": "Ember Spirit generates Fire Remnant charges every %dcharge_restore_time% seconds, with a max of %max_charges% charges. Releasing a charge sends a Fire Remnant that runs to the target location at 2.5x Ember Spirit's speed.  Using Activate Fire Remnant, Ember Spirit can dash out to his Remnants, exploding them for area of effect damage.  The targeted Remnant will be arrived at last.", 
   "lore": "By the spirit's power are Xin's teachings spread anew."
  }, 
  "ember_spirit_flame_guard": {
@@ -973,11 +973,11 @@
   "description": "Casting Invoke will replace this slot with one of ten unique spells based on Invoker's currently active <font color='#7998b5'>Quas</font>, <font color='#d671a9'>Wex</font>, and <font color='#cabe68'>Exort</font> buffs."
  }, 
  "invoker_exort": {
-  "description": "Allows manipulation of fire elements and grants a permanent intelligence bonus. Each <font color='#cabe68'>Exort</font> instance provides increased attack damage.", 
+  "description": "Allows manipulation of fire elements. Each <font color='#cabe68'>Exort</font> instance provides increased attack damage.", 
   "lore": ""
  }, 
  "invoker_forge_spirit": {
-  "description": "Invoker forges a spirit embodying the strength of fire and fortitude of ice. Damage, mana, and armor are based on the level of <font color='#cabe68'>Exort</font> while attack range, health, and duration are based on the level of <font color='#7998b5'>Quas</font>. The elemental's scorching attack is capable of melting the armor of enemy heroes. If both <font color='#7998b5'>Quas</font> and <font color='#cabe68'>Exort</font> are level 4 or higher, Invoker will create two spirits instead of one.", 
+  "description": "Invoker forges a spirit embodying the strength of fire and fortitude of ice. Damage, mana, and armor are based on the level of <font color='#cabe68'>Exort</font> while attack range, health, and duration are based on the level of <font color='#7998b5'>Quas</font>. The elemental's scorching attack is capable of melting the armor of enemy heroes.", 
   "lore": "Culween's Most Cunning Fabrications."
  }, 
  "invoker_ghost_walk": {
@@ -993,7 +993,7 @@
   "lore": "So begins a new age of knowledge."
  }, 
  "invoker_quas": {
-  "description": "Allows manipulation of ice elements and grants a permanent strength bonus. Each <font color='#7998b5'>Quas</font> instance provides increased health regeneration.\\n", 
+  "description": "Allows manipulation of ice elements. Each <font color='#7998b5'>Quas</font> instance provides increased health regeneration.\\n", 
   "lore": ""
  }, 
  "invoker_sun_strike": {
@@ -1005,7 +1005,7 @@
   "lore": "Claws of Tornarus."
  }, 
  "invoker_wex": {
-  "description": "Allows manipulation of storm elements and grants a permanent agility bonus. Each <font color='#d671a9'>Wex</font> instance provides increased attack speed and movement speed.", 
+  "description": "Allows manipulation of storm elements. Each <font color='#d671a9'>Wex</font> instance provides increased attack speed and movement speed.", 
   "lore": ""
  }, 
  "jakiro_dual_breath": {
@@ -1357,7 +1357,7 @@
   "lore": "Both friend and foe alike recognize Mirana's iconic white beast in the heat of battle."
  }, 
  "mirana_starfall": {
-  "description": "Calls down a wave of meteors to damage nearby enemy units. The closest enemy unit to Mirana in a %starfall_secondary_radius% radius will be struck a second time for 75%% of the damage.\\n\\nUpgradable by Aghanim's Scepter.", 
+  "description": "Calls down a wave of meteors to damage nearby enemy units. The closest enemy unit to Mirana in a %dstarfall_secondary_radius% radius will be struck a second time for 75%% of the damage.\\n\\nUpgradable by Aghanim's Scepter.", 
   "lore": "The Goddess breaks the strata to empower her Princess in the time of need."
  }, 
  "monkey_king_boundless_strike": {
@@ -1378,7 +1378,7 @@
  }, 
  "monkey_king_primal_spring_early": {}, 
  "monkey_king_tree_dance": {
-  "description": "Monkey King jumps to a tree and perches atop it. While perched, he gains the Primal Spring ability\u2014a channeled leap attack. If Monkey King's tree is destroyed, he falls and is stunned for 4 seconds. Taking damage from enemy heroes while on the ground puts Tree Jump on cooldown.", 
+  "description": "Monkey King jumps to a tree and perches atop it. While perched, he gains the Primal Spring ability\u2014a channeled leap attack. If Monkey King's tree is destroyed, he falls and is stunned for 4 seconds. Taking damage from player controlled units or Roshan while on the ground puts Tree Dance on cooldown.", 
   "lore": "Sun Wukong dances nimbly along the treetop canopy, always just out of arm's reach."
  }, 
  "monkey_king_untransform": {
@@ -1688,7 +1688,7 @@
   "description": "The Hellbear Smasher claps his massive hands together, creating a deafening blast. The blast damages nearby enemies and throws them off their footing."
  }, 
  "puck_dream_coil": {
-  "description": "Creates a coil of volatile magic that latches onto enemy Heroes, stunning them for %stun_duration% seconds and damaging them.  If the enemy hero stretches the coil by moving too far away, it snaps, stunning and dealing additional damage.\\n\\nUpgradable by Aghanim's Scepter.", 
+  "description": "Creates a coil of volatile magic that latches onto enemy Heroes, stunning them for %dstun_duration% seconds and damaging them.  If the enemy hero stretches the coil by moving too far away, it snaps, stunning and dealing additional damage.\\n\\nUpgradable by Aghanim's Scepter.", 
   "lore": "The Faerie Dragon sows confusion by forcing its enemies to vividly dream about their own mortality."
  }, 
  "puck_ethereal_jaunt": {
@@ -2051,7 +2051,7 @@
   "lore": "Taking potshots at steepstalkers in his childhood has been thoroughly refined into perfect leads on enemy combatants."
  }, 
  "sniper_shrapnel": {
-  "description": "Consumes a charge to launch a ball of shrapnel that showers the target area in explosive pellets. Enemies are subject to damage and slowed movement. Reveals the targeted area. Shrapnel charges restore every %charge_restore_time% seconds.", 
+  "description": "Consumes a charge to launch a ball of shrapnel that showers the target area in explosive pellets. Enemies are subject to damage and slowed movement. Reveals the targeted area. Shrapnel charges restore every %dcharge_restore_time% seconds.", 
   "lore": "Kardel's modular rifle also fires incendiary rounds, useful for assaulting entrenched locations."
  }, 
  "sniper_take_aim": {
@@ -2794,7 +2794,7 @@
   "lore": "Guardians of the Narrow Maze, Necro'lic's Familiars stand watch over his domain."
  }, 
  "visage_summon_familiars_stone_form": {
-  "description": "After a short delay, the Familiar turns into stone and smashes into the ground, stunning and damaging all targets in the area.  The Familiar becomes invulnerable, and will regain its health very rapidly.  After %stone_duration% seconds, the Familiar will automatically leave Stone Form."
+  "description": "After a short delay, the Familiar turns into stone and smashes into the ground, stunning and damaging all targets in the area.  The Familiar becomes invulnerable, and will regain its health very rapidly.  After %dstone_duration% seconds, the Familiar will automatically leave Stone Form."
  }, 
  "warlock_fatal_bonds": {
   "description": "Binds several enemy units together, causing %damage_share_percentage%%% of the damage dealt to one of them to be felt by the others.", 
@@ -2918,7 +2918,7 @@
   "lore": "Arc Lightning is Zeus' favorite spell to use against puny mortals."
  }, 
  "zuus_cloud": {
-  "description": "Creates a storm cloud in front of you that automatically casts Lightning Bolt on nearby enemies."
+  "description": "Creates a storm cloud anywhere on the map that automatically casts Lightning Bolt on nearby enemies."
  }, 
  "zuus_lightning_bolt": {
   "description": "Calls down a bolt of lightning to strike an enemy unit, causing damage and a mini-stun. When cast, Lightning Bolt briefly provides unobstructed vision and True Sight around the target in a 750 radius. Can be cast on the ground, affecting the closest enemy hero in %spread_aoe% range.", 
