@@ -109,6 +109,7 @@
 		"DOTA_Keybind_WINDOWS"	"WINDOWS"
 		"DOTA_Keybind_COMMAND"	"COMMAND"
 		"DOTA_Keybind_GUI"		"GUI"
+		"DOTA_Keybind_CTRL"		"CTRL"
 
 		"CopyToClipboard"			"Copy to Clipboard"
 		"ReplayTakeover"			"Takeover"
@@ -470,8 +471,8 @@
 		"DOTA_HP_Alert_Enemy_NPC"	"Enemy %s1 <font color='#00FF00'>%s2% HP</font>"
 		"DOTA_HPMana_Alert_NPC"		"%s1 <font color='#00FF00'>%s2% HP</font>  <font color='#257FF6'>%s3% Mana</font>"
 		"DOTA_HPMana_Alert_Enemy_NPC"	"Enemy %s1 <font color='#00FF00'>%s2% HP</font>  <font color='#257FF6'>%s3% Mana</font>"
-		"DOTA_HP_Alert_Healer_Ready"	"%s1 <font color='#00FF00'>%s2% HP</font> Sanctuary Available"
-		"DOTA_HP_Alert_Healer_Cooldown"	"%s1 <font color='#00FF00'>%s2% HP</font> Sanctuary In %s3"
+		"DOTA_HP_Alert_Healer_Ready"	"%s2Gather for Sanctuary!"
+		"DOTA_HP_Alert_Healer_Cooldown"	"%s4Sanctuary Ready in %s3"
 
 		"DOTA_XP_Alert_Self_Capped"	"I'm at max level!"
 		"DOTA_XP_Alert_Self"		"I need <font color='#DAAF01'>%s1 XP</font> to reach <font color='#DAAF01'>Level %s2</font>"
@@ -485,6 +486,7 @@
 		"DOTA_HPMana_Alert_Glyph_Wait"		"Glyph of Fortification %s1Don't Use Yet"
 
 		"DOTA_KillcamDamage_Alert"	"I took %s1 damage from %s2<font color='%s3'>%s4</font>"
+		"DOTA_KillcamDamage_Alert_Attacks"	"I took %s1 attack damage from %s2<font color='%s3'>%s4</font>"
 
 		
 		"DOTA_Hotkeys_Tooltip_LearnAbility"  "Enter Learn Ability mode when you have skillpoints to spend."
@@ -594,7 +596,7 @@
 		"DOTA_Chat_New_KillStreak_7"	"%s1 %s2 is <font color='#808000'><b>wicked sick</b></font>"
 		"DOTA_Chat_New_KillStreak_8"	"%s1 %s2 is on a <font color='#FF80FF'><b>monster kill</b></font> streak"
 		"DOTA_Chat_New_KillStreak_9"	"%s1 %s2 is <font color='#FF0000'><b>GODLIKE</b></font>"
-		"DOTA_Chat_New_KillStreak_10"	"%s1 %s2 is beyond <font color='#FF8000'><b>GODLIKE</b></font>"
+		"DOTA_Chat_New_KillStreak_10"	"%s1 %s2 is beyond <font color='#FF8000'><b>GODLIKE</b>, someone kill them!!</font>"
 			
 		"DOTA_Chat_KillStreak_3_Ended"	"%s1 %s2 ended %s3's <font color='#00FF40'><b>killing spree</b></font> for %s4 gold!"
 		"DOTA_Chat_KillStreak_4_Ended"	"%s1 %s2 ended %s3's <font color='#400080'><b>dominating</b></font> streak for %s4 gold!"
@@ -1895,7 +1897,7 @@ As each stone's cultural influence spread, it eventually came in conflict with t
 		"DOTA_Item_Build_Core_Items"			"Core Items"
 		"DOTA_Item_Build_Mid_Items"			"Mid Game"
 		"DOTA_Item_Build_Late_Items"			"Late Game"
-		"DOTA_Item_Build_Other_Items"			"Also Recommended"
+		"DOTA_Item_Build_Other_Items"			"Popular Items"
 		
 		"DOTA_Item_Build_Core_Items_Secondary"	"Core Items for Bear"
 		"DOTA_Item_Build_Luxury"				"Situational Items"		
@@ -1904,7 +1906,7 @@ As each stone's cultural influence spread, it eventually came in conflict with t
 		"dota_item_build_save_failed"		"Save Failed"
 		"dota_item_build_save_failed_filename"	"Invalid Filename"
 		"dota_item_build_save_success"		"Build Saved"
-		"dota_item_build_common_items"		"Common Items"
+		"dota_item_build_common_items"		"General Items"
 		
 		
 		"DOTA_GOLD"				"Gold"
@@ -1991,7 +1993,7 @@ As each stone's cultural influence spread, it eventually came in conflict with t
 		"DOTA_Scoreboard_A"						"A"
 		"DOTA_Scoreboard_Ult"					"Ult"
 		"DOTA_Scoreboard_Mute"					"Mute"
-
+		"DOTA_Scoreboard_MuteOtherCoaches"		"Mute Coaches not in Party"
 
 		"DOTA_Announcer_Select_Title"			"CHOOSE AN ANNOUNCER"
 		"DOTA_Announcer_Default"				"Default Announcer"
@@ -6566,6 +6568,8 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 		"DOTA_Tooltip_ability_monkey_king_tree_dance_charge_restore_time"	"RESTORE TIME:"
 		"DOTA_Tooltip_ability_monkey_king_tree_dance_perched_jump_distance"	"DISTANCE:"
 		"DOTA_Tooltip_ability_monkey_king_tree_dance_jump_damage_cooldown"	"DAMAGE COOLDOWN:"
+		"DOTA_Tooltip_ability_monkey_king_tree_dance_impact_damage_tooltip"	"PRIMAL SPRING DAMAGE:"
+		"DOTA_Tooltip_ability_monkey_king_tree_dance_impact_movement_slow_tooltip"	"%PRIMAL SPRING SLOW:"
 
 		"DOTA_Tooltip_ability_monkey_king_primal_spring"					"Primal Spring"
 		"DOTA_Tooltip_ability_monkey_king_primal_spring_Description"		"Monkey King springs out from his tree perch, damaging and slowing enemies in the area where he lands. Damage and slow amounts are in proportion to channel duration."
@@ -6574,6 +6578,8 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 		"DOTA_Tooltip_ability_monkey_king_primal_spring_impact_movement_slow"	"%MOVEMENT SLOW:"
 		"DOTA_Tooltip_ability_monkey_king_primal_spring_impact_slow_duration"	"SLOW DURATION:"
 		"DOTA_Tooltip_ability_monkey_king_primal_spring_max_distance"			"MAX DISTANCE:"
+		
+		"DOTA_Tooltip_Ability_monkey_king_primal_spring_early"					"Spring Early"
 
 		"DOTA_Tooltip_ability_monkey_king_boundless_strike"						"Boundless Strike"
 		"DOTA_Tooltip_ability_monkey_king_boundless_strike_Description"			"Monkey King enlarges his staff and slams it against the ground, stunning enemies in a line and damaging them with a critical hit based on his attack. Has True Strike."
@@ -6587,7 +6593,7 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 		"DOTA_Tooltip_ability_monkey_king_jingu_mastery_Lore"					"Always sensitive to the moods of its master, the Jingu Bang radiates power when Sun Wukong's combat fervor is on full display."
 		"DOTA_Tooltip_ability_monkey_king_jingu_mastery_Note0"					"Hitting an enemy with Boundless Strike adds to the hit counter."
 		"DOTA_Tooltip_ability_monkey_king_jingu_mastery_required_hits"			"REQUIRED HITS"
-		"DOTA_Tooltip_ability_monkey_king_jingu_mastery_counter"				"COUNTER DURATION:"
+		"DOTA_Tooltip_ability_monkey_king_jingu_mastery_counter_duration"		"COUNTER DURATION:"
 		"DOTA_Tooltip_ability_monkey_king_jingu_mastery_charges"				"CHARGES:"
 		"DOTA_Tooltip_ability_monkey_king_jingu_mastery_bonus_damage"			"BONUS DAMAGE:"
 		"DOTA_Tooltip_ability_monkey_king_jingu_mastery_lifesteal"				"%BONUS LIFESTEAL:"
@@ -6606,6 +6612,10 @@ Flung to the farthest reaches by the prison's explosion, Zet was transformed by 
 		
 		"DOTA_Tooltip_modifier_monkey_king_quadruple_tap_bonuses"				"Jingu Mastery"
 		"DOTA_Tooltip_modifier_monkey_king_quadruple_tap_bonuses_Description"	"Bonus Damage and Lifesteal"
+
+		"DOTA_Tooltip_modifier_monkey_king_fur_army_bonus_damage"				"Wukong's Command"
+		"DOTA_Tooltip_modifier_monkey_king_fur_army_bonus_damage_Description"	"Bonus Damage"
+		
 
 		"DOTA_Tooltip_ability_monkey_king_mischief"				"Mischief"
 		"DOTA_Tooltip_ability_monkey_king_mischief_Description"	"Changes Monkey King's shape to deceive opponents, using the environment nearby as inspiration for the disguise. Taking damage, attacking, or using any item or ability breaks Monkey King's disguise."
@@ -6706,7 +6716,7 @@ For a change, Sun Wukong fulfilled his oath to the gods with honor, and atoned f
 		"DOTA_Tooltip_Ability_special_bonus_all_stats_8"		"+8 All Stats"
 		"DOTA_Tooltip_Ability_special_bonus_all_stats_10"		"+10 All Stats"
 		"DOTA_Tooltip_Ability_special_bonus_all_stats_12"		"+12 All Stats"
-		"DOTA_Tooltip_Ability_special_bonus_all_stats_14"		"+12 All Stats"
+		"DOTA_Tooltip_Ability_special_bonus_all_stats_14"		"+14 All Stats"
 		"DOTA_Tooltip_Ability_special_bonus_all_stats_15"		"+15 All Stats"
 		"DOTA_Tooltip_Ability_special_bonus_all_stats_20"		"+20 All Stats"
 		"DOTA_Tooltip_Ability_special_bonus_lifesteal_10"		"10% Lifesteal"
@@ -6721,6 +6731,7 @@ For a change, Sun Wukong fulfilled his oath to the gods with honor, and atoned f
 		"DOTA_Tooltip_Ability_special_bonus_intelligence_12"	"+12 Intelligence"
 		"DOTA_Tooltip_Ability_special_bonus_intelligence_13"	"+13 Intelligence"
 		"DOTA_Tooltip_Ability_special_bonus_intelligence_15"	"+15 Intelligence"
+		"DOTA_Tooltip_Ability_special_bonus_intelligence_16"	"+16 Intelligence"
 		"DOTA_Tooltip_Ability_special_bonus_intelligence_20"	"+20 Intelligence"
 		"DOTA_Tooltip_Ability_special_bonus_intelligence_25"	"+25 Intelligence"
 		"DOTA_Tooltip_Ability_special_bonus_intelligence_30"	"+30 Intelligence"
@@ -6854,7 +6865,7 @@ For a change, Sun Wukong fulfilled his oath to the gods with honor, and atoned f
 		"DOTA_Tooltip_Ability_special_bonus_unique_omniknight_2"	"-16% Degen Aura"
 		"DOTA_Tooltip_Ability_special_bonus_unique_centaur_1"		"Gains Return Aura"
 		"DOTA_Tooltip_Ability_special_bonus_unique_centaur_2"		"+1s Hoof Stomp Duration"
-		"DOTA_Tooltip_Ability_special_bonus_unique_witch_doctor_1""+150 Death Ward Attack Range"
+		"DOTA_Tooltip_Ability_special_bonus_unique_witch_doctor_1""+175 Death Ward Attack Range"
 		"DOTA_Tooltip_Ability_special_bonus_unique_witch_doctor_2""+20 Voodoo Restoration Heal"
 		"DOTA_Tooltip_Ability_special_bonus_unique_necrophos"	"-1s Death Pulse Cooldown"
 		"DOTA_Tooltip_Ability_special_bonus_unique_antimage"	"-2s Blink Cooldown"
@@ -6901,7 +6912,7 @@ For a change, Sun Wukong fulfilled his oath to the gods with honor, and atoned f
 		"DOTA_Tooltip_Ability_special_bonus_unique_doom_2"	"Devour Can Target Ancients"
 		"DOTA_Tooltip_Ability_special_bonus_unique_brewmaster"	"+14 Primal Split Unit Armor"
 		"DOTA_Tooltip_Ability_special_bonus_unique_bristleback"	"+4 Max Goo Stacks"
-		"DOTA_Tooltip_Ability_special_bonus_unique_furion"	"+6 Treants Summoned"
+		"DOTA_Tooltip_Ability_special_bonus_unique_furion"	"2x Treant HP/Damage"
 		"DOTA_Tooltip_Ability_special_bonus_unique_phoenix_1"	"+2 Supernova Hit Count"
 		"DOTA_Tooltip_Ability_special_bonus_unique_phoenix_2"	"+1s Supernova Stun Duration"
 		"DOTA_Tooltip_Ability_special_bonus_unique_enchantress_1"	"+8s Nature's Attendants Duration"
@@ -6929,7 +6940,7 @@ For a change, Sun Wukong fulfilled his oath to the gods with honor, and atoned f
 		"DOTA_Tooltip_Ability_special_bonus_unique_luna_2"	"-4s Lucent Beam Cooldown"
 		"DOTA_Tooltip_Ability_special_bonus_unique_faceless_void"	"+600 Timewalk Cast Range"
 		"DOTA_Tooltip_Ability_special_bonus_unique_night_stalker"	"-6s Crippling Fear Cooldown"
-		"DOTA_Tooltip_Ability_special_bonus_unique_nyx"	"+200% Spiked Carapace Damage"
+		"DOTA_Tooltip_Ability_special_bonus_unique_nyx"	"200% Spiked Carapace Damage"
 		"DOTA_Tooltip_Ability_special_bonus_unique_weaver_1"	"+30 Shukuchi Damage"
 		"DOTA_Tooltip_Ability_special_bonus_unique_weaver_2"	"+200 Shukuchi Movement Speed"
 		"DOTA_Tooltip_Ability_special_bonus_unique_ursa"	"+10 Fury Swipes Damage"
@@ -7259,7 +7270,8 @@ For a change, Sun Wukong fulfilled his oath to the gods with honor, and atoned f
 		"DOTA_Tooltip_Ability_item_recipe_helm_of_the_dominator"	"Helm of the Dominator Recipe"
 		"DOTA_Tooltip_Ability_item_recipe_armlet"					"Armlet of Mordiggian Recipe"
 		"DOTA_Tooltip_Ability_item_recipe_null_talisman"			"Null Talisman Recipe"
-		"DOTA_Tooltip_Ability_item_recipe_iron_talon"				"Iron Talon Recipe"		
+		"DOTA_Tooltip_Ability_item_recipe_iron_talon"				"Iron Talon Recipe"
+		"DOTA_Tooltip_Ability_item_recipe_radiance"					"Radiance Recipe"
 
 		"DOTA_Tooltip_Ability_roshan_spell_block"				"Spell Block"
 		"DOTA_Tooltip_Ability_roshan_spell_block_Description"	"Roshan will block one targeted spell every 15 seconds."
@@ -8683,10 +8695,10 @@ For a change, Sun Wukong fulfilled his oath to the gods with honor, and atoned f
 		"DOTA_Tooltip_modifier_sniper_headshot_slow_Description" "Stopped by Sniper's headshot!"
 
 		
-		"DOTA_Tooltip_modifier_necrolyte_sadist_counter"					"Sadist"
-		"DOTA_Tooltip_modifier_necrolyte_sadist_counter_Description"		"Regening %dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% health and %dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% mana a second."
-		"DOTA_Tooltip_modifier_necrolyte_sadist"							"Sadist"
+		"DOTA_Tooltip_modifier_necrolyte_death_pulse_counter"				"Death Pulse"
+		"DOTA_Tooltip_modifier_necrolyte_death_pulse_counter_Description"		"Regening %dMODIFIER_PROPERTY_HEALTH_REGEN_CONSTANT% health and %dMODIFIER_PROPERTY_MANA_REGEN_CONSTANT% mana a second."
 		
+	
 		"DOTA_Tooltip_modifier_necrolyte_sadist_active"						"Ghost Shroud"
 		"DOTA_Tooltip_modifier_necrolyte_sadist_active_Description"			"Slowing nearby enemies and amplifying your healing while taking increased magic damage."
 		
@@ -10165,6 +10177,8 @@ For a change, Sun Wukong fulfilled his oath to the gods with honor, and atoned f
 		"DOTA_Hero_Selection_TT_Repick_Text"		"Go back and select a different hero. You forfeit 100 of your starting gold, and you lose any extra gold you earned by randoming. You may only repick once per game."
 		"DOTA_Hero_Selection_TT_Reroll_Title"		"Re-Random your Hero"
 		"DOTA_Hero_Selection_TT_Reroll_Text"		"You forfeit 100 of your starting gold, and you lose any extra gold you earned by randoming."
+		"DOTA_Hero_Selection_TT_ReRandom_Text"		"You forfeit 100 of your starting gold for re-randoming"
+		"DOTA_Hero_Selection_TT_RePicking_Text"		"You forfeit 100 of your starting gold for repicking"
 		"DOTA_Hero_Selection_TT_Suggest_Title"		"Suggest Hero"
 		"DOTA_Hero_Selection_TT_Suggest_Text"		"Tell your team that you think it's a good idea for someone to play this hero. You can suggest up to 2 heroes at a time."
 		"DOTA_Hero_Selection_TT_Favorite_Title"		"Favorite Hero"
@@ -10200,6 +10214,7 @@ For a change, Sun Wukong fulfilled his oath to the gods with honor, and atoned f
 		"DOTA_Hero_Selection_HeroCount"				"[%s1 HEROES]"
 		"DOTA_Hero_Selection_RandomSelect"			"Spin to Random Hero"
 		"DOTA_Hero_Selection_Pick_InGame"			"LOCK IN"
+		"DOTA_Hero_Selection_Suggest_InGame"		"SUGGEST"
 		"DOTA_Hero_Selection_Ban_InGame"			"Nominate for Banning"
 		"DOTA_Hero_Selection_Repick_InGame"			"REPICK"
 		"DOTA_Hero_Selection_Pick_Loadout"			"CUSTOMIZE"
@@ -10343,6 +10358,7 @@ For a change, Sun Wukong fulfilled his oath to the gods with honor, and atoned f
 		"DOTA_Hero_Selection_AvailableForPurchase"	"Available For Purchase"
 
 		"DOTA_Hero_Selection_EnteringBattleAs"	"Entering Battle As"
+		"DOTA_Hero_Selection_Coach"				"Coach"
 
 		"DOTA_Hero_Selection_StrategyMap"	"Strategy Map"
 		"DOTA_Hero_Selection_AllyLanes"		"Choose Your Lane"
@@ -10362,6 +10378,10 @@ For a change, Sun Wukong fulfilled his oath to the gods with honor, and atoned f
 
 		"DOTA_Hero_Selection_SwitchToStrategy"	"Strategy"
 		"DOTA_Hero_Selection_SwitchToHeroes"	"Heroes"
+
+		"DOTA_Hero_Selection_StrategyTab"		"Strategy"
+		"DOTA_Hero_Selection_LoadoutTab"		"Loadout"
+		"DOTA_Hero_Selection_GuidesTab"			"Guides"
 
 		"DOTA_Hero_Selection_AverageMMRShort"	"Avg MMR"
 		
@@ -11672,7 +11692,7 @@ For a change, Sun Wukong fulfilled his oath to the gods with honor, and atoned f
 		"dota_hud_error_cant_sell_item_while_dead"		"Can't Sell Item While Dead"
 		"dota_hud_error_cant_disassemble_stash_out_of_range"	"Not in Range of Stash"
 		"dota_hud_error_item_out_of_stock"				"Item is out of Stock"
-		"dota_hud_error_ability_disabled_by_root"		"Can't Cast While Rooted"
+		"dota_hud_error_ability_disabled_by_root"		"Ability Not Castable While Rooted"
 		"dota_hud_error_ability_is_hidden"				"Ability Not Active"
 		"dota_hud_error_unit_cant_move"					"Can't Move"
 		"dota_hud_error_target_out_of_range"			"Target Out Of Range"
@@ -11751,6 +11771,8 @@ For a change, Sun Wukong fulfilled his oath to the gods with honor, and atoned f
 		"dota_hud_error_cant_swap_cosmetics"			"Can't swap cosmetics; must be near fountain or dead."
 		"dota_hud_error_no_courier"				"No Courier"
 		"dota_hud_error_hero_off_screen"				"Your Hero Is Offscreen"
+		"dota_hud_error_swap_source_no_gold"			"You do not have enough gold remaining to swap heroes."
+		"dota_hud_error_swap_target_no_gold"			"The other player does not have enough gold remaining to swap heroes."
 
 		"dota_cursor_silenced"							"Silenced!"
 		"dota_cursor_muted"								"Muted!"
@@ -13267,6 +13289,7 @@ For a change, Sun Wukong fulfilled his oath to the gods with honor, and atoned f
 		"missing_league_subscription"		"This game is a league game that requires a subscription to watch."
 		"DOTA_Limited_User_Chat"			"A non-limited Steam account is required to participate in public chat channels."
 		"DOTA_Low_Badge_Level_Chat"			"You must reach at least level 5 to participate in public chat channels."
+		"DOTA_Low_Wins_Chat"				"You must have at least 20 wins to participate in public chat channels."
 
 		"GameUI_Disconnected"						"Disconnected from Server"
 		"GameUI_Disconnect_ServerInfoOverflow"		"Info data overflow"
@@ -18500,6 +18523,7 @@ For a change, Sun Wukong fulfilled his oath to the gods with honor, and atoned f
 		"dota_combat_log_item_cast_target"		"%s1 uses %s2 on %s3.\n"
 		"dota_combat_log_purchase"				"%s1 purchases %s2.\n"
 		"dota_combat_log_playerstats"			"%s1   KDA: %s2   GPM/XPM: %s3\n"
+		"dota_combat_log_all"					"All"
 
 		"Web_StoreCheckout_PurchaseComplete"			"Your purchase is complete!  Purchased items are now in your inventory."
 		"Web_StoreCheckout_PurchaseCompleteNoItems"		"Your purchase is complete!  Note that no new items were added to your inventory."
@@ -21453,6 +21477,7 @@ Special Techies Taunt"
 		"DOTA_TrophyCategory_TI6"				"The International 2016"
 		"DOTA_TrophyCategory_FallBattle2016"	"Fall Battle 2016"
 		"DOTA_TrophyCategory_BattleCup"			"Battle Cup"
+		"DOTA_TrophyCategory_ChampionsCup"		"Champions Cup"
 
 		"DOTA_TrophyUnits_Level"				"Level %s1"
 		"DOTA_TrophyUnits_Challenges_Singular"	"%s1 Challenge"
@@ -21576,6 +21601,8 @@ Special Techies Taunt"
 		"DOTA_TrophyDesc_Fall2016BattlePass_Achievements"		"Achievements completed in The Fall 2016 Battle Pass"
 		"DOTA_TrophyName_Fall2016BattleCup"		"Fall 2016 Battle Cup"
 		"DOTA_TrophyDesc_Fall2016BattleCup"		"Championships won in The Fall 2016 Battle Cup"
+		"DOTA_TrophyName_Fall2016ChampionsCup"	"Fall 2016 Champions Cup"
+		"DOTA_TrophyDesc_Fall2016ChampionsCup"	"Fall 2016 Champions Cup Grand Champion"
 
 		"DOTA_TrophyName_MVPTrophy"				"MVP Trophy"
 		"DOTA_TrophyDesc_MVPTrophy"				"Commemorates how many times you have been voted match MVP by your teammates."
@@ -24112,6 +24139,7 @@ Special Techies Taunt"
 		"DOTA_Frontpage_WeekendTourney_Title"			"Weekend Battle Cup"
 
 		"WeekendTourneyStatus_Title"					"Battle Cup"
+		"WeekendTourneyStatus_Title_ChampionsCup"		"Champions Cup"
 		"WeekendTourneyStatus_StartingLater"			"Next {s:weekend_tourney_selected_division_name} Division Battle Cup<br/>begins {t:l:t:m:weekendtourney_time_window_open}"
 		"WeekendTourneyStatus_StartingSoon"				"Registration for {s:weekend_tourney_selected_division_name} Division<br/>Battle Cup begins in {s:weekendtourney_duration_until_window_open}"
 		"WeekendTourneyStatus_StartingSoonFrontPageHeader"	"Starts in"
@@ -24274,6 +24302,7 @@ Special Techies Taunt"
 		"DOTA_Ticket_Purchase"					"Purchase ticket"
 
 		"WeekendTourney_Title"					"Battle Cup"
+		"WeekendTourney_Title_ChampionsCup"		"Champions Cup"
 		"WeekendTourney_SetupPage_Subtitle"		"Registration"
 		"WeekendTourney_HUBButton"				"Hub Page"
 		"WeekendTourney_FAQButton"				"Rules FAQ"
@@ -24320,6 +24349,8 @@ Special Techies Taunt"
 		"WeekendTourney_TeamMemberPlayedTooRecently"	"Team member has already played in the Battle Cup this weekend."
 		"WeekendTourney_LocalPlayerPlayedTooRecently"	"You've already played in the Battle Cup this weekend."
 		"WeekendTourney_NoBuyInRequiredBeta"		"During the beta, no tickets are required.  Availability is limited, so get your team ready to join as soon as the tournament starts!"
+		"WeekendTourney_ChampionsCupTicketRequired" "You need a Champions Cup Ticket to play in the Champions Cup."
+		"WeekendTourney_ChampionsCupTicketOwned"	"You've earned a Champions Cup Ticket.  It's time to use it!"
 		"WeekendTourney_NoBuyInOffSeason"			"Battle Cup tickets are not available for purchase during the offseason."
 		"WeekendTourney_JoinDivisionDisabledTooltipNoTicket"		"To keep this chat channel useful, only players who currently own a ticket may join."
 		"Please_Wait"								"Please Wait"
@@ -24505,6 +24536,7 @@ Special Techies Taunt"
 		"DOTA_HUD_BackToDashboard"		"Back to Dashboard"
 		"DOTA_HUD_Settings"				"Settings"
 		"DOTA_HUD_Scoreboard"			"Scoreboard"
+		"DOTA_HUD_Scoreboard_ShowItems"	"Show Items"
 
 		"DOTA_HUD_QuestStatus_QueryComplete"		"Completed!"
 	}

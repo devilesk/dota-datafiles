@@ -771,7 +771,7 @@
     "name": "pit_interval", 
     "tooltip": "DISABLE INTERVAL:", 
     "value": [
-     3.5
+     3.6
     ]
    }, 
    {
@@ -796,10 +796,10 @@
    "DOTA_ABILITY_BEHAVIOR_AOE"
   ], 
   "cooldown": [
-   30, 
-   26, 
-   22, 
-   18
+   32, 
+   28, 
+   24, 
+   20
   ], 
   "damage": [
    0, 
@@ -7340,10 +7340,10 @@
     "name": "bonus_movespeed", 
     "tooltip": "%MOVE SLOW:", 
     "value": [
-     -10, 
-     -20, 
-     -30, 
-     -40
+     -14, 
+     -24, 
+     -34, 
+     -44
     ]
    }, 
    {
@@ -8477,7 +8477,7 @@
     "name": "lifesteal", 
     "tooltip": "%CRITICAL LIFESTEAL:", 
     "value": [
-     50
+     65
     ]
    }
   ], 
@@ -8671,10 +8671,10 @@
     "name": "armor_reduction", 
     "tooltip": "ARMOR REDUCTION:", 
     "value": [
+     -1, 
      -3, 
-     -4, 
      -5, 
-     -6
+     -7
     ]
    }, 
    {
@@ -17372,6 +17372,30 @@
     "value": [
      34
     ]
+   }, 
+   {
+    "name": "treant_hp_bonus", 
+    "value": [
+     550
+    ]
+   }, 
+   {
+    "name": "treant_damage_bonus", 
+    "value": [
+     32
+    ]
+   }, 
+   {
+    "name": "treant_large_hp_bonus", 
+    "value": [
+     1650
+    ]
+   }, 
+   {
+    "name": "treant_large_damage_bonus", 
+    "value": [
+     96
+    ]
    }
   ], 
   "behavior": [
@@ -23013,13 +23037,13 @@
     "name": "health_regen_per_instance", 
     "tooltip": "HP REGEN PER INSTANCE:", 
     "value": [
-     1.5, 
+     1, 
      3, 
-     4.5, 
-     6, 
-     7.5, 
+     5, 
+     7, 
      9, 
-     10.5
+     11, 
+     13
     ]
    }
   ], 
@@ -29238,10 +29262,10 @@
    "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
   ], 
   "cooldown": [
+   55, 
    50, 
    45, 
-   40, 
-   35
+   40
   ], 
   "damage": [
    0, 
@@ -29252,9 +29276,6 @@
   "displayname": "Howl", 
   "level": 0, 
   "manacost": [
-   15, 
-   20, 
-   25, 
    30
   ], 
   "name": "lycan_howl"
@@ -31090,6 +31111,9 @@
     "name": "strike_crit_mult", 
     "tooltip": "%CRIT MULTIPLIER:", 
     "value": [
+     140, 
+     160, 
+     180, 
      200
     ]
    }, 
@@ -31162,8 +31186,9 @@
    }, 
    {
     "name": "counter_duration", 
+    "tooltip": "COUNTER DURATION:", 
     "value": [
-     15
+     10
     ]
    }, 
    {
@@ -31411,6 +31436,7 @@
    0, 
    0
   ], 
+  "displayname": "Spring Early", 
   "level": 0, 
   "manacost": [
    0, 
@@ -31501,6 +31527,26 @@
     "name": "top_level_height", 
     "value": [
      500
+    ]
+   }, 
+   {
+    "name": "impact_damage_tooltip", 
+    "tooltip": "PRIMAL SPRING DAMAGE:", 
+    "value": [
+     100, 
+     180, 
+     260, 
+     340
+    ]
+   }, 
+   {
+    "name": "impact_movement_slow_tooltip", 
+    "tooltip": "%PRIMAL SPRING SLOW:", 
+    "value": [
+     40, 
+     50, 
+     60, 
+     70
     ]
    }
   ], 
@@ -31673,7 +31719,8 @@
   ], 
   "behavior": [
    "DOTA_ABILITY_BEHAVIOR_POINT", 
-   "DOTA_ABILITY_BEHAVIOR_AOE"
+   "DOTA_ABILITY_BEHAVIOR_AOE", 
+   "DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN"
   ], 
   "cooldown": [
    100, 
@@ -36224,7 +36271,7 @@
    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
   ], 
   "cooldown": [
-   150
+   160
   ], 
   "damage": [
    0, 
@@ -36301,9 +36348,9 @@
   "displayname": "Purification", 
   "level": 0, 
   "manacost": [
-   70, 
-   90, 
-   110, 
+   85, 
+   100, 
+   115, 
    130
   ], 
   "name": "omniknight_purification"
@@ -36969,7 +37016,7 @@
     "name": "base_damage", 
     "tooltip": "BASE DAMAGE:", 
     "value": [
-     70
+     65
     ]
    }, 
    {
@@ -38452,7 +38499,9 @@
    "DOTA_ABILITY_BEHAVIOR_POINT"
   ], 
   "cooldown": [
-   75
+   70, 
+   65, 
+   60
   ], 
   "damage": [
    0, 
@@ -40826,9 +40875,9 @@
     "name": "movement_speed_reduction", 
     "tooltip": "%MOVEMENT SLOW:", 
     "value": [
-     13, 
-     17, 
-     21, 
+     10, 
+     15, 
+     20, 
      25
     ]
    }, 
@@ -47934,7 +47983,7 @@
    0, 
    0
   ], 
-  "displayname": "+12 All Stats", 
+  "displayname": "+14 All Stats", 
   "level": 0, 
   "manacost": [
    0, 
@@ -54844,6 +54893,64 @@
    0
   ], 
   "name": "special_bonus_intelligence_15"
+ }, 
+ "special_bonus_intelligence_16": {
+  "AbilityCastPoint": [
+   0, 
+   0, 
+   0, 
+   0
+  ], 
+  "AbilityCastRange": 0, 
+  "AbilityCastRangeBuffer": 250, 
+  "AbilityChannelTime": [
+   0, 
+   0, 
+   0, 
+   0
+  ], 
+  "AbilityDuration": [
+   0, 
+   0, 
+   0, 
+   0
+  ], 
+  "AbilityModifierSupportBonus": 0, 
+  "AbilityModifierSupportValue": 1, 
+  "ID": 6332, 
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES", 
+  "attributes": [
+   {
+    "name": "value", 
+    "value": [
+     16
+    ]
+   }
+  ], 
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ], 
+  "cooldown": [
+   0, 
+   0, 
+   0, 
+   0
+  ], 
+  "damage": [
+   0, 
+   0, 
+   0, 
+   0
+  ], 
+  "displayname": "+16 Intelligence", 
+  "level": 0, 
+  "manacost": [
+   0, 
+   0, 
+   0, 
+   0
+  ], 
+  "name": "special_bonus_intelligence_16"
  }, 
  "special_bonus_intelligence_20": {
   "AbilityCastPoint": [
@@ -62433,7 +62540,7 @@
    0, 
    0
   ], 
-  "displayname": "+6 Treants Summoned", 
+  "displayname": "2x Treant HP/Damage", 
   "level": 0, 
   "manacost": [
    0, 
@@ -64804,7 +64911,7 @@
    {
     "name": "value", 
     "value": [
-     200
+     100
     ]
    }
   ], 
@@ -64823,7 +64930,7 @@
    0, 
    0
   ], 
-  "displayname": "+200% Spiked Carapace Damage", 
+  "displayname": "200% Spiked Carapace Damage", 
   "level": 0, 
   "manacost": [
    0, 
@@ -68516,7 +68623,7 @@
    {
     "name": "value", 
     "value": [
-     150
+     175
     ]
    }
   ], 
@@ -68535,7 +68642,7 @@
    0, 
    0
   ], 
-  "displayname": "+150 Death Ward Attack Range", 
+  "displayname": "+175 Death Ward Attack Range", 
   "level": 0, 
   "manacost": [
    0, 
@@ -73417,9 +73524,9 @@
     "name": "bash_duration", 
     "tooltip": "BASH DURATION:", 
     "value": [
-     1, 
-     1.4, 
-     1.8, 
+     0.7, 
+     1.2, 
+     1.7, 
      2.2
     ]
    }
@@ -76981,9 +77088,9 @@
     "name": "familiar_hp", 
     "tooltip": "HP:", 
     "value": [
-     400, 
-     700, 
-     1000
+     300, 
+     500, 
+     700
     ]
    }, 
    {
@@ -77703,9 +77810,9 @@
    "DOTA_ABILITY_BEHAVIOR_PASSIVE"
   ], 
   "cooldown": [
+   7, 
    6, 
    5, 
-   4, 
    3
   ], 
   "damage": [
@@ -78386,7 +78493,7 @@
    "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
   ], 
   "cooldown": [
-   14
+   13
   ], 
   "damage": [
    0, 

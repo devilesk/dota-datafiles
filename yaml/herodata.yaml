@@ -387,14 +387,14 @@ npc_dota_hero_abyssal_underlord:
       value: [12.0]
     - name: pit_interval
       tooltip: 'DISABLE INTERVAL:'
-      value: [3.5]
+      value: [3.6]
     - name: pit_damage
       value: [0]
     - name: ensnare_duration
       tooltip: 'DISABLE DURATION:'
       value: [0.9, 1.2, 1.5, 1.8]
     behavior: [DOTA_ABILITY_BEHAVIOR_POINT, DOTA_ABILITY_BEHAVIOR_AOE]
-    cooldown: [30, 26, 22, 18]
+    cooldown: [32, 28, 24, 20]
     damage: [0, 0, 0, 0]
     displayname: Pit of Malice
     level: 0
@@ -622,7 +622,7 @@ npc_dota_hero_abyssal_underlord:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_cast_range_100
-  - - &id100
+  - - &id102
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -912,7 +912,7 @@ npc_dota_hero_alchemist:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_movement_speed_15
-    - &id054
+    - &id055
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -1201,7 +1201,7 @@ npc_dota_hero_ancient_apparition:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - &id041
+  - - &id042
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -1241,7 +1241,7 @@ npc_dota_hero_ancient_apparition:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_spell_amplify_8
-  - - &id090
+  - - &id061
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -1553,7 +1553,7 @@ npc_dota_hero_antimage:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_hp_250
-  - - &id072
+  - - &id073
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -1593,7 +1593,7 @@ npc_dota_hero_antimage:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_all_stats_10
-  - - &id088
+  - - &id090
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -1878,7 +1878,7 @@ npc_dota_hero_arc_warden:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_strength_8
-  - - &id040
+  - - &id041
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -1898,7 +1898,7 @@ npc_dota_hero_arc_warden:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_cooldown_reduction_10
-    - &id065
+    - &id067
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -2149,7 +2149,7 @@ npc_dota_hero_axe:
       name: special_bonus_attack_damage_75
     - *id005
   - - *id006
-    - &id086
+    - &id088
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -2169,7 +2169,7 @@ npc_dota_hero_axe:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_movement_speed_30
-  - - &id052
+  - - &id053
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -2379,7 +2379,7 @@ npc_dota_hero_bane:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - &id042
+  - - &id043
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -2680,7 +2680,7 @@ npc_dota_hero_batrider:
       manacost: [0, 0, 0, 0]
       name: special_bonus_intelligence_10
     - *id001
-  - - &id071
+  - - &id072
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -3429,7 +3429,7 @@ npc_dota_hero_bounty_hunter:
   talents:
   - - *id017
     - *id010
-  - - &id064
+  - - &id066
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -3451,7 +3451,7 @@ npc_dota_hero_bounty_hunter:
       name: special_bonus_attack_speed_40
     - *id018
   - - *id019
-    - &id092
+    - &id093
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -3685,7 +3685,7 @@ npc_dota_hero_brewmaster:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_magic_resistance_10
-  - - &id057
+  - - &id069
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -3705,7 +3705,7 @@ npc_dota_hero_brewmaster:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_respawn_reduction_25
-    - &id083
+    - &id086
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -3921,7 +3921,7 @@ npc_dota_hero_bristleback:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - &id068
+  - - &id040
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -4079,7 +4079,7 @@ npc_dota_hero_broodmother:
       value: [30, 40, 50, 60]
     - name: bonus_movespeed
       tooltip: '%MOVE SLOW:'
-      value: [-10, -20, -30, -40]
+      value: [-14, -24, -34, -44]
     - name: duration
       tooltip: 'DURATION:'
       value: [2, 2, 2, 2]
@@ -4145,7 +4145,7 @@ npc_dota_hero_broodmother:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - &id098
+  - - &id099
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -4382,7 +4382,7 @@ npc_dota_hero_centaur:
   attackrange: 150
   attackrate: 1.7
   attacktype: DOTA_UNIT_CAP_MELEE_ATTACK
-  attributeagilitygain: 2
+  attributeagilitygain: 1.6
   attributebaseagility: 15
   attributebaseintelligence: 15
   attributebasestrength: 23
@@ -4405,7 +4405,7 @@ npc_dota_hero_centaur:
   talents:
   - - *id027
     - *id024
-  - - &id076
+  - - &id079
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -4427,7 +4427,7 @@ npc_dota_hero_centaur:
       name: special_bonus_evasion_10
     - *id028
   - - *id029
-    - &id063
+    - &id065
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -4542,7 +4542,7 @@ npc_dota_hero_chaos_knight:
       value: [550, 600, 650, 700]
     - name: armor_reduction
       tooltip: 'ARMOR REDUCTION:'
-      value: [-3, -4, -5, -6]
+      value: [-1, -3, -5, -7]
     - name: armor_duration
       tooltip: 'REDUCTION DURATION:'
       value: [8]
@@ -4571,7 +4571,7 @@ npc_dota_hero_chaos_knight:
       value: [125, 175, 225, 275]
     - name: lifesteal
       tooltip: '%CRITICAL LIFESTEAL:'
-      value: [50]
+      value: [65]
     behavior: [DOTA_ABILITY_BEHAVIOR_PASSIVE]
     cooldown: [0, 0, 0, 0]
     damage: [0, 0, 0, 0]
@@ -4671,7 +4671,7 @@ npc_dota_hero_chaos_knight:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_attack_speed_15
-    - &id103
+    - &id105
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -4692,7 +4692,7 @@ npc_dota_hero_chaos_knight:
       manacost: [0, 0, 0, 0]
       name: special_bonus_intelligence_7
   - - *id018
-    - &id051
+    - &id052
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -4732,7 +4732,7 @@ npc_dota_hero_chaos_knight:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_gold_income_20
-    - &id106
+    - &id108
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -4992,7 +4992,7 @@ npc_dota_hero_chen:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_gold_income_15
-    - &id108
+    - &id063
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -5445,7 +5445,7 @@ npc_dota_hero_crystal_maiden:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_magic_resistance_15
-    - &id043
+    - &id051
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -5731,7 +5731,7 @@ npc_dota_hero_dark_seer:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_attack_damage_90
-    - &id102
+    - &id104
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -6215,8 +6215,8 @@ npc_dota_hero_death_prophet:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_spell_amplify_4
-    - *id004
-  - - &id070
+    - *id040
+  - - &id071
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -6236,7 +6236,7 @@ npc_dota_hero_death_prophet:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_magic_resistance_8
-    - &id091
+    - &id092
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -6256,9 +6256,9 @@ npc_dota_hero_death_prophet:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_cast_range_75
-  - - *id040
+  - - *id041
     - *id039
-  - - &id078
+  - - &id081
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -6450,7 +6450,7 @@ npc_dota_hero_disruptor:
   statusmanaregen: 0.01
   talents:
   - - *id036
-    - *id041
+    - *id042
   - - *id025
     - *id011
   - - *id009
@@ -6681,7 +6681,7 @@ npc_dota_hero_doom_bringer:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - &id062
+  - - &id064
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -6701,7 +6701,7 @@ npc_dota_hero_doom_bringer:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_hp_150
-    - &id094
+    - &id095
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -6722,9 +6722,8 @@ npc_dota_hero_doom_bringer:
       manacost: [0, 0, 0, 0]
       name: special_bonus_intelligence_8
   - - *id018
-    - *id042
-  - - *id043
-    - &id124
+    - *id043
+  - - &id076
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -6732,18 +6731,19 @@ npc_dota_hero_doom_bringer:
       AbilityDuration: [0, 0, 0, 0]
       AbilityModifierSupportBonus: 0
       AbilityModifierSupportValue: 1
-      ID: 6079
+      ID: 6142
       abilitytype: DOTA_ABILITY_TYPE_ATTRIBUTES
       attributes:
       - name: value
-        value: [20]
+        value: [65]
       behavior: [DOTA_ABILITY_BEHAVIOR_PASSIVE]
       cooldown: [0, 0, 0, 0]
       damage: [0, 0, 0, 0]
-      displayname: +20 Health Regen
+      displayname: +65 Damage
       level: 0
       manacost: [0, 0, 0, 0]
-      name: special_bonus_hp_regen_20
+      name: special_bonus_attack_damage_65
+    - *id006
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -7143,7 +7143,7 @@ npc_dota_hero_drow_ranger:
   statusmanaregen: 0.01
   talents:
   - - *id018
-    - &id055
+    - &id056
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -7503,7 +7503,7 @@ npc_dota_hero_earth_spirit:
     - *id001
   - - *id047
     - *id048
-  - - &id053
+  - - &id054
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -7696,7 +7696,7 @@ npc_dota_hero_earthshaker:
   statusmanaregen: 0.01
   talents:
   - - *id050
-    - &id073
+    - &id074
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -7717,7 +7717,7 @@ npc_dota_hero_earthshaker:
       manacost: [0, 0, 0, 0]
       name: special_bonus_mp_250
   - - *id022
-    - *id043
+    - *id051
   - - *id029
     - *id049
   - - &id117
@@ -7976,7 +7976,7 @@ npc_dota_hero_elder_titan:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - &id069
+  - - &id070
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -7996,8 +7996,8 @@ npc_dota_hero_elder_titan:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_respawn_reduction_20
-    - *id051
-  - - &id079
+    - *id052
+  - - &id082
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -8018,7 +8018,7 @@ npc_dota_hero_elder_titan:
       manacost: [0, 0, 0, 0]
       name: special_bonus_hp_275
     - *id045
-  - - &id056
+  - - &id057
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -8039,7 +8039,7 @@ npc_dota_hero_elder_titan:
       manacost: [0, 0, 0, 0]
       name: special_bonus_magic_resistance_12
     - *id026
-  - - *id052
+  - - *id053
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -8263,12 +8263,12 @@ npc_dota_hero_ember_spirit:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id053
+  - - *id054
     - *id002
   - - *id022
-    - *id054
+    - *id055
   - - *id009
-    - &id061
+    - &id062
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -8449,7 +8449,7 @@ npc_dota_hero_enchantress:
   attacktype: DOTA_UNIT_CAP_RANGED_ATTACK
   attributeagilitygain: 1.8
   attributebaseagility: 19
-  attributebaseintelligence: 16
+  attributebaseintelligence: 19
   attributebasestrength: 16
   attributeintelligencegain: 2.8
   attributeprimary: DOTA_ATTRIBUTE_INTELLECT
@@ -8468,8 +8468,8 @@ npc_dota_hero_enchantress:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id055
-    - *id018
+  - - *id056
+    - *id022
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -8490,8 +8490,8 @@ npc_dota_hero_enchantress:
       manacost: [0, 0, 0, 0]
       name: special_bonus_unique_enchantress_1
     - *id046
-  - - *id056
-    - *id057
+  - - *id057
+    - *id011
   - - *id058
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
@@ -8687,12 +8687,12 @@ npc_dota_hero_enigma:
   statusmanaregen: 0.01
   talents:
   - - *id022
-    - *id056
+    - *id057
   - - *id009
     - *id035
   - - *id012
     - *id011
-  - - &id087
+  - - &id089
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -8886,7 +8886,7 @@ npc_dota_hero_faceless_void:
   statusmanaregen: 0.01
   talents:
   - - *id059
-    - &id097
+    - &id098
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -9005,6 +9005,14 @@ npc_dota_hero_furion:
       value: [30]
     - name: treant_max_dmg_tooltip
       value: [34]
+    - name: treant_hp_bonus
+      value: [550]
+    - name: treant_damage_bonus
+      value: [32]
+    - name: treant_large_hp_bonus
+      value: [1650]
+    - name: treant_large_damage_bonus
+      value: [96]
     behavior: [DOTA_ABILITY_BEHAVIOR_POINT, DOTA_ABILITY_BEHAVIOR_AOE]
     cooldown: [37, 37, 37, 37]
     damage: [0, 0, 0, 0]
@@ -9081,9 +9089,9 @@ npc_dota_hero_furion:
   talents:
   - - *id002
     - *id017
-  - - *id031
-    - *id018
-  - - &id066
+  - - *id061
+    - *id022
+  - - &id068
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -9103,8 +9111,8 @@ npc_dota_hero_furion:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_attack_speed_35
-    - *id061
-  - - *id049
+    - *id062
+  - - *id063
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -9120,7 +9128,7 @@ npc_dota_hero_furion:
       behavior: [DOTA_ABILITY_BEHAVIOR_PASSIVE]
       cooldown: [0, 0, 0, 0]
       damage: [0, 0, 0, 0]
-      displayname: +6 Treants Summoned
+      displayname: 2x Treant HP/Damage
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_unique_furion
@@ -9306,7 +9314,7 @@ npc_dota_hero_gyrocopter:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - &id084
+  - - &id075
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -9326,7 +9334,7 @@ npc_dota_hero_gyrocopter:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_spell_amplify_6
-    - *id062
+    - *id064
   - - *id028
     - *id027
   - - *id039
@@ -9532,10 +9540,10 @@ npc_dota_hero_huskar:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id062
+  - - *id064
     - *id018
   - - *id027
-    - &id077
+    - &id080
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -9555,9 +9563,9 @@ npc_dota_hero_huskar:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_lifesteal_15
-  - - *id063
-    - *id064
   - - *id065
+    - *id066
+  - - *id067
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -9597,7 +9605,7 @@ npc_dota_hero_invoker:
     attributes:
     - name: health_regen_per_instance
       tooltip: 'HP REGEN PER INSTANCE:'
-      value: [1.5, 3, 4.5, 6, 7.5, 9, 10.5]
+      value: [1, 3, 5, 7, 9, 11, 13]
     behavior: [DOTA_ABILITY_BEHAVIOR_NO_TARGET, DOTA_ABILITY_BEHAVIOR_IMMEDIATE]
     cooldown: [0]
     damage: [0, 0, 0, 0]
@@ -10089,7 +10097,7 @@ npc_dota_hero_invoker:
   attributebasestrength: 17
   attributeintelligencegain: 4
   attributeprimary: DOTA_ATTRIBUTE_INTELLECT
-  attributestrengthgain: 1.7
+  attributestrengthgain: 1.9
   displayname: Invoker
   items: []
   level: 0
@@ -10104,7 +10112,7 @@ npc_dota_hero_invoker:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - &id075
+  - - &id078
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -10144,26 +10152,7 @@ npc_dota_hero_invoker:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_unique_invoker_1
-    - &id067
-      AbilityCastPoint: [0, 0, 0, 0]
-      AbilityCastRange: 0
-      AbilityCastRangeBuffer: 250
-      AbilityChannelTime: [0, 0, 0, 0]
-      AbilityDuration: [0, 0, 0, 0]
-      AbilityModifierSupportBonus: 0
-      AbilityModifierSupportValue: 1
-      ID: 6017
-      abilitytype: DOTA_ABILITY_TYPE_ATTRIBUTES
-      attributes:
-      - name: value
-        value: [20]
-      behavior: [DOTA_ABILITY_BEHAVIOR_PASSIVE]
-      cooldown: [0, 0, 0, 0]
-      damage: [0, 0, 0, 0]
-      displayname: +20% XP Gain
-      level: 0
-      manacost: [0, 0, 0, 0]
-      name: special_bonus_exp_boost_20
+    - *id045
   - - &id122
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
@@ -10184,7 +10173,7 @@ npc_dota_hero_invoker:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_all_stats_7
-    - *id066
+    - *id068
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -10435,7 +10424,7 @@ npc_dota_hero_jakiro:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_attack_range_400
-    - &id096
+    - &id097
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -10455,7 +10444,7 @@ npc_dota_hero_jakiro:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_gold_income_25
-  - - &id074
+  - - &id077
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -10642,12 +10631,12 @@ npc_dota_hero_juggernaut:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id062
+  - - *id064
     - *id002
   - - *id044
-    - *id042
+    - *id043
   - - *id022
-    - &id093
+    - &id094
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -11009,8 +10998,27 @@ npc_dota_hero_keeper_of_the_light:
   talents:
   - - *id004
     - *id022
-  - - *id067
-    - *id057
+  - - &id100
+      AbilityCastPoint: [0, 0, 0, 0]
+      AbilityCastRange: 0
+      AbilityCastRangeBuffer: 250
+      AbilityChannelTime: [0, 0, 0, 0]
+      AbilityDuration: [0, 0, 0, 0]
+      AbilityModifierSupportBonus: 0
+      AbilityModifierSupportValue: 1
+      ID: 6017
+      abilitytype: DOTA_ABILITY_TYPE_ATTRIBUTES
+      attributes:
+      - name: value
+        value: [20]
+      behavior: [DOTA_ABILITY_BEHAVIOR_PASSIVE]
+      cooldown: [0, 0, 0, 0]
+      damage: [0, 0, 0, 0]
+      displayname: +20% XP Gain
+      level: 0
+      manacost: [0, 0, 0, 0]
+      name: special_bonus_exp_boost_20
+    - *id069
   - - *id028
     - *id060
   - - AbilityCastPoint: [0, 0, 0, 0]
@@ -11290,7 +11298,7 @@ npc_dota_hero_kunkka:
     - *id018
   - - *id012
     - *id035
-  - - &id080
+  - - &id083
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -11488,12 +11496,12 @@ npc_dota_hero_legion_commander:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id068
+  - - *id040
     - *id010
   - - *id027
     - *id022
   - - *id060
-    - *id069
+    - *id070
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -11513,7 +11521,7 @@ npc_dota_hero_legion_commander:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_unique_legion_commander
-    - &id107
+    - &id109
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -11712,8 +11720,8 @@ npc_dota_hero_leshrac:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_mp_400
-    - *id070
-  - - *id071
+    - *id071
+  - - *id072
     - *id032
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
@@ -11931,7 +11939,7 @@ npc_dota_hero_lich:
   - - *id038
     - *id018
   - - *id036
-    - *id055
+    - *id056
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -12225,13 +12233,13 @@ npc_dota_hero_life_stealer:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id055
+  - - *id056
     - *id059
   - - *id025
     - *id014
-  - - *id072
+  - - *id073
     - *id039
-  - - *id052
+  - - *id053
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -12397,12 +12405,12 @@ npc_dota_hero_lina:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id073
+  - - *id074
     - *id002
-  - - *id057
-    - *id036
-  - - *id071
-    - &id085
+  - - *id011
+    - *id034
+  - - *id075
+    - &id087
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -12637,7 +12645,7 @@ npc_dota_hero_lion:
       name: special_bonus_attack_damage_45
   - - *id011
     - *id048
-  - - &id095
+  - - &id096
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -12905,7 +12913,7 @@ npc_dota_hero_lone_druid:
   statusmanaregen: 0.01
   talents:
   - - *id005
-    - &id104
+    - &id106
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -12925,26 +12933,7 @@ npc_dota_hero_lone_druid:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_attack_range_200
-  - - &id109
-      AbilityCastPoint: [0, 0, 0, 0]
-      AbilityCastRange: 0
-      AbilityCastRangeBuffer: 250
-      AbilityChannelTime: [0, 0, 0, 0]
-      AbilityDuration: [0, 0, 0, 0]
-      AbilityModifierSupportBonus: 0
-      AbilityModifierSupportValue: 1
-      ID: 6142
-      abilitytype: DOTA_ABILITY_TYPE_ATTRIBUTES
-      attributes:
-      - name: value
-        value: [65]
-      behavior: [DOTA_ABILITY_BEHAVIOR_PASSIVE]
-      cooldown: [0, 0, 0, 0]
-      damage: [0, 0, 0, 0]
-      displayname: +65 Damage
-      level: 0
-      manacost: [0, 0, 0, 0]
-      name: special_bonus_attack_damage_65
+  - - *id076
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -12983,7 +12972,7 @@ npc_dota_hero_lone_druid:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_unique_lone_druid_2
-    - *id074
+    - *id077
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -13155,7 +13144,7 @@ npc_dota_hero_luna:
     manacost: [150, 200, 250]
     name: luna_eclipse
   abilitylayout: 4
-  armorphysical: 1
+  armorphysical: 0
   attackdamagemax: 32
   attackdamagemin: 26
   attackpoint: 0.46
@@ -13183,9 +13172,9 @@ npc_dota_hero_luna:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id075
+  - - *id078
     - *id001
-  - - *id062
+  - - *id064
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -13315,11 +13304,11 @@ npc_dota_hero_lycan:
       tooltip: 'MINION BONUS HEALTH:'
       value: [25, 50, 75, 100]
     behavior: [DOTA_ABILITY_BEHAVIOR_NO_TARGET, DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING]
-    cooldown: [50, 45, 40, 35]
+    cooldown: [55, 50, 45, 40]
     damage: [0, 0, 0, 0]
     displayname: Howl
     level: 0
-    manacost: [15, 20, 25, 30]
+    manacost: [30]
     name: lycan_howl
   - AbilityCastPoint: [0, 0, 0, 0]
     AbilityCastRange: 0
@@ -13390,7 +13379,7 @@ npc_dota_hero_lycan:
   attackrange: 150
   attackrate: 1.7
   attacktype: DOTA_UNIT_CAP_MELEE_ATTACK
-  attributeagilitygain: 1.9
+  attributeagilitygain: 1.5
   attributebaseagility: 16
   attributebaseintelligence: 17
   attributebasestrength: 22
@@ -13411,11 +13400,11 @@ npc_dota_hero_lycan:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id002
-    - *id062
-  - - *id069
+  - - *id078
+    - *id064
+  - - *id070
     - *id032
-  - - *id072
+  - - *id073
     - *id009
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
@@ -13633,10 +13622,10 @@ npc_dota_hero_magnataur:
   statusmanaregen: 0.01
   talents:
   - - *id020
-    - *id053
+    - *id054
   - - *id048
-    - *id043
-  - - *id063
+    - *id051
+  - - *id065
     - *id022
   - - *id049
     - AbilityCastPoint: [0, 0, 0, 0]
@@ -13829,10 +13818,10 @@ npc_dota_hero_medusa:
   statusmanaregen: 0.01
   talents:
   - - *id031
-    - *id075
+    - *id078
   - - *id044
-    - *id076
-  - - &id082
+    - *id079
+  - - &id085
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -14052,12 +14041,12 @@ npc_dota_hero_meepo:
   statusmanaregen: 0.01
   talents:
   - - *id001
-    - *id075
-  - - *id077
+    - *id078
+  - - *id080
     - *id022
-  - - *id076
+  - - *id079
     - *id020
-  - - *id078
+  - - *id081
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -14237,7 +14226,7 @@ npc_dota_hero_mirana:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - &id081
+  - - &id084
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -14257,11 +14246,11 @@ npc_dota_hero_mirana:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_agility_8
-    - *id062
-  - - *id071
+    - *id064
+  - - *id072
     - *id015
   - - *id046
-    - *id061
+    - *id062
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -14324,7 +14313,7 @@ npc_dota_hero_monkey_king:
       value: [0.5, 1, 1.5, 2]
     - name: strike_crit_mult
       tooltip: '%CRIT MULTIPLIER:'
-      value: [200]
+      value: [140, 160, 180, 200]
     - name: strike_radius
       value: [150]
     - name: strike_cast_range
@@ -14368,6 +14357,12 @@ npc_dota_hero_monkey_king:
       value: [4.0]
     - name: top_level_height
       value: [500]
+    - name: impact_damage_tooltip
+      tooltip: 'PRIMAL SPRING DAMAGE:'
+      value: [100, 180, 260, 340]
+    - name: impact_movement_slow_tooltip
+      tooltip: '%PRIMAL SPRING SLOW:'
+      value: [40, 50, 60, 70]
     behavior: [DOTA_ABILITY_BEHAVIOR_UNIT_TARGET, DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES]
     cooldown: [1.4]
     damage: [0, 0, 0, 0]
@@ -14423,6 +14418,7 @@ npc_dota_hero_monkey_king:
       DOTA_ABILITY_BEHAVIOR_IMMEDIATE, DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE]
     cooldown: [0, 0, 0, 0]
     damage: [0, 0, 0, 0]
+    displayname: Spring Early
     level: 0
     manacost: [0, 0, 0, 0]
     name: monkey_king_primal_spring_early
@@ -14441,7 +14437,8 @@ npc_dota_hero_monkey_king:
       tooltip: REQUIRED HITS
       value: [4]
     - name: counter_duration
-      value: [15]
+      tooltip: 'COUNTER DURATION:'
+      value: [10]
     - name: charges
       tooltip: 'CHARGES:'
       value: [4]
@@ -14536,7 +14533,7 @@ npc_dota_hero_monkey_king:
       value: [550]
     - name: outer_attack_buffer
       value: [0]
-    behavior: [DOTA_ABILITY_BEHAVIOR_POINT, DOTA_ABILITY_BEHAVIOR_AOE]
+    behavior: [DOTA_ABILITY_BEHAVIOR_POINT, DOTA_ABILITY_BEHAVIOR_AOE, DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN]
     cooldown: [100, 85, 70]
     damage: [0, 0, 0, 0]
     displayname: Wukong's Command
@@ -14574,11 +14571,11 @@ npc_dota_hero_monkey_king:
   talents:
   - - *id044
     - *id013
-  - - *id079
+  - - *id082
     - *id022
   - - *id046
-    - *id063
-  - - *id080
+    - *id065
+  - - *id083
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -14865,7 +14862,7 @@ npc_dota_hero_morphling:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id081
+  - - *id084
     - *id007
   - - *id020
     - *id037
@@ -15082,13 +15079,13 @@ npc_dota_hero_naga_siren:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id073
+  - - *id074
     - *id038
   - - *id015
-    - *id072
-  - - *id082
-    - *id083
-  - - &id089
+    - *id073
+  - - *id085
+    - *id086
+  - - &id091
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -15292,11 +15289,11 @@ npc_dota_hero_necrolyte:
   talents:
   - - *id046
     - *id004
-  - - *id054
+  - - *id055
     - *id018
-  - - *id071
+  - - *id072
     - *id028
-  - - *id078
+  - - *id081
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -15540,9 +15537,9 @@ npc_dota_hero_nevermore:
   talents:
   - - *id018
     - *id044
-  - - *id084
+  - - *id075
     - *id017
-  - - *id072
+  - - *id073
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -15562,7 +15559,7 @@ npc_dota_hero_nevermore:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_unique_nevermore_1
-  - - *id085
+  - - *id087
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -15728,7 +15725,7 @@ npc_dota_hero_night_stalker:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id068
+  - - *id040
     - *id036
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
@@ -15750,9 +15747,9 @@ npc_dota_hero_night_stalker:
       manacost: [0, 0, 0, 0]
       name: special_bonus_mp_300
     - *id020
-  - - *id086
-    - *id043
-  - - *id087
+  - - *id088
+    - *id051
+  - - *id089
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -15989,13 +15986,13 @@ npc_dota_hero_nyx_assassin:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id071
+  - - *id072
     - *id017
-  - - *id088
-    - *id051
+  - - *id090
+    - *id052
   - - *id035
     - *id047
-  - - *id089
+  - - *id091
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -16007,11 +16004,11 @@ npc_dota_hero_nyx_assassin:
       abilitytype: DOTA_ABILITY_TYPE_ATTRIBUTES
       attributes:
       - name: value
-        value: [200]
+        value: [100]
       behavior: [DOTA_ABILITY_BEHAVIOR_PASSIVE]
       cooldown: [0, 0, 0, 0]
       damage: [0, 0, 0, 0]
-      displayname: +200% Spiked Carapace Damage
+      displayname: 200% Spiked Carapace Damage
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_unique_nyx
@@ -16180,8 +16177,8 @@ npc_dota_hero_obsidian_destroyer:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id073
-    - &id101
+  - - *id074
+    - &id103
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -16203,7 +16200,7 @@ npc_dota_hero_obsidian_destroyer:
       name: special_bonus_movement_speed_10
   - - *id013
     - *id044
-  - - *id090
+  - - *id061
     - *id005
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
@@ -16414,7 +16411,7 @@ npc_dota_hero_ogre_magi:
   items: []
   level: 0
   magicalresistance: 25
-  movementspeed: 295
+  movementspeed: 290
   movementturnrate: 0.6
   name: npc_dota_hero_ogre_magi
   projectilespeed: 900
@@ -16424,13 +16421,13 @@ npc_dota_hero_ogre_magi:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id041
+  - - *id042
     - *id036
   - - *id046
-    - *id070
+    - *id071
   - - *id005
     - *id039
-  - - *id053
+  - - *id054
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -16481,7 +16478,7 @@ npc_dota_hero_omniknight:
     damage: [0, 0, 0, 0]
     displayname: Purification
     level: 0
-    manacost: [70, 90, 110, 130]
+    manacost: [85, 100, 115, 130]
     name: omniknight_purification
   - AbilityCastPoint: 0.35
     AbilityCastRange: 500
@@ -16552,7 +16549,7 @@ npc_dota_hero_omniknight:
       tooltip: 'SCEPTER DURATION:'
       value: [8, 9, 10]
     behavior: [DOTA_ABILITY_BEHAVIOR_NO_TARGET]
-    cooldown: [150]
+    cooldown: [160]
     damage: [0, 0, 0, 0]
     displayname: Guardian Angel
     level: 0
@@ -16587,11 +16584,11 @@ npc_dota_hero_omniknight:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id041
+  - - *id042
     - *id010
-  - - *id091
-    - *id050
   - - *id092
+    - *id050
+  - - *id093
     - &id113
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
@@ -16806,10 +16803,10 @@ npc_dota_hero_oracle:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id069
+  - - *id070
     - *id010
   - - *id025
-    - *id041
+    - *id042
   - - *id039
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
@@ -16830,7 +16827,7 @@ npc_dota_hero_oracle:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_intelligence_20
-  - - &id099
+  - - &id101
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -16899,7 +16896,7 @@ npc_dota_hero_phantom_assassin:
       value: [1, 2, 3, 4]
     - name: base_damage
       tooltip: 'BASE DAMAGE:'
-      value: [70]
+      value: [65]
     - name: attack_factor
       value: [-75, -60, -45, -30]
     - name: attack_factor_tooltip
@@ -17017,9 +17014,9 @@ npc_dota_hero_phantom_assassin:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id062
-    - *id075
-  - - &id105
+  - - *id064
+    - *id078
+  - - &id107
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -17040,9 +17037,9 @@ npc_dota_hero_phantom_assassin:
       manacost: [0, 0, 0, 0]
       name: special_bonus_lifesteal_10
     - *id018
-  - - *id066
+  - - *id068
     - *id016
-  - - *id088
+  - - *id090
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -17256,13 +17253,13 @@ npc_dota_hero_phantom_lancer:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id062
+  - - *id064
     - *id044
-  - - *id093
+  - - *id094
     - *id009
   - - *id047
-    - *id072
-  - - *id083
+    - *id073
+  - - *id086
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -17607,7 +17604,7 @@ npc_dota_hero_phoenix:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id069
+  - - *id070
     - *id017
   - - *id032
     - *id048
@@ -17813,7 +17810,7 @@ npc_dota_hero_puck:
       tooltip: 'SCEPTER BREAK STUN DURATION:'
       value: [1.5, 3, 4.5]
     behavior: [DOTA_ABILITY_BEHAVIOR_AOE, DOTA_ABILITY_BEHAVIOR_POINT]
-    cooldown: [75]
+    cooldown: [70, 65, 60]
     damage: [0, 0, 0, 0]
     displayname: Dream Coil
     level: 0
@@ -17848,12 +17845,12 @@ npc_dota_hero_puck:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id094
-    - *id062
+  - - *id095
+    - *id064
   - - *id046
     - *id022
   - - *id019
-    - *id095
+    - *id096
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -18052,7 +18049,7 @@ npc_dota_hero_pudge:
     - *id024
   - - *id013
     - *id018
-  - - *id096
+  - - *id097
     - *id049
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
@@ -18262,9 +18259,9 @@ npc_dota_hero_pugna:
   statusmanaregen: 0.01
   talents:
   - - *id021
-    - *id062
-  - - *id057
-    - *id051
+    - *id064
+  - - *id069
+    - *id052
   - - *id016
     - *id036
   - - AbilityCastPoint: [0, 0, 0, 0]
@@ -18462,10 +18459,10 @@ npc_dota_hero_queenofpain:
   statusmanaregen: 0.01
   talents:
   - - *id002
-    - *id097
+    - *id098
   - - *id037
     - *id048
-  - - *id065
+  - - *id067
     - *id025
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
@@ -18677,9 +18674,9 @@ npc_dota_hero_rattletrap:
     - *id007
   - - *id046
     - *id018
-  - - *id057
-    - *id056
-  - - *id078
+  - - *id069
+    - *id057
+  - - *id081
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -18872,7 +18869,7 @@ npc_dota_hero_razor:
   statusmanaregen: 0.01
   talents:
   - - *id018
-    - *id098
+    - *id099
   - - *id013
     - &id119
       AbilityCastPoint: [0, 0, 0, 0]
@@ -18961,7 +18958,7 @@ npc_dota_hero_riki:
       value: [40, 50, 60, 70]
     - name: movement_speed_reduction
       tooltip: '%MOVEMENT SLOW:'
-      value: [13, 17, 21, 25]
+      value: [10, 15, 20, 25]
     - name: turn_reduction
       value: [0]
     - name: duration
@@ -19086,12 +19083,12 @@ npc_dota_hero_riki:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id062
+  - - *id064
     - *id018
-  - - *id098
-    - *id067
   - - *id099
-    - *id093
+    - *id100
+  - - *id101
+    - *id094
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -19391,11 +19388,11 @@ npc_dota_hero_rubick:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id041
-    - *id043
-  - - *id062
-    - *id090
-  - - *id091
+  - - *id042
+    - *id051
+  - - *id064
+    - *id061
+  - - *id092
     - *id019
   - - *id030
     - AbilityCastPoint: [0, 0, 0, 0]
@@ -19598,7 +19595,7 @@ npc_dota_hero_sand_king:
   talents:
   - - *id007
     - *id013
-  - - *id056
+  - - *id057
     - *id018
   - - &id121
       AbilityCastPoint: [0, 0, 0, 0]
@@ -19621,7 +19618,7 @@ npc_dota_hero_sand_king:
       manacost: [0, 0, 0, 0]
       name: special_bonus_hp_350
     - *id035
-  - - *id100
+  - - *id102
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -19830,11 +19827,11 @@ npc_dota_hero_shadow_demon:
   statusmanaregen: 0.01
   talents:
   - - *id004
-    - *id101
-  - - *id091
-    - *id084
+    - *id103
+  - - *id092
+    - *id075
   - - *id028
-    - *id057
+    - *id069
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -20021,12 +20018,12 @@ npc_dota_hero_shadow_shaman:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id062
+  - - *id064
     - *id018
   - - *id036
-    - *id067
+    - *id100
   - - *id011
-    - *id095
+    - *id096
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -20321,7 +20318,7 @@ npc_dota_hero_shredder:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id062
+  - - *id064
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -20341,9 +20338,9 @@ npc_dota_hero_shredder:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_exp_boost_10
-  - - *id102
-    - *id090
-  - - *id071
+  - - *id104
+    - *id061
+  - - *id072
     - *id034
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
@@ -20364,7 +20361,7 @@ npc_dota_hero_shredder:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_unique_timbersaw
-    - *id083
+    - *id086
   team: Good
   visiondaytimerange: 1800
   visionnighttimerange: 800
@@ -20511,12 +20508,12 @@ npc_dota_hero_silencer:
   statusmanaregen: 0.01
   talents:
   - - *id001
-    - *id103
+    - *id105
   - - *id025
-    - *id041
+    - *id042
   - - *id015
-    - *id056
-  - - *id104
+    - *id057
+  - - *id106
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -20705,12 +20702,12 @@ npc_dota_hero_skeleton_king:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id075
-    - *id094
+  - - *id078
+    - *id095
   - - *id018
     - *id025
-  - - *id064
-    - *id083
+  - - *id066
+    - *id086
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -20920,9 +20917,9 @@ npc_dota_hero_skywrath_mage:
   statusmanaregen: 0.01
   talents:
   - - *id038
-    - *id103
-  - - *id043
-    - *id041
+    - *id105
+  - - *id051
+    - *id042
   - - *id022
     - *id047
   - - &id116
@@ -21176,7 +21173,7 @@ npc_dota_hero_slardar:
       manacost: [0, 0, 0, 0]
       name: special_bonus_attack_damage_35
     - *id060
-  - - *id083
+  - - *id086
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -21350,10 +21347,10 @@ npc_dota_hero_slark:
   attributeagilitygain: 1.5
   attributebaseagility: 21
   attributebaseintelligence: 16
-  attributebasestrength: 21
+  attributebasestrength: 20
   attributeintelligencegain: 1.9
   attributeprimary: DOTA_ATTRIBUTE_AGILITY
-  attributestrengthgain: 1.8
+  attributestrengthgain: 1.6
   displayname: Slark
   items: []
   level: 0
@@ -21368,13 +21365,13 @@ npc_dota_hero_slark:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id105
-    - *id075
-  - - *id082
-    - *id051
+  - - *id107
+    - *id078
+  - - *id085
+    - *id052
   - - *id005
     - *id020
-  - - *id106
+  - - *id108
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -21589,9 +21586,9 @@ npc_dota_hero_sniper:
       manacost: [0, 0, 0, 0]
       name: special_bonus_unique_sniper_1
     - *id025
-  - - *id061
-    - *id107
-  - - *id065
+  - - *id062
+    - *id109
+  - - *id067
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -21794,11 +21791,11 @@ npc_dota_hero_spectre:
   talents:
   - - *id002
     - *id013
-  - - *id054
+  - - *id055
     - *id018
   - - *id020
     - *id032
-  - - *id078
+  - - *id081
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -21992,12 +21989,12 @@ npc_dota_hero_spirit_breaker:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id055
+  - - *id056
     - *id018
   - - *id002
     - *id013
   - - *id035
-    - *id108
+    - *id063
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -22211,7 +22208,7 @@ npc_dota_hero_storm_spirit:
     - *id021
   - - *id017
     - *id031
-  - - *id064
+  - - *id066
     - *id060
   - - *id029
     - AbilityCastPoint: [0, 0, 0, 0]
@@ -22383,11 +22380,11 @@ npc_dota_hero_sven:
   talents:
   - - *id004
     - *id007
-  - - *id018
-    - *id054
+  - - *id022
+    - *id094
   - - *id015
-    - *id072
-  - - *id109
+    - *id073
+  - - *id076
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -22647,7 +22644,7 @@ npc_dota_hero_techies:
   - - *id022
     - *id024
   - - *id045
-    - &id125
+    - &id124
       AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -22688,7 +22685,7 @@ npc_dota_hero_techies:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_respawn_reduction_60
-  - - *id107
+  - - *id109
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -22892,7 +22889,7 @@ npc_dota_hero_templar_assassin:
   talents:
   - - *id020
     - *id018
-  - - *id054
+  - - *id055
     - *id110
   - - *id005
     - *id046
@@ -23083,7 +23080,7 @@ npc_dota_hero_terrorblade:
     - *id059
   - - *id014
     - *id017
-  - - *id082
+  - - *id085
     - *id018
   - - *id112
     - AbilityCastPoint: [0, 0, 0, 0]
@@ -23261,8 +23258,8 @@ npc_dota_hero_tidehunter:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id043
-    - *id062
+  - - *id051
+    - *id064
   - - *id060
     - &id118
       AbilityCastPoint: [0, 0, 0, 0]
@@ -23285,7 +23282,7 @@ npc_dota_hero_tidehunter:
       manacost: [0, 0, 0, 0]
       name: special_bonus_exp_boost_30
   - - *id113
-    - *id063
+    - *id065
   - - *id030
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
@@ -23466,11 +23463,11 @@ npc_dota_hero_tinker:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id094
+  - - *id095
     - *id013
   - - *id025
     - *id114
-  - - *id091
+  - - *id092
     - *id047
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
@@ -23751,7 +23748,7 @@ npc_dota_hero_treant:
       value: [0.75]
     - name: bash_duration
       tooltip: 'BASH DURATION:'
-      value: [1, 1.4, 1.8, 2.2]
+      value: [0.7, 1.2, 1.7, 2.2]
     behavior: [DOTA_ABILITY_BEHAVIOR_PASSIVE]
     cooldown: [0, 0, 0, 0]
     damage: [0, 0, 0, 0]
@@ -23897,7 +23894,7 @@ npc_dota_hero_treant:
   items: []
   level: 0
   magicalresistance: 25
-  movementspeed: 300
+  movementspeed: 295
   movementturnrate: 0.5
   name: npc_dota_hero_treant
   projectilespeed: 900
@@ -23912,26 +23909,8 @@ npc_dota_hero_treant:
   - - *id048
     - *id039
   - - *id009
-    - *id109
-  - - AbilityCastPoint: [0, 0, 0, 0]
-      AbilityCastRange: 0
-      AbilityCastRangeBuffer: 250
-      AbilityChannelTime: [0, 0, 0, 0]
-      AbilityDuration: [0, 0, 0, 0]
-      AbilityModifierSupportBonus: 0
-      AbilityModifierSupportValue: 1
-      ID: 6025
-      abilitytype: DOTA_ABILITY_TYPE_ATTRIBUTES
-      attributes:
-      - name: value
-        value: [2.0]
-      behavior: [DOTA_ABILITY_BEHAVIOR_PASSIVE]
-      cooldown: [0, 0, 0, 0]
-      damage: [0, 0, 0, 0]
-      displayname: +20% 2s Bash
-      level: 0
-      manacost: [0, 0, 0, 0]
-      name: special_bonus_20_bash_2
+    - *id076
+  - - *id077
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -24150,12 +24129,12 @@ npc_dota_hero_troll_warlord:
   statusmanaregen: 0.01
   talents:
   - - *id004
-    - *id098
+    - *id099
   - - *id018
-    - *id042
+    - *id043
   - - *id012
     - *id046
-  - - *id095
+  - - *id096
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -24404,7 +24383,7 @@ npc_dota_hero_tusk:
   level: 0
   magicalresistance: 25
   movementspeed: 300
-  movementturnrate: 0.5
+  movementturnrate: 0.7
   name: npc_dota_hero_tusk
   projectilespeed: 900
   role: Initiator,Disabler,Nuker
@@ -24413,11 +24392,11 @@ npc_dota_hero_tusk:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id067
+  - - *id100
     - *id027
-  - - *id063
+  - - *id065
     - *id048
-  - - *id042
+  - - *id043
     - *id028
   - - *id117
     - AbilityCastPoint: [0, 0, 0, 0]
@@ -24630,7 +24609,7 @@ npc_dota_hero_undying:
     - *id012
   - - *id016
     - *id022
-  - - *id087
+  - - *id089
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -24797,7 +24776,7 @@ npc_dota_hero_ursa:
   statusmanaregen: 0.01
   talents:
   - - *id014
-    - *id070
+    - *id071
   - - *id013
     - *id044
   - - *id018
@@ -24817,7 +24796,7 @@ npc_dota_hero_ursa:
       behavior: [DOTA_ABILITY_BEHAVIOR_PASSIVE]
       cooldown: [0, 0, 0, 0]
       damage: [0, 0, 0, 0]
-      displayname: +12 All Stats
+      displayname: +14 All Stats
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_all_stats_14
@@ -24991,9 +24970,9 @@ npc_dota_hero_vengefulspirit:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id070
+  - - *id071
     - *id020
-  - - *id093
+  - - *id094
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -25013,7 +24992,7 @@ npc_dota_hero_vengefulspirit:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_unique_vengeful_spirit_1
-  - - *id043
+  - - *id051
     - *id022
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
@@ -25227,7 +25206,7 @@ npc_dota_hero_venomancer:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id067
+  - - *id100
     - *id022
   - - *id017
     - *id119
@@ -25433,9 +25412,9 @@ npc_dota_hero_viper:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id075
+  - - *id078
     - *id038
-  - - *id068
+  - - *id040
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -25634,7 +25613,7 @@ npc_dota_hero_visage:
     attributes:
     - name: familiar_hp
       tooltip: 'HP:'
-      value: [400, 700, 1000]
+      value: [300, 500, 700]
     - name: familiar_armor
       value: [0, 1, 2]
     - name: familiar_speed
@@ -25659,8 +25638,8 @@ npc_dota_hero_visage:
     name: visage_summon_familiars
   abilitylayout: 4
   armorphysical: -2
-  attackdamagemax: 34
-  attackdamagemin: 24
+  attackdamagemax: 31
+  attackdamagemin: 21
   attackpoint: 0.46
   attackrange: 600
   attackrate: 1.7
@@ -25686,9 +25665,9 @@ npc_dota_hero_visage:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id041
+  - - *id042
     - *id010
-  - - *id043
+  - - *id051
     - *id036
   - - *id005
     - *id011
@@ -25901,7 +25880,7 @@ npc_dota_hero_warlock:
   statusmanaregen: 0.01
   talents:
   - - *id010
-    - *id054
+    - *id055
   - - *id034
     - *id022
   - - *id121
@@ -26040,7 +26019,7 @@ npc_dota_hero_weaver:
     - name: delay
       value: [0.25]
     behavior: [DOTA_ABILITY_BEHAVIOR_PASSIVE]
-    cooldown: [6, 5, 4, 3]
+    cooldown: [7, 6, 5, 3]
     damage: [0, 0, 0, 0]
     displayname: Geminate Attack
     level: 0
@@ -26122,8 +26101,8 @@ npc_dota_hero_weaver:
   - - *id014
     - *id122
   - - *id025
-    - *id082
-  - - *id095
+    - *id085
+  - - *id096
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -26243,7 +26222,7 @@ npc_dota_hero_windrunner:
       tooltip: 'DURATION:'
       value: [3, 4, 5, 6]
     behavior: [DOTA_ABILITY_BEHAVIOR_NO_TARGET, DOTA_ABILITY_BEHAVIOR_IMMEDIATE]
-    cooldown: [14]
+    cooldown: [13]
     damage: [0, 0, 0, 0]
     displayname: Windrun
     level: 0
@@ -26311,9 +26290,9 @@ npc_dota_hero_windrunner:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id075
+  - - *id078
     - *id123
-  - - *id062
+  - - *id025
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -26321,18 +26300,18 @@ npc_dota_hero_windrunner:
       AbilityDuration: [0, 0, 0, 0]
       AbilityModifierSupportBonus: 0
       AbilityModifierSupportValue: 1
-      ID: 6042
+      ID: 6332
       abilitytype: DOTA_ABILITY_TYPE_ATTRIBUTES
       attributes:
       - name: value
-        value: [13]
+        value: [16]
       behavior: [DOTA_ABILITY_BEHAVIOR_PASSIVE]
       cooldown: [0, 0, 0, 0]
       damage: [0, 0, 0, 0]
-      displayname: +13 Intelligence
+      displayname: +16 Intelligence
       level: 0
       manacost: [0, 0, 0, 0]
-      name: special_bonus_intelligence_13
+      name: special_bonus_intelligence_16
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -26352,8 +26331,8 @@ npc_dota_hero_windrunner:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_spell_amplify_12
-    - *id056
-  - - *id065
+    - *id057
+  - - *id067
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -26555,8 +26534,8 @@ npc_dota_hero_winter_wyvern:
   statusmana: 50
   statusmanaregen: 0.01
   talents:
-  - - *id094
-    - *id097
+  - - *id095
+    - *id098
   - - *id018
     - *id046
   - - *id035
@@ -26863,7 +26842,7 @@ npc_dota_hero_wisp:
   statusmanaregen: 0.01
   talents:
   - - *id028
-    - *id042
+    - *id043
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -26883,10 +26862,28 @@ npc_dota_hero_wisp:
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_mp_regen_10
-    - *id051
-  - - *id124
+    - *id052
+  - - AbilityCastPoint: [0, 0, 0, 0]
+      AbilityCastRange: 0
+      AbilityCastRangeBuffer: 250
+      AbilityChannelTime: [0, 0, 0, 0]
+      AbilityDuration: [0, 0, 0, 0]
+      AbilityModifierSupportBonus: 0
+      AbilityModifierSupportValue: 1
+      ID: 6079
+      abilitytype: DOTA_ABILITY_TYPE_ATTRIBUTES
+      attributes:
+      - name: value
+        value: [20]
+      behavior: [DOTA_ABILITY_BEHAVIOR_PASSIVE]
+      cooldown: [0, 0, 0, 0]
+      damage: [0, 0, 0, 0]
+      displayname: +20 Health Regen
+      level: 0
+      manacost: [0, 0, 0, 0]
+      name: special_bonus_hp_regen_20
     - *id035
-  - - *id108
+  - - *id063
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250
@@ -27072,10 +27069,10 @@ npc_dota_hero_witch_doctor:
   statusmanaregen: 0.01
   talents:
   - - *id025
-    - *id067
+    - *id100
   - - *id023
     - *id049
-  - - *id061
+  - - *id062
     - *id047
   - - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
@@ -27088,11 +27085,11 @@ npc_dota_hero_witch_doctor:
       abilitytype: DOTA_ABILITY_TYPE_ATTRIBUTES
       attributes:
       - name: value
-        value: [150]
+        value: [175]
       behavior: [DOTA_ABILITY_BEHAVIOR_PASSIVE]
       cooldown: [0, 0, 0, 0]
       damage: [0, 0, 0, 0]
-      displayname: +150 Death Ward Attack Range
+      displayname: +175 Death Ward Attack Range
       level: 0
       manacost: [0, 0, 0, 0]
       name: special_bonus_unique_witch_doctor_1
@@ -27296,12 +27293,12 @@ npc_dota_hero_zuus:
   statusmanaregen: 0.01
   talents:
   - - *id024
-    - *id062
+    - *id064
   - - *id013
     - *id028
-  - - *id086
-    - *id049
-  - - *id125
+  - - *id008
+    - *id063
+  - - *id124
     - AbilityCastPoint: [0, 0, 0, 0]
       AbilityCastRange: 0
       AbilityCastRangeBuffer: 250

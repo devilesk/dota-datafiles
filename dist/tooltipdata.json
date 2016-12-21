@@ -1916,6 +1916,9 @@
  "item_recipe_pipe": {
   "DisplayName": "Pipe of Insight Recipe"
  }, 
+ "item_recipe_radiance": {
+  "DisplayName": "Radiance Recipe"
+ }, 
  "item_recipe_refresher": {
   "DisplayName": "Refresher Orb Recipe"
  }, 
@@ -2672,6 +2675,9 @@
   "Description": "Monkey King springs out from his tree perch, damaging and slowing enemies in the area where he lands. Damage and slow amounts are in proportion to channel duration.", 
   "DisplayName": "Primal Spring", 
   "Lore": "Leaping from the safety of cover into the midst of his enemies, Sun Wukong attacks without mercy."
+ }, 
+ "monkey_king_primal_spring_early": {
+  "DisplayName": "Spring Early"
  }, 
  "monkey_king_tree_dance": {
   "Description": "Monkey King jumps to a tree and perches atop it. While perched, he gains the Primal Spring ability\u2014a channeled leap attack. If Monkey King's tree is destroyed, he falls and is stunned for 4 seconds. Taking damage from player controlled units or Roshan while on the ground puts Tree Dance on cooldown.", 
@@ -4676,7 +4682,7 @@
   "DisplayName": "+12 All Stats"
  }, 
  "special_bonus_all_stats_14": {
-  "DisplayName": "+12 All Stats"
+  "DisplayName": "+14 All Stats"
  }, 
  "special_bonus_all_stats_15": {
   "DisplayName": "+15 All Stats"
@@ -5031,6 +5037,9 @@
  }, 
  "special_bonus_intelligence_15": {
   "DisplayName": "+15 Intelligence"
+ }, 
+ "special_bonus_intelligence_16": {
+  "DisplayName": "+16 Intelligence"
  }, 
  "special_bonus_intelligence_20": {
   "DisplayName": "+20 Intelligence"
@@ -5423,7 +5432,7 @@
   "DisplayName": "+600 Timewalk Cast Range"
  }, 
  "special_bonus_unique_furion": {
-  "DisplayName": "+6 Treants Summoned"
+  "DisplayName": "2x Treant HP/Damage"
  }, 
  "special_bonus_unique_gyrocopter_1": {
   "DisplayName": "+3 Homing Missile Charges"
@@ -5546,7 +5555,7 @@
   "DisplayName": "-6s Crippling Fear Cooldown"
  }, 
  "special_bonus_unique_nyx": {
-  "DisplayName": "+200% Spiked Carapace Damage"
+  "DisplayName": "200% Spiked Carapace Damage"
  }, 
  "special_bonus_unique_ogre_magi": {
   "DisplayName": "+40 Bloodlust AS"
@@ -5738,7 +5747,7 @@
   "DisplayName": "+150 Spirits Damage"
  }, 
  "special_bonus_unique_witch_doctor_1": {
-  "DisplayName": "+150 Death Ward Attack Range"
+  "DisplayName": "+175 Death Ward Attack Range"
  }, 
  "special_bonus_unique_witch_doctor_2": {
   "DisplayName": "+20 Voodoo Restoration Heal"

@@ -7998,6 +7998,7 @@
   "attributes": [], 
   "cooldown": [], 
   "description": null, 
+  "displayname": "Radiance Recipe", 
   "id": 136, 
   "itemcost": 1350, 
   "level": 0, 

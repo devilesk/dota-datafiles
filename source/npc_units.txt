@@ -9565,7 +9565,7 @@
 
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"522"		// Speed.
+		"MovementSpeed"				"550"		// Speed.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 
@@ -9612,7 +9612,7 @@
 		"HealthBarOffset"			"165"
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"522"		// Speed.
+		"MovementSpeed"				"550"		// Speed.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 
@@ -9660,7 +9660,7 @@
 
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
-		"MovementSpeed"				"522"		// Speed.
+		"MovementSpeed"				"550"		// Speed.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 
@@ -11188,7 +11188,7 @@
 		"MovementSpeed"				"430"		// Speed
 		"MovementTurnRate"			"0.5"		// Turning rate.
 
-		"StatusHealth"				"500"		// Base health.
+		"StatusHealth"				"300"		// Base health.
 		"StatusHealthRegen"			"0.0"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0.0"		// Mana regeneration rate.
@@ -11252,7 +11252,7 @@
 		"MovementSpeed"				"430"		// Speed
 		"MovementTurnRate"			"0.5"		// Turning rate.
 
-		"StatusHealth"				"750"		// Base health.
+		"StatusHealth"				"500"		// Base health.
 		"StatusHealthRegen"			"0.0"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0.0"		// Mana regeneration rate.
@@ -11315,7 +11315,7 @@
 		"MovementSpeed"				"430"		// Speed
 		"MovementTurnRate"			"0.5"		// Turning rate.
 
-		"StatusHealth"				"1000"		// Base health.
+		"StatusHealth"				"700"		// Base health.
 		"StatusHealthRegen"			"0.0"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0.0"		// Mana regeneration rate.
