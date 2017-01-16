@@ -25,6 +25,8 @@ file_data = [
 ]
 MAX_ABILITY_LEVEL = 25
 
+items = ["abyssal_blade","ultimate_scepter","courier","arcane_boots","armlet","assault","boots_of_elves","bfury","belt_of_strength","black_king_bar","blade_mail","blade_of_alacrity","blades_of_attack","blink","bloodstone","boots","travel_boots","bottle","bracer","broadsword","buckler","butterfly","chainmail","circlet","clarity","claymore","cloak","lesser_crit","greater_crit","dagon","demon_edge","desolator","diffusal_blade","rapier","ancient_janggo","dust","eagle","energy_booster","ethereal_blade","cyclone","skadi","flying_courier","force_staff","gauntlets","gem","ghost","gloves","hand_of_midas","headdress","flask","heart","heavens_halberd","helm_of_iron_will","helm_of_the_dominator","hood_of_defiance","hyperstone","branches","javelin","sphere","maelstrom","magic_stick","magic_wand","manta","mantle","mask_of_madness","medallion_of_courage","mekansm","mithril_hammer","mjollnir","monkey_king_bar","lifesteal","mystic_staff","necronomicon","null_talisman","oblivion_staff","ward_observer","ogre_axe","orb_of_venom","orchid","pers","phase_boots","pipe","platemail","point_booster","poor_mans_shield","power_treads","quarterstaff","quelling_blade","radiance","reaver","refresher","ring_of_aquila","ring_of_basilius","ring_of_health","ring_of_protection","ring_of_regen","robe","rod_of_atos","relic","sobi_mask","sange","sange_and_yasha","satanic","sheepstick","ward_sentry","shadow_amulet","invis_sword","shivas_guard","basher","slippers","smoke_of_deceit","soul_booster","soul_ring","staff_of_wizardry","stout_shield","talisman_of_evasion","tango","tpscroll","tranquil_boots","ultimate_orb","urn_of_shadows","vanguard","veil_of_discord","vitality_booster","vladmir","void_stone","wraith_band","yasha","crimson_guard","enchanted_mango","lotus_orb","glimmer_cape","guardian_greaves","moon_shard","silver_edge","solar_crest","octarine_core","aether_lens","faerie_fire","iron_talon","dragon_lance","echo_sabre","infused_raindrop","blight_stone","wind_lace","tome_of_knowledge","bloodthorn","hurricane_pike"]
+
 def parse_vdf_to_json(filename, src_dir, out_dir):
     print 'parse', filename
     with open(src_dir + filename, 'r') as f:
@@ -152,7 +154,10 @@ def process(src_dir, subset_dir, yaml_dir):
             elif is_number(unit_data_subset[h][k]):
                 unit_data_subset[h][k] = format_num(float(unit_data_subset[h][k]))
 
+    itemslist = {'data': {}}
     for a in item_data_subset:
+        if a.replace('item_', '') in items:
+            itemslist['data'][a.replace('item_', '')] = tooltip_data_tokens['dota_tooltip_ability_' + a]
         for k in item_data_subset[a]:
             if ' ' in item_data_subset[a][k] or '|' in item_data_subset[a][k] or ',' in item_data_subset[a][k]:
                 item_data_subset[a][k] = [format_num(float(x)) if is_number(x) else x.replace('|','') for x in item_data_subset[a][k].split() if x != '|']
@@ -346,6 +351,7 @@ def process(src_dir, subset_dir, yaml_dir):
     write_json(unit_data_subset, subset_dir + 'unitdata.json')
     write_json(item_data_subset, subset_dir + 'itemdata.json')
     write_json(tooltip_data_subset, subset_dir + 'tooltipdata.json')
+    write_json(itemslist, subset_dir + 'items.json')
     with open(yaml_dir + 'herodata.yaml','w') as g:
         g.write(yaml.safe_dump(hero_data_subset))
     print 'done'
