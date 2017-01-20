@@ -92,10 +92,12 @@ def process(src_dir, subset_dir, yaml_dir):
             raise Exception()
     tooltip_data_tokens = dict((k.lower(), v) for k,v in tooltip_data_tokens.iteritems())
   
+    heroeslist = {'data': []}
     hero_data_subset = {}
     for h in hero_data['DOTAHeroes']:
         if h == 'npc_dota_hero_target_dummy':
             continue
+        heroeslist['data'].append(h.replace('npc_dota_hero_', ''))
         hero_data_subset[h] = subset(schema.hero_schema, hero_data['DOTAHeroes'][h])
 
     ability_data_subset = {}
@@ -352,6 +354,7 @@ def process(src_dir, subset_dir, yaml_dir):
     write_json(item_data_subset, subset_dir + 'itemdata.json')
     write_json(tooltip_data_subset, subset_dir + 'tooltipdata.json')
     write_json(itemslist, subset_dir + 'items.json')
+    write_json(heroeslist, subset_dir + 'heroes.json')
     with open(yaml_dir + 'herodata.yaml','w') as g:
         g.write(yaml.safe_dump(hero_data_subset))
     print 'done'
