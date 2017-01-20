@@ -922,6 +922,7 @@
 	{
 		"ID"							"30"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"				"900"
 		"Model"							"models/props_gameplay/gem01.vmdl"
 		"Effect"						"particles/generic_gameplay/dropped_gem.vpcf"
 
@@ -1046,6 +1047,7 @@
 		
 		"AbilityCooldown"				"13.0"
 		"AbilitySharedCooldown"			"magicwand"
+		"AbilityCastRange"				"1200"
 		
 		"ItemCost"						"200"
 		"ItemShopTags"					"regen_health;regen_mana;boost_health;boost_mana"
@@ -1099,6 +1101,7 @@
 		
 		"AbilityCooldown"				"13.0"
 		"AbilitySharedCooldown"			"magicwand"
+		"AbilityCastRange"				"1200"
 
 		"ItemCost"						"465"
 		"ItemShopTags"					"regen_health;regen_mana;boost_health;boost_mana;int;agi;str"
@@ -1281,6 +1284,7 @@
 		"Effect"						"particles/generic_gameplay/dropped_dust.vpcf"
 		
 		"AbilityCooldown"				"30.0"
+		"AbilityCastRange"				"1050"
 		
 		"AbilityManaCost"				"0"
 		"ItemCost"						"180"
@@ -2606,6 +2610,7 @@
 		"FightRecapLevel"				"2"
 
 		"AbilityCooldown"				"65.0"
+		"AbilityCastRange"				"900"
 
 		"AbilityManaCost"				"225"
 		"ItemCost"						"2275"
@@ -2680,6 +2685,7 @@
 	{
 		"ID"							"81"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"				"900"
 
 		"ItemCost"						"2275"
 		"ItemShopTags"					"lifesteal;damage;armor;regen_mana"
@@ -2772,6 +2778,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
 
 		"AbilityCooldown"				"25.0"
+		"AbilityCastRange"				"900"
 
 		"AbilityManaCost"				"10"
 		"ItemCost"						"800"
@@ -2837,6 +2844,7 @@
 	{
 		"ID"							"88"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE"
+		"AbilityCastRange"				"900"
 
 		"ItemCost"						"500"
 		"ItemShopTags"					"damage;regen_mana;armor"
@@ -2903,6 +2911,7 @@
 
 		"AbilityCooldown"				"60.0"
 		"AbilityManaCost"				"100"
+		"AbilityCastRange"				"900"
 
 		"ItemCost"						"3100"
 		"ItemShopTags"					"regen_health;boost_magic_resist"
@@ -3101,6 +3110,7 @@
 		"ItemShopTags"					"str;int;agi;regen_health"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"headdress"
+		"AbilityCastRange"				"900"
 		
 		"AbilitySpecial"
 		{
@@ -4559,6 +4569,7 @@
 	{
 		"ID"							"112"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"AbilityCastRange"				"900"
 
 		"ItemCost"						"5250"
 		"ItemShopTags"					"attack_speed;armor;hard_to_tag"
@@ -4784,6 +4795,7 @@
 		"FightRecapLevel"				"1"
 
 		"AbilityCooldown"				"30"
+		"AbilityCastRange"				"900"
 
 		"AbilityManaCost"				"100"
 		"ItemCost"						"4700"
@@ -5162,6 +5174,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
 
 		"AbilityCooldown"				"46.0"
+		"AbilityCastRange"				"900"
 
 		"ItemCost"						"3550"
 		"ItemShopTags"					"armor;boost_armor;regen_health;block;health_pool"
@@ -5511,6 +5524,7 @@
 	{
 		"ID"							"137"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE"
+		"AbilityCastRange" 				"700"
 
 		"ItemCost"						"5150"
 		"ItemShopTags"					"damage"
@@ -7397,6 +7411,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
 
 		"AbilityCooldown"				"55.0"
+		"AbilityCastRange"				"900"
 
 		"AbilityManaCost"				"0"
 		"ItemCost"						"1300"
@@ -7586,6 +7601,7 @@
 		"FightRecapLevel"				"1"
 
 		"AbilityCooldown"				"30.0"
+		"AbilityCastRange"				"900"
 
 		"ItemCost"						"1780"
 		"ItemShopTags"					"str;agi;int;damage;move_speed;attack_speed;hard_to_tag"
@@ -7814,6 +7830,7 @@
 		"FightRecapLevel"				"1"
 																																																																												 
 		"AbilityCooldown"				"1.0"
+		"AbilityCastRange"				"1200"
 
 		"ItemCost"						"50"
 		"ItemShopTags"					"consumable"
@@ -8010,6 +8027,7 @@
 		"FightRecapLevel"				"1"
 
 		"AbilityCooldown"				"40"
+		"AbilityCastRange" 				"900"
 
 		"AbilityManaCost"				"0"
 		"ItemCost"						"5275"
@@ -8453,7 +8471,8 @@
 	{
 		"ID"							"212"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE"
-		
+		"AbilityCastRange" 				"900"
+
 		"ItemCost"						"985"
 		"ItemShopTags"					""
 		"ItemQuality"					"rare"

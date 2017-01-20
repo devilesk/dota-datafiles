@@ -7812,7 +7812,8 @@
 		"IsSummoned"				"1"
 		"SelectionGroup"			"Invoker_Forged_Spirits"
 		"wearable"				"8625"
-				
+		"UnitLabel"			"forged_spirits"
+		
 		
 		"Ability1"					"forged_spirit_melting_strike"			// Ability 1.
 		"Ability2"					""			// Ability 2.
@@ -7871,7 +7872,7 @@
 		"Level"						"3"
 		"IsSummoned"				"1"
 		"SelectionGroup"			"Spiders"
-		"UnitLabel"					"Spiders"
+		"UnitLabel"					"spiderling"
 		"PathfindingSearchDepthScale"	"0.1"
 
 		
@@ -7932,7 +7933,7 @@
 		"Level"						"2"
 		"IsSummoned"				"1"
 		"SelectionGroup"			"Spiderite"
-		"UnitLabel"					"Spiderite"
+		"UnitLabel"					"spiderite"
 
 				
 		
@@ -13209,7 +13210,8 @@
 		"ModelScale"				"1.0"
 		"SelectionGroup"			"Techies_RemoteMines"
  		"wearable"				"8645"
-
+		"UnitLabel"			"techies_remotemines"
+		
 		"Ability1"					"techies_remote_mines_self_detonate"			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
