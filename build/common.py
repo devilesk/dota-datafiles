@@ -2,7 +2,7 @@ import errno
 import json
 import os
 import shutil
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 
 def make_sure_path_exists(path):
     try:
@@ -12,13 +12,13 @@ def make_sure_path_exists(path):
             raise
             
 def make_dirs(folders_list):
-    print 'making directories'
+    print('making directories')
     for f in folders_list:
         make_sure_path_exists(f)
-        print 'paths exist'
+        print('paths exist')
 
 def copy(src, dest):
-    print 'copy', src, dest
+    print('copy', src, dest)
     try:
         shutil.copytree(src, dest)
     except OSError as e:
@@ -26,10 +26,10 @@ def copy(src, dest):
         if e.errno == errno.ENOTDIR:
             shutil.copy(src, dest)
         else:
-            print('Directory not copied. Error: %s' % e)
+            print(('Directory not copied. Error: %s' % e))
         
 def copytree(src, dst, symlinks=False, ignore=None):
-    print 'copytree', src, dst
+    print('copytree', src, dst)
     for item in os.listdir(src):
         s = os.path.join(src, item)
         d = os.path.join(dst, item)
@@ -40,7 +40,7 @@ def copytree(src, dst, symlinks=False, ignore=None):
             
 def clean(folders_list):
     for f in folders_list:
-        print 'removing', f
+        print('removing', f)
         shutil.rmtree(f)
 
 def is_number(s):
@@ -57,8 +57,8 @@ def format_num(x):
         return x
 
 def download_file_from(url, dest):
-    print 'downloading to', dest
-    response = urllib2.urlopen(url)
+    print('downloading to', dest)
+    response = urllib.request.urlopen(url)
     with open(dest, 'w') as f:
         f.write(response.read())
 

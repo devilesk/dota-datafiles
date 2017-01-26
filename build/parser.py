@@ -27,25 +27,25 @@ MAX_ABILITY_LEVEL = 25
 items = ["abyssal_blade","ultimate_scepter","courier","arcane_boots","armlet","assault","boots_of_elves","bfury","belt_of_strength","black_king_bar","blade_mail","blade_of_alacrity","blades_of_attack","blink","bloodstone","boots","travel_boots","bottle","bracer","broadsword","buckler","butterfly","chainmail","circlet","clarity","claymore","cloak","lesser_crit","greater_crit","dagon","demon_edge","desolator","diffusal_blade","rapier","ancient_janggo","dust","eagle","energy_booster","ethereal_blade","cyclone","skadi","flying_courier","force_staff","gauntlets","gem","ghost","gloves","hand_of_midas","headdress","flask","heart","heavens_halberd","helm_of_iron_will","helm_of_the_dominator","hood_of_defiance","hyperstone","branches","javelin","sphere","maelstrom","magic_stick","magic_wand","manta","mantle","mask_of_madness","medallion_of_courage","mekansm","mithril_hammer","mjollnir","monkey_king_bar","lifesteal","mystic_staff","necronomicon","null_talisman","oblivion_staff","ward_observer","ogre_axe","orb_of_venom","orchid","pers","phase_boots","pipe","platemail","point_booster","poor_mans_shield","power_treads","quarterstaff","quelling_blade","radiance","reaver","refresher","ring_of_aquila","ring_of_basilius","ring_of_health","ring_of_protection","ring_of_regen","robe","rod_of_atos","relic","sobi_mask","sange","sange_and_yasha","satanic","sheepstick","ward_sentry","shadow_amulet","invis_sword","shivas_guard","basher","slippers","smoke_of_deceit","soul_booster","soul_ring","staff_of_wizardry","stout_shield","talisman_of_evasion","tango","tpscroll","tranquil_boots","ultimate_orb","urn_of_shadows","vanguard","veil_of_discord","vitality_booster","vladmir","void_stone","wraith_band","yasha","crimson_guard","enchanted_mango","lotus_orb","glimmer_cape","guardian_greaves","moon_shard","silver_edge","solar_crest","octarine_core","aether_lens","faerie_fire","iron_talon","dragon_lance","echo_sabre","infused_raindrop","blight_stone","wind_lace","tome_of_knowledge","bloodthorn","hurricane_pike"]
 
 def parse_vdf_to_json(filename, src_dir, out_dir):
-    print 'parse', filename
+    print('parse', filename)
     with open(src_dir + filename, 'r') as f:
         data = vdf.loads(f.read())
     with open(out_dir + filename.replace('txt','json'),'w') as g:
         g.write(json.dumps(data,indent=1,sort_keys=True))
     
 def parse_all_vdf_to_json(src_dir, out_dir):
-    print 'parse_all_vdf_to_json', src_dir, out_dir
+    print('parse_all_vdf_to_json', src_dir, out_dir)
     for data in file_data:
         parse_vdf_to_json(data[0] + '.txt', src_dir, out_dir)
 
 def merge_base_class(data, ROOT, BASE_CLASS):
-    print 'merge_base_class', ROOT, BASE_CLASS
+    print('merge_base_class', ROOT, BASE_CLASS)
     output = {}
     if BASE_CLASS:
         BASE_DICT = data[ROOT][BASE_CLASS]
-        output[ROOT] = {k: dict(BASE_DICT.items() + data[ROOT][k].items()) for k in data[ROOT].keys() if k != BASE_CLASS and k != 'Version'}
+        output[ROOT] = {k: dict(list(BASE_DICT.items()) + list(data[ROOT][k].items())) for k in list(data[ROOT].keys()) if k != BASE_CLASS and k != 'Version'}
     else:
-        output[ROOT] = {k: data[ROOT][k] for k in data[ROOT].keys() if k != BASE_CLASS and k != 'Version'}
+        output[ROOT] = {k: data[ROOT][k] for k in list(data[ROOT].keys()) if k != BASE_CLASS and k != 'Version'}
     return output
         
 def strip_comments(src):
@@ -72,7 +72,7 @@ def copy_source_txt_from_dotabuff(dotabuff_dir, dotabuff_branch):
     strip_comments(dotabuff_dir + 'items.txt')
     download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/resource/dota_english.txt', dotabuff_dir + 'dota_english.txt')
     strip_comments(dotabuff_dir + 'dota_english.txt')
-    print 'copy txt from dotabuff'
+    print('copy txt from dotabuff')
     
 def copy_source_json_from_dotabuff(dotabuff_dir, dotabuff_branch):
     download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/scripts/npc/npc_heroes.json', dotabuff_dir + 'npc_heroes.json')
@@ -80,7 +80,7 @@ def copy_source_json_from_dotabuff(dotabuff_dir, dotabuff_branch):
     download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/scripts/npc/npc_units.json', dotabuff_dir + 'npc_units.json')
     download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/scripts/npc/items.json', dotabuff_dir + 'items.json')
     download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/resource/dota_english.json', dotabuff_dir + 'dota_english.json')
-    print 'copy json from dotabuff'
+    print('copy json from dotabuff')
 
 def process(src_dir, subset_dir):
     hero_data, ability_data, unit_data, item_data, tooltip_data = [merge_base_class(open_json(src_dir + x[0] + '.json'), x[1], x[2]) for x in file_data]
@@ -89,7 +89,7 @@ def process(src_dir, subset_dir):
     for k in tooltip_data_tokens:
         if k != k.lower() and k.lower() in tooltip_data_tokens:
             raise Exception()
-    tooltip_data_tokens = dict((k.lower(), v) for k,v in tooltip_data_tokens.iteritems())
+    tooltip_data_tokens = dict((k.lower(), v) for k,v in tooltip_data_tokens.items())
   
     heroeslist = {'data': []}
     hero_data_subset = {}
@@ -114,7 +114,7 @@ def process(src_dir, subset_dir):
     for h in hero_data_subset:
         for k in hero_data_subset[h]:
             if ' ' in hero_data_subset[h][k] or '|' in hero_data_subset[h][k] or ',' in hero_data_subset[h][k]:
-                print hero_data_subset[h][k]
+                print(hero_data_subset[h][k])
             elif is_number(hero_data_subset[h][k]):
                 hero_data_subset[h][k] = format_num(float(hero_data_subset[h][k]))
 
@@ -151,7 +151,7 @@ def process(src_dir, subset_dir):
     for h in unit_data_subset:
         for k in unit_data_subset[h]:
             if ' ' in unit_data_subset[h][k] or '|' in unit_data_subset[h][k] or ',' in unit_data_subset[h][k]:
-                print unit_data_subset[h][k]
+                print(unit_data_subset[h][k])
             elif is_number(unit_data_subset[h][k]):
                 unit_data_subset[h][k] = format_num(float(unit_data_subset[h][k]))
 
@@ -185,12 +185,12 @@ def process(src_dir, subset_dir):
         if h + '_bio' in tooltip_data_tokens:
             tooltip_data_subset[h]['Bio'] = tooltip_data_tokens[h + '_bio']
         else:
-            print 'MISSING', h + '_bio'
+            print('MISSING', h + '_bio')
 
         if h + '_hype' in tooltip_data_tokens:
             tooltip_data_subset[h]['Hype'] = tooltip_data_tokens[h + '_hype']
         else:
-            print 'MISSING', h + '_hype'
+            print('MISSING', h + '_hype')
             
     for a in ability_data_subset:
         if 'dota_tooltip_ability_' + a in tooltip_data_tokens:
@@ -200,45 +200,45 @@ def process(src_dir, subset_dir):
             tooltip_data_subset[a] = {}
             tooltip_data_subset[a]['DisplayName'] = tooltip_data_tokens['dota_tooltip_modifier_' + a]
         else:
-            print 'MISSING', 'dota_tooltip_ability_' + a
-            print 'MISSING', 'dota_tooltip_modifier_' + a
+            print('MISSING', 'dota_tooltip_ability_' + a)
+            print('MISSING', 'dota_tooltip_modifier_' + a)
             
         if 'dota_tooltip_ability_' + a + '_description' in tooltip_data_tokens:
             tooltip_data_subset[a]['Description'] = tooltip_data_tokens['dota_tooltip_ability_' + a + '_description']
         elif 'dota_tooltip_modifier_' + a +'_description' in tooltip_data_tokens:
             tooltip_data_subset[a]['Description'] = tooltip_data_tokens['dota_tooltip_modifier_' + a + '_description']
         else:
-            print 'MISSING', 'dota_tooltip_ability_' + a + '_description'
-            print 'MISSING', 'dota_tooltip_modifier_' + a + '_description'
+            print('MISSING', 'dota_tooltip_ability_' + a + '_description')
+            print('MISSING', 'dota_tooltip_modifier_' + a + '_description')
             
         if 'dota_tooltip_ability_' + a + '_lore' in tooltip_data_tokens:
             tooltip_data_subset[a]['Lore'] = tooltip_data_tokens['dota_tooltip_ability_' + a + '_lore']
         else:
-            print 'MISSING', 'dota_tooltip_ability_' + a + '_lore'
+            print('MISSING', 'dota_tooltip_ability_' + a + '_lore')
             
     for h in unit_data_subset:
         if h in tooltip_data_tokens:
             tooltip_data_subset[h] = {}
             tooltip_data_subset[h]['DisplayName'] = tooltip_data_tokens[h]
         else:
-            print 'MISSING', h
+            print('MISSING', h)
             
     for a in item_data_subset:
         if 'dota_tooltip_ability_' + a in tooltip_data_tokens:
             tooltip_data_subset[a] = {}
             tooltip_data_subset[a]['DisplayName'] = tooltip_data_tokens['dota_tooltip_ability_' + a]
         else:
-            print 'MISSING', a
+            print('MISSING', a)
             
         if 'dota_tooltip_ability_' + a + '_description' in tooltip_data_tokens:
             tooltip_data_subset[a]['Description'] = tooltip_data_tokens['dota_tooltip_ability_' + a + '_description']
         else:
-            print 'MISSING', 'dota_tooltip_ability_' + a + '_description'
+            print('MISSING', 'dota_tooltip_ability_' + a + '_description')
             
         if 'dota_tooltip_ability_' + a + '_lore' in tooltip_data_tokens:
             tooltip_data_subset[a]['Lore'] = tooltip_data_tokens['dota_tooltip_ability_' + a + '_lore']
         else:
-            print 'MISSING', 'dota_tooltip_ability_' + a + '_lore'
+            print('MISSING', 'dota_tooltip_ability_' + a + '_lore')
                         
     def mapkeys(schema, data):
         for x in data:
@@ -334,7 +334,7 @@ def process(src_dir, subset_dir):
                 if unit_data_subset[h]['Ability' + str(x)] in ability_data_subset:
                     abilities.append(ability_data_subset[unit_data_subset[h]['Ability' + str(x)]])
                 else:
-                    print "WARNING:", unit_data_subset[h]['Ability' + str(x)], "NOT IN ability_data_subset"
+                    print("WARNING:", unit_data_subset[h]['Ability' + str(x)], "NOT IN ability_data_subset")
                 del unit_data_subset[h]['Ability' + str(x)]
         unit_data_subset[h]['abilities'] = abilities
         unit_data_subset[h]['level'] = 0
@@ -344,7 +344,7 @@ def process(src_dir, subset_dir):
 
     item_data_subset = recipedata.set_item_cost(item_data_subset)
   
-    print 'writing subset files'
+    print('writing subset files')
     write_json(hero_data_subset, subset_dir + 'herodata.json')
     write_json(herobio_data, subset_dir + 'herobiodata.json')
     write_json(ability_data_subset, subset_dir + 'abilitydata.json')
@@ -354,14 +354,14 @@ def process(src_dir, subset_dir):
     write_json(tooltip_data_subset, subset_dir + 'tooltipdata.json')
     write_json(itemslist, subset_dir + 'items.json')
     write_json(heroeslist, subset_dir + 'heroes.json')
-    print 'done'
+    print('done')
 
 def trivia(subset_dir, trivia_dir):
     if triviaquestions:
-        print 'trivia'
+        print('trivia')
         triviaquestions.generate(subset_dir, trivia_dir)
     else:
-        print 'no trivia module'
+        print('no trivia module')
 
 def main():
     parser = argparse.ArgumentParser()

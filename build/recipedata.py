@@ -4,7 +4,7 @@ def get_item_upgrades(itemdata):
         item = itemdata[i]
         if 'ItemResult' in item:
             if item['ItemResult'] in upgradedata:
-                print 'ERROR'
+                print('ERROR')
             else:
                 upgradedata[item['ItemResult']] = item['ItemRequirements']
                 if item['itemcost'] > 0:
