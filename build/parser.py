@@ -1,7 +1,6 @@
 import argparse
 import json
 import vdf
-import yaml
 import datetime
 import math
 from common import *
@@ -15,7 +14,7 @@ try:
 except:
     triviaquestions = False
 
-folders = ['../source', '../dist', '../yaml']
+folders = ['../source', '../dist']
 file_data = [
     ('npc_heroes', 'DOTAHeroes', 'npc_dota_hero_base'),
     ('npc_abilities', 'DOTAAbilities', 'ability_base'),
@@ -83,7 +82,7 @@ def copy_source_json_from_dotabuff(dotabuff_dir, dotabuff_branch):
     download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/resource/dota_english.json', dotabuff_dir + 'dota_english.json')
     print 'copy json from dotabuff'
 
-def process(src_dir, subset_dir, yaml_dir):
+def process(src_dir, subset_dir):
     hero_data, ability_data, unit_data, item_data, tooltip_data = [merge_base_class(open_json(src_dir + x[0] + '.json'), x[1], x[2]) for x in file_data]
     
     tooltip_data_tokens = tooltip_data['lang']['Tokens']
@@ -355,8 +354,6 @@ def process(src_dir, subset_dir, yaml_dir):
     write_json(tooltip_data_subset, subset_dir + 'tooltipdata.json')
     write_json(itemslist, subset_dir + 'items.json')
     write_json(heroeslist, subset_dir + 'heroes.json')
-    with open(yaml_dir + 'herodata.yaml','w') as g:
-        g.write(yaml.safe_dump(hero_data_subset))
     print 'done'
 
 def trivia(subset_dir, trivia_dir):
@@ -379,7 +376,6 @@ def main():
     parser.add_argument("--process", action='store_true')
     parser.add_argument("--process_in", default='../source/')
     parser.add_argument("--process_subset_dir", default='../dist/')
-    parser.add_argument("--process_yaml_dir", default='../yaml/')
     parser.add_argument("--trivia", action='store_true')
     parser.add_argument("--trivia_dir", default='../trivia/')
     parser.add_argument("--move", action='store_true')
@@ -394,7 +390,7 @@ def main():
     if args.parse:
         parse_all_vdf_to_json(args.parse_in, args.parse_out)
     if args.process:
-        process(args.process_in, args.process_subset_dir, args.process_yaml_dir)
+        process(args.process_in, args.process_subset_dir)
     if args.trivia:
         trivia(args.process_subset_dir, args.trivia_dir)
         
