@@ -7,12 +7,6 @@ from common import *
 import schema
 import mapping
 import recipedata
-import sys
-try:
-    sys.path.insert(0, '../trivia')
-    import triviaquestions
-except:
-    triviaquestions = False
 
 folders = ['../source', '../dist']
 file_data = [
@@ -356,13 +350,6 @@ def process(src_dir, subset_dir):
     write_json(heroeslist, subset_dir + 'heroes.json')
     print('done')
 
-def trivia(subset_dir, trivia_dir):
-    if triviaquestions:
-        print('trivia')
-        triviaquestions.generate(subset_dir, trivia_dir)
-    else:
-        print('no trivia module')
-
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--clean", action='store_true')
@@ -376,8 +363,6 @@ def main():
     parser.add_argument("--process", action='store_true')
     parser.add_argument("--process_in", default='../source/')
     parser.add_argument("--process_subset_dir", default='../dist/')
-    parser.add_argument("--trivia", action='store_true')
-    parser.add_argument("--trivia_dir", default='../trivia/')
     parser.add_argument("--move", action='store_true')
     args = parser.parse_args()
 
@@ -391,8 +376,6 @@ def main():
         parse_all_vdf_to_json(args.parse_in, args.parse_out)
     if args.process:
         process(args.process_in, args.process_subset_dir)
-    if args.trivia:
-        trivia(args.process_subset_dir, args.trivia_dir)
         
 if __name__ == "__main__":
     main()
