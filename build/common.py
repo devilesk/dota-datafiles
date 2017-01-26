@@ -59,7 +59,7 @@ def format_num(x):
 def download_file_from(url, dest):
     print('downloading to', dest)
     response = urllib.request.urlopen(url)
-    with open(dest, 'w') as f:
+    with open(dest, 'wb') as f:
         f.write(response.read())
 
 def open_json(src):
