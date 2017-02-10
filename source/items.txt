@@ -266,7 +266,7 @@
 		"ItemCost"						"200"
 		"ItemShopTags"					"damage"
 		"ItemQuality"					"component"
-		"ItemAliases"					"quelling blade"
+		"ItemAliases"					"qb;quelling blade"
 		"SideShop"						"1"
 		
 		"AbilitySpecial"
@@ -1438,14 +1438,14 @@
 		"AbilityCastPoint"				"0.0"
 		"AbilityCooldown"				"1.0"
 		
-		"ItemCost"						"200"
+		"ItemCost"						"100"
 		"ItemShopTags"					"consumable"
 		"ItemQuality"					"consumable"
 		"ItemAliases"					"sentry ward"
 		"ItemStackable"					"1"
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
 		"ItemPermanent"					"0"
-		"ItemInitialCharges"			"2"
+		"ItemInitialCharges"			"1"
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
 		"ItemSupport"					"1"
 		"IsTempestDoubleClonable"		"0"
@@ -1510,7 +1510,7 @@
 		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO"
 
 
-		"ItemCost"						"265"
+		"ItemCost"						"165"
 		"ItemQuality"					"common"
 		"ItemAliases"					"ward"
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
@@ -1710,7 +1710,7 @@
 		"ItemCost"						"50"
 		"ItemShopTags"					"consumable;tutorial"
 		"ItemQuality"					"consumable"
-		"ItemAliases"					"tp;town portal scroll"
+		"ItemAliases"					"tp;town portal scroll;teleport"
 		"ItemStackable"					"1"
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE"
 		"ItemPermanent"					"0"
@@ -3302,7 +3302,7 @@
 
 		"AbilityCastRange"				"900"
 		"AbilityCastPoint"				"0.0"
-		"AbilityCooldown"				"11.0"
+		"AbilityCooldown"				"13.0"
 		"AbilitySharedCooldown"			"orchid"
 
 		"AbilityManaCost"				"100"
@@ -4474,7 +4474,7 @@
 		"ItemCost"						"4200"
 		"ItemShopTags"					"int;str;agi;mana_pool;health_pool;hard_to_tag"
 		"ItemQuality"					"rare"
-		"ItemAliases"					"ultimate;aghanim's scepter;ags"
+		"ItemAliases"					"ags;ultimate;aghanim's scepter;ags"
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
 		
 		"AbilitySpecial"
@@ -4801,7 +4801,7 @@
 		"ItemCost"						"4700"
 		"ItemShopTags"					"int;armor;hard_to_tag"
 		"ItemQuality"					"epic"
-		"ItemAliases"					"shiva's guard"
+		"ItemAliases"					"shiva's guard;shivas"
 		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_ALWAYS"
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
 		
@@ -5119,7 +5119,7 @@
 		"ItemCost"						"2150"
 		"ItemShopTags"					"regen_health;block;health_pool"
 		"ItemQuality"					"epic"
-		"ItemAliases"					"vanguard"
+		"ItemAliases"					"vg;vanguard"
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
 		
 		"AbilitySpecial"
@@ -5280,7 +5280,7 @@
 		"ItemCost"						"2200"
 		"ItemShopTags"					"damage;armor;int;hard_to_tag"
 		"ItemQuality"					"epic"
-		"ItemAliases"					"blade mail;blademail"
+		"ItemAliases"					"bm;blade mail;blademail"
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS"
 		
 		"AbilitySpecial"
@@ -5814,12 +5814,12 @@
 			"08"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"cleave_ending_width"			"280"
+				"cleave_ending_width"			"300"
 			}			
 			"09"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"cleave_distance"			"520"
+				"cleave_distance"			"570"
 			}
 			"10"
 			{
@@ -6046,7 +6046,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_agility"			"14"
+				"bonus_agility"			"13"
 			}
 			"02"
 			{
@@ -6285,7 +6285,7 @@
 			"07"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"windwalk_bonus_damage"	"225"
+				"windwalk_bonus_damage"	"200"
 			}
 			"08"
 			{
@@ -6357,7 +6357,7 @@
 			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"maim_chance"			"30"
+				"maim_chance"			"35"
 			}
 			"07"
 			{
@@ -6679,7 +6679,7 @@
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"maim_chance"			"24"
+				"maim_chance"			"30"
 			}
 			"04"
 			{
@@ -6747,7 +6747,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_stats"		"6"
+				"bonus_stats"			"4"
 			}
 			"02"
 			{
@@ -7522,7 +7522,7 @@
 		"ItemCost"						"275"
 		"ItemShopTags"					"hard_to_tag"
 		"ItemQuality"					"component"
-		"ItemAliases"					"orb of venom"
+		"ItemAliases"					"oov;orb of venom"
 		"SideShop"						"1"
 
 		"AbilitySpecial"
@@ -7771,7 +7771,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_armor"			"10"
+				"bonus_armor"			"12"
 			}
 			"02"
 			{
@@ -7786,7 +7786,7 @@
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"allied_armor"			"10"
+				"allied_armor"			"12"
 			}
 			"05"
 			{
@@ -7796,12 +7796,12 @@
 			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"armor_reduction"		"-10"
+				"armor_reduction"		"-12"
 			}
 			"07"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"enemy_armor_reduction_tooltip"		"10"
+				"enemy_armor_reduction_tooltip"		"12"
 			}
 			"08"
 			{
@@ -7910,7 +7910,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"xp_per_use"			"100"
+				"xp_per_use"			"135"
 			}
 			"03"
 			{
@@ -8373,7 +8373,7 @@
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
 		"FightRecapLevel"				"1"
 
-		"AbilityCooldown"				"30"
+		"AbilityCooldown"				"22"
 		"AbilityCastRange"				"600"
 		"AbilityCastPoint"				"0.0"
 
@@ -8407,7 +8407,7 @@
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"maim_chance"			"24"
+				"maim_chance"			"35"
 			}
 			"05"
 			{

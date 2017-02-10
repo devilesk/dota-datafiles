@@ -3960,8 +3960,8 @@
 		"AttributeBaseAgility"		"0"			// Base agility
 		"AttributeAgilityGain"		"0"			// Agility bonus per level.
 
-		"BountyGoldMin"				"0"			// Gold earned min.
-		"BountyGoldMax"				"0"			// Gold earned max.
+		"BountyGoldMin"				"25"			// Gold earned min.
+		"BountyGoldMax"				"25"			// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 
@@ -6855,6 +6855,7 @@
 		"ModelScale"					"1"
 		"MinimapIcon"					"minimap_ward_invis"
 		"MinimapIconSize"				"300"
+		"skin"						"1"
   		"wearable"				"7556"
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
@@ -6902,6 +6903,9 @@
 		"Ability7"					"courier_morph"
 		"Ability8"					"courier_take_stash_and_transfer_items"
 		"Ability9"					"courier_transfer_items_to_other_player"
+		"Ability10"					"courier_go_to_enemy_secretshop"
+		"Ability11"					"courier_go_to_sideshop"
+		"Ability12"					"courier_go_to_sideshop2"
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 		"HealthBarOffset"			"120"
@@ -13131,8 +13135,8 @@
 		"HealthBarOffset"			"140"
 
 		"BountyXP"					"0"	// Experience earn.
-		"BountyGoldMin"				"30"		// Gold earned min.
-		"BountyGoldMax"				"30"		// Gold earned max.
+		"BountyGoldMin"				"50"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"  // has to be move ground because something about neutral camps
 		"MovementSpeed"				"0"		// Speed.
