@@ -274,7 +274,7 @@
   "lore": ""
  },
  "brewmaster_earth_pulverize": {
-  "description": "Deals %bonus_building_damage%%% bonus damage to buildings.",
+  "description": "Deals bonus damage to buildings.",
   "lore": ""
  },
  "brewmaster_earth_spell_immunity": {
@@ -2096,6 +2096,7 @@
  "special_bonus_armor_12": {},
  "special_bonus_armor_15": {},
  "special_bonus_armor_2": {},
+ "special_bonus_armor_20": {},
  "special_bonus_armor_3": {},
  "special_bonus_armor_4": {},
  "special_bonus_armor_5": {},
@@ -2257,6 +2258,7 @@
  "special_bonus_mp_150": {},
  "special_bonus_mp_175": {},
  "special_bonus_mp_200": {},
+ "special_bonus_mp_225": {},
  "special_bonus_mp_250": {},
  "special_bonus_mp_300": {},
  "special_bonus_mp_350": {},
@@ -2464,6 +2466,7 @@
  "special_bonus_unique_shadow_demon_2": {},
  "special_bonus_unique_shadow_shaman_1": {},
  "special_bonus_unique_shadow_shaman_2": {},
+ "special_bonus_unique_shadow_shaman_3": {},
  "special_bonus_unique_silencer": {},
  "special_bonus_unique_skywrath": {},
  "special_bonus_unique_slardar": {},
@@ -2514,6 +2517,7 @@
  "special_bonus_unique_wraith_king_2": {},
  "special_bonus_unique_wraith_king_3": {},
  "special_bonus_unique_zeus": {},
+ "special_bonus_unique_zeus_2": {},
  "special_bonus_vision_200": {},
  "spectre_desolate": {
   "description": "Deals bonus damage whenever Spectre attacks an enemy who is alone.",

@@ -3631,13 +3631,13 @@
    {
     "name": "xp_multiplier",
     "value": [
-     2.5
+     1.75
     ]
    },
    {
     "name": "bonus_gold",
     "value": [
-     190
+     220
     ]
    },
    {
@@ -3651,7 +3651,7 @@
   "cooldown": [
    100
   ],
-  "description": "Active: Transmute - Kills a non-hero target for %bonus_gold% gold and %xp_multiplier%x experience.  Cannot be used on Ancient Creeps.",
+  "description": "Active: Transmute - Kills a non-hero target for %bonus_gold% gold and 1.75x experience.  Cannot be used on Ancient Creeps.",
   "displayname": "Hand of Midas",
   "id": 65,
   "itemcost": 2050,
@@ -6118,7 +6118,7 @@
     "name": "poison_damage",
     "tooltip": "POISON DAMAGE PER SECOND:",
     "value": [
-     3.0
+     5.0
     ]
    },
    {
@@ -6139,7 +6139,7 @@
     "name": "poison_duration",
     "tooltip": "POISON DURATION:",
     "value": [
-     4.0
+     3.0
     ]
    }
   ],
@@ -6601,7 +6601,7 @@
     "name": "bonus_stat",
     "tooltip": "+$selected_attrib",
     "value": [
-     9
+     10
     ]
    },
    {
@@ -8313,7 +8313,7 @@
   "ItemRecipe": 1,
   "ItemRequirements": [
    "item_boots",
-   "item_ring_of_protection",
+   "item_wind_lace",
    "item_ring_of_regen"
   ],
   "ItemResult": "item_tranquil_boots",
@@ -10379,21 +10379,20 @@
     "name": "bonus_movement_speed",
     "tooltip": "+$move_speed",
     "value": [
-     85
+     90
     ]
    },
    {
     "name": "bonus_armor",
-    "tooltip": "+$armor",
     "value": [
-     3
+     0
     ]
    },
    {
     "name": "bonus_health_regen",
     "tooltip": "+$hp_regen",
     "value": [
-     12
+     14
     ]
    },
    {
@@ -10435,17 +10434,17 @@
    {
     "name": "broken_movement_speed",
     "value": [
-     55
+     65
     ]
    }
   ],
   "cooldown": [
    13
   ],
-  "description": "Passive: Break - Whenever you attack or are attacked, the health regeneration and 30 Movement Speed are lost for 13 seconds.",
+  "description": "Passive: Break - Whenever you attack or are attacked, the health regeneration and 25 Movement Speed are lost for 13 seconds.",
   "displayname": "Tranquil Boots",
   "id": 214,
-  "itemcost": 900,
+  "itemcost": 975,
   "level": 0,
   "lore": "While they increase the longevity of the wearer, this boot is not particularly reliable.",
   "manacost": [

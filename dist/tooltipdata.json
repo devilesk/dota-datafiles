@@ -345,7 +345,7 @@
   "Lore": ""
  },
  "brewmaster_earth_pulverize": {
-  "Description": "Deals %bonus_building_damage%%% bonus damage to buildings.",
+  "Description": "Deals bonus damage to buildings.",
   "DisplayName": "Demolish",
   "Lore": ""
  },
@@ -1579,7 +1579,7 @@
   "Lore": "One of many holy instruments constructed to honor the Omniscience."
  },
  "item_hand_of_midas": {
-  "Description": "Active: Transmute - Kills a non-hero target for %bonus_gold% gold and %xp_multiplier%x experience.  Cannot be used on Ancient Creeps.",
+  "Description": "Active: Transmute - Kills a non-hero target for %bonus_gold% gold and 1.75x experience.  Cannot be used on Ancient Creeps.",
   "DisplayName": "Hand of Midas",
   "Lore": "Preserved through unknown magical means, the Hand of Midas is a weapon of greed, sacrificing animals to line the owner's pockets."
  },
@@ -2130,7 +2130,7 @@
   "Lore": "What a hero truly needs."
  },
  "item_tranquil_boots": {
-  "Description": "Passive: Break - Whenever you attack or are attacked, the health regeneration and 30 Movement Speed are lost for 13 seconds.",
+  "Description": "Passive: Break - Whenever you attack or are attacked, the health regeneration and 25 Movement Speed are lost for 13 seconds.",
   "DisplayName": "Tranquil Boots",
   "Lore": "While they increase the longevity of the wearer, this boot is not particularly reliable."
  },
@@ -4723,6 +4723,9 @@
  "special_bonus_armor_2": {
   "DisplayName": "+2 Armor"
  },
+ "special_bonus_armor_20": {
+  "DisplayName": "+20 Armor"
+ },
  "special_bonus_armor_3": {
   "DisplayName": "+3 Armor"
  },
@@ -5206,6 +5209,9 @@
  "special_bonus_mp_200": {
   "DisplayName": "+200 Mana"
  },
+ "special_bonus_mp_225": {
+  "DisplayName": "+225 Mana"
+ },
  "special_bonus_mp_250": {
   "DisplayName": "+250 Mana"
  },
@@ -5390,7 +5396,7 @@
   "DisplayName": "+100 Battle Hunger DPS"
  },
  "special_bonus_unique_bane_1": {
-  "DisplayName": "+75 Enfeeble Damage Reduction"
+  "DisplayName": "+90 Enfeeble Damage Reduction"
  },
  "special_bonus_unique_bane_2": {
   "DisplayName": "+200 Brain Sap Damage/Heal"
@@ -5420,7 +5426,7 @@
   "DisplayName": "+75 Shuriken Toss Damage"
  },
  "special_bonus_unique_brewmaster": {
-  "DisplayName": "+20 Primal Split Unit Armor"
+  "DisplayName": "+2000 Health to Primal Split Units"
  },
  "special_bonus_unique_brewmaster_2": {
   "DisplayName": "+75 Thunder Clap Damage"
@@ -5429,13 +5435,13 @@
   "DisplayName": "+4 Max Goo Stacks"
  },
  "special_bonus_unique_bristleback_2": {
-  "DisplayName": "+20 Quill Stack Damage"
+  "DisplayName": "+25 Quill Stack Damage"
  },
  "special_bonus_unique_broodmother_1": {
   "DisplayName": "+8 Max Webs"
  },
  "special_bonus_unique_broodmother_2": {
-  "DisplayName": "+200 Spiders Health"
+  "DisplayName": "+225 Spiders Health"
  },
  "special_bonus_unique_broodmother_3": {
   "DisplayName": "+60 Spawn Spiderling Damage"
@@ -5495,7 +5501,7 @@
   "DisplayName": "+8 Exorcism Spirits"
  },
  "special_bonus_unique_death_prophet_2": {
-  "DisplayName": "-1s Crypt Swarm Cooldown"
+  "DisplayName": "-1.5s Crypt Swarm Cooldown"
  },
  "special_bonus_unique_disruptor": {
   "DisplayName": "+4 Thunder Strike Hits"
@@ -5516,7 +5522,7 @@
   "DisplayName": "+15 Scorched Earth Damage/Heal"
  },
  "special_bonus_unique_doom_5": {
-  "DisplayName": "+35 Doom DPS"
+  "DisplayName": "+40 Doom DPS"
  },
  "special_bonus_unique_dragon_knight": {
   "DisplayName": "2x Dragon Blood HP Regen/Armor"
@@ -5555,7 +5561,7 @@
   "DisplayName": "Enchant Affects Ancients"
  },
  "special_bonus_unique_enchantress_2": {
-  "DisplayName": "+7 Nature's Attendants Wisps"
+  "DisplayName": "+8 Nature's Attendants Wisps"
  },
  "special_bonus_unique_enchantress_3": {
   "DisplayName": "+60 Untouchable Slow"
@@ -5678,7 +5684,7 @@
   "DisplayName": "-4s Shockwave Cooldown"
  },
  "special_bonus_unique_magnus_2": {
-  "DisplayName": "+15% Empower Damage/Cleave"
+  "DisplayName": "+10% Empower Damage/Cleave"
  },
  "special_bonus_unique_medusa": {
   "DisplayName": "+2s Stone Gaze Stun"
@@ -5783,7 +5789,7 @@
   "DisplayName": "+50% Life Drain Heal"
  },
  "special_bonus_unique_pugna_2": {
-  "DisplayName": "+125 Nether Blast Damage"
+  "DisplayName": "+150 Nether Blast Damage"
  },
  "special_bonus_unique_pugna_3": {
   "DisplayName": "+0.5 Netherward Damage Per Mana"
@@ -5827,6 +5833,9 @@
  "special_bonus_unique_shadow_shaman_2": {
   "DisplayName": "+3s Shackles Duration"
  },
+ "special_bonus_unique_shadow_shaman_3": {
+  "DisplayName": "+350 Ether Shock Damage"
+ },
  "special_bonus_unique_silencer": {
   "DisplayName": "+25% Curse Slow"
  },
@@ -5858,7 +5867,7 @@
   "DisplayName": "+0.75s Electric Vortex"
  },
  "special_bonus_unique_sven": {
-  "DisplayName": "-6s Storm Hammer Cooldown"
+  "DisplayName": "-8s Storm Hammer Cooldown"
  },
  "special_bonus_unique_techies": {
   "DisplayName": "+400 Blast Off Damage"
@@ -5976,6 +5985,9 @@
  },
  "special_bonus_unique_zeus": {
   "DisplayName": "+2% Static Field Damage"
+ },
+ "special_bonus_unique_zeus_2": {
+  "DisplayName": "+75 Arc Lightning Damage"
  },
  "special_bonus_vision_200": {
   "DisplayName": "+200 Vision"

@@ -642,7 +642,7 @@
       "name": "hp_heal",
       "tooltip": "HEALTH REGEN:",
       "value": [
-       100
+       90
       ]
      },
      {
@@ -1534,7 +1534,7 @@
   "HasInventory": 0,
   "abilities": [],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 16,
+  "armorphysical": 14,
   "attackdamagemax": 120,
   "attackdamagemin": 100,
   "attackpoint": 0.6,
@@ -1573,7 +1573,7 @@
   "HasInventory": 0,
   "abilities": [],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 16,
+  "armorphysical": 14,
   "attackdamagemax": 120,
   "attackdamagemin": 100,
   "attackpoint": 0.6,
@@ -1612,7 +1612,7 @@
   "HasInventory": 0,
   "abilities": [],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 16,
+  "armorphysical": 14,
   "attackdamagemax": 120,
   "attackdamagemin": 100,
   "attackpoint": 0.6,
@@ -1722,7 +1722,7 @@
    }
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 18,
+  "armorphysical": 16,
   "attackdamagemax": 162,
   "attackdamagemin": 142,
   "attackpoint": 0.6,
@@ -1832,7 +1832,7 @@
    }
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 18,
+  "armorphysical": 16,
   "attackdamagemax": 162,
   "attackdamagemin": 142,
   "attackpoint": 0.6,
@@ -1942,7 +1942,7 @@
    }
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 18,
+  "armorphysical": 16,
   "attackdamagemax": 162,
   "attackdamagemin": 142,
   "attackpoint": 0.6,
@@ -2046,7 +2046,7 @@
    }
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 18,
+  "armorphysical": 16,
   "attackdamagemax": 162,
   "attackdamagemin": 142,
   "attackpoint": 0.6,
@@ -2150,7 +2150,7 @@
    }
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 18,
+  "armorphysical": 16,
   "attackdamagemax": 162,
   "attackdamagemin": 142,
   "attackpoint": 0.6,
@@ -2254,7 +2254,7 @@
    }
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 18,
+  "armorphysical": 16,
   "attackdamagemax": 162,
   "attackdamagemin": 142,
   "attackpoint": 0.6,
@@ -2358,7 +2358,7 @@
    }
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 26,
+  "armorphysical": 24,
   "attackdamagemax": 162,
   "attackdamagemin": 142,
   "attackpoint": 0.6,
@@ -3615,9 +3615,11 @@
     "attributes": [
      {
       "name": "bonus_building_damage",
-      "tooltip": "%BONUS BUILDING DAMAGE:",
+      "tooltip": "BONUS BUILDING DAMAGE:",
       "value": [
-       300
+       90,
+       180,
+       270
       ]
      }
     ],
@@ -3760,7 +3762,7 @@
   "attackdamagemin": 25,
   "attackpoint": 0.3,
   "attackrange": 150,
-  "attackrate": 1.35,
+  "attackrate": 1.25,
   "attacktype": "DOTA_UNIT_CAP_MELEE_ATTACK",
   "attributeagilitygain": 0,
   "attributebaseagility": 0,
@@ -3948,9 +3950,11 @@
     "attributes": [
      {
       "name": "bonus_building_damage",
-      "tooltip": "%BONUS BUILDING DAMAGE:",
+      "tooltip": "BONUS BUILDING DAMAGE:",
       "value": [
-       300
+       90,
+       180,
+       270
       ]
      }
     ],
@@ -4093,7 +4097,7 @@
   "attackdamagemin": 55,
   "attackpoint": 0.3,
   "attackrange": 150,
-  "attackrate": 1.35,
+  "attackrate": 1.25,
   "attacktype": "DOTA_UNIT_CAP_MELEE_ATTACK",
   "attributeagilitygain": 0,
   "attributebaseagility": 0,
@@ -4281,9 +4285,11 @@
     "attributes": [
      {
       "name": "bonus_building_damage",
-      "tooltip": "%BONUS BUILDING DAMAGE:",
+      "tooltip": "BONUS BUILDING DAMAGE:",
       "value": [
-       300
+       90,
+       180,
+       270
       ]
      }
     ],
@@ -4426,7 +4432,7 @@
   "attackdamagemin": 85,
   "attackpoint": 0.3,
   "attackrange": 150,
-  "attackrate": 1.35,
+  "attackrate": 1.25,
   "attacktype": "DOTA_UNIT_CAP_MELEE_ATTACK",
   "attributeagilitygain": 0,
   "attributebaseagility": 0,
@@ -9280,7 +9286,7 @@
       "name": "hp_heal",
       "tooltip": "HEALTH REGEN:",
       "value": [
-       100
+       90
       ]
      },
      {
@@ -10172,7 +10178,7 @@
   "HasInventory": 0,
   "abilities": [],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 16,
+  "armorphysical": 14,
   "attackdamagemax": 120,
   "attackdamagemin": 100,
   "attackpoint": 0.6,
@@ -10211,7 +10217,7 @@
   "HasInventory": 0,
   "abilities": [],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 16,
+  "armorphysical": 14,
   "attackdamagemax": 120,
   "attackdamagemin": 100,
   "attackpoint": 0.6,
@@ -10250,7 +10256,7 @@
   "HasInventory": 0,
   "abilities": [],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 16,
+  "armorphysical": 14,
   "attackdamagemax": 120,
   "attackdamagemin": 100,
   "attackpoint": 0.6,
@@ -10360,7 +10366,7 @@
    }
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 18,
+  "armorphysical": 16,
   "attackdamagemax": 162,
   "attackdamagemin": 142,
   "attackpoint": 0.6,
@@ -10470,7 +10476,7 @@
    }
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 18,
+  "armorphysical": 16,
   "attackdamagemax": 162,
   "attackdamagemin": 142,
   "attackpoint": 0.6,
@@ -10580,7 +10586,7 @@
    }
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 18,
+  "armorphysical": 16,
   "attackdamagemax": 162,
   "attackdamagemin": 142,
   "attackpoint": 0.6,
@@ -10684,7 +10690,7 @@
    }
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 18,
+  "armorphysical": 16,
   "attackdamagemax": 162,
   "attackdamagemin": 142,
   "attackpoint": 0.6,
@@ -10788,7 +10794,7 @@
    }
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 18,
+  "armorphysical": 16,
   "attackdamagemax": 162,
   "attackdamagemin": 142,
   "attackpoint": 0.6,
@@ -10892,7 +10898,7 @@
    }
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 18,
+  "armorphysical": 16,
   "attackdamagemax": 162,
   "attackdamagemin": 142,
   "attackpoint": 0.6,
@@ -10996,7 +11002,7 @@
    }
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 26,
+  "armorphysical": 24,
   "attackdamagemax": 162,
   "attackdamagemin": 142,
   "attackpoint": 0.6,
