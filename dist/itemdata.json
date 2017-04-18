@@ -3339,7 +3339,7 @@
    }
   ],
   "cooldown": [
-   25
+   20
   ],
   "description": "Active: Ghost Form - Enter ghost form, becoming immune to physical damage, yet unable to attack and taking 40%% extra magic damage.\\nUsing a Town Portal Scroll or Boots of Travel  will not dispel Ghost Form.",
   "displayname": "Ghost Scepter",
@@ -3859,7 +3859,7 @@
    }
   ],
   "cooldown": [
-   22
+   18
   ],
   "description": "Active: Disarm - Prevents a target from attacking. Lasts %disarm_melee% seconds on melee targets, and %disarm_range% seconds on ranged targets.\\nPassive: Lesser Maim - Each attack has a chance to slow the enemy's movement and attack speed for %maim_duration% seconds.\\n\\nStacks diminishingly with other sources of Evasion.",
   "displayname": "Heaven's Halberd",
@@ -4160,7 +4160,7 @@
   "description": "Active: When used on an enemy, it pushes you both away from each other %enemy_length% units each, and allows you to attack the target without range restrictions for %max_attacks% attacks for a maximum of %range_duration% seconds. Grants %bonus_attack_speed% Attack Speed during the attacks. Works like Force Staff when used on self or allies.\\nPassive: Increases attack range of ranged heroes by %base_attack_range%.",
   "displayname": "Hurricane Pike",
   "id": 263,
-  "itemcost": 4375,
+  "itemcost": 4625,
   "level": 0,
   "lore": "A legendary pike once held as royal sigil of the ancient wyvern riders.",
   "manacost": [
@@ -7538,7 +7538,7 @@
   "description": null,
   "displayname": "Hurricane Pike Recipe",
   "id": 262,
-  "itemcost": 250,
+  "itemcost": 500,
   "level": 0,
   "lore": null,
   "manacost": [],
@@ -8211,7 +8211,7 @@
   "description": null,
   "displayname": "Silver Edge Recipe",
   "id": 248,
-  "itemcost": 300,
+  "itemcost": 500,
   "level": 0,
   "lore": null,
   "manacost": [],
@@ -9207,7 +9207,7 @@
     "name": "maim_chance",
     "tooltip": "%MAIM CHANCE:",
     "value": [
-     35
+     40
     ]
    },
    {
@@ -9608,7 +9608,7 @@
   "description": "Active: Shadow Walk - Makes you invisible until the duration ends, or until you attack or cast a spell.  While invisible, you move %windwalk_movement_speed%%% faster and can move through units.  Attacking to end the invisibility will deal %windwalk_bonus_damage% bonus damage to the target, disable their passive abilities, and reduce their damage output.",
   "displayname": "Silver Edge",
   "id": 249,
-  "itemcost": 5150,
+  "itemcost": 5350,
   "level": 0,
   "lore": "Once used to slay an unjust king, only to have the kingdom erupt into civil war in the aftermath.",
   "manacost": [

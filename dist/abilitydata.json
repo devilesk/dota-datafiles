@@ -220,7 +220,7 @@
    {
     "name": "missile_speed",
     "value": [
-     2000
+     1600
     ]
    }
   ],
@@ -1621,10 +1621,7 @@
   "displayname": "Cold Feet",
   "level": 0,
   "manacost": [
-   150,
-   150,
-   150,
-   150
+   125
   ],
   "name": "ancient_apparition_cold_feet"
  },
@@ -6159,9 +6156,9 @@
     "name": "last_proc",
     "tooltip": "CERTAIN TRIGGER TIMER:",
     "value": [
-     16,
-     14,
+     13,
      12,
+     11,
      10
     ]
    }
@@ -7010,7 +7007,7 @@
    0,
    0
   ],
-  "AbilityCastRange": 625,
+  "AbilityCastRange": 650,
   "AbilityCastRangeBuffer": 250,
   "AbilityChannelTime": [
    0,
@@ -7035,7 +7032,7 @@
     "name": "radius",
     "tooltip": "RADIUS:",
     "value": [
-     625
+     650
     ]
    },
    {
@@ -7424,8 +7421,8 @@
     "tooltip": "BONUS DAMAGE:",
     "value": [
      60,
-     90,
-     120
+     100,
+     140
     ]
    },
    {
@@ -7433,8 +7430,8 @@
     "tooltip": "%LIFESTEAL:",
     "value": [
      60,
-     90,
-     120
+     100,
+     140
     ]
    },
    {
@@ -8309,14 +8306,14 @@
    {
     "name": "damage_reduction",
     "value": [
-     50
+     40
     ]
    },
    {
     "name": "damage_reduction_tooltip_scepter",
     "tooltip": "%SCEPTER DAMAGE REDUCTION:",
     "value": [
-     50
+     40
     ]
    }
   ],
@@ -11763,12 +11760,7 @@
   "name": "dazzle_weave"
  },
  "death_prophet_carrion_swarm": {
-  "AbilityCastPoint": [
-   0.5,
-   0.5,
-   0.5,
-   0.5
-  ],
+  "AbilityCastPoint": 0.5,
   "AbilityCastRange": 600,
   "AbilityCastRangeBuffer": 250,
   "AbilityChannelTime": [
@@ -11921,13 +11913,13 @@
    {
     "name": "min_damage",
     "value": [
-     53
+     56
     ]
    },
    {
     "name": "max_damage",
     "value": [
-     58
+     61
     ]
    },
    {
@@ -11943,9 +11935,7 @@
     "name": "average_damage",
     "tooltip": "SPIRIT DAMAGE:",
     "value": [
-     55,
-     55,
-     55
+     58
     ]
    },
    {
@@ -15345,7 +15335,7 @@
     "name": "radius",
     "tooltip": "RADIUS:",
     "value": [
-     325
+     350
     ]
    },
    {
@@ -26494,8 +26484,8 @@
    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
   ],
   "cooldown": [
-   120,
-   90,
+   100,
+   80,
    60
   ],
   "damage": [
@@ -30003,9 +29993,7 @@
    "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
   ],
   "cooldown": [
-   120,
-   110,
-   100
+   120
   ],
   "damage": [
    0,
@@ -31513,10 +31501,10 @@
     "name": "impact_movement_slow",
     "tooltip": "%MOVEMENT SLOW:",
     "value": [
-     40,
-     50,
+     30,
+     45,
      60,
-     70
+     75
     ]
    },
    {
@@ -31724,10 +31712,10 @@
     "name": "impact_movement_slow_tooltip",
     "tooltip": "%PRIMAL SPRING SLOW:",
     "value": [
-     40,
-     50,
+     30,
+     45,
      60,
-     70
+     75
     ]
    }
   ],
@@ -39836,12 +39824,7 @@
   "name": "queenofpain_scream_of_pain"
  },
  "queenofpain_shadow_strike": {
-  "AbilityCastPoint": [
-   0.452,
-   0.452,
-   0.452,
-   0.452
-  ],
+  "AbilityCastPoint": 0.4,
   "AbilityCastRange": [
    450,
    475,
@@ -65271,6 +65254,64 @@
   ],
   "name": "special_bonus_unique_furion"
  },
+ "special_bonus_unique_furion_2": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 6500,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     4
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "+4 Treants Summoned",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_unique_furion_2"
+ },
  "special_bonus_unique_gyrocopter_1": {
   "AbilityCastPoint": [
    0,
@@ -66826,7 +66867,7 @@
    {
     "name": "value",
     "value": [
-     30
+     50
     ]
    }
   ],
@@ -66845,7 +66886,7 @@
    0,
    0
   ],
-  "displayname": "+30 Spirit Bear Damage",
+  "displayname": "+50 Spirit Bear Damage",
   "level": 0,
   "manacost": [
    0,
@@ -69030,7 +69071,7 @@
    {
     "name": "value",
     "value": [
-     50
+     65
     ]
    }
   ],
@@ -69049,7 +69090,7 @@
    0,
    0
   ],
-  "displayname": "+50 Fire Spirits DPS",
+  "displayname": "+65 Fire Spirits DPS",
   "level": 0,
   "manacost": [
    0,

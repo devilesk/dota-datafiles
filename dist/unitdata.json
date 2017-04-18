@@ -4588,9 +4588,9 @@
       "name": "last_proc",
       "tooltip": "CERTAIN TRIGGER TIMER:",
       "value": [
-       16,
-       14,
+       13,
        12,
+       11,
        10
       ]
      }
@@ -4789,9 +4789,9 @@
       "name": "last_proc",
       "tooltip": "CERTAIN TRIGGER TIMER:",
       "value": [
-       16,
-       14,
+       13,
        12,
+       11,
        10
       ]
      }
@@ -4990,9 +4990,9 @@
       "name": "last_proc",
       "tooltip": "CERTAIN TRIGGER TIMER:",
       "value": [
-       16,
-       14,
+       13,
        12,
+       11,
        10
       ]
      }

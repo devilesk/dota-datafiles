@@ -5569,6 +5569,9 @@
  "special_bonus_unique_furion": {
   "DisplayName": "2x Treant HP/Damage"
  },
+ "special_bonus_unique_furion_2": {
+  "DisplayName": "+4 Treants Summoned"
+ },
  "special_bonus_unique_gyrocopter_1": {
   "DisplayName": "3 Homing Missile Charges"
  },
@@ -5648,7 +5651,7 @@
   "DisplayName": "+80 Earth Spike Damage "
  },
  "special_bonus_unique_lone_druid_1": {
-  "DisplayName": "+30 Spirit Bear Damage"
+  "DisplayName": "+50 Spirit Bear Damage"
  },
  "special_bonus_unique_lone_druid_2": {
   "DisplayName": "+12 Spirit Bear Armor"
@@ -5762,7 +5765,7 @@
   "DisplayName": "+1s Supernova Stun Duration"
  },
  "special_bonus_unique_phoenix_3": {
-  "DisplayName": "+50 Fire Spirits DPS"
+  "DisplayName": "+65 Fire Spirits DPS"
  },
  "special_bonus_unique_puck": {
   "DisplayName": "+75% Illusory Orb Distance/Speed"
