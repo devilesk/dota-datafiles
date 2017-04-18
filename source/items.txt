@@ -783,7 +783,7 @@
 		"ID"							"24"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
-		"ItemCost"						"2100"
+		"ItemCost"						"2150"
 		"ItemShopTags"					"agi;int;str"
 		"ItemQuality"					"secret_shop"
 		"ItemAliases"					"ultimate orb"
@@ -1694,14 +1694,14 @@
 	"item_tpscroll"
 	{
 		"ID"							"46"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_NOASSIST | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_NOASSIST | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_BUILDING"
 		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
 		"Model"							"models/props_gameplay/tpscroll01.vmdl"
 
 		"AbilityCastRange"				"0"
-		"AbilityCooldown"				"70.0"
+		"AbilityCooldown"				"80.0"
 		"AbilitySharedCooldown"			"teleport"
 		"AbilityChannelTime"			"3.0"
 		"AbilityCastPoint"				"0.0"
@@ -1774,7 +1774,7 @@
 		"ID"							"48"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
-		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BUILDING"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
 		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
 
 		"AbilityCooldown"				"45.0"
@@ -1801,6 +1801,16 @@
 				"var_type"				"FIELD_INTEGER"
 				"bonus_movement_speed"	"100"
 			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"maximum_distance"		"575"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"vision_radius"			"200"
+			}
 		}
 	}
 	
@@ -1809,7 +1819,7 @@
 		"ID"							"220"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
-		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP | DOTA_UNIT_TARGET_BUILDING"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
 		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
 
 		"AbilityCooldown"				"45.0"
@@ -1831,6 +1841,16 @@
 			{
 				"var_type"				"FIELD_INTEGER"
 				"bonus_movement_speed"	"100"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"maximum_distance"		"575"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"vision_radius"			"200"
 			}
 		}
 	}
@@ -2613,7 +2633,7 @@
 		"AbilityCastRange"				"900"
 
 		"AbilityManaCost"				"225"
-		"ItemCost"						"2275"
+		"ItemCost"						"2375"
 		"ItemShopTags"					"agi;int;str;armor;boost_health"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"mechanism;mekansm"
@@ -2687,7 +2707,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		"AbilityCastRange"				"900"
 
-		"ItemCost"						"2275"
+		"ItemCost"						"2375"
 		"ItemShopTags"					"lifesteal;damage;armor;regen_mana"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"vladmir's offering;vlads"
@@ -2913,7 +2933,7 @@
 		"AbilityManaCost"				"100"
 		"AbilityCastRange"				"900"
 
-		"ItemCost"						"3100"
+		"ItemCost"						"3200"
 		"ItemShopTags"					"regen_health;boost_magic_resist"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"pipe of insight"
@@ -3090,7 +3110,7 @@
 		"ID"							"93"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"Model"							"models/props_gameplay/recipe.vmdl"
 		
-		"ItemCost"						"200"	
+		"ItemCost"						"300"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
@@ -3106,7 +3126,7 @@
 		"ID"							"94"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 
-		"ItemCost"						"575"
+		"ItemCost"						"675"
 		"ItemShopTags"					"str;int;agi;regen_health"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"headdress"
@@ -3163,7 +3183,7 @@
 		"AbilityCooldown"				"25.0"
 
 		"AbilityManaCost"				"100"
-		"ItemCost"						"5650"
+		"ItemCost"						"5700"
 		"ItemShopTags"					"int;regen_mana;agi;hard_to_tag"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"hex;sheepstick;scythe of vyse"
@@ -3302,7 +3322,7 @@
 
 		"AbilityCastRange"				"900"
 		"AbilityCastPoint"				"0.0"
-		"AbilityCooldown"				"13.0"
+		"AbilityCooldown"				"14.0"
 		"AbilitySharedCooldown"			"orchid"
 
 		"AbilityManaCost"				"100"
@@ -3434,7 +3454,7 @@
 			"08"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"attack_speed_slow"			"100"
+				"attack_speed_slow"			"0"
 			}
 			"09"
 			{
@@ -3645,7 +3665,7 @@
 
 		"AbilityCastRange"				"800"
 		"AbilityCastPoint"				"0.0"
-		"AbilityCooldown"				"14.0"
+		"AbilityCooldown"				"15.0"
 		"AbilitySharedCooldown"			"force"
 
 		"AbilityManaCost"				"25"
@@ -4148,7 +4168,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
 
 		"AbilityCastPoint"				"0.0"
-		"AbilityCooldown"				"95.0"
+		"AbilityCooldown"				"90.0"
 		"AbilitySharedCooldown"			"necronomicon"
 		"FightRecapLevel"				"1"
 
@@ -4250,7 +4270,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
 
 		"AbilityCastPoint"				"0.0"
-		"AbilityCooldown"				"95.0"
+		"AbilityCooldown"				"90.0"
 		"AbilitySharedCooldown"			"necronomicon"
 		"FightRecapLevel"				"1"
 
@@ -4352,7 +4372,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
 
 		"AbilityCastPoint"				"0.0"
-		"AbilityCooldown"				"95.0"
+		"AbilityCooldown"				"90.0"
 		"AbilitySharedCooldown"			"necronomicon"
 		"FightRecapLevel"				"1"
 
@@ -4983,7 +5003,7 @@
 		"AbilityCastRange"				"700"
 		"AbilityCooldown"				"13.0"
 
-		"ItemCost"						"4800"
+		"ItemCost"						"4850"
 		"ItemShopTags"					"regen_health;regen_mana;str;agi;int;hard_to_tag"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"ls;linken's sphere"
@@ -5384,7 +5404,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_spell_resist"	"30"
+				"bonus_spell_resist"	"25"
 			}
 			"02"
 			{
@@ -5394,7 +5414,7 @@
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"tooltip_resist"	"30"
+				"tooltip_resist"	"25"
 			}
 			"04"
 			{
@@ -5442,6 +5462,7 @@
 		"ItemContributesToNetWorthWhenDropped"	"0"
 		"AllowedInBackpack"				"0"
 		"IsTempestDoubleClonable"		"0"
+		"ItemDisassembleRule"				"DOTA_ITEM_DISASSEMBLE_NEVER"
 		
 		"AbilitySpecial"
 		{
@@ -5667,7 +5688,7 @@
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"crit_multiplier"		"230"
+				"crit_multiplier"		"235"
 			}
 		}
 	}
@@ -5794,7 +5815,7 @@
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"cleave_damage_percent"	"35"
+				"cleave_damage_percent"	"40"
 			}
 			"05"
 			{
@@ -5860,7 +5881,7 @@
 		"AbilityCastPoint"				"0.0"
 
 		"AbilityManaCost"				"125"
-		"ItemCost"						"4950"
+		"ItemCost"						"5000"
 		"ItemShopTags"					"agi;str;int;attack_speed;move_speed;hard_to_tag"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"manta style"
@@ -6046,7 +6067,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_agility"			"13"
+				"bonus_agility"			"12"
 			}
 			"02"
 			{
@@ -6243,7 +6264,7 @@
 
 
 		"AbilityManaCost"				"75"
-		"ItemCost"						"5100"
+		"ItemCost"						"5150"
 		"ItemShopTags"					"damage;attack_speed;movespeed;hard_to_tag"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"sb;invis;shadow blade"
@@ -6285,7 +6306,7 @@
 			"07"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"windwalk_bonus_damage"	"200"
+				"windwalk_bonus_damage"	"175"
 			}
 			"08"
 			{
@@ -6592,7 +6613,7 @@
 		"ID"							"160"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 
-		"ItemCost"						"5675"
+		"ItemCost"						"5775"
 		"ItemShopTags"					"agi;str;int;hard_to_tag;mana_pool;health_pool;unique"
 		"ItemQuality"					"artifact"
 		"ItemAliases"					"eos;eye of skadi"
@@ -6713,7 +6734,7 @@
 	{
 		"ID"							"163"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		
-		"ItemCost"						"725"	
+		"ItemCost"						"800"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
@@ -6737,7 +6758,7 @@
 		"AbilityCooldown"				"60.0"
 
 		"AbilityManaCost"				"0"
-		"ItemCost"						"1800"
+		"ItemCost"						"1975"
 		"ItemShopTags"					"damage;armor;unique;hard_to_tag"
 		"ItemQuality"					"artifact"
 		"ItemAliases"					"hotd;helm of the dominator"
@@ -6747,7 +6768,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_stats"			"4"
+				"bonus_stats"			"2"
 			}
 			"02"
 			{
@@ -6992,7 +7013,7 @@
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"berserk_bonus_attack_speed"	"100"
+				"berserk_bonus_attack_speed"	"120"
 			}
 			"04"
 			{
@@ -7559,7 +7580,6 @@
 		"ItemShopTags"					"hard_to_tag"
 		"ItemQuality"					"component"
 		"ItemAliases"					"blight stone"
-		"SideShop"						"1"
 
 		"AbilitySpecial"
 		{
@@ -7581,7 +7601,7 @@
 		"ID"							"184"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"Model"							"models/props_gameplay/recipe.vmdl"
 		
-		"ItemCost"						"700"	
+		"ItemCost"						"575"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
@@ -7603,7 +7623,7 @@
 		"AbilityCooldown"				"30.0"
 		"AbilityCastRange"				"900"
 
-		"ItemCost"						"1780"
+		"ItemCost"						"1655"
 		"ItemShopTags"					"str;agi;int;damage;move_speed;attack_speed;hard_to_tag"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"drum of endurance"
@@ -8030,7 +8050,7 @@
 		"AbilityCastRange" 				"900"
 
 		"AbilityManaCost"				"0"
-		"ItemCost"						"5275"
+		"ItemCost"						"5375"
 		"ItemShopTags"					"int;armor;regen_health;hard_to_tag"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"guardian greaves"
@@ -8132,7 +8152,7 @@
 		"FightRecapLevel"				"1"
 
 		"AbilityCooldown"				"16"
-		"AbilityCastRange"				"1000"
+		"AbilityCastRange"				"1150"
 		"AbilityCastPoint"				"0.0"
 
 

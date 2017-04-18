@@ -1507,7 +1507,7 @@
   "Lore": "Capturing the majestic call of an eagle, this mystical horn brings limitless dexterity to those who hear it."
  },
  "item_echo_sabre": {
-  "Description": "Passive: Causes melee attacks to attack twice in quick succession. The double attacks apply a %slow_duration% second %movement_slow%%% movement and attack speed slow on each strike.",
+  "Description": "Passive: Causes melee attacks to attack twice in quick succession. The double attacks apply a %slow_duration% second %movement_slow%%% movement slow on each strike.",
   "DisplayName": "Echo Sabre",
   "Lore": "A deceptively swift blade imbued with resonant magic."
  },
@@ -4861,6 +4861,9 @@
  "special_bonus_attack_speed_60": {
   "DisplayName": "+60 Attack Speed"
  },
+ "special_bonus_attack_speed_70": {
+  "DisplayName": "+70 Attack Speed"
+ },
  "special_bonus_attack_speed_80": {
   "DisplayName": "+80 Attack Speed"
  },
@@ -4912,6 +4915,9 @@
  "special_bonus_cooldown_reduction_25": {
   "DisplayName": "25% Cooldown Reduction"
  },
+ "special_bonus_cooldown_reduction_40": {
+  "DisplayName": "40% Cooldown Reduction"
+ },
  "special_bonus_cooldown_reduction_8": {
   "DisplayName": "8% Cooldown Reduction"
  },
@@ -4951,6 +4957,9 @@
  "special_bonus_exp_boost_35": {
   "DisplayName": "+35% XP Gain"
  },
+ "special_bonus_exp_boost_40": {
+  "DisplayName": "+40% XP Gain"
+ },
  "special_bonus_exp_boost_5": {
   "DisplayName": "+5% XP Gain"
  },
@@ -4978,6 +4987,9 @@
  "special_bonus_gold_income_50": {
   "DisplayName": "+300 Gold/Min"
  },
+ "special_bonus_gold_income_70": {
+  "DisplayName": "+420 Gold/Min"
+ },
  "special_bonus_hp_100": {
   "DisplayName": "+100 Health"
  },
@@ -5004,6 +5016,9 @@
  },
  "special_bonus_hp_300": {
   "DisplayName": "+300 Health"
+ },
+ "special_bonus_hp_325": {
+  "DisplayName": "+325 Health"
  },
  "special_bonus_hp_350": {
   "DisplayName": "+350 Health"
@@ -5142,6 +5157,9 @@
  },
  "special_bonus_movement_speed_10": {
   "DisplayName": "+10 Movement Speed"
+ },
+ "special_bonus_movement_speed_100": {
+  "DisplayName": "+100 Movement Speed"
  },
  "special_bonus_movement_speed_15": {
   "DisplayName": "+15 Movement Speed"
@@ -5339,7 +5357,7 @@
   "DisplayName": "Undefined"
  },
  "special_bonus_unique_abaddon": {
-  "DisplayName": "+200 Aphotic Shield Health"
+  "DisplayName": "+300 Aphotic Shield Health"
  },
  "special_bonus_unique_alchemist": {
   "DisplayName": "-5 Acid Spray Armor"
@@ -5348,10 +5366,10 @@
   "DisplayName": "+80 Unstable Concoction Damage"
  },
  "special_bonus_unique_ancient_apparition_1": {
-  "DisplayName": "3 Charges of Cold Feet"
+  "DisplayName": "4 Charges of Cold Feet"
  },
  "special_bonus_unique_ancient_apparition_2": {
-  "DisplayName": "+80 Chilling Touch Damage"
+  "DisplayName": "+100 Chilling Touch Damage"
  },
  "special_bonus_unique_ancient_apparition_3": {
   "DisplayName": "-1s Ice Vortex Cooldown"
@@ -5363,7 +5381,7 @@
   "DisplayName": "-50s Mana Void Cooldown"
  },
  "special_bonus_unique_arc_warden": {
-  "DisplayName": "+175 Spark Wraith Damage"
+  "DisplayName": "+250 Spark Wraith Damage"
  },
  "special_bonus_unique_arc_warden_2": {
   "DisplayName": "+20 Flux DPS"
@@ -5381,7 +5399,7 @@
   "DisplayName": "+8s Firefly Duration"
  },
  "special_bonus_unique_batrider_2": {
-  "DisplayName": "+200 Flamebreak AoE/Knockback"
+  "DisplayName": "+300 Flamebreak AoE/Knockback"
  },
  "special_bonus_unique_beastmaster": {
   "DisplayName": "+250 Wild Axes Damage"
@@ -5423,7 +5441,7 @@
   "DisplayName": "+60 Spawn Spiderling Damage"
  },
  "special_bonus_unique_broodmother_4": {
-  "DisplayName": "+8 Spiderlings Attack Damage"
+  "DisplayName": "+12 Spiders Attack Damage"
  },
  "special_bonus_unique_centaur_1": {
   "DisplayName": "Gains Return Aura"
@@ -5459,7 +5477,7 @@
   "DisplayName": "+1.5s Frostbite Duration"
  },
  "special_bonus_unique_crystal_maiden_2": {
-  "DisplayName": "+250 Crystal Nova Damage"
+  "DisplayName": "+300 Crystal Nova Damage"
  },
  "special_bonus_unique_dark_seer": {
   "DisplayName": "+80 Ion Shell Damage"
@@ -5474,7 +5492,7 @@
   "DisplayName": "+60 Shadow Wave Heal"
  },
  "special_bonus_unique_death_prophet": {
-  "DisplayName": "+6 Exorcism Spirits"
+  "DisplayName": "+8 Exorcism Spirits"
  },
  "special_bonus_unique_death_prophet_2": {
   "DisplayName": "-1s Crypt Swarm Cooldown"
@@ -5534,10 +5552,10 @@
   "DisplayName": "+2s Searing Chains"
  },
  "special_bonus_unique_enchantress_1": {
-  "DisplayName": "+10s Nature's Attendants Duration"
+  "DisplayName": "Enchant Affects Ancients"
  },
  "special_bonus_unique_enchantress_2": {
-  "DisplayName": "+12 Nature's Attendants Wisps"
+  "DisplayName": "+7 Nature's Attendants Wisps"
  },
  "special_bonus_unique_enchantress_3": {
   "DisplayName": "+60 Untouchable Slow"
@@ -5558,7 +5576,7 @@
   "DisplayName": "+4 Flak Cannon Attacks"
  },
  "special_bonus_unique_huskar": {
-  "DisplayName": "+400 Life Break Cast Range"
+  "DisplayName": "+500 Life Break Cast Range"
  },
  "special_bonus_unique_huskar_2": {
   "DisplayName": "+5 Burning Spears DPS"
@@ -5576,7 +5594,7 @@
   "DisplayName": "+1.25s Ice Path Duration"
  },
  "special_bonus_unique_jakiro_2": {
-  "DisplayName": "+25 Dual Breath Burn Damage"
+  "DisplayName": "+35 Dual Breath Burn Damage"
  },
  "special_bonus_unique_juggernaut": {
   "DisplayName": "+175 Blade Fury DPS"
@@ -5593,11 +5611,14 @@
  "special_bonus_unique_legion_commander": {
   "DisplayName": "+40 Duel Damage Bonus"
  },
+ "special_bonus_unique_legion_commander_2": {
+  "DisplayName": "-8s Press The Attack Cooldown"
+ },
  "special_bonus_unique_leshrac_1": {
   "DisplayName": "+50 Diabolic Edict Explosions"
  },
  "special_bonus_unique_leshrac_2": {
-  "DisplayName": "+2s Lightning Storm Slow Duration"
+  "DisplayName": "+3s Lightning Storm Slow Duration"
  },
  "special_bonus_unique_lich_1": {
   "DisplayName": "+35 Frost Armor Structure Armor"
@@ -5606,7 +5627,7 @@
   "DisplayName": "Attacks Apply 30% MS and AS Slow"
  },
  "special_bonus_unique_lich_3": {
-  "DisplayName": "-3s Frost Blast Cooldown"
+  "DisplayName": "-4s Frost Blast Cooldown"
  },
  "special_bonus_unique_lifestealer": {
   "DisplayName": "+1s Rage Duration"
@@ -5615,10 +5636,10 @@
   "DisplayName": "-4s Dragon Slave Cooldown"
  },
  "special_bonus_unique_lina_2": {
-  "DisplayName": "+1 Firey Soul Max Stacks"
+  "DisplayName": "+40/4% Fiery Soul Per Stack"
  },
  "special_bonus_unique_lina_3": {
-  "DisplayName": "+60 Light Strike Array Damage"
+  "DisplayName": "+80 Light Strike Array Damage"
  },
  "special_bonus_unique_lion": {
   "DisplayName": "+3 Mana Drain Multi Target"
@@ -5657,7 +5678,7 @@
   "DisplayName": "+15% Empower Damage/Cleave"
  },
  "special_bonus_unique_medusa": {
-  "DisplayName": "+1s Stone Gaze Stun"
+  "DisplayName": "+2s Stone Gaze Stun"
  },
  "special_bonus_unique_medusa_2": {
   "DisplayName": "+1 Split Shot target"
@@ -5699,7 +5720,7 @@
   "DisplayName": "+2 Damage Per Soul"
  },
  "special_bonus_unique_nevermore_2": {
-  "DisplayName": "-7s Shadow Raze Cooldown"
+  "DisplayName": "+125 Shadow Raze Damage"
  },
  "special_bonus_unique_night_stalker": {
   "DisplayName": "-8s Crippling Fear Cooldown"
@@ -5764,8 +5785,11 @@
  "special_bonus_unique_pugna_3": {
   "DisplayName": "+0.5 Netherward Damage Per Mana"
  },
+ "special_bonus_unique_pugna_4": {
+  "DisplayName": "-1s Netherblast Cooldown"
+ },
  "special_bonus_unique_queen_of_pain": {
-  "DisplayName": "-3s Shadow Strike Cooldown"
+  "DisplayName": "Removed Shadow Strike Cooldown"
  },
  "special_bonus_unique_razor": {
   "DisplayName": "+14 Static Link Damage Steal"
@@ -5918,10 +5942,10 @@
   "DisplayName": "+200 Shukuchi Movement Speed"
  },
  "special_bonus_unique_windranger": {
-  "DisplayName": "-6s Powershot Cooldown"
+  "DisplayName": "-7s Powershot Cooldown"
  },
  "special_bonus_unique_windranger_2": {
-  "DisplayName": "+25% Windrun Slow"
+  "DisplayName": "+30% Windrun Slow"
  },
  "special_bonus_unique_winter_wyvern_1": {
   "DisplayName": "+15% Arctic Burn Slow"
@@ -5948,7 +5972,7 @@
   "DisplayName": "+50 Wraithfire Blast DPS"
  },
  "special_bonus_unique_zeus": {
-  "DisplayName": "+1.5% Static Field Damage"
+  "DisplayName": "+2% Static Field Damage"
  },
  "special_bonus_vision_200": {
   "DisplayName": "+200 Vision"
