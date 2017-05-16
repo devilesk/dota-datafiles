@@ -304,7 +304,7 @@
 		"AbilityCastPoint"				"0.0"
 		"AbilityCooldown"				"5.0"
 
-		"ItemCost"						"75"
+		"ItemCost"						"70"
 		"ItemShopTags"					"armor"
 		"ItemQuality"					"consumable"
 		"ItemAliases"					"faerie fire"
@@ -539,6 +539,11 @@
 			{
 				"var_type"				"FIELD_INTEGER"
 				"consumed_bonus"	"60"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"consumed_bonus_night_vision"	"150"
 			}
 		}
 	}
@@ -824,7 +829,7 @@
 		"ID"							"26"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
-		"ItemCost"						"1200"
+		"ItemCost"						"1100"
 		"ItemShopTags"					"unique"
 		"ItemQuality"					"component"
 		"ItemAliases"					"morbid mask"
@@ -835,7 +840,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"		"15"
+				"bonus_damage"		"10"
 			}
 			"02"
 			{
@@ -1213,7 +1218,7 @@
 		"AbilityCastRange"				"400"
 		"AbilityCastPoint"				"0.0"
 		
-		"ItemCost"						"110"
+		"ItemCost"						"100"
 		"ItemShopTags"					"consumable"
 		"ItemQuality"					"consumable"
 		"ItemAliases"					"enchanted mango"
@@ -1223,6 +1228,7 @@
 		"SideShop"						"0"
 		"ItemHideCharges"				"1"
 		"IsTempestDoubleClonable"		"0"
+		"ItemSellable"					"0"
 
 		"AbilitySpecial"
 		{
@@ -1334,7 +1340,7 @@
 		"AbilityCastRange"				"350"
 		"AbilityCastPoint"				"0.0"
 		
-		"ItemCost"						"660"
+		"ItemCost"						"650"
 		"ItemShopTags"					"consumable"
 		"ItemQuality"					"consumable"
 		"ItemAliases"					"bottle"
@@ -1384,7 +1390,7 @@
 		"AbilityCastPoint"				"0.0"
 		"AbilityCooldown"				"1.0"
 		
-		"ItemCost"						"65"
+		"ItemCost"						"60"
 		"ItemShopTags"					"consumable"
 		"ItemQuality"					"consumable"
 		"ItemAliases"					"observer ward"
@@ -1509,13 +1515,12 @@
 		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO"
 
 
-		"ItemCost"						"165"
+		"ItemCost"						"160"
 		"ItemQuality"					"common"
 		"ItemAliases"					"ward"
 		"ItemShareability"				"ITEM_FULLY_SHAREABLE_STACKING"
 		"ItemPurchasable"				"0"
-		"ItemDeclarations"				"DECLARE_PURCHASES_TO_SPECTATORS"
-		"ItemDisassembleRule"				"DOTA_ITEM_DISASSEMBLE_NEVER"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_NEVER"
 		"IsTempestDoubleClonable"		"0"
 		
 		"AbilityCastRange"				"500"
@@ -1561,7 +1566,7 @@
 			"08"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"observer_duration_minutes_tooltip"		"6"
+				"observer_duration_minutes_tooltip"		"8"
 			}
 			"09"
 			{
@@ -1943,7 +1948,7 @@
 		"ID"							"51"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
-		"ItemCost"						"2400"
+		"ItemCost"						"2200"
 		"ItemShopTags"					"damage"
 		"ItemQuality"					"secret_shop"
 		"ItemAliases"					"demon edge"
@@ -1954,7 +1959,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"			"46"
+				"bonus_damage"			"42"
 			}
 		}
 	}
@@ -2243,7 +2248,7 @@
 		"ID"							"64"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"Model"							"models/props_gameplay/recipe.vmdl"
 		
-		"ItemCost"						"1550"	
+		"ItemCost"						"1650"	
 		"ItemShopTags"					""
 		"ItemAliases"					"hom"
 		
@@ -2268,7 +2273,7 @@
 		"AbilityCooldown"				"100.0"
 
 		"AbilityManaCost"				"0"
-		"ItemCost"						"2050"
+		"ItemCost"						"2150"
 		"ItemShopTags"					"attack_speed;hard_to_tag"
 		"ItemQuality"					"common"
 		"ItemAliases"					"hand of midas"
@@ -2284,12 +2289,12 @@
 			"02"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"xp_multiplier"			"1.75"
+				"xp_multiplier"			"1.85"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_gold"			"220"
+				"bonus_gold"			"200"
 			}
 			"04"
 			{
@@ -2458,7 +2463,7 @@
 	{
 		"ID"							"72"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		
-		"ItemCost"						"190"	
+		"ItemCost"						"175"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
@@ -2474,7 +2479,7 @@
 		"ID"							"73"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 
-		"ItemCost"						"505"
+		"ItemCost"						"490"
 		"ItemShopTags"					"damage;int;agi;str"
 		"ItemQuality"					"common"
 		"ItemAliases"					"bracer"
@@ -2706,7 +2711,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		"AbilityCastRange"				"900"
 
-		"ItemCost"						"2375"
+		"ItemCost"						"2275"
 		"ItemShopTags"					"lifesteal;damage;armor;regen_mana"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"vladmir's offering;vlads"
@@ -3009,14 +3014,14 @@
 		"ID"							"91"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"Model"							"models/props_gameplay/recipe.vmdl"
 		
-		"ItemCost"						"250"	
+		"ItemCost"						"310"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
 		"ItemResult"					"item_urn_of_shadows"
 		"ItemRequirements"
 		{
-			"01"						"item_sobi_mask;item_gauntlets;item_gauntlets"
+			"01"						"item_infused_raindrop;item_circlet;item_ring_of_protection"
 		}
 	}
 	
@@ -3037,6 +3042,7 @@
 		"ItemDisplayCharges"			"1"
 		"ItemStackable"					"0"
 		"ItemPermanent"					"1"
+		"ItemDisassembleRule"				"DOTA_ITEM_DISASSEMBLE_NEVER"
 
 		"ItemCost"						"875"
 		"ItemShopTags"					"regen_mana;str;boost_health"
@@ -3048,55 +3054,60 @@
 		{
 			"01"
 			{
-				"var_type"				"FIELD_INTEGER"
-				"mana_regen"			"50"
+				"var_type"				"FIELD_FLOAT"
+				"mana_regen"			"1.0"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_strength"		"6"
+				"bonus_all_stats"		"2"
 			}
 			"03"
 			{
-				"var_type"				"FIELD_INTEGER"
-				"soul_radius"			"1400"
+				"var_type"				"FIELD_FLOAT"
+				"bonus_armor"			"2"
 			}
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"soul_initial_charge"	"2"
+				"soul_radius"			"1400"
 			}
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"soul_additional_charges"	"1"
+				"soul_initial_charge"	"2"
 			}
 			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"soul_additional_charges"	"1"
+			}
+			"07"
 			{
 				"var_type"				"FIELD_FLOAT"
 				"soul_heal_interval"	"0.25"
 			}
-			"07"
+			"08"
 			{
 				"var_type"				"FIELD_INTEGER"
 				"soul_heal_amount"		"400"
 			}			
-			"08"
+			"09"
 			{
 				"var_type"				"FIELD_INTEGER"
 				"soul_damage_amount"	"150"
 			}
-			"09"
+			"10"
 			{
 				"var_type"				"FIELD_FLOAT"
 				"soul_heal_duration"	"8.0"
 			}
-			"10"
+			"11"
 			{
 				"var_type"				"FIELD_FLOAT"
 				"soul_damage_duration"	"8.0"
 			}
-			"11"
+			"12"
 			{
 				"var_type"				"FIELD_INTEGER"
 				"soul_release_range_tooltip"	"950"
@@ -3179,7 +3190,7 @@
 		"AbilityCastRange"				"800"
 		"AbilityCastPoint"				"0.0"
 
-		"AbilityCooldown"				"25.0"
+		"AbilityCooldown"				"22.0"
 
 		"AbilityManaCost"				"100"
 		"ItemCost"						"5700"
@@ -3321,7 +3332,7 @@
 
 		"AbilityCastRange"				"900"
 		"AbilityCastPoint"				"0.0"
-		"AbilityCooldown"				"14.0"
+		"AbilityCooldown"				"18.0"
 		"AbilitySharedCooldown"			"orchid"
 
 		"AbilityManaCost"				"100"
@@ -3541,7 +3552,7 @@
 		"ItemResult"					"item_aether_lens"
 		"ItemRequirements"
 		{
-			"01"						"item_energy_booster;item_ring_of_health"
+			"01"						"item_energy_booster;item_void_stone"
 		}
 	}
 	
@@ -3567,7 +3578,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_health_regen"	"8"
+				"bonus_mana_regen"		"100"
 			}
 			"03"
 			{
@@ -3577,7 +3588,7 @@
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"spell_amp"				"5"
+				"spell_amp"				"6"
 			}
 		}
 	}
@@ -3587,14 +3598,14 @@
 		"ID"							"101"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"Model"							"models/props_gameplay/recipe.vmdl"
 		
-		"ItemCost"						"900"	
+		"ItemCost"						"400"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
 		"ItemResult"					"item_force_staff"
 		"ItemRequirements"
 		{
-			"01"						"item_staff_of_wizardry;item_ring_of_regen"
+			"01"						"item_staff_of_wizardry;item_ring_of_health"
 		}
 	}
 	
@@ -3612,7 +3623,7 @@
 		"AbilitySharedCooldown"			"force"
 
 		"AbilityManaCost"				"25"
-		"ItemCost"						"2225"
+		"ItemCost"						"2250"
 		"ItemShopTags"					"int;damage;attack_speed;hard_to_tag"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"fs;force staff"
@@ -3628,7 +3639,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_health_regen"	"4"
+				"bonus_health_regen"	"6"
 			}
 			"03"
 			{
@@ -3668,7 +3679,7 @@
 		"AbilitySharedCooldown"			"force"
 
 		"AbilityManaCost"				"25"
-		"ItemCost"						"4625"
+		"ItemCost"						"4650"
 		"ItemShopTags"					"int;damage;attack_speed;hard_to_tag"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"fs;force staff"
@@ -3684,7 +3695,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_health_regen"	"4"
+				"bonus_health_regen"	"6"
 			}
 			"03"
 			{
@@ -4198,7 +4209,7 @@
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"summon_duration"		"40"
+				"summon_duration"		"45"
 			}			
 			"04"
 			{
@@ -4300,7 +4311,7 @@
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"summon_duration"		"40"
+				"summon_duration"		"45"
 			}			
 			"04"
 			{
@@ -4399,7 +4410,7 @@
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"summon_duration"		"40"
+				"summon_duration"		"45"
 			}			
 			"04"
 			{
@@ -4636,14 +4647,14 @@
 		"ID"							"113"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"Model"							"models/props_gameplay/recipe.vmdl"
 		
-		"ItemCost"						"1400"	
+		"ItemCost"						"0"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
 		"ItemResult"					"item_heart"
 		"ItemRequirements"
 		{
-			"01"						"item_reaver;item_vitality_booster"
+			"01"						"item_reaver;item_vitality_booster;item_vitality_booster"
 		}
 	}
 	
@@ -4654,7 +4665,7 @@
 
 		"AbilityCooldown"				"7.0"
 
-		"ItemCost"						"5500"
+		"ItemCost"						"5200"
 		"ItemShopTags"					"str;regen_health;health_pool"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"hot;heart of tarrasque"
@@ -4665,12 +4676,12 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_strength"		"45"
+				"bonus_strength"		"40"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_health"			"250"
+				"bonus_health"			"500"
 			}
 			"03"
 			{
@@ -4796,7 +4807,7 @@
 		"ID"							"118"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"Model"							"models/props_gameplay/recipe.vmdl"
 		
-		"ItemCost"						"600"	
+		"ItemCost"						"650"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
@@ -4817,7 +4828,7 @@
 		"AbilityCastRange"				"900"
 
 		"AbilityManaCost"				"100"
-		"ItemCost"						"4700"
+		"ItemCost"						"4750"
 		"ItemShopTags"					"int;armor;hard_to_tag"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"shiva's guard;shivas"
@@ -4900,7 +4911,7 @@
 		"AbilityCastPoint"				"0.0"
 		"AbilityCooldown"				"300.0"
 
-		"ItemCost"						"4900"
+		"ItemCost"						"4850"
 		"ItemShopTags"					"regen_health;regen_mana;mana_pool;health_pool"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"bs;bloodstone"
@@ -5246,7 +5257,7 @@
 			"09"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"duration"	"10"
+				"duration"	"12"
 			}		
 			"10"
 			{
@@ -5293,7 +5304,7 @@
 		"ID"							"127"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
 
-		"AbilityCooldown"				"18.0"
+		"AbilityCooldown"				"20.0"
 
 		"AbilityManaCost"				"25"
 		"ItemCost"						"2200"
@@ -5450,7 +5461,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		"Model"							"models/props_gameplay/divine_rapier.vmdl"
 
-		"ItemCost"						"6200"
+		"ItemCost"						"6000"
 		"ItemShopTags"					"damage"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"divine rapier"
@@ -5493,7 +5504,7 @@
 		"ID"							"135"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 
-		"ItemCost"						"5400"
+		"ItemCost"						"5200"
 		"ItemShopTags"					"damage;attack_speed;hard_to_tag"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"mkb;monkey king bar"
@@ -5559,22 +5570,22 @@
 				"var_type"				"FIELD_INTEGER"
 				"bonus_damage"			"65"
 			}
-			"02"
+			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
 				"aura_damage"			"60"
 			}
-			"03"
+			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"aura_damage_illusions"	"40"
+				"aura_damage_illusions"	"35"
 			}
-			"04"
+			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
 				"blind_pct"				"17"
 			}
-			"05"
+			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
 				"aura_radius"			"700"
@@ -5666,7 +5677,7 @@
 		"ID"							"141"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 
-		"ItemCost"						"5520"
+		"ItemCost"						"5320"
 		"ItemShopTags"					"damage;crit"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"daedalus"
@@ -5677,7 +5688,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"			"76"
+				"bonus_damage"			"80"
 			}
 			"02"
 			{
@@ -5713,8 +5724,6 @@
 		"ID"							"143"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 
-		"AbilityCooldown"				"2.3"
-
 		"ItemCost"						"2700"
 		"ItemShopTags"					"damage;str;hard_to_tag"
 		"ItemQuality"					"epic"
@@ -5749,11 +5758,6 @@
 				"bash_duration"			"1.4"
 			}
 			"06"
-			{
-				"var_type"				"FIELD_FLOAT"
-				"bash_cooldown"			"2.3"
-			}
-			"07"
 			{
 				"var_type"				"FIELD_INTEGER"
 				"bonus_chance_damage"	"85"
@@ -5860,7 +5864,7 @@
 		"Model"							"models/props_gameplay/recipe.vmdl"
 		"FightRecapLevel"				"1"
 		
-		"ItemCost"						"800"	
+		"ItemCost"						"900"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
@@ -6241,7 +6245,7 @@
 	{
 		"ID"							"248"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		
-		"ItemCost"						"500"	
+		"ItemCost"						"700"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
@@ -6263,7 +6267,7 @@
 
 
 		"AbilityManaCost"				"75"
-		"ItemCost"						"5350"
+		"ItemCost"						"5550"
 		"ItemShopTags"					"damage;attack_speed;movespeed;hard_to_tag"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"sb;invis;shadow blade"
@@ -6340,7 +6344,7 @@
 		"ID"							"154"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 
-		"ItemCost"						"4100"
+		"ItemCost"						"3900"
 		"ItemShopTags"					"damage;str;agi;attack_speed;unique"
 		"ItemQuality"					"artifact"
 		"ItemAliases"					"sny;s&y;sy;sange and yasha"
@@ -6431,7 +6435,7 @@
 
 		"AbilityCooldown"				"35.0"
 
-		"ItemCost"						"5800"
+		"ItemCost"						"5700"
 		"ItemShopTags"					"damage;str;armor;unique;hard_to_tag"
 		"ItemQuality"					"artifact"
 		"ItemAliases"					"satanic"
@@ -6663,7 +6667,7 @@
 		"ID"							"161"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"Model"							"models/props_gameplay/recipe.vmdl"
 		
-		"ItemCost"						"600"	
+		"ItemCost"						"500"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
@@ -6679,7 +6683,7 @@
 		"ID"							"162"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 
-		"ItemCost"						"2050"
+		"ItemCost"						"1950"
 		"ItemShopTags"					"damage;str;unique"
 		"ItemQuality"					"artifact"
 		"ItemAliases"					"sange"
@@ -6733,14 +6737,14 @@
 	{
 		"ID"							"163"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		
-		"ItemCost"						"800"	
+		"ItemCost"						"0"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
 		"ItemResult"					"item_helm_of_the_dominator"
 		"ItemRequirements"
 		{
-			"01"						"item_gloves;item_headdress;"
+			"01"						"item_gloves;item_headdress;item_ring_of_health"
 		}
 	}
 	
@@ -6757,7 +6761,7 @@
 		"AbilityCooldown"				"60.0"
 
 		"AbilityManaCost"				"0"
-		"ItemCost"						"1975"
+		"ItemCost"						"2025"
 		"ItemShopTags"					"damage;armor;unique;hard_to_tag"
 		"ItemQuality"					"artifact"
 		"ItemAliases"					"hotd;helm of the dominator"
@@ -6782,7 +6786,7 @@
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"hp_regen_aura"			"8"
+				"hp_regen_aura"			"10"
 			}
 			"05"
 			{
@@ -6925,7 +6929,7 @@
 	{
 		"ID"							"169"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		
-		"ItemCost"						"600"	
+		"ItemCost"						"500"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
@@ -6941,7 +6945,7 @@
 		"ID"							"170"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 
-		"ItemCost"						"2050"
+		"ItemCost"						"1950"
 		"ItemShopTags"					"agi;attack_speed;move_speed"
 		"ItemQuality"					"artifact"
 		"ItemAliases"					"yasha"
@@ -6956,7 +6960,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_attack_speed"	"15"
+				"bonus_attack_speed"	"10"
 			}
 			"03"
 			{
@@ -6971,14 +6975,14 @@
 		"ID"							"171"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"Model"							"models/props_gameplay/recipe.vmdl"
 		
-		"ItemCost"						"700"	
+		"ItemCost"						"0"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
 		"ItemResult"					"item_mask_of_madness"
 		"ItemRequirements"
 		{
-			"01"						"item_lifesteal"
+			"01"						"item_lifesteal;item_quarterstaff"
 		}
 	}
 	
@@ -6991,10 +6995,11 @@
 		"AbilityCooldown"				"20.0"
 
 		"AbilityManaCost"				"25"
-		"ItemCost"						"1900"
+		"ItemCost"						"1975"
 		"ItemShopTags"					"unique;hard_to_tag"
 		"ItemQuality"					"artifact"
 		"ItemAliases"					"mom;mask of madness"
+		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_ALWAYS"
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS"
 		
 		"AbilitySpecial"
@@ -7002,29 +7007,34 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"		"15"
+				"bonus_damage"			"20"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"lifesteal_percent"		"15"
+				"bonus_attack_speed"	"10"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"berserk_bonus_attack_speed"	"120"
+				"lifesteal_percent"		"15"
 			}
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"berserk_bonus_movement_speed"	"17"
+				"berserk_bonus_attack_speed"	"110"
 			}
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"berserk_armor_reduction"	"5"
+				"berserk_bonus_movement_speed"	"17"
 			}
 			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"berserk_armor_reduction"	"5"
+			}
+			"07"
 			{
 				"var_type"				"FIELD_FLOAT"
 				"berserk_duration"		"8.0"
@@ -7350,14 +7360,14 @@
 		"ID"							"177"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"Model"							"models/props_gameplay/recipe.vmdl"
 		
-		"ItemCost"						"150"	
+		"ItemCost"						"0"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
 		"ItemResult"					"item_soul_ring"
 		"ItemRequirements"
 		{
-			"01"						"item_ring_of_regen;item_sobi_mask"
+			"01"						"item_ring_of_regen;item_sobi_mask;item_enchanted_mango"
 		}
 	}	
 
@@ -7369,7 +7379,7 @@
 		"AbilityCooldown"				"30.0"
 
 		"AbilityManaCost"				"0"
-		"ItemCost"						"800"
+		"ItemCost"						"750"
 		"ItemShopTags"					"regen_health;boost_mana"
 		"ItemQuality"					"common"
 		"ItemAliases"					"soul ring"
@@ -7622,7 +7632,7 @@
 		"AbilityCooldown"				"30.0"
 		"AbilityCastRange"				"900"
 
-		"ItemCost"						"1655"
+		"ItemCost"						"1640"
 		"ItemShopTags"					"str;agi;int;damage;move_speed;attack_speed;hard_to_tag"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"drum of endurance"
@@ -7790,7 +7800,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_armor"			"12"
+				"bonus_armor"			"10"
 			}
 			"02"
 			{
@@ -7805,34 +7815,14 @@
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"allied_armor"			"12"
+				"truestrike_chance"		"25"
 			}
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"allied_evasion"			"25"
-			}
-			"06"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"armor_reduction"		"-12"
-			}
-			"07"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"enemy_armor_reduction_tooltip"		"12"
-			}
-			"08"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"miss_chance"			"25"
-			}
-			"09"
-			{
-				"var_type"				"FIELD_INTEGER"
 				"duration"				"7"
 			}
-			"10"
+			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
 				"valor_cast_range_tooltip"				"1000"
@@ -8130,14 +8120,14 @@
 	{
 		"ID"							"205"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		
-		"ItemCost"						"0"	
+		"ItemCost"						"1100"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
 		"ItemResult"					"item_rod_of_atos"
 		"ItemRequirements"
 		{
-			"01"						"item_vitality_booster;item_staff_of_wizardry;item_staff_of_wizardry"
+			"01"						"item_staff_of_wizardry;item_bracer;item_bracer"
 		}
 	}
 	
@@ -8156,25 +8146,35 @@
 
 
 		"AbilityManaCost"				"50"
-		"ItemCost"						"3100"
+		"ItemCost"						"3080"
 		"ItemShopTags"					"int;regen_health"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"rod of atos"
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS"
 		
 		"AbilitySpecial"
-		{			
+		{		
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_intellect"		"30"
+				"bonus_intellect"		"20"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_health"				"350"
+				"bonus_strength"		"15"
 			}
 			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_agility"			"6"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"bonus_damage"			"6"
+			}
+			"05"
 			{
 				"var_type"				"FIELD_FLOAT"
 				"duration"				"2.0"
@@ -8357,11 +8357,6 @@
 			"12"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"bash_cooldown"			"2.3"
-			}
-			"13"
-			{
-				"var_type"				"FIELD_FLOAT"
 				"stun_duration"				"2"
 			}
 		}
@@ -8398,7 +8393,7 @@
 
 
 		"AbilityManaCost"				"100"
-		"ItemCost"						"3500"
+		"ItemCost"						"3400"
 		"ItemShopTags"					"str;damage;evasion"
 		"ItemQuality"					"artifact"
 		"ItemAliases"					"heaven's halberd"

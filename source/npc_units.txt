@@ -192,8 +192,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 	
@@ -259,8 +259,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 	
@@ -326,8 +326,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 	
@@ -393,8 +393,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 	
@@ -460,8 +460,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 	
@@ -527,8 +527,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 	
@@ -572,7 +572,7 @@
 		"AttributeBaseAgility"		"0"			// Base agility
 		"AttributeAgilityGain"		"0"			// Agility bonus per level.
 
-		"BountyXP"					"45"		// Experience earn.
+		"BountyXP"					"40"		// Experience earn.
 		"BountyGoldMin"				"34"		// Gold earned min.
 		"BountyGoldMax"				"38"		// Gold earned max.
 
@@ -594,8 +594,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 	
@@ -661,8 +661,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 	
@@ -728,8 +728,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 	
@@ -773,7 +773,7 @@
 		"AttributeBaseAgility"		"0"			// Base agility
 		"AttributeAgilityGain"		"0"			// Agility bonus per level.
 
-		"BountyXP"					"45"		// Experience earn.
+		"BountyXP"					"40"		// Experience earn.
 		"BountyGoldMin"				"34"		// Gold earned min.
 		"BountyGoldMax"				"38"		// Gold earned max.
 
@@ -795,8 +795,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 	
@@ -862,8 +862,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}
 	
@@ -929,8 +929,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}
 
@@ -3489,7 +3489,7 @@
 		"MovementSpeed"				"325"		// Speed
 		"MovementTurnRate"			"0.5"		// Turning rate.
 
-		"StatusHealth"				"550"		// Base health.
+		"StatusHealth"				"825"		// Base health.
 		"StatusHealthRegen"			"0"			// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -3499,8 +3499,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRUCTURE"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_SIEGE"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"850"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 	
@@ -3559,7 +3559,7 @@
 		"MovementSpeed"				"325"		// Speed
 		"MovementTurnRate"			"0.5"		// Turning rate.
 
-		"StatusHealth"				"550"		// Base health.
+		"StatusHealth"				"825"		// Base health.
 		"StatusHealthRegen"			"0"			// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -3569,8 +3569,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRUCTURE"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_SIEGE"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"850"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 	
@@ -3629,7 +3629,7 @@
 		"MovementSpeed"				"325"		// Speed
 		"MovementTurnRate"			"0.5"		// Turning rate.
 
-		"StatusHealth"				"550"		// Base health.
+		"StatusHealth"				"825"		// Base health.
 		"StatusHealthRegen"			"0"			// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -3639,8 +3639,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRUCTURE"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_SIEGE"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"850"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 	
@@ -3699,7 +3699,7 @@
 		"MovementSpeed"				"325"		// Speed
 		"MovementTurnRate"			"0.5"		// Turning rate.
 
-		"StatusHealth"				"550"		// Base health.
+		"StatusHealth"				"825"		// Base health.
 		"StatusHealthRegen"			"0"			// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -3709,8 +3709,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRUCTURE"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_SIEGE"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"850"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 	
@@ -3769,7 +3769,7 @@
 		"MovementSpeed"				"325"		// Speed
 		"MovementTurnRate"			"0.5"		// Turning rate.
 
-		"StatusHealth"				"550"		// Base health.
+		"StatusHealth"				"825"		// Base health.
 		"StatusHealthRegen"			"0"			// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -3779,8 +3779,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRUCTURE"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_SIEGE"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"850"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 	
@@ -3839,7 +3839,7 @@
 		"MovementSpeed"				"325"		// Speed
 		"MovementTurnRate"			"0.5"		// Turning rate.
 
-		"StatusHealth"				"550"		// Base health.
+		"StatusHealth"				"825"		// Base health.
 		"StatusHealthRegen"			"0"			// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -3849,8 +3849,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_STRUCTURE"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_SIEGE"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"850"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 	
@@ -4462,9 +4462,9 @@
 		"RingRadius"				"40"
 		"HealthBarOffset"			"130"
 
-		"BountyXP"					"25"		// Experience earn.
-		"BountyGoldMin"				"7"			// Gold earned min.
-		"BountyGoldMax"				"9"			// Gold earned max.
+		"BountyXP"					"20"		// Experience earn.
+		"BountyGoldMin"				"6"			// Gold earned min.
+		"BountyGoldMax"				"7"			// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"270"		// Speed.
@@ -4512,9 +4512,9 @@
 		"RingRadius"				"40"
 		"HealthBarOffset"			"150"
 
-		"BountyXP"					"25"		// Experience earn.
-		"BountyGoldMin"				"17"		// Gold earned min.
-		"BountyGoldMax"				"19"		// Gold earned max.
+		"BountyXP"					"20"		// Experience earn.
+		"BountyGoldMin"				"14"		// Gold earned min.
+		"BountyGoldMax"				"15"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"270"		// Speed.
@@ -4562,9 +4562,9 @@
 		"RingRadius"				"50"
 		"HealthBarOffset"			"180"
 
-		"BountyXP"					"41"		// Experience earn.
-		"BountyGoldMin"				"23"		// Gold earned min.
-		"BountyGoldMax"				"29"		// Gold earned max.
+		"BountyXP"					"33"		// Experience earn.
+		"BountyGoldMin"				"18"		// Gold earned min.
+		"BountyGoldMax"				"23"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"330"		// Speed.
@@ -4612,9 +4612,9 @@
 		"RingRadius"				"60"
 		"HealthBarOffset"			"170"
 
-		"BountyXP"					"41"		// Experience earn.
-		"BountyGoldMin"				"20"		// Gold earned min.
-		"BountyGoldMax"				"24"		// Gold earned max.
+		"BountyXP"					"33"		// Experience earn.
+		"BountyGoldMin"				"16"		// Gold earned min.
+		"BountyGoldMax"				"19"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"350"		// Speed.
@@ -4662,9 +4662,9 @@
 		"RingRadius"				"80"
 		"HealthBarOffset"			"220"
 
-		"BountyXP"					"119"		// Experience earn.
-		"BountyGoldMin"				"66"		// Gold earned min.
-		"BountyGoldMax"				"78"		// Gold earned max.
+		"BountyXP"					"95"		// Experience earn.
+		"BountyGoldMin"				"53"		// Gold earned min.
+		"BountyGoldMax"				"62"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"320"		// Speed.
@@ -4712,9 +4712,9 @@
 		"RingRadius"				"35"
 		"HealthBarOffset"			"175"
 
-		"BountyXP"					"41"		// Experience earn.
-		"BountyGoldMin"				"20"		// Gold earned min.
-		"BountyGoldMax"				"23"		// Gold earned max.
+		"BountyXP"					"33"		// Experience earn.
+		"BountyGoldMin"				"16"		// Gold earned min.
+		"BountyGoldMax"				"18"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"350"		// Speed.
@@ -4762,9 +4762,9 @@
 		"RingRadius"				"50"
 		"HealthBarOffset"			"180"
 
-		"BountyXP"					"88"		// Experience earn.
-		"BountyGoldMin"				"45"		// Gold earned min.
-		"BountyGoldMax"				"55"		// Gold earned max.
+		"BountyXP"					"70"		// Experience earn.
+		"BountyGoldMin"				"36"		// Gold earned min.
+		"BountyGoldMax"				"44"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"320"		// Speed.
@@ -4812,9 +4812,9 @@
 		"RingRadius"				"70"
 		"HealthBarOffset"			"215"
 
-		"BountyXP"					"119"		// Experience earn.
-		"BountyGoldMin"				"76"		// Gold earned min.
-		"BountyGoldMax"				"88"		// Gold earned max.
+		"BountyXP"					"95"		// Experience earn.
+		"BountyGoldMin"				"61"		// Gold earned min.
+		"BountyGoldMax"				"70"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"320"		// Speed.
@@ -4863,9 +4863,9 @@
 		"RingRadius"				"60"
 		"HealthBarOffset"			"190"
 
-		"BountyXP"					"42"		// Experience earn.
-		"BountyGoldMin"				"30"		// Gold earned min.
-		"BountyGoldMax"				"34"		// Gold earned max.
+		"BountyXP"					"34"		// Experience earn.
+		"BountyGoldMin"				"24"		// Gold earned min.
+		"BountyGoldMax"				"27"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"310"		// Speed.
@@ -4914,9 +4914,9 @@
 		"RingRadius"				"60"
 		"HealthBarOffset"			"190"
 
-		"BountyXP"					"23"		// Experience earn.
-		"BountyGoldMin"				"10"		// Gold earned min.
-		"BountyGoldMax"				"16"		// Gold earned max.
+		"BountyXP"					"18"		// Experience earn.
+		"BountyGoldMin"				"8"		// Gold earned min.
+		"BountyGoldMax"				"13"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"310"		// Speed.
@@ -4966,9 +4966,9 @@
 		"RingRadius"				"60"
 		"HealthBarOffset"			"190"
 
-		"BountyXP"					"23"		// Experience earn.
-		"BountyGoldMin"				"10"		// Gold earned min.
-		"BountyGoldMax"				"16"		// Gold earned max.
+		"BountyXP"					"18"		// Experience earn.
+		"BountyGoldMin"				"8"		// Gold earned min.
+		"BountyGoldMax"				"13"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"310"		// Speed.
@@ -5016,9 +5016,9 @@
 		"RingRadius"				"60"
 		"HealthBarOffset"			"190"
 
-		"BountyXP"					"41"		// Experience earn.
-		"BountyGoldMin"				"23"		// Gold earned min.
-		"BountyGoldMax"				"47"		// Gold earned max.
+		"BountyXP"					"33"		// Experience earn.
+		"BountyGoldMin"				"18"		// Gold earned min.
+		"BountyGoldMax"				"38"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"270"		// Speed.
@@ -5066,9 +5066,9 @@
 		"RingRadius"				"60"
 		"HealthBarOffset"			"210"
 
-		"BountyXP"					"62"		// Experience earn.
-		"BountyGoldMin"				"35"		// Gold earned min.
-		"BountyGoldMax"				"45"		// Gold earned max.
+		"BountyXP"					"50"		// Experience earn.
+		"BountyGoldMin"				"28"		// Gold earned min.
+		"BountyGoldMax"				"36"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"270"		// Speed.
@@ -5096,7 +5096,7 @@
 		"ModelScale" 					".90"
 		"IsNeutralUnitType"			"1"
 
-		"Ability1"					"giant_wolf_critical_strike"			// Ability 1
+		"Ability1"					""			// Ability 1
 		"Ability2"					""			// Ability 2
 		"Ability3"					""			// Ability 3
 		"Ability4"					""			// Ability 4
@@ -5104,8 +5104,8 @@
 		"ArmorPhysical"				"1"			// Physical protection.
 
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"21"		// Damage range min.
-		"AttackDamageMax"			"24"		// Damage range max.	
+		"AttackDamageMin"			"29"		// Damage range min.
+		"AttackDamageMax"			"33"		// Damage range max.	
 		"AttackRate"				"1.45"		// Speed of attack.
 		"AttackAnimationPoint"		"0.33"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"500"		// Range within a target can be acquired.
@@ -5116,9 +5116,9 @@
 		"RingRadius"				"45"
 		"HealthBarOffset"			"130"
 
-		"BountyXP"					"62"		// Experience earn.
-		"BountyGoldMin"				"22"		// Gold earned min.
-		"BountyGoldMax"				"26"		// Gold earned max.
+		"BountyXP"					"50"		// Experience earn.
+		"BountyGoldMin"				"18"		// Gold earned min.
+		"BountyGoldMax"				"21"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"350"		// Speed.
@@ -5166,9 +5166,9 @@
 		"RingRadius"				"70"
 		"HealthBarOffset"			"160"
 
-		"BountyXP"					"88"		// Experience earn.
-		"BountyGoldMin"				"37"		// Gold earned min.
-		"BountyGoldMax"				"45"		// Gold earned max.
+		"BountyXP"					"70"		// Experience earn.
+		"BountyGoldMin"				"30"		// Gold earned min.
+		"BountyGoldMax"				"36"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"350"		// Speed.
@@ -5216,9 +5216,9 @@
 		"RingRadius"				"50"
 		"HealthBarOffset"			"170"
 
-		"BountyXP"					"25"		// Experience earn.
-		"BountyGoldMin"				"15"		// Gold earned min.
-		"BountyGoldMax"				"20"		// Gold earned max.
+		"BountyXP"					"20"		// Experience earn.
+		"BountyGoldMin"				"12"		// Gold earned min.
+		"BountyGoldMax"				"16"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"300"		// Speed.
@@ -5266,9 +5266,9 @@
 		"RingRadius"				"50"
 		"HealthBarOffset"			"220"
 
-		"BountyXP"					"119"		// Experience earn.
-		"BountyGoldMin"				"67"		// Gold earned min.
-		"BountyGoldMax"				"87"		// Gold earned max.
+		"BountyXP"					"95"		// Experience earn.
+		"BountyGoldMin"				"54"		// Gold earned min.
+		"BountyGoldMax"				"70"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"320"		// Speed.
@@ -5316,9 +5316,9 @@
 		"RingRadius"				"50"
 		"HealthBarOffset"			"190"
 
-		"BountyXP"					"62"		// Experience earn.
-		"BountyGoldMin"				"27"		// Gold earned min.
-		"BountyGoldMax"				"33"		// Gold earned max.
+		"BountyXP"					"50"		// Experience earn.
+		"BountyGoldMin"				"22"		// Gold earned min.
+		"BountyGoldMax"				"26"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"270"		// Speed.
@@ -5366,9 +5366,9 @@
 		"RingRadius"				"60"
 		"HealthBarOffset"			"210"
 
-		"BountyXP"					"119"		// Experience earn.
-		"BountyGoldMin"				"77"		// Gold earned min.
-		"BountyGoldMax"				"91"		// Gold earned max.
+		"BountyXP"					"95"		// Experience earn.
+		"BountyGoldMin"				"62"		// Gold earned min.
+		"BountyGoldMax"				"73"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"290"		// Speed.
@@ -5418,9 +5418,9 @@
 		"RingRadius"				"50"
 		"HealthBarOffset"			"220"
 
-		"BountyXP"					"119"		// Experience earn.
-		"BountyGoldMin"				"52"		// Gold earned min.
-		"BountyGoldMax"				"70"		// Gold earned max.
+		"BountyXP"					"95"		// Experience earn.
+		"BountyGoldMin"				"42"		// Gold earned min.
+		"BountyGoldMax"				"56"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"320"		// Speed.
@@ -5470,9 +5470,9 @@
 		"RingRadius"				"60"
 		"HealthBarOffset"			"220"
 
-		"BountyXP"					"155"		// Experience earn.
-		"BountyGoldMin"				"152"		// Gold earned min.
-		"BountyGoldMax"				"170"		// Gold earned max.
+		"BountyXP"					"124"		// Experience earn.
+		"BountyGoldMin"				"122"		// Gold earned min.
+		"BountyGoldMax"				"136"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"320"		// Speed.
@@ -5521,9 +5521,9 @@
 		"RingRadius"				"70"
 		"HealthBarOffset"			"200"
 
-		"BountyXP"					"62"		// Experience earn.
-		"BountyGoldMin"				"74"		// Gold earned min.
-		"BountyGoldMax"				"82"		// Gold earned max.
+		"BountyXP"					"50"		// Experience earn.
+		"BountyGoldMin"				"59"		// Gold earned min.
+		"BountyGoldMax"				"66"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"270"		// Speed.
@@ -5572,9 +5572,9 @@
 		"RingRadius"				"80"
 		"HealthBarOffset"			"220"
 
-		"BountyXP"					"119"		// Experience earn.
-		"BountyGoldMin"				"86"		// Gold earned min.
-		"BountyGoldMax"				"98"		// Gold earned max.
+		"BountyXP"					"95"		// Experience earn.
+		"BountyGoldMin"				"69"		// Gold earned min.
+		"BountyGoldMax"				"78"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"300"		// Speed.
@@ -5624,9 +5624,9 @@
 		"RingRadius"				"60"
 		"HealthBarOffset"			"220"
 
-		"BountyXP"					"119"		// Experience earn.
-		"BountyGoldMin"				"54"		// Gold earned min.
-		"BountyGoldMax"				"62"		// Gold earned max.
+		"BountyXP"					"95"		// Experience earn.
+		"BountyGoldMin"				"43"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"270"		// Speed.
@@ -5676,9 +5676,9 @@
 		"RingRadius"				"60"
 		"HealthBarOffset"			"220"
 
-		"BountyXP"					"155"		// Experience earn.
-		"BountyGoldMin"				"107"		// Gold earned min.
-		"BountyGoldMax"				"121"		// Gold earned max.
+		"BountyXP"					"124"		// Experience earn.
+		"BountyGoldMin"				"86"		// Gold earned min.
+		"BountyGoldMax"				"97"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"270"		// Speed.
@@ -5728,9 +5728,9 @@
 		"RingRadius"				"90"
 		"HealthBarOffset"			"240"
 
-		"BountyXP"					"155"		// Experience earn.
-		"BountyGoldMin"				"89"		// Gold earned min.
-		"BountyGoldMax"				"97"		// Gold earned max.
+		"BountyXP"					"124"		// Experience earn.
+		"BountyGoldMin"				"71"		// Gold earned min.
+		"BountyGoldMax"				"78"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"270"		// Speed.
@@ -5780,9 +5780,9 @@
 		"RingRadius"				"70"
 		"HealthBarOffset"			"220"
 
-		"BountyXP"					"119"		// Experience earn.
-		"BountyGoldMin"				"60"		// Gold earned min.
-		"BountyGoldMax"				"70"		// Gold earned max.
+		"BountyXP"					"95"		// Experience earn.
+		"BountyGoldMin"				"48"		// Gold earned min.
+		"BountyGoldMax"				"56"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"270"		// Speed.
@@ -5830,9 +5830,9 @@
 		"RingRadius"				"40"
 		"HealthBarOffset"			"170"
 
-		"BountyXP"					"41"		// Experience earn.
-		"BountyGoldMin"				"21"		// Gold earned min.
-		"BountyGoldMax"				"29"		// Gold earned max.
+		"BountyXP"					"33"		// Experience earn.
+		"BountyGoldMin"				"17"		// Gold earned min.
+		"BountyGoldMax"				"23"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"270"		// Speed.			
@@ -5880,9 +5880,9 @@
 		"RingRadius"				"45"
 		"HealthBarOffset"			"190"
 
-		"BountyXP"					"62"		// Experience earn.
-		"BountyGoldMin"				"30"		// Gold earned min.
-		"BountyGoldMax"				"40"		// Gold earned max.
+		"BountyXP"					"50"		// Experience earn.
+		"BountyGoldMin"				"24"		// Gold earned min.
+		"BountyGoldMax"				"32"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"320"		// Speed.			
@@ -5980,9 +5980,9 @@
 		"RingRadius"				"60"
 		"HealthBarOffset"			"190"
 
-		"BountyXP"					"62"		// Experience earn.
-		"BountyGoldMin"				"26"		// Gold earned min.
-		"BountyGoldMax"				"33"		// Gold earned max.
+		"BountyXP"					"50"		// Experience earn.
+		"BountyGoldMin"				"21"		// Gold earned min.
+		"BountyGoldMax"				"26"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"270"		// Speed.			
@@ -6030,9 +6030,9 @@
 		"RingRadius"				"60"
 		"HealthBarOffset"			"190"
 
-		"BountyXP"					"119"		// Experience earn.
-		"BountyGoldMin"				"54"		// Gold earned min.
-		"BountyGoldMax"				"62"		// Gold earned max.
+		"BountyXP"					"95"		// Experience earn.
+		"BountyGoldMin"				"43"		// Gold earned min.
+		"BountyGoldMax"				"50"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"320"		// Speed.			
@@ -6080,9 +6080,9 @@
 		"RingRadius"				"50"
 		"HealthBarOffset"			"170"
 
-		"BountyXP"					"41"		// Experience earn.
-		"BountyGoldMin"				"15"		// Gold earned min.
-		"BountyGoldMax"				"17"		// Gold earned max.
+		"BountyXP"					"33"		// Experience earn.
+		"BountyGoldMin"				"12"		// Gold earned min.
+		"BountyGoldMax"				"14"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"330"		// Speed.			
@@ -6130,9 +6130,9 @@
 		"RingRadius"				"50"
 		"HealthBarOffset"			"160"
 
-		"BountyXP"					"41"		// Experience earn.
-		"BountyGoldMin"				"22"		// Gold earned min.
-		"BountyGoldMax"				"26"		// Gold earned max.
+		"BountyXP"					"33"		// Experience earn.
+		"BountyGoldMin"				"18"		// Gold earned min.
+		"BountyGoldMax"				"21"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"270"		// Speed.			
@@ -6180,9 +6180,9 @@
 		"RingRadius"				"50"
 		"HealthBarOffset"			"170"
 
-		"BountyXP"					"41"		// Experience earn.
-		"BountyGoldMin"				"21"		// Gold earned min.
-		"BountyGoldMax"				"25"		// Gold earned max.
+		"BountyXP"					"31"		// Experience earn.
+		"BountyGoldMin"				"17"		// Gold earned min.
+		"BountyGoldMax"				"20"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"290"		// Speed.			
@@ -6230,9 +6230,9 @@
 		"RingRadius"				"50"
 		"HealthBarOffset"			"180"
 
-		"BountyXP"					"41"		// Experience earn.
-		"BountyGoldMin"				"24"		// Gold earned min.
-		"BountyGoldMax"				"27"		// Gold earned max.
+		"BountyXP"					"33"		// Experience earn.
+		"BountyGoldMin"				"19"		// Gold earned min.
+		"BountyGoldMax"				"22"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"280"		// Speed.			
@@ -6280,9 +6280,9 @@
 		"RingRadius"				"50"
 		"HealthBarOffset"			"190"
 
-		"BountyXP"					"62"		// Experience earn.
-		"BountyGoldMin"				"33"		// Gold earned min.
-		"BountyGoldMax"				"37"		// Gold earned max.
+		"BountyXP"					"50"		// Experience earn.
+		"BountyGoldMin"				"26"		// Gold earned min.
+		"BountyGoldMax"				"30"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"310"		// Speed.			
@@ -6331,9 +6331,9 @@
 		"RingRadius"				"70"
 		"HealthBarOffset"			"300"
 
-		"BountyXP"					"62"		// Experience earn.
-		"BountyGoldMin"				"35"		// Gold earned min.
-		"BountyGoldMax"				"45"		// Gold earned max.
+		"BountyXP"					"50"		// Experience earn.
+		"BountyGoldMin"				"28"		// Gold earned min.
+		"BountyGoldMax"				"36"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"350"		// Speed.			
@@ -6382,9 +6382,9 @@
 		"RingRadius"				"70"
 		"HealthBarOffset"			"300"
 
-		"BountyXP"					"155"		// Experience earn.
-		"BountyGoldMin"				"150"		// Gold earned min.
-		"BountyGoldMax"				"190"		// Gold earned max.
+		"BountyXP"					"124"		// Experience earn.
+		"BountyGoldMin"				"120"		// Gold earned min.
+		"BountyGoldMax"				"152"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"
 		"MovementSpeed"				"300"		// Speed.			
@@ -7072,8 +7072,8 @@
 		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
 		"AttackRate"				"1.5"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"600"		// Range within a target can be acquired.
-		"AttackRange"				"600"		// Range within a target can be attacked.
+		"AttackAcquisitionRange"	"650"		// Range within a target can be acquired.
+		"AttackRange"				"650"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/units/heroes/hero_shadowshaman/shadow_shaman_ward_base_attack.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"900"		// Speed of projectile.
 
@@ -7129,8 +7129,8 @@
 		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
 		"AttackRate"				"1.5"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"600"		// Range within a target can be acquired.
-		"AttackRange"				"600"		// Range within a target can be attacked.
+		"AttackAcquisitionRange"	"650"		// Range within a target can be acquired.
+		"AttackRange"				"650"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/units/heroes/hero_shadowshaman/shadow_shaman_ward_base_attack.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"900"		// Speed of projectile.
 
@@ -7186,8 +7186,8 @@
 		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
 		"AttackRate"				"1.5"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
-		"AttackAcquisitionRange"	"600"		// Range within a target can be acquired.
-		"AttackRange"				"600"		// Range within a target can be attacked.
+		"AttackAcquisitionRange"	"650"		// Range within a target can be acquired.
+		"AttackRange"				"650"		// Range within a target can be attacked.
 		"ProjectileModel"			"particles/units/heroes/hero_shadowshaman/shadow_shaman_ward_base_attack.vpcf" // Particle system model for projectile.
 		"ProjectileSpeed"			"900"		// Speed of projectile.
 
@@ -11551,8 +11551,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 	
@@ -11618,8 +11618,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 	
@@ -11685,8 +11685,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 
@@ -11752,8 +11752,8 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_DEFAULT"
 		
-		"VisionDaytimeRange"		"850"		// Range of vision during day light.
-		"VisionNighttimeRange"		"800"		// Range of vision at night time.
+		"VisionDaytimeRange"		"750"		// Range of vision during day light.
+		"VisionNighttimeRange"		"750"		// Range of vision at night time.
 		
 	}	
 

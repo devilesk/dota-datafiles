@@ -370,7 +370,7 @@
   "attributebasestrength": 23,
   "attributeintelligencegain": 2,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.3,
+  "attributestrengthgain": 2.6,
   "displayname": "Abaddon",
   "items": [],
   "level": 0,
@@ -381,8 +381,8 @@
   "projectilespeed": 900,
   "role": "Support,Carry,Durable",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -955,6 +955,12 @@
       "value": [
        0.0
       ]
+     },
+     {
+      "name": "building_damage",
+      "value": [
+       33.0
+      ]
      }
     ],
     "behavior": [
@@ -1104,9 +1110,9 @@
       "name": "damage_reduction_pct",
       "tooltip": "%DAMAGE REDUCTION:",
       "value": [
-       4,
-       16,
-       28,
+       7,
+       18,
+       29,
        40
       ]
      },
@@ -1135,6 +1141,15 @@
        40,
        50,
        60
+      ]
+     },
+     {
+      "name": "bonus_damage_duration_scepter",
+      "value": [
+       70,
+       80,
+       90,
+       100
       ]
      }
     ],
@@ -1295,7 +1310,7 @@
   "attributebasestrength": 25,
   "attributeintelligencegain": 2.6,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.6,
+  "attributestrengthgain": 2.9,
   "displayname": "Underlord",
   "items": [],
   "level": 0,
@@ -1306,8 +1321,8 @@
   "projectilespeed": 900,
   "role": "Support,Nuker,Disabler,Durable,Escape",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -1953,7 +1968,7 @@
       "name": "radius",
       "tooltip": "EXPLOSION RADIUS:",
       "value": [
-       175
+       200
       ]
      }
     ],
@@ -1962,6 +1977,9 @@
      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
     ],
     "cooldown": [
+     22,
+     20,
+     18,
      16
     ],
     "damage": [
@@ -2014,27 +2032,24 @@
       "name": "bonus_gold",
       "tooltip": "BASE BONUS GOLD:",
       "value": [
-       6,
-       8,
-       10,
-       12
+       4
       ]
      },
      {
       "name": "bonus_bonus_gold",
       "tooltip": "EXTRA BONUS GOLD:",
       "value": [
-       3
+       4
       ]
      },
      {
       "name": "bonus_gold_cap",
       "tooltip": "MAX BONUS GOLD PER KILL:",
       "value": [
-       12,
+       16,
        20,
-       28,
-       36
+       24,
+       28
       ]
      },
      {
@@ -2241,7 +2256,7 @@
      {
       "name": "midair_explosion_radius",
       "value": [
-       175
+       200
       ]
      },
      {
@@ -2293,7 +2308,7 @@
   "attributebasestrength": 25,
   "attributeintelligencegain": 1.8,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 1.8,
+  "attributestrengthgain": 2.1,
   "displayname": "Alchemist",
   "items": [],
   "level": 0,
@@ -2304,8 +2319,8 @@
   "projectilespeed": 900,
   "role": "Carry,Support,Durable,Disabler,Initiator,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -3265,7 +3280,7 @@
   "attackdamagemax": 29,
   "attackdamagemin": 19,
   "attackpoint": 0.45,
-  "attackrange": 600,
+  "attackrange": 675,
   "attackrate": 1.7,
   "attacktype": "DOTA_UNIT_CAP_RANGED_ATTACK",
   "attributeagilitygain": 2.2,
@@ -3274,7 +3289,7 @@
   "attributebasestrength": 18,
   "attributeintelligencegain": 2.6,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.4,
+  "attributestrengthgain": 1.7,
   "displayname": "Ancient Apparition",
   "items": [],
   "level": 0,
@@ -3285,8 +3300,8 @@
   "projectilespeed": 1250,
   "role": "Support,Disabler,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -3549,13 +3564,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6077,
+     "ID": 5976,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        35
+        400
        ]
       }
      ],
@@ -3574,7 +3589,7 @@
       0,
       0
      ],
-     "displayname": "+35 Movement Speed",
+     "displayname": "+400 Health",
      "level": 0,
      "manacost": [
       0,
@@ -3582,7 +3597,7 @@
       0,
       0
      ],
-     "name": "special_bonus_movement_speed_35"
+     "name": "special_bonus_hp_400"
     },
     {
      "AbilityCastPoint": [
@@ -3607,13 +3622,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6038,
+     "ID": 6534,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        35
+        -8
        ]
       }
      ],
@@ -3632,7 +3647,7 @@
       0,
       0
      ],
-     "displayname": "-35s Respawn Time",
+     "displayname": "+8% Ice Vortex Slow/Resistance",
      "level": 0,
      "manacost": [
       0,
@@ -3640,7 +3655,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_35"
+     "name": "special_bonus_unique_ancient_apparition_4"
     }
    ],
    [
@@ -4069,7 +4084,7 @@
   "attributebasestrength": 22,
   "attributeintelligencegain": 1.8,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.2,
+  "attributestrengthgain": 1.5,
   "displayname": "Anti-Mage",
   "items": [],
   "level": 0,
@@ -4080,8 +4095,8 @@
   "projectilespeed": 0,
   "role": "Carry,Escape,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -4936,7 +4951,7 @@
   "attributebasestrength": 24,
   "attributeintelligencegain": 2.6,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2.7,
+  "attributestrengthgain": 3,
   "displayname": "Arc Warden",
   "items": [],
   "level": 0,
@@ -4947,8 +4962,8 @@
   "projectilespeed": 900,
   "role": "Carry,Escape,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -5564,6 +5579,13 @@
        32,
        40
       ]
+     },
+     {
+      "name": "damage_reduction_scepter",
+      "tooltip": "%SCEPTER DAMAGE REDUCTION:",
+      "value": [
+       30
+      ]
      }
     ],
     "behavior": [
@@ -5735,28 +5757,9 @@
       ]
      },
      {
-      "name": "cooldown_scepter",
-      "tooltip": "SCEPTER COOLDOWN:",
+      "name": "scepter_aoe",
       "value": [
-       6,
-       6,
-       6
-      ]
-     },
-     {
-      "name": "kill_threshold_scepter",
-      "tooltip": "SCEPTER KILL THRESHOLD:",
-      "value": [
-       300,
-       425,
-       550
-      ]
-     },
-     {
-      "name": "speed_duration_scepter",
-      "tooltip": "SCEPTER SPEED DURATION:",
-      "value": [
-       10.0
+       700
       ]
      }
     ],
@@ -5798,7 +5801,7 @@
   "attributebasestrength": 25,
   "attributeintelligencegain": 1.6,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.5,
+  "attributestrengthgain": 2.8,
   "displayname": "Axe",
   "items": [],
   "level": 0,
@@ -5809,8 +5812,8 @@
   "projectilespeed": 900,
   "role": "Initiator,Durable,Disabler,Jungler",
   "statushealth": 200,
-  "statushealthregen": 3,
-  "statusmana": 50,
+  "statushealthregen": 2.75,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -6400,6 +6403,13 @@
        230,
        300
       ]
+     },
+     {
+      "name": "cooldown_scepter",
+      "tooltip": "SCEPTER COOLDOWN:",
+      "value": [
+       1.5
+      ]
      }
     ],
     "behavior": [
@@ -6552,7 +6562,7 @@
      {
       "name": "fiend_grip_tick_interval",
       "value": [
-       1.0
+       0.5
       ]
      },
      {
@@ -6578,29 +6588,6 @@
        100,
        155,
        215
-      ]
-     },
-     {
-      "name": "fiend_grip_mana_drain_scepter",
-      "tooltip": "%SCEPTER MANA DRAIN:",
-      "value": [
-       10
-      ]
-     },
-     {
-      "name": "fiend_grip_duration_scepter",
-      "tooltip": "SCEPTER DURATION:",
-      "value": [
-       7.0
-      ]
-     },
-     {
-      "name": "fiend_grip_damage_scepter",
-      "tooltip": "SCEPTER DAMAGE:",
-      "value": [
-       155,
-       215,
-       270
       ]
      }
     ],
@@ -6691,13 +6678,13 @@
   "attackrange": 400,
   "attackrate": 1.7,
   "attacktype": "DOTA_UNIT_CAP_RANGED_ATTACK",
-  "attributeagilitygain": 2.1,
+  "attributeagilitygain": 2.4,
   "attributebaseagility": 22,
   "attributebaseintelligence": 22,
   "attributebasestrength": 22,
-  "attributeintelligencegain": 2.1,
+  "attributeintelligencegain": 2.4,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 2.1,
+  "attributestrengthgain": 2.4,
   "displayname": "Bane",
   "items": [],
   "level": 0,
@@ -6708,8 +6695,8 @@
   "projectilespeed": 900,
   "role": "Support,Disabler,Nuker,Durable",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -7658,7 +7645,7 @@
   "attributebasestrength": 23,
   "attributeintelligencegain": 2.5,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 2.4,
+  "attributestrengthgain": 2.7,
   "displayname": "Batrider",
   "items": [],
   "level": 0,
@@ -7669,8 +7656,8 @@
   "projectilespeed": 900,
   "role": "Initiator,Jungler,Disabler,Escape",
   "statushealth": 200,
-  "statushealthregen": 2,
-  "statusmana": 50,
+  "statushealthregen": 1.75,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -8157,7 +8144,7 @@
   "abilities": [
    {
     "AbilityCastPoint": 0.4,
-    "AbilityCastRange": 1300,
+    "AbilityCastRange": 1500,
     "AbilityCastRangeBuffer": 250,
     "AbilityChannelTime": [
      0,
@@ -8197,10 +8184,7 @@
       "name": "range",
       "tooltip": "RANGE:",
       "value": [
-       1300,
-       1300,
-       1300,
-       1300
+       1500
       ]
      },
      {
@@ -8229,6 +8213,9 @@
     "displayname": "Wild Axes",
     "level": 0,
     "manacost": [
+     105,
+     110,
+     115,
      120
     ],
     "name": "beastmaster_wild_axes"
@@ -8672,7 +8659,7 @@
   "attributebasestrength": 23,
   "attributeintelligencegain": 1.9,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.2,
+  "attributestrengthgain": 2.5,
   "displayname": "Beastmaster",
   "items": [],
   "level": 0,
@@ -8683,8 +8670,8 @@
   "projectilespeed": 0,
   "role": "Initiator,Disabler,Durable,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -8887,13 +8874,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6038,
+     "ID": 6517,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        35
+        1
        ]
       }
      ],
@@ -8912,7 +8899,7 @@
       0,
       0
      ],
-     "displayname": "-35s Respawn Time",
+     "displayname": "+1 Boar Summoned",
      "level": 0,
      "manacost": [
       0,
@@ -8920,7 +8907,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_35"
+     "name": "special_bonus_unique_beastmaster_2"
     }
    ],
    [
@@ -9254,7 +9241,7 @@
     "name": "bloodseeker_bloodrage"
    },
    {
-    "AbilityCastPoint": 0.4,
+    "AbilityCastPoint": 0.3,
     "AbilityCastRange": 1500,
     "AbilityCastRangeBuffer": 250,
     "AbilityChannelTime": [
@@ -9321,10 +9308,10 @@
      "DOTA_ABILITY_BEHAVIOR_POINT"
     ],
     "cooldown": [
-     25,
-     21,
-     17,
-     13
+     18,
+     16,
+     14,
+     12
     ],
     "damage": [
      0,
@@ -9547,7 +9534,7 @@
   "attributebasestrength": 23,
   "attributeintelligencegain": 1.7,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2.4,
+  "attributestrengthgain": 2.7,
   "displayname": "Bloodseeker",
   "items": [],
   "level": 0,
@@ -9558,8 +9545,8 @@
   "projectilespeed": 900,
   "role": "Carry,Disabler,Jungler,Nuker,Initiator",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -9965,7 +9952,7 @@
       0,
       0
      ],
-     "displayname": "-7s Bloodrite Cooldown",
+     "displayname": "-7s Blood Rite Cooldown",
      "level": 0,
      "manacost": [
       0,
@@ -10437,7 +10424,7 @@
   "attributebasestrength": 17,
   "attributeintelligencegain": 2,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.8,
+  "attributestrengthgain": 2.1,
   "displayname": "Bounty Hunter",
   "items": [],
   "level": 0,
@@ -10448,8 +10435,8 @@
   "projectilespeed": 900,
   "role": "Escape,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.75,
-  "statusmana": 50,
+  "statushealthregen": 0.5,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -11042,7 +11029,7 @@
     "name": "brewmaster_thunder_clap"
    },
    {
-    "AbilityCastPoint": 0.3,
+    "AbilityCastPoint": 0.2,
     "AbilityCastRange": [
      850,
      850,
@@ -11072,7 +11059,7 @@
       "name": "duration",
       "tooltip": "DURATION:",
       "value": [
-       4.0
+       4.5
       ]
      },
      {
@@ -11165,7 +11152,7 @@
       "name": "crit_multiplier",
       "tooltip": "%CRIT DAMAGE:",
       "value": [
-       200
+       230
       ]
      },
      {
@@ -11279,7 +11266,7 @@
   "attributebasestrength": 23,
   "attributeintelligencegain": 1.25,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.9,
+  "attributestrengthgain": 3.2,
   "displayname": "Brewmaster",
   "items": [],
   "level": 0,
@@ -11290,8 +11277,8 @@
   "projectilespeed": 900,
   "role": "Carry,Initiator,Durable,Disabler,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.75,
-  "statusmana": 50,
+  "statushealthregen": 0.5,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -11554,13 +11541,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6066,
+     "ID": 6516,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        40
+        2
        ]
       }
      ],
@@ -11579,7 +11566,7 @@
       0,
       0
      ],
-     "displayname": "-40s Respawn Time",
+     "displayname": "+2s Thunderlap Slow",
      "level": 0,
      "manacost": [
       0,
@@ -11587,7 +11574,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_40"
+     "name": "special_bonus_unique_brewmaster_3"
     },
     {
      "AbilityCastPoint": [
@@ -12191,7 +12178,7 @@
   "attributebasestrength": 22,
   "attributeintelligencegain": 2.8,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.2,
+  "attributestrengthgain": 2.5,
   "displayname": "Bristleback",
   "items": [],
   "level": 0,
@@ -12202,8 +12189,8 @@
   "projectilespeed": 900,
   "role": "Carry,Durable,Initiator,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -12524,13 +12511,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6066,
+     "ID": 6564,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        40
+        10
        ]
       }
      ],
@@ -12549,7 +12536,7 @@
       0,
       0
      ],
-     "displayname": "-40s Respawn Time",
+     "displayname": "10% Spell Lifesteal",
      "level": 0,
      "manacost": [
       0,
@@ -12557,7 +12544,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_40"
+     "name": "special_bonus_spell_lifesteal_10"
     }
    ],
    [
@@ -13076,7 +13063,7 @@
   "attributebasestrength": 17,
   "attributeintelligencegain": 2,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2.5,
+  "attributestrengthgain": 2.8,
   "displayname": "Broodmother",
   "items": [],
   "level": 0,
@@ -13087,8 +13074,8 @@
   "projectilespeed": 900,
   "role": "Carry,Pusher,Escape,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -13931,7 +13918,7 @@
   "attributebasestrength": 23,
   "attributeintelligencegain": 1.6,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 4,
+  "attributestrengthgain": 4.3,
   "displayname": "Centaur Warrunner",
   "items": [],
   "level": 0,
@@ -13942,8 +13929,8 @@
   "projectilespeed": 900,
   "role": "Durable,Initiator,Disabler,Nuker,Escape",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -14529,12 +14516,7 @@
     "name": "chaos_knight_chaos_bolt"
    },
    {
-    "AbilityCastPoint": [
-     0.4,
-     0.4,
-     0.4,
-     0.4
-    ],
+    "AbilityCastPoint": 0.3,
     "AbilityCastRange": [
      550,
      600,
@@ -14593,9 +14575,9 @@
      "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
     ],
     "cooldown": [
-     24,
      18,
-     12,
+     14,
+     10,
      6
     ],
     "damage": [
@@ -14658,7 +14640,7 @@
       "name": "lifesteal",
       "tooltip": "%CRITICAL LIFESTEAL:",
       "value": [
-       65
+       75
       ]
      }
     ],
@@ -14755,14 +14737,14 @@
      {
       "name": "incoming_damage",
       "value": [
-       100
+       160
       ]
      },
      {
       "name": "incoming_damage_tooltip",
       "tooltip": "%PHANTASM DAMAGE TAKEN:",
       "value": [
-       200
+       260
       ]
      },
      {
@@ -14821,7 +14803,7 @@
   "attributebasestrength": 20,
   "attributeintelligencegain": 1.2,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.9,
+  "attributestrengthgain": 3.2,
   "displayname": "Chaos Knight",
   "items": [],
   "level": 0,
@@ -14832,8 +14814,8 @@
   "projectilespeed": 900,
   "role": "Carry,Disabler,Durable,Pusher,Initiator",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -15605,10 +15587,7 @@
      "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
     ],
     "cooldown": [
-     30,
-     26,
-     22,
-     18
+     10
     ],
     "damage": [
      0,
@@ -15709,7 +15688,7 @@
   "attributebasestrength": 23,
   "attributeintelligencegain": 2.8,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.5,
+  "attributestrengthgain": 1.8,
   "displayname": "Chen",
   "items": [],
   "level": 0,
@@ -15720,8 +15699,8 @@
   "projectilespeed": 1100,
   "role": "Support,Jungler,Pusher",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -16042,13 +16021,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6375,
+     "ID": 6535,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        45
+        1000
        ]
       }
      ],
@@ -16067,7 +16046,7 @@
       0,
       0
      ],
-     "displayname": "-45s Respawn Time",
+     "displayname": "+1000 Creep Health",
      "level": 0,
      "manacost": [
       0,
@@ -16075,7 +16054,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_45"
+     "name": "special_bonus_unique_chen_4"
     }
    ],
    [
@@ -16452,7 +16431,7 @@
       "name": "duration",
       "tooltip": "DURATION:",
       "value": [
-       35.0
+       65.0
       ]
      },
      {
@@ -16479,9 +16458,7 @@
      "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
     ],
     "cooldown": [
-     45,
-     30,
-     15
+     85
     ],
     "damage": [
      0,
@@ -16513,7 +16490,7 @@
   "attributebasestrength": 15,
   "attributeintelligencegain": 1.55,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.6,
+  "attributestrengthgain": 1.9,
   "displayname": "Clinkz",
   "items": [],
   "level": 0,
@@ -16524,8 +16501,8 @@
   "projectilespeed": 900,
   "role": "Carry,Escape,Pusher",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -17383,6 +17360,8 @@
      "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
     ],
     "cooldown": [
+     110,
+     100,
      90
     ],
     "damage": [
@@ -17415,7 +17394,7 @@
   "attributebasestrength": 16,
   "attributeintelligencegain": 2.9,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.7,
+  "attributestrengthgain": 2,
   "displayname": "Crystal Maiden",
   "items": [],
   "level": 0,
@@ -17426,8 +17405,8 @@
   "projectilespeed": 900,
   "role": "Support,Disabler,Nuker,Jungler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -17748,13 +17727,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6038,
+     "ID": 6520,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        35
+        50
        ]
       }
      ],
@@ -17773,7 +17752,7 @@
       0,
       0
      ],
-     "displayname": "-35s Respawn Time",
+     "displayname": "+50 Freezing Field Damage",
      "level": 0,
      "manacost": [
       0,
@@ -17781,7 +17760,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_35"
+     "name": "special_bonus_unique_crystal_maiden_3"
     }
    ],
    [
@@ -18250,7 +18229,9 @@
       "name": "slow_duration",
       "tooltip": "SLOW DURATION:",
       "value": [
-       1.0
+       0.6,
+       0.8,
+       1
       ]
      }
     ],
@@ -18292,7 +18273,7 @@
   "attributebasestrength": 22,
   "attributeintelligencegain": 2.7,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 2.3,
+  "attributestrengthgain": 2.6,
   "displayname": "Dark Seer",
   "items": [],
   "level": 0,
@@ -18303,8 +18284,8 @@
   "projectilespeed": 900,
   "role": "Initiator,Jungler,Escape,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -18948,6 +18929,13 @@
        850,
        1000
       ]
+     },
+     {
+      "name": "scepter_radius",
+      "tooltip": "SCEPTER RADIUS:",
+      "value": [
+       450
+      ]
      }
     ],
     "behavior": [
@@ -19128,30 +19116,6 @@
       "value": [
        24.0
       ]
-     },
-     {
-      "name": "radius_scepter",
-      "tooltip": "SCEPTER RADIUS:",
-      "value": [
-       775,
-       775,
-       775
-      ]
-     },
-     {
-      "name": "duration_scepter",
-      "value": [
-       24
-      ]
-     },
-     {
-      "name": "armor_per_second_scepter",
-      "tooltip": "SCEPTER ARMOR PER SECOND:",
-      "value": [
-       1.25,
-       1.5,
-       1.75
-      ]
      }
     ],
     "behavior": [
@@ -19193,7 +19157,7 @@
   "attributebasestrength": 16,
   "attributeintelligencegain": 3.4,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.85,
+  "attributestrengthgain": 2.15,
   "displayname": "Dazzle",
   "items": [],
   "level": 0,
@@ -19204,8 +19168,8 @@
   "projectilespeed": 1200,
   "role": "Support,Nuker,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -19526,13 +19490,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5964,
+     "ID": 6528,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        30
+        25
        ]
       }
      ],
@@ -19551,7 +19515,7 @@
       0,
       0
      ],
-     "displayname": "-30s Respawn Time",
+     "displayname": "+25 Poison Touch DPS",
      "level": 0,
      "manacost": [
       0,
@@ -19559,7 +19523,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_30"
+     "name": "special_bonus_unique_dazzle_3"
     }
    ],
    [
@@ -20087,7 +20051,7 @@
   "attributebasestrength": 17,
   "attributeintelligencegain": 3,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 2.3,
+  "attributestrengthgain": 2.6,
   "displayname": "Death Prophet",
   "items": [],
   "level": 0,
@@ -20098,8 +20062,8 @@
   "projectilespeed": 1000,
   "role": "Carry,Pusher,Nuker,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.75,
-  "statusmana": 50,
+  "statushealthregen": 0.5,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -20953,7 +20917,7 @@
   "attributebasestrength": 19,
   "attributeintelligencegain": 2.5,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.9,
+  "attributestrengthgain": 2.2,
   "displayname": "Disruptor",
   "items": [],
   "level": 0,
@@ -20964,8 +20928,8 @@
   "projectilespeed": 1200,
   "role": "Support,Disabler,Nuker,Initiator",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -21168,13 +21132,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5964,
+     "ID": 6536,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        30
+        40
        ]
       }
      ],
@@ -21193,7 +21157,7 @@
       0,
       0
      ],
-     "displayname": "-30s Respawn Time",
+     "displayname": "+40 Thunder Strike Damage",
      "level": 0,
      "manacost": [
       0,
@@ -21201,7 +21165,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_30"
+     "name": "special_bonus_unique_disruptor_3"
     }
    ],
    [
@@ -21520,7 +21484,10 @@
     "displayname": "Devour",
     "level": 0,
     "manacost": [
-     60
+     40,
+     50,
+     60,
+     70
     ],
     "name": "doom_bringer_devour"
    },
@@ -21561,9 +21528,9 @@
       "name": "damage_per_second",
       "tooltip": "DAMAGE/REGEN:",
       "value": [
-       10,
-       20,
-       30,
+       16,
+       24,
+       32,
        40
       ]
      },
@@ -21911,7 +21878,7 @@
   "attributebasestrength": 26,
   "attributeintelligencegain": 2.1,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 3.2,
+  "attributestrengthgain": 3.5,
   "displayname": "Doom",
   "items": [],
   "level": 0,
@@ -21922,8 +21889,8 @@
   "projectilespeed": 900,
   "role": "Carry,Disabler,Initiator,Durable,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -22690,9 +22657,7 @@
       "name": "duration",
       "tooltip": "DURATION:",
       "value": [
-       60,
-       60,
-       60
+       60.0
       ]
      },
      {
@@ -22780,8 +22745,6 @@
      "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     ],
     "cooldown": [
-     115,
-     115,
      115
     ],
     "damage": [
@@ -22814,7 +22777,7 @@
   "attributebasestrength": 19,
   "attributeintelligencegain": 1.7,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.8,
+  "attributestrengthgain": 3.1,
   "displayname": "Dragon Knight",
   "items": [],
   "level": 0,
@@ -22825,8 +22788,8 @@
   "projectilespeed": 900,
   "role": "Carry,Pusher,Durable,Disabler,Initiator,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -23645,7 +23608,7 @@
   "attributebasestrength": 17,
   "attributeintelligencegain": 1.4,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.6,
+  "attributestrengthgain": 1.9,
   "displayname": "Drow Ranger",
   "items": [],
   "level": 0,
@@ -23656,8 +23619,8 @@
   "projectilespeed": 1250,
   "role": "Carry,Disabler,Pusher",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -24719,7 +24682,7 @@
   "attributebasestrength": 21,
   "attributeintelligencegain": 2.1,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.9,
+  "attributestrengthgain": 3.2,
   "displayname": "Earth Spirit",
   "items": [],
   "level": 0,
@@ -24730,8 +24693,8 @@
   "projectilespeed": 900,
   "role": "Nuker,Escape,Disabler,Initiator,Durable",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -25112,13 +25075,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6375,
+     "ID": 6514,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        45
+        0
        ]
       }
      ],
@@ -25137,7 +25100,7 @@
       0,
       0
      ],
-     "displayname": "-45s Respawn Time",
+     "displayname": "Geomagnetic Grip Targets Allies",
      "level": 0,
      "manacost": [
       0,
@@ -25145,7 +25108,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_45"
+     "name": "special_bonus_unique_earth_spirit_2"
     },
     {
      "AbilityCastPoint": [
@@ -25554,7 +25517,7 @@
   "attributebasestrength": 22,
   "attributeintelligencegain": 1.8,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.9,
+  "attributestrengthgain": 3.2,
   "displayname": "Earthshaker",
   "items": [],
   "level": 0,
@@ -25565,8 +25528,8 @@
   "projectilespeed": 0,
   "role": "Support,Initiator,Disabler,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.75,
-  "statusmana": 50,
+  "statushealthregen": 0.5,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -25887,13 +25850,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6038,
+     "ID": 6511,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        35
+        350
        ]
       }
      ],
@@ -25912,7 +25875,7 @@
       0,
       0
      ],
-     "displayname": "-35s Respawn Time",
+     "displayname": "+350 Fissure Range",
      "level": 0,
      "manacost": [
       0,
@@ -25920,7 +25883,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_35"
+     "name": "special_bonus_unique_earthshaker_3"
     }
    ],
    [
@@ -26237,10 +26200,10 @@
       "name": "damage_heroes",
       "tooltip": "BONUS DAMAGE(HEROES):",
       "value": [
-       12,
-       24,
-       36,
-       48
+       15,
+       30,
+       45,
+       60
       ]
      },
      {
@@ -26449,7 +26412,7 @@
       "name": "crack_width",
       "tooltip": "CRACK WIDTH:",
       "value": [
-       300
+       315
       ]
      },
      {
@@ -26570,7 +26533,7 @@
   "attributebasestrength": 24,
   "attributeintelligencegain": 1.6,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.3,
+  "attributestrengthgain": 2.6,
   "displayname": "Elder Titan",
   "items": [],
   "level": 0,
@@ -26581,8 +26544,8 @@
   "projectilespeed": 900,
   "role": "Initiator,Disabler,Nuker,Durable",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -26609,13 +26572,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5953,
+     "ID": 6094,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        20
+        200
        ]
       }
      ],
@@ -26634,7 +26597,7 @@
       0,
       0
      ],
-     "displayname": "-20s Respawn Time",
+     "displayname": "+200 Mana",
      "level": 0,
      "manacost": [
       0,
@@ -26642,7 +26605,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_20"
+     "name": "special_bonus_mp_200"
     },
     {
      "AbilityCastPoint": [
@@ -27517,7 +27480,7 @@
   "attributebasestrength": 19,
   "attributeintelligencegain": 1.8,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.8,
+  "attributestrengthgain": 2.1,
   "displayname": "Ember Spirit",
   "items": [],
   "level": 0,
@@ -27528,8 +27491,8 @@
   "projectilespeed": 900,
   "role": "Carry,Escape,Nuker,Disabler,Initiator",
   "statushealth": 200,
-  "statushealthregen": 0.75,
-  "statusmana": 50,
+  "statushealthregen": 0.5,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -28099,10 +28062,10 @@
      0
     ],
     "AbilityDuration": [
-     5.5,
-     5.5,
-     5.5,
-     5.5
+     2.25,
+     3.5,
+     4.75,
+     6
     ],
     "AbilityModifierSupportBonus": 0,
     "AbilityModifierSupportValue": 1,
@@ -28120,20 +28083,17 @@
       "name": "slow_movement_speed",
       "tooltip": "%HERO MOVE SLOW:",
       "value": [
-       -20,
-       -30,
-       -40,
-       -50
+       -55
       ]
      },
      {
       "name": "tooltip_duration",
       "tooltip": "HERO SLOW DURATION:",
       "value": [
-       5.5,
-       5.5,
-       5.5,
-       5.5
+       2.25,
+       3.5,
+       4.75,
+       6
       ]
      }
     ],
@@ -28332,11 +28292,11 @@
   "attacktype": "DOTA_UNIT_CAP_RANGED_ATTACK",
   "attributeagilitygain": 1.8,
   "attributebaseagility": 19,
-  "attributebaseintelligence": 19,
+  "attributebaseintelligence": 21,
   "attributebasestrength": 16,
   "attributeintelligencegain": 3.1,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1,
+  "attributestrengthgain": 1.3,
   "displayname": "Enchantress",
   "items": [],
   "level": 0,
@@ -28347,8 +28307,8 @@
   "projectilespeed": 900,
   "role": "Support,Jungler,Pusher,Durable,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -28729,13 +28689,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6269,
+     "ID": 6515,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        50
+        6
        ]
       }
      ],
@@ -28754,7 +28714,7 @@
       0,
       0
      ],
-     "displayname": "-50s Respawn Time",
+     "displayname": "+6% Impetus Damage",
      "level": 0,
      "manacost": [
       0,
@@ -28762,7 +28722,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_50"
+     "name": "special_bonus_unique_enchantress_4"
     },
     {
      "AbilityCastPoint": [
@@ -29261,7 +29221,7 @@
   "attributebasestrength": 17,
   "attributeintelligencegain": 3.4,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 2.1,
+  "attributestrengthgain": 2.4,
   "displayname": "Enigma",
   "items": [],
   "level": 0,
@@ -29272,8 +29232,8 @@
   "projectilespeed": 900,
   "role": "Disabler,Jungler,Initiator,Pusher",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -29594,13 +29554,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6066,
+     "ID": 6510,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        40
+        2
        ]
       }
      ],
@@ -29619,7 +29579,7 @@
       0,
       0
      ],
-     "displayname": "-40s Respawn Time",
+     "displayname": "+1 Malefice Instance",
      "level": 0,
      "manacost": [
       0,
@@ -29627,7 +29587,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_40"
+     "name": "special_bonus_unique_enigma_2"
     }
    ],
    [
@@ -29873,7 +29833,7 @@
       "name": "slow",
       "tooltip": "%SLOW PER COOLDOWN:",
       "value": [
-       10
+       14
       ]
      }
     ],
@@ -30095,7 +30055,7 @@
   "attributebasestrength": 23,
   "attributeintelligencegain": 1.5,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.8,
+  "attributestrengthgain": 2.1,
   "displayname": "Faceless Void",
   "items": [],
   "level": 0,
@@ -30106,8 +30066,8 @@
   "projectilespeed": 900,
   "role": "Carry,Initiator,Disabler,Escape,Durable",
   "statushealth": 200,
-  "statushealthregen": 0.75,
-  "statusmana": 50,
+  "statushealthregen": 0.5,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -30968,7 +30928,7 @@
   "attributebasestrength": 19,
   "attributeintelligencegain": 2.9,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.8,
+  "attributestrengthgain": 2.1,
   "displayname": "Nature's Prophet",
   "items": [],
   "level": 0,
@@ -30979,8 +30939,8 @@
   "projectilespeed": 1125,
   "role": "Carry,Jungler,Pusher,Escape,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -31361,13 +31321,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6066,
+     "ID": 6539,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        40
+        1
        ]
       }
      ],
@@ -31386,7 +31346,7 @@
       0,
       0
      ],
-     "displayname": "-40s Respawn Time",
+     "displayname": "Removed Teleportation Cooldown",
      "level": 0,
      "manacost": [
       0,
@@ -31394,7 +31354,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_40"
+     "name": "special_bonus_unique_furion_3"
     },
     {
      "AbilityCastPoint": [
@@ -31612,7 +31572,7 @@
      {
       "name": "pre_flight_time",
       "value": [
-       3
+       2
       ]
      },
      {
@@ -31899,19 +31859,19 @@
   "attributebasestrength": 18,
   "attributeintelligencegain": 2.1,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.8,
+  "attributestrengthgain": 2.1,
   "displayname": "Gyrocopter",
   "items": [],
   "level": 0,
   "magicalresistance": 25,
-  "movementspeed": 315,
+  "movementspeed": 320,
   "movementturnrate": 0.6,
   "name": "npc_dota_hero_gyrocopter",
   "projectilespeed": 3000,
   "role": "Carry,Nuker,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -32666,13 +32626,17 @@
      {
       "name": "health_cost_percent",
       "value": [
-       0.35
+       0.34,
+       0.38,
+       0.42
       ]
      },
      {
       "name": "health_damage",
       "value": [
-       0.35
+       0.34,
+       0.38,
+       0.42
       ]
      },
      {
@@ -32684,21 +32648,25 @@
      {
       "name": "charge_speed",
       "value": [
-       1000
+       1200
       ]
      },
      {
       "name": "tooltip_health_damage",
       "tooltip": "%DAMAGE DEALT:",
       "value": [
-       35
+       34,
+       38,
+       42
       ]
      },
      {
       "name": "tooltip_health_cost_percent",
       "tooltip": "%DAMAGE TAKEN:",
       "value": [
-       35
+       34,
+       38,
+       42
       ]
      },
      {
@@ -32770,7 +32738,7 @@
   "attributebasestrength": 21,
   "attributeintelligencegain": 1.5,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.4,
+  "attributestrengthgain": 2.7,
   "displayname": "Huskar",
   "items": [],
   "level": 0,
@@ -32781,8 +32749,8 @@
   "projectilespeed": 1400,
   "role": "Carry,Durable,Initiator",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -34725,7 +34693,7 @@
   "attributebasestrength": 16,
   "attributeintelligencegain": 4,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.9,
+  "attributestrengthgain": 2.2,
   "displayname": "Invoker",
   "items": [],
   "level": 0,
@@ -34736,8 +34704,8 @@
   "projectilespeed": 900,
   "role": "Carry,Nuker,Disabler,Escape,Pusher",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -35249,20 +35217,14 @@
       "name": "start_radius",
       "tooltip": "START RADIUS:",
       "value": [
-       200,
-       200,
-       200,
-       200
+       225
       ]
      },
      {
       "name": "end_radius",
       "tooltip": "END RADIUS:",
       "value": [
-       250,
-       250,
-       250,
-       250
+       275
       ]
      },
      {
@@ -35653,7 +35615,7 @@
   "attributebasestrength": 25,
   "attributeintelligencegain": 2.8,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 2.3,
+  "attributestrengthgain": 2.6,
   "displayname": "Jakiro",
   "items": [],
   "level": 0,
@@ -35664,8 +35626,8 @@
   "projectilespeed": 1100,
   "role": "Support,Nuker,Pusher,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -36046,13 +36008,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6269,
+     "ID": 6538,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        50
+        1.0
        ]
       }
      ],
@@ -36071,7 +36033,7 @@
       0,
       0
      ],
-     "displayname": "-50s Respawn Time",
+     "displayname": "Macropyre Pure and Pierces Immunity",
      "level": 0,
      "manacost": [
       0,
@@ -36079,7 +36041,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_50"
+     "name": "special_bonus_unique_jakiro_3"
     },
     {
      "AbilityCastPoint": [
@@ -36488,7 +36450,7 @@
   "attributebasestrength": 20,
   "attributeintelligencegain": 1.4,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.9,
+  "attributestrengthgain": 2.2,
   "displayname": "Juggernaut",
   "items": [],
   "level": 0,
@@ -36499,8 +36461,8 @@
   "projectilespeed": 0,
   "role": "Carry,Pusher,Escape",
   "statushealth": 200,
-  "statushealthregen": 0.75,
-  "statusmana": 50,
+  "statushealthregen": 0.5,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -37807,7 +37769,7 @@
   "attributebasestrength": 14,
   "attributeintelligencegain": 2.8,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.8,
+  "attributestrengthgain": 2.1,
   "displayname": "Keeper of the Light",
   "items": [],
   "level": 0,
@@ -37818,8 +37780,8 @@
   "projectilespeed": 900,
   "role": "Support,Nuker,Disabler,Jungler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -38022,13 +37984,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5954,
+     "ID": 6527,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        25
+        300
        ]
       }
      ],
@@ -38047,7 +38009,7 @@
       0,
       0
      ],
-     "displayname": "-25s Respawn Time",
+     "displayname": "+300 Chakra Magic Mana",
      "level": 0,
      "manacost": [
       0,
@@ -38055,7 +38017,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_25"
+     "name": "special_bonus_unique_keeper_of_the_light_2"
     }
    ],
    [
@@ -38618,9 +38580,7 @@
       "name": "ghostship_distance",
       "tooltip": "RANGE:",
       "value": [
-       1000,
-       1000,
-       1000
+       2000
       ]
      },
      {
@@ -38772,7 +38732,7 @@
   "attributebasestrength": 24,
   "attributeintelligencegain": 1.5,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 3,
+  "attributestrengthgain": 3.3,
   "displayname": "Kunkka",
   "items": [],
   "level": 0,
@@ -38783,8 +38743,8 @@
   "projectilespeed": 900,
   "role": "Carry,Disabler,Initiator,Durable,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -39381,9 +39341,9 @@
     "level": 0,
     "manacost": [
      100,
-     100,
-     100,
-     100
+     110,
+     120,
+     130
     ],
     "name": "legion_commander_overwhelming_odds"
    },
@@ -39627,7 +39587,7 @@
   "attributebasestrength": 26,
   "attributeintelligencegain": 2.2,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.6,
+  "attributestrengthgain": 2.9,
   "displayname": "Legion Commander",
   "items": [],
   "level": 0,
@@ -39638,8 +39598,8 @@
   "projectilespeed": 900,
   "role": "Carry,Disabler,Initiator,Durable,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -39960,13 +39920,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5953,
+     "ID": 6526,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        20
+        10
        ]
       }
      ],
@@ -39985,7 +39945,7 @@
       0,
       0
      ],
-     "displayname": "-20s Respawn Time",
+     "displayname": "+10% Moment Proc Chance",
      "level": 0,
      "manacost": [
       0,
@@ -39993,7 +39953,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_20"
+     "name": "special_bonus_unique_legion_commander_3"
     }
    ],
    [
@@ -40338,6 +40298,20 @@
        0.9,
        1
       ]
+     },
+     {
+      "name": "interval_scepter",
+      "tooltip": "SCEPTER INTERVAL:",
+      "value": [
+       1.75
+      ]
+     },
+     {
+      "name": "radius_scepter",
+      "tooltip": "SCEPTER RADIUS:",
+      "value": [
+       750
+      ]
      }
     ],
     "behavior": [
@@ -40417,7 +40391,6 @@
      },
      {
       "name": "damage_scepter",
-      "tooltip": "SCEPTER DAMAGE:",
       "value": [
        160,
        190,
@@ -40466,7 +40439,7 @@
   "attributebasestrength": 16,
   "attributeintelligencegain": 3,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.5,
+  "attributestrengthgain": 1.8,
   "displayname": "Leshrac",
   "items": [],
   "level": 0,
@@ -40477,8 +40450,8 @@
   "projectilespeed": 900,
   "role": "Carry,Support,Nuker,Pusher,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -41279,14 +41252,14 @@
       "name": "slow_movement_speed",
       "tooltip": "%MOVEMENT SLOW:",
       "value": [
-       -50
+       -65
       ]
      },
      {
       "name": "slow_attack_speed",
       "tooltip": "ATTACK SLOW:",
       "value": [
-       -50
+       -65
       ]
      },
      {
@@ -41319,7 +41292,6 @@
      },
      {
       "name": "cast_range_scepter",
-      "tooltip": "SCEPTER CAST RANGE:",
       "value": [
        850,
        850,
@@ -41365,7 +41337,7 @@
   "attributebasestrength": 18,
   "attributeintelligencegain": 3.25,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.55,
+  "attributestrengthgain": 1.85,
   "displayname": "Lich",
   "items": [],
   "level": 0,
@@ -41376,8 +41348,8 @@
   "projectilespeed": 900,
   "role": "Support,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -42439,7 +42411,7 @@
   "attributebasestrength": 25,
   "attributeintelligencegain": 1.75,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 3,
+  "attributestrengthgain": 3.3,
   "displayname": "Lifestealer",
   "items": [],
   "level": 0,
@@ -42450,8 +42422,8 @@
   "projectilespeed": 900,
   "role": "Carry,Durable,Jungler,Escape,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -43146,6 +43118,7 @@
      },
      {
       "name": "fiery_soul_stack_duration",
+      "tooltip": "DURATION:",
       "value": [
        10
       ]
@@ -43263,7 +43236,7 @@
   "attributebasestrength": 18,
   "attributeintelligencegain": 3.2,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.5,
+  "attributestrengthgain": 1.8,
   "displayname": "Lina",
   "items": [],
   "level": 0,
@@ -43274,8 +43247,8 @@
   "projectilespeed": 1000,
   "role": "Support,Carry,Nuker,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -43478,13 +43451,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5964,
+     "ID": 6093,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        30
+        40
        ]
       }
      ],
@@ -43503,7 +43476,7 @@
       0,
       0
      ],
-     "displayname": "-30s Respawn Time",
+     "displayname": "+40 Movement Speed",
      "level": 0,
      "manacost": [
       0,
@@ -43511,7 +43484,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_30"
+     "name": "special_bonus_movement_speed_40"
     }
    ],
    [
@@ -44121,7 +44094,7 @@
   "attributebasestrength": 16,
   "attributeintelligencegain": 3,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.7,
+  "attributestrengthgain": 2,
   "displayname": "Lion",
   "items": [],
   "level": 0,
@@ -44132,8 +44105,8 @@
   "projectilespeed": 900,
   "role": "Support,Disabler,Nuker,Initiator",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -44160,13 +44133,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5964,
+     "ID": 5947,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        30
+        75
        ]
       }
      ],
@@ -44185,7 +44158,7 @@
       0,
       0
      ],
-     "displayname": "-30s Respawn Time",
+     "displayname": "+75 Cast Range",
      "level": 0,
      "manacost": [
       0,
@@ -44193,7 +44166,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_30"
+     "name": "special_bonus_cast_range_75"
     },
     {
      "AbilityCastPoint": [
@@ -44756,10 +44729,10 @@
       "name": "bonus_attack_speed",
       "tooltip": "ATTACK SPEED:",
       "value": [
-       10,
        20,
        30,
-       40
+       40,
+       50
       ]
      },
      {
@@ -44776,10 +44749,7 @@
       "name": "rabid_duration",
       "tooltip": "DURATION:",
       "value": [
-       18,
-       22,
-       26,
-       30
+       25.0
       ]
      }
     ],
@@ -44788,7 +44758,7 @@
      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
     ],
     "cooldown": [
-     45
+     35
     ],
     "damage": [
      0,
@@ -45119,7 +45089,7 @@
   "attributebasestrength": 17,
   "attributeintelligencegain": 1.4,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2.1,
+  "attributestrengthgain": 2.4,
   "displayname": "Lone Druid",
   "items": [],
   "level": 0,
@@ -45130,8 +45100,8 @@
   "projectilespeed": 900,
   "role": "Carry,Pusher,Jungler,Durable",
   "statushealth": 200,
-  "statushealthregen": 0.5,
-  "statusmana": 50,
+  "statushealthregen": 0.25,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -45452,13 +45422,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6066,
+     "ID": 6508,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        40
+        50
        ]
       }
      ],
@@ -45477,7 +45447,7 @@
       0,
       0
      ],
-     "displayname": "-40s Respawn Time",
+     "displayname": "+50% Spirit Bear Magic Resistance",
      "level": 0,
      "manacost": [
       0,
@@ -45485,7 +45455,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_40"
+     "name": "special_bonus_unique_lone_druid_5"
     }
    ],
    [
@@ -45617,7 +45587,7 @@
   "HeroID": 48,
   "abilities": [
    {
-    "AbilityCastPoint": 0.6,
+    "AbilityCastPoint": 0.5,
     "AbilityCastRange": 800,
     "AbilityCastRangeBuffer": 250,
     "AbilityChannelTime": [
@@ -45986,7 +45956,7 @@
   "attributebasestrength": 15,
   "attributeintelligencegain": 1.85,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2.2,
+  "attributestrengthgain": 2.5,
   "displayname": "Luna",
   "items": [],
   "level": 0,
@@ -45997,8 +45967,8 @@
   "projectilespeed": 900,
   "role": "Carry,Nuker,Pusher",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -46876,7 +46846,7 @@
   "attributebasestrength": 25,
   "attributeintelligencegain": 1.55,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 3,
+  "attributestrengthgain": 3.3,
   "displayname": "Lycan",
   "items": [],
   "level": 0,
@@ -46887,8 +46857,8 @@
   "projectilespeed": 900,
   "role": "Carry,Pusher,Jungler,Durable,Escape",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -47033,13 +47003,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5954,
+     "ID": 6519,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        25
+        12
        ]
       }
      ],
@@ -47058,7 +47028,7 @@
       0,
       0
      ],
-     "displayname": "-25s Respawn Time",
+     "displayname": "+12 Feral HP Regen",
      "level": 0,
      "manacost": [
       0,
@@ -47066,7 +47036,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_25"
+     "name": "special_bonus_unique_lycan_3"
     },
     {
      "AbilityCastPoint": [
@@ -47425,14 +47395,28 @@
      },
      {
       "name": "movement_slow",
+      "tooltip": "%SCEPTER MOVEMENT SLOW:",
       "value": [
-       25
+       60
       ]
      },
      {
       "name": "slow_duration",
+      "tooltip": "SCEPTER SLOW DURATION:",
       "value": [
        2.0
+      ]
+     },
+     {
+      "name": "scepter_distance",
+      "value": [
+       1725.0
+      ]
+     },
+     {
+      "name": "scepter_speed",
+      "value": [
+       1575.0
       ]
      }
     ],
@@ -47742,20 +47726,11 @@
      },
      {
       "name": "hero_stun_duration",
-      "tooltip": "HERO STUN DURATION:",
+      "tooltip": "STUN DURATION:",
       "value": [
        2.25,
        3,
        3.75
-      ]
-     },
-     {
-      "name": "creep_stun_duration",
-      "tooltip": "CREEP STUN DURATION:",
-      "value": [
-       3,
-       4,
-       5
       ]
      },
      {
@@ -47803,19 +47778,19 @@
   "attributebasestrength": 21,
   "attributeintelligencegain": 1.65,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.9,
+  "attributestrengthgain": 3.2,
   "displayname": "Magnus",
   "items": [],
   "level": 0,
   "magicalresistance": 25,
-  "movementspeed": 315,
+  "movementspeed": 310,
   "movementturnrate": 0.8,
   "name": "npc_dota_hero_magnataur",
   "projectilespeed": 900,
   "role": "Initiator,Disabler,Nuker,Escape",
   "statushealth": 200,
-  "statushealthregen": 0.75,
-  "statusmana": 50,
+  "statushealthregen": 0.5,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -48196,13 +48171,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6038,
+     "ID": 6507,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        35
+        500
        ]
       }
      ],
@@ -48221,7 +48196,7 @@
       0,
       0
      ],
-     "displayname": "-35s Respawn Time",
+     "displayname": "+500 Skewer Range",
      "level": 0,
      "manacost": [
       0,
@@ -48229,7 +48204,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_35"
+     "name": "special_bonus_unique_magnus_3"
     },
     {
      "AbilityCastPoint": [
@@ -48254,13 +48229,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6199,
+     "ID": 6175,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        4
+        15
        ]
       }
      ],
@@ -48279,7 +48254,7 @@
       0,
       0
      ],
-     "displayname": "-4s Shockwave Cooldown",
+     "displayname": "+15 Armor",
      "level": 0,
      "manacost": [
       0,
@@ -48287,7 +48262,7 @@
       0,
       0
      ],
-     "name": "special_bonus_unique_magnus"
+     "name": "special_bonus_armor_15"
     }
    ]
   ],
@@ -48494,6 +48469,20 @@
       "name": "return_speed",
       "value": [
        800
+      ]
+     },
+     {
+      "name": "stone_form_scepter_base",
+      "tooltip": "SCEPTER BASE DURATION:",
+      "value": [
+       1.0
+      ]
+     },
+     {
+      "name": "stone_form_scepter_increment",
+      "tooltip": "SCEPTER DURATION BOUNCE INCREASE:",
+      "value": [
+       0.2
       ]
      }
     ],
@@ -48710,7 +48699,7 @@
   "attributebasestrength": 14,
   "attributeintelligencegain": 2.1,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.65,
+  "attributestrengthgain": 1.95,
   "displayname": "Medusa",
   "items": [],
   "level": 0,
@@ -48721,8 +48710,8 @@
   "projectilespeed": 1200,
   "role": "Carry,Disabler,Durable",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -49507,7 +49496,7 @@
   "attributebasestrength": 23,
   "attributeintelligencegain": 1.6,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.3,
+  "attributestrengthgain": 1.6,
   "displayname": "Meepo",
   "items": [],
   "level": 0,
@@ -49518,8 +49507,8 @@
   "projectilespeed": 900,
   "role": "Carry,Escape,Nuker,Disabler,Initiator,Pusher",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -50199,7 +50188,7 @@
      0,
      0
     ],
-    "AbilityDuration": 10,
+    "AbilityDuration": 5,
     "AbilityModifierSupportBonus": 0,
     "AbilityModifierSupportValue": 1,
     "ID": 5050,
@@ -50247,10 +50236,10 @@
       "name": "leap_speedbonus_as",
       "tooltip": "ATTACK SPEED BONUS:",
       "value": [
-       8,
        16,
-       24,
-       32
+       32,
+       48,
+       64
       ]
      }
     ],
@@ -50349,8 +50338,8 @@
   ],
   "abilitylayout": 4,
   "armorphysical": -1,
-  "attackdamagemax": 29,
-  "attackdamagemin": 18,
+  "attackdamagemax": 32,
+  "attackdamagemin": 21,
   "attackpoint": 0.3,
   "attackrange": 630,
   "attackrate": 1.7,
@@ -50361,7 +50350,7 @@
   "attributebasestrength": 17,
   "attributeintelligencegain": 1.65,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.85,
+  "attributestrengthgain": 2.15,
   "displayname": "Mirana",
   "items": [],
   "level": 0,
@@ -50372,8 +50361,8 @@
   "projectilespeed": 900,
   "role": "Carry,Support,Escape,Nuker,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -50908,6 +50897,7 @@
      },
      {
       "name": "strike_cast_range",
+      "tooltip": "DISTANCE:",
       "value": [
        1200
       ]
@@ -51067,7 +51057,7 @@
     "AbilityCastPoint": 0,
     "AbilityCastRange": 0,
     "AbilityCastRangeBuffer": 250,
-    "AbilityChannelTime": 1.6,
+    "AbilityChannelTime": 1.7,
     "AbilityDuration": [
      0,
      0,
@@ -51468,19 +51458,19 @@
       ]
      },
      {
-      "name": "bonus_damage",
-      "tooltip": "BONUS DAMAGE:",
+      "name": "bonus_armor",
+      "tooltip": "BONUS ARMOR:",
       "value": [
-       50,
-       70,
-       90
+       8,
+       14,
+       20
       ]
      },
      {
       "name": "attack_speed",
       "tooltip": "SOLDIER ATK SPEED:",
       "value": [
-       2.0
+       1.6
       ]
      },
      {
@@ -51547,7 +51537,7 @@
   "attributebasestrength": 18,
   "attributeintelligencegain": 1.8,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2.5,
+  "attributestrengthgain": 2.8,
   "displayname": "Monkey King",
   "items": [],
   "level": 0,
@@ -51559,7 +51549,7 @@
   "role": "Carry,Escape,Disabler,Initiator",
   "statushealth": 200,
   "statushealthregen": 0.75,
-  "statusmana": 50,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -52226,10 +52216,7 @@
     "displayname": "Adaptive Strike",
     "level": 0,
     "manacost": [
-     100,
-     90,
-     80,
-     70
+     80
     ],
     "name": "morphling_adaptive_strike"
    },
@@ -52730,7 +52717,7 @@
   "attributebasestrength": 19,
   "attributeintelligencegain": 1.1,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2,
+  "attributestrengthgain": 2.3,
   "displayname": "Morphling",
   "items": [],
   "level": 0,
@@ -52741,8 +52728,8 @@
   "projectilespeed": 1300,
   "role": "Carry,Escape,Durable,Nuker,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -53280,20 +53267,20 @@
      {
       "name": "incoming_damage",
       "value": [
-       500,
+       450,
        400,
-       300,
-       200
+       350,
+       300
       ]
      },
      {
       "name": "tooltip_incoming_damage_total_pct",
       "tooltip": "%IMAGE DAMAGE TAKEN:",
       "value": [
-       600,
+       550,
        500,
-       400,
-       300
+       450,
+       400
       ]
      },
      {
@@ -53338,7 +53325,7 @@
     "name": "naga_siren_mirror_image"
    },
    {
-    "AbilityCastPoint": 0.65,
+    "AbilityCastPoint": 0.6,
     "AbilityCastRange": [
      650,
      650,
@@ -53408,10 +53395,7 @@
     "displayname": "Ensnare",
     "level": 0,
     "manacost": [
-     90,
-     100,
-     110,
-     120
+     100
     ],
     "name": "naga_siren_ensnare"
    },
@@ -53478,10 +53462,10 @@
      10
     ],
     "damage": [
-     100,
-     140,
-     180,
-     220
+     120,
+     160,
+     200,
+     240
     ],
     "displayname": "Rip Tide",
     "level": 0,
@@ -53494,11 +53478,11 @@
     "name": "naga_siren_rip_tide"
    },
    {
-    "AbilityCastPoint": 0.8,
+    "AbilityCastPoint": 1,
     "AbilityCastRange": [
-     1250,
-     1250,
-     1250
+     1000,
+     1200,
+     1400
     ],
     "AbilityCastRangeBuffer": 250,
     "AbilityChannelTime": [
@@ -53523,9 +53507,9 @@
       "name": "radius",
       "tooltip": "RADIUS:",
       "value": [
-       1250,
-       1250,
-       1250
+       1000,
+       1200,
+       1400
       ]
      },
      {
@@ -53569,9 +53553,9 @@
      "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     ],
     "cooldown": [
-     180,
+     160,
      120,
-     60
+     80
     ],
     "damage": [
      0,
@@ -53653,7 +53637,7 @@
   "attributebasestrength": 21,
   "attributeintelligencegain": 2,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2.5,
+  "attributestrengthgain": 2.8,
   "displayname": "Naga Siren",
   "items": [],
   "level": 0,
@@ -53664,8 +53648,8 @@
   "projectilespeed": 900,
   "role": "Carry,Support,Pusher,Disabler,Initiator,Escape",
   "statushealth": 200,
-  "statushealthregen": 0.75,
-  "statusmana": 50,
+  "statushealthregen": 0.5,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -54296,7 +54280,7 @@
       "name": "heal_bonus",
       "tooltip": "%RESTORATION AMPLIFICATION:",
       "value": [
-       50
+       75
       ]
      },
      {
@@ -54520,7 +54504,7 @@
   "attributebasestrength": 16,
   "attributeintelligencegain": 2.5,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 2,
+  "attributestrengthgain": 2.3,
   "displayname": "Necrophos",
   "items": [],
   "level": 0,
@@ -54531,8 +54515,8 @@
   "projectilespeed": 900,
   "role": "Carry,Nuker,Durable,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -55529,7 +55513,7 @@
   "attributebasestrength": 15,
   "attributeintelligencegain": 2,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2,
+  "attributestrengthgain": 2.3,
   "displayname": "Shadow Fiend",
   "items": [],
   "level": 0,
@@ -55540,8 +55524,8 @@
   "projectilespeed": 1200,
   "role": "Carry,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.5,
-  "statusmana": 50,
+  "statushealthregen": 0.25,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -55986,7 +55970,7 @@
       {
        "name": "value",
        "value": [
-        125
+        150
        ]
       }
      ],
@@ -56252,16 +56236,22 @@
        75,
        90
       ]
+     },
+     {
+      "name": "duration",
+      "value": [
+       2.0
+      ]
      }
     ],
     "behavior": [
      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
     ],
     "cooldown": [
-     0,
-     0,
-     0,
-     0
+     26,
+     22,
+     18,
+     14
     ],
     "damage": [
      0,
@@ -56272,10 +56262,7 @@
     "displayname": "Hunter in the Night",
     "level": 0,
     "manacost": [
-     0,
-     0,
-     0,
-     0
+     50
     ],
     "name": "night_stalker_hunter_in_the_night"
    },
@@ -56365,7 +56352,7 @@
   "attributebasestrength": 23,
   "attributeintelligencegain": 1.6,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.8,
+  "attributestrengthgain": 3.1,
   "displayname": "Night Stalker",
   "items": [],
   "level": 0,
@@ -56376,8 +56363,8 @@
   "projectilespeed": 900,
   "role": "Carry,Initiator,Durable,Disabler,Nuker",
   "statushealth": 200,
-  "statushealthregen": 2,
-  "statusmana": 50,
+  "statushealthregen": 1.75,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -57385,7 +57372,7 @@
   "attributebasestrength": 18,
   "attributeintelligencegain": 2.1,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2,
+  "attributestrengthgain": 2.3,
   "displayname": "Nyx Assassin",
   "items": [],
   "level": 0,
@@ -57396,8 +57383,8 @@
   "projectilespeed": 900,
   "role": "Disabler,Nuker,Initiator,Escape",
   "statushealth": 200,
-  "statushealthregen": 3.5,
-  "statusmana": 50,
+  "statushealthregen": 3.25,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -58033,6 +58020,26 @@
        375,
        450
       ]
+     },
+     {
+      "name": "max_charges_scepter",
+      "tooltip": "SCEPTER MAX CHARGES:",
+      "value": [
+       2
+      ]
+     },
+     {
+      "name": "charge_restore_time_scepter",
+      "tooltip": "SCEPTER CHARGE RESTORE TIME:",
+      "value": [
+       12
+      ]
+     },
+     {
+      "name": "scepter_range_bonus",
+      "value": [
+       300
+      ]
      }
     ],
     "behavior": [
@@ -58217,14 +58224,6 @@
       "value": [
        700
       ]
-     },
-     {
-      "name": "damage_multiplier_scepter",
-      "value": [
-       8,
-       9,
-       10
-      ]
      }
     ],
     "behavior": [
@@ -58264,7 +58263,7 @@
   "attributebasestrength": 19,
   "attributeintelligencegain": 2.7,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 2.3,
+  "attributestrengthgain": 2.6,
   "displayname": "Outworld Devourer",
   "items": [],
   "level": 0,
@@ -58275,8 +58274,8 @@
   "projectilespeed": 900,
   "role": "Carry,Nuker,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -59210,7 +59209,7 @@
   "attributebasestrength": 23,
   "attributeintelligencegain": 2,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 3.2,
+  "attributestrengthgain": 3.5,
   "displayname": "Ogre Magi",
   "items": [],
   "level": 0,
@@ -59221,8 +59220,8 @@
   "projectilespeed": 900,
   "role": "Support,Nuker,Disabler,Durable,Initiator",
   "statushealth": 200,
-  "statushealthregen": 3.5,
-  "statusmana": 50,
+  "statushealthregen": 3.25,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -60003,7 +60002,7 @@
   "attributebasestrength": 22,
   "attributeintelligencegain": 1.8,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.8,
+  "attributestrengthgain": 3.1,
   "displayname": "Omniknight",
   "items": [],
   "level": 0,
@@ -60014,8 +60013,8 @@
   "projectilespeed": 900,
   "role": "Support,Durable,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -60531,7 +60530,7 @@
      {
       "name": "bolt_speed",
       "value": [
-       1200
+       1000
       ]
      },
      {
@@ -60655,7 +60654,7 @@
    },
    {
     "AbilityCastPoint": 0.3,
-    "AbilityCastRange": 800,
+    "AbilityCastRange": 850,
     "AbilityCastRangeBuffer": 250,
     "AbilityChannelTime": [
      0,
@@ -60828,7 +60827,7 @@
   "attributebasestrength": 18,
   "attributeintelligencegain": 2.9,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.9,
+  "attributestrengthgain": 2.2,
   "displayname": "Oracle",
   "items": [],
   "level": 0,
@@ -60839,8 +60838,8 @@
   "projectilespeed": 900,
   "role": "Support,Nuker,Disabler,Escape",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -60867,13 +60866,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5953,
+     "ID": 6540,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        20
+        0.75
        ]
       }
      ],
@@ -60892,7 +60891,7 @@
       0,
       0
      ],
-     "displayname": "-20s Respawn Time",
+     "displayname": "+0.75s Fortune's End Max Duration",
      "level": 0,
      "manacost": [
       0,
@@ -60900,7 +60899,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_20"
+     "name": "special_bonus_unique_oracle_2"
     },
     {
      "AbilityCastPoint": [
@@ -61675,7 +61674,7 @@
   "attributebasestrength": 20,
   "attributeintelligencegain": 1.4,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.85,
+  "attributestrengthgain": 2.15,
   "displayname": "Phantom Assassin",
   "items": [],
   "level": 0,
@@ -61686,8 +61685,8 @@
   "projectilespeed": 900,
   "role": "Carry,Escape",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -62538,9 +62537,9 @@
       "name": "max_illusions",
       "tooltip": "MAX ILLUSIONS:",
       "value": [
-       5,
-       7,
-       9
+       6,
+       8,
+       10
       ]
      },
      {
@@ -62638,7 +62637,7 @@
   "attributebasestrength": 21,
   "attributeintelligencegain": 2,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.7,
+  "attributestrengthgain": 2,
   "displayname": "Phantom Lancer",
   "items": [],
   "level": 0,
@@ -62649,8 +62648,8 @@
   "projectilespeed": 900,
   "role": "Carry,Escape,Pusher,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.75,
-  "statusmana": 50,
+  "statushealthregen": 0.5,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -63270,10 +63269,7 @@
       "name": "spirit_duration",
       "tooltip": "SPIRIT DURATION:",
       "value": [
-       16,
-       16,
-       16,
-       16
+       20.0
       ]
      },
      {
@@ -63955,7 +63951,7 @@
   "attributebasestrength": 19,
   "attributeintelligencegain": 1.8,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.9,
+  "attributestrengthgain": 3.2,
   "displayname": "Phoenix",
   "items": [],
   "level": 0,
@@ -63966,8 +63962,8 @@
   "projectilespeed": 1100,
   "role": "Support,Nuker,Initiator,Escape,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -63994,7 +63990,7 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5953,
+     "ID": 6017,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
@@ -64019,7 +64015,7 @@
       0,
       0
      ],
-     "displayname": "-20s Respawn Time",
+     "displayname": "+20% XP Gain",
      "level": 0,
      "manacost": [
       0,
@@ -64027,7 +64023,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_20"
+     "name": "special_bonus_exp_boost_20"
     },
     {
      "AbilityCastPoint": [
@@ -64884,7 +64880,7 @@
   "attributebasestrength": 15,
   "attributeintelligencegain": 2.4,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.7,
+  "attributestrengthgain": 2,
   "displayname": "Puck",
   "items": [],
   "level": 0,
@@ -64895,8 +64891,8 @@
   "projectilespeed": 900,
   "role": "Initiator,Disabler,Escape,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -65749,7 +65745,7 @@
   "attributebasestrength": 25,
   "attributeintelligencegain": 1.5,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 3.2,
+  "attributestrengthgain": 3.5,
   "displayname": "Pudge",
   "items": [],
   "level": 0,
@@ -65760,8 +65756,8 @@
   "projectilespeed": 0,
   "role": "Disabler,Initiator,Durable,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -66082,13 +66078,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6066,
+     "ID": 6506,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        40
+        1
        ]
       }
      ],
@@ -66107,7 +66103,7 @@
       0,
       0
      ],
-     "displayname": "-40s Respawn Time",
+     "displayname": "+1s Dismember Duration",
      "level": 0,
      "manacost": [
       0,
@@ -66115,7 +66111,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_40"
+     "name": "special_bonus_unique_pudge_3"
     }
    ],
    [
@@ -66525,11 +66521,7 @@
      0.2,
      0.2
     ],
-    "AbilityCastRange": [
-     900,
-     1050,
-     1200
-    ],
+    "AbilityCastRange": 800,
     "AbilityCastRangeBuffer": 250,
     "AbilityChannelTime": 10,
     "AbilityDuration": [
@@ -66558,9 +66550,7 @@
       "name": "cast_range_tooltip",
       "tooltip": "CAST RANGE:",
       "value": [
-       900,
-       1050,
-       1200
+       800
       ]
      },
      {
@@ -66593,6 +66583,12 @@
        0.25,
        0.25,
        0.25
+      ]
+     },
+     {
+      "name": "drain_buffer",
+      "value": [
+       100
       ]
      }
     ],
@@ -66636,7 +66632,7 @@
   "attributebasestrength": 17,
   "attributeintelligencegain": 4.5,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.2,
+  "attributestrengthgain": 1.5,
   "displayname": "Pugna",
   "items": [],
   "level": 0,
@@ -66647,8 +66643,8 @@
   "projectilespeed": 900,
   "role": "Nuker,Pusher",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -66793,13 +66789,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6038,
+     "ID": 6541,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        35
+        1.0
        ]
       }
      ],
@@ -66818,7 +66814,7 @@
       0,
       0
      ],
-     "displayname": "-35s Respawn Time",
+     "displayname": "+1s Decrepify Duration",
      "level": 0,
      "manacost": [
       0,
@@ -66826,7 +66822,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_35"
+     "name": "special_bonus_unique_pugna_5"
     },
     {
      "AbilityCastPoint": [
@@ -67487,7 +67483,7 @@
   "attributebasestrength": 16,
   "attributeintelligencegain": 2.5,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.7,
+  "attributestrengthgain": 2,
   "displayname": "Queen of Pain",
   "items": [],
   "level": 0,
@@ -67498,8 +67494,8 @@
   "projectilespeed": 1500,
   "role": "Carry,Nuker,Escape",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -67886,7 +67882,7 @@
       {
        "name": "value",
        "value": [
-        4
+        550
        ]
       }
      ],
@@ -67905,7 +67901,7 @@
       0,
       0
      ],
-     "displayname": "Removed Shadow Strike Cooldown",
+     "displayname": "550 AoE Shadow Strike",
      "level": 0,
      "manacost": [
       0,
@@ -68391,7 +68387,7 @@
   "attributebasestrength": 26,
   "attributeintelligencegain": 1.3,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.9,
+  "attributestrengthgain": 3.2,
   "displayname": "Clockwerk",
   "items": [],
   "level": 0,
@@ -68402,8 +68398,8 @@
   "projectilespeed": 900,
   "role": "Initiator,Disabler,Durable,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -68666,13 +68662,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5954,
+     "ID": 6512,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        25
+        40
        ]
       }
      ],
@@ -68691,7 +68687,7 @@
       0,
       0
      ],
-     "displayname": "-25s Respawn Time",
+     "displayname": "+40 Battery Assault Damage",
      "level": 0,
      "manacost": [
       0,
@@ -68699,7 +68695,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_25"
+     "name": "special_bonus_unique_clockwerk_3"
     },
     {
      "AbilityCastPoint": [
@@ -69195,11 +69191,7 @@
     "name": "razor_unstable_current"
    },
    {
-    "AbilityCastPoint": [
-     0.3,
-     0.3,
-     0.3
-    ],
+    "AbilityCastPoint": 0,
     "AbilityCastRange": 0,
     "AbilityCastRangeBuffer": 250,
     "AbilityChannelTime": [
@@ -69275,7 +69267,8 @@
      }
     ],
     "behavior": [
-     "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+     "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+     "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
     ],
     "cooldown": [
      80,
@@ -69312,7 +69305,7 @@
   "attributebasestrength": 21,
   "attributeintelligencegain": 1.8,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2.3,
+  "attributestrengthgain": 2.6,
   "displayname": "Razor",
   "items": [],
   "level": 0,
@@ -69323,8 +69316,8 @@
   "projectilespeed": 2000,
   "role": "Carry,Durable,Nuker,Pusher",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -70137,19 +70130,19 @@
   "attributebasestrength": 17,
   "attributeintelligencegain": 1.3,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.6,
+  "attributestrengthgain": 1.9,
   "displayname": "Riki",
   "items": [],
   "level": 0,
   "magicalresistance": 25,
-  "movementspeed": 290,
+  "movementspeed": 285,
   "movementturnrate": 0.6,
   "name": "npc_dota_hero_riki",
   "projectilespeed": 900,
   "role": "Carry,Escape,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -71352,7 +71345,7 @@
   "attributebasestrength": 19,
   "attributeintelligencegain": 2.4,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.5,
+  "attributestrengthgain": 1.8,
   "displayname": "Rubick",
   "items": [],
   "level": 0,
@@ -71363,8 +71356,8 @@
   "projectilespeed": 1125,
   "role": "Support,Disabler,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -71983,6 +71976,9 @@
       "name": "sand_storm_invis_delay",
       "tooltip": "INVISIBILITY DELAY:",
       "value": [
+       0.9,
+       1.1,
+       1.3,
        1.5
       ]
      },
@@ -72012,9 +72008,9 @@
      10
     ],
     "damage": [
-     25,
-     50,
-     75,
+     40,
+     60,
+     80,
      100
     ],
     "displayname": "Sand Storm",
@@ -72268,7 +72264,7 @@
   "attributebasestrength": 22,
   "attributeintelligencegain": 1.8,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.6,
+  "attributestrengthgain": 2.9,
   "displayname": "Sand King",
   "items": [],
   "level": 0,
@@ -72279,8 +72275,8 @@
   "projectilespeed": 900,
   "role": "Initiator,Disabler,Nuker,Escape,Jungler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -72483,13 +72479,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5964,
+     "ID": 6530,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        30
+        -50
        ]
       }
      ],
@@ -72508,7 +72504,7 @@
       0,
       0
      ],
-     "displayname": "-30s Respawn Time",
+     "displayname": "-50 Epicenter Attack Slow",
      "level": 0,
      "manacost": [
       0,
@@ -72516,7 +72512,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_30"
+     "name": "special_bonus_unique_sand_king_3"
     }
    ],
    [
@@ -73052,7 +73048,7 @@
     "displayname": "Shadow Poison",
     "level": 0,
     "manacost": [
-     55
+     50
     ],
     "name": "shadow_demon_shadow_poison"
    },
@@ -73219,7 +73215,7 @@
   "attributebasestrength": 17,
   "attributeintelligencegain": 2.7,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.9,
+  "attributestrengthgain": 2.2,
   "displayname": "Shadow Demon",
   "items": [],
   "level": 0,
@@ -73230,8 +73226,8 @@
   "projectilespeed": 900,
   "role": "Support,Disabler,Initiator,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -73552,13 +73548,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5954,
+     "ID": 6542,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        25
+        1.5
        ]
       }
      ],
@@ -73577,7 +73573,7 @@
       0,
       0
      ],
-     "displayname": "-25s Respawn Time",
+     "displayname": "-1.5s Shadow Poison Cooldown",
      "level": 0,
      "manacost": [
       0,
@@ -73585,7 +73581,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_25"
+     "name": "special_bonus_unique_shadow_demon_3"
     }
    ],
    [
@@ -74043,8 +74039,8 @@
   ],
   "abilitylayout": 4,
   "armorphysical": 0,
-  "attackdamagemax": 51,
-  "attackdamagemin": 44,
+  "attackdamagemax": 57,
+  "attackdamagemin": 50,
   "attackpoint": 0.3,
   "attackrange": 400,
   "attackrate": 1.7,
@@ -74055,7 +74051,7 @@
   "attributebasestrength": 21,
   "attributeintelligencegain": 3,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.8,
+  "attributestrengthgain": 2.1,
   "displayname": "Shadow Shaman",
   "items": [],
   "level": 0,
@@ -74066,8 +74062,8 @@
   "projectilespeed": 900,
   "role": "Support,Pusher,Disabler,Nuker,Initiator",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -74330,13 +74326,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5964,
+     "ID": 6521,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        30
+        4
        ]
       }
      ],
@@ -74355,7 +74351,7 @@
       0,
       0
      ],
-     "displayname": "-30s Respawn Time",
+     "displayname": "+4 Wards Summoned",
      "level": 0,
      "manacost": [
       0,
@@ -74363,7 +74359,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_30"
+     "name": "special_bonus_unique_shadow_shaman_4"
     },
     {
      "AbilityCastPoint": [
@@ -75211,7 +75207,7 @@
   "attributebasestrength": 21,
   "attributeintelligencegain": 2.4,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 1.8,
+  "attributestrengthgain": 2.1,
   "displayname": "Timbersaw",
   "items": [],
   "level": 0,
@@ -75222,8 +75218,8 @@
   "projectilespeed": 900,
   "role": "Nuker,Durable,Escape",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -76020,7 +76016,7 @@
   "attributebasestrength": 17,
   "attributeintelligencegain": 2.5,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 2.2,
+  "attributestrengthgain": 2.5,
   "displayname": "Silencer",
   "items": [],
   "level": 0,
@@ -76031,8 +76027,8 @@
   "projectilespeed": 1000,
   "role": "Carry,Support,Disabler,Initiator,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -76908,7 +76904,7 @@
   "attributebasestrength": 22,
   "attributeintelligencegain": 1.6,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.9,
+  "attributestrengthgain": 3.2,
   "displayname": "Wraith King",
   "items": [],
   "level": 0,
@@ -76919,8 +76915,8 @@
   "projectilespeed": 0,
   "role": "Carry,Support,Durable,Disabler,Initiator",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -77241,13 +77237,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6080,
+     "ID": 6088,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        20
+        10
        ]
       }
      ],
@@ -77266,7 +77262,7 @@
       0,
       0
      ],
-     "displayname": "+20 Strength",
+     "displayname": "+10% Vampiric Aura Lifesteal",
      "level": 0,
      "manacost": [
       0,
@@ -77274,7 +77270,7 @@
       0,
       0
      ],
-     "name": "special_bonus_strength_20"
+     "name": "special_bonus_unique_wraith_king_2"
     }
    ],
    [
@@ -77359,13 +77355,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6088,
+     "ID": 6566,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        20
+        1
        ]
       }
      ],
@@ -77384,7 +77380,7 @@
       0,
       0
      ],
-     "displayname": "+20% Vampiric Aura Lifesteal",
+     "displayname": "Reincarnation Casts Wraithfire Blast",
      "level": 0,
      "manacost": [
       0,
@@ -77392,7 +77388,7 @@
       0,
       0
      ],
-     "name": "special_bonus_unique_wraith_king_2"
+     "name": "special_bonus_unique_wraith_king_4"
     }
    ]
   ],
@@ -77799,7 +77795,7 @@
   "attributebasestrength": 19,
   "attributeintelligencegain": 3.6,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.5,
+  "attributestrengthgain": 1.8,
   "displayname": "Skywrath Mage",
   "items": [],
   "level": 0,
@@ -77810,8 +77806,8 @@
   "projectilespeed": 1000,
   "role": "Support,Nuker,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -77956,13 +77952,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5942,
+     "ID": 6564,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        75
+        10
        ]
       }
      ],
@@ -77981,7 +77977,7 @@
       0,
       0
      ],
-     "displayname": "+75 Damage",
+     "displayname": "10% Spell Lifesteal",
      "level": 0,
      "manacost": [
       0,
@@ -77989,7 +77985,7 @@
       0,
       0
      ],
-     "name": "special_bonus_attack_damage_75"
+     "name": "special_bonus_spell_lifesteal_10"
     },
     {
      "AbilityCastPoint": [
@@ -78624,7 +78620,7 @@
   "attributebasestrength": 21,
   "attributeintelligencegain": 1.5,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.8,
+  "attributestrengthgain": 3.1,
   "displayname": "Slardar",
   "items": [],
   "level": 0,
@@ -78635,8 +78631,8 @@
   "projectilespeed": 0,
   "role": "Carry,Durable,Initiator,Disabler,Escape",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -79523,9 +79519,9 @@
   "attributebaseagility": 21,
   "attributebaseintelligence": 16,
   "attributebasestrength": 20,
-  "attributeintelligencegain": 1.9,
+  "attributeintelligencegain": 1.7,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.6,
+  "attributestrengthgain": 1.9,
   "displayname": "Slark",
   "items": [],
   "level": 0,
@@ -79536,8 +79532,8 @@
   "projectilespeed": 0,
   "role": "Carry,Escape,Disabler,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -80375,7 +80371,7 @@
   "attributebasestrength": 16,
   "attributeintelligencegain": 2.6,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.7,
+  "attributestrengthgain": 2,
   "displayname": "Sniper",
   "items": [],
   "level": 0,
@@ -80386,8 +80382,8 @@
   "projectilespeed": 3000,
   "role": "Carry,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -81292,8 +81288,8 @@
      "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     ],
     "cooldown": [
-     140,
-     130,
+     180,
+     150,
      120
     ],
     "damage": [
@@ -81326,7 +81322,7 @@
   "attributebasestrength": 19,
   "attributeintelligencegain": 1.9,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2,
+  "attributestrengthgain": 2.3,
   "displayname": "Spectre",
   "items": [],
   "level": 0,
@@ -81337,8 +81333,8 @@
   "projectilespeed": 900,
   "role": "Carry,Durable,Escape",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -82121,10 +82117,10 @@
      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
     ],
     "cooldown": [
-     1.5,
-     1.5,
-     1.5,
-     1.5
+     0,
+     0,
+     0,
+     0
     ],
     "damage": [
      0,
@@ -82254,7 +82250,7 @@
   "attributebasestrength": 29,
   "attributeintelligencegain": 1.8,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.4,
+  "attributestrengthgain": 2.7,
   "displayname": "Spirit Breaker",
   "items": [],
   "level": 0,
@@ -82265,8 +82261,8 @@
   "projectilespeed": 900,
   "role": "Carry,Initiator,Disabler,Durable,Escape",
   "statushealth": 200,
-  "statushealthregen": 0.75,
-  "statusmana": 50,
+  "statushealthregen": 0.5,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -82587,13 +82583,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6066,
+     "ID": 6543,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        40
+        30
        ]
       }
      ],
@@ -82612,7 +82608,7 @@
       0,
       0
      ],
-     "displayname": "-40s Respawn Time",
+     "displayname": "+30% Greater Bash Damage",
      "level": 0,
      "manacost": [
       0,
@@ -82620,7 +82616,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_40"
+     "name": "special_bonus_unique_spirit_breaker_3"
     }
    ],
    [
@@ -83132,7 +83128,7 @@
   "attributebasestrength": 19,
   "attributeintelligencegain": 3,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.5,
+  "attributestrengthgain": 1.8,
   "displayname": "Storm Spirit",
   "items": [],
   "level": 0,
@@ -83143,8 +83139,8 @@
   "projectilespeed": 1100,
   "role": "Carry,Escape,Nuker,Initiator,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -83893,9 +83889,18 @@
       "name": "gods_strength_damage",
       "tooltip": "%BONUS DAMAGE:",
       "value": [
-       100,
-       150,
-       200
+       80,
+       120,
+       160
+      ]
+     },
+     {
+      "name": "gods_strength_bonus_str",
+      "tooltip": "BONUS STRENGTH:",
+      "value": [
+       16,
+       28,
+       40
       ]
      },
      {
@@ -83954,7 +83959,7 @@
   "attributebasestrength": 23,
   "attributeintelligencegain": 1.3,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.7,
+  "attributestrengthgain": 3,
   "displayname": "Sven",
   "items": [],
   "level": 0,
@@ -83965,8 +83970,8 @@
   "projectilespeed": 0,
   "role": "Carry,Disabler,Initiator,Durable,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -85011,7 +85016,7 @@
   "attributebasestrength": 17,
   "attributeintelligencegain": 2.9,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 2,
+  "attributestrengthgain": 2.3,
   "displayname": "Techies",
   "items": [],
   "level": 0,
@@ -85022,8 +85027,8 @@
   "projectilespeed": 900,
   "role": "Nuker,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.02,
   "talents": [
    [
@@ -85462,13 +85467,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6059,
+     "ID": 6556,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        60
+        250
        ]
       }
      ],
@@ -85487,7 +85492,7 @@
       0,
       0
      ],
-     "displayname": "-60s Respawn Time",
+     "displayname": "+250 Damage",
      "level": 0,
      "manacost": [
       0,
@@ -85495,7 +85500,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_60"
+     "name": "special_bonus_attack_damage_250"
     }
    ]
   ],
@@ -85927,13 +85932,13 @@
   "attackrange": 140,
   "attackrate": 1.7,
   "attacktype": "DOTA_UNIT_CAP_RANGED_ATTACK",
-  "attributeagilitygain": 2.7,
+  "attributeagilitygain": 2.3,
   "attributebaseagility": 23,
   "attributebaseintelligence": 20,
   "attributebasestrength": 18,
   "attributeintelligencegain": 2,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2.1,
+  "attributestrengthgain": 2.4,
   "displayname": "Templar Assassin",
   "items": [],
   "level": 0,
@@ -85944,8 +85949,8 @@
   "projectilespeed": 900,
   "role": "Carry,Escape",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -86326,13 +86331,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5964,
+     "ID": 6545,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        30
+        -8
        ]
       }
      ],
@@ -86351,7 +86356,7 @@
       0,
       0
      ],
-     "displayname": "-30s Respawn Time",
+     "displayname": "-8 Meld Armor Reduction",
      "level": 0,
      "manacost": [
       0,
@@ -86359,7 +86364,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_30"
+     "name": "special_bonus_unique_templar_assassin_2"
     },
     {
      "AbilityCastPoint": [
@@ -86677,7 +86682,7 @@
       "name": "speed_loss",
       "tooltip": "MOVEMENT SPEED LOSS:",
       "value": [
-       25
+       30
       ]
      },
      {
@@ -86777,7 +86782,7 @@
   "attributebasestrength": 15,
   "attributeintelligencegain": 1.75,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.4,
+  "attributestrengthgain": 1.7,
   "displayname": "Terrorblade",
   "items": [],
   "level": 0,
@@ -86788,8 +86793,8 @@
   "projectilespeed": 900,
   "role": "Carry,Pusher,Nuker",
   "statushealth": 200,
-  "statushealthregen": 2,
-  "statusmana": 50,
+  "statushealthregen": 1.75,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -87371,9 +87376,9 @@
     "displayname": "Gush",
     "level": 0,
     "manacost": [
-     120,
-     120,
-     120,
+     90,
+     100,
+     110,
      120
     ],
     "name": "tidehunter_gush"
@@ -87623,7 +87628,7 @@
   "attributebasestrength": 22,
   "attributeintelligencegain": 1.7,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 3,
+  "attributestrengthgain": 3.3,
   "displayname": "Tidehunter",
   "items": [],
   "level": 0,
@@ -87634,8 +87639,8 @@
   "projectilespeed": 900,
   "role": "Initiator,Durable,Disabler,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -88503,7 +88508,7 @@
   "attributebasestrength": 17,
   "attributeintelligencegain": 2.2,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 2,
+  "attributestrengthgain": 2.3,
   "displayname": "Tinker",
   "items": [],
   "level": 0,
@@ -88514,8 +88519,8 @@
   "projectilespeed": 900,
   "role": "Carry,Nuker,Pusher",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -89276,6 +89281,14 @@
        60,
        70
       ]
+     },
+     {
+      "name": "grow_chance",
+      "value": [
+       6,
+       8,
+       10
+      ]
      }
     ],
     "behavior": [
@@ -89442,8 +89455,8 @@
   ],
   "abilitylayout": 4,
   "armorphysical": -1,
-  "attackdamagemax": 46,
-  "attackdamagemin": 40,
+  "attackdamagemax": 50,
+  "attackdamagemin": 44,
   "attackpoint": 0.49,
   "attackrange": 150,
   "attackrate": 1.7,
@@ -89454,7 +89467,7 @@
   "attributebasestrength": 26,
   "attributeintelligencegain": 1.6,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 3,
+  "attributestrengthgain": 3.3,
   "displayname": "Tiny",
   "items": [],
   "level": 0,
@@ -89465,8 +89478,8 @@
   "projectilespeed": 900,
   "role": "Carry,Nuker,Pusher,Initiator,Durable,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -90387,7 +90400,7 @@
   "attributebasestrength": 25,
   "attributeintelligencegain": 1.8,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 3.3,
+  "attributestrengthgain": 3.6,
   "displayname": "Treant Protector",
   "items": [],
   "level": 0,
@@ -90398,8 +90411,8 @@
   "projectilespeed": 900,
   "role": "Support,Initiator,Durable,Disabler,Escape",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -90780,13 +90793,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6269,
+     "ID": 6531,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        50
+        40
        ]
       }
      ],
@@ -90805,7 +90818,7 @@
       0,
       0
      ],
-     "displayname": "-50s Respawn Time",
+     "displayname": "+40 Leech Seed Damage/Heal",
      "level": 0,
      "manacost": [
       0,
@@ -90813,7 +90826,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_50"
+     "name": "special_bonus_unique_treant_2"
     },
     {
      "AbilityCastPoint": [
@@ -91363,7 +91376,7 @@
   "attributebasestrength": 20,
   "attributeintelligencegain": 1,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2.2,
+  "attributestrengthgain": 2.5,
   "displayname": "Troll Warlord",
   "items": [],
   "level": 0,
@@ -91374,8 +91387,8 @@
   "projectilespeed": 1200,
   "role": "Carry,Pusher,Disabler,Durable",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -91867,7 +91880,7 @@
      0.1,
      0.1
     ],
-    "AbilityCastRange": 1800,
+    "AbilityCastRange": 2000,
     "AbilityCastRangeBuffer": 250,
     "AbilityChannelTime": [
      0,
@@ -91914,7 +91927,7 @@
      {
       "name": "shard_speed",
       "value": [
-       1100.0
+       1200.0
       ]
      },
      {
@@ -92430,7 +92443,7 @@
   "attributebasestrength": 23,
   "attributeintelligencegain": 1.7,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.3,
+  "attributestrengthgain": 2.6,
   "displayname": "Tusk",
   "items": [],
   "level": 0,
@@ -92441,8 +92454,8 @@
   "projectilespeed": 900,
   "role": "Initiator,Disabler,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -93366,7 +93379,7 @@
   "attributebasestrength": 22,
   "attributeintelligencegain": 2.8,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.1,
+  "attributestrengthgain": 2.4,
   "displayname": "Undying",
   "items": [],
   "level": 0,
@@ -93377,8 +93390,8 @@
   "projectilespeed": 900,
   "role": "Support,Durable,Disabler,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -93405,13 +93418,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5964,
+     "ID": 5914,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        30
+        15
        ]
       }
      ],
@@ -93430,7 +93443,7 @@
       0,
       0
      ],
-     "displayname": "-30s Respawn Time",
+     "displayname": "+15 Health Regen",
      "level": 0,
      "manacost": [
       0,
@@ -93438,7 +93451,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_30"
+     "name": "special_bonus_hp_regen_15"
     },
     {
      "AbilityCastPoint": [
@@ -94177,8 +94190,8 @@
   ],
   "abilitylayout": 4,
   "armorphysical": 3,
-  "attackdamagemax": 31,
-  "attackdamagemin": 27,
+  "attackdamagemax": 28,
+  "attackdamagemin": 24,
   "attackpoint": 0.3,
   "attackrange": 150,
   "attackrate": 1.7,
@@ -94189,7 +94202,7 @@
   "attributebasestrength": 23,
   "attributeintelligencegain": 1.5,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2.7,
+  "attributestrengthgain": 3,
   "displayname": "Ursa",
   "items": [],
   "level": 0,
@@ -94200,8 +94213,8 @@
   "projectilespeed": 900,
   "role": "Carry,Jungler,Durable,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.75,
-  "statusmana": 50,
+  "statushealthregen": 0.5,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -94842,7 +94855,10 @@
      "DOTA_ABILITY_BEHAVIOR_POINT"
     ],
     "cooldown": [
-     20
+     22,
+     20,
+     18,
+     16
     ],
     "damage": [
      45,
@@ -94890,10 +94906,10 @@
       "name": "bonus_damage_pct",
       "tooltip": "%DAMAGE BONUS:",
       "value": [
-       12,
-       20,
-       28,
-       36
+       10,
+       18,
+       26,
+       34
       ]
      },
      {
@@ -95027,7 +95043,7 @@
   "attributebasestrength": 18,
   "attributeintelligencegain": 1.5,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2.6,
+  "attributestrengthgain": 2.9,
   "displayname": "Vengeful Spirit",
   "items": [],
   "level": 0,
@@ -95038,8 +95054,8 @@
   "projectilespeed": 1500,
   "role": "Support,Initiator,Disabler,Nuker,Escape",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -95947,7 +95963,7 @@
   "attributebasestrength": 18,
   "attributeintelligencegain": 1.8,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.85,
+  "attributestrengthgain": 2.15,
   "displayname": "Venomancer",
   "items": [],
   "level": 0,
@@ -95958,8 +95974,8 @@
   "projectilespeed": 900,
   "role": "Support,Nuker,Initiator,Pusher,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -96340,13 +96356,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6059,
+     "ID": 6532,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        60
+        -14
        ]
       }
      ],
@@ -96365,7 +96381,7 @@
       0,
       0
      ],
-     "displayname": "-60s Respawn Time",
+     "displayname": "+14% Poison Sting Slow",
      "level": 0,
      "manacost": [
       0,
@@ -96373,7 +96389,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_60"
+     "name": "special_bonus_unique_venomancer_2"
     },
     {
      "AbilityCastPoint": [
@@ -96760,9 +96776,7 @@
       "name": "duration",
       "tooltip": "DURATION:",
       "value": [
-       5.1,
-       5.1,
-       5.1
+       5.0
       ]
      },
      {
@@ -96838,8 +96852,8 @@
      "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
     ],
     "cooldown": [
-     70,
-     50,
+     60,
+     45,
      30
     ],
     "damage": [
@@ -96872,7 +96886,7 @@
   "attributebasestrength": 20,
   "attributeintelligencegain": 1.8,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2.1,
+  "attributestrengthgain": 2.4,
   "displayname": "Viper",
   "items": [],
   "level": 0,
@@ -96883,8 +96897,8 @@
   "projectilespeed": 1200,
   "role": "Carry,Durable,Initiator,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -97400,10 +97414,10 @@
       "name": "chill_duration",
       "tooltip": "DURATION:",
       "value": [
-       3,
-       4,
-       5,
-       6
+       3.25,
+       4.5,
+       5.75,
+       7
       ]
      },
      {
@@ -97782,7 +97796,7 @@
   "attributebasestrength": 22,
   "attributeintelligencegain": 2.5,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 2.4,
+  "attributestrengthgain": 2.7,
   "displayname": "Visage",
   "items": [],
   "level": 0,
@@ -97793,8 +97807,8 @@
   "projectilespeed": 900,
   "role": "Support,Nuker,Durable,Disabler,Pusher",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -98115,13 +98129,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6066,
+     "ID": 6522,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        40
+        2
        ]
       }
      ],
@@ -98140,7 +98154,7 @@
       0,
       0
      ],
-     "displayname": "-40s Respawn Time",
+     "displayname": "Soul Assumption Double Strike",
      "level": 0,
      "manacost": [
       0,
@@ -98148,7 +98162,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_40"
+     "name": "special_bonus_unique_visage_3"
     }
    ],
    [
@@ -98647,9 +98661,9 @@
     "displayname": "Chaotic Offering",
     "level": 0,
     "manacost": [
-     200,
-     300,
-     400
+     250,
+     350,
+     450
     ],
     "name": "warlock_rain_of_chaos"
    }
@@ -98668,7 +98682,7 @@
   "attributebasestrength": 22,
   "attributeintelligencegain": 2.7,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 2.5,
+  "attributestrengthgain": 2.8,
   "displayname": "Warlock",
   "items": [],
   "level": 0,
@@ -98679,8 +98693,8 @@
   "projectilespeed": 1200,
   "role": "Support,Initiator,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -99001,13 +99015,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5964,
+     "ID": 6505,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        30
+        0
        ]
       }
      ],
@@ -99026,7 +99040,7 @@
       0,
       0
      ],
-     "displayname": "-30s Respawn Time",
+     "displayname": "Summons a Golem on death",
      "level": 0,
      "manacost": [
       0,
@@ -99034,7 +99048,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_30"
+     "name": "special_bonus_unique_warlock_4"
     }
    ],
    [
@@ -99541,7 +99555,7 @@
   "attributebasestrength": 15,
   "attributeintelligencegain": 1.8,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 1.5,
+  "attributestrengthgain": 1.8,
   "displayname": "Weaver",
   "items": [],
   "level": 0,
@@ -99552,8 +99566,8 @@
   "projectilespeed": 900,
   "role": "Carry,Escape",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -100428,7 +100442,7 @@
   "attributebasestrength": 15,
   "attributeintelligencegain": 2.6,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 2.5,
+  "attributestrengthgain": 2.8,
   "displayname": "Windranger",
   "items": [],
   "level": 0,
@@ -100439,8 +100453,8 @@
   "projectilespeed": 1250,
   "role": "Carry,Support,Disabler,Escape,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -100703,13 +100717,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6055,
+     "ID": 6144,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        15
+        1
        ]
       }
      ],
@@ -100728,7 +100742,7 @@
       0,
       0
      ],
-     "displayname": "+15% Spell Amplification",
+     "displayname": "Windrun Grants Invisibility",
      "level": 0,
      "manacost": [
       0,
@@ -100736,7 +100750,7 @@
       0,
       0
      ],
-     "name": "special_bonus_spell_amplify_15"
+     "name": "special_bonus_unique_windranger"
     },
     {
      "AbilityCastPoint": [
@@ -100761,13 +100775,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6000,
+     "ID": 6562,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        20
+        120
        ]
       }
      ],
@@ -100786,7 +100800,7 @@
       0,
       0
      ],
-     "displayname": "+20% Magic Resistance",
+     "displayname": "+120 Powershot Damage",
      "level": 0,
      "manacost": [
       0,
@@ -100794,7 +100808,7 @@
       0,
       0
      ],
-     "name": "special_bonus_magic_resistance_20"
+     "name": "special_bonus_unique_windranger_3"
     }
    ],
    [
@@ -100821,13 +100835,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5943,
+     "ID": 5963,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        100
+        150
        ]
       }
      ],
@@ -100846,7 +100860,7 @@
       0,
       0
      ],
-     "displayname": "+100 Attack Range",
+     "displayname": "+150 Attack Range",
      "level": 0,
      "manacost": [
       0,
@@ -100854,7 +100868,7 @@
       0,
       0
      ],
-     "name": "special_bonus_attack_range_100"
+     "name": "special_bonus_attack_range_150"
     },
     {
      "AbilityCastPoint": [
@@ -100879,13 +100893,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6144,
+     "ID": 6561,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        7
+        30
        ]
       }
      ],
@@ -100904,7 +100918,7 @@
       0,
       0
      ],
-     "displayname": "-7s Powershot Cooldown",
+     "displayname": "30% Cooldown Reduction",
      "level": 0,
      "manacost": [
       0,
@@ -100912,7 +100926,7 @@
       0,
       0
      ],
-     "name": "special_bonus_unique_windranger"
+     "name": "special_bonus_cooldown_reduction_30"
     }
    ]
   ],
@@ -101290,7 +101304,7 @@
       "name": "bonus_attack_speed",
       "tooltip": "CURSE ATTACK SPEED:",
       "value": [
-       70
+       85
       ]
      },
      {
@@ -101338,7 +101352,7 @@
   "attributebasestrength": 24,
   "attributeintelligencegain": 3.1,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 2.1,
+  "attributestrengthgain": 2.4,
   "displayname": "Winter Wyvern",
   "items": [],
   "level": 0,
@@ -101349,8 +101363,8 @@
   "projectilespeed": 700,
   "role": "Support,Disabler,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -101671,13 +101685,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6038,
+     "ID": 6523,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        35
+        1
        ]
       }
      ],
@@ -101696,7 +101710,7 @@
       0,
       0
      ],
-     "displayname": "-35s Respawn Time",
+     "displayname": "+1s Cold Embrace Duration",
      "level": 0,
      "manacost": [
       0,
@@ -101704,7 +101718,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_35"
+     "name": "special_bonus_unique_winter_wyvern_3"
     }
    ],
    [
@@ -102563,7 +102577,7 @@
   "attributebasestrength": 17,
   "attributeintelligencegain": 1.7,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 1.9,
+  "attributestrengthgain": 2.2,
   "displayname": "Io",
   "items": [],
   "level": 0,
@@ -102574,8 +102588,8 @@
   "projectilespeed": 1200,
   "role": "Support,Escape,Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -102956,13 +102970,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6269,
+     "ID": 6537,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        50
+        1
        ]
       }
      ],
@@ -102981,7 +102995,7 @@
       0,
       0
      ],
-     "displayname": "-50s Respawn Time",
+     "displayname": "Tether Stuns",
      "level": 0,
      "manacost": [
       0,
@@ -102989,7 +103003,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_50"
+     "name": "special_bonus_unique_wisp_2"
     },
     {
      "AbilityCastPoint": [
@@ -103456,7 +103470,7 @@
   "attributebasestrength": 16,
   "attributeintelligencegain": 2.9,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 1.8,
+  "attributestrengthgain": 2.1,
   "displayname": "Witch Doctor",
   "items": [],
   "level": 0,
@@ -103467,8 +103481,8 @@
   "projectilespeed": 1200,
   "role": "Support,Nuker,Disabler",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -103671,13 +103685,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6066,
+     "ID": 6524,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        40
+        2
        ]
       }
      ],
@@ -103696,7 +103710,7 @@
       0,
       0
      ],
-     "displayname": "-40s Respawn Time",
+     "displayname": "+2 Cask Bounces",
      "level": 0,
      "manacost": [
       0,
@@ -103704,7 +103718,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_40"
+     "name": "special_bonus_unique_witch_doctor_3"
     }
    ],
    [
@@ -104361,7 +104375,7 @@
   "attributebasestrength": 19,
   "attributeintelligencegain": 2.7,
   "attributeprimary": "DOTA_ATTRIBUTE_INTELLECT",
-  "attributestrengthgain": 2.3,
+  "attributestrengthgain": 2.6,
   "displayname": "Zeus",
   "items": [],
   "level": 0,
@@ -104372,8 +104386,8 @@
   "projectilespeed": 1100,
   "role": "Nuker",
   "statushealth": 200,
-  "statushealthregen": 0.25,
-  "statusmana": 50,
+  "statushealthregen": 0,
+  "statusmana": 75,
   "statusmanaregen": 0.01,
   "talents": [
    [
@@ -104694,13 +104708,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6066,
+     "ID": 6518,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        40
+        0.5
        ]
       }
      ],
@@ -104719,7 +104733,7 @@
       0,
       0
      ],
-     "displayname": "-40s Respawn Time",
+     "displayname": "+0.5s Lightning Bolt Ministun",
      "level": 0,
      "manacost": [
       0,
@@ -104727,7 +104741,7 @@
       0,
       0
      ],
-     "name": "special_bonus_respawn_reduction_40"
+     "name": "special_bonus_unique_zeus_3"
     }
    ],
    [
