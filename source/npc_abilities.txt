@@ -349,7 +349,6 @@
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
 		"FightRecapLevel"				"2"
 
-		"HasScepterUpgrade"			"1"
 		"AbilitySound"					"Hero_Axe.Culling_Blade_Success"
 
 		"AbilityCastPoint"				"0.3"
@@ -4213,7 +4212,7 @@
 		
 		"AbilityCastPoint"				"0.3 0.3 0.3"
 
-		"AbilityCooldown"				"80.0 80.0 80.0"
+		"AbilityCooldown"				"80"
 		"AbilityDuration"				"25.0 25.0 25.0"
 	
 		"AbilityManaCost"				"100 150 200"
@@ -4228,7 +4227,7 @@
 			"02"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"gods_strength_bonus_str"		"16 28 40"		
+				"gods_strength_bonus_str"		"12 24 36"		
 			}
 			"03"
 			{
@@ -11807,7 +11806,7 @@
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"heath_regen"			"2 4 6 8"
+				"heath_regen"			"3 5 7 9"
 			}
 			"04"
 			{
@@ -13576,6 +13575,8 @@
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
 		"SpellDispellableType"			"SPELL_DISPELLABLE_YES_STRONG"
 		"AbilitySound"					"Hero_Spirit_Breaker.GreaterBash"
+
+		"AbilityCooldown"				"1.5 1.5 1.5 1.5"
 
 		"AbilityModifierSupportBonus"	"40"
 
@@ -19680,6 +19681,8 @@
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
 		"FightRecapLevel"				"1"
 		"AbilitySound"					"Hero_Medusa.MysticSnake.Cast"
+		
+		"HasScepterUpgrade"				"1"
 
 		"AbilityCastRange"				"800"
 		"AbilityCastPoint"				"0.4 0.4 0.4 0.4"
@@ -22873,6 +22876,8 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"	
+		
+		"HasScepterUpgrade"				"1"
 		
 		
 		"AbilityCastRange"				"900"
