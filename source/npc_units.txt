@@ -310,7 +310,7 @@
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
-		"HealthBarOffset"			"150"
+		"HealthBarOffset"			"200"
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			// Type of locomotion - ground, air
 		"MovementSpeed"				"325"		// Speed
@@ -377,7 +377,7 @@
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
-		"HealthBarOffset"			"185"
+		"HealthBarOffset"			"150"
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			// Type of locomotion - ground, air
 		"MovementSpeed"				"325"		// Speed
@@ -444,7 +444,7 @@
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
-		"HealthBarOffset"			"155"
+		"HealthBarOffset"			"150"
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			// Type of locomotion - ground, air
 		"MovementSpeed"				"325"		// Speed
@@ -511,7 +511,7 @@
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
-		"HealthBarOffset"			"155"
+		"HealthBarOffset"			"200"
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			// Type of locomotion - ground, air
 		"MovementSpeed"				"325"		// Speed
@@ -578,7 +578,7 @@
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
-		"HealthBarOffset"			"130"
+		"HealthBarOffset"			"150"
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			// Type of locomotion - ground, air
 		"MovementSpeed"				"325"		// Speed
@@ -645,7 +645,7 @@
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
-		"HealthBarOffset"			"120"
+		"HealthBarOffset"			"150"
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			// Type of locomotion - ground, air
 		"MovementSpeed"				"325"		// Speed
@@ -712,7 +712,7 @@
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
-		"HealthBarOffset"			"120"
+		"HealthBarOffset"			"150"
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			// Type of locomotion - ground, air
 		"MovementSpeed"				"325"		// Speed
@@ -846,7 +846,7 @@
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
-		"HealthBarOffset"			"130"
+		"HealthBarOffset"			"150"
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			// Type of locomotion - ground, air
 		"MovementSpeed"				"325"		// Speed
@@ -913,7 +913,7 @@
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
-		"HealthBarOffset"			"130"
+		"HealthBarOffset"			"150"
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			// Type of locomotion - ground, air
 		"MovementSpeed"				"325"		// Speed
@@ -3483,7 +3483,7 @@
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SIEGE"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"80"
-		"HealthBarOffset"			"160"
+		"HealthBarOffset"			"150"
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			// Type of locomotion - ground, air
 		"MovementSpeed"				"325"		// Speed
@@ -3553,7 +3553,7 @@
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SIEGE"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"80"
-		"HealthBarOffset"			"160"
+		"HealthBarOffset"			"150"
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			// Type of locomotion - ground, air
 		"MovementSpeed"				"325"		// Speed
@@ -3623,7 +3623,7 @@
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SIEGE"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"80"
-		"HealthBarOffset"			"160"
+		"HealthBarOffset"			"150"
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			// Type of locomotion - ground, air
 		"MovementSpeed"				"325"		// Speed
@@ -3693,7 +3693,7 @@
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SIEGE"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"80"
-		"HealthBarOffset"			"160"
+		"HealthBarOffset"			"150"
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			// Type of locomotion - ground, air
 		"MovementSpeed"				"325"		// Speed
@@ -3763,7 +3763,7 @@
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SIEGE"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"80"
-		"HealthBarOffset"			"160"
+		"HealthBarOffset"			"150"
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			// Type of locomotion - ground, air
 		"MovementSpeed"				"325"		// Speed
@@ -3833,7 +3833,7 @@
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SIEGE"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"80"
-		"HealthBarOffset"			"160"
+		"HealthBarOffset"			"150"
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_GROUND"			// Type of locomotion - ground, air
 		"MovementSpeed"				"325"		// Speed
@@ -7713,8 +7713,8 @@
 		"MagicalResistance"				"0"		// Magical protection.
 
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"34"		// Damage range max.
+		"AttackDamageMin"			"34"		// Damage range min.
+		"AttackDamageMax"			"38"		// Damage range max.
 		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
 		"AttackRate"				"1.75"		// Speed of attack.
 		"AttackAnimationPoint"		"0.467"		// Normalized time in animation cycle to attack.
