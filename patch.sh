@@ -8,8 +8,8 @@ if [ -n "$1" ]; then
     git add dist
     git add source
     git commit -m $1
-    git push
     npm version minor
+    git push
     npm publish
 else
     echo "missing patch"
