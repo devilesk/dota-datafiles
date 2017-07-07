@@ -4,7 +4,8 @@
   "description": "Dota JSON data",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "patch": "./patch.sh"
   },
   "repository": {
     "type": "git",
