@@ -536,7 +536,7 @@
 		"AbilitySound"					"Hero_Bane.Nightmare"
 
 		"AbilityCastRange"				"500 550 600 650"
-		"AbilityCastPoint"				"0.5 0.5 0.5 0.5"
+		"AbilityCastPoint"				"0.4"
 
 		"AbilityCooldown"				"22 19 16 13"
 		"AbilityDuration"				"4.0 5.0 6.0 7.0"
@@ -740,7 +740,7 @@
 
 		"AbilityCooldown"				"60"
 
-		"AbilityManaCost"				"150 200 250"		
+		"AbilityManaCost"				"200 225 250"		
 		
 		"AbilityCastRange"				"1000"
 			
@@ -999,7 +999,7 @@
 		"AbilityCastRange"				"1400"
 		"AbilityCastPoint"				"0.69 0.69 0.69 0.69"
 
-		"AbilityCooldown"				"15.0 15.0 15.0 15.0"
+		"AbilityCooldown"				"18 17 16 15"
 		"AbilityDuration"				"1.0 1.25 1.5 1.75"
 
 		"AbilityDamage"					"110 160 210 260"
@@ -1053,7 +1053,7 @@
 
 		"AbilityDamage"					"0 0 0 0"
 
-		"AbilityManaCost"				"20 30 40 50"		
+		"AbilityManaCost"				"35 40 45 50"		
 
 		"AbilitySpecial"
 		{
@@ -1752,7 +1752,7 @@
 			"02"
 			{	
 				"var_type"			"FIELD_FLOAT"
-				"duration"			"1.1 1.6 2.1 2.6"
+				"duration"			"1.4 1.8 2.2 2.6"
 			}
 			"03"
 			{
@@ -1874,11 +1874,13 @@
 			{
 				"var_type"					"FIELD_INTEGER"
 				"damage"					"600 725 850"
+				"LinkedSpecialBonus"			"special_bonus_unique_lion_3"
 			}
 			"02"
 			{
 				"var_type"					"FIELD_INTEGER"
 				"damage_scepter"			"725 875 1025"
+				"LinkedSpecialBonus"			"special_bonus_unique_lion_3"
 			}
 			"03"
 			{
@@ -2956,7 +2958,7 @@
 			"04"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"orb_vision"				"550"
+				"orb_vision"				"450"
 			}
 			"05"
 			{
@@ -3017,7 +3019,7 @@
 		"AbilityCastPoint"				"0 0 0 0"
 		"AbilityChannelTime"			"0.75 1.50 2.25 3.25"
 
-		"AbilityCooldown"				"6.0 6.0 6.0 6.0"
+		"AbilityCooldown"				"6"
 
 		"AbilityManaCost"				"0 0 0 0"
 
@@ -3782,7 +3784,7 @@
 		
 		"AbilityManaCost"				"160"
 
-		"AbilityCooldown"				"240 140 40"
+		"AbilityCooldown"				"200 120 40"
 
 		"AbilityModifierSupportValue"	"0.2"	// Slow isn't the main function of this ability.
 
@@ -4121,7 +4123,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"bolt_stun_duration"	"2.0"
+				"bolt_stun_duration"	"1.7 1.8 1.9 2.0"
 			}
 			"03"
 			{
@@ -4176,7 +4178,7 @@
 
 		"AbilityCastPoint"				"0.0 0.0 0.0 0.0"
 
-		"AbilityCooldown"				"34.0 28.0 22.0 16.0"
+		"AbilityCooldown"				"35 30 25 20"
 		"AbilityDuration"				"8.0"
 	
 		"AbilityManaCost"				"25 25 25 25"
@@ -4733,7 +4735,7 @@
 
 		"AbilityCooldown"				"8"
 
-		"AbilityManaCost"				"120 120 120 120"
+		"AbilityManaCost"				"90 100 110 120"
 
 		"AbilityModifierSupportValue"	"0.25"	// generally used for damage only
 
@@ -4851,7 +4853,7 @@
 			"05"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"bonus_range_scepter"		"85"
+				"bonus_range_scepter"		"150"
 			}
 			"06"
 			{
@@ -5826,7 +5828,7 @@
 		"AbilityCastRange"				"800"
 		"AbilityCastPoint"				"0.15"
 		
-		"AbilityCooldown"				"12.0 12.0 12.0 12.0"
+		"AbilityCooldown"				"18 16 14 12"
 
 		"AbilityDamage"					"0 0 0 0"
 
@@ -5842,7 +5844,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"stun_duration"			"1.5 2.25 3.0 3.75"
+				"stun_duration"			"2.0 2.6 3.2 3.8"
 			}
 			"03"
 			{
@@ -6116,12 +6118,12 @@
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"slow_movement_speed"	"-30 -30 -30 -30"
+				"slow_movement_speed"	"-24 -26 -28 -30"
 			}
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"slow_attack_speed"		"-30"
+				"slow_attack_speed"		"-24 -26 -28 -30"
 			}		
 		}
 	}
@@ -7283,7 +7285,7 @@
 			"05"
 			{
 				"var_type"		"FIELD_INTEGER"
-				"bonus_damage" "-20"
+				"bonus_damage" "-25"
 			}
 		}
 	}
@@ -7315,7 +7317,7 @@
 
 		"AbilityCastPoint"				"0.5 0.5 0.5"
 
-		"AbilityCooldown"				"90 80 70"
+		"AbilityCooldown"				"100"
 
 		"AbilityManaCost"				"175 340 500"		
 		
@@ -10300,7 +10302,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"vision_range"			"750"
+				"vision_range"			"500"
 			}
 			"02"
 			{
@@ -11663,7 +11665,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"duration"				"50.0"
+				"duration"				"40.0"
 			}
 			"02"
 			{
@@ -12639,7 +12641,7 @@
 
 		"AbilityCooldown"				"40.0 40.0 40.0 40.0"
 
-		"AbilityManaCost"				"100 100 100 100"
+		"AbilityManaCost"				"125"
 
 		"AbilitySpecial"
 		{
@@ -12887,7 +12889,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"heal_amount"			"225 350 475"
+				"heal_amount"			"250 375 500"
 				"LinkedSpecialBonus"	"special_bonus_unique_chen_2"
 			}
 			"02"
@@ -13049,12 +13051,12 @@
 			"02"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"illusion_damage_outgoing"	"-70"
+				"illusion_damage_outgoing"	"-60"
 			}
 			"03"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"tooltip_outgoing"	"30"
+				"tooltip_outgoing"	"40"
 			}
 			"04"
 			{
@@ -13425,7 +13427,7 @@
 		
 		"AbilityCooldown"				"40.0"
 		
-		"AbilityManaCost"				"100 125 150"
+		"AbilityManaCost"				"150"
 		
 		"AbilityDamage"					"250 350 450"
 		
@@ -17511,12 +17513,12 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"tombstone_health"				"6 8 10 14"
+				"tombstone_health"				"8 10 12 16"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"hits_to_destroy_tooltip"				"3 4 5 7"
+				"hits_to_destroy_tooltip"				"4 5 6 8"
 			}
 			"03"
 			{
@@ -18229,7 +18231,7 @@
 			"07"
 			{
 				"var_type"							"FIELD_INTEGER"
-				"damage_reflect_pct_tooltip"		"100"
+				"damage_reflect_pct"		"100"
 				"LinkedSpecialBonus"				"special_bonus_unique_nyx"
 			}
 		}
@@ -21441,7 +21443,7 @@
 		
 		"AbilityCooldown"				"60.0 40.0 20.0"
 
-		"AbilityManaCost"				"350 575 800"
+		"AbilityManaCost"				"300 550 800"
 			
 		"AbilitySpecial"
 		{
@@ -23891,7 +23893,7 @@
 			"12"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"impact_damage_tooltip"		"100 180 260 340"
+				"impact_damage_tooltip"		"140 210 280 350"
 			}
 			"13"
 			{
@@ -35454,6 +35456,22 @@
 			{
 				"var_type"					"FIELD_INTEGER"
 				"value"				"80"
+			}
+		}
+	}
+
+	"special_bonus_unique_lion_3"
+	{
+		"ID"					"6600"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"value"				"300"
 			}
 		}
 	}

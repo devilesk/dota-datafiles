@@ -7268,7 +7268,7 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_WARD"
 		
-		"VisionDaytimeRange"		"1200"		// Range of vision during day light.
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
 		"VisionNighttimeRange"		"800"		// Range of vision at night time.
 
 		"HasInventory"				"0"
@@ -7324,7 +7324,7 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_WARD"
 		
-		"VisionDaytimeRange"		"1200"		// Range of vision during day light.
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
 		"VisionNighttimeRange"		"800"		// Range of vision at night time.
 
 		"HasInventory"				"0"
@@ -7381,7 +7381,7 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_WARD"
 		
-		"VisionDaytimeRange"		"1200"		// Range of vision during day light.
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
 		"VisionNighttimeRange"		"800"		// Range of vision at night time.
 
 		"HasInventory"				"0"
@@ -7438,7 +7438,7 @@
 		"CombatClassDefend"			"DOTA_COMBAT_CLASS_DEFEND_BASIC"
 		"UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_WARD"
 		
-		"VisionDaytimeRange"		"1200"		// Range of vision during day light.
+		"VisionDaytimeRange"		"800"		// Range of vision during day light.
 		"VisionNighttimeRange"		"800"		// Range of vision at night time.
 
 		"HasInventory"				"0"
@@ -9720,7 +9720,7 @@
 		"MovementSpeed"				"0"		// Speed
 		"MovementTurnRate"			"0.0"		// Turning rate.
 
-		"StatusHealth"				"6"		// Base health.
+		"StatusHealth"				"8"		// Base health.
 		"StatusHealthRegen"			"0"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -9772,7 +9772,7 @@
 		"MovementSpeed"				"0"		// Speed
 		"MovementTurnRate"			"0.0"		// Turning rate.
 
-		"StatusHealth"				"8"		// Base health.
+		"StatusHealth"				"10"		// Base health.
 		"StatusHealthRegen"			"0"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -9824,7 +9824,7 @@
 		"MovementSpeed"				"0"		// Speed
 		"MovementTurnRate"			"0.0"		// Turning rate.
 
-		"StatusHealth"				"10"		// Base health.
+		"StatusHealth"				"12"		// Base health.
 		"StatusHealthRegen"			"0"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -9876,7 +9876,7 @@
 		"MovementSpeed"				"0"		// Speed
 		"MovementTurnRate"			"0.0"		// Turning rate.
 
-		"StatusHealth"				"14"		// Base health.
+		"StatusHealth"				"16"		// Base health.
 		"StatusHealthRegen"			"0"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
