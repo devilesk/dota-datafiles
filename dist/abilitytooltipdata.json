@@ -85,7 +85,7 @@
   "lore": "In his encounter with the Dead Gods, Anti-Mage learned the value of being elusive."
  },
  "antimage_mana_break": {
-  "description": "Burns an opponent's mana on each attack.  Mana Break deals 60%% of the mana burned as damage to the target.",
+  "description": "Burns an opponent's mana on each attack.  Mana Break deals 50%% of the mana burned as damage to the target.",
   "lore": "A modified technique of the Turstarkuri monks' peaceful ways is to turn magical energies on their owner."
  },
  "antimage_mana_void": {
@@ -495,7 +495,7 @@
   "description": "The Dark Troll Summoner stirs the ground underfoot, raising the remains of trolls long dead, bringing to life two skeleton Warriors who will fight at his side."
  },
  "dark_willow_bedlam": {
-  "description": "Dark Willow's pet wisp roams around her for the duraton, rapidly attacking nearby enemies.  Bedlam cannot be used while Terrorize is active.",
+  "description": "Dark Willow's pet wisp roams around her for the duration, rapidly attacking nearby enemies.  Bedlam cannot be used while Terrorize is active.",
   "lore": "You'll have to excuse my friend Jex. He's really into murder."
  },
  "dark_willow_bramble_maze": {
@@ -2365,6 +2365,7 @@
  "special_bonus_mp_regen_8": {},
  "special_bonus_night_vision_1000": {},
  "special_bonus_night_vision_400": {},
+ "special_bonus_night_vision_500": {},
  "special_bonus_night_vision_600": {},
  "special_bonus_reincarnation_200": {},
  "special_bonus_respawn_reduction_15": {},
@@ -2421,6 +2422,7 @@
  "special_bonus_unique_alchemist": {},
  "special_bonus_unique_alchemist_2": {},
  "special_bonus_unique_alchemist_3": {},
+ "special_bonus_unique_alchemist_4": {},
  "special_bonus_unique_ancient_apparition_1": {},
  "special_bonus_unique_ancient_apparition_2": {},
  "special_bonus_unique_ancient_apparition_3": {},
@@ -2628,6 +2630,7 @@
  "special_bonus_unique_medusa_4": {},
  "special_bonus_unique_meepo": {},
  "special_bonus_unique_meepo_2": {},
+ "special_bonus_unique_meepo_3": {},
  "special_bonus_unique_mirana_1": {},
  "special_bonus_unique_mirana_2": {},
  "special_bonus_unique_mirana_3": {},
@@ -2645,9 +2648,12 @@
  "special_bonus_unique_morphling_4": {},
  "special_bonus_unique_morphling_5": {},
  "special_bonus_unique_morphling_6": {},
+ "special_bonus_unique_morphling_7": {},
+ "special_bonus_unique_morphling_8": {},
  "special_bonus_unique_naga_siren": {},
  "special_bonus_unique_naga_siren_2": {},
  "special_bonus_unique_naga_siren_3": {},
+ "special_bonus_unique_naga_siren_4": {},
  "special_bonus_unique_necrophos": {},
  "special_bonus_unique_necrophos_2": {},
  "special_bonus_unique_nevermore_1": {},
@@ -2693,6 +2699,7 @@
  "special_bonus_unique_puck": {},
  "special_bonus_unique_puck_2": {},
  "special_bonus_unique_puck_3": {},
+ "special_bonus_unique_puck_4": {},
  "special_bonus_unique_pudge_1": {},
  "special_bonus_unique_pudge_2": {},
  "special_bonus_unique_pudge_3": {},
@@ -2778,6 +2785,7 @@
  "special_bonus_unique_templar_assassin_3": {},
  "special_bonus_unique_templar_assassin_4": {},
  "special_bonus_unique_templar_assassin_5": {},
+ "special_bonus_unique_templar_assassin_6": {},
  "special_bonus_unique_terrorblade": {},
  "special_bonus_unique_terrorblade_2": {},
  "special_bonus_unique_terrorblade_3": {},
@@ -2991,7 +2999,7 @@
   "lore": "Her blades pierce the skin as much as the mind, furthering her understanding of the mystery that is reality."
  },
  "templar_assassin_psionic_trap": {
-  "description": "Templar Assassin places mystical traps that invisibly monitor enemy movement. When sprung at her command, they exert a slowing influence of 30%% in the area. Traps charge up to slow an additional 5%% every second, up to 50%%. Deals bonus damage when fully charged.",
+  "description": "Templar Assassin places mystical traps that invisibly monitor enemy movement. When sprung at her command, they exert a slowing influence of %movement_speed_min%%% in the area. Traps charge up to slow %movement_speed_max%%% after %trap_max_charge_duration% seconds. Deals bonus damage when fully charged.",
   "lore": "Calling upon the reach of the Hidden Temple, none escape the eye of the Templar."
  },
  "templar_assassin_refraction": {
@@ -3090,7 +3098,7 @@
   "lore": "The roots and tendrils of the Treant Protectors are far-reaching, stimulating the growth and rejuvenation of all of nature."
  },
  "treant_natures_guise": {
-  "description": "Turns Treant invisible when he is within %radius% radius of a tree for %fade_time% seconds. Increases movement speed by %bonus_move_speed% while invisible, and causes a %bash_duration% seconds disarming root when attacking out of invisibility.",
+  "description": "Turns Treant invisible after a short delay when he is within close radius of a tree. Increases movement speed while invisible, and causes a disarming root when attacking out of invisibility.",
   "lore": "The Protectors don't often come into vision; their natural state being nestled within their leafy brethren."
  },
  "treant_overgrowth": {

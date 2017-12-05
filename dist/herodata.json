@@ -1845,13 +1845,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6351,
+     "ID": 6079,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        30
+        20
        ]
       }
      ],
@@ -1870,7 +1870,7 @@
       0,
       0
      ],
-     "displayname": "+30 Health Regen",
+     "displayname": "+20 Health Regen",
      "level": 0,
      "manacost": [
       0,
@@ -1878,7 +1878,7 @@
       0,
       0
      ],
-     "name": "special_bonus_hp_regen_30"
+     "name": "special_bonus_hp_regen_20"
     }
    ],
    [
@@ -2708,7 +2708,7 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5932,
+     "ID": 6101,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
@@ -2733,7 +2733,7 @@
       0,
       0
      ],
-     "displayname": "+5 Armor",
+     "displayname": "-5s Unstable Concoction Cooldown",
      "level": 0,
      "manacost": [
       0,
@@ -2741,7 +2741,7 @@
       0,
       0
      ],
-     "name": "special_bonus_armor_5"
+     "name": "special_bonus_unique_alchemist"
     }
    ],
    [
@@ -2768,13 +2768,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5903,
+     "ID": 6195,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        250
+        350
        ]
       }
      ],
@@ -2793,7 +2793,7 @@
       0,
       0
      ],
-     "displayname": "+250 Health",
+     "displayname": "+350 Health",
      "level": 0,
      "manacost": [
       0,
@@ -2801,7 +2801,7 @@
       0,
       0
      ],
-     "name": "special_bonus_hp_250"
+     "name": "special_bonus_hp_350"
     },
     {
      "AbilityCastPoint": [
@@ -2950,7 +2950,7 @@
       {
        "name": "value",
        "value": [
-        200
+        360
        ]
       }
      ],
@@ -2969,7 +2969,7 @@
       0,
       0
      ],
-     "displayname": "+200 Unstable Concoction Damage",
+     "displayname": "+360 Unstable Concoction Damage",
      "level": 0,
      "manacost": [
       0,
@@ -3062,13 +3062,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6101,
+     "ID": 7054,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        8
+        30
        ]
       }
      ],
@@ -3087,7 +3087,7 @@
       0,
       0
      ],
-     "displayname": "-8s Unstable Concoction Cooldown",
+     "displayname": "+30 Chemical Rage Regeneration",
      "level": 0,
      "manacost": [
       0,
@@ -3095,7 +3095,7 @@
       0,
       0
      ],
-     "name": "special_bonus_unique_alchemist"
+     "name": "special_bonus_unique_alchemist_4"
     }
    ]
   ],
@@ -4231,7 +4231,7 @@
      {
       "name": "damage_per_burn",
       "value": [
-       0.6
+       0.5
       ]
      },
      {
@@ -4318,10 +4318,10 @@
      "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
     ],
     "cooldown": [
+     15,
      12,
      9,
-     7,
-     5
+     6
     ],
     "damage": [
      0,
@@ -4759,7 +4759,7 @@
       {
        "name": "value",
        "value": [
-        1
+        2
        ]
       }
      ],
@@ -4778,7 +4778,7 @@
       0,
       0
      ],
-     "displayname": "-1s Blink Cooldown",
+     "displayname": "-2s Blink Cooldown",
      "level": 0,
      "manacost": [
       0,
@@ -4883,7 +4883,7 @@
       {
        "name": "incoming_damage",
        "value": [
-        200
+        250
        ]
       },
       {
@@ -7151,9 +7151,9 @@
    {
     "AbilityCastPoint": 0.4,
     "AbilityCastRange": [
+     425,
      500,
-     550,
-     600,
+     575,
      650
     ],
     "AbilityCastRangeBuffer": 250,
@@ -7205,9 +7205,9 @@
       "name": "cast_range_tooltip",
       "tooltip": "CAST RANGE:",
       "value": [
+       425,
        500,
-       550,
-       600,
+       575,
        650
       ]
      }
@@ -9088,10 +9088,10 @@
       "name": "axe_damage",
       "tooltip": "DAMAGE PER AXE:",
       "value": [
-       40,
-       70,
-       100,
-       130
+       30,
+       60,
+       90,
+       120
       ]
      },
      {
@@ -12242,7 +12242,7 @@
      },
      {
       "name": "crit_chance",
-      "tooltip": "%CRIT CHANCE:",
+      "tooltip": "%CRITICAL CHANCE:",
       "value": [
        10,
        15,
@@ -12252,7 +12252,7 @@
      },
      {
       "name": "crit_multiplier",
-      "tooltip": "%CRIT DAMAGE:",
+      "tooltip": "%CRITICAL DAMAGE:",
       "value": [
        230
       ]
@@ -14476,7 +14476,7 @@
       {
        "name": "value",
        "value": [
-        60
+        75
        ]
       }
      ],
@@ -14495,7 +14495,7 @@
       0,
       0
      ],
-     "displayname": "+60 Spawn Spiderling Damage",
+     "displayname": "+75 Spawn Spiderling Damage",
      "level": 0,
      "manacost": [
       0,
@@ -14764,13 +14764,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5908,
+     "ID": 6020,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        60
+        50
        ]
       }
      ],
@@ -14789,7 +14789,7 @@
       0,
       0
      ],
-     "displayname": "+60 Attack Speed",
+     "displayname": "+50 Attack Speed",
      "level": 0,
      "manacost": [
       0,
@@ -14797,7 +14797,7 @@
       0,
       0
      ],
-     "name": "special_bonus_attack_speed_60"
+     "name": "special_bonus_attack_speed_50"
     }
    ],
    [
@@ -14830,7 +14830,7 @@
       {
        "name": "value",
        "value": [
-        75
+        60
        ]
       }
      ],
@@ -14849,7 +14849,7 @@
       0,
       0
      ],
-     "displayname": "+75 Insatiable Hunger Damage/Lifesteal",
+     "displayname": "+60 Insatiable Hunger Damage/Lifesteal",
      "level": 0,
      "manacost": [
       0,
@@ -15381,7 +15381,7 @@
   "attackrange": 150,
   "attackrate": 1.7,
   "attacktype": "DOTA_UNIT_CAP_MELEE_ATTACK",
-  "attributeagilitygain": 1.6,
+  "attributeagilitygain": 1,
   "attributebaseagility": 15,
   "attributebaseintelligence": 15,
   "attributebasestrength": 23,
@@ -16025,10 +16025,10 @@
       "name": "armor_reduction",
       "tooltip": "ARMOR REDUCTION:",
       "value": [
-       -1,
-       -3,
-       -5,
-       -7
+       1,
+       3,
+       5,
+       7
       ]
      },
      {
@@ -16342,7 +16342,7 @@
      "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
     ],
     "cooldown": [
-     130
+     145
     ],
     "damage": [
      0,
@@ -17130,9 +17130,9 @@
     "displayname": "Holy Persuasion",
     "level": 0,
     "manacost": [
-     100,
+     70,
+     90,
      110,
-     120,
      130
     ],
     "name": "chen_holy_persuasion"
@@ -17360,13 +17360,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6017,
+     "ID": 6372,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        20
+        35
        ]
       }
      ],
@@ -17385,7 +17385,7 @@
       0,
       0
      ],
-     "displayname": "+20% XP Gain",
+     "displayname": "+35% XP Gain",
      "level": 0,
      "manacost": [
       0,
@@ -17393,7 +17393,7 @@
       0,
       0
      ],
-     "name": "special_bonus_exp_boost_20"
+     "name": "special_bonus_exp_boost_35"
     },
     {
      "AbilityCastPoint": [
@@ -17418,13 +17418,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6197,
+     "ID": 6114,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        125
+        200
        ]
       }
      ],
@@ -17443,7 +17443,7 @@
       0,
       0
      ],
-     "displayname": "+125 Cast Range",
+     "displayname": "+200 Cast Range",
      "level": 0,
      "manacost": [
       0,
@@ -17451,7 +17451,7 @@
       0,
       0
      ],
-     "name": "special_bonus_cast_range_125"
+     "name": "special_bonus_cast_range_200"
     }
    ],
    [
@@ -17863,6 +17863,7 @@
      },
      {
       "name": "disjoint_count",
+      "tooltip": "DODGE STACKS:",
       "value": [
        3
       ]
@@ -26886,9 +26887,9 @@
       "name": "trueshot_ranged_damage",
       "tooltip": "%RANGE DAMAGE BONUS:",
       "value": [
-       16,
-       22,
-       28,
+       10,
+       18,
+       26,
        34
       ]
      }
@@ -27341,7 +27342,7 @@
       {
        "name": "value",
        "value": [
-        300
+        400
        ]
       }
      ],
@@ -27360,7 +27361,7 @@
       0,
       0
      ],
-     "displayname": "+300 Gust Distance/Knockback",
+     "displayname": "+400 Gust Distance/Knockback",
      "level": 0,
      "manacost": [
       0,
@@ -27879,10 +27880,10 @@
       "name": "miss_duration",
       "tooltip": "SILENCE DURATION:",
       "value": [
+       2,
        2.5,
        3,
-       3.5,
-       4
+       3.5
       ]
      },
      {
@@ -31296,13 +31297,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5960,
+     "ID": 6009,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        20
+        25
        ]
       }
      ],
@@ -31321,7 +31322,7 @@
       0,
       0
      ],
-     "displayname": "+20 Damage",
+     "displayname": "+25 Damage",
      "level": 0,
      "manacost": [
       0,
@@ -31329,7 +31330,7 @@
       0,
       0
      ],
-     "name": "special_bonus_attack_damage_20"
+     "name": "special_bonus_attack_damage_25"
     },
     {
      "AbilityCastPoint": [
@@ -31360,7 +31361,7 @@
       {
        "name": "value",
        "value": [
-        150
+        200
        ]
       }
      ],
@@ -31379,7 +31380,7 @@
       0,
       0
      ],
-     "displayname": "+150 Flame Guard Absorption",
+     "displayname": "+200 Flame Guard Absorption",
      "level": 0,
      "manacost": [
       0,
@@ -31420,7 +31421,7 @@
       {
        "name": "value",
        "value": [
-        30
+        50
        ]
       }
      ],
@@ -31439,7 +31440,7 @@
       0,
       0
      ],
-     "displayname": "+30 Flame Guard DPS",
+     "displayname": "+50 Flame Guard DPS",
      "level": 0,
      "manacost": [
       0,
@@ -37095,7 +37096,7 @@
   "items": [],
   "level": 0,
   "magicalresistance": 25,
-  "movementspeed": 300,
+  "movementspeed": 295,
   "movementturnrate": 0.5,
   "name": "npc_dota_hero_huskar",
   "projectilespeed": 1400,
@@ -40763,13 +40764,6 @@
     "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
     "attributes": [
      {
-      "name": "blade_dance_crit_mult",
-      "tooltip": "%CRITICAL DAMAGE:",
-      "value": [
-       200
-      ]
-     },
-     {
       "name": "blade_dance_crit_chance",
       "tooltip": "%CRITICAL CHANCE:",
       "value": [
@@ -40777,6 +40771,13 @@
        25,
        30,
        35
+      ]
+     },
+     {
+      "name": "blade_dance_crit_mult",
+      "tooltip": "%CRITICAL DAMAGE:",
+      "value": [
+       200
       ]
      }
     ],
@@ -49872,10 +49873,10 @@
       "name": "bear_hp",
       "tooltip": "BEAR HP:",
       "value": [
-       1400,
-       1800,
-       2300,
-       2700
+       1500,
+       2000,
+       2500,
+       3000
       ]
      },
      {
@@ -50882,7 +50883,7 @@
   "HeroID": 48,
   "abilities": [
    {
-    "AbilityCastPoint": 0.5,
+    "AbilityCastPoint": 0.4,
     "AbilityCastRange": 800,
     "AbilityCastRangeBuffer": 250,
     "AbilityChannelTime": [
@@ -51352,7 +51353,7 @@
   "attributebasestrength": 15,
   "attributeintelligencegain": 1.85,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2.5,
+  "attributestrengthgain": 2.2,
   "displayname": "Luna",
   "items": [],
   "level": 0,
@@ -51449,13 +51450,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6056,
+     "ID": 6114,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        150
+        200
        ]
       }
      ],
@@ -51474,7 +51475,7 @@
       0,
       0
      ],
-     "displayname": "+150 Cast Range",
+     "displayname": "+200 Cast Range",
      "level": 0,
      "manacost": [
       0,
@@ -51482,7 +51483,7 @@
       0,
       0
      ],
-     "name": "special_bonus_cast_range_150"
+     "name": "special_bonus_cast_range_200"
     }
    ],
    [
@@ -51515,7 +51516,7 @@
       {
        "name": "value",
        "value": [
-        2
+        3
        ]
       }
      ],
@@ -51534,7 +51535,7 @@
       0,
       0
      ],
-     "displayname": "-2s Lucent Beam Cooldown",
+     "displayname": "-3s Lucent Beam Cooldown",
      "level": 0,
      "manacost": [
       0,
@@ -55301,7 +55302,7 @@
   "displayname": "Meepo",
   "items": [],
   "level": 0,
-  "magicalresistance": 35,
+  "magicalresistance": 25,
   "movementspeed": 310,
   "movementturnrate": 0.65,
   "name": "npc_dota_hero_meepo",
@@ -55312,6 +55313,124 @@
   "statusmana": 75,
   "statusmanaregen": 0.9,
   "talents": [
+   [
+    {
+     "AbilityCastPoint": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "AbilityCastRange": 0,
+     "AbilityCastRangeBuffer": 250,
+     "AbilityChannelTime": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "AbilityDuration": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "AbilityModifierSupportBonus": 0,
+     "AbilityModifierSupportValue": 1,
+     "ID": 6115,
+     "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+     "attributes": [
+      {
+       "name": "value",
+       "value": [
+        7
+       ]
+      }
+     ],
+     "behavior": [
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+     ],
+     "cooldown": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "damage": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "displayname": "+7 Strength",
+     "level": 0,
+     "manacost": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "name": "special_bonus_strength_7"
+    },
+    {
+     "AbilityCastPoint": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "AbilityCastRange": 0,
+     "AbilityCastRangeBuffer": 250,
+     "AbilityChannelTime": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "AbilityDuration": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "AbilityModifierSupportBonus": 0,
+     "AbilityModifierSupportValue": 1,
+     "ID": 5960,
+     "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+     "attributes": [
+      {
+       "name": "value",
+       "value": [
+        20
+       ]
+      }
+     ],
+     "behavior": [
+      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+     ],
+     "cooldown": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "damage": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "displayname": "+20 Damage",
+     "level": 0,
+     "manacost": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "name": "special_bonus_attack_damage_20"
+    }
+   ],
    [
     {
      "AbilityCastPoint": [
@@ -55370,124 +55489,6 @@
       0
      ],
      "name": "special_bonus_lifesteal_10"
-    },
-    {
-     "AbilityCastPoint": [
-      0,
-      0,
-      0,
-      0
-     ],
-     "AbilityCastRange": 0,
-     "AbilityCastRangeBuffer": 250,
-     "AbilityChannelTime": [
-      0,
-      0,
-      0,
-      0
-     ],
-     "AbilityDuration": [
-      0,
-      0,
-      0,
-      0
-     ],
-     "AbilityModifierSupportBonus": 0,
-     "AbilityModifierSupportValue": 1,
-     "ID": 6141,
-     "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
-     "attributes": [
-      {
-       "name": "value",
-       "value": [
-        30
-       ]
-      }
-     ],
-     "behavior": [
-      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
-     ],
-     "cooldown": [
-      0,
-      0,
-      0,
-      0
-     ],
-     "damage": [
-      0,
-      0,
-      0,
-      0
-     ],
-     "displayname": "+30 Movement Speed",
-     "level": 0,
-     "manacost": [
-      0,
-      0,
-      0,
-      0
-     ],
-     "name": "special_bonus_movement_speed_30"
-    }
-   ],
-   [
-    {
-     "AbilityCastPoint": [
-      0,
-      0,
-      0,
-      0
-     ],
-     "AbilityCastRange": 0,
-     "AbilityCastRangeBuffer": 250,
-     "AbilityChannelTime": [
-      0,
-      0,
-      0,
-      0
-     ],
-     "AbilityDuration": [
-      0,
-      0,
-      0,
-      0
-     ],
-     "AbilityModifierSupportBonus": 0,
-     "AbilityModifierSupportValue": 1,
-     "ID": 6137,
-     "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
-     "attributes": [
-      {
-       "name": "value",
-       "value": [
-        10
-       ]
-      }
-     ],
-     "behavior": [
-      "DOTA_ABILITY_BEHAVIOR_PASSIVE"
-     ],
-     "cooldown": [
-      0,
-      0,
-      0,
-      0
-     ],
-     "damage": [
-      0,
-      0,
-      0,
-      0
-     ],
-     "displayname": "+10 Strength",
-     "level": 0,
-     "manacost": [
-      0,
-      0,
-      0,
-      0
-     ],
-     "name": "special_bonus_strength_10"
     },
     {
      "AbilityCastPoint": [
@@ -55572,13 +55573,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5940,
+     "ID": 7027,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        40
+        4
        ]
       }
      ],
@@ -55597,7 +55598,7 @@
       0,
       0
      ],
-     "displayname": "+40 Damage",
+     "displayname": "-4s Earthbind Cooldown",
      "level": 0,
      "manacost": [
       0,
@@ -55605,7 +55606,7 @@
       0,
       0
      ],
-     "name": "special_bonus_attack_damage_40"
+     "name": "special_bonus_unique_meepo_3"
     },
     {
      "AbilityCastPoint": [
@@ -55690,13 +55691,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6415,
+     "ID": 6377,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        700
+        600
        ]
       }
      ],
@@ -55715,7 +55716,7 @@
       0,
       0
      ],
-     "displayname": "+700 Health",
+     "displayname": "+600 Health",
      "level": 0,
      "manacost": [
       0,
@@ -55723,7 +55724,7 @@
       0,
       0
      ],
-     "name": "special_bonus_hp_700"
+     "name": "special_bonus_hp_600"
     },
     {
      "AbilityCastPoint": [
@@ -55754,7 +55755,7 @@
       {
        "name": "value",
        "value": [
-        4
+        5
        ]
       }
      ],
@@ -55773,7 +55774,7 @@
       0,
       0
      ],
-     "displayname": "-4s Poof Cooldown",
+     "displayname": "-5s Poof Cooldown",
      "level": 0,
      "manacost": [
       0,
@@ -56814,7 +56815,7 @@
      },
      {
       "name": "strike_crit_mult",
-      "tooltip": "%CRIT MULTIPLIER:",
+      "tooltip": "%CRITICAL DAMAGE:",
       "value": [
        150,
        175,
@@ -58434,7 +58435,7 @@
       "name": "duration",
       "tooltip": "DURATION:",
       "value": [
-       30.0
+       20.0
       ]
      }
     ],
@@ -58462,7 +58463,7 @@
     "name": "morphling_replicate"
    },
    {
-    "AbilityCastPoint": 0,
+    "AbilityCastPoint": 0.35,
     "AbilityCastRange": 0,
     "AbilityCastRangeBuffer": 250,
     "AbilityChannelTime": [
@@ -58915,13 +58916,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6225,
+     "ID": 7060,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        25
+        15
        ]
       }
      ],
@@ -58940,7 +58941,7 @@
       0,
       0
      ],
-     "displayname": "-25s Morph Cooldown",
+     "displayname": "+15s Morph Duration",
      "level": 0,
      "manacost": [
       0,
@@ -58948,7 +58949,7 @@
       0,
       0
      ],
-     "name": "special_bonus_unique_morphling_2"
+     "name": "special_bonus_unique_morphling_8"
     }
    ],
    [
@@ -59600,7 +59601,7 @@
   "attackrange": 150,
   "attackrate": 1.7,
   "attacktype": "DOTA_UNIT_CAP_MELEE_ATTACK",
-  "attributeagilitygain": 2.75,
+  "attributeagilitygain": 3.2,
   "attributebaseagility": 21,
   "attributebaseintelligence": 21,
   "attributebasestrength": 21,
@@ -59703,13 +59704,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6034,
+     "ID": 7029,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        175
+        10
        ]
       }
      ],
@@ -59728,7 +59729,7 @@
       0,
       0
      ],
-     "displayname": "+175 Health",
+     "displayname": "+10% Mirror Image Damage",
      "level": 0,
      "manacost": [
       0,
@@ -59736,7 +59737,7 @@
       0,
       0
      ],
-     "name": "special_bonus_hp_175"
+     "name": "special_bonus_unique_naga_siren_4"
     }
    ],
    [
@@ -61125,7 +61126,7 @@
       "name": "stack_bonus_damage",
       "tooltip": "BONUS PER STACK:",
       "value": [
-       60
+       80
       ]
      },
      {
@@ -61212,7 +61213,7 @@
       "name": "stack_bonus_damage",
       "tooltip": "BONUS PER STACK:",
       "value": [
-       60
+       80
       ]
      },
      {
@@ -61299,7 +61300,7 @@
       "name": "stack_bonus_damage",
       "tooltip": "BONUS PER STACK:",
       "value": [
-       60
+       80
       ]
      },
      {
@@ -62549,6 +62550,12 @@
       "tooltip": "ENEMY VISION RANGE:",
       "value": [
        675
+      ]
+     },
+     {
+      "name": "fixed_vision_others",
+      "value": [
+       800
       ]
      }
     ],
@@ -66308,7 +66315,7 @@
      0,
      0
     ],
-    "AbilityCastRange": 350,
+    "AbilityCastRange": 300,
     "AbilityCastRangeBuffer": 250,
     "AbilityChannelTime": [
      0,
@@ -66352,7 +66359,7 @@
       "name": "radius",
       "tooltip": "RADIUS:",
       "value": [
-       350
+       300
       ]
      }
     ],
@@ -66563,7 +66570,7 @@
   "attacktype": "DOTA_UNIT_CAP_MELEE_ATTACK",
   "attributeagilitygain": 1.75,
   "attributebaseagility": 15,
-  "attributebaseintelligence": 17,
+  "attributebaseintelligence": 15,
   "attributebasestrength": 22,
   "attributeintelligencegain": 1.8,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
@@ -66900,13 +66907,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5980,
+     "ID": 5916,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        6
+        4
        ]
       }
      ],
@@ -66925,7 +66932,7 @@
       0,
       0
      ],
-     "displayname": "+6 Mana Regen",
+     "displayname": "+4 Mana Regen",
      "level": 0,
      "manacost": [
       0,
@@ -66933,7 +66940,7 @@
       0,
       0
      ],
-     "name": "special_bonus_mp_regen_6"
+     "name": "special_bonus_mp_regen_4"
     }
    ],
    [
@@ -69496,19 +69503,19 @@
     "abilitytype": "DOTA_ABILITY_TYPE_ULTIMATE",
     "attributes": [
      {
+      "name": "crit_chance",
+      "tooltip": "%CRITICAL CHANCE:",
+      "value": [
+       15
+      ]
+     },
+     {
       "name": "crit_bonus",
       "tooltip": "%CRITICAL DAMAGE:",
       "value": [
        230,
        340,
        450
-      ]
-     },
-     {
-      "name": "crit_chance",
-      "tooltip": "%CRITICAL CHANCE:",
-      "value": [
-       15
       ]
      }
     ],
@@ -72600,6 +72607,16 @@
        2.25,
        3
       ]
+     },
+     {
+      "name": "damage",
+      "tooltip": "DAMAGE:",
+      "value": [
+       100,
+       160,
+       220,
+       280
+      ]
      }
     ],
     "behavior": [
@@ -72612,10 +72629,10 @@
      13
     ],
     "damage": [
-     100,
-     160,
-     220,
-     280
+     0,
+     0,
+     0,
+     0
     ],
     "displayname": "Waning Rift",
     "level": 0,
@@ -76485,10 +76502,7 @@
       "name": "attacks_to_destroy",
       "tooltip": "ATTACKS REQUIRED:",
       "value": [
-       2,
-       2,
-       2,
-       3
+       2
       ]
      },
      {
@@ -85821,7 +85835,7 @@
      },
      {
       "name": "crit_chance",
-      "tooltip": "%CHANCE:",
+      "tooltip": "%CRITICAL CHANCE:",
       "value": [
        9,
        11,
@@ -89979,7 +89993,7 @@
   "attributebasestrength": 16,
   "attributeintelligencegain": 2.6,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
-  "attributestrengthgain": 2,
+  "attributestrengthgain": 1.7,
   "displayname": "Sniper",
   "items": [],
   "level": 0,
@@ -90018,13 +90032,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6190,
+     "ID": 5951,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        12
+        15
        ]
       }
      ],
@@ -90043,7 +90057,7 @@
       0,
       0
      ],
-     "displayname": "12% Cooldown Reduction",
+     "displayname": "15% Cooldown Reduction",
      "level": 0,
      "manacost": [
       0,
@@ -90051,7 +90065,7 @@
       0,
       0
      ],
-     "name": "special_bonus_cooldown_reduction_12"
+     "name": "special_bonus_cooldown_reduction_15"
     },
     {
      "AbilityCastPoint": [
@@ -90200,7 +90214,7 @@
       {
        "name": "value",
        "value": [
-        20
+        25
        ]
       }
      ],
@@ -90219,7 +90233,7 @@
       0,
       0
      ],
-     "displayname": "+20 Shrapnel DPS",
+     "displayname": "+25 Shrapnel DPS",
      "level": 0,
      "manacost": [
       0,
@@ -90644,7 +90658,7 @@
     "AbilityModifierSupportBonus": 0,
     "AbilityModifierSupportValue": 1,
     "ID": 5335,
-    "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+    "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES",
     "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
     "abilityunitdamagetype": "DAMAGE_TYPE_PURE",
     "attributes": [
@@ -90653,9 +90667,9 @@
       "tooltip": "BONUS DAMAGE:",
       "value": [
        20,
-       35,
-       50,
-       65
+       30,
+       40,
+       50
       ]
      },
      {
@@ -91619,13 +91633,23 @@
     "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
     "attributes": [
      {
-      "name": "bonus_movespeed_pct",
-      "tooltip": "%BONUS MOVE SPEED:",
+      "name": "bonus_movespeed_pct_self",
+      "tooltip": "%BONUS MOVE SPEED SELF:",
       "value": [
+       8,
+       12,
+       16,
+       20
+      ]
+     },
+     {
+      "name": "bonus_movespeed_pct_allies",
+      "tooltip": "%BONUS MOVE SPEED ALLIES:",
+      "value": [
+       4,
        6,
-       10,
-       14,
-       18
+       8,
+       10
       ]
      },
      {
@@ -91643,9 +91667,9 @@
       "tooltip": "%CAST ADDED BONUS SPEED:",
       "value": [
        3,
+       4,
        5,
-       7,
-       9
+       6
       ]
      },
      {
@@ -92240,13 +92264,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5939,
+     "ID": 5940,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        30
+        40
        ]
       }
      ],
@@ -92265,7 +92289,7 @@
       0,
       0
      ],
-     "displayname": "+30 Damage",
+     "displayname": "+40 Damage",
      "level": 0,
      "manacost": [
       0,
@@ -92273,7 +92297,7 @@
       0,
       0
      ],
-     "name": "special_bonus_attack_damage_30"
+     "name": "special_bonus_attack_damage_40"
     }
    ],
    [
@@ -92998,7 +93022,7 @@
   "attackrange": 480,
   "attackrate": 1.7,
   "attacktype": "DOTA_UNIT_CAP_RANGED_ATTACK",
-  "attributeagilitygain": 1.8,
+  "attributeagilitygain": 1.5,
   "attributebaseagility": 22,
   "attributebaseintelligence": 24,
   "attributebasestrength": 19,
@@ -93337,13 +93361,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6210,
+     "ID": 5907,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        40
+        30
        ]
       }
      ],
@@ -93362,7 +93386,7 @@
       0,
       0
      ],
-     "displayname": "+40 Attack Speed",
+     "displayname": "+30 Attack Speed",
      "level": 0,
      "manacost": [
       0,
@@ -93370,7 +93394,7 @@
       0,
       0
      ],
-     "name": "special_bonus_attack_speed_40"
+     "name": "special_bonus_attack_speed_30"
     }
    ],
    [
@@ -95764,12 +95788,6 @@
     "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
     "attributes": [
      {
-      "name": "movement_speed_bonus",
-      "value": [
-       -30
-      ]
-     },
-     {
       "name": "trap_radius",
       "value": [
        400
@@ -95782,17 +95800,29 @@
       ]
      },
      {
-      "name": "movement_speed_bonus_stage",
+      "name": "trap_bonus_damage",
       "value": [
-       5.0
+       250,
+       350,
+       450
       ]
      },
      {
-      "name": "trap_bonus_damage",
+      "name": "movement_speed_min",
       "value": [
-       175,
-       250,
-       325
+       30
+      ]
+     },
+     {
+      "name": "movement_speed_max",
+      "value": [
+       60
+      ]
+     },
+     {
+      "name": "trap_max_charge_duration",
+      "value": [
+       4.0
       ]
      }
     ],
@@ -95914,14 +95944,14 @@
       ]
      },
      {
-      "name": "movement_speed_min_tooltip",
+      "name": "movement_speed_min",
       "tooltip": "%MIN MOVEMENT SLOW:",
       "value": [
        30
       ]
      },
      {
-      "name": "movement_speed_max_tooltip",
+      "name": "movement_speed_max",
       "tooltip": "%MAX MOVEMENT SLOW:",
       "value": [
        60
@@ -95938,9 +95968,15 @@
       "name": "trap_bonus_damage",
       "tooltip": "BONUS DAMAGE:",
       "value": [
-       175,
        250,
-       325
+       350,
+       450
+      ]
+     },
+     {
+      "name": "trap_max_charge_duration",
+      "value": [
+       4.0
       ]
      }
     ],
@@ -96079,13 +96115,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 5903,
+     "ID": 7058,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        250
+        3
        ]
       }
      ],
@@ -96104,7 +96140,7 @@
       0,
       0
      ],
-     "displayname": "+250 Health",
+     "displayname": "+3 Psionic Traps",
      "level": 0,
      "manacost": [
       0,
@@ -96112,7 +96148,7 @@
       0,
       0
      ],
-     "name": "special_bonus_hp_250"
+     "name": "special_bonus_unique_templar_assassin_6"
     }
    ],
    [
@@ -96732,7 +96768,7 @@
       "name": "speed_loss",
       "tooltip": "MOVEMENT SPEED LOSS:",
       "value": [
-       30
+       25
       ]
      },
      {
@@ -96748,7 +96784,7 @@
      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
     ],
     "cooldown": [
-     140
+     155
     ],
     "damage": [
      0,
@@ -96931,7 +96967,7 @@
   "attributebaseagility": 22,
   "attributebaseintelligence": 19,
   "attributebasestrength": 15,
-  "attributeintelligencegain": 1.75,
+  "attributeintelligencegain": 1.6,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
   "attributestrengthgain": 1.7,
   "displayname": "Terrorblade",
@@ -97272,7 +97308,7 @@
       {
        "name": "value",
        "value": [
-        8
+        10
        ]
       }
      ],
@@ -97291,7 +97327,7 @@
       0,
       0
      ],
-     "displayname": "-8s Reflection Cooldown",
+     "displayname": "-10s Reflection Cooldown",
      "level": 0,
      "manacost": [
       0,
@@ -99609,24 +99645,27 @@
       "name": "attack_count",
       "tooltip": "ATTACK COUNT:",
       "value": [
-       2,
-       3,
-       4,
-       6
+       5
       ]
      },
      {
       "name": "bonus_damage",
       "tooltip": "%BONUS DAMAGE:",
       "value": [
-       30
+       10,
+       20,
+       30,
+       40
       ]
      },
      {
       "name": "bonus_damage_buildings",
       "tooltip": "%BONUS BUILDING DAMAGE:",
       "value": [
-       75
+       60,
+       80,
+       100,
+       120
       ]
      },
      {
@@ -99659,7 +99698,10 @@
      "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
     ],
     "cooldown": [
-     15
+     18,
+     16,
+     14,
+     12
     ],
     "damage": [
      0,
@@ -99815,12 +99857,21 @@
       ]
      },
      {
+      "name": "bonus_armor",
+      "tooltip": "BONUS ARMOR:",
+      "value": [
+       5,
+       10,
+       15
+      ]
+     },
+     {
       "name": "bonus_damage",
       "tooltip": "BONUS DAMAGE:",
       "value": [
-       40,
-       80,
-       120
+       30,
+       45,
+       60
       ]
      },
      {
@@ -99828,17 +99879,8 @@
       "tooltip": "ATTACK SPEED REDUCTION:",
       "value": [
        20,
-       25,
-       30
-      ]
-     },
-     {
-      "name": "movement_speed",
-      "tooltip": "MOVEMENT SPEED:",
-      "value": [
-       40,
-       50,
-       60
+       30,
+       40
       ]
      }
     ],
@@ -99906,7 +99948,10 @@
      {
       "name": "bonus_damage",
       "value": [
-       30
+       10,
+       20,
+       30,
+       40
       ]
      },
      {
@@ -100246,7 +100291,7 @@
       {
        "name": "value",
        "value": [
-        10
+        7
        ]
       }
      ],
@@ -100265,7 +100310,7 @@
       0,
       0
      ],
-     "displayname": "-10s Tree Grab CD",
+     "displayname": "-7s Tree Grab CD",
      "level": 0,
      "manacost": [
       0,
@@ -100507,7 +100552,7 @@
      },
      {
       "name": "bonus_move_speed",
-      "tooltip": "%MOVEMENT SPEED:",
+      "tooltip": "%BONUS MOVE SPEED:",
       "value": [
        10,
        18,
@@ -102948,7 +102993,7 @@
     "attributes": [
      {
       "name": "crit_multiplier",
-      "tooltip": "%CRIT MULTIPLIER:",
+      "tooltip": "%CRITICAL DAMAGE:",
       "value": [
        350
       ]
@@ -103077,7 +103122,7 @@
   "attributebasestrength": 23,
   "attributeintelligencegain": 1.7,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
-  "attributestrengthgain": 2.6,
+  "attributestrengthgain": 3,
   "displayname": "Tusk",
   "items": [],
   "level": 0,
@@ -105685,10 +105730,10 @@
       "name": "bonus_damage_pct",
       "tooltip": "%DAMAGE BONUS:",
       "value": [
-       10,
+       12,
        18,
-       26,
-       34
+       24,
+       30
       ]
      },
      {
@@ -106236,7 +106281,7 @@
       {
        "name": "value",
        "value": [
-        4
+        5
        ]
       }
      ],
@@ -106255,7 +106300,7 @@
       0,
       0
      ],
-     "displayname": "-4s Magic Missile Cooldown",
+     "displayname": "-5s Magic Missile Cooldown",
      "level": 0,
      "manacost": [
       0,
@@ -108225,7 +108270,7 @@
       0,
       0
      ],
-     "displayname": "+6 Corrosive Skin DPS",
+     "displayname": "+6 Corrosive Skin Stats",
      "level": 0,
      "manacost": [
       0,
@@ -111695,10 +111740,7 @@
       "name": "movespeed_bonus_pct",
       "tooltip": "%MOVE SPEED BONUS:",
       "value": [
-       50,
-       50,
-       50,
-       50
+       60
       ]
      },
      {
@@ -111969,7 +112011,7 @@
   "level": 0,
   "magicalresistance": 25,
   "movementspeed": 295,
-  "movementturnrate": 0.6,
+  "movementturnrate": 0.8,
   "name": "npc_dota_hero_windrunner",
   "projectilespeed": 1250,
   "role": "Carry,Support,Disabler,Escape,Nuker",
@@ -112126,7 +112168,7 @@
       {
        "name": "value",
        "value": [
-        90
+        100
        ]
       }
      ],
@@ -112145,7 +112187,7 @@
       0,
       0
      ],
-     "displayname": "+90 Powershot Damage",
+     "displayname": "+100 Powershot Damage",
      "level": 0,
      "manacost": [
       0,
@@ -112178,13 +112220,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6027,
+     "ID": 5943,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        75
+        100
        ]
       }
      ],
@@ -112203,7 +112245,7 @@
       0,
       0
      ],
-     "displayname": "+75 Attack Range",
+     "displayname": "+100 Attack Range",
      "level": 0,
      "manacost": [
       0,
@@ -112211,7 +112253,7 @@
       0,
       0
      ],
-     "name": "special_bonus_attack_range_75"
+     "name": "special_bonus_attack_range_100"
     }
    ],
    [
@@ -112238,13 +112280,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6222,
+     "ID": 6993,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        25
+        1
        ]
       }
      ],
@@ -112263,7 +112305,7 @@
       0,
       0
      ],
-     "displayname": "25% Cooldown Reduction",
+     "displayname": "+1 Shackleshot Target",
      "level": 0,
      "manacost": [
       0,
@@ -112271,7 +112313,7 @@
       0,
       0
      ],
-     "name": "special_bonus_cooldown_reduction_25"
+     "name": "special_bonus_unique_windranger_5"
     },
     {
      "AbilityCastPoint": [
@@ -112362,7 +112404,7 @@
       {
        "name": "value",
        "value": [
-        20.0
+        30.0
        ]
       }
      ],
@@ -112414,13 +112456,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 6993,
+     "ID": 6561,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        1
+        30
        ]
       }
      ],
@@ -112439,7 +112481,7 @@
       0,
       0
      ],
-     "displayname": "+1 Shackleshot Target",
+     "displayname": "30% Cooldown Reduction",
      "level": 0,
      "manacost": [
       0,
@@ -112447,7 +112489,7 @@
       0,
       0
      ],
-     "name": "special_bonus_unique_windranger_5"
+     "name": "special_bonus_cooldown_reduction_30"
     }
    ]
   ],
@@ -112509,7 +112551,10 @@
       "name": "percent_damage",
       "tooltip": "%HEALTH BURN:",
       "value": [
-       9.0
+       7.5,
+       8,
+       8.5,
+       9
       ]
      },
      {
@@ -112962,8 +113007,8 @@
    }
   ],
   "armorphysical": -1,
-  "attackdamagemax": 20,
-  "attackdamagemin": 13,
+  "attackdamagemax": 17,
+  "attackdamagemin": 10,
   "attackpoint": 0.25,
   "attackrange": 425,
   "attackrate": 1.7,
@@ -113189,13 +113234,13 @@
      ],
      "AbilityModifierSupportBonus": 0,
      "AbilityModifierSupportValue": 1,
-     "ID": 7019,
+     "ID": 7022,
      "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
      "attributes": [
       {
        "name": "value",
        "value": [
-        600
+        500
        ]
       }
      ],
@@ -113214,7 +113259,7 @@
       0,
       0
      ],
-     "displayname": "+600 Night Vision",
+     "displayname": "+500 Night Vision",
      "level": 0,
      "manacost": [
       0,
@@ -113222,7 +113267,7 @@
       0,
       0
      ],
-     "name": "special_bonus_night_vision_600"
+     "name": "special_bonus_night_vision_500"
     }
    ],
    [

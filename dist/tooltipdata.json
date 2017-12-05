@@ -105,7 +105,7 @@
   "Lore": "In his encounter with the Dead Gods, Anti-Mage learned the value of being elusive."
  },
  "antimage_mana_break": {
-  "Description": "Burns an opponent's mana on each attack.  Mana Break deals 60%% of the mana burned as damage to the target.",
+  "Description": "Burns an opponent's mana on each attack.  Mana Break deals 50%% of the mana burned as damage to the target.",
   "DisplayName": "Mana Break",
   "Lore": "A modified technique of the Turstarkuri monks' peaceful ways is to turn magical energies on their owner."
  },
@@ -619,7 +619,7 @@
   "DisplayName": "Raise Dead"
  },
  "dark_willow_bedlam": {
-  "Description": "Dark Willow's pet wisp roams around her for the duraton, rapidly attacking nearby enemies.  Bedlam cannot be used while Terrorize is active.",
+  "Description": "Dark Willow's pet wisp roams around her for the duration, rapidly attacking nearby enemies.  Bedlam cannot be used while Terrorize is active.",
   "DisplayName": "Bedlam",
   "Lore": "You'll have to excuse my friend Jex. He's really into murder."
  },
@@ -1321,6 +1321,11 @@
   "DisplayName": "Aegis of the Immortal",
   "Lore": "The Immortal was said to own a shield that protected him from death itself."
  },
+ "item_aeon_disk": {
+  "Description": "<h1>Passive: Combo Breaker</h1> When you take damage and your health falls below %health_threshold_pct%%, a strong dispel is applied and you gain a %buff_duration% second buff that causes all damage you deal and are dealt to be reduced to zero. Only triggers on player based damage. \\n\\n<h1>Passive: Status Resistance</h1> Reduces status effect durations by %status_resistance%%. ",
+  "DisplayName": "Aeon Disk",
+  "Lore": "A powerful artifact long ago smuggled out of the Ivory Incubarium. Or so many believe."
+ },
  "item_aether_lens": {
   "Description": "<h1>Passive: Aethereal Focus</h1> Increases targeted spell and item cast range by %cast_range_bonus%.",
   "DisplayName": "Aether Lens",
@@ -1394,7 +1399,7 @@
   "Lore": "The Bloodstone's bright ruby color is unmistakable on the battlefield, as the owner seems to have infinite vitality and spirit."
  },
  "item_bloodthorn": {
-  "Description": "<h1>Active: Soul Rend</h1> Silences a target for %silence_duration% seconds. At the end of the silence, an additional %silence_damage_percent%%% of all damage taken during the silence will be dealt to the target as magic damage.<br>Range: %tooltip_range%<br><br>All attacks on the silenced target will have True Strike and %tooltip_crit_chance%%% chance to crit for %target_crit_multiplier%%% more damage.\\n<h1>Passive: Critical Strike</h1> Grants a %crit_chance%%% chance for attacks to inflict %crit_multiplier%%% more damage.",
+  "Description": "<h1>Active: Soul Rend</h1> Silences a target for %silence_duration% seconds. At the end of the silence, an additional %silence_damage_percent%%% of all damage taken during the silence will be dealt to the target as magic damage.<br>Range: %tooltip_range%<br><br>All attacks on the silenced target will have True Strike and %tooltip_crit_chance%%% chance to crit for %target_crit_multiplier%%% damage.\\n<h1>Passive: Critical Strike</h1> Grants a %crit_chance%%% chance for attacks to inflict %crit_multiplier%%% damage.",
   "DisplayName": "Bloodthorn",
   "Lore": "A reviled blade that bites deeper with each wriggle of its victim's final throes."
  },
@@ -1460,11 +1465,6 @@
  "item_cloak": {
   "DisplayName": "Cloak",
   "Lore": "A cloak made of a magical material that works to dispel any magic cast on it."
- },
- "item_combo_breaker": {
-  "Description": "<h1>Passive: Combo Breaker</h1> When you take damage and your health falls below %health_threshold_pct%%, a strong dispel is applied and you gain a %buff_duration% second buff that causes all damage you deal and are dealt to be reduced to zero. Only triggers on player based damage. \\n\\n<h1>Passive: Status Resistance</h1> Reduces status effect durations by %status_resistance%%. ",
-  "DisplayName": "Aeon Disk",
-  "Lore": "A powerful artifact long ago smuggled out of the Ivory Incubarium. Or so many believe."
  },
  "item_courier": {
   "Description": "<h1>Use: Deploy Courier</h1> Deploys a creature to carry items to and from your team's base.",
@@ -1592,7 +1592,7 @@
   "Lore": "A pair of magical gloves that seems to render weapons weightless."
  },
  "item_greater_crit": {
-  "Description": "<h1>Passive: Critical Strike</h1>Grants each attack a %crit_chance%%% chance to deal %tooltip_crit_damage%%% additional damage.",
+  "Description": "<h1>Passive: Critical Strike</h1>Grants each attack a %crit_chance%%% chance to deal %crit_multiplier%%% damage.",
   "DisplayName": "Daedalus",
   "Lore": "A weapon of incredible power that is difficult for even the strongest of warriors to control."
  },
@@ -1654,18 +1654,17 @@
   "DisplayName": "Shadow Blade",
   "Lore": "The blade of a fallen king, it allows you to move unseen and strike from the shadows."
  },
- "item_iron_talon": {
-  "Description": "<h1>Active: Chop</h1>Targets a non-player enemy unit to remove %creep_damage_pct%%% of its current HP.<br><br>If cast on a tree or ward, instantly destroys it.<br><br>Unit Range: %tooltip_range%<br>Tree Range: %quelling_range_tooltip%<BR>Ward Range: %cast_range_ward%\\n<h1>Passive: Quell</h1>Increases attack damage against non-hero units by %damage_bonus% for melee heroes, and %damage_bonus_ranged% for ranged.",
-  "DisplayName": "Iron Talon",
-  "Lore": "A simple but effective weapon devised to quell a great Hellbear uprising."
- },
  "item_javelin": {
   "Description": "<h1>Passive: Pierce</h1>Grants each attack a %bonus_chance%%% chance to pierce through evasion and deal %bonus_chance_damage% bonus damage.",
   "DisplayName": "Javelin",
   "Lore": "A rather typical spear that can sometimes pierce through an enemy's armor when used to attack."
  },
+ "item_kaya": {
+  "DisplayName": "Kaya",
+  "Lore": "The staff of a renowned sorceress, lost for countless millennia."
+ },
  "item_lesser_crit": {
-  "Description": "<h1>Passive: Critical Strike</h1>Grants each attack a %crit_chance%%% chance to deal %tooltip_crit_damage%%% additional damage.",
+  "Description": "<h1>Passive: Critical Strike</h1>Grants each attack a %crit_chance%%% chance to deal %crit_multiplier%%% damage.",
   "DisplayName": "Crystalys",
   "Lore": "A blade forged from rare crystals, it seeks weak points in enemy armor."
  },
@@ -1817,11 +1816,6 @@
   "DisplayName": "Point Booster",
   "Lore": "A perfectly formed amethyst that nourishes body and mind when held."
  },
- "item_poor_mans_shield": {
-  "Description": "<h1>Passive: Damage Block</h1>When cooldown is ready, blocks %bonus_block_melee% damage on melee heroes and %bonus_block_range% on ranged heroes. Only triggers on attacks from heroes. <br><br>Gives a %block_chance%%% chance to block %damage_block_melee% damage on melee heroes, and %damage_block_ranged% damage on ranged.",
-  "DisplayName": "Poor Man's Shield",
-  "Lore": "A busted old shield that seems to block more than it should."
- },
  "item_power_treads": {
   "Description": "<h1>Active: Switch Attribute</h1>Switches between +%bonus_stat% Strength, +%bonus_stat% Agility, or +%bonus_stat% Intelligence.<br><br>Flat movement speed bonuses from multiple pairs of boots do not stack.",
   "DisplayName": "Power Treads",
@@ -1853,6 +1847,9 @@
  "item_recipe_abyssal_blade": {
   "DisplayName": "Abyssal Blade Recipe"
  },
+ "item_recipe_aeon_disk": {
+  "DisplayName": "Aeon Disk Recipe"
+ },
  "item_recipe_aether_lens": {
   "DisplayName": "Aether Lens Recipe"
  },
@@ -1882,9 +1879,6 @@
  },
  "item_recipe_buckler": {
   "DisplayName": "Buckler Recipe"
- },
- "item_recipe_combo_breaker": {
-  "DisplayName": "Aeon Disk Recipe"
  },
  "item_recipe_crimson_guard": {
   "DisplayName": "Crimson Guard Recipe"
@@ -1921,9 +1915,6 @@
  },
  "item_recipe_hurricane_pike": {
   "DisplayName": "Hurricane Pike Recipe"
- },
- "item_recipe_iron_talon": {
-  "DisplayName": "Iron Talon Recipe"
  },
  "item_recipe_lesser_crit": {
   "DisplayName": "Crystalys Recipe"
@@ -2035,34 +2026,6 @@
  "item_ring_of_regen": {
   "DisplayName": "Ring of Regen",
   "Lore": "This ring is considered a good luck charm among the Gnomes."
- },
- "item_river_painter": {
-  "Description": "Pour this serum into the river to transform the water into liquid chrome for 15 minutes. <font color='#FF5555'>Using this item on the river will permanently consume one charge from your Armory supply upon expiration of the effect. Charges do not get consumed if the effect is replaced by a stronger vial before expiration.</font> Vials can only be used if at least one charge remains in your Armory. Charges will only be used by successfully enchanting the river, and will not be consumed if the item is sold, dropped, or destroyed during a game. You can only cast a vial on the river if there's not a stronger vial already in effect.",
-  "DisplayName": "River Vial: Chrome"
- },
- "item_river_painter2": {
-  "Description": "Pour this serum into the river to dry up the water for 15 minutes. <font color='#FF5555'>Using this item on the river will permanently consume one charge from your Armory supply upon expiration of the effect . Charges do not get consumed if the effect is replaced by a stronger vial before expiration.</font> Vials can only be used if at least one charge remains in your Armory. Charges will only be used by successfully enchanting the river, and will not be consumed if the item is sold, dropped, or destroyed during a game. You can only cast a vial on the river if there's not a stronger vial already in effect.",
-  "DisplayName": "River Vial: Dry"
- },
- "item_river_painter3": {
-  "Description": "Pour this serum into the river to transform the water into a green slime for 15 minutes. <font color='#FF5555'>Using this item on the river will permanently consume one charge from your Armory supply upon expiration of the effect. Charges do not get consumed if the effect is replaced by a stronger vial before expiration.</font> Vials can only be used if at least one charge remains in your Armory. Charges will only be used by successfully enchanting the river, and will not be consumed if the item is sold, dropped, or destroyed during a game. You can only cast a vial on the river if there's not a stronger vial already in effect.",
-  "DisplayName": "River Vial: Slime"
- },
- "item_river_painter4": {
-  "Description": "Pour this serum into the river to make the water oily for 15 minutes. <font color='#FF5555'>Using this item on the river will permanently consume one charge from your Armory supply upon expiration of the effect. Charges do not get consumed if the effect is replaced by a stronger vial before expiration.</font> Vials can only be used if at least one charge remains in your Armory. Charges will only be used by successfully enchanting the river, and will not be consumed if the item is sold, dropped, or destroyed during a game. You can only cast a vial on the river if there's not a stronger vial already in effect.",
-  "DisplayName": "River Vial: Oil"
- },
- "item_river_painter5": {
-  "Description": "Pour this serum into the river to make the water electric for 15 minutes. <font color='#FF5555'>Using this item on the river will permanently consume one charge from your Armory supply upon expiration of the effect. Charges do not get consumed if the effect is replaced by a stronger vial before expiration.</font> Vials can only be used if at least one charge remains in your Armory. Charges will only be used by successfully enchanting the river, and will not be consumed if the item is sold, dropped, or destroyed during a game. You can only cast a vial on the river if there's not a stronger vial already in effect.",
-  "DisplayName": "River Vial: Electrified"
- },
- "item_river_painter6": {
-  "Description": "Pour this serum into the river to transform the water into a purple bubbling potion for 15 minutes. <font color='#FF5555'>Using this item on the river will permanently consume one charge from your Armory supply upon expiration of the effect. Charges do not get consumed if the effect is replaced by a stronger vial before expiration.</font> Vials can only be used if at least one charge remains in your Armory. Charges will only be used by successfully enchanting the river, and will not be consumed if the item is sold, dropped, or destroyed during a game. You can only cast a vial on the river if there's not a stronger vial already in effect.",
-  "DisplayName": "River Vial: Potion"
- },
- "item_river_painter7": {
-  "Description": "Pour this serum into the river to transform the water into blood for 15 minutes. <font color='#FF5555'>Using this item on the river will permanently consume one charge from your Armory supply upon expiration of the effect. Charges do not get consumed if the effect is replaced by a stronger vial before expiration.</font> Vials can only be used if at least one charge remains in your Armory. Charges will only be used by successfully enchanting the river, and will not be consumed if the item is sold, dropped, or destroyed during a game. You can only cast a vial on the river if there's not a stronger vial already in effect.",
-  "DisplayName": "River Vial: Blood"
  },
  "item_robe": {
   "DisplayName": "Robe of the Magi",
@@ -2198,10 +2161,6 @@
   "DisplayName": "Boots of Travel",
   "Lore": "Winged boots that grant omnipresence."
  },
- "item_trident": {
-  "DisplayName": "Kaya",
-  "Lore": "The staff of a renowned sorceress, lost for countless millennia."
- },
  "item_ultimate_orb": {
   "DisplayName": "Ultimate Orb",
   "Lore": "A mystical orb containing the essence of life."
@@ -2258,7 +2217,7 @@
  "item_wind_lace": {
   "Description": "Bonuses from multiple Wind Laces do not stack.",
   "DisplayName": "Wind Lace",
-  "Lore": "Hasten to battle on wind-touched heels"
+  "Lore": "Hasten to battle on wind-touched heels."
  },
  "item_wraith_band": {
   "DisplayName": "Wraith Band",
@@ -5610,6 +5569,9 @@
  "special_bonus_night_vision_400": {
   "DisplayName": "+400 Night Vision"
  },
+ "special_bonus_night_vision_500": {
+  "DisplayName": "+500 Night Vision"
+ },
  "special_bonus_night_vision_600": {
   "DisplayName": "+600 Night Vision"
  },
@@ -5770,13 +5732,16 @@
   "DisplayName": "+25% Curse of Avernus MS Slow"
  },
  "special_bonus_unique_alchemist": {
-  "DisplayName": "-8s Unstable Concoction Cooldown"
+  "DisplayName": "-5s Unstable Concoction Cooldown"
  },
  "special_bonus_unique_alchemist_2": {
-  "DisplayName": "+200 Unstable Concoction Damage"
+  "DisplayName": "+360 Unstable Concoction Damage"
  },
  "special_bonus_unique_alchemist_3": {
   "DisplayName": "-0.2 Chemical Rage Base Attack Time"
+ },
+ "special_bonus_unique_alchemist_4": {
+  "DisplayName": "+30 Chemical Rage Regeneration"
  },
  "special_bonus_unique_ancient_apparition_1": {
   "DisplayName": "4 Charges of Cold Feet"
@@ -5794,7 +5759,7 @@
   "DisplayName": "+4% Ice Blast Kill Threshold"
  },
  "special_bonus_unique_antimage": {
-  "DisplayName": "-1s Blink Cooldown"
+  "DisplayName": "-2s Blink Cooldown"
  },
  "special_bonus_unique_antimage_2": {
   "DisplayName": "-50s Mana Void Cooldown"
@@ -5899,13 +5864,13 @@
   "DisplayName": "+20 Warpath Damage Per Stack"
  },
  "special_bonus_unique_broodmother_1": {
-  "DisplayName": "+75 Insatiable Hunger Damage/Lifesteal"
+  "DisplayName": "+60 Insatiable Hunger Damage/Lifesteal"
  },
  "special_bonus_unique_broodmother_2": {
   "DisplayName": "+350 Spiders Health"
  },
  "special_bonus_unique_broodmother_3": {
-  "DisplayName": "+60 Spawn Spiderling Damage"
+  "DisplayName": "+75 Spawn Spiderling Damage"
  },
  "special_bonus_unique_broodmother_4": {
   "DisplayName": "+20 Spiders Attack Damage"
@@ -6058,7 +6023,7 @@
   "DisplayName": "+20% Precision Aura Damage"
  },
  "special_bonus_unique_drow_ranger_2": {
-  "DisplayName": "+300 Gust Distance/Knockback"
+  "DisplayName": "+400 Gust Distance/Knockback"
  },
  "special_bonus_unique_drow_ranger_3": {
   "DisplayName": "+20 Marksmanship Agility"
@@ -6094,13 +6059,13 @@
   "DisplayName": "-75 Earth Splitter Cooldown"
  },
  "special_bonus_unique_ember_spirit_1": {
-  "DisplayName": "+150 Flame Guard Absorption"
+  "DisplayName": "+200 Flame Guard Absorption"
  },
  "special_bonus_unique_ember_spirit_2": {
   "DisplayName": "+1s Searing Chains"
  },
  "special_bonus_unique_ember_spirit_3": {
-  "DisplayName": "+30 Flame Guard DPS"
+  "DisplayName": "+50 Flame Guard DPS"
  },
  "special_bonus_unique_ember_spirit_4": {
   "DisplayName": "2 Sleight of Fist Charges"
@@ -6340,7 +6305,7 @@
   "DisplayName": "+100 Lucent Beam Damage"
  },
  "special_bonus_unique_luna_2": {
-  "DisplayName": "-2s Lucent Beam Cooldown"
+  "DisplayName": "-3s Lucent Beam Cooldown"
  },
  "special_bonus_unique_luna_3": {
   "DisplayName": "+24 Lunar Blessing Damage"
@@ -6394,10 +6359,13 @@
   "DisplayName": "Split Shot Uses Modifiers"
  },
  "special_bonus_unique_meepo": {
-  "DisplayName": "-4s Poof Cooldown"
+  "DisplayName": "-5s Poof Cooldown"
  },
  "special_bonus_unique_meepo_2": {
   "DisplayName": "+40 Poof Damage"
+ },
+ "special_bonus_unique_meepo_3": {
+  "DisplayName": "-4s Earthbind Cooldown"
  },
  "special_bonus_unique_mirana_1": {
   "DisplayName": "+100 Leap Attack Speed"
@@ -6450,6 +6418,12 @@
  "special_bonus_unique_morphling_6": {
   "DisplayName": "2 Waveform Charges"
  },
+ "special_bonus_unique_morphling_7": {
+  "DisplayName": "-5s Adaptive Strike Cooldown"
+ },
+ "special_bonus_unique_morphling_8": {
+  "DisplayName": "+15s Morph Duration"
+ },
  "special_bonus_unique_naga_siren": {
   "DisplayName": "+1 Mirror Image Illusion"
  },
@@ -6458,6 +6432,9 @@
  },
  "special_bonus_unique_naga_siren_3": {
   "DisplayName": "-6 Rip Tide Armor"
+ },
+ "special_bonus_unique_naga_siren_4": {
+  "DisplayName": "+10% Mirror Image Damage"
  },
  "special_bonus_unique_necrophos": {
   "DisplayName": "-1.5s Death Pulse Cooldown"
@@ -6590,6 +6567,9 @@
  },
  "special_bonus_unique_puck_3": {
   "DisplayName": "Dream Coil Rapid Fire"
+ },
+ "special_bonus_unique_puck_4": {
+  "DisplayName": "+40 Waning Rift Damage"
  },
  "special_bonus_unique_pudge_1": {
   "DisplayName": "+2.0 Flesh Heap Stack Str"
@@ -6760,7 +6740,7 @@
   "DisplayName": "+120s Essence Shift Duration"
  },
  "special_bonus_unique_sniper_1": {
-  "DisplayName": "+20 Shrapnel DPS"
+  "DisplayName": "+25 Shrapnel DPS"
  },
  "special_bonus_unique_sniper_2": {
   "DisplayName": "+6 Shrapnel Charges"
@@ -6846,11 +6826,14 @@
  "special_bonus_unique_templar_assassin_5": {
   "DisplayName": "Psi Blades Spill Paralyzes"
  },
+ "special_bonus_unique_templar_assassin_6": {
+  "DisplayName": "+3 Psionic Traps"
+ },
  "special_bonus_unique_terrorblade": {
   "DisplayName": "-35s Sunder Cooldown"
  },
  "special_bonus_unique_terrorblade_2": {
-  "DisplayName": "-8s Reflection Cooldown"
+  "DisplayName": "-10s Reflection Cooldown"
  },
  "special_bonus_unique_terrorblade_3": {
   "DisplayName": "+300 Metamorphosis Attack Range"
@@ -6895,7 +6878,7 @@
   "DisplayName": "-12s Avalanche Cooldown"
  },
  "special_bonus_unique_tiny_4": {
-  "DisplayName": "-10s Tree Grab CD"
+  "DisplayName": "-7s Tree Grab CD"
  },
  "special_bonus_unique_tiny_5": {
   "DisplayName": "Toss Requires No Target"
@@ -6997,7 +6980,7 @@
   "DisplayName": "-1 Wave of Terror Armor"
  },
  "special_bonus_unique_vengeful_spirit_5": {
-  "DisplayName": "-4s Magic Missile Cooldown"
+  "DisplayName": "-5s Magic Missile Cooldown"
  },
  "special_bonus_unique_vengeful_spirit_6": {
   "DisplayName": "-6s Wave of Terror Cooldown"
@@ -7021,7 +7004,7 @@
   "DisplayName": "+600 Poison Nova AoE"
  },
  "special_bonus_unique_viper_1": {
-  "DisplayName": "+6 Corrosive Skin DPS"
+  "DisplayName": "+6 Corrosive Skin Stats"
  },
  "special_bonus_unique_viper_2": {
   "DisplayName": "+100 Viper Strike DPS"
@@ -7090,7 +7073,7 @@
   "DisplayName": "+30% Windrun Slow"
  },
  "special_bonus_unique_windranger_3": {
-  "DisplayName": "+90 Powershot Damage"
+  "DisplayName": "+100 Powershot Damage"
  },
  "special_bonus_unique_windranger_4": {
   "DisplayName": "+20% Ministun Focus Fire"
@@ -7301,7 +7284,7 @@
   "Lore": "Her blades pierce the skin as much as the mind, furthering her understanding of the mystery that is reality."
  },
  "templar_assassin_psionic_trap": {
-  "Description": "Templar Assassin places mystical traps that invisibly monitor enemy movement. When sprung at her command, they exert a slowing influence of 30%% in the area. Traps charge up to slow an additional 5%% every second, up to 50%%. Deals bonus damage when fully charged.",
+  "Description": "Templar Assassin places mystical traps that invisibly monitor enemy movement. When sprung at her command, they exert a slowing influence of %movement_speed_min%%% in the area. Traps charge up to slow %movement_speed_max%%% after %trap_max_charge_duration% seconds. Deals bonus damage when fully charged.",
   "DisplayName": "Psionic Trap",
   "Lore": "Calling upon the reach of the Hidden Temple, none escape the eye of the Templar."
  },
@@ -7423,7 +7406,7 @@
   "Lore": "The roots and tendrils of the Treant Protectors are far-reaching, stimulating the growth and rejuvenation of all of nature."
  },
  "treant_natures_guise": {
-  "Description": "Turns Treant invisible when he is within %radius% radius of a tree for %fade_time% seconds. Increases movement speed by %bonus_move_speed% while invisible, and causes a %bash_duration% seconds disarming root when attacking out of invisibility.",
+  "Description": "Turns Treant invisible after a short delay when he is within close radius of a tree. Increases movement speed while invisible, and causes a disarming root when attacking out of invisibility.",
   "DisplayName": "Nature's Guise",
   "Lore": "The Protectors don't often come into vision; their natural state being nestled within their leafy brethren."
  },
