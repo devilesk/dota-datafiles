@@ -102,6 +102,8 @@ def process(src_dir, subset_dir):
 
     item_data_subset = {}
     for a in item_data['DOTAAbilities']:
+        if 'IsObsolete' in item_data['DOTAAbilities'][a] and item_data['DOTAAbilities'][a]['IsObsolete'] == '1':
+            continue
         item_data_subset[a] = subset(schema.item_schema, item_data['DOTAAbilities'][a])
         
     for h in hero_data_subset:
@@ -112,7 +114,6 @@ def process(src_dir, subset_dir):
                 hero_data_subset[h][k] = format_num(float(hero_data_subset[h][k]))
 
     def process_ability_special(data):
-        print('data', data)
         attributes = []
         if isinstance(data,dict):
             data = [data[x] for x in sorted(data.keys())]
