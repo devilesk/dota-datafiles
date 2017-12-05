@@ -36,9 +36,9 @@ def merge_base_class(data, ROOT, BASE_CLASS):
     output = {}
     if BASE_CLASS:
         BASE_DICT = data[ROOT][BASE_CLASS]
-        output[ROOT] = {k: dict(list(BASE_DICT.items()) + list(data[ROOT][k].items())) for k in list(data[ROOT].keys()) if k != BASE_CLASS and k != 'Version'}
+        output[ROOT] = {k: dict(list(BASE_DICT.items()) + list(data[ROOT][k].items())) for k in list(data[ROOT].keys()) if k != BASE_CLASS and k != 'Version' and k != 'dota_base_ability'}
     else:
-        output[ROOT] = {k: data[ROOT][k] for k in list(data[ROOT].keys()) if k != BASE_CLASS and k != 'Version'}
+        output[ROOT] = {k: data[ROOT][k] for k in list(data[ROOT].keys()) if k != BASE_CLASS and k != 'Version' and k != 'dota_base_ability'}
     return output
         
 def strip_comments(src):
@@ -112,7 +112,10 @@ def process(src_dir, subset_dir):
                 hero_data_subset[h][k] = format_num(float(hero_data_subset[h][k]))
 
     def process_ability_special(data):
+        print('data', data)
         attributes = []
+        if isinstance(data,dict):
+            data = [data[x] for x in sorted(data.keys())]
         for x in data:
             for y in x:
                 if y != 'var_type':
