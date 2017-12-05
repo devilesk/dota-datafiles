@@ -216,6 +216,12 @@
   "DisplayName": "Sticky Napalm",
   "Lore": "It's not uncommon to hear the Rider cackle while he increases the flammability of his opponents."
  },
+ "bear_empty1": {
+  "DisplayName": "Empty"
+ },
+ "bear_empty2": {
+  "DisplayName": "Empty"
+ },
  "beastmaster_boar_poison": {
   "Description": "Inflicts a poison that slows attack and movement speeds.",
   "DisplayName": "Poison"
@@ -239,12 +245,12 @@
   "Lore": "Beastmaster's ability to incite the innate strength of animals was seen in the mauling of the king of Slom."
  },
  "beastmaster_primal_roar": {
-  "Description": "Beastmaster lets loose a deafening roar that stuns, and shoves open a path to its target. All units in the path of the roar are damaged, while units shoved aside by the roar have their movement and attack speed slowed.\\n\\nUpgradable by Aghanim's Scepter.",
+  "Description": "Beastmaster lets loose a deafening roar that stuns, and shoves open a path to its target. All units in the path of the roar are damaged, while units shoved aside by the roar have their movement and attack speed slowed. Additionally, Beastmaster and his units gain 30% movement speed for 3 seconds.\\n\\nUpgradable by Aghanim's Scepter.",
   "DisplayName": "Primal Roar",
   "Lore": "The Beastmaster has learned to channel his primal instincts into an animalistic roar, causing devastation in the ranks of enemies."
  },
  "beastmaster_wild_axes": {
-  "Description": "Beastmaster sends his axes flying and calls them home again, slicing through enemy units and trees along their path.  Each axe can hit an enemy once.",
+  "Description": "Beastmaster sends his axes flying and calls them home again, slicing through enemy units and trees along their path.  Each axe can hit an enemy once, and amplifies subsequent damage from Beastmaster and his units.",
   "DisplayName": "Wild Axes",
   "Lore": "While learning to maneuver in nature alone, the Beastmaster also mastered the use of a pair of tomahawks, adept at cutting down trees as well as adversaries."
  },
@@ -618,7 +624,7 @@
   "Lore": "You'll have to excuse my friend Jex. He's really into murder."
  },
  "dark_willow_bramble_maze": {
-  "Description": "Dark Willow creates a maze of brambles in the target area.  Enemies that walk into a bramble take damage and are rooted.",
+  "Description": "Dark Willow creates a maze of brambles in the target area.  Enemies that walk into a bramble are rooted and take damage over time.",
   "DisplayName": "Bramble Maze",
   "Lore": "The fae realm exists all around you, merely waiting to draw you in..."
  },
@@ -638,7 +644,7 @@
   "Lore": "You think you know the first thing about fear? Jex'll show you what that word truly means..."
  },
  "dazzle_poison_touch": {
-  "Description": "Releases a cone of poisonous magic that strikes multiple enemy units. Deals damage over time and slows the targets. Anytime the targets get attacked, the debuff duration is refreshed ",
+  "Description": "Releases a cone of poisonous magic that strikes multiple enemy units. Deals damage over time and slows the targets. Anytime the targets get attacked, the debuff duration is refreshed.",
   "DisplayName": "Poison Touch",
   "Lore": "One of the few Dezun rites used for offensive purposes, the paralytic enchantment often proves useful."
  },
@@ -1306,7 +1312,7 @@
   "Lore": ""
  },
  "item_abyssal_blade": {
-  "Description": "<h1>Active: Overwhelm</h1> Stuns a target enemy unit for %stun_duration% seconds. <br><br>Pierces Spell Immunity.\\n<h1>Passive: Bash</h1> Grants melee heroes a %bash_chance_melee%%% chance on hit to stun the target for %bash_duration% seconds and deal %bonus_chance_damage% bonus damage.  Bash pierces evasion. Bash chance for ranged heroes is %bash_chance_ranged%%.",
+  "Description": "<h1>Active: Overwhelm</h1> Stuns a target enemy unit for %stun_duration% seconds. <br><br>Pierces Spell Immunity.\\n<h1>Passive: Bash</h1> Grants melee heroes a %bash_chance_melee%%% chance on hit to stun the target for %bash_duration% seconds and deal %bonus_chance_damage% bonus damage.  Bash pierces evasion. Bash chance for ranged heroes is %bash_chance_ranged%%.\\n<h1>Passive: Damage Block</h1> Grants a %block_chance%%% chance to block %block_damage_melee% damage from incoming attacks on melee heroes, and %block_damage_ranged% damage on ranged.",
   "DisplayName": "Abyssal Blade",
   "Lore": "The lost blade of the Commander of the Abyss, this edge cuts into an enemy's soul."
  },
@@ -1510,7 +1516,7 @@
   "Lore": "A wicked weapon, used in torturing political criminals."
  },
  "item_diffusal_blade": {
-  "Description": "<h1>Active: Purge</h1> Targets an enemy, slowing it for %purge_slow_duration% seconds.<br><br>Range: %cast_range_tooltip%\\n<h1>Passive: Manabreak</h1>Each attack burns %feedback_mana_burn% mana from the target, and deals %damage_per_burn% physical damage per burned mana. <br><br>Burns %feedback_mana_burn_illusion_melee% mana per attack from melee illusions and %feedback_mana_burn_illusion_ranged% mana per attack from ranged illusions.",
+  "Description": "<h1>Active: Inhibit</h1> Targets an enemy, slowing it for %purge_slow_duration% seconds.<br><br>Range: %cast_range_tooltip%\\n<h1>Passive: Manabreak</h1>Each attack burns %feedback_mana_burn% mana from the target, and deals %damage_per_burn% physical damage per burned mana. <br><br>Burns %feedback_mana_burn_illusion_melee% mana per attack from melee illusions and %feedback_mana_burn_illusion_ranged% mana per attack from ranged illusions.",
   "DisplayName": "Diffusal Blade",
   "Lore": "An enchanted blade that allows the user to cut straight into the enemy's soul."
  },
@@ -1713,7 +1719,7 @@
   "Lore": "A glowing jewel formed out of assorted parts that somehow fit together perfectly."
  },
  "item_meteor_hammer": {
-  "Description": "<h1>Active: Meteor Hammer</h1> CHANNELED - After a succesful channel, summons a meteor that strikes a %impact_radius% AoE, stunning enemies for %stun_duration% seconds. Deals damage over time to enemies units and buildings for %burn_duration% seconds.<BR><BR>Building DPS: %burn_dps_buildings% <BR>Non-Building DPS: %burn_dps_units% <BR>Channel Duration: %max_duration% seconds.<BR>Landing Time: %land_time% seconds.",
+  "Description": "<h1>Active: Meteor Hammer</h1> CHANNELED - After a successful channel, summons a meteor that strikes a %impact_radius% AoE, stunning enemies for %stun_duration% seconds and dealing impact damage. Continues to deal damage over time to enemies units and buildings for %burn_duration% seconds.<BR><BR>Building Impact Damage: %impact_damage_buildings% <BR>Building Over Time Damage: %burn_dps_buildings% <BR><BR>Non-Building Impact Damage: %impact_damage_units% <BR>Non-Building Over Time Damage: %burn_dps_units% <BR><BR>Channel Duration: %max_duration% seconds.<BR>Landing Time: %land_time% seconds.",
   "DisplayName": "Meteor Hammer",
   "Lore": "An enchanted hammer forged of metals discovered in the ruins of a village destroyed by a great star storm."
  },
@@ -1741,17 +1747,17 @@
   "Lore": "Enigmatic staff made of only the most expensive crystals."
  },
  "item_necronomicon": {
-  "Description": "<h1>Active: Demonic Summoning</h1>Summons a Warrior and an Archer to fight for you for %summon_duration% seconds.<br><br><h1>Warrior:</h1>Burns mana every hit, and deals magical damage to whoever kills it.  Gains True Sight at level 3.<br>Health: %warrior_health_tooltip%<br>Damage: %warrior_damage_tooltip%<br>Mana Break Damage: %warrior_mana_break_tooltip%<br>Last Will Damage: %explosion%<br><br><h1>Archer:</h1>Has an activated mana burn ability, and a passive movement and attack speed aura.<br>Health: %archer_health_tooltip%<br>Damage: %archer_damage_tooltip%<br>Mana Burn Damage: %archer_mana_burn%<br>Aura Move Speed: %archer_move_speed%<br>Aura Attack Speed: %archer_attack_speed%<br>Aura Radius: %archer_aura_radius_tooltip%",
+  "Description": "<h1>Active: Demonic Summoning</h1>Summons a Warrior and an Archer to fight for you for %summon_duration% seconds.<br><br><h1>Warrior:</h1>Burns mana every hit, and deals magical damage to whoever kills it.  Gains True Sight at level 3.<br>Health: %warrior_health_tooltip%<br>Damage: %warrior_damage_tooltip%<br>Mana Break Damage: %warrior_mana_break_tooltip%<br>Last Will Damage: %explosion%<br><br><h1>Archer:</h1>Has a passive movement and attack speed aura. Gains Purge at Level 3.<br>Health: %archer_health_tooltip%<br>Damage: %archer_damage_tooltip%<br>Aura Move Speed: %archer_move_speed%<br>Aura Attack Speed: %archer_attack_speed%<br>Aura Radius: %archer_aura_radius_tooltip%",
   "DisplayName": "Necronomicon",
   "Lore": "Considered the ultimate in necromancy and demonology, a powerful malefic force is locked within its pages."
  },
  "item_necronomicon_2": {
-  "Description": "<h1>Active: Demonic Summoning</h1>Summons a Warrior and an Archer to fight for you for %summon_duration% seconds.<br><br><h1>Warrior:</h1>Burns mana every hit, and deals magical damage to whoever kills it.  Gains True Sight at level 3.<br>Health: %warrior_health_tooltip%<br>Damage: %warrior_damage_tooltip%<br>Mana Break Damage: %warrior_mana_break_tooltip%<br>Last Will Damage: %explosion%<br><br><h1>Archer:</h1>Has an activated mana burn ability, and a passive movement and attack speed aura.<br>Health: %archer_health_tooltip%<br>Damage: %archer_damage_tooltip%<br>Mana Burn Damage: %archer_mana_burn%<br>Aura Move Speed: %archer_move_speed%<br>Aura Attack Speed: %archer_attack_speed%<br>Aura Radius: %archer_aura_radius_tooltip%",
+  "Description": "<h1>Active: Demonic Summoning</h1>Summons a Warrior and an Archer to fight for you for %summon_duration% seconds.<br><br><h1>Warrior:</h1>Burns mana every hit, and deals magical damage to whoever kills it.  Gains True Sight at level 3.<br>Health: %warrior_health_tooltip%<br>Damage: %warrior_damage_tooltip%<br>Mana Break Damage: %warrior_mana_break_tooltip%<br>Last Will Damage: %explosion%<br><br><h1>Archer:</h1>Has a passive movement and attack speed aura. Gains Purge at Level 3.<br>Health: %archer_health_tooltip%<br>Damage: %archer_damage_tooltip%<br>Aura Move Speed: %archer_move_speed%<br>Aura Attack Speed: %archer_attack_speed%<br>Aura Radius: %archer_aura_radius_tooltip%",
   "DisplayName": "Necronomicon",
   "Lore": "Considered the ultimate in necromancy and demonology, a powerful malefic force is locked within its pages."
  },
  "item_necronomicon_3": {
-  "Description": "<h1>Active: Demonic Summoning</h1>Summons a Warrior and an Archer to fight for you for %summon_duration% seconds.<br><br><h1>Warrior:</h1>Burns mana every hit, and deals magical damage to whoever kills it.  Gains True Sight at level 3.<br>Health: %warrior_health_tooltip%<br>Damage: %warrior_damage_tooltip%<br>Mana Break Damage: %warrior_mana_break_tooltip%<br>Last Will Damage: %explosion%<br><br><h1>Archer:</h1>Has an activated mana burn ability, and a passive movement and attack speed aura.<br>Health: %archer_health_tooltip%<br>Damage: %archer_damage_tooltip%<br>Mana Burn Damage: %archer_mana_burn%<br>Aura Move Speed: %archer_move_speed%<br>Aura Attack Speed: %archer_attack_speed%<br>Aura Radius: %archer_aura_radius_tooltip%",
+  "Description": "<h1>Active: Demonic Summoning</h1>Summons a Warrior and an Archer to fight for you for %summon_duration% seconds.<br><br><h1>Warrior:</h1>Burns mana every hit, and deals magical damage to whoever kills it.  Gains True Sight at level 3.<br>Health: %warrior_health_tooltip%<br>Damage: %warrior_damage_tooltip%<br>Mana Break Damage: %warrior_mana_break_tooltip%<br>Last Will Damage: %explosion%<br><br><h1>Archer:</h1>Has a passive movement and attack speed aura. Gains Purge at Level 3.<br>Health: %archer_health_tooltip%<br>Damage: %archer_damage_tooltip%<br>Aura Move Speed: %archer_move_speed%<br>Aura Attack Speed: %archer_attack_speed%<br>Aura Radius: %archer_aura_radius_tooltip%",
   "DisplayName": "Necronomicon",
   "Lore": "Considered the ultimate in necromancy and demonology, a powerful malefic force is locked within its pages."
  },
@@ -2098,7 +2104,7 @@
   "Lore": "Said to have belonged to a goddess, today it retains much of its former power."
  },
  "item_silver_edge": {
-  "Description": "<h1>Active: Shadow Walk</h1>Makes you invisible for %windwalk_duration% seconds, or until you attack or cast a spell.  While invisible, you move %windwalk_movement_speed%%% faster and can move through units.  <br><br>Attacking to end the invisibility will deal %windwalk_bonus_damage% bonus damage to the target, and for %backstab_duration% seconds, disable their passive abilities, and reduce their damage output by %backstab_reduction%%%.",
+  "Description": "<h1>Active: Shadow Walk</h1>Makes you invisible for %windwalk_duration% seconds, or until you attack or cast a spell.  While invisible, you move %windwalk_movement_speed%%% faster and can move through units.  <br><br>Attacking to end the invisibility will deal %windwalk_bonus_damage% bonus damage to the target, and for %backstab_duration% seconds, disable their passive abilities.",
   "DisplayName": "Silver Edge",
   "Lore": "Once used to slay an unjust king, only to have the kingdom erupt into civil war in the aftermath."
  },
@@ -2698,9 +2704,9 @@
   "Lore": "Her tenure with Selemene allows Mirana to eclipse the ground, wrapping her allies in a cloak of shadows."
  },
  "mirana_leap": {
-  "Description": "Mirana leaps forward into battle, empowering allied units with a ferocious roar that grants bonus attack and movement speed. Speed bonus lasts %leap_bonus_duration% seconds.",
+  "Description": "Mirana leaps forward into battle, empowering herself with a ferocious roar that grants bonus attack and movement speed. Speed bonus lasts %leap_bonus_duration% seconds.",
   "DisplayName": "Leap",
-  "Lore": "Both friend and foe alike recognize Mirana's iconic white beast in the heat of battle."
+  "Lore": "None can fail to recognize Mirana's iconic white beast in the heat of battle."
  },
  "mirana_starfall": {
   "Description": "Calls down a wave of meteors to damage nearby enemy units. The closest enemy unit to Mirana in a %starfall_secondary_radius% radius will be struck a second time for 75%% of the damage.\\n\\nUpgradable by Aghanim's Scepter.",
@@ -2887,17 +2893,17 @@
   "Lore": "The captured souls of those past slain are released to ravage their former allies."
  },
  "nevermore_shadowraze1": {
-  "Description": "Shadow Fiend razes the area in front of him, dealing damage to enemy units in an area. Adds a stacking magic resistance reduction debuff on the target. ",
+  "Description": "Shadow Fiend razes the ground directly in front of him, dealing damage to enemy units in the area. Adds a stacking damage amplifier on the target that causes the enemy to take bonus Shadow Raze damage per stack.",
   "DisplayName": "Shadowraze",
   "Lore": "Nevermore's trademark for harvesting souls."
  },
  "nevermore_shadowraze2": {
-  "Description": "Shadow Fiend razes the area in front of him, dealing damage to enemy units in an area. Adds a stacking magic resistance reduction debuff on the target. ",
+  "Description": "Shadow Fiend razes the ground a short distance away from him, dealing damage to enemy units in the area. Adds a stacking damage amplifier on the target that causes the enemy to take bonus Shadow Raze damage per stack.",
   "DisplayName": "Shadowraze",
   "Lore": "Nevermore's trademark for harvesting souls."
  },
  "nevermore_shadowraze3": {
-  "Description": "Shadow Fiend razes the area in front of him, dealing damage to enemy units in an area. Adds a stacking magic resistance reduction debuff on the target. ",
+  "Description": "Shadow Fiend razes the ground a longer distance away from him, dealing damage to enemy units in the area. Adds a stacking damage amplifier on the target that causes the enemy to take bonus Shadow Raze damage per stack.",
   "DisplayName": "Shadowraze",
   "Lore": "Nevermore's trademark for harvesting souls."
  },
@@ -3348,7 +3354,7 @@
  "npc_dota_hero_broodmother": {
   "Bio": "For centuries, Black Arachnia the Broodmother lurked in the dark lava tubes beneath the smoldering caldera of Mount Pyrotheos, raising millions of spiderlings in safety before sending them to find prey in the wide world above. In a later age, the Vizier of Greed, Ptholopthales, erected his lodestone ziggurat on the slopes of the dead volcano, knowing that any looters who sought his magnetic wealth must survive the spider-haunted passages. After millennia of maternal peace, Black Arachnia found herself beset by a steady trickle of furfeet and cutpurses, bold knights and noble youths--all of them delicious, certainly, and yet tending to create a less than nurturing environment for her innocent offspring. Tiring of the intrusions, she paid a visit to Ptholopthales; and when he proved unwilling to discuss a compromise, she wrapped the Vizier in silk and set him aside to be the centerpiece of a special birthday feast. Unfortunately, the absence of the Magnetic Ziggurat's master merely emboldened a new generation of intruders. When one of her newborns was trodden underfoot by a clumsy adventurer, she reached the end of her silken rope. Broodmother headed for the surface, declaring her intent to rid the world of each and every possible invader, down to the last Hero if necessary, until she could ensure her nursery might once more be a safe and wholesome environment for her precious spiderspawn.",
   "DisplayName": "Broodmother",
-  "Hype": "Hiding invisibly within her webs, Broodmother births an army of spiders to lead her team's forces toward the enemy base. As prey wanders near, she joins her children and attacks, slowing foes with incapacitating bites as she indulges her insatiable hunger."
+  "Hype": "Hiding within her webs, Broodmother births an army of spiders to lead her team's forces toward the enemy base. As prey wanders near, she joins her children and attacks, slowing foes with incapacitating bites as she indulges her insatiable hunger."
  },
  "npc_dota_hero_centaur": {
   "Bio": "It's said that a centaur's road is paved with the corpses of the fallen.  For the one called Warrunner, it has been a long road indeed.  To outsiders, the four-legged clans of Druud are often mistaken for simple, brutish creatures.  Their language has no written form; their culture lacks pictographic traditions, structured music, formalized religion.  For centaurs, combat is the perfect articulation of thought, the highest expression of self.  If killing is an art among centaurs, then Bradwarden the Warrunner is their greatest artist.  He rose to dominance on the proving grounds of Omexe, an ancient arena where centaur clans have for millennia gathered to perform their gladiatorial rites.  As his fame spread, spectators came from far and wide to see the great centaur in action.  Always the first to step into the arena, and the last to leave, he composes a masterpiece in each guttering spray, each thrust of blood-slickened blade-length.  It is the poetry of blood on steel, flung in complex patterns across the pale sands of the killing floor.\r\nWarrunner defeated warrior after warrior, until the arena boomed with the cheering of his name, and he found himself alone, the uncontested champion of his kind.  The great belt of Omexe was bestowed, wrapped around his broad torso, but in his victory, the death-artist found only emptiness.  For what is a warrior without a challenge?  The great centaur galloped out of Omexe that day with a new goal.  To his people, Warrunner is the greatest warrior to ever step into the arena.  Now he has set out to prove he is the greatest fighter who has ever lived.",
@@ -4509,7 +4515,7 @@
  "razor_unstable_current": {
   "Description": "Razor moves with increased speed, and hits a random nearby unit with a jolt of electricity every %hit_interval% seconds. The jolt deals damages, slows, and purges buffs from enemies.\\n\\nDISPEL TYPE: Basic Dispel",
   "DisplayName": "Unstable Current",
-  "Lore": "Attacking the Lightning Revenant is rewarded with shock therapy."
+  "Lore": "Merely approaching the Lightning Revenant is rewarded with shock therapy."
  },
  "riki_blink_strike": {
   "Description": "Teleports behind the target unit, striking for bonus damage if it is an enemy.",
@@ -4593,7 +4599,7 @@
   "Lore": "Rubick's favorite spell for dispatching would-be assassins is a rather simple conjuration."
  },
  "rubick_null_field": {
-  "Description": "Rubick's mastery of the arcane nullifies nearby enemy senses, reducing their magic resistance.",
+  "Description": "Rubick's mastery of the arcane creates an aura that nullifies nearby enemy senses or increases his own. Can be toggled offensively or defensively to reduce enemy magic resistance or increase allied magic resistance.",
   "DisplayName": "Null Field",
   "Lore": "Not every magus can be a Grand Magus..."
  },
@@ -5797,7 +5803,7 @@
   "DisplayName": "+300 Blink Cast Range"
  },
  "special_bonus_unique_antimage_4": {
-  "DisplayName": "+30% Spell Shield"
+  "DisplayName": "+25% Spell Shield"
  },
  "special_bonus_unique_antimage_5": {
   "DisplayName": "Blink Uncontrollable Illusion"
@@ -5839,7 +5845,7 @@
   "DisplayName": "+2s Flamebreak Burn Duration"
  },
  "special_bonus_unique_beastmaster": {
-  "DisplayName": "+120 Wild Axes Damage"
+  "DisplayName": "+100 Wild Axes Damage"
  },
  "special_bonus_unique_beastmaster_2": {
   "DisplayName": "+40 Boar Damage"
@@ -6058,7 +6064,7 @@
   "DisplayName": "+20 Marksmanship Agility"
  },
  "special_bonus_unique_drow_ranger_4": {
-  "DisplayName": "+1.5s Gust Duration"
+  "DisplayName": "+2s Gust Duration"
  },
  "special_bonus_unique_earth_spirit": {
   "DisplayName": "+200 Rolling Boulder Damage"
@@ -6337,7 +6343,7 @@
   "DisplayName": "-2s Lucent Beam Cooldown"
  },
  "special_bonus_unique_luna_3": {
-  "DisplayName": "+24 Luna Blessing Damage"
+  "DisplayName": "+24 Lunar Blessing Damage"
  },
  "special_bonus_unique_luna_4": {
   "DisplayName": "+0.25s Lucent Beam Ministun"
@@ -6376,13 +6382,13 @@
   "DisplayName": "+0.75s Reverse Polarity Stun Duration"
  },
  "special_bonus_unique_medusa": {
-  "DisplayName": "+2s Stone Gaze Duration"
+  "DisplayName": "+2.5s Stone Gaze Duration"
  },
  "special_bonus_unique_medusa_2": {
   "DisplayName": "+7 Split Shot target"
  },
  "special_bonus_unique_medusa_3": {
-  "DisplayName": "+10% Mystic Snake Mana Steal"
+  "DisplayName": "+15% Mystic Snake Mana Steal"
  },
  "special_bonus_unique_medusa_4": {
   "DisplayName": "Split Shot Uses Modifiers"
@@ -6421,13 +6427,13 @@
   "DisplayName": "150 Tree Dance Vision AoE"
  },
  "special_bonus_unique_monkey_king_6": {
-  "DisplayName": "+1 Wukong Command Ring"
+  "DisplayName": "+1 Wukong's Command Ring"
  },
  "special_bonus_unique_monkey_king_7": {
   "DisplayName": "+300 Tree Dance Cast Range"
  },
  "special_bonus_unique_morphling_1": {
-  "DisplayName": "+800 Waveform Range"
+  "DisplayName": "+300 Waveform Range"
  },
  "special_bonus_unique_morphling_2": {
   "DisplayName": "-25s Morph Cooldown"
@@ -6440,6 +6446,9 @@
  },
  "special_bonus_unique_morphling_5": {
   "DisplayName": "Morph Targets Allies"
+ },
+ "special_bonus_unique_morphling_6": {
+  "DisplayName": "2 Waveform Charges"
  },
  "special_bonus_unique_naga_siren": {
   "DisplayName": "+1 Mirror Image Illusion"
@@ -6535,7 +6544,7 @@
   "DisplayName": "-3s Swashbuckle Cooldown"
  },
  "special_bonus_unique_pangolier_5": {
-  "DisplayName": "-12s Rolling Thunder"
+  "DisplayName": "-16s Rolling Thunder"
  },
  "special_bonus_unique_phantom_assassin": {
   "DisplayName": "Double Strike Stifling Dagger"
@@ -6631,7 +6640,7 @@
   "DisplayName": "+0.20 Backstab Multiplier"
  },
  "special_bonus_unique_riki_2": {
-  "DisplayName": "-4s Smokescreen Cooldown"
+  "DisplayName": "-5s Smokescreen Cooldown"
  },
  "special_bonus_unique_riki_3": {
   "DisplayName": "+900 Blink Strike Cast Range"
@@ -6700,7 +6709,7 @@
   "DisplayName": "-4s Hex Cooldown"
  },
  "special_bonus_unique_silencer": {
-  "DisplayName": "+30 Curse Of The Silent Damage"
+  "DisplayName": "+30 Arcane Curse Damage"
  },
  "special_bonus_unique_silencer_2": {
   "DisplayName": "+2 Intelligence Steal"
@@ -6802,7 +6811,7 @@
   "DisplayName": "+80 Static Remnant Damage"
  },
  "special_bonus_unique_sven": {
-  "DisplayName": "-8s Storm Hammer Cooldown"
+  "DisplayName": "-9s Storm Hammer Cooldown"
  },
  "special_bonus_unique_sven_2": {
   "DisplayName": "+40 STR God's Strength"
@@ -6877,7 +6886,7 @@
   "DisplayName": "+0.3s Heat Seeking Missile Ministun"
  },
  "special_bonus_unique_tiny": {
-  "DisplayName": "+75 Avalanche Damage"
+  "DisplayName": "+125 Avalanche Damage"
  },
  "special_bonus_unique_tiny_2": {
   "DisplayName": "3 Toss Charges"
@@ -7385,7 +7394,7 @@
   "Lore": "Watching a hill become a mountain is awe-inspiring - especially if the mountain begins laying waste to adversaries."
  },
  "tiny_toss": {
-  "Description": "Grabs the nearest unit in a 275 radius around Tiny, ally or enemy, and launches it at the target unit or rune to deal damage where they land.  If the tossed unit is an enemy, it will take an extra 20%% damage. Toss does more damage with each level in Grow.",
+  "Description": "Grabs the nearest unit in a 275 radius around Tiny, ally or enemy, and launches it at the target unit or rune to deal damage where they land.  If the tossed unit is an enemy, it will take an extra 20%% damage.",
   "DisplayName": "Toss",
   "Lore": "Tiny's gargantuan stature allows him to catapult even the sturdiest of warriors."
  },
@@ -7474,7 +7483,8 @@
  },
  "tusk_walrus_kick": {
   "Description": "Kicks the target unit back, damaging them and slowing their movement speed.",
-  "DisplayName": "Walrus Kick"
+  "DisplayName": "Walrus Kick",
+  "Lore": "Tusk may have made his name with his fists, but the wise enemy is wary of any and all limbs."
  },
  "tusk_walrus_punch": {
   "Description": "Tusk connects with his mighty Walrus Punch, a critical strike so powerful it launches its victim into the air. The victim is slowed upon landing.",
@@ -7610,7 +7620,7 @@
   "DisplayName": "Stone Form"
  },
  "warlock_fatal_bonds": {
-  "Description": "Binds several enemy units together, causing %damage_share_percentage%%% of the damage dealt to one of them to be felt by the others.",
+  "Description": "Binds several enemy units together, causing a percentage of the damage dealt to one of them to be felt by the others.",
   "DisplayName": "Fatal Bonds",
   "Lore": "An ancient incantation that links the vital energies of multiple lifeforms into one collective body."
  },

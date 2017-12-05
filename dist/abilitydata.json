@@ -2235,9 +2235,9 @@
     "name": "spell_shield_resistance",
     "tooltip": "%RESISTANCE:",
     "value": [
-     26,
-     34,
-     42,
+     20,
+     30,
+     40,
      50
     ]
    },
@@ -2541,7 +2541,7 @@
    },
    {
     "name": "ministun_duration",
-    "tooltip": "PURGE DURATION:",
+    "tooltip": "SLOW DURATION:",
     "value": [
      0.4,
      0.5,
@@ -3974,6 +3974,110 @@
   ],
   "name": "batrider_sticky_napalm"
  },
+ "bear_empty1": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 82,
+  "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+  "attributes": [],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+   "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "Empty",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "bear_empty1"
+ },
+ "bear_empty2": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 83,
+  "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+  "attributes": [],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+   "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "Empty",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "bear_empty2"
+ },
  "beastmaster_boar_poison": {
   "AbilityCastPoint": [
    0,
@@ -4099,10 +4203,10 @@
     "name": "boar_damage_tooltip",
     "tooltip": "BOAR ATTACK DAMAGE:",
     "value": [
-     20,
-     30,
-     40,
-     50
+     16,
+     24,
+     32,
+     40
     ]
    },
    {
@@ -4600,10 +4704,7 @@
   "displayname": "Wild Axes",
   "level": 0,
   "manacost": [
-   60,
-   65,
-   70,
-   75
+   80
   ],
   "name": "beastmaster_wild_axes"
  },
@@ -11274,9 +11375,9 @@
     "name": "attack_damage",
     "tooltip": "ATTACK DAMAGE:",
     "value": [
-     75,
-     150,
-     225
+     60,
+     140,
+     220
     ]
    },
    {
@@ -11327,6 +11428,8 @@
    "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
   ],
   "cooldown": [
+   40,
+   30,
    20
   ],
   "damage": [
@@ -11465,7 +11568,7 @@
  },
  "dark_willow_cursed_crown": {
   "AbilityCastPoint": 0.1,
-  "AbilityCastRange": 800,
+  "AbilityCastRange": 600,
   "AbilityCastRangeBuffer": 250,
   "AbilityChannelTime": [
    0,
@@ -11787,7 +11890,7 @@
    },
    {
     "name": "slow",
-    "tooltip": "SLOW:",
+    "tooltip": "%SLOW:",
     "value": [
      -14,
      -16,
@@ -11809,6 +11912,16 @@
      5,
      6,
      7
+    ]
+   },
+   {
+    "name": "range_tooltip",
+    "tooltip": "RANGE:",
+    "value": [
+     600,
+     700,
+     800,
+     900
     ]
    }
   ],
@@ -14185,10 +14298,10 @@
     "name": "trueshot_ranged_damage",
     "tooltip": "%RANGE DAMAGE BONUS:",
     "value": [
-     20,
-     26,
-     32,
-     38
+     16,
+     22,
+     28,
+     34
     ]
    }
   ],
@@ -18174,6 +18287,57 @@
    275
   ],
   "name": "furion_wrath_of_nature"
+ },
+ "generic_hidden": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 6251,
+  "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+  "attributes": [],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_HIDDEN",
+   "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "generic_hidden"
  },
  "ghost_frost_attack": {
   "AbilityCastPoint": [
@@ -25181,10 +25345,10 @@
     "name": "cast_range_tooltip",
     "tooltip": "CAST RANGE:",
     "value": [
-     550,
-     700,
-     850,
-     1000
+     400,
+     500,
+     600,
+     700
     ]
    }
   ],
@@ -28817,10 +28981,10 @@
     "name": "bear_regen_tooltip",
     "tooltip": "BEAR HP REGEN:",
     "value": [
-     2,
-     3,
      4,
-     5
+     5,
+     6,
+     7
     ]
    },
    {
@@ -29260,7 +29424,7 @@
     "name": "transformation_time",
     "tooltip": "TRANSFORM TIME:",
     "value": [
-     1.933
+     0.8
     ]
    }
   ],
@@ -30771,14 +30935,12 @@
    },
    {
     "name": "stone_form_scepter_base",
-    "tooltip": "SCEPTER BASE DURATION:",
     "value": [
      1.0
     ]
    },
    {
     "name": "stone_form_scepter_increment",
-    "tooltip": "SCEPTER DURATION BOUNCE INCREASE:",
     "value": [
      0.3
     ]
@@ -30836,20 +30998,20 @@
    {
     "name": "damage_modifier",
     "value": [
-     -65,
-     -50,
-     -35,
-     -20
+     -70,
+     -55,
+     -40,
+     -25
     ]
    },
    {
     "name": "damage_modifier_tooltip",
     "tooltip": "%OUTGOING DAMAGE:",
     "value": [
-     35,
-     50,
-     65,
-     80
+     30,
+     45,
+     60,
+     75
     ]
    },
    {
@@ -32359,20 +32521,17 @@
     "name": "damage_min",
     "tooltip": "DAMAGE MIN AGI MULTIPLIER:",
     "value": [
-     0.25,
-     0.25,
-     0.25,
-     0.25
+     0.5
     ]
    },
    {
     "name": "damage_max",
     "tooltip": "DAMAGE MAX AGI MULTIPLIER:",
     "value": [
-     0.5,
      1,
      1.5,
-     2
+     2,
+     2.5
     ]
    },
    {
@@ -32449,10 +32608,7 @@
     "name": "stun_min",
     "tooltip": "STUN MIN:",
     "value": [
-     0.25,
-     0.25,
-     0.25,
-     0.25
+     0.5
     ]
    },
    {
@@ -32643,10 +32799,10 @@
    {
     "name": "bonus_attributes",
     "value": [
-     3,
      4,
      5,
-     6
+     6,
+     7
     ]
    }
   ],
@@ -32720,10 +32876,10 @@
     "name": "bonus_attributes",
     "tooltip": "BONUS AGILITY:",
     "value": [
-     3,
      4,
      5,
-     6
+     6,
+     7
     ]
    },
    {
@@ -32852,10 +33008,10 @@
     "name": "bonus_attributes",
     "tooltip": "BONUS STRENGTH:",
     "value": [
-     3,
      4,
      5,
-     6
+     6,
+     7
     ]
    },
    {
@@ -32979,6 +33135,12 @@
     "name": "width",
     "value": [
      200
+    ]
+   },
+   {
+    "name": "charge_restore_time",
+    "value": [
+     11
     ]
    }
   ],
@@ -33762,7 +33924,7 @@
    0,
    0
   ],
-  "AbilityCastRange": 900,
+  "AbilityCastRange": 700,
   "AbilityCastRangeBuffer": 250,
   "AbilityChannelTime": [
    0,
@@ -36873,6 +37035,13 @@
     "value": [
      0.6
     ]
+   },
+   {
+    "name": "fireblast_damage",
+    "tooltip": "FIREBLAST DAMAGE:",
+    "value": [
+     275
+    ]
    }
   ],
   "behavior": [
@@ -36881,7 +37050,12 @@
   "cooldown": [
    6
   ],
-  "damage": 275,
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
   "displayname": "Unrefined Fireblast",
   "level": 0,
   "manacost": [
@@ -37264,6 +37438,16 @@
     "value": [
      100
     ]
+   },
+   {
+    "name": "range_tooltip",
+    "tooltip": "RANGE:",
+    "value": [
+     500,
+     600,
+     700,
+     800
+    ]
    }
   ],
   "behavior": [
@@ -37478,10 +37662,15 @@
   "name": "oracle_purifying_flames"
  },
  "pangolier_gyroshell": {
-  "AbilityCastPoint": 0,
+  "AbilityCastPoint": 1.2,
   "AbilityCastRange": 0,
   "AbilityCastRangeBuffer": 250,
-  "AbilityChannelTime": 1.2,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
   "AbilityDuration": 8,
   "AbilityModifierSupportBonus": 0,
   "AbilityModifierSupportValue": 1,
@@ -37507,9 +37696,7 @@
     "name": "forward_move_speed",
     "tooltip": "ROLL SPEED:",
     "value": [
-     550,
-     575,
-     600
+     600.0
     ]
    },
    {
@@ -37521,9 +37708,7 @@
    {
     "name": "turn_rate",
     "value": [
-     105,
-     110,
-     115
+     120.0
     ]
    },
    {
@@ -37579,7 +37764,6 @@
   ],
   "behavior": [
    "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
-   "DOTA_ABILITY_BEHAVIOR_CHANNELLED",
    "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
    "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
   ],
@@ -37590,8 +37774,8 @@
   ],
   "damage": [
    200,
-   250,
-   300
+   275,
+   350
   ],
   "displayname": "Rolling Thunder",
   "level": 0,
@@ -37783,10 +37967,10 @@
     "name": "hero_stacks",
     "tooltip": "%REDUCTION PER HERO:",
     "value": [
-     8,
-     10,
+     9,
      12,
-     14
+     15,
+     18
     ]
    },
    {
@@ -37825,10 +38009,17 @@
     "value": [
      350
     ]
+   },
+   {
+    "name": "jump_horizontal_distance",
+    "value": [
+     225
+    ]
    }
   ],
   "behavior": [
-   "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+   "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+   "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
   ],
   "cooldown": [
    13
@@ -37927,15 +38118,6 @@
     "tooltip": "STRIKES:",
     "value": [
      4
-    ]
-   },
-   {
-    "name": "charge_restore_time",
-    "value": [
-     15,
-     12,
-     9,
-     6
     ]
    }
   ],
@@ -39099,10 +39281,10 @@
     "name": "spirit_duration",
     "tooltip": "SPIRIT DURATION:",
     "value": [
-     16,
-     16,
-     16,
-     16
+     20,
+     20,
+     20,
+     20
     ]
    },
    {
@@ -41844,6 +42026,7 @@
    },
    {
     "name": "damage",
+    "tooltip": "DAMAGE:",
     "value": [
      100,
      130,
@@ -66787,7 +66970,7 @@
    {
     "name": "value",
     "value": [
-     30
+     25
     ]
    }
   ],
@@ -66806,7 +66989,7 @@
    0,
    0
   ],
-  "displayname": "+30% Spell Shield",
+  "displayname": "+25% Spell Shield",
   "level": 0,
   "manacost": [
    0,
@@ -66851,7 +67034,7 @@
    {
     "name": "incoming_damage",
     "value": [
-     150
+     200
     ]
    },
    {
@@ -67611,7 +67794,7 @@
    {
     "name": "value",
     "value": [
-     120
+     100
     ]
    }
   ],
@@ -67630,7 +67813,7 @@
    0,
    0
   ],
-  "displayname": "+120 Wild Axes Damage",
+  "displayname": "+100 Wild Axes Damage",
   "level": 0,
   "manacost": [
    0,
@@ -71845,7 +72028,7 @@
    {
     "name": "value",
     "value": [
-     1.5
+     2.0
     ]
    }
   ],
@@ -71864,7 +72047,7 @@
    0,
    0
   ],
-  "displayname": "+1.5s Gust Duration",
+  "displayname": "+2s Gust Duration",
   "level": 0,
   "manacost": [
    0,
@@ -77300,7 +77483,7 @@
    0,
    0
   ],
-  "displayname": "+24 Luna Blessing Damage",
+  "displayname": "+24 Lunar Blessing Damage",
   "level": 0,
   "manacost": [
    0,
@@ -78035,7 +78218,7 @@
    {
     "name": "value",
     "value": [
-     2
+     2.5
     ]
    }
   ],
@@ -78054,7 +78237,7 @@
    0,
    0
   ],
-  "displayname": "+2s Stone Gaze Duration",
+  "displayname": "+2.5s Stone Gaze Duration",
   "level": 0,
   "manacost": [
    0,
@@ -78151,7 +78334,7 @@
    {
     "name": "value",
     "value": [
-     10
+     15
     ]
    }
   ],
@@ -78170,7 +78353,7 @@
    0,
    0
   ],
-  "displayname": "+10% Mystic Snake Mana Steal",
+  "displayname": "+15% Mystic Snake Mana Steal",
   "level": 0,
   "manacost": [
    0,
@@ -78499,7 +78682,7 @@
    {
     "name": "value",
     "value": [
-     4
+     5
     ]
    }
   ],
@@ -78930,7 +79113,7 @@
    0,
    0
   ],
-  "displayname": "+1 Wukong Command Ring",
+  "displayname": "+1 Wukong's Command Ring",
   "level": 0,
   "manacost": [
    0,
@@ -79027,7 +79210,7 @@
    {
     "name": "value",
     "value": [
-     800
+     300
     ]
    }
   ],
@@ -79046,7 +79229,7 @@
    0,
    0
   ],
-  "displayname": "+800 Waveform Range",
+  "displayname": "+300 Waveform Range",
   "level": 0,
   "manacost": [
    0,
@@ -79287,6 +79470,64 @@
    0
   ],
   "name": "special_bonus_unique_morphling_5"
+ },
+ "special_bonus_unique_morphling_6": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7052,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     2
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "2 Waveform Charges",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_unique_morphling_6"
  },
  "special_bonus_unique_naga_siren": {
   "AbilityCastPoint": [
@@ -81056,7 +81297,7 @@
    {
     "name": "value",
     "value": [
-     25
+     30
     ]
    }
   ],
@@ -81172,7 +81413,7 @@
    {
     "name": "value",
     "value": [
-     12.0
+     16.0
     ]
    }
   ],
@@ -81191,7 +81432,7 @@
    0,
    0
   ],
-  "displayname": "-12s Rolling Thunder",
+  "displayname": "-16s Rolling Thunder",
   "level": 0,
   "manacost": [
    0,
@@ -83034,7 +83275,7 @@
    {
     "name": "value",
     "value": [
-     4
+     5
     ]
    }
   ],
@@ -83053,7 +83294,7 @@
    0,
    0
   ],
-  "displayname": "-4s Smokescreen Cooldown",
+  "displayname": "-5s Smokescreen Cooldown",
   "level": 0,
   "manacost": [
    0,
@@ -84310,7 +84551,7 @@
    {
     "name": "value",
     "value": [
-     3
+     4
     ]
    }
   ],
@@ -84387,7 +84628,7 @@
    0,
    0
   ],
-  "displayname": "+30 Curse Of The Silent Damage",
+  "displayname": "+30 Arcane Curse Damage",
   "level": 0,
   "manacost": [
    0,
@@ -86340,7 +86581,7 @@
    {
     "name": "value",
     "value": [
-     8
+     9
     ]
    }
   ],
@@ -86359,7 +86600,7 @@
    0,
    0
   ],
-  "displayname": "-8s Storm Hammer Cooldown",
+  "displayname": "-9s Storm Hammer Cooldown",
   "level": 0,
   "manacost": [
    0,
@@ -87815,7 +88056,7 @@
    0,
    0
   ],
-  "displayname": "+75 Avalanche Damage",
+  "displayname": "+125 Avalanche Damage",
   "level": 0,
   "manacost": [
    0,
@@ -91682,7 +91923,7 @@
    {
     "name": "value",
     "value": [
-     30
+     -30
     ]
    }
   ],
@@ -94129,8 +94370,8 @@
    "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
   ],
   "cooldown": [
+   100,
    80,
-   70,
    60
   ],
   "damage": [
@@ -94551,9 +94792,9 @@
     "name": "gods_strength_bonus_str",
     "tooltip": "BONUS STRENGTH:",
     "value": [
-     12,
-     24,
-     36
+     10,
+     20,
+     30
     ]
    },
    {
@@ -95670,9 +95911,9 @@
     "name": "trap_bonus_damage",
     "tooltip": "BONUS DAMAGE:",
     "value": [
-     100,
-     125,
-     150
+     175,
+     250,
+     325
     ]
    }
   ],
@@ -95840,9 +96081,9 @@
    {
     "name": "trap_bonus_damage",
     "value": [
-     100,
-     125,
-     150
+     175,
+     250,
+     325
     ]
    }
   ],
@@ -95916,9 +96157,9 @@
    {
     "name": "trap_bonus_damage",
     "value": [
-     100,
-     125,
-     150
+     175,
+     250,
+     325
     ]
    }
   ],
@@ -96738,10 +96979,10 @@
     "name": "damage",
     "tooltip": "DAMAGE:",
     "value": [
-     120,
+     125,
      200,
-     280,
-     360
+     275,
+     350
     ]
    },
    {
@@ -97188,12 +97429,7 @@
   "name": "tiny_avalanche"
  },
  "tiny_craggy_exterior": {
-  "AbilityCastPoint": [
-   0,
-   0,
-   0,
-   0
-  ],
+  "AbilityCastPoint": 0.2,
   "AbilityCastRange": 165,
   "AbilityCastRangeBuffer": 250,
   "AbilityChannelTime": [
@@ -97222,14 +97458,14 @@
      2,
      3,
      4,
-     5
+     6
     ]
    },
    {
     "name": "bonus_damage",
     "tooltip": "%BONUS DAMAGE:",
     "value": [
-     25
+     30
     ]
    },
    {
@@ -97255,13 +97491,13 @@
    {
     "name": "splash_range",
     "value": [
-     375
+     400
     ]
    },
    {
     "name": "splash_pct",
     "value": [
-     70
+     100
     ]
    }
   ],
@@ -97269,10 +97505,7 @@
    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
   ],
   "cooldown": [
-   40,
-   32,
-   24,
-   16
+   15
   ],
   "damage": [
    0,
@@ -97338,6 +97571,8 @@
     "name": "attack_speed_reduction",
     "tooltip": "ATTACK SPEED REDUCTION:",
     "value": [
+     20,
+     25,
      30
     ]
    },
@@ -97426,10 +97661,7 @@
    {
     "name": "bonus_damage_pct",
     "value": [
-     20,
-     20,
-     20,
-     20
+     30
     ]
    },
    {
@@ -97482,7 +97714,7 @@
  },
  "tiny_toss_tree": {
   "AbilityCastPoint": 0.2,
-  "AbilityCastRange": 1000,
+  "AbilityCastRange": 1300,
   "AbilityCastRangeBuffer": 250,
   "AbilityChannelTime": [
    0,
@@ -97513,32 +97745,33 @@
     "name": "range",
     "tooltip": "CAST RANGE:",
     "value": [
-     1000
+     1300
     ]
    },
    {
     "name": "bonus_damage",
     "value": [
-     25
+     30
     ]
    },
    {
     "name": "splash_radius",
     "tooltip": "SPLASH RADIUS:",
     "value": [
-     250
+     275
     ]
    },
    {
     "name": "splash_pct",
     "tooltip": "%SPLASH DAMAGE:",
     "value": [
-     70
+     100
     ]
    }
   ],
   "behavior": [
    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+   "DOTA_ABILITY_BEHAVIOR_POINT",
    "DOTA_ABILITY_BEHAVIOR_HIDDEN"
   ],
   "cooldown": [
@@ -100100,7 +100333,7 @@
     "name": "aura_radius",
     "tooltip": "RADIUS:",
     "value": [
-     900
+     1200
     ]
    },
    {
@@ -100132,7 +100365,7 @@
     "name": "illusion_duration",
     "tooltip": "IMAGE DURATION:",
     "value": [
-     7.0
+     6.0
     ]
    }
   ],
@@ -101566,9 +101799,9 @@
     "name": "familiar_attack_damage",
     "tooltip": "FAMILIAR ATTACK DAMAGE:",
     "value": [
-     20,
-     35,
-     50
+     30,
+     45,
+     60
     ]
    }
   ],
@@ -101722,6 +101955,7 @@
    },
    {
     "name": "damage_share_percentage",
+    "tooltip": "%SHARED DAMAGE:",
     "value": [
      25
     ]
@@ -102093,6 +102327,16 @@
     "name": "tick_interval",
     "value": [
      1.0
+    ]
+   },
+   {
+    "name": "range_tooltip",
+    "tooltip": "RANGE:",
+    "value": [
+     525,
+     600,
+     675,
+     750
     ]
    }
   ],
@@ -104351,6 +104595,16 @@
   "abilityunitdamagetype": "DAMAGE_TYPE_MAGICAL",
   "attributes": [
    {
+    "name": "arc_damage",
+    "tooltip": "DAMAGE:",
+    "value": [
+     85,
+     100,
+     115,
+     145
+    ]
+   },
+   {
     "name": "radius",
     "value": [
      500,
@@ -104386,10 +104640,10 @@
    1.6
   ],
   "damage": [
-   85,
-   100,
-   115,
-   145
+   0,
+   0,
+   0,
+   0
   ],
   "displayname": "Arc Lightning",
   "level": 0,

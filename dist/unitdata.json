@@ -2639,8 +2639,8 @@
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
   "armorphysical": 0,
-  "attackdamagemax": 20,
-  "attackdamagemin": 20,
+  "attackdamagemax": 16,
+  "attackdamagemin": 16,
   "attackpoint": 0.5,
   "attackrange": 550,
   "attackrate": 1.25,
@@ -2760,8 +2760,8 @@
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
   "armorphysical": 0,
-  "attackdamagemax": 30,
-  "attackdamagemin": 30,
+  "attackdamagemax": 24,
+  "attackdamagemin": 24,
   "attackpoint": 0.5,
   "attackrange": 550,
   "attackrate": 1.25,
@@ -2881,8 +2881,8 @@
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
   "armorphysical": 0,
-  "attackdamagemax": 40,
-  "attackdamagemin": 40,
+  "attackdamagemax": 32,
+  "attackdamagemin": 32,
   "attackpoint": 0.5,
   "attackrange": 550,
   "attackrate": 1.25,
@@ -3002,8 +3002,8 @@
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
   "armorphysical": 0,
-  "attackdamagemax": 50,
-  "attackdamagemin": 50,
+  "attackdamagemax": 40,
+  "attackdamagemin": 40,
   "attackpoint": 0.5,
   "attackrange": 550,
   "attackrate": 1.25,
@@ -3539,6 +3539,108 @@
    },
    {
     "AbilityCastPoint": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityCastRange": 0,
+    "AbilityCastRangeBuffer": 250,
+    "AbilityChannelTime": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityDuration": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityModifierSupportBonus": 0,
+    "AbilityModifierSupportValue": 1,
+    "ID": 6251,
+    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+    "attributes": [],
+    "behavior": [
+     "DOTA_ABILITY_BEHAVIOR_HIDDEN",
+     "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    ],
+    "cooldown": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "damage": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "level": 0,
+    "manacost": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "name": "generic_hidden"
+   },
+   {
+    "AbilityCastPoint": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityCastRange": 0,
+    "AbilityCastRangeBuffer": 250,
+    "AbilityChannelTime": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityDuration": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityModifierSupportBonus": 0,
+    "AbilityModifierSupportValue": 1,
+    "ID": 6251,
+    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+    "attributes": [],
+    "behavior": [
+     "DOTA_ABILITY_BEHAVIOR_HIDDEN",
+     "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    ],
+    "cooldown": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "damage": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "level": 0,
+    "manacost": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "name": "generic_hidden"
+   },
+   {
+    "AbilityCastPoint": [
      0.4,
      0.4,
      0.4
@@ -3874,6 +3976,108 @@
    },
    {
     "AbilityCastPoint": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityCastRange": 0,
+    "AbilityCastRangeBuffer": 250,
+    "AbilityChannelTime": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityDuration": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityModifierSupportBonus": 0,
+    "AbilityModifierSupportValue": 1,
+    "ID": 6251,
+    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+    "attributes": [],
+    "behavior": [
+     "DOTA_ABILITY_BEHAVIOR_HIDDEN",
+     "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    ],
+    "cooldown": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "damage": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "level": 0,
+    "manacost": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "name": "generic_hidden"
+   },
+   {
+    "AbilityCastPoint": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityCastRange": 0,
+    "AbilityCastRangeBuffer": 250,
+    "AbilityChannelTime": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityDuration": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityModifierSupportBonus": 0,
+    "AbilityModifierSupportValue": 1,
+    "ID": 6251,
+    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+    "attributes": [],
+    "behavior": [
+     "DOTA_ABILITY_BEHAVIOR_HIDDEN",
+     "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    ],
+    "cooldown": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "damage": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "level": 0,
+    "manacost": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "name": "generic_hidden"
+   },
+   {
+    "AbilityCastPoint": [
      0.4,
      0.4,
      0.4
@@ -4206,6 +4410,108 @@
      0
     ],
     "name": "brewmaster_earth_pulverize"
+   },
+   {
+    "AbilityCastPoint": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityCastRange": 0,
+    "AbilityCastRangeBuffer": 250,
+    "AbilityChannelTime": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityDuration": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityModifierSupportBonus": 0,
+    "AbilityModifierSupportValue": 1,
+    "ID": 6251,
+    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+    "attributes": [],
+    "behavior": [
+     "DOTA_ABILITY_BEHAVIOR_HIDDEN",
+     "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    ],
+    "cooldown": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "damage": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "level": 0,
+    "manacost": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "name": "generic_hidden"
+   },
+   {
+    "AbilityCastPoint": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityCastRange": 0,
+    "AbilityCastRangeBuffer": 250,
+    "AbilityChannelTime": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityDuration": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityModifierSupportBonus": 0,
+    "AbilityModifierSupportValue": 1,
+    "ID": 6251,
+    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+    "attributes": [],
+    "behavior": [
+     "DOTA_ABILITY_BEHAVIOR_HIDDEN",
+     "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    ],
+    "cooldown": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "damage": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "level": 0,
+    "manacost": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "name": "generic_hidden"
    },
    {
     "AbilityCastPoint": [
@@ -5180,6 +5486,108 @@
     "name": "brewmaster_storm_wind_walk"
    },
    {
+    "AbilityCastPoint": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityCastRange": 0,
+    "AbilityCastRangeBuffer": 250,
+    "AbilityChannelTime": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityDuration": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityModifierSupportBonus": 0,
+    "AbilityModifierSupportValue": 1,
+    "ID": 6251,
+    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+    "attributes": [],
+    "behavior": [
+     "DOTA_ABILITY_BEHAVIOR_HIDDEN",
+     "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    ],
+    "cooldown": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "damage": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "level": 0,
+    "manacost": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "name": "generic_hidden"
+   },
+   {
+    "AbilityCastPoint": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityCastRange": 0,
+    "AbilityCastRangeBuffer": 250,
+    "AbilityChannelTime": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityDuration": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityModifierSupportBonus": 0,
+    "AbilityModifierSupportValue": 1,
+    "ID": 6251,
+    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+    "attributes": [],
+    "behavior": [
+     "DOTA_ABILITY_BEHAVIOR_HIDDEN",
+     "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    ],
+    "cooldown": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "damage": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "level": 0,
+    "manacost": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "name": "generic_hidden"
+   },
+   {
     "AbilityCastPoint": 0.2,
     "AbilityCastRange": [
      850,
@@ -5516,6 +5924,108 @@
     "name": "brewmaster_storm_wind_walk"
    },
    {
+    "AbilityCastPoint": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityCastRange": 0,
+    "AbilityCastRangeBuffer": 250,
+    "AbilityChannelTime": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityDuration": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityModifierSupportBonus": 0,
+    "AbilityModifierSupportValue": 1,
+    "ID": 6251,
+    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+    "attributes": [],
+    "behavior": [
+     "DOTA_ABILITY_BEHAVIOR_HIDDEN",
+     "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    ],
+    "cooldown": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "damage": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "level": 0,
+    "manacost": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "name": "generic_hidden"
+   },
+   {
+    "AbilityCastPoint": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityCastRange": 0,
+    "AbilityCastRangeBuffer": 250,
+    "AbilityChannelTime": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityDuration": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityModifierSupportBonus": 0,
+    "AbilityModifierSupportValue": 1,
+    "ID": 6251,
+    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+    "attributes": [],
+    "behavior": [
+     "DOTA_ABILITY_BEHAVIOR_HIDDEN",
+     "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    ],
+    "cooldown": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "damage": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "level": 0,
+    "manacost": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "name": "generic_hidden"
+   },
+   {
     "AbilityCastPoint": 0.2,
     "AbilityCastRange": [
      850,
@@ -5850,6 +6360,108 @@
      75
     ],
     "name": "brewmaster_storm_wind_walk"
+   },
+   {
+    "AbilityCastPoint": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityCastRange": 0,
+    "AbilityCastRangeBuffer": 250,
+    "AbilityChannelTime": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityDuration": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityModifierSupportBonus": 0,
+    "AbilityModifierSupportValue": 1,
+    "ID": 6251,
+    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+    "attributes": [],
+    "behavior": [
+     "DOTA_ABILITY_BEHAVIOR_HIDDEN",
+     "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    ],
+    "cooldown": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "damage": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "level": 0,
+    "manacost": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "name": "generic_hidden"
+   },
+   {
+    "AbilityCastPoint": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityCastRange": 0,
+    "AbilityCastRangeBuffer": 250,
+    "AbilityChannelTime": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityDuration": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityModifierSupportBonus": 0,
+    "AbilityModifierSupportValue": 1,
+    "ID": 6251,
+    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+    "attributes": [],
+    "behavior": [
+     "DOTA_ABILITY_BEHAVIOR_HIDDEN",
+     "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    ],
+    "cooldown": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "damage": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "level": 0,
+    "manacost": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "name": "generic_hidden"
    },
    {
     "AbilityCastPoint": 0.2,
@@ -8371,6 +8983,58 @@
     ],
     "AbilityModifierSupportBonus": 0,
     "AbilityModifierSupportValue": 1,
+    "ID": 5492,
+    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+    "attributes": [],
+    "behavior": [
+     "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+     "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+    ],
+    "cooldown": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "damage": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "displayname": "Go To Secret Shop",
+    "level": 0,
+    "manacost": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "name": "courier_go_to_secretshop"
+   },
+   {
+    "AbilityCastPoint": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityCastRange": 0,
+    "AbilityCastRangeBuffer": 250,
+    "AbilityChannelTime": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityDuration": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityModifierSupportBonus": 0,
+    "AbilityModifierSupportValue": 1,
     "ID": 5207,
     "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
     "attributes": [],
@@ -8517,58 +9181,6 @@
      0
     ],
     "name": "courier_transfer_items"
-   },
-   {
-    "AbilityCastPoint": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "AbilityCastRange": 0,
-    "AbilityCastRangeBuffer": 250,
-    "AbilityChannelTime": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "AbilityDuration": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "AbilityModifierSupportBonus": 0,
-    "AbilityModifierSupportValue": 1,
-    "ID": 5492,
-    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
-    "attributes": [],
-    "behavior": [
-     "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
-     "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
-    ],
-    "cooldown": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "damage": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "displayname": "Go To Secret Shop",
-    "level": 0,
-    "manacost": [
-     0,
-     0,
-     0,
-     0
-    ],
-    "name": "courier_go_to_secretshop"
    },
    {
     "AbilityCastPoint": [
@@ -13659,6 +14271,110 @@
   "HasInventory": 1,
   "abilities": [
    {
+    "AbilityCastPoint": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityCastRange": 0,
+    "AbilityCastRangeBuffer": 250,
+    "AbilityChannelTime": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityDuration": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityModifierSupportBonus": 0,
+    "AbilityModifierSupportValue": 1,
+    "ID": 82,
+    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+    "attributes": [],
+    "behavior": [
+     "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+     "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    ],
+    "cooldown": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "damage": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "displayname": "Empty",
+    "level": 0,
+    "manacost": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "name": "bear_empty1"
+   },
+   {
+    "AbilityCastPoint": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityCastRange": 0,
+    "AbilityCastRangeBuffer": 250,
+    "AbilityChannelTime": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityDuration": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityModifierSupportBonus": 0,
+    "AbilityModifierSupportValue": 1,
+    "ID": 83,
+    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+    "attributes": [],
+    "behavior": [
+     "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+     "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    ],
+    "cooldown": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "damage": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "displayname": "Empty",
+    "level": 0,
+    "manacost": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "name": "bear_empty2"
+   },
+   {
     "AbilityCastPoint": 0.1,
     "AbilityCastRange": 0,
     "AbilityCastRangeBuffer": 250,
@@ -13755,7 +14471,7 @@
   "name": "npc_dota_lone_druid_bear1",
   "projectilespeed": 0,
   "statushealth": 1400,
-  "statushealthregen": 2,
+  "statushealthregen": 4,
   "statusmana": 300,
   "statusmanaregen": 0.5,
   "unitlevel": 7,
@@ -13814,6 +14530,58 @@
      0
     ],
     "name": "lone_druid_spirit_bear_return"
+   },
+   {
+    "AbilityCastPoint": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityCastRange": 0,
+    "AbilityCastRangeBuffer": 250,
+    "AbilityChannelTime": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityDuration": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityModifierSupportBonus": 0,
+    "AbilityModifierSupportValue": 1,
+    "ID": 83,
+    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+    "attributes": [],
+    "behavior": [
+     "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+     "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    ],
+    "cooldown": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "damage": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "displayname": "Empty",
+    "level": 0,
+    "manacost": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "name": "bear_empty2"
    },
    {
     "AbilityCastPoint": 0.1,
@@ -13912,7 +14680,7 @@
   "name": "npc_dota_lone_druid_bear2",
   "projectilespeed": 0,
   "statushealth": 1800,
-  "statushealthregen": 3,
+  "statushealthregen": 5,
   "statusmana": 300,
   "statusmanaregen": 0.5,
   "unitlevel": 7,
@@ -14136,7 +14904,7 @@
   "name": "npc_dota_lone_druid_bear3",
   "projectilespeed": 0,
   "statushealth": 2300,
-  "statushealthregen": 4,
+  "statushealthregen": 6,
   "statusmana": 300,
   "statusmanaregen": 0.5,
   "unitlevel": 7,
@@ -14356,6 +15124,108 @@
     ],
     "AbilityModifierSupportBonus": 0,
     "AbilityModifierSupportValue": 1,
+    "ID": 6251,
+    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+    "attributes": [],
+    "behavior": [
+     "DOTA_ABILITY_BEHAVIOR_HIDDEN",
+     "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    ],
+    "cooldown": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "damage": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "level": 0,
+    "manacost": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "name": "generic_hidden"
+   },
+   {
+    "AbilityCastPoint": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityCastRange": 0,
+    "AbilityCastRangeBuffer": 250,
+    "AbilityChannelTime": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityDuration": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityModifierSupportBonus": 0,
+    "AbilityModifierSupportValue": 1,
+    "ID": 6251,
+    "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+    "attributes": [],
+    "behavior": [
+     "DOTA_ABILITY_BEHAVIOR_HIDDEN",
+     "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE"
+    ],
+    "cooldown": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "damage": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "level": 0,
+    "manacost": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "name": "generic_hidden"
+   },
+   {
+    "AbilityCastPoint": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityCastRange": 0,
+    "AbilityCastRangeBuffer": 250,
+    "AbilityChannelTime": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityDuration": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "AbilityModifierSupportBonus": 0,
+    "AbilityModifierSupportValue": 1,
     "ID": 5420,
     "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
     "attributes": [
@@ -14426,7 +15296,7 @@
   "name": "npc_dota_lone_druid_bear4",
   "projectilespeed": 0,
   "statushealth": 2700,
-  "statushealthregen": 5,
+  "statushealthregen": 7,
   "statusmana": 300,
   "statusmanaregen": 0.5,
   "unitlevel": 7,
@@ -22041,9 +22911,9 @@
      {
       "name": "trap_bonus_damage",
       "value": [
-       100,
-       125,
-       150
+       175,
+       250,
+       325
       ]
      }
     ],
@@ -23375,8 +24245,8 @@
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
   "armorphysical": 0,
-  "attackdamagemax": 25,
-  "attackdamagemin": 25,
+  "attackdamagemax": 30,
+  "attackdamagemin": 30,
   "attackpoint": 0.33,
   "attackrange": 160,
   "attackrate": 0.4,
@@ -23509,8 +24379,8 @@
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
   "armorphysical": 1,
-  "attackdamagemax": 40,
-  "attackdamagemin": 40,
+  "attackdamagemax": 45,
+  "attackdamagemin": 45,
   "attackpoint": 0.33,
   "attackrange": 160,
   "attackrate": 0.4,
@@ -23643,8 +24513,8 @@
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
   "armorphysical": 2,
-  "attackdamagemax": 55,
-  "attackdamagemin": 55,
+  "attackdamagemax": 60,
+  "attackdamagemin": 60,
   "attackpoint": 0.33,
   "attackrange": 160,
   "attackrate": 0.4,

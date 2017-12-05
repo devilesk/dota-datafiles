@@ -1726,6 +1726,8 @@
 		"ItemStockMax"					"1"
 		"ItemStockTime"					"36000.0"
 		"ItemSupport"					"1"
+		"ItemKillable"					"0"
+		"ItemSellable"					"0"
 		"IsTempestDoubleClonable"		"0"
 	}
 	
@@ -3204,7 +3206,7 @@
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
 		"FightRecapLevel"				"2"
-		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
 
 		"AbilityCastRange"				"800"
 		"AbilityCastPoint"				"0.0"
@@ -4232,6 +4234,7 @@
 
 		"AbilityCastPoint"				"0.0"
 		"AbilityCooldown"				"90.0"
+		"AbilityManaCost"				"50"
 		"AbilitySharedCooldown"			"necronomicon"
 		"FightRecapLevel"				"1"
 
@@ -4333,10 +4336,10 @@
 
 		"AbilityCastPoint"				"0.0"
 		"AbilityCooldown"				"90.0"
+		"AbilityManaCost"				"50"
 		"AbilitySharedCooldown"			"necronomicon"
 		"FightRecapLevel"				"1"
 
-		"AbilityManaCost"				"50"
 		"ItemCost"						"3700"
 		"ItemShopTags"					"int;str;hard_to_tag;see_invis"
 		"ItemQuality"					"rare"
@@ -4435,10 +4438,10 @@
 
 		"AbilityCastPoint"				"0.0"
 		"AbilityCooldown"				"90.0"
+		"AbilityManaCost"				"50"
 		"AbilitySharedCooldown"			"necronomicon"
 		"FightRecapLevel"				"1"
 
-		"AbilityManaCost"				"50"
 		"ItemCost"						"5000"
 		"ItemShopTags"					"int;str;hard_to_tag;see_invis"
 		"ItemQuality"					"rare"
@@ -5217,12 +5220,12 @@
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"burn_dps_buildings"		"60"
+				"burn_dps_buildings"		"50"
 			}
 			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"burn_dps_units"		"115"
+				"burn_dps_units"		"90"
 			}
 			"07"
 			{
@@ -5253,6 +5256,16 @@
 			{
 				"var_type"				"FIELD_INTEGER"
 				"max_duration"		"3"
+			}
+			"13"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"impact_damage_buildings"		"75"
+			}
+			"14"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"impact_damage_units"		"150"
 			}
 		}
 	}
@@ -5337,7 +5350,7 @@
 		"ID"							"255"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"Model"							"models/props_gameplay/recipe.vmdl"
 		
-		"ItemCost"						"1750"	
+		"ItemCost"						"1675"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
@@ -5355,7 +5368,7 @@
 
 		"AbilityCooldown"				"100.0"
 
-		"ItemCost"						"3750"
+		"ItemCost"						"3675"
 		"ItemShopTags"					"str;regen_health;health_pool"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"ad;aeon disk"
@@ -6274,7 +6287,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"			"50"
+				"bonus_damage"			"45"
 			}
 			"02"
 			{
@@ -7540,7 +7553,7 @@
 			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"berserk_armor_reduction"	"6"
+				"berserk_armor_reduction"	"7"
 			}
 			"07"
 			{

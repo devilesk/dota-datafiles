@@ -6893,8 +6893,6 @@
 		"ModelScale"					"1"
 		"UnitLabel"					"courier"
 
-		"AbilityLayout"				"6"		// changes when we change to flying -> "5"
-
 		"Ability1"					"courier_return_to_base"
 		"Ability2"					"courier_go_to_secretshop"		
 		"Ability3"					"courier_return_stash_items"
@@ -6950,12 +6948,11 @@
 		"ModelScale"					"1"
 		"UnitLabel"					"courier"
 
-		"AbilityLayout"				"6"
 		"Ability1"					"courier_return_to_base"			
-		"Ability2"					"courier_return_stash_items"		
-		"Ability3"					"courier_take_stash_items"			
-		"Ability4"					"courier_transfer_items"  	
-		"Ability5"					"courier_go_to_secretshop"				
+		"Ability2"					"courier_go_to_secretshop"				
+		"Ability3"					"courier_return_stash_items"		
+		"Ability4"					"courier_take_stash_items"			
+		"Ability5"					"courier_transfer_items"  	
 		"Ability6"					"courier_shield"						
 		
 		"ArmorPhysical"				"10"		// Physical protection.
@@ -9151,8 +9148,8 @@
 		"ArmorPhysical"				"0"			// Physical protection.
 
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"20"		// Damage range min.
-		"AttackDamageMax"			"20"		// Damage range max.	
+		"AttackDamageMin"			"16"		// Damage range min.
+		"AttackDamageMax"			"16"		// Damage range max.	
 		"AttackRate"				"1.25"		// Speed of attack.
 		"AttackAnimationPoint"		"0.5"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"600"		// Range within a target can be acquired.
@@ -9200,8 +9197,8 @@
 		"ArmorPhysical"				"0"			// Physical protection.
 
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"30"		// Damage range min.
-		"AttackDamageMax"			"30"		// Damage range max.	
+		"AttackDamageMin"			"24"		// Damage range min.
+		"AttackDamageMax"			"24"		// Damage range max.	
 		"AttackRate"				"1.25"		// Speed of attack.
 		"AttackAnimationPoint"		"0.5"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"600"		// Range within a target can be acquired.
@@ -9249,8 +9246,8 @@
 		"ArmorPhysical"				"0"			// Physical protection.
 
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"40"		// Damage range min.
-		"AttackDamageMax"			"40"		// Damage range max.	
+		"AttackDamageMin"			"32"		// Damage range min.
+		"AttackDamageMax"			"32"		// Damage range max.	
 		"AttackRate"				"1.25"		// Speed of attack.
 		"AttackAnimationPoint"		"0.5"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"600"		// Range within a target can be acquired.
@@ -9298,8 +9295,8 @@
 		"ArmorPhysical"				"0"			// Physical protection.
 
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"50"		// Damage range min.
-		"AttackDamageMax"			"50"		// Damage range max.	
+		"AttackDamageMin"			"40"		// Damage range min.
+		"AttackDamageMax"			"40"		// Damage range max.	
 		"AttackRate"				"1.25"		// Speed of attack.
 		"AttackAnimationPoint"		"0.5"		// Normalized time in animation cycle to attack.
 		"AttackAcquisitionRange"	"600"		// Range within a target can be acquired.
@@ -9347,7 +9344,9 @@
 		"Ability1"					"brewmaster_earth_hurl_boulder"		// Ability 1
 		"Ability2"					"brewmaster_earth_spell_immunity"	// Ability 2
 		"Ability3"					"brewmaster_earth_pulverize"		// Ability 3
-		"Ability4"					"brewmaster_thunder_clap"		// Ability 4	
+		"Ability4"					"generic_hidden"
+		"Ability5"					"generic_hidden"
+		"Ability6"					"brewmaster_thunder_clap"			// Ability 6	
 
 		"ArmorPhysical"				"5"			// Physical protection.
 
@@ -9397,7 +9396,9 @@
 		"Ability1"					"brewmaster_earth_hurl_boulder"		// Ability 1
 		"Ability2"					"brewmaster_earth_spell_immunity"	// Ability 2
 		"Ability3"					"brewmaster_earth_pulverize"		// Ability 3
-		"Ability4"					"brewmaster_thunder_clap"		// Ability 4	
+		"Ability4"					"generic_hidden"
+		"Ability5"					"generic_hidden"
+		"Ability6"					"brewmaster_thunder_clap"			// Ability 6	
 
 		"ArmorPhysical"				"5"			// Physical protection.
 
@@ -9447,7 +9448,9 @@
 		"Ability1"					"brewmaster_earth_hurl_boulder"		// Ability 1
 		"Ability2"					"brewmaster_earth_spell_immunity"	// Ability 2
 		"Ability3"					"brewmaster_earth_pulverize"		// Ability 3
-		"Ability4"					"brewmaster_thunder_clap"		// Ability 4	
+		"Ability4"					"generic_hidden"
+		"Ability5"					"generic_hidden"
+		"Ability6"					"brewmaster_thunder_clap"			// Ability 6
 
 		"ArmorPhysical"				"5"			// Physical protection.
 
@@ -9498,7 +9501,9 @@
 		"Ability1"					"brewmaster_storm_dispel_magic"		// Ability 1
 		"Ability2"					"brewmaster_storm_cyclone"			// Ability 2
 		"Ability3"					"brewmaster_storm_wind_walk"		// Ability 3
-		"Ability4"					"brewmaster_drunken_haze"		// Ability 4	
+		"Ability4"					"generic_hidden"
+		"Ability5"					"generic_hidden"
+		"Ability6"					"brewmaster_drunken_haze"			// Ability 6	
 
 		"ArmorPhysical"				"2"			// Physical protection.
 
@@ -9551,7 +9556,9 @@
 		"Ability1"					"brewmaster_storm_dispel_magic"		// Ability 1
 		"Ability2"					"brewmaster_storm_cyclone"			// Ability 2
 		"Ability3"					"brewmaster_storm_wind_walk"		// Ability 3
-		"Ability4"					"brewmaster_drunken_haze"		// Ability 4	
+		"Ability4"					"generic_hidden"
+		"Ability5"					"generic_hidden"
+		"Ability6"					"brewmaster_drunken_haze"			// Ability 6	
 
 		"ArmorPhysical"				"2"			// Physical protection.
 
@@ -9604,7 +9611,9 @@
 		"Ability1"					"brewmaster_storm_dispel_magic"		// Ability 1
 		"Ability2"					"brewmaster_storm_cyclone"			// Ability 2
 		"Ability3"					"brewmaster_storm_wind_walk"		// Ability 3
-		"Ability4"					"brewmaster_drunken_haze"		// Ability 4	
+		"Ability4"					"generic_hidden"
+		"Ability5"					"generic_hidden"
+		"Ability6"					"brewmaster_drunken_haze"			// Ability 6	
 
 		"ArmorPhysical"				"2"			// Physical protection.
 
@@ -11037,10 +11046,10 @@
 		"ConsideredHero"			"1"
 		"UnitLabel"			"spirit_bear"
 
-		"Ability1"					"bear_empty"			// Ability 1
-		"Ability2"					"bear_empty"			// Ability 2
-		"Ability3"					"lone_druid_savage_roar_bear"			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability1"					"bear_empty1"
+		"Ability2"					"bear_empty2"
+		"Ability3"					"lone_druid_savage_roar_bear"
+		"Ability4"					""
 
 		"ArmorPhysical"				"3"			// Physical protection.
 
@@ -11066,7 +11075,7 @@
 		"MovementTurnRate"			"0.6"		// Turning rate.
 
 		"StatusHealth"				"1400"		// Base health.
-		"StatusHealthRegen"			"2"			// Health regeneration rate.
+		"StatusHealthRegen"			"4"			// Health regeneration rate.
 		"StatusMana"				"300"		// Base mana.
 		"StatusManaRegen"			"0.5"		// Mana regeneration rate.		 
 		
@@ -11091,10 +11100,10 @@
 		"ConsideredHero"			"1"
 		"UnitLabel"			"spirit_bear"
 
-		"Ability1"					"lone_druid_spirit_bear_return"			// Ability 1
-		"Ability2"					"bear_empty"			// Ability 2
-		"Ability3"					"lone_druid_savage_roar_bear"			// Ability 3
-		"Ability4"					""			// Ability 4
+		"Ability1"					"lone_druid_spirit_bear_return"
+		"Ability2"					"bear_empty2"
+		"Ability3"					"lone_druid_savage_roar_bear"
+		"Ability4"					""
 
 		"ArmorPhysical"				"4"			// Physical protection.
 
@@ -11120,7 +11129,7 @@
 		"MovementTurnRate"			"0.6"		// Turning rate.
 
 		"StatusHealth"				"1800"		// Base health.
-		"StatusHealthRegen"			"3"			// Health regeneration rate.
+		"StatusHealthRegen"			"5"			// Health regeneration rate.
 		"StatusMana"				"300"		// Base mana.
 		"StatusManaRegen"			"0.5"		// Mana regeneration rate.		 
 		
@@ -11175,7 +11184,7 @@
 		"MovementTurnRate"			"0.6"		// Turning rate.
 
 		"StatusHealth"				"2300"		// Base health.
-		"StatusHealthRegen"			"4"			// Health regeneration rate.
+		"StatusHealthRegen"			"6"			// Health regeneration rate.
 		"StatusMana"				"300"			// Base mana.
 		"StatusManaRegen"			"0.5"		// Mana regeneration rate.		 
 		
@@ -11203,7 +11212,9 @@
 		"Ability1"					"lone_druid_spirit_bear_return"			// Ability 1
 		"Ability2"					"lone_druid_spirit_bear_entangle"			// Ability 2
 		"Ability3"					"lone_druid_savage_roar_bear"			// Ability 3
-		"Ability4"					"lone_druid_spirit_bear_demolish"			// Ability 4
+		"Ability4"					"generic_hidden"
+		"Ability5"					"generic_hidden"
+		"Ability6"					"lone_druid_spirit_bear_demolish"			// Ability 6
 
 		"ArmorPhysical"				"6"			// Physical protection.
 
@@ -11229,7 +11240,7 @@
 		"MovementTurnRate"			"0.6"		// Turning rate.
 
 		"StatusHealth"				"2700"		// Base health.
-		"StatusHealthRegen"			"5"			// Health regeneration rate.
+		"StatusHealthRegen"			"7"			// Health regeneration rate.
 		"StatusMana"				"300"		// Base mana.
 		"StatusManaRegen"			"0.5"		// Mana regeneration rate.		 
 		
@@ -11274,8 +11285,8 @@
 		"MagicalResistance"				"35"		// Magical protection.
 
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"25"			// Damage range min.
-		"AttackDamageMax"			"25"			// Damage range max.
+		"AttackDamageMin"			"30"			// Damage range min.
+		"AttackDamageMax"			"30"			// Damage range max.
 		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
 		"AttackRate"				"0.4"		// Speed of attack.
 		"AttackAnimationPoint"		"0.33"		// Normalized time in animation cycle to attack.
@@ -11338,8 +11349,8 @@
 		"MagicalResistance"				"35"		// Magical protection.
 
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"40"			// Damage range min.
-		"AttackDamageMax"			"40"			// Damage range max.
+		"AttackDamageMin"			"45"			// Damage range min.
+		"AttackDamageMax"			"45"			// Damage range max.
 		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
 		"AttackRate"				"0.4"		// Speed of attack.
 		"AttackAnimationPoint"		"0.33"		// Normalized time in animation cycle to attack.
@@ -11401,8 +11412,8 @@
 		"MagicalResistance"				"35"		// Magical protection.
 
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"55"			// Damage range min.
-		"AttackDamageMax"			"55"			// Damage range max.
+		"AttackDamageMin"			"60"			// Damage range min.
+		"AttackDamageMax"			"60"			// Damage range max.
 		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
 		"AttackRate"				"0.4"		// Speed of attack.
 		"AttackAnimationPoint"		"0.33"		// Normalized time in animation cycle to attack.
