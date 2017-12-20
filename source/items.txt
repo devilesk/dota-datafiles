@@ -922,7 +922,7 @@
 		"ItemQuality"					"component"
 		"ItemAliases"					"boots of speed"
 		"SideShop"						"1"
-		"ShouldBeSuggested"				"1"
+		"ShouldBeSuggested"	"1"
 		"ShouldBeInitiallySuggested"	"1"
 
 
@@ -1760,6 +1760,7 @@
 		"ItemKillable"					"0"
 		"ItemSellable"					"0"
 		"IsTempestDoubleClonable"		"0"
+		"ShouldBeInitiallySuggested"	"1"
 	}
 	
 	"item_tpscroll"
@@ -3774,7 +3775,7 @@
 
 		"AbilityCastRange"				"800"
 		"AbilityCastPoint"				"0.0"
-		"AbilityCooldown"				"15.0"
+		"AbilityCooldown"				"18.0"
 		"AbilitySharedCooldown"			"force"
 
 		"AbilityManaCost"				"25"
@@ -4335,12 +4336,12 @@
 			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"warrior_mana_feedback"	"20 30 40"
+				"warrior_mana_feedback"	"30 40 50"
 			}
 			"07"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"warrior_mana_break_tooltip"	"20 30 40"
+				"warrior_mana_break_tooltip"	"30 40 50"
 			}
 			"08"
 			{
@@ -4438,12 +4439,12 @@
 			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"warrior_mana_feedback"	"20 30 40"
+				"warrior_mana_feedback"	"30 40 50"
 			}
 			"07"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"warrior_mana_break_tooltip"	"20 30 40"
+				"warrior_mana_break_tooltip"	"30 40 50"
 			}
 			"08"
 			{
@@ -4538,12 +4539,12 @@
 			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"warrior_mana_feedback"	"20 30 40"
+				"warrior_mana_feedback"	"30 40 50"
 			}
 			"07"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"warrior_mana_break_tooltip"	"20 30 40"
+				"warrior_mana_break_tooltip"	"30 40 50"
 			}
 			"08"
 			{
@@ -5091,7 +5092,7 @@
 		"ID"							"122"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"Model"							"models/props_gameplay/recipe.vmdl"
 		
-		"ItemCost"						"1000"	
+		"ItemCost"						"1200"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
@@ -5114,7 +5115,7 @@
 		"AbilityCastRange"				"700"
 		"AbilityCooldown"				"13.0"
 
-		"ItemCost"						"4850"
+		"ItemCost"						"5050"
 		"ItemShopTags"					"regen_health;regen_mana;str;agi;int;hard_to_tag"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"ls;linken's sphere"
@@ -5250,7 +5251,7 @@
 		"FightRecapLevel"				"1"
 		
 		
-		"AbilityChannelTime"			"3.0"
+		"AbilityChannelTime"			"2.5"
 
 		"AbilityCastRange"				"600"
 		"AbilityCooldown"				"40"
@@ -5322,8 +5323,8 @@
 			}
 			"12"
 			{
-				"var_type"				"FIELD_INTEGER"
-				"max_duration"		"3"
+				"var_type"				"FIELD_FLOAT"
+				"max_duration"		"2.5"
 			}
 			"13"
 			{
@@ -5363,9 +5364,9 @@
 		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_INVULNERABLE"
 		"FightRecapLevel"				"1"
 		
-		"AbilityCooldown"				"14.0"
+		"AbilityCooldown"				"13.0"
 		"AbilityCastRange"				"600"
-		"AbilityManaCost"				"100"
+		"AbilityManaCost"				"75"
 		
 
 		"ItemCost"						"4700"
@@ -5419,7 +5420,7 @@
 		"ID"							"255"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"Model"							"models/props_gameplay/recipe.vmdl"
 		
-		"ItemCost"						"1600"	
+		"ItemCost"						"1350"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
@@ -5437,7 +5438,7 @@
 
 		"AbilityCooldown"				"100.0"
 
-		"ItemCost"						"3600"
+		"ItemCost"						"3350"
 		"ItemShopTags"					"str;regen_health;health_pool"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"ad;aeon disk"
@@ -5932,7 +5933,6 @@
 		"ItemShopTags"					"regen_health;regen_mana;health_pool;mana_pool"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"soul booster"
-		"ShouldBeSuggested"				"1"
 		
 		"AbilitySpecial"
 		{
@@ -6200,7 +6200,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"			"30"
+				"bonus_damage"			"25"
 			}
 			"03"
 			{
@@ -6502,12 +6502,12 @@
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_attack_speed"	"15"
+				"bonus_attack_speed"	"10"
 			}
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_movement_speed"	"10"
+				"bonus_movement_speed"	"8"
 			}
 			"06"
 			{
@@ -7394,12 +7394,12 @@
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"attack_speed"			"10"
+				"attack_speed"			"5"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"attack_speed_aura"		"15"
+				"attack_speed_aura"		"20"
 			}
 			"04"
 			{
@@ -7660,12 +7660,12 @@
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"berserk_bonus_movement_speed"	"17"
+				"berserk_bonus_movement_speed"	"12"
 			}
 			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"berserk_armor_reduction"	"7"
+				"berserk_armor_reduction"	"8"
 			}
 			"07"
 			{

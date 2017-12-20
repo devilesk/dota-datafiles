@@ -428,7 +428,7 @@
 		"AbilityCastPoint"				"0.4"
 
 		"AbilityCooldown"				"8"
-		"AbilityDuration"				"20"
+		"AbilityDuration"				"14 16 18 20"
 
 		"AbilityManaCost"				"95"		
 
@@ -470,13 +470,13 @@
 			"01"
 			{
 				"var_type"						"FIELD_INTEGER"
-				"brain_sap_damage"				"90 160 230 300"
+				"brain_sap_damage"				"75 150 225 300"
 				"LinkedSpecialBonus"			"special_bonus_unique_bane_2"
 			}
 			"02"
 			{
 				"var_type"						"FIELD_INTEGER"
-				"tooltip_brain_sap_heal_amt"	"90 160 230 300"
+				"tooltip_brain_sap_heal_amt"	"75 150 225 300"
 				"LinkedSpecialBonus"			"special_bonus_unique_bane_2"
 			}
 			"03"
@@ -1509,7 +1509,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
 		"AbilitySound"					"Ability.XMarksTheSpot.Return"
-		"AbilityCastAnimation"			"ACT_INVALID"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_3"
 	
 		"AbilityCastPoint"				"0.4 0.4 0.4 0.4"
 
@@ -2175,7 +2175,7 @@
 
 		"AbilityCooldown"				"11.0 11.0 11.0 11.0"
 
-		"AbilityDamage"					"100 175 250 325"
+		"AbilityDamage"					"75 150 225 300"
 
 		"AbilityManaCost"				"140 155 160 165"
 
@@ -2338,7 +2338,7 @@
 	"morphling_morph_agi"
 	{
 		"ID"					"5055"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE"
 		"LinkedAbility"					"morphling_morph_str"
 		"AbilityCastAnimation"			"ACT_INVALID"
 
@@ -2372,7 +2372,7 @@
 	"morphling_morph_str"
 	{
 		"ID"					"5056"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE"
 		"LinkedAbility"					"morphling_morph_agi"
  		"AbilityCastAnimation"			"ACT_INVALID"
 
@@ -3329,7 +3329,7 @@
 
 		"AbilityDamage"					"90 180 270 360"
 
-		"AbilityManaCost"				"110 120 130 140"
+		"AbilityManaCost"				"140"
 
 		"AbilitySpecial"
 		{
@@ -3689,7 +3689,7 @@
 		"AbilityCastRange"				"600"
 		"AbilityCastPoint"				"0.3 0.3 0.3 0.3"
 
-		"AbilityCooldown"				"32 30 28 26"
+		"AbilityCooldown"				"40 35 30 25"
 
 		"AbilityManaCost"				"50"
 
@@ -3763,6 +3763,7 @@
 				"var_type"				"FIELD_FLOAT"
 				"hit_interval"			"5"
 				"LinkedSpecialBonus"	"special_bonus_unique_razor_4"
+				"LinkedSpecialBonusOperation"	"SPECIAL_BONUS_SUBTRACT"
 			}
 			"03"
 			{
@@ -4666,7 +4667,7 @@
 			"04"
 			{
 				"var_type"							"FIELD_INTEGER"
-				"ball_lightning_aoe"				"125 200 275"		
+				"ball_lightning_aoe"				"200"		
 			}
 			"05"
 			{
@@ -4716,7 +4717,7 @@
 
 		"AbilityManaCost"				"110 120 130 140"
 		
-		"AbilityDamage"					"100 160 220 280"
+		"AbilityDamage"					"85 150 215 280"
 		
 		"AbilitySpecial"
 		{
@@ -5163,7 +5164,7 @@
 			"04"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"attack_speed_reduction"	"20 30 40"
+				"attack_speed_reduction"	"20 35 50"
 			}
 		}
 	}
@@ -6659,6 +6660,7 @@
 			{
 				"var_type"				"FIELD_INTEGER"
 				"bounces_tooltip"				"2 4 6 8"
+				"LinkedSpecialBonus"	"special_bonus_unique_witch_doctor_3"
 			}
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
@@ -6734,6 +6736,7 @@
 			{
 				"var_type"					"FIELD_INTEGER"
 				"duration_tooltip"			"12"
+				"LinkedSpecialBonus"	"special_bonus_unique_witch_doctor_4"
 			}
 			"03"
 			{
@@ -6784,6 +6787,7 @@
 			{
 				"var_type"					"FIELD_INTEGER"
 				"damage"					"60 105 150"
+				"LinkedSpecialBonus"	"special_bonus_unique_witch_doctor_5"
 			}
 			"02"
 			{
@@ -7203,7 +7207,7 @@
 		"AbilityCastRange"				"650"
 		"AbilityCastPoint"				"0.4"
 
-		"AbilityCooldown"				"14.0 14.0 14.0 14.0"
+		"AbilityCooldown"				"20 18 16 14"
 
 
 		"AbilityManaCost"				"95 120 145 170"
@@ -7539,8 +7543,10 @@
 			}
 			"03"
 			{
-				"var_type"					"FIELD_INTEGER"
+				"var_type"					"FIELD_FLOAT"
 				"total_cast_time_tooltip"				"2"
+				"LinkedSpecialBonus"	"special_bonus_unique_sniper_4"
+				"LinkedSpecialBonusOperation"	"SPECIAL_BONUS_SUBTRACT"
 			}
 			"04"
 			{
@@ -8626,11 +8632,15 @@
 			{
 				"var_type"				"FIELD_INTEGER"
 				"ward_hp_tooltip"		"75 200 325 450"
+				"LinkedSpecialBonus"	"special_bonus_unique_venomancer"
+				"LinkedSpecialBonusOperation"	"SPECIAL_BONUS_MULTIPLY"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
 				"ward_damage_tooltip"	"13 22 31 40"
+				"LinkedSpecialBonus"	"special_bonus_unique_venomancer"
+				"LinkedSpecialBonusOperation"	"SPECIAL_BONUS_MULTIPLY"
 			}
 			"04" // For special bonus at level 25
 			{
@@ -9420,6 +9430,7 @@
 			{
 				"var_type"					"FIELD_INTEGER"
 				"trap_bonus_damage"			"250 350 450"
+				"LinkedSpecialBonus"	"special_bonus_unique_templar_assassin_3"
 			}
 			"07"
 			{
@@ -10855,6 +10866,7 @@
 			{
 				"var_type"				"FIELD_INTEGER"
 				"max_treants"			"2 3 4 5"
+				"LinkedSpecialBonus"	"special_bonus_unique_furion_2"
 			}
 			"03"
 			{
@@ -11600,7 +11612,7 @@
 		"FightRecapLevel"				"1"
 		"AbilitySound"					"Hero_Omniknight.Purification"
 
-		"AbilityCastRange"				"575"
+		"AbilityCastRange"				"450"
 		"AbilityCastPoint"				"0.2"
 		
 		"AbilityCooldown"				"11 10 9 8"
@@ -11701,7 +11713,7 @@
 
 		"HasScepterUpgrade"			"1"
 
-		"AbilityCooldown"				"160"
+		"AbilityCooldown"				"180 170 160"
 		"AbilityCastPoint"				"0.4"
 		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
 		
@@ -12186,7 +12198,7 @@
 			"02"
 			{
 				"var_type"							"FIELD_INTEGER"
-				"bonus_attack_speed_night"			"45 60 75 90"
+				"bonus_attack_speed_night"			"30 50 70 90"
 				"LinkedSpecialBonus"		"special_bonus_unique_night_stalker_2"
 			}
 			"03"
@@ -12688,8 +12700,9 @@
 			}
 			"04"
 			{
-				"var_type"			"FIELD_INTEGER"
+				"var_type"			"FIELD_FLOAT"
 				"armor_reduction"	"1 1 1 1"
+				"LinkedSpecialBonus"	"special_bonus_unique_weaver_3"
 			}
 			"05"
 			{
@@ -12779,6 +12792,12 @@
 			{
 				"var_type"				"FIELD_FLOAT"
 				"delay"			"0.25"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"tooltip_attack"			"1"
+				"LinkedSpecialBonus"	"special_bonus_unique_weaver_5"
 			}
 		}		
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
@@ -14490,6 +14509,7 @@
 			{
 				"var_type"					"FIELD_FLOAT"
 				"duration"					"4.0"
+				"LinkedSpecialBonus"	"special_bonus_unique_ursa_3"
 			}
 			"04"
 			{
@@ -14837,7 +14857,7 @@
 			"06"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"max_damage"				"150 220 290 360"
+				"max_damage"				"160 240 320 400"
 				"LinkedSpecialBonus"		"special_bonus_unique_alchemist_2"
 			}
 			"07"
@@ -15303,7 +15323,7 @@
 			{
 				"var_type"				"FIELD_FLOAT"
 				"lift_duration"			"0.8 1.1 1.4 1.7 2.0 2.3 2.6 2.9"
-				"LinkedSpecialBonus"		"special_bonus_unique_invoker_8"
+				"LinkedSpecialBonus"	"special_bonus_unique_invoker_8"
 				"levelkey"				"quaslevel"
 			}
 			"07"
@@ -16646,7 +16666,7 @@
 		"AbilitySound"					"Hero_LoneDruid.BattleCry"
 
 		"AbilityCastPoint"				"0.5 0.5 0.5"
-		"AbilityCastAnimation"			"ACT_INVALID"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
 
 		"AbilityCooldown"				"45.0"
 	
@@ -16821,7 +16841,7 @@
 
 		"AbilityCastPoint"				"0.2"
 
-		"AbilityCooldown"				"8 7 6 5"
+		"AbilityCooldown"				"11 9 7 5"
 
 		"AbilityManaCost"				"25"		
 
@@ -16950,7 +16970,7 @@
 				"speed"						"800 800 800 800"
 			}
 		}
-		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_2"
 	}
 
 	"brewmaster_earth_spell_immunity"
@@ -17040,7 +17060,7 @@
 				"duration_unit"				"20.0 20.0 20.0 20.0"
 			}
 		}
-		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_2"
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_5"
 	}
 
 	"brewmaster_storm_wind_walk"
@@ -18573,7 +18593,7 @@
 		"ID"							"5449"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_AOE"
 		"MaxLevel"						"1"
-		"AbilityCastAnimation"			"ACT_INVALID"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
 
 		"AbilitySpecial"
 		{
@@ -19962,6 +19982,7 @@
 			{
 				"var_type"							"FIELD_FLOAT"
 				"recovery_time"						"6 5 4 3"
+				"LinkedSpecialBonus"	"special_bonus_unique_visage_5"
 			}
 			"04"
 			{
@@ -23410,7 +23431,7 @@
 			"04"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"stun_duration"			"0.75 1.25 1.75 2.25"
+				"stun_duration"			"0.5 1.0 1.5 2.0"
 				"LinkedSpecialBonus"	"special_bonus_unique_earth_spirit_3"
 			}
 			"05"
@@ -24079,6 +24100,7 @@
 			{
 				"var_type"				"FIELD_INTEGER"
 				"tooltip_attack_range"			"550"
+				"LinkedSpecialBonus"	"special_bonus_unique_terrorblade_3"
 			}
 			"06"
 			{
@@ -24560,6 +24582,7 @@
 			{
 				"var_type"					"FIELD_FLOAT"
 				"maximum_purge_duration"	"2.5"
+				"LinkedSpecialBonus"	"special_bonus_unique_oracle_2"
 			}
 			"05"
 			{
@@ -25771,12 +25794,12 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"burn_amount"			"20 30 40"
+				"burn_amount"			"30 40 50"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"burn_damage_conversion"	"60"
+				"burn_damage_conversion"	"50"
 			}
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
@@ -30065,7 +30088,7 @@
 			"03"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"percent_damage"		"7.5 8 8.5 9"
+				"percent_damage"		"6 7 8 9"
 			}
 			"04"
 			{
@@ -30205,7 +30228,7 @@
 			"02"
 			{	
 				"var_type"			"FIELD_INTEGER"
-				"heal_additive"		"15"
+				"heal_additive"		"10"
 			}
 			"03"
 			{	
@@ -30262,6 +30285,7 @@
 			{	
 				"var_type"			"FIELD_FLOAT"
 				"duration"			"3.25 4 4.75"
+				"LinkedSpecialBonus"	"special_bonus_unique_winter_wyvern_3"
 			}
 		}
 	}
@@ -41594,6 +41618,22 @@
 			{
 				"var_type"					"FIELD_FLOAT"
 				"value"				"6"
+			}
+		}
+	}
+
+	"special_bonus_unique_shadow_demon_6"
+	{
+		"ID"					"7061"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"value"				"0"
 			}
 		}
 	}
