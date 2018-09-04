@@ -1,5 +1,5 @@
 #!/bin/bash
-# update.sh
+# patch.sh
 
 if [ -n "$1" ]; then
     cd build
