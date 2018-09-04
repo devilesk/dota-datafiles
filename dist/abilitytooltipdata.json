@@ -61,7 +61,7 @@
   "description": "The cruel Alpha Wolf attacks his enemy's unprotected vitals at every opportunity, inflicting critical damage."
  },
  "ancient_apparition_chilling_touch": {
-  "description": "A frigid gust enchants allied heroes, granting them bonus magical damage for a given number of physical attacks. Each attack slows the enemy movement speed.  Ancient Apparition always receives the buff. Lasts 30 seconds.",
+  "description": "A frigid gust enchants allied heroes, granting them bonus magical damage for a given number of physical attacks. Each attack slows the enemy movement speed.  Ancient Apparition always receives the buff.",
   "lore": "The Ancient Apparition's eternal knowledge brings a frigid enchantment to his allies."
  },
  "ancient_apparition_cold_feet": {
@@ -76,7 +76,7 @@
   "description": "Releases the ice blast to explode at the tracer's current location."
  },
  "ancient_apparition_ice_vortex": {
-  "description": "Creates a vortex of icy energy that slows movement speed and increases magic damage done in its range. Lasts 16 seconds.",
+  "description": "Creates a vortex of icy energy that slows movement speed and increases magic damage done in its range.",
   "lore": "Frozen, caustic winds are at the whim of Kaldr, chilling the field of battle."
  },
  "ancient_golem_rockslide": {},
@@ -142,7 +142,7 @@
   "lore": "Atropos finds no greater pleasure than to harvest the fear he creates."
  },
  "bane_enfeeble": {
-  "description": "Weakens an enemy unit, reducing its physical damage.  Lasts 20 seconds.",
+  "description": "Weakens an enemy unit, reducing its physical damage.",
   "lore": "Even the mightiest of warriors crumble before the terror of Atropos."
  },
  "bane_fiends_grip": {
@@ -260,7 +260,7 @@
   "lore": "The court jesters present during King Goff's assassination can recount no other image than a dancing shadow."
  },
  "brewmaster_drunken_brawler": {
-  "description": "Gives a chance to avoid attacks and to deal critical damage. Drunken Brawler will always trigger if you have not attacked, or have not been attacked, in the last several seconds.\\n\\nStacks diminishingly with other sources of Evasion.",
+  "description": "Gives a chance to avoid attacks and to deal critical damage. Drunken Brawler will always trigger if you have not attacked, or have not been attacked, in the last several seconds.",
   "lore": "When Mangix won his title as the Brewmaster of the Order of Oyo, he also claimed his place in the mastery of inebriation."
  },
  "brewmaster_drunken_haze": {
@@ -383,11 +383,11 @@
   "lore": "Armageddon rides between the planes, bringing Chaos Knight to his victim wherever he may hide."
  },
  "chen_hand_of_god": {
-  "description": "Heals all allied heroes on the map as well as all units under Chen's control.\\n\\nUpgradable by Aghanim's Scepter.",
+  "description": "Heals all allied heroes on the map as well as all units under Chen's control.",
   "lore": "Using the mental link with his thralls, Chen calls down restoration and well-being to those who share his fanaticism."
  },
  "chen_holy_persuasion": {
-  "description": "Chen takes control of an enemy or neutral creep. If the persuaded creep's base health is naturally below the health minimum, its base health will be raised to the health minimum.\\n\\nCan be cast on allies to teleport them back to base. If cast on Chen, all units controlled by Chen through Holy Persuasion will be teleported to him.  \\n\\nUpgradable by Aghanim's Scepter, allowing Chen to persuade Ancient Creeps. The number of Ancient Creeps that can be persuaded is based on the level of Hand of God.",
+  "description": "Chen takes control of an enemy or neutral creep. If the persuaded creep's base health is naturally below the health minimum, its base health will be raised to the health minimum.\\n\\nCan be cast on allies to teleport them back to base. If cast on Chen, all units controlled by Chen will be teleported to him.  \\n\\nUpgradable by Aghanim's Scepter.",
   "lore": "Although they may not be knights, Chen incorporates beasts into the Fold in the same way he himself was converted."
  },
  "chen_penitence": {
@@ -499,7 +499,7 @@
   "lore": "You'll have to excuse my friend Jex. He's really into murder."
  },
  "dark_willow_bramble_maze": {
-  "description": "Dark Willow creates a maze of brambles in the target area.  Enemies that walk into a bramble are rooted and take damage over time.",
+  "description": "Dark Willow creates a maze of brambles that grow in the target area after %initial_creation_delay% seconds.  Enemies that walk into a bramble are rooted and take damage over time.",
   "lore": "The fae realm exists all around you, merely waiting to draw you in..."
  },
  "dark_willow_cursed_crown": {
@@ -715,7 +715,7 @@
   "lore": "The studied warrior must whip and weave through its enemies, burning each without pause."
  },
  "enchantress_enchant": {
-  "description": "Enchantress charms an enemy. If the enemy is a hero, they are slowed. If the enemy is a creep, she brings it under her control. If cast on a creep already under her control, she refreshes its enchant duration.",
+  "description": "Enchantress charms an enemy. If the enemy is a hero, they are slowed. If the enemy is a creep, she brings it under her control. If cast on a creep already under her control, she refreshes its enchant duration.\\n\\nDISPEL TYPE: Basic Dispel",
   "lore": "A true steward of the forest, Aiushtha befriends all within it - from lowly trolls to powerful centaurs."
  },
  "enchantress_impetus": {
@@ -964,7 +964,7 @@
   "lore": "While Huskar has little use for magic, this minor enchantment was learned from the Dazzle and the Dezun priests, to be used in times of great injury."
  },
  "huskar_life_break": {
-  "description": "Huskar draws upon his health to break an enemy's life, leaping at a target within attack range to shatter a percentage of that hero's current health, and slowing them.  While leaping, Huskar is Spell Immune.\\n\\nUpgradable by Aghanim's Scepter.",
+  "description": "Huskar draws upon his health to break an enemy's life, leaping at a target within attack range to shatter a percentage of that hero's current health, and slowing them.  While leaping, Huskar is Spell Immune.\\n\\nDISPEL TYPE: Basic Dispel\\n\\nUpgradable by Aghanim's Scepter.",
   "lore": "No matter the danger, Huskar thrusts himself into melees that only he can survive."
  },
  "invoker_alacrity": {
@@ -1345,7 +1345,7 @@
   "lore": "The Gorgon's curse is her greatest strength."
  },
  "medusa_split_shot": {
-  "description": "Medusa magically splits her shot into several arrows. These arrows deal a lower percent of her normal damage.\\n\\nThe extra targets will not receive other attack effects (such as critical strike) and Unique Attack Modifiers.",
+  "description": "Medusa magically splits her shot into several arrows. These arrows deal a lower percent of her normal damage.\\n\\nThe extra targets will not receive other attack effects (such as critical strike).",
   "lore": "All who encounter the cursed Gorgon will feel her rage."
  },
  "medusa_stone_gaze": {
@@ -1409,7 +1409,7 @@
   "description": "Reverts Monkey King's shape to his original form."
  },
  "monkey_king_wukongs_command": {
-  "description": "Monkey King creates a circular formation of soldiers that spread out from his position. If Monkey King leaves the area his soldiers disperse. The soldiers have Monkey King's attack and only target heroes. Monkey King grants bonus armor for the spell's duration.",
+  "description": "Monkey King creates a circular formation of soldiers that spread out from his position. If Monkey King leaves the area his soldiers disperse. The soldiers have Monkey King's attack and only target heroes. Monkey King is granted bonus armor for the spell's duration.",
   "lore": "Monkey King rips out a tuft of fur to blow at his enemies, charging each strand to transform into a copy of himself."
  },
  "morphling_adaptive_strike_agi": {
@@ -1417,7 +1417,7 @@
   "lore": "The Morphling calls upon his elements to crush his opponents with waves."
  },
  "morphling_adaptive_strike_str": {
-  "description": "Launches a surge of water toward an enemy unit, stunning and knocking back the target based on Morphling's strength. If his strength is 50%% higher than his agility, the maximum stun is dealt.",
+  "description": "Launches a surge of water toward an enemy unit, stunning and knocking back the target based on Morphling's strength. If his strength is 50%% higher than his agility, the maximum stun/knockback is dealt.",
   "lore": "The Morphling calls upon his elements to crush his opponents with waves."
  },
  "morphling_hybrid": {
@@ -1438,7 +1438,7 @@
   "lore": "Shifting water makes it difficult to discern the nature of Morphling."
  },
  "morphling_replicate": {
-  "description": "Morphling changes his form to match the targeted enemy, gaining their basic abilities.",
+  "description": "Morphling changes his form to match the targeted enemy, gaining their basic abilities.\\n\\nDISPEL TYPE: Basic Dispel",
   "lore": "Staring into Morphling produces a reflection that mimics the beholder."
  },
  "morphling_waveform": {
@@ -1541,7 +1541,7 @@
   "lore": "A vision of the twisted maw of Balanar etches itself into the minds of the poor souls unlucky enough to cross his path."
  },
  "night_stalker_darkness": {
-  "description": "Night Stalker smothers the sun and summons instant darkness, so that he might use his powers at their fullest. While Darkness is in effect, enemy heroes, units, wards and buildings have their vision range reduced to %fixed_vision%. \\n\\nUpgradable by Aghanim's Scepter.",
+  "description": "Night Stalker smothers the sun and summons instant darkness, so that he might use his powers at their fullest. While Darkness is in effect, enemy heroes, units, wards, and buildings have their vision range reduced. \\n\\nUpgradable by Aghanim's Scepter.",
   "lore": "It is a humbling sight to see when the mightiest of warriors become afraid of the dark."
  },
  "night_stalker_hunter_in_the_night": {
@@ -1641,7 +1641,7 @@
   "lore": "An unbreakable prophecy resounds: a chosen ally shall briefly suffer no magics.  Other kinds of suffering however..."
  },
  "oracle_fortunes_end": {
-  "description": "CHANNELED - Gathers Oracle's power into a bolt of scouring energy that, when released, damages, roots, and purges enemies of buffs in an area around the target. If target is an ally it will only purge. Can be channeled for up to %max_channel_time_tooltip% seconds. The stop duration is equal to the time spent channeling.\\n\\nDISPEL TYPE: Basic Dispel",
+  "description": "CHANNELED - Gathers Oracle's power into a bolt of scouring energy that, when released, damages, roots, and purges enemies of buffs in an area around the target. If target is an ally it will only purge. Can be channeled for up to %max_channel_time_tooltip% seconds. The root duration is equal to the time spent channeling.\\n\\nDISPEL TYPE: Basic Dispel",
   "lore": "The astral orb crackles with power while raw energy lances out, temporarily disrupting an enemy's connection to their own body."
  },
  "oracle_purifying_flames": {
@@ -1661,7 +1661,7 @@
   "lore": "These fools know nothing of real armor..."
  },
  "pangolier_shield_crash": {
-  "description": "Pangolier jumps in the air and slams back to the ground, damaging all enemies in a radius. For each enemy hero hit, he gains a percentage of incoming damage reduction for a short time.\\n\\nForward movement is maintained if Shield Crash is used while Rolling Thunder is active, and allows Rolling Thunder to clear walls or cliffs.",
+  "description": "Pangolier jumps in the air and slams back to the ground, damaging all enemies in a radius. For each enemy hero hit, he gains a percentage of incoming damage reduction for a short time.\\n\\nForward movement is maintained if Shield Crash is used while Rolling Thunder is active, and allows Rolling Thunder to clear walls or cliffs.\\n\\nDISPEL TYPE: Basic Dispel",
   "lore": "Only in the midst of his enemies does the Pangolier truly thrive."
  },
  "pangolier_swashbuckle": {
@@ -1854,7 +1854,7 @@
   "description": "Roshan has a chance to stun on attack."
  },
  "roshan_devotion": {
-  "description": "Roshan possesses numerous protective abilities, including 55%% magic damage resistance, the ability to instantly purge attacking illusions, and a scaling armor bonus that increases as time goes on."
+  "description": "Roshan possesses numerous protective abilities, including 55%% magic damage resistance, the ability to reduce damage from attacking illusions, and a scaling armor bonus that increases as time goes on."
  },
  "roshan_halloween_angry": {},
  "roshan_halloween_apocalypse": {
@@ -1886,10 +1886,10 @@
  },
  "roshan_inherent_buffs": {},
  "roshan_slam": {
-  "description": "Roshan slams the ground, damaging and slowing all nearby enemies. Slam's damage will increase every 4 minutes."
+  "description": "Roshan slams the ground, damaging and slowing all nearby enemies. Slam's damage will increase every minute."
  },
  "roshan_spell_block": {
-  "description": "Roshan will block one targeted spell every 15 seconds."
+  "description": "Roshan will block one targeted spell every 15 seconds. Also reduces status effects by 25%%."
  },
  "rubick_empty1": {
   "description": "Spells acquired with Spell Steal will replace this slot."
@@ -1964,7 +1964,7 @@
   "description": "Releases the poison to do damage on all affected enemies. Units under the effect of Disruption can still be affected by Shadow Poison."
  },
  "shadow_demon_soul_catcher": {
-  "description": "Captures the soul of a random enemy in an area, amplifies all damage they take. Units under the effect of Disruption can still be affected by Soul Catcher. If the unit dies under the effect of Soul Catcher, an illusions of that unit is created under your control until the enemy respawns.",
+  "description": "Captures the soul of a random enemy in an area, amplifies all damage they take. Units under the effect of Disruption can still be affected by Soul Catcher.",
   "lore": "Trying to resist the Shadow Demon's corruption is mostly a useless endeavor."
  },
  "shadow_shaman_ether_shock": {
@@ -2352,6 +2352,7 @@
  "special_bonus_mp_400": {},
  "special_bonus_mp_500": {},
  "special_bonus_mp_600": {},
+ "special_bonus_mp_700": {},
  "special_bonus_mp_800": {},
  "special_bonus_mp_regen_1": {},
  "special_bonus_mp_regen_10": {},
@@ -2432,16 +2433,22 @@
  "special_bonus_unique_antimage_2": {},
  "special_bonus_unique_antimage_3": {},
  "special_bonus_unique_antimage_4": {},
- "special_bonus_unique_antimage_5": {},
+ "special_bonus_unique_antimage_5": {
+  "description": "After blinking, an uncontrollable illusion is created at Anti-Mage's original location.  Deals 25%% damage, takes 250%% damage, and lasts 10 seconds."
+ },
  "special_bonus_unique_arc_warden": {},
  "special_bonus_unique_arc_warden_2": {},
  "special_bonus_unique_axe": {},
  "special_bonus_unique_axe_2": {},
- "special_bonus_unique_axe_3": {},
+ "special_bonus_unique_axe_3": {
+  "description": "Your own attacks against enemy units also have a chance to trigger Counter Helix."
+ },
  "special_bonus_unique_bane_1": {},
  "special_bonus_unique_bane_2": {},
  "special_bonus_unique_bane_3": {},
- "special_bonus_unique_bane_4": {},
+ "special_bonus_unique_bane_4": {
+  "description": "Bane gains damage equal to the damage stolen for the duration of Enfeeble."
+ },
  "special_bonus_unique_batrider_1": {},
  "special_bonus_unique_batrider_2": {},
  "special_bonus_unique_batrider_3": {},
@@ -2467,7 +2474,9 @@
  "special_bonus_unique_broodmother_2": {},
  "special_bonus_unique_broodmother_3": {},
  "special_bonus_unique_broodmother_4": {},
- "special_bonus_unique_centaur_1": {},
+ "special_bonus_unique_centaur_1": {
+  "description": "Friendly units in a 900 radius around Centaur gain the affects of Return; the damage is based on Centaur's strength."
+ },
  "special_bonus_unique_centaur_2": {},
  "special_bonus_unique_centaur_3": {},
  "special_bonus_unique_centaur_4": {},
@@ -2480,7 +2489,9 @@
  "special_bonus_unique_chen_4": {},
  "special_bonus_unique_clinkz_1": {},
  "special_bonus_unique_clinkz_2": {},
- "special_bonus_unique_clinkz_3": {},
+ "special_bonus_unique_clinkz_3": {
+  "description": "When using Searing Arrows, a second Searing Arrow targets a random enemy within the spell's range."
+ },
  "special_bonus_unique_clockwerk": {},
  "special_bonus_unique_clockwerk_2": {},
  "special_bonus_unique_clockwerk_3": {},
@@ -2492,7 +2503,9 @@
  "special_bonus_unique_dark_seer": {},
  "special_bonus_unique_dark_seer_2": {},
  "special_bonus_unique_dark_seer_3": {},
- "special_bonus_unique_dark_seer_4": {},
+ "special_bonus_unique_dark_seer_4": {
+  "description": "A second Wall of Replica is created 600 units behind the first wall.  Illusions are independent for each Wall."
+ },
  "special_bonus_unique_dark_willow_1": {},
  "special_bonus_unique_dark_willow_2": {},
  "special_bonus_unique_dazzle_1": {},
@@ -2502,7 +2515,9 @@
  "special_bonus_unique_death_prophet": {},
  "special_bonus_unique_death_prophet_2": {},
  "special_bonus_unique_death_prophet_3": {},
- "special_bonus_unique_death_prophet_4": {},
+ "special_bonus_unique_death_prophet_4": {
+  "description": "While Exorcism is active, Death Prophet moves at 550 movement speed and cannot be slowed."
+ },
  "special_bonus_unique_disruptor": {},
  "special_bonus_unique_disruptor_2": {},
  "special_bonus_unique_disruptor_3": {},
@@ -2544,7 +2559,9 @@
  "special_bonus_unique_faceless_void": {},
  "special_bonus_unique_faceless_void_2": {},
  "special_bonus_unique_faceless_void_3": {},
- "special_bonus_unique_faceless_void_4": {},
+ "special_bonus_unique_faceless_void_4": {
+  "description": "Grants a %value%%% chance to avoid damage entirely."
+ },
  "special_bonus_unique_furion": {},
  "special_bonus_unique_furion_2": {},
  "special_bonus_unique_furion_3": {},
@@ -2558,9 +2575,13 @@
  "special_bonus_unique_huskar_2": {},
  "special_bonus_unique_huskar_3": {},
  "special_bonus_unique_invoker_1": {},
- "special_bonus_unique_invoker_2": {},
+ "special_bonus_unique_invoker_2": {
+  "description": "Releases 12 Deafening Blasts around Invoker in a circular pattern.  An enemy can only be hit once per cast."
+ },
  "special_bonus_unique_invoker_3": {},
- "special_bonus_unique_invoker_4": {},
+ "special_bonus_unique_invoker_4": {
+  "description": "Launched when Sun Strike is double tapped. Puts it on a 90 second cooldown. Creates 2 visible Sun Strikes within 175-250 range of each enemy hero."
+ },
  "special_bonus_unique_invoker_5": {},
  "special_bonus_unique_invoker_6": {},
  "special_bonus_unique_invoker_7": {},
@@ -2577,7 +2598,9 @@
  "special_bonus_unique_keeper_of_the_light_3": {},
  "special_bonus_unique_kunkka": {},
  "special_bonus_unique_kunkka_2": {},
- "special_bonus_unique_kunkka_3": {},
+ "special_bonus_unique_kunkka_3": {
+  "description": "Spawns 3 Ghost Ships, 2.8 seconds apart, towards the target location."
+ },
  "special_bonus_unique_kunkka_4": {},
  "special_bonus_unique_legion_commander": {},
  "special_bonus_unique_legion_commander_2": {},
@@ -2596,7 +2619,9 @@
  "special_bonus_unique_lina_2": {},
  "special_bonus_unique_lina_3": {},
  "special_bonus_unique_lina_4": {},
- "special_bonus_unique_lion": {},
+ "special_bonus_unique_lion": {
+  "description": "Automatically targets additional enemy units with a mana pool within 400 distance around the original target."
+ },
  "special_bonus_unique_lion_2": {},
  "special_bonus_unique_lion_3": {},
  "special_bonus_unique_lion_4": {},
@@ -2624,15 +2649,21 @@
  "special_bonus_unique_magnus_3": {},
  "special_bonus_unique_magnus_4": {},
  "special_bonus_unique_magnus_5": {},
- "special_bonus_unique_medusa": {},
+ "special_bonus_unique_medusa": {
+  "description": "The duration of the stun is not affected."
+ },
  "special_bonus_unique_medusa_2": {},
  "special_bonus_unique_medusa_3": {},
- "special_bonus_unique_medusa_4": {},
+ "special_bonus_unique_medusa_4": {
+  "description": "Allows on-hit effects to apply to the secondary attacks from Split Shot."
+ },
  "special_bonus_unique_meepo": {},
  "special_bonus_unique_meepo_2": {},
  "special_bonus_unique_meepo_3": {},
  "special_bonus_unique_mirana_1": {},
- "special_bonus_unique_mirana_2": {},
+ "special_bonus_unique_mirana_2": {
+  "description": "The extra arrows are launched in a cone shape, 30 degrees to the left and right of the original arrow, and cannot hit the same target."
+ },
  "special_bonus_unique_mirana_3": {},
  "special_bonus_unique_mirana_4": {},
  "special_bonus_unique_monkey_king": {},
@@ -2640,12 +2671,18 @@
  "special_bonus_unique_monkey_king_3": {},
  "special_bonus_unique_monkey_king_4": {},
  "special_bonus_unique_monkey_king_5": {},
- "special_bonus_unique_monkey_king_6": {},
+ "special_bonus_unique_monkey_king_6": {
+  "description": "Creates an additional ring of 7 soldiers at 1100 range from the center."
+ },
  "special_bonus_unique_monkey_king_7": {},
  "special_bonus_unique_morphling_1": {},
  "special_bonus_unique_morphling_2": {},
- "special_bonus_unique_morphling_3": {},
- "special_bonus_unique_morphling_4": {},
+ "special_bonus_unique_morphling_3": {
+  "description": "Two additional enemy units within cast range are also targeted by Adaptive Strike."
+ },
+ "special_bonus_unique_morphling_4": {
+  "description": "Enemies hit by Waveform are also instantly attacked by Morphling."
+ },
  "special_bonus_unique_morphling_5": {},
  "special_bonus_unique_morphling_6": {},
  "special_bonus_unique_morphling_7": {},
@@ -2676,7 +2713,9 @@
  "special_bonus_unique_oracle": {},
  "special_bonus_unique_oracle_2": {},
  "special_bonus_unique_oracle_3": {},
- "special_bonus_unique_oracle_4": {},
+ "special_bonus_unique_oracle_4": {
+  "description": "The target of False Promise also becomes invisible for the duration (with a 0.6 second fade time)."
+ },
  "special_bonus_unique_outworld_devourer": {},
  "special_bonus_unique_outworld_devourer_2": {},
  "special_bonus_unique_outworld_devourer_3": {},
@@ -2684,7 +2723,9 @@
  "special_bonus_unique_pangolier_3": {},
  "special_bonus_unique_pangolier_4": {},
  "special_bonus_unique_pangolier_5": {},
- "special_bonus_unique_phantom_assassin": {},
+ "special_bonus_unique_phantom_assassin": {
+  "description": "Launches a second Stifling Dagger towards a random visible enemy within the cast range."
+ },
  "special_bonus_unique_phantom_assassin_2": {},
  "special_bonus_unique_phantom_assassin_3": {},
  "special_bonus_unique_phantom_lancer": {},
@@ -2698,7 +2739,9 @@
  "special_bonus_unique_phoenix_5": {},
  "special_bonus_unique_puck": {},
  "special_bonus_unique_puck_2": {},
- "special_bonus_unique_puck_3": {},
+ "special_bonus_unique_puck_3": {
+  "description": "Puck instantly attacks all enemies while affected by Dream Coil, every %value% seconds."
+ },
  "special_bonus_unique_puck_4": {},
  "special_bonus_unique_pudge_1": {},
  "special_bonus_unique_pudge_2": {},
@@ -2710,7 +2753,9 @@
  "special_bonus_unique_pugna_5": {},
  "special_bonus_unique_pugna_6": {},
  "special_bonus_unique_queen_of_pain": {},
- "special_bonus_unique_queen_of_pain_2": {},
+ "special_bonus_unique_queen_of_pain_2": {
+  "description": "Enemies damaged by Scream of Pain are forced to run towards their fountain for 1.5 seconds."
+ },
  "special_bonus_unique_razor": {},
  "special_bonus_unique_razor_2": {},
  "special_bonus_unique_razor_3": {},
@@ -2719,7 +2764,9 @@
  "special_bonus_unique_riki_2": {},
  "special_bonus_unique_riki_3": {},
  "special_bonus_unique_riki_4": {},
- "special_bonus_unique_riki_5": {},
+ "special_bonus_unique_riki_5": {
+  "description": "No actions take Riki out of invisibility, only revealed by sources of True Sight."
+ },
  "special_bonus_unique_rubick": {},
  "special_bonus_unique_rubick_2": {},
  "special_bonus_unique_rubick_3": {},
@@ -2728,7 +2775,9 @@
  "special_bonus_unique_sand_king": {},
  "special_bonus_unique_sand_king_2": {},
  "special_bonus_unique_sand_king_3": {},
- "special_bonus_unique_sand_king_4": {},
+ "special_bonus_unique_sand_king_4": {
+  "description": "Enemy units in range of Sand Storm have their movement speed speed slowed by %value%%% and miss %value%%% of their attacks."
+ },
  "special_bonus_unique_shadow_demon_1": {},
  "special_bonus_unique_shadow_demon_2": {},
  "special_bonus_unique_shadow_demon_3": {},
@@ -2772,11 +2821,15 @@
  "special_bonus_unique_storm_spirit": {},
  "special_bonus_unique_storm_spirit_2": {},
  "special_bonus_unique_storm_spirit_3": {},
- "special_bonus_unique_storm_spirit_4": {},
+ "special_bonus_unique_storm_spirit_4": {
+  "description": "Every 500 distance travelled in Ball Lightning creates a Static Remnant"
+ },
  "special_bonus_unique_storm_spirit_5": {},
  "special_bonus_unique_sven": {},
  "special_bonus_unique_sven_2": {},
- "special_bonus_unique_sven_3": {},
+ "special_bonus_unique_sven_3": {
+  "description": "Applies a basic dispel on all enemies hit."
+ },
  "special_bonus_unique_techies": {},
  "special_bonus_unique_techies_2": {},
  "special_bonus_unique_techies_3": {},
@@ -2784,8 +2837,12 @@
  "special_bonus_unique_templar_assassin": {},
  "special_bonus_unique_templar_assassin_2": {},
  "special_bonus_unique_templar_assassin_3": {},
- "special_bonus_unique_templar_assassin_4": {},
- "special_bonus_unique_templar_assassin_5": {},
+ "special_bonus_unique_templar_assassin_4": {
+  "description": "Applies a basic dispel to Templar Assassin."
+ },
+ "special_bonus_unique_templar_assassin_5": {
+  "description": "Enemies hit by the spill of Psi Blades have their movement speed slowed by 100%% for 1 second."
+ },
  "special_bonus_unique_templar_assassin_6": {},
  "special_bonus_unique_terrorblade": {},
  "special_bonus_unique_terrorblade_2": {},
@@ -2804,20 +2861,28 @@
  "special_bonus_unique_tiny_2": {},
  "special_bonus_unique_tiny_3": {},
  "special_bonus_unique_tiny_4": {},
- "special_bonus_unique_tiny_5": {},
+ "special_bonus_unique_tiny_5": {
+  "description": "Toss can target the ground as well as enemy units."
+ },
  "special_bonus_unique_treant": {},
  "special_bonus_unique_treant_2": {},
- "special_bonus_unique_treant_3": {},
+ "special_bonus_unique_treant_3": {
+  "description": "Any tree that is destroyed on the map will respawn 3 seconds later."
+ },
  "special_bonus_unique_treant_4": {},
  "special_bonus_unique_treant_5": {},
  "special_bonus_unique_troll_warlord": {},
  "special_bonus_unique_troll_warlord_2": {},
  "special_bonus_unique_troll_warlord_3": {},
- "special_bonus_unique_troll_warlord_4": {},
+ "special_bonus_unique_troll_warlord_4": {
+  "description": "Applies a basic dispel to Troll Warlord and all buffed Heroes."
+ },
  "special_bonus_unique_tusk": {},
  "special_bonus_unique_tusk_2": {},
  "special_bonus_unique_tusk_3": {},
- "special_bonus_unique_tusk_4": {},
+ "special_bonus_unique_tusk_4": {
+  "description": "Walrus Punch gains a chance to be triggered on normal attacks, independent of mana cost or cooldown."
+ },
  "special_bonus_unique_tusk_5": {},
  "special_bonus_unique_underlord": {},
  "special_bonus_unique_underlord_2": {},
@@ -2843,7 +2908,9 @@
  "special_bonus_unique_venomancer_2": {},
  "special_bonus_unique_venomancer_3": {},
  "special_bonus_unique_venomancer_4": {},
- "special_bonus_unique_venomancer_5": {},
+ "special_bonus_unique_venomancer_5": {
+  "description": "The wards are based on the current level of Plague Ward and spawned within 100 range of the impacted Hero, on opposite sides."
+ },
  "special_bonus_unique_venomancer_6": {},
  "special_bonus_unique_viper_1": {},
  "special_bonus_unique_viper_2": {},
@@ -2851,7 +2918,9 @@
  "special_bonus_unique_viper_4": {},
  "special_bonus_unique_visage_1": {},
  "special_bonus_unique_visage_2": {},
- "special_bonus_unique_visage_3": {},
+ "special_bonus_unique_visage_3": {
+  "description": "A second Soul Assumption is launched towards a random enemy unit within the cast range, prioritizing Heroes."
+ },
  "special_bonus_unique_visage_4": {},
  "special_bonus_unique_visage_5": {},
  "special_bonus_unique_visage_6": {},
@@ -2871,15 +2940,22 @@
  "special_bonus_unique_windranger_3": {},
  "special_bonus_unique_windranger_4": {},
  "special_bonus_unique_windranger_5": {},
+ "special_bonus_unique_windranger_6": {},
  "special_bonus_unique_winter_wyvern_1": {},
  "special_bonus_unique_winter_wyvern_2": {},
  "special_bonus_unique_winter_wyvern_3": {},
- "special_bonus_unique_winter_wyvern_4": {},
+ "special_bonus_unique_winter_wyvern_4": {
+  "description": "The slow is still applied for the same duration."
+ },
  "special_bonus_unique_wisp": {},
  "special_bonus_unique_wisp_2": {},
  "special_bonus_unique_wisp_3": {},
- "special_bonus_unique_wisp_4": {},
- "special_bonus_unique_wisp_5": {},
+ "special_bonus_unique_wisp_4": {
+  "description": "While tethered to a friendly Hero, each time that Hero attacks, Io will attack the same target automatically."
+ },
+ "special_bonus_unique_wisp_5": {
+  "description": "While tethered to a friendly Hero, that Hero gains its Aghanim Scepter ability upgrades for the duration."
+ },
  "special_bonus_unique_witch_doctor_1": {},
  "special_bonus_unique_witch_doctor_2": {},
  "special_bonus_unique_witch_doctor_3": {},
@@ -2888,7 +2964,9 @@
  "special_bonus_unique_wraith_king_1": {},
  "special_bonus_unique_wraith_king_2": {},
  "special_bonus_unique_wraith_king_3": {},
- "special_bonus_unique_wraith_king_4": {},
+ "special_bonus_unique_wraith_king_4": {
+  "description": "All enemy units within 900 range have the current level of Wraithfire Blast cast on them when Reincarnation triggers."
+ },
  "special_bonus_unique_wraith_king_5": {},
  "special_bonus_unique_wraith_king_6": {},
  "special_bonus_unique_zeus": {},
@@ -3072,11 +3150,11 @@
   "lore": "Sticks and stones break all the bones, with structures sure to follow."
  },
  "tiny_grow": {
-  "description": "Tiny gains craggy mass, increases his power and causes his to shrug off debuffs.",
+  "description": "Tiny gains craggy mass, increases his power and causes him to shrug off debuffs.",
   "lore": "Watching a hill become a mountain is awe-inspiring - especially if the mountain begins laying waste to adversaries."
  },
  "tiny_toss": {
-  "description": "Grabs the nearest unit in a 275 radius around Tiny, ally or enemy, and launches it at the target unit or rune to deal damage where they land.  If the tossed unit is an enemy, it will take an extra 20%% damage.",
+  "description": "Grabs the nearest unit in a 275 radius around Tiny, ally or enemy, and launches it at the target unit or rune to deal damage where they land.  If the tossed unit is an enemy, it will take an extra 30%% damage.",
   "lore": "Tiny's gargantuan stature allows him to catapult even the sturdiest of warriors."
  },
  "tiny_toss_tree": {
@@ -3178,8 +3256,8 @@
   "lore": "The very steps of a male ursine shake the ground as well as the resolve of opposing warriors."
  },
  "ursa_enrage": {
-  "description": "Ursa goes into a frenzy, multiplying his Fury Swipes damage and causing him to take %damage_reduction%%% less damage. Removes any existing debuffs.\\n\\nUpgradable by Aghanim's Scepter.",
-  "lore": "Ulfsaar succumbs to his ancient spirit, becoming the most ferocious creature on the battlefield.\\n\\nDISPEL TYPE: Strong Dispel"
+  "description": "Ursa goes into a frenzy, multiplying his Fury Swipes damage and causing him to take %damage_reduction%%% less damage. Removes any existing debuffs.\\n\\nUpgradable by Aghanim's Scepter.\\n\\nDISPEL TYPE: Strong Dispel",
+  "lore": "Ulfsaar succumbs to his ancient spirit, becoming the most ferocious creature on the battlefield."
  },
  "ursa_fury_swipes": {
   "description": "Ursa's claws dig deeper wounds in the enemy, causing consecutive attacks to the same enemy to deal more damage.  If the same target is not attacked after 15 seconds, the bonus damage is lost.",

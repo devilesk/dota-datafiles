@@ -10,7 +10,7 @@
 
 		"AbilityCastRange"				"0"
 		"AbilityCastPoint"				"0.0"
-		"AbilityCooldown"				"12.0"
+		"AbilityCooldown"				"14.0"
 		"AbilityManaCost"				"0"
 		
 		"ItemCost"						"2250"
@@ -328,7 +328,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"hp_restore"			"75"
+				"hp_restore"			"85"
 			}
 		}
 	}
@@ -958,7 +958,6 @@
 		"ItemContributesToNetWorthWhenDropped"	"0"
 		"AllowedInBackpack"				"0"
 		"IsTempestDoubleClonable"		"0"
-		"ShouldBeSuggested"				"1"
 		
 		"UIPickupSound"					"Item.PickUpGemShop"
 		"UIDropSound"					"Item.DropGemShop"
@@ -1206,6 +1205,7 @@
 		"Model"							"models/props_gameplay/clarity.vmdl"		
 		"AbilityCastRange"				"250"
 		"AbilityCastPoint"				"0.0"	
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 		
 		"ItemCost"						"50"
 		"ItemShopTags"					"consumable"
@@ -1269,7 +1269,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"replenish_amount"		"150"
+				"replenish_amount"		"175"
 			}	
 			"03"
 			{
@@ -1290,6 +1290,7 @@
 		
 		"AbilityCastRange"				"250"
 		"AbilityCastPoint"				"0.0"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 		
 		"ItemCost"						"110"
 		"ItemShopTags"					"consumable"
@@ -1417,6 +1418,11 @@
 				"var_type"				"FIELD_INTEGER"
 				"tooltip_range"			"350"
 			}			
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_charges"			"3"
+			}
 		}
 	}
 
@@ -2873,6 +2879,7 @@
 
 		"AbilityCooldown"				"25.0"
 		"AbilityCastRange"				"900"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 
 		"AbilityManaCost"				"10"
 		"ItemCost"						"800"
@@ -3104,6 +3111,7 @@
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_BOTH"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
 		"FightRecapLevel"				"1"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 
 		"AbilityCastRange"				"950"
 		"AbilityCastPoint"				"0.0"
@@ -3744,7 +3752,7 @@
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"tooltip_range"			"800"
+				"tooltip_range"			"750"
 			}
 		}
 	}
@@ -3775,7 +3783,7 @@
 
 		"AbilityCastRange"				"800"
 		"AbilityCastPoint"				"0.0"
-		"AbilityCooldown"				"18.0"
+		"AbilityCooldown"				"23.0"
 		"AbilitySharedCooldown"			"force"
 
 		"AbilityManaCost"				"25"
@@ -4381,7 +4389,7 @@
 			"15"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"archer_attack_speed"	"5 10 15"
+				"archer_attack_speed"	"5 7 9"
 			}	
 		}
 	}
@@ -4836,7 +4844,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
 		"FightRecapLevel"				"2"
 
-		"AbilityCooldown"				"80 75 70 65 60 55"
+		"AbilityCooldown"				"70"
 
 		"ItemCost"						"3975"
 		"ItemShopTags"					"str;damage;hard_to_tag"
@@ -5254,7 +5262,7 @@
 		"AbilityChannelTime"			"2.5"
 
 		"AbilityCastRange"				"600"
-		"AbilityCooldown"				"40"
+		"AbilityCooldown"				"28"
 		"AbilityManaCost"				"125"
 
 
@@ -5460,7 +5468,7 @@
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"health_threshold_pct"			"80"
+				"health_threshold_pct"			"70"
 			}
 			"04"
 			{
@@ -5566,7 +5574,7 @@
 		"ID"							"266"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"Model"							"models/props_gameplay/recipe.vmdl"
 		
-		"ItemCost"						"600"	
+		"ItemCost"						"750"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
@@ -5596,7 +5604,7 @@
 		"ItemPermanent"					"1"
 		"ItemDisassembleRule"				"DOTA_ITEM_DISASSEMBLE_NEVER"
 
-		"ItemCost"						"2825"
+		"ItemCost"						"2975"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"sv;spirit vessel"
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS"
@@ -6403,7 +6411,7 @@
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"quelling_bonus"			"160"
+				"quelling_bonus"			"150"
 			}
 			"06"
 			{
@@ -6949,6 +6957,7 @@
 	{
 		"ID"							"154"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 
 		"ItemCost"						"3900"
 		"ItemShopTags"					"damage;str;agi;attack_speed;unique"
@@ -7039,6 +7048,7 @@
 		"ID"							"156"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
 		"FightRecapLevel"				"2"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 
 		"AbilityCooldown"				"35.0"
 
@@ -7298,6 +7308,7 @@
 	{
 		"ID"							"162"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 
 		"ItemCost"						"1950"
 		"ItemShopTags"					"damage;str;unique"
@@ -7429,7 +7440,7 @@
 			"09"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"tootip_bounty"			"125"
+				"tooltip_bounty"			"125"
 			}
 		}
 	}
@@ -7623,6 +7634,7 @@
 		"ID"							"172"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL"
 		"FightRecapLevel"				"1"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 
 		"AbilityCooldown"				"22.0"
 
@@ -7875,7 +7887,7 @@
 		"ID"							"177"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"Model"							"models/props_gameplay/recipe.vmdl"
 		
-		"ItemCost"						"185"	
+		"ItemCost"						"200"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
@@ -7894,7 +7906,7 @@
 		"AbilityCooldown"				"25.0"
 
 		"AbilityManaCost"				"0"
-		"ItemCost"						"755"
+		"ItemCost"						"770"
 		"ItemShopTags"					"regen_health;boost_mana"
 		"ItemQuality"					"common"
 		"ItemAliases"					"soul ring"
@@ -8103,6 +8115,7 @@
 	{
 		"ID"							"240"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 		
 		"ItemCost"						"300"
 		"ItemShopTags"					"hard_to_tag"
@@ -8151,6 +8164,7 @@
 
 		"AbilityCooldown"				"30.0"
 		"AbilityCastRange"				"900"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 
 		"ItemCost"						"1615"
 		"ItemShopTags"					"str;agi;int;damage;move_speed;attack_speed;hard_to_tag"
@@ -8236,6 +8250,7 @@
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
 		"FightRecapLevel"				"1"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 		
 		"AbilityCastRange"				"1000"
 		"AbilityCooldown"				"7.0"
@@ -8889,6 +8904,11 @@
 				"var_type"				"FIELD_FLOAT"
 				"stun_duration"				"2"
 			}
+			"13"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"tooltip_range"			"140"
+			}
 		}
 	}
 	
@@ -9179,7 +9199,6 @@
 		"ItemCost"						"1300"
 		"ItemShopTags"					""
 		"ItemAliases"					"shadow amulet"
-		"ShouldBeSuggested"				"1"
 		
 		"AbilitySpecial"
 		{			
@@ -9192,6 +9211,11 @@
 			{
 				"var_type"				"FIELD_FLOAT"
 				"fade_time"				"1.25"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"tooltip_range"			"600"
 			}
 		}
 	}
