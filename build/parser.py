@@ -15,7 +15,9 @@ file_data = [
     ('npc_abilities', 'DOTAAbilities', 'ability_base'),
     ('npc_units', 'DOTAUnits', 'npc_dota_units_base'),
     ('items', 'DOTAAbilities', None),
-    ('dota_english', 'lang', None)
+    ('dota_english', 'lang', None),
+    ('abilities_english', 'lang', None),
+    ('hero_lore_english', 'hero_lore', None)
 ]
 MAX_ABILITY_LEVEL = 25
 
@@ -63,8 +65,12 @@ def copy_source_txt_from_dotabuff(dotabuff_dir, dotabuff_branch):
     strip_comments(dotabuff_dir + 'npc_units.txt')
     download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/scripts/npc/items.txt', dotabuff_dir + 'items.txt')
     strip_comments(dotabuff_dir + 'items.txt')
-    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/resource/dota_english.txt', dotabuff_dir + 'dota_english.txt')
+    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/resource/localization/dota_english.txt', dotabuff_dir + 'dota_english.txt')
     strip_comments(dotabuff_dir + 'dota_english.txt')
+    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/resource/localization/abilities_english.txt', dotabuff_dir + 'abilities_english.txt')
+    strip_comments(dotabuff_dir + 'abilities_english.txt')
+    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/resource/localization/hero_lore_english.txt', dotabuff_dir + 'hero_lore_english.txt')
+    strip_comments(dotabuff_dir + 'hero_lore_english.txt')
     print('copy txt from dotabuff')
     
 def copy_source_json_from_dotabuff(dotabuff_dir, dotabuff_branch):
@@ -72,18 +78,37 @@ def copy_source_json_from_dotabuff(dotabuff_dir, dotabuff_branch):
     download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/scripts/npc/npc_abilities.json', dotabuff_dir + 'npc_abilities.json')
     download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/scripts/npc/npc_units.json', dotabuff_dir + 'npc_units.json')
     download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/scripts/npc/items.json', dotabuff_dir + 'items.json')
-    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/resource/dota_english.json', dotabuff_dir + 'dota_english.json')
+    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/resource/localization/dota_english.json', dotabuff_dir + 'dota_english.json')
+    download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/resource/localization/abilities_english.json', dotabuff_dir + 'abilities_english.json')
+    #download_file_from('https://raw.githubusercontent.com/dotabuff/d2vpkr/' + dotabuff_branch + '/dota/resource/localization/hero_lore_english.json', dotabuff_dir + 'hero_lore_english.json')
     print('copy json from dotabuff')
 
 def process(src_dir, subset_dir):
-    hero_data, ability_data, unit_data, item_data, tooltip_data = [merge_base_class(open_json(src_dir + x[0] + '.json'), x[1], x[2]) for x in file_data]
+    parse_vdf_to_json('hero_lore_english.txt', '../source/', '../source/')
+    hero_data, ability_data, unit_data, item_data, tooltip_data, abilitytooltip_data, heroloretooltip_data = [merge_base_class(open_json(src_dir + x[0] + '.json'), x[1], x[2]) for x in file_data]
     
     tooltip_data_tokens = tooltip_data['lang']['Tokens']
     for k in tooltip_data_tokens:
         if k != k.lower() and k.lower() in tooltip_data_tokens:
             raise Exception()
     tooltip_data_tokens = dict((k.lower(), v) for k,v in tooltip_data_tokens.items())
+
+    abilitytooltip_data_tokens = abilitytooltip_data['lang']['Tokens']
+    for k in abilitytooltip_data_tokens:
+        if k != k.lower() and k.lower() in abilitytooltip_data_tokens:
+            raise Exception()
+    abilitytooltip_data_tokens = dict((k.lower(), v) for k,v in abilitytooltip_data_tokens.items())
   
+    tooltip_data_tokens = {**tooltip_data_tokens, **abilitytooltip_data_tokens}
+
+    heroloretooltip_data_tokens = heroloretooltip_data['hero_lore']
+    for k in heroloretooltip_data_tokens:
+        if k != k.lower() and k.lower() in heroloretooltip_data_tokens:
+            raise Exception()
+    heroloretooltip_data_tokens = dict((k.lower(), v) for k,v in heroloretooltip_data_tokens.items())
+  
+    tooltip_data_tokens = {**tooltip_data_tokens, **heroloretooltip_data_tokens}
+    
     heroeslist = {'data': []}
     hero_data_subset = {}
     for h in hero_data['DOTAHeroes']:
