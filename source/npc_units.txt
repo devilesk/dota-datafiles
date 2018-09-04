@@ -7064,8 +7064,8 @@
 		"MagicalResistance"				"0"			// Magical protection.
 
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"40"			// Damage range min.
-		"AttackDamageMax"			"40"			// Damage range max.
+		"AttackDamageMin"			"50"			// Damage range min.
+		"AttackDamageMax"			"50"			// Damage range max.
 		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
 		"AttackRate"				"1.5"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
@@ -7121,8 +7121,8 @@
 		"MagicalResistance"				"0"			// Magical protection.
 
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
-		"AttackDamageMin"			"70"			// Damage range min.
-		"AttackDamageMax"			"70"			// Damage range max.
+		"AttackDamageMin"			"75"			// Damage range min.
+		"AttackDamageMax"			"75"			// Damage range max.
 		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
 		"AttackRate"				"1.5"		// Speed of attack.
 		"AttackAnimationPoint"		"0.3"		// Normalized time in animation cycle to attack.
@@ -8069,7 +8069,7 @@
 		"Ability8"					""			// Ability 8 - Extra.
 
 		"ArmorPhysical"				"1"			// Physical protection.
-		"MagicalResistance"				"30"			// Magical protection.
+		"MagicalResistance"				"50"			// Magical protection.
 
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
 		"AttackDamageMin"			"35"		// Damage range min.
@@ -10347,8 +10347,8 @@
 		"HealthBarOffset"			"140"
 
 		"BountyXP"					"0"	// Experience earn.
-		"BountyGoldMin"				"1"		// Gold earned min.
-		"BountyGoldMax"				"1"		// Gold earned max.
+		"BountyGoldMin"				"25"		// Gold earned min.
+		"BountyGoldMax"				"25"		// Gold earned max.
 
 		"MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
 		"MovementSpeed"				"0"		// Speed.

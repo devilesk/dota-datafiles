@@ -429,6 +429,9 @@
  },
  "cny_beast_force_attack": {},
  "cny_beast_teleport": {},
+ "courier_autodeliver": {
+  "description": "Toggle auto delivering of items."
+ },
  "courier_burst": {
   "description": "The courier gains a burst of speed for %duration% seconds"
  },
@@ -1549,7 +1552,7 @@
   "lore": "The hunting prowess of Balanar improves as the night beckons."
  },
  "night_stalker_void": {
-  "description": "Creates a damaging void that slows an enemy unit and deals damage.  Void also mini-stuns, interrupting channeling abilities. The slowing effect lasts longer at night.",
+  "description": "Creates a damaging void that slows an enemy unit and deals damage.  Void also mini-stuns, interrupting channeling abilities. The slowing effect lasts longer at night. Deals half damage during day.",
   "lore": "Balanar creates a vortex of infinite night, tearing opponents violently into the eternal darkness that once was."
  },
  "nyx_assassin_burrow": {
@@ -2608,6 +2611,7 @@
  "special_bonus_unique_invoker_6": {},
  "special_bonus_unique_invoker_7": {},
  "special_bonus_unique_invoker_8": {},
+ "special_bonus_unique_invoker_9": {},
  "special_bonus_unique_jakiro": {},
  "special_bonus_unique_jakiro_2": {},
  "special_bonus_unique_jakiro_3": {},
@@ -3297,7 +3301,7 @@
   "lore": "Ulfsaar succumbs to his ancient spirit, becoming the most ferocious creature on the battlefield."
  },
  "ursa_fury_swipes": {
-  "description": "Ursa's claws dig deeper wounds in the enemy, causing consecutive attacks to the same enemy to deal more damage.  If the same target is not attacked after 15 seconds, the bonus damage is lost.",
+  "description": "Ursa's claws dig deeper wounds in the enemy, causing consecutive attacks to the same enemy to deal more damage.  If the same target is not attacked after 20 seconds, the bonus damage is lost.",
   "lore": "In nature, the wounded rarely survive the attacks of hungry predators."
  },
  "ursa_overpower": {

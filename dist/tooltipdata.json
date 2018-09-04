@@ -542,6 +542,10 @@
   "Description": "Creates a gigantic wave of sound in front of Year Beast, dealing heavy damage to all enemy units in its wake.",
   "DisplayName": "Sonic Wave"
  },
+ "courier_autodeliver": {
+  "Description": "Toggle auto delivering of items.",
+  "DisplayName": "Auto Deliver"
+ },
  "courier_burst": {
   "Description": "The courier gains a burst of speed for %duration% seconds",
   "DisplayName": "Speed Burst"
@@ -1786,7 +1790,7 @@
   "Lore": "You grow stronger just by holding it."
  },
  "item_orb_of_venom": {
-  "Description": "<h1>Passive: Poison Attack</h1>Poisons the target, dealing %poison_damage% magical damage per second for %poison_duration% seconds and slowing movement by %poison_movement_speed_melee%%% if the equipped hero is melee, or %poison_movement_speed_range%%% if they are ranged.",
+  "Description": "<h1>Passive: Poison Attack</h1>Poisons the target, dealing %poison_damage_melee% magical damage per second and slowing movement by %poison_movement_speed_melee%%% if the equipped hero is melee, or %poison_damage_range% magical damage per second and slowing movement by %poison_movement_speed_range%%% if they are ranged. Lasts for %poison_duration% seconds.",
   "DisplayName": "Orb of Venom",
   "Lore": "Envenoms your veapon with the venom of a venomous viper."
  },
@@ -1837,7 +1841,7 @@
   "Lore": "The axe of a fallen gnome, it allows you to effectively maneuver the forest."
  },
  "item_radiance": {
-  "Description": "<h1>Toggle: Burn</h1> When active, scorches enemies for %aura_damage% magical damage per second, and causes them to miss %blind_pct%%% of their attacks.<br><br>Radius: %aura_radius%",
+  "Description": "<h1>Toggle: Burn</h1> When active, scorches enemies for %aura_damage% magical damage per second, and causes them to miss %blind_pct%%% of their attacks. Illusions deal %aura_damage_illusions% magical damage per second.<br><br>Radius: %aura_radius%",
   "DisplayName": "Radiance",
   "Lore": "A divine weapon that causes damage and a bright burning effect that lays waste to nearby enemies."
  },
@@ -2899,7 +2903,7 @@
   "Lore": "The hunting prowess of Balanar improves as the night beckons."
  },
  "night_stalker_void": {
-  "Description": "Creates a damaging void that slows an enemy unit and deals damage.  Void also mini-stuns, interrupting channeling abilities. The slowing effect lasts longer at night.",
+  "Description": "Creates a damaging void that slows an enemy unit and deals damage.  Void also mini-stuns, interrupting channeling abilities. The slowing effect lasts longer at night. Deals half damage during day.",
   "DisplayName": "Void",
   "Lore": "Balanar creates a vortex of infinite night, tearing opponents violently into the eternal darkness that once was."
  },
@@ -5870,7 +5874,7 @@
   "DisplayName": "+2s Flamebreak Burn Duration"
  },
  "special_bonus_unique_beastmaster": {
-  "DisplayName": "+100 Wild Axes Damage"
+  "DisplayName": "+80 Wild Axes Damage"
  },
  "special_bonus_unique_beastmaster_2": {
   "DisplayName": "+40 Boar Damage"
@@ -6165,7 +6169,7 @@
   "DisplayName": "+8 Demonic Conversion Eidolons"
  },
  "special_bonus_unique_enigma_2": {
-  "DisplayName": "+4 Malefice Instance"
+  "DisplayName": "+5 Malefice Instance"
  },
  "special_bonus_unique_enigma_3": {
   "DisplayName": "+70 Eidolon Damage"
@@ -6253,7 +6257,10 @@
   "DisplayName": "+2.5s Cold Snap Duration"
  },
  "special_bonus_unique_invoker_8": {
-  "DisplayName": "+0.5s Tornado Lift Time"
+  "DisplayName": "+1.25s Tornado Lift Time"
+ },
+ "special_bonus_unique_invoker_9": {
+  "DisplayName": "-12s Cold Snap Cooldown"
  },
  "special_bonus_unique_jakiro": {
   "DisplayName": "+1.25s Ice Path Duration"
@@ -6477,7 +6484,7 @@
   "DisplayName": "-5s Sacred Arrow cooldown"
  },
  "special_bonus_unique_mirana_4": {
-  "DisplayName": "-75 Moonlight Shadow Cooldown"
+  "DisplayName": "-70 Moonlight Shadow Cooldown"
  },
  "special_bonus_unique_monkey_king": {
   "DisplayName": "+50% Boundless Strike Crit"
@@ -6973,7 +6980,7 @@
   "DisplayName": "+300 Metamorphosis Attack Range"
  },
  "special_bonus_unique_tidehunter": {
-  "DisplayName": "-4 Gush Armor"
+  "DisplayName": "-5 Gush Armor"
  },
  "special_bonus_unique_tidehunter_2": {
   "DisplayName": "+80 Gush Damage"
@@ -6982,7 +6989,7 @@
   "DisplayName": "+25% Anchor Smash Damage Reduction"
  },
  "special_bonus_unique_tidehunter_4": {
-  "DisplayName": "+24 Kraken Shell Damage Block"
+  "DisplayName": "+30 Kraken Shell Damage Block"
  },
  "special_bonus_unique_timbersaw": {
   "DisplayName": "+8% Whirling Death Attribute Reduction"
@@ -7097,7 +7104,7 @@
   "DisplayName": "+6 Tombstone Attacks to Destroy"
  },
  "special_bonus_unique_ursa": {
-  "DisplayName": "+12 Fury Swipes Damage"
+  "DisplayName": "+16 Fury Swipes Damage"
  },
  "special_bonus_unique_ursa_2": {
   "DisplayName": "-1s Earthshock Cooldown"
@@ -7674,7 +7681,7 @@
   "Lore": "Ulfsaar succumbs to his ancient spirit, becoming the most ferocious creature on the battlefield."
  },
  "ursa_fury_swipes": {
-  "Description": "Ursa's claws dig deeper wounds in the enemy, causing consecutive attacks to the same enemy to deal more damage.  If the same target is not attacked after 15 seconds, the bonus damage is lost.",
+  "Description": "Ursa's claws dig deeper wounds in the enemy, causing consecutive attacks to the same enemy to deal more damage.  If the same target is not attacked after 20 seconds, the bonus damage is lost.",
   "DisplayName": "Fury Swipes",
   "Lore": "In nature, the wounded rarely survive the attacks of hungry predators."
  },

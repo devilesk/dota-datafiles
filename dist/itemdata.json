@@ -196,7 +196,7 @@
    }
   ],
   "cooldown": [
-   90
+   115
   ],
   "description": "<h1>Passive: Combo Breaker</h1> When you take damage and your health falls below %health_threshold_pct%%, a strong dispel is applied and you gain a %buff_duration% second buff that causes all damage you deal and are dealt to be reduced to zero. Only triggers on player based damage.",
   "displayname": "Aeon Disk",
@@ -1064,6 +1064,12 @@
     ]
    },
    {
+    "name": "mana_per_charge",
+    "value": [
+     "0.35"
+    ]
+   },
+   {
     "name": "var_Type",
     "value": [
      "F",
@@ -1077,12 +1083,6 @@
      "O",
      "A",
      "T"
-    ]
-   },
-   {
-    "name": "mana_per_charge",
-    "value": [
-     "0.35"
     ]
    }
   ],
@@ -2725,7 +2725,7 @@
     "name": "bonus_strength",
     "tooltip": "+$str",
     "value": [
-     10
+     12
     ]
    },
    {
@@ -2739,7 +2739,7 @@
     "name": "bonus_damage",
     "tooltip": "+$damage",
     "value": [
-     15
+     12
     ]
    },
    {
@@ -2770,7 +2770,7 @@
    {
     "name": "slow_duration",
     "value": [
-     0.7
+     0.8
     ]
    }
   ],
@@ -3535,7 +3535,7 @@
    }
   ],
   "cooldown": [
-   95
+   90
   ],
   "description": "<h1>Active: Transmute</h1> Kills a non-hero target for %bonus_gold% gold and %xp_multiplier%x experience. <br><br> Cannot be used on Ancient Creeps.<br><br>Range: %transmute_cast_range_tooltip%",
   "displayname": "Hand of Midas",
@@ -4426,7 +4426,7 @@
    {
     "name": "chain_damage",
     "value": [
-     170
+     160
     ]
    },
    {
@@ -6090,9 +6090,15 @@
   "ItemShopTags": "hard_to_tag",
   "attributes": [
    {
-    "name": "poison_damage",
+    "name": "poison_damage_melee",
     "value": [
      5.0
+    ]
+   },
+   {
+    "name": "poison_damage_range",
+    "value": [
+     3.0
     ]
    },
    {
@@ -6115,7 +6121,7 @@
    }
   ],
   "cooldown": [],
-  "description": "<h1>Passive: Poison Attack</h1>Poisons the target, dealing %poison_damage% magical damage per second for %poison_duration% seconds and slowing movement by %poison_movement_speed_melee%%% if the equipped hero is melee, or %poison_movement_speed_range%%% if they are ranged.",
+  "description": "<h1>Passive: Poison Attack</h1>Poisons the target, dealing %poison_damage_melee% magical damage per second and slowing movement by %poison_movement_speed_melee%%% if the equipped hero is melee, or %poison_damage_range% magical damage per second and slowing movement by %poison_movement_speed_range%%% if they are ranged. Lasts for %poison_duration% seconds.",
   "displayname": "Orb of Venom",
   "id": 181,
   "itemcost": 275,
@@ -6680,7 +6686,7 @@
    }
   ],
   "cooldown": [],
-  "description": "<h1>Toggle: Burn</h1> When active, scorches enemies for %aura_damage% magical damage per second, and causes them to miss %blind_pct%%% of their attacks.<br><br>Radius: %aura_radius%",
+  "description": "<h1>Toggle: Burn</h1> When active, scorches enemies for %aura_damage% magical damage per second, and causes them to miss %blind_pct%%% of their attacks. Illusions deal %aura_damage_illusions% magical damage per second.<br><br>Radius: %aura_radius%",
   "displayname": "Radiance",
   "id": 137,
   "itemcost": 5150,
