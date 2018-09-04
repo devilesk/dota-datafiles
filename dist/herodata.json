@@ -27524,7 +27524,7 @@
       0,
       0
      ],
-     "displayname": "+3s Gust Duration",
+     "displayname": "+3s Gust Silence Duration",
      "level": 0,
      "manacost": [
       0,
@@ -30115,7 +30115,7 @@
     "attributes": [
      {
       "name": "crack_time",
-      "tooltip": "EXPLODE DELAY:",
+      "tooltip": "IMPLODE DELAY:",
       "value": [
        3.14
       ]
@@ -43482,7 +43482,7 @@
   "movementturnrate": 0.6,
   "name": "npc_dota_hero_kunkka",
   "projectilespeed": 900,
-  "role": "Carry,Disabler,Initiator,Durable,Nuker",
+  "role": "Carry,Support,Disabler,Initiator,Durable,Nuker",
   "statushealth": 200,
   "statushealthregen": 1.5,
   "statusmana": 75,
@@ -43891,7 +43891,7 @@
       0,
       0
      ],
-     "displayname": "Ghost Ship Fleet",
+     "displayname": "Ghostship Fleet",
      "level": 0,
      "manacost": [
       0,
@@ -77376,7 +77376,7 @@
       0,
       0
      ],
-     "displayname": "Rocket Flare Truesight",
+     "displayname": "Rocket Flare True Sight",
      "level": 0,
      "manacost": [
       0,
@@ -79150,7 +79150,7 @@
       0,
       0
      ],
-     "displayname": "-7s Smokescreen Cooldown",
+     "displayname": "-7s Smoke Screen Cooldown",
      "level": 0,
      "manacost": [
       0,
@@ -81157,7 +81157,7 @@
   "movementturnrate": 0.5,
   "name": "npc_dota_hero_sand_king",
   "projectilespeed": 900,
-  "role": "Initiator,Disabler,Nuker,Escape,Jungler",
+  "role": "Initiator,Disabler,Support,Nuker,Escape,Jungler",
   "statushealth": 200,
   "statushealthregen": 1.5,
   "statusmana": 75,
@@ -99478,7 +99478,7 @@
       0,
       0
      ],
-     "displayname": "+0.3s Heat Seeking Missile Ministun",
+     "displayname": "+0.3s Heat-Seeking Missile Ministun",
      "level": 0,
      "manacost": [
       0,
@@ -104609,7 +104609,7 @@
       0,
       0
      ],
-     "displayname": "+4 Tombstone Attacks",
+     "displayname": "+4 Tombstone Attacks to Destroy",
      "level": 0,
      "manacost": [
       0,

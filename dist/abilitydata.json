@@ -15514,7 +15514,7 @@
   "attributes": [
    {
     "name": "crack_time",
-    "tooltip": "EXPLODE DELAY:",
+    "tooltip": "IMPLODE DELAY:",
     "value": [
      3.14
     ]
@@ -70829,7 +70829,7 @@
    0,
    0
   ],
-  "displayname": "Rocket Flare Truesight",
+  "displayname": "Rocket Flare True Sight",
   "level": 0,
   "manacost": [
    0,
@@ -72975,7 +72975,7 @@
    0,
    0
   ],
-  "displayname": "+3s Gust Duration",
+  "displayname": "+3s Gust Silence Duration",
   "level": 0,
   "manacost": [
    0,
@@ -76421,7 +76421,7 @@
    0,
    0
   ],
-  "displayname": "Ghost Ship Fleet",
+  "displayname": "Ghostship Fleet",
   "level": 0,
   "manacost": [
    0,
@@ -84744,7 +84744,7 @@
    0,
    0
   ],
-  "displayname": "-7s Smokescreen Cooldown",
+  "displayname": "-7s Smoke Screen Cooldown",
   "level": 0,
   "manacost": [
    0,
@@ -89680,7 +89680,7 @@
    0,
    0
   ],
-  "displayname": "+0.3s Heat Seeking Missile Ministun",
+  "displayname": "+0.3s Heat-Seeking Missile Ministun",
   "level": 0,
   "manacost": [
    0,
@@ -91420,7 +91420,7 @@
    0,
    0
   ],
-  "displayname": "+4 Tombstone Attacks",
+  "displayname": "+4 Tombstone Attacks to Destroy",
   "level": 0,
   "manacost": [
    0,

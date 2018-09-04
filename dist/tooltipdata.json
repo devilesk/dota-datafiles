@@ -1322,7 +1322,7 @@
   "Lore": "The Immortal was said to own a shield that protected him from death itself."
  },
  "item_aeon_disk": {
-  "Description": "<h1>Passive: Combo Breaker</h1> When you take damage and your health falls below %health_threshold_pct%%, a strong dispel is applied and you gain a %buff_duration% second buff that causes all damage you deal and are dealt to be reduced to zero. Only triggers on player based damage. \\n\\n<h1>Passive: Status Resistance</h1> Reduces status effect durations by %status_resistance%%.",
+  "Description": "<h1>Passive: Combo Breaker</h1> When you take damage and your health falls below %health_threshold_pct%%, a strong dispel is applied and you gain a %buff_duration% second buff that causes all damage you deal and are dealt to be reduced to zero. Only triggers on player based damage.",
   "DisplayName": "Aeon Disk",
   "Lore": "A powerful artifact long ago smuggled out of the Ivory Incubarium. Or so many believe."
  },
@@ -5960,7 +5960,7 @@
   "DisplayName": "+30 Battery Assault Damage"
  },
  "special_bonus_unique_clockwerk_4": {
-  "DisplayName": "Rocket Flare Truesight"
+  "DisplayName": "Rocket Flare True Sight"
  },
  "special_bonus_unique_crystal_maiden_1": {
   "DisplayName": "+1.5s Frostbite Duration"
@@ -6073,7 +6073,7 @@
   "DisplayName": "+20 Marksmanship Agility"
  },
  "special_bonus_unique_drow_ranger_4": {
-  "DisplayName": "+3s Gust Duration"
+  "DisplayName": "+3s Gust Silence Duration"
  },
  "special_bonus_unique_earth_spirit": {
   "DisplayName": "+200 Rolling Boulder Damage"
@@ -6253,8 +6253,8 @@
   "DisplayName": "+120 Torrent Damage"
  },
  "special_bonus_unique_kunkka_3": {
-  "Description": "Spawns 3 Ghost Ships, 2.8 seconds apart, towards the target location.",
-  "DisplayName": "Ghost Ship Fleet"
+  "Description": "Spawns 3 Ghostships, 2.8 seconds apart, towards the target location.",
+  "DisplayName": "Ghostship Fleet"
  },
  "special_bonus_unique_kunkka_4": {
   "DisplayName": "+50% Tidebringer Cleave"
@@ -6691,7 +6691,7 @@
   "DisplayName": "+0.20 Backstab Multiplier"
  },
  "special_bonus_unique_riki_2": {
-  "DisplayName": "-7s Smokescreen Cooldown"
+  "DisplayName": "-7s Smoke Screen Cooldown"
  },
  "special_bonus_unique_riki_3": {
   "DisplayName": "+900 Blink Strike Cast Range"
@@ -6952,7 +6952,7 @@
   "DisplayName": "+8 March of the Machines Damage"
  },
  "special_bonus_unique_tinker_3": {
-  "DisplayName": "+0.3s Heat Seeking Missile Ministun"
+  "DisplayName": "+0.3s Heat-Seeking Missile Ministun"
  },
  "special_bonus_unique_tiny": {
   "DisplayName": "+125 Avalanche Damage"
@@ -7046,7 +7046,7 @@
   "DisplayName": "+30 Decay Duration"
  },
  "special_bonus_unique_undying_5": {
-  "DisplayName": "+4 Tombstone Attacks"
+  "DisplayName": "+4 Tombstone Attacks to Destroy"
  },
  "special_bonus_unique_ursa": {
   "DisplayName": "+14 Fury Swipes Damage"
@@ -7209,7 +7209,7 @@
   "DisplayName": "Attack Tethered Ally's Target"
  },
  "special_bonus_unique_wisp_5": {
-  "Description": "While tethered to a friendly Hero, that Hero gains its Aghanim Scepter ability upgrades for the duration.",
+  "Description": "While tethered to a friendly Hero, that Hero gains its Aghanim's Scepter ability upgrades for the duration.",
   "DisplayName": "Tether Grants Scepter Bonus"
  },
  "special_bonus_unique_witch_doctor_1": {
@@ -7670,7 +7670,7 @@
   "Lore": "A concoction of various stings, poisons, and toxins gathered from the jungles of Jidi Isle, victims surviving it are rare."
  },
  "viper_corrosive_skin": {
-  "Description": "Viper exudes an infectious toxin that damages and slows any enemy that damages it in a %max_range_tooltip% radius. The acid exudate also increases Viper's resistance to magic.",
+  "Description": "Viper exudes an infectious toxin that damages and slows the attack speed of any enemy that damages it in a %max_range_tooltip% radius. The acid exudate also increases Viper's resistance to magic.",
   "DisplayName": "Corrosive Skin",
   "Lore": "It is not unusual for sword and shield alike to corrode in the very hands of those who attack the Netherdrake."
  },

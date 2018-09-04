@@ -2612,7 +2612,7 @@
  "special_bonus_unique_kunkka": {},
  "special_bonus_unique_kunkka_2": {},
  "special_bonus_unique_kunkka_3": {
-  "description": "Spawns 3 Ghost Ships, 2.8 seconds apart, towards the target location."
+  "description": "Spawns 3 Ghostships, 2.8 seconds apart, towards the target location."
  },
  "special_bonus_unique_kunkka_4": {},
  "special_bonus_unique_legion_commander": {},
@@ -2975,7 +2975,7 @@
   "description": "While tethered to a friendly Hero, each time that Hero attacks, Io will attack the same target automatically."
  },
  "special_bonus_unique_wisp_5": {
-  "description": "While tethered to a friendly Hero, that Hero gains its Aghanim Scepter ability upgrades for the duration."
+  "description": "While tethered to a friendly Hero, that Hero gains its Aghanim's Scepter ability upgrades for the duration."
  },
  "special_bonus_unique_witch_doctor_1": {},
  "special_bonus_unique_witch_doctor_2": {},
@@ -3323,7 +3323,7 @@
   "lore": "A concoction of various stings, poisons, and toxins gathered from the jungles of Jidi Isle, victims surviving it are rare."
  },
  "viper_corrosive_skin": {
-  "description": "Viper exudes an infectious toxin that damages and slows any enemy that damages it in a %max_range_tooltip% radius. The acid exudate also increases Viper's resistance to magic.",
+  "description": "Viper exudes an infectious toxin that damages and slows the attack speed of any enemy that damages it in a %max_range_tooltip% radius. The acid exudate also increases Viper's resistance to magic.",
   "lore": "It is not unusual for sword and shield alike to corrode in the very hands of those who attack the Netherdrake."
  },
  "viper_nethertoxin": {

@@ -4667,7 +4667,6 @@
 		
 		"AbilityManaCost"				"30"
 		
-		/ Damage.
 		"AbilityDamage"					"8 12 16"
 
 		"AbilitySpecial"
@@ -13407,7 +13406,6 @@
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_PURE"
 		"FightRecapLevel"				"1"
 		"AbilitySound"					"Hero_Chen.TestOfFaith.Target"
-		"LinkedAbility"					"chen_test_of_faith_teleport"
 
 		"AbilityCastPoint"				"0.3 0.3 0.3 0.3"
 
@@ -29821,6 +29819,8 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN"
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
 		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_6"
+
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
 		"HasScepterUpgrade"				"1"
 
