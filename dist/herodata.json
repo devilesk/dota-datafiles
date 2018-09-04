@@ -78,10 +78,7 @@
     "displayname": "Mist Coil",
     "level": 0,
     "manacost": [
-     50,
-     60,
-     70,
-     80
+     50
     ],
     "name": "abaddon_death_coil"
    },
@@ -3305,9 +3302,9 @@
     "displayname": "Ice Vortex",
     "level": 0,
     "manacost": [
+     65,
      80,
-     90,
-     100,
+     95,
      110
     ],
     "name": "ancient_apparition_ice_vortex"
@@ -10311,9 +10308,9 @@
       "name": "bonus_movement_speed",
       "tooltip": "%MAX THIRST MOVE SPEED:",
       "value": [
-       16,
-       24,
-       32,
+       7,
+       18,
+       29,
        40
       ]
      },
@@ -10321,9 +10318,9 @@
       "name": "bonus_damage",
       "tooltip": "MAX THIRST DAMAGE:",
       "value": [
-       16,
-       24,
-       32,
+       7,
+       18,
+       29,
        40
       ]
      },
@@ -11039,7 +11036,7 @@
       {
        "name": "value",
        "value": [
-        20
+        18
        ]
       }
      ],
@@ -14161,9 +14158,9 @@
       "name": "bonus_movespeed",
       "tooltip": "%MOVE INCREASE:",
       "value": [
+       25,
        40,
-       50,
-       60,
+       55,
        70
       ]
      },
@@ -14181,7 +14178,7 @@
       "name": "charge_restore_time",
       "tooltip": "CHARGE RESTORE TIME:",
       "value": [
-       40.0
+       45.0
       ]
      }
     ],
@@ -15435,7 +15432,7 @@
   "attributeagilitygain": 1,
   "attributebaseagility": 15,
   "attributebaseintelligence": 15,
-  "attributebasestrength": 25,
+  "attributebasestrength": 27,
   "attributeintelligencegain": 1.6,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
   "attributestrengthgain": 4.3,
@@ -18872,9 +18869,9 @@
     "displayname": "Crystal Nova",
     "level": 0,
     "manacost": [
-     100,
-     120,
+     130,
      140,
+     150,
      160
     ],
     "name": "crystal_maiden_crystal_nova"
@@ -27164,7 +27161,7 @@
   "attributeagilitygain": 1.9,
   "attributebaseagility": 26,
   "attributebaseintelligence": 15,
-  "attributebasestrength": 18,
+  "attributebasestrength": 17,
   "attributeintelligencegain": 1.4,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
   "attributestrengthgain": 1.9,
@@ -32023,9 +32020,9 @@
     "displayname": "Nature's Attendants",
     "level": 0,
     "manacost": [
-     110,
-     120,
-     130,
+     170,
+     160,
+     150,
      140
     ],
     "name": "enchantress_natures_attendants"
@@ -40667,10 +40664,10 @@
       "name": "blade_fury_damage",
       "tooltip": "DAMAGE:",
       "value": [
-       80,
-       105,
-       130,
-       155
+       90,
+       115,
+       140,
+       160
       ]
      },
      {
@@ -60308,7 +60305,7 @@
       "name": "bonus_damage",
       "tooltip": "%INCREASED MAGIC DAMAGE:",
       "value": [
-       -30
+       -40
       ]
      }
     ],
@@ -60509,11 +60506,7 @@
     "name": "generic_hidden"
    },
    {
-    "AbilityCastPoint": [
-     0.5,
-     0.5,
-     0.5
-    ],
+    "AbilityCastPoint": 0.55,
     "AbilityCastRange": 600,
     "AbilityCastRangeBuffer": 250,
     "AbilityChannelTime": [
@@ -60557,9 +60550,9 @@
       "name": "cooldown_scepter",
       "tooltip": "SCEPTER COOLDOWN:",
       "value": [
-       55,
-       40,
-       25
+       60,
+       50,
+       40
       ]
      },
      {
@@ -64439,10 +64432,10 @@
       "name": "bonus_mana",
       "tooltip": "BASE MANA:",
       "value": [
-       125,
-       200,
-       275,
-       350
+       150,
+       250,
+       350,
+       450
       ]
      },
      {
@@ -64634,9 +64627,9 @@
       "name": "damage_multiplier",
       "tooltip": "INT DIFF DAMAGE MULTIPLIER:",
       "value": [
-       8,
        9,
-       10
+       10,
+       11
       ]
      },
      {
@@ -65235,10 +65228,10 @@
       "name": "fireblast_damage",
       "tooltip": "FIREBLAST DAMAGE:",
       "value": [
-       55,
-       110,
-       165,
-       220
+       60,
+       120,
+       180,
+       240
       ]
      }
     ],
@@ -70631,14 +70624,14 @@
      {
       "name": "illusion_damage_in_pct",
       "value": [
-       400
+       500
       ]
      },
      {
       "name": "tooltip_total_illusion_damage_in_pct",
       "tooltip": "%ILLUSION DAMAGE TAKEN:",
       "value": [
-       500
+       600
       ]
      },
      {
@@ -70683,7 +70676,7 @@
   "attacktype": "DOTA_UNIT_CAP_MELEE_ATTACK",
   "attributeagilitygain": 2.8,
   "attributebaseagility": 29,
-  "attributebaseintelligence": 21,
+  "attributebaseintelligence": 19,
   "attributebasestrength": 19,
   "attributeintelligencegain": 2,
   "attributeprimary": "DOTA_ATTRIBUTE_AGILITY",
@@ -72176,7 +72169,7 @@
       {
        "name": "value",
        "value": [
-        60
+        50
        ]
       }
      ],
@@ -72646,10 +72639,10 @@
       "name": "silence_duration",
       "tooltip": "DURATION:",
       "value": [
-       1.5,
        2,
        2.5,
-       3
+       3,
+       3.5
       ]
      },
      {
@@ -73581,10 +73574,10 @@
      "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
     ],
     "cooldown": [
+     27,
+     22,
      17,
-     15,
-     13,
-     11
+     12
     ],
     "damage": [
      150,
@@ -74945,8 +74938,8 @@
    }
   ],
   "armorphysical": 0,
-  "attackdamagemax": 29,
-  "attackdamagemin": 21,
+  "attackdamagemax": 27,
+  "attackdamagemin": 19,
   "attackpoint": 0.5,
   "attackrange": 630,
   "attackrate": 1.7,
@@ -78420,12 +78413,7 @@
   "HeroID": 32,
   "abilities": [
    {
-    "AbilityCastPoint": [
-     0.4,
-     0.4,
-     0.4,
-     0.4
-    ],
+    "AbilityCastPoint": 0.2,
     "AbilityCastRange": 550,
     "AbilityCastRangeBuffer": 250,
     "AbilityChannelTime": [
@@ -83044,7 +83032,7 @@
     "name": "shadow_shaman_mass_serpent_ward"
    }
   ],
-  "armorphysical": 0,
+  "armorphysical": 1,
   "attackdamagemax": 59,
   "attackdamagemin": 52,
   "attackpoint": 0.3,
@@ -83778,9 +83766,9 @@
       "name": "bonus_armor",
       "tooltip": "BONUS ARMOR:",
       "value": [
-       1,
-       1.2,
+       1.3,
        1.4,
+       1.5,
        1.6
       ]
      },
@@ -89944,8 +89932,6 @@
       "name": "tooltip_range",
       "tooltip": "RANGE:",
       "value": [
-       2000,
-       2500,
        3000
       ]
      },
@@ -90229,7 +90215,7 @@
       {
        "name": "value",
        "value": [
-        25
+        35
        ]
       }
      ],
@@ -93966,8 +93952,8 @@
    }
   ],
   "armorphysical": 1,
-  "attackdamagemax": 43,
-  "attackdamagemin": 41,
+  "attackdamagemax": 45,
+  "attackdamagemin": 43,
   "attackpoint": 0.4,
   "attackrange": 150,
   "attackrate": 1.8,
@@ -95822,8 +95808,8 @@
       "name": "trap_bonus_damage",
       "value": [
        250,
-       350,
-       450
+       300,
+       350
       ]
      },
      {
@@ -95988,8 +95974,8 @@
       "tooltip": "BONUS DAMAGE:",
       "value": [
        250,
-       350,
-       450
+       300,
+       350
       ]
      },
      {
@@ -100714,10 +100700,10 @@
     "displayname": "Leech Seed",
     "level": 0,
     "manacost": [
-     80,
-     95,
+     100,
      110,
-     125
+     120,
+     130
     ],
     "name": "treant_leech_seed"
    },
@@ -108808,7 +108794,7 @@
       "name": "minimum_damage",
       "tooltip": "MINIMUM DAMAGE:",
       "value": [
-       50
+       40
       ]
      },
      {
@@ -111063,7 +111049,7 @@
   "items": [],
   "level": 0,
   "magicalresistance": 25,
-  "movementspeed": 280,
+  "movementspeed": 275,
   "movementturnrate": 0.5,
   "name": "npc_dota_hero_weaver",
   "projectilespeed": 900,
@@ -111853,6 +111839,9 @@
      "DOTA_ABILITY_BEHAVIOR_IMMEDIATE"
     ],
     "cooldown": [
+     15,
+     14,
+     13,
      12
     ],
     "damage": [
@@ -112802,9 +112791,9 @@
     "displayname": "Splinter Blast",
     "level": 0,
     "manacost": [
-     90,
-     110,
-     130,
+     105,
+     120,
+     135,
      150
     ],
     "name": "winter_wyvern_splinter_blast"
@@ -116004,7 +115993,7 @@
      {
       "name": "cloud_radius",
       "value": [
-       500
+       450
       ]
      }
     ],

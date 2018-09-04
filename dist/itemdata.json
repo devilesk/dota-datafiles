@@ -1064,12 +1064,6 @@
     ]
    },
    {
-    "name": "mana_per_charge",
-    "value": [
-     "0.35"
-    ]
-   },
-   {
     "name": "var_Type",
     "value": [
      "F",
@@ -1083,6 +1077,12 @@
      "O",
      "A",
      "T"
+    ]
+   },
+   {
+    "name": "mana_per_charge",
+    "value": [
+     "0.35"
     ]
    }
   ],
@@ -2006,7 +2006,7 @@
    {
     "name": "mana_cost_tooltip",
     "value": [
-     180.0
+     120.0
     ]
    }
   ],
@@ -2106,7 +2106,7 @@
    {
     "name": "mana_cost_tooltip",
     "value": [
-     180.0
+     140.0
     ]
    }
   ],
@@ -2206,7 +2206,7 @@
    {
     "name": "mana_cost_tooltip",
     "value": [
-     180.0
+     160.0
     ]
    }
   ],
@@ -2404,7 +2404,7 @@
    {
     "name": "mana_cost_tooltip",
     "value": [
-     180.0
+     200.0
     ]
    }
   ],
@@ -6453,6 +6453,34 @@
   "lore": "Thick metal plates that protect the entire upper body. Avoid dropping on feet.",
   "manacost": [],
   "name": "item_platemail"
+ },
+ "item_pocket_roshan": {
+  "AbilityBehavior": [
+   "DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+   "DOTA_ABILITY_BEHAVIOR_NO_TARGET"
+  ],
+  "AbilityCastPoint": 0,
+  "ItemQuality": "rare",
+  "attributes": [
+   {
+    "name": "summon_duration",
+    "value": [
+     60
+    ]
+   }
+  ],
+  "cooldown": [
+   60
+  ],
+  "description": null,
+  "id": 1032,
+  "itemcost": 1000,
+  "level": 0,
+  "lore": null,
+  "manacost": [
+   0
+  ],
+  "name": "item_pocket_roshan"
  },
  "item_pocket_tower": {
   "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
