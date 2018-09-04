@@ -637,12 +637,12 @@
 			"03"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"health_bonus_pct"			"19 21 23 25"
+				"health_bonus_pct"			"16 19 22 25"
 			}
 			"04"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"health_bonus_creep_pct"	"19 21 23 25"
+				"health_bonus_creep_pct"	"16 19 22 25"
 			}
 			"05"
 			{
@@ -3900,7 +3900,7 @@
 		"AbilityCastRange"				"525"
 		"AbilityCastPoint"				"0.35 0.35 0.35 0.35"
 
-		"AbilityCooldown"				"11 10 9 8"
+		"AbilityCooldown"				"14 12 10 8"
 
 		"AbilityDamage"					"50 100 150 200"
 
@@ -4961,7 +4961,7 @@
 		"AbilityCastRange"				"600"
 		"AbilityCastPoint"				"0.0 0.0 0.0 0.0"
 
-		"AbilityCooldown"				"20 19 18 17"
+		"AbilityCooldown"				"23 21 19 17"
 		"AbilityDuration"				"2.0 2.0 2.0 2.0"
 
 
@@ -5080,7 +5080,7 @@
 
 		"AbilityCooldown"				"24 20 16 12"
 
-		"AbilityManaCost"				"20 30 40 50"
+		"AbilityManaCost"				"50"
 
 		"AbilityModifierSupportBonus"		"35"
 
@@ -5878,7 +5878,7 @@
 		"AbilityCastRange"				"1400"
 		"AbilityCastPoint"				"0.3 0.3 0.3 0.3"
 
-		"AbilityCooldown"				"10"
+		"AbilityCooldown"				"16 14 12 10"
 		"AbilityDuration"				"8"
 
 		"AbilityDamage"					"60 80 100 120"
@@ -5986,7 +5986,7 @@
 		"AbilityCooldown"				"11 10 9 8"
 		
 
-		"AbilityManaCost"				"130 140 150 160"
+		"AbilityManaCost"				"130 145 160 175"
 		
 		"AbilitySpecial"
 		{
@@ -12707,7 +12707,7 @@
 		"AbilityCastPoint"				"0.3 0.3 0.3 0.3"
 		"AbilityCastRange"				"3000"
 		"AbilityCooldown"				"35 30 25 20"
-		"AbilityManaCost"				"70 80 90 100"
+		"AbilityManaCost"				"110"
 
 		"AbilityModifierSupportValue"	"0.2"	// Primarily about the damage
 
@@ -13376,7 +13376,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"duration"				"8"
+				"duration"				"5 6 7 8"
 			}
 			"02"
 			{
@@ -13621,7 +13621,7 @@
 			"12"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"dagger_grace_period"	"2.0"
+				"dagger_grace_period"	"1.0"
 			}
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
@@ -13646,7 +13646,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"radius"				"325"
+				"radius"				"375"
 			}
 			"03"
 			{
@@ -13684,7 +13684,7 @@
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"max_radius"			"1000 1000 1000 1000"
+				"max_radius"			"700"
 			}			
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
@@ -14464,7 +14464,7 @@
 		"AbilityCooldown"				"10.0 10.0 10.0 10.0"
 		"AbilityDuration"				"20"
 
-		"AbilityManaCost"				"45 55 65 75"
+		"AbilityManaCost"				"75"
 		
 		"AbilitySpecial"
 		{
@@ -15010,7 +15010,7 @@
 			"05"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"bounty_multiplier_tooltip"		"3.5"
+				"bounty_multiplier"		"2.0 2.5 3.0 3.5"
 			}
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
@@ -15847,7 +15847,7 @@
 		
 		"AbilityCooldown"				"20 18 16 14"
 
-		"AbilityManaCost"				"75 95 115 135"
+		"AbilityManaCost"				"105 115 125 135"
 
 		"AbilityModifierSupportValue"	"0.5"	// Mainly about damage
 		
@@ -20240,7 +20240,7 @@
 		"AbilityCastPoint"				"0"
   		"AbilityCastAnimation"			"ACT_INVALID"
 
-		"AbilityCooldown"				"20.0 18.0 16.0 14.0"
+		"AbilityCooldown"				"26.0 22.0 18.0 14.0"
 		"AbilityDuration"				"19.0 19.0 19.0 19.0"
 
 		"AbilityManaCost"				"120 130 140 150"
@@ -25661,7 +25661,7 @@
 			"02"
 			{
 				"var_type"						"FIELD_INTEGER"
-				"damage"						"120 200 280 360"
+				"damage"						"90 180 270 360"
 				"LinkedSpecialBonus"			"special_bonus_unique_dark_willow_1"
 			}
 			"03"
@@ -25688,7 +25688,7 @@
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
 
 		"AbilityCastRange"				"600"
-		"AbilityCastPoint"				"0.1"
+		"AbilityCastPoint"				"0.2"
 		
 		"AbilityCooldown"				"18 16 14 12"
 
@@ -25714,7 +25714,318 @@
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
 	}
-	
+
+	"grimstroke_dark_artistry"
+	{
+		"ID"							"8000"	// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"FightRecapLevel"				"1"
+
+		"AbilityCastRange"				"1400"
+		"AbilityCastPoint"				"0.8"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_3"
+
+		"AbilityCooldown"				"11 9 7 5"
+		"AbilityManaCost"				"100 110 120 130"
+
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+
+		"AbilityModifierSupportValue"	"0.5"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"start_radius"			"120"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"end_radius"			"160"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"projectile_speed"		"2400"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"damage"					"120 180 240 300"
+				"LinkedSpecialBonus"		"special_bonus_unique_grimstroke_2"
+				"LinkedSpecialBonusOperation"	"SPECIAL_BONUS_MULTIPLY"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"bonus_damage_per_target"	"16 24 32 40"
+				"LinkedSpecialBonus"		"special_bonus_unique_grimstroke_2"
+				"LinkedSpecialBonusOperation"	"SPECIAL_BONUS_MULTIPLY"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"movement_slow_pct"		"50 60 70 80"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"slow_duration"			"1.5"
+			}
+			"08"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"vision_duration"			"2.0"
+			}
+			"09"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"range_tooltip"				"1400"
+				"LinkedSpecialBonus"		"special_bonus_unique_grimstroke_3"
+			}
+		}
+	}
+
+	"grimstroke_ink_creature"
+	{
+		"ID"							"8006"	// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"FightRecapLevel"				"1"
+
+		"AbilityCastRange"				"900"
+		"AbilityCastPoint"				"0.0"
+		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_2"
+
+		"AbilityCooldown"				"32 28 24 20"
+		
+		"AbilityManaCost"				"110 120 130 140"
+
+		"AbilityModifierSupportValue"	"0.5"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"spawn_time"				"0.0"
+			}
+			"02"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"speed"						"750"
+			}
+			"03"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"latch_duration"			"4.0 4.0 5.0 5.0"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"destroy_attacks"			"6 6 9 9"
+				"LinkedSpecialBonus"		"special_bonus_unique_grimstroke_4"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"hero_attack_multiplier"	"3"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"damage_per_tick"			"6 9 12 15"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"dps_tooltip"				"12 18 24 30"
+			}
+			"08"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"enemy_vision_time"			"4"
+			}
+			"09"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"tick_interval"				"0.5"
+			}
+			"10"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"infection_search_radius"	"1000"
+			}
+			"11"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"pop_damage"				"120 200 280 360"
+			}
+			"12"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"return_projectile_speed"	"750"
+			}
+			"13"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"latched_unit_offset"		"130"
+			}
+			"14"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"latched_unit_offset_short"	"95"
+			}
+		}
+	}
+
+	"grimstroke_spirit_walk"
+	{
+		"ID"							"8007"	// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES"
+		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"AbilitySound"					"Hero_ObsidianDestroyer.AstralImprisonment"
+		"FightRecapLevel"				"1"
+
+		"AbilityCooldown"				"30 25 20 15"
+
+		"AbilityCastRange"				"400 500 600 700"
+		"AbilityCastPoint"				"0.15"
+
+		"AbilityManaCost"				"90 100 110 120"
+
+		"AbilityModifierSupportValue"	"0.75"
+
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"cast_range_tooltip"	"400 500 600 700"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"buff_duration"			"3.0"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"movespeed_bonus_pct"	"18 22 26 30"
+			}
+			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"radius"				"400"
+				"LinkedSpecialBonus"	"special_bonus_unique_grimstroke_1"
+			}
+			"05"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"max_damage"			"220 280 340 400"
+			}
+			"06"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"max_stun"				"2.2 2.8 3.4 4.0"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"damage_per_tick"		"5 7 9 11"
+			}
+			"08"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"tick_rate"				"0.2"
+			}
+			"09"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"tick_dps_tooltip"		"25 35 45 55"
+			}
+		}
+		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
+	}	
+
+	"grimstroke_soul_chain"
+	{
+		"ID"							"6491"	// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO"
+		"AbilityUnitTargetFlags"		"DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"FightRecapLevel"				"1"
+
+		"AbilityCooldown"				"80 65 50"
+		"AbilityCastRange"				"700 800 900"
+		"AbilityCastPoint"				"0.15"
+		"AbilityCastAnimation"			"ACT_INVALID"
+		"AbilityManaCost"				"150 200 250"
+		
+		"AbilityModifierSupportValue"	"0.75"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"chain_duration"		"4.0 6.0 8.0"
+			}
+			"02"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_latch_radius"	"550"
+			}
+			"03"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"chain_break_distance"	"700"
+			}
+			"04"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"leash_limit_multiplier"	"1.3"
+			}
+			"05"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"leash_radius_buffer"		"50"
+			}
+			"06"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"creep_duration_pct"		"50.0"
+			}
+			"07"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"movement_slow"				"15 30 45"
+			}
+			"08"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"cast_range_tooltip"		"700 800 900"
+			}
+		}
+	}
+
+
 
 	
 
@@ -36068,7 +36379,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"value"				"100"
+				"value"				"80"
 			}
 		}
 	}
@@ -40007,7 +40318,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"value"				"7"
+				"value"				"6"
 			}
 		}
 	}
@@ -43804,6 +44115,70 @@
 			{
 				"var_type"			"FIELD_FLOAT"
 				"value"				"1.5"
+			}
+		}
+	}
+
+	"special_bonus_unique_grimstroke_1"
+	{
+		"ID"							"8001"	// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"value"					"200"
+			}
+		}
+	}
+
+	"special_bonus_unique_grimstroke_2"
+	{
+		"ID"							"8002"	// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"value"					"1.5"
+			}
+		}
+	}
+
+	"special_bonus_unique_grimstroke_3"
+	{
+		"ID"							"8003"	// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"value"					"600"
+			}
+		}
+	}
+
+	"special_bonus_unique_grimstroke_4"
+	{
+		"ID"							"8004"	// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"value"					"6" // 6 for non-heroes means 2 for heroes
 			}
 		}
 	}

@@ -44,7 +44,7 @@
   "lore": "The brew Razzil gave to the Ogre during their prison bust has become a useful potion in the midst of combat."
  },
  "alchemist_goblins_greed": {
-  "description": "Alchemist synthesizes additional gold from his enemies and bounty runes. With each kill, Alchemist earns base bonus gold and extra bonus gold. If Alchemist kills another unit which yields gold within the next %duration% seconds, an additional instance of Extra Bonus Gold is added to the total. Additionally, causes bounty runes to yield %bounty_multiplier_tooltip% times their normal gold.",
+  "description": "Alchemist synthesizes additional gold from his enemies and bounty runes. With each kill, Alchemist earns base bonus gold and extra bonus gold. If Alchemist kills another unit which yields gold within the next %duration% seconds, an additional instance of Extra Bonus Gold is added to the total. Additionally, causes bounty runes to yield more gold.",
   "lore": "While it is not a mountain, Razzil has mastered the conversion of smaller compounds to line his pockets."
  },
  "alchemist_unstable_concoction": {
@@ -933,6 +933,22 @@
  },
  "greevil_time_lock": {
   "description": "YELLOW ESSENCE\\nAdds the chance for an attack to lock an enemy unit in time, stunning it and dealing bonus damage."
+ },
+ "grimstroke_dark_artistry": {
+  "description": "Grimstroke paints a path of ink with his brush, damaging and slowing enemies. The damage is increased with each enemy the ink hits.",
+  "lore": "The corruptive force of Grimstroke's ink, drawn from the reservoir of his fallen people, consumes any enemy caught in its path."
+ },
+ "grimstroke_ink_creature": {
+  "description": "Summons a phantom that moves quickly towards the target, latching to it when she arrives. Once latched, the phantom damages and silences. If she survives the full latch duration she rends her victim for heavy damage and refreshes Phantom's Embrace's cooldown.",
+  "lore": "Grimstroke holds no sorrow for the downfall of his people. Only for Yaovhi, she who was most dear to him, does he feel even a semblance of longing."
+ },
+ "grimstroke_soul_chain": {
+  "description": "Binds a targeted enemy hero to its nearest allied hero within the bind radius, preventing both from moving away from each other. Any unit-targeted ability that either bound hero receives also gets cast on the other hero. If the bind is broken before the duration expires, the initial target will be bound to its nearest allied hero in the radius.",
+  "lore": "The Ascended were chosen sons of Ashkavor, granted immense power by the bonds forged between their own souls and those they were charged with protecting. In the years that followed the ruination of his kin, Grimstroke discovered much more sinister applications for the binding rituals..."
+ },
+ "grimstroke_spirit_walk": {
+  "description": "Grimstroke shrouds an allied unit in ink, increasing its movement speed while silencing and disarming it, as well as making it immune to attacks. Enemies in range of the allied unit are damaged with inky tendrils over time. After %buff_duration% seconds it triggers, applying damage and stun in an area around the unit in proportion to how much ink tendril damage was inflicted to heroes.",
+  "lore": "Now that the rise of the ink tide no longer threatens to overwhelm Grimstroke, its tendrils of power are never far from his hand."
  },
  "gyrocopter_call_down": {
   "description": "Call down an aerial missile strike on enemy units in a target area.  Two missiles arrive in succession, the first dealing major damage and minor slow for %slow_duration_first% seconds; the second dealing minor damage and major slow for %slow_duration_second% seconds.\\n\\nUpgradable by Aghanim's Scepter.",
@@ -2586,6 +2602,10 @@
  "special_bonus_unique_furion_2": {},
  "special_bonus_unique_furion_3": {},
  "special_bonus_unique_furion_4": {},
+ "special_bonus_unique_grimstroke_1": {},
+ "special_bonus_unique_grimstroke_2": {},
+ "special_bonus_unique_grimstroke_3": {},
+ "special_bonus_unique_grimstroke_4": {},
  "special_bonus_unique_gyrocopter_1": {},
  "special_bonus_unique_gyrocopter_2": {},
  "special_bonus_unique_gyrocopter_3": {},
@@ -3301,7 +3321,7 @@
   "lore": "Ulfsaar succumbs to his ancient spirit, becoming the most ferocious creature on the battlefield."
  },
  "ursa_fury_swipes": {
-  "description": "Ursa's claws dig deeper wounds in the enemy, causing consecutive attacks to the same enemy to deal more damage.  If the same target is not attacked after 20 seconds, the bonus damage is lost.",
+  "description": "Ursa's claws dig deeper wounds in the enemy, causing consecutive attacks to the same enemy to deal more damage.  If the same target is not attacked after 15 seconds, the bonus damage is lost.",
   "lore": "In nature, the wounded rarely survive the attacks of hungry predators."
  },
  "ursa_overpower": {

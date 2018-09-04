@@ -477,7 +477,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"damage_block_melee"	"18"
+				"damage_block_melee"	"20"
 			}
 			"02"
 			{
@@ -2001,7 +2001,7 @@
 			"07"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"phase_movement_speed_range"  "16"
+				"phase_movement_speed_range"  "13"
 			}
 			"08"
 			{
@@ -2756,7 +2756,7 @@
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"heal_amount"			"250"
+				"heal_amount"			"275"
 			}			
 			"06"
 			{
@@ -3163,7 +3163,7 @@
 			"07"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"soul_heal_amount"		"35"
+				"soul_heal_amount"		"30"
 			}			
 			"08"
 			{
@@ -3261,7 +3261,7 @@
 
 		"AbilityCooldown"				"22.0"
 
-		"AbilityManaCost"				"100"
+		"AbilityManaCost"				"250"
 		"ItemCost"						"5700"
 		"ItemShopTags"					"int;regen_mana;agi;hard_to_tag"
 		"ItemQuality"					"rare"
@@ -5616,7 +5616,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_movement_speed"	"30"
+				"bonus_movement_speed"	"20"
 			}
 			"03"
 			{
@@ -5651,7 +5651,7 @@
 			"09"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"soul_heal_amount"		"35"
+				"soul_heal_amount"		"30"
 			}			
 			"10"
 			{
@@ -8641,7 +8641,7 @@
 			"11"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"replenish_health"		"250"
+				"replenish_health"		"275"
 			}
 			"12"
 			{
@@ -9067,7 +9067,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"			"10"
+				"bonus_damage"			"7"
 			}
 			"02"
 			{
