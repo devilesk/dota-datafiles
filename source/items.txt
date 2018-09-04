@@ -533,7 +533,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_night_vision"	"300"
+				"bonus_night_vision"	"400"
 			}
 			"03"
 			{
@@ -543,7 +543,7 @@
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"consumed_bonus_night_vision"	"150"
+				"consumed_bonus_night_vision"	"200"
 			}
 		}
 	}
@@ -1004,7 +1004,7 @@
 		"ID"							"32"														// unique ID number for this item.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
 		
-		"ItemCost"						"1450"
+		"ItemCost"						"1400"
 		"ItemShopTags"					"evasion"
 		"ItemQuality"					"secret_shop"
 		"ItemAliases"					"talisman of evasion"
@@ -1015,7 +1015,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_evasion"			"20"
+				"bonus_evasion"			"15"
 			}
 		}
 	}
@@ -1532,7 +1532,7 @@
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"duration_minutes_tooltip"				"4"
+				"duration_minutes_tooltip"				"6"
 			}
 			"06"
 			{
@@ -3621,7 +3621,7 @@
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_movement_speed"	"40"
+				"bonus_movement_speed"	"30"
 			}
 			"04"
 			{
@@ -4651,7 +4651,7 @@
 		"Model"							"models/props_gameplay/recipe.vmdl"
 		"FightRecapLevel"				"2"
 		
-		"ItemCost"						"1800"	
+		"ItemCost"						"1700"	
 		"ItemShopTags"					""
 		
 		"ItemRecipe"					"1"
@@ -4671,7 +4671,7 @@
 		"AbilityCooldown"				"195.0"
 
 		"AbilityManaCost"				"375"
-		"ItemCost"						"5200"
+		"ItemCost"						"5100"
 		"ItemShopTags"					"regen_health;regen_mana;hard_to_tag"
 		"ItemQuality"					"rare"
 		"ItemAliases"					"refresher orb"
@@ -6191,7 +6191,7 @@
 
 		"AbilityCooldown"				"25.0"
 
-		"ItemCost"						"5525"
+		"ItemCost"						"5475"
 		"ItemShopTags"					"agi;damage;evasion;attack_speed"
 		"ItemQuality"					"epic"
 		"ItemAliases"					"bfly;butterfly"
@@ -8318,7 +8318,7 @@
 		"AbilityCooldown"				"7.0"
 		"AbilitySharedCooldown"			"medallion"
 
-		"ItemCost"						"2625"
+		"ItemCost"						"2575"
 		"ItemDisassembleRule"				"DOTA_ITEM_DISASSEMBLE_ALWAYS"
 		"ItemShopTags"					"armor;regen_mana;hard_to_tag"
 		"ItemQuality"					"rare"
@@ -8341,19 +8341,24 @@
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_evasion"			"20"
+				"self_bonus_evasion"	"15"
 			}
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"truestrike_chance"		"40"
+				"bonus_evasion"			"20"
 			}
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"duration"				"7"
+				"truestrike_chance"		"40"
 			}
 			"06"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"duration"				"7"
+			}
+			"07"
 			{
 				"var_type"				"FIELD_INTEGER"
 				"valor_cast_range_tooltip"				"1000"
@@ -8943,7 +8948,7 @@
 
 
 		"AbilityManaCost"				"100"
-		"ItemCost"						"3600"
+		"ItemCost"						"3550"
 		"ItemShopTags"					"str;damage;evasion"
 		"ItemQuality"					"artifact"
 		"ItemAliases"					"heaven's halberd"

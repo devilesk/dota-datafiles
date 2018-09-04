@@ -1541,7 +1541,7 @@
   "description": "<h1>Active: Flutter</h1> Grants %bonus_move_speed%%% additional movement speed for %duration% seconds.",
   "displayname": "Butterfly",
   "id": 139,
-  "itemcost": 5525,
+  "itemcost": 5475,
   "level": 0,
   "lore": "Only the mightiest and most experienced of warriors can wield the Butterfly, but it provides incredible dexterity in combat.",
   "manacost": [],
@@ -1896,7 +1896,7 @@
     "name": "bonus_movement_speed",
     "tooltip": "+$move_speed",
     "value": [
-     40
+     30
     ]
    },
    {
@@ -3738,7 +3738,7 @@
   "description": "<h1>Active: Disarm</h1>Prevents a target from attacking for %disarm_melee% seconds on melee targets, and %disarm_range% seconds on ranged targets.<br><br>Range: %disarm_cast_range_tooltip% \\n<h1>Passive: Maim</h1>Each attack has a %maim_chance%%% chance to reduce enemy hero movement speed by %maim_slow_movement%%% and attack speed by %maim_slow_attack% if the user is melee. Reduces enemy hero movement by %maim_slow_movement_range%%% and attack speed by %maim_slow_attack_range% if the user is ranged. Effect lasts %maim_duration% seconds.",
   "displayname": "Heaven's Halberd",
   "id": 210,
-  "itemcost": 3600,
+  "itemcost": 3550,
   "level": 0,
   "lore": "This halberd moves with the speed of a smaller weapon, allowing the bearer to win duels that a heavy edge would not.",
   "manacost": [
@@ -5305,7 +5305,7 @@
    {
     "name": "bonus_night_vision",
     "value": [
-     300
+     400
     ]
    },
    {
@@ -5317,7 +5317,7 @@
    {
     "name": "consumed_bonus_night_vision",
     "value": [
-     150
+     200
     ]
    }
   ],
@@ -6905,6 +6905,7 @@
   "attributes": [],
   "cooldown": [],
   "description": null,
+  "displayname": "Battle Fury Recipe",
   "id": 144,
   "itemcost": 300,
   "level": 0,
@@ -7986,7 +7987,7 @@
   "description": null,
   "displayname": "Refresher Orb Recipe",
   "id": 109,
-  "itemcost": 1800,
+  "itemcost": 1700,
   "level": 0,
   "lore": null,
   "manacost": [],
@@ -8505,7 +8506,7 @@
   "description": "<h1>Active: Reset Cooldowns</h1>Resets the cooldowns of all your items and abilities.",
   "displayname": "Refresher Orb",
   "id": 110,
-  "itemcost": 5200,
+  "itemcost": 5100,
   "level": 0,
   "lore": "A powerful artifact created for wizards.",
   "manacost": [
@@ -9594,8 +9595,14 @@
     ]
    },
    {
-    "name": "bonus_evasion",
+    "name": "self_bonus_evasion",
     "tooltip": "%+$evasion",
+    "value": [
+     15
+    ]
+   },
+   {
+    "name": "bonus_evasion",
     "value": [
      20
     ]
@@ -9625,7 +9632,7 @@
   "description": "<h1>Active: Shine</h1>When cast on an ally, grants them %bonus_armor% armor and %bonus_evasion%%% evasion. When cast on an enemy, removes %bonus_armor% of their armor and grants your allies %truestrike_chance%%% Accuracy on the target. <br><br>Removes the armor and evasion from the caster when used. <br><br> Cannot target magic immune enemies.<br><br>Range: %valor_cast_range_tooltip%",
   "displayname": "Solar Crest",
   "id": 229,
-  "itemcost": 2625,
+  "itemcost": 2575,
   "level": 0,
   "lore": "A talisman forged to honor the daytime sky.",
   "manacost": [],
@@ -10026,7 +10033,7 @@
     "name": "bonus_evasion",
     "tooltip": "%+$evasion",
     "value": [
-     20
+     15
     ]
    }
   ],
@@ -10034,7 +10041,7 @@
   "description": null,
   "displayname": "Talisman of Evasion",
   "id": 32,
-  "itemcost": 1450,
+  "itemcost": 1400,
   "level": 0,
   "lore": "A necklace that allows you to anticipate enemy attacks.",
   "manacost": [],
@@ -11099,7 +11106,7 @@
    {
     "name": "duration_minutes_tooltip",
     "value": [
-     4
+     6
     ]
    },
    {

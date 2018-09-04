@@ -40,7 +40,7 @@
   "lore": "Using traditional Alchemy from the Darkbrew family, Razzil concocts an acid that dissolves even the toughest metals."
  },
  "alchemist_chemical_rage": {
-  "description": "Alchemist causes his Ogre to enter a chemically induced rage, reducing base attack cooldown and increasing movement speed and regeneration.",
+  "description": "Alchemist causes his Ogre to enter a chemically induced rage, reducing base attack cooldown and increasing movement speed and regeneration.\\n\\nDISPEL TYPE: Basic Dispel",
   "lore": "The brew Razzil gave to the Ogre during their prison bust has become a useful potion in the midst of combat."
  },
  "alchemist_goblins_greed": {
@@ -1049,7 +1049,7 @@
   "lore": "Ice and fire combine to rip the battlefield to shreds with extreme temperatures."
  },
  "juggernaut_blade_dance": {
-  "description": "Gives Juggernaut a chance to deal double damage on each attack.",
+  "description": "Gives Juggernaut a chance to deal critical damage on each attack.",
   "lore": "The last remnant of his heritage's commitment to bladework, Yurnero ensures that the style is remembered."
  },
  "juggernaut_blade_fury": {
@@ -2431,6 +2431,7 @@
  "special_bonus_unique_alchemist_2": {},
  "special_bonus_unique_alchemist_3": {},
  "special_bonus_unique_alchemist_4": {},
+ "special_bonus_unique_alchemist_5": {},
  "special_bonus_unique_ancient_apparition_1": {},
  "special_bonus_unique_ancient_apparition_2": {},
  "special_bonus_unique_ancient_apparition_3": {},
@@ -2587,16 +2588,21 @@
  "special_bonus_unique_gyrocopter_3": {},
  "special_bonus_unique_gyrocopter_4": {},
  "special_bonus_unique_gyrocopter_5": {},
+ "special_bonus_unique_gyrocopter_6": {},
  "special_bonus_unique_huskar": {},
  "special_bonus_unique_huskar_2": {},
  "special_bonus_unique_huskar_3": {},
+ "special_bonus_unique_huskar_4": {},
+ "special_bonus_unique_huskar_5": {
+  "description": "Pierces Spell Immunity."
+ },
  "special_bonus_unique_invoker_1": {},
  "special_bonus_unique_invoker_2": {
   "description": "Releases 12 Deafening Blasts around Invoker in a circular pattern.  An enemy can only be hit once per cast."
  },
  "special_bonus_unique_invoker_3": {},
  "special_bonus_unique_invoker_4": {
-  "description": "Launched when Sun Strike is double tapped. Puts it on a 90 second cooldown. Creates 2 visible Sun Strikes within 160-220 range of each enemy hero."
+  "description": "Launched when Sun Strike is double tapped. Puts it on a 90 second cooldown. Creates 2 visible Sun Strikes within 160-200 range of each enemy hero."
  },
  "special_bonus_unique_invoker_5": {},
  "special_bonus_unique_invoker_6": {},
@@ -2746,7 +2752,7 @@
  "special_bonus_unique_pangolier_5": {},
  "special_bonus_unique_pangolier_6": {},
  "special_bonus_unique_phantom_assassin": {
-  "description": "Launches a second Stifling Dagger towards a random visible enemy within the cast range."
+  "description": "Launches a two extra Stifling Daggers towards random visible enemies within the cast range."
  },
  "special_bonus_unique_phantom_assassin_2": {},
  "special_bonus_unique_phantom_assassin_3": {},
@@ -2768,6 +2774,7 @@
  "special_bonus_unique_pudge_1": {},
  "special_bonus_unique_pudge_2": {},
  "special_bonus_unique_pudge_3": {},
+ "special_bonus_unique_pudge_4": {},
  "special_bonus_unique_pugna_1": {},
  "special_bonus_unique_pugna_2": {},
  "special_bonus_unique_pugna_3": {},

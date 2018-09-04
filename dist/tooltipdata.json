@@ -49,7 +49,7 @@
   "Lore": "Using traditional Alchemy from the Darkbrew family, Razzil concocts an acid that dissolves even the toughest metals."
  },
  "alchemist_chemical_rage": {
-  "Description": "Alchemist causes his Ogre to enter a chemically induced rage, reducing base attack cooldown and increasing movement speed and regeneration.",
+  "Description": "Alchemist causes his Ogre to enter a chemically induced rage, reducing base attack cooldown and increasing movement speed and regeneration.\\n\\nDISPEL TYPE: Basic Dispel",
   "DisplayName": "Chemical Rage",
   "Lore": "The brew Razzil gave to the Ogre during their prison bust has become a useful potion in the midst of combat."
  },
@@ -1871,6 +1871,9 @@
  "item_recipe_basher": {
   "DisplayName": "Skull Basher Recipe"
  },
+ "item_recipe_bfury": {
+  "DisplayName": "Battle Fury Recipe"
+ },
  "item_recipe_black_king_bar": {
   "DisplayName": "Black King Bar Recipe"
  },
@@ -2262,7 +2265,7 @@
   "Lore": "Ice and fire combine to rip the battlefield to shreds with extreme temperatures."
  },
  "juggernaut_blade_dance": {
-  "Description": "Gives Juggernaut a chance to deal double damage on each attack.",
+  "Description": "Gives Juggernaut a chance to deal critical damage on each attack.",
   "DisplayName": "Blade Dance",
   "Lore": "The last remnant of his heritage's commitment to bladework, Yurnero ensures that the style is remembered."
  },
@@ -5764,7 +5767,7 @@
   "DisplayName": "+225 Aphotic Shield Health"
  },
  "special_bonus_unique_abaddon_2": {
-  "DisplayName": "+60 Mist Coil Heal/Damage"
+  "DisplayName": "+75 Mist Coil Heal/Damage"
  },
  "special_bonus_unique_abaddon_3": {
   "DisplayName": "+25% Curse of Avernus MS/AS Slow"
@@ -5780,6 +5783,9 @@
  },
  "special_bonus_unique_alchemist_4": {
   "DisplayName": "+30 Chemical Rage Regeneration"
+ },
+ "special_bonus_unique_alchemist_5": {
+  "DisplayName": "-3 Acid Spray Armor Reduction"
  },
  "special_bonus_unique_ancient_apparition_1": {
   "DisplayName": "4 Charges of Cold Feet"
@@ -6204,6 +6210,9 @@
  "special_bonus_unique_gyrocopter_5": {
   "DisplayName": "Global Call Down"
  },
+ "special_bonus_unique_gyrocopter_6": {
+  "DisplayName": "+0.5s Homing Missile Stun Duration"
+ },
  "special_bonus_unique_huskar": {
   "DisplayName": "+400 Life Break Cast Range"
  },
@@ -6212,6 +6221,13 @@
  },
  "special_bonus_unique_huskar_3": {
   "DisplayName": "0 Inner Vitality Cooldown"
+ },
+ "special_bonus_unique_huskar_4": {
+  "DisplayName": "+120 Max Damage Berserker's Blood"
+ },
+ "special_bonus_unique_huskar_5": {
+  "Description": "Pierces Spell Immunity.",
+  "DisplayName": "Burning Spears Pure Damage"
  },
  "special_bonus_unique_invoker_1": {
   "DisplayName": "+1 Forged Spirit Summoned"
@@ -6224,7 +6240,7 @@
   "DisplayName": "-16s Tornado Cooldown"
  },
  "special_bonus_unique_invoker_4": {
-  "Description": "Launched when Sun Strike is double tapped. Puts it on a 90 second cooldown. Creates 2 visible Sun Strikes within 160-220 range of each enemy hero.",
+  "Description": "Launched when Sun Strike is double tapped. Puts it on a 90 second cooldown. Creates 2 visible Sun Strikes within 160-200 range of each enemy hero.",
   "DisplayName": "Cataclysm"
  },
  "special_bonus_unique_invoker_5": {
@@ -6461,7 +6477,7 @@
   "DisplayName": "-5s Sacred Arrow cooldown"
  },
  "special_bonus_unique_mirana_4": {
-  "DisplayName": "-80 Moonlight Shadow Cooldown"
+  "DisplayName": "-75 Moonlight Shadow Cooldown"
  },
  "special_bonus_unique_monkey_king": {
   "DisplayName": "+50% Boundless Strike Crit"
@@ -6524,13 +6540,13 @@
   "DisplayName": "+10% Mirror Image Damage"
  },
  "special_bonus_unique_necrophos": {
-  "DisplayName": "-1.5s Death Pulse Cooldown"
+  "DisplayName": "-2.5s Death Pulse Cooldown"
  },
  "special_bonus_unique_necrophos_2": {
-  "DisplayName": "+0.6 Heartstopper Aura"
+  "DisplayName": "+0.8 Heartstopper Aura"
  },
  "special_bonus_unique_necrophos_3": {
-  "DisplayName": "+16% Ghost Shroud Slow"
+  "DisplayName": "+20% Ghost Shroud Slow"
  },
  "special_bonus_unique_necrophos_4": {
   "DisplayName": "+40 Death Pulse Heal"
@@ -6621,8 +6637,8 @@
   "DisplayName": "+2s Rolling Thunder Duration"
  },
  "special_bonus_unique_phantom_assassin": {
-  "Description": "Launches a second Stifling Dagger towards a random visible enemy within the cast range.",
-  "DisplayName": "+1 Multishot Stifling Dagger"
+  "Description": "Launches a two extra Stifling Daggers towards random visible enemies within the cast range.",
+  "DisplayName": "Triple Strike Stifling Dagger"
  },
  "special_bonus_unique_phantom_assassin_2": {
   "DisplayName": "+5% Coup de Grace"
@@ -6678,6 +6694,9 @@
  },
  "special_bonus_unique_pudge_3": {
   "DisplayName": "+3s Dismember Duration"
+ },
+ "special_bonus_unique_pudge_4": {
+  "DisplayName": "+12% Rot Slow"
  },
  "special_bonus_unique_pugna_1": {
   "DisplayName": "+25% Life Drain Heal"
@@ -6791,10 +6810,10 @@
   "DisplayName": "+400 Ether Shock Damage"
  },
  "special_bonus_unique_shadow_shaman_4": {
-  "DisplayName": "+60 Wards Attack Damage"
+  "DisplayName": "+50 Wards Attack Damage"
  },
  "special_bonus_unique_shadow_shaman_5": {
-  "DisplayName": "-4s Hex Cooldown"
+  "DisplayName": "-5s Hex Cooldown"
  },
  "special_bonus_unique_silencer": {
   "DisplayName": "+30 Arcane Curse Damage"
@@ -6860,7 +6879,7 @@
   "DisplayName": "-1.5s Assassinate Cast Time"
  },
  "special_bonus_unique_spectre": {
-  "DisplayName": "-8s Spectral Dagger Cooldown"
+  "DisplayName": "-10s Spectral Dagger Cooldown"
  },
  "special_bonus_unique_spectre_2": {
   "DisplayName": "+15 Desolate Damage"
@@ -7084,7 +7103,7 @@
   "DisplayName": "-1s Earthshock Cooldown"
  },
  "special_bonus_unique_ursa_3": {
-  "DisplayName": "+1 Enrage Duration"
+  "DisplayName": "+1.5s Enrage Duration"
  },
  "special_bonus_unique_ursa_4": {
   "DisplayName": "+25s Fury Swipes Reset Time"
@@ -7279,7 +7298,7 @@
   "DisplayName": "+5 Max Skeletons"
  },
  "special_bonus_unique_wraith_king_6": {
-  "DisplayName": "+25 Skeletons Attack Damage"
+  "DisplayName": "+35 Skeletons Attack Damage"
  },
  "special_bonus_unique_wraith_king_7": {
   "DisplayName": "+1.5s Wraithfire Blast Slow Duration"

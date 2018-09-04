@@ -7493,7 +7493,7 @@
 		"MovementTurnRate"			"0.5"		// Turning rate.
 
 		"StatusHealth"				"180"		// Base health.
-		"StatusHealthRegen"			"0.25"		// Health regeneration rate.
+		"StatusHealthRegen"			"4"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
 
@@ -7554,7 +7554,7 @@
 		"MovementTurnRate"			"0.5"		// Turning rate.
 
 		"StatusHealth"				"200"		// Base health.
-		"StatusHealthRegen"			"0.25"		// Health regeneration rate.
+		"StatusHealthRegen"			"4"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
 
@@ -7615,7 +7615,7 @@
 		"MovementTurnRate"			"0.5"		// Turning rate.
 
 		"StatusHealth"				"220"		// Base health.
-		"StatusHealthRegen"			"0.25"		// Health regeneration rate.
+		"StatusHealthRegen"			"4"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
 
@@ -7676,7 +7676,7 @@
 		"MovementTurnRate"			"0.5"		// Turning rate.
 
 		"StatusHealth"				"240"		// Base health.
-		"StatusHealthRegen"			"0.25"		// Health regeneration rate.
+		"StatusHealthRegen"			"4"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
 
@@ -8069,7 +8069,7 @@
 		"Ability8"					""			// Ability 8 - Extra.
 
 		"ArmorPhysical"				"1"			// Physical protection.
-		"MagicalResistance"				"0"			// Magical protection.
+		"MagicalResistance"				"30"			// Magical protection.
 
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
 		"AttackDamageMin"			"35"		// Damage range min.
