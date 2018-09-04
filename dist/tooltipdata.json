@@ -1312,7 +1312,7 @@
   "Lore": ""
  },
  "item_abyssal_blade": {
-  "Description": "<h1>Active: Overwhelm</h1> Stuns a target enemy unit for %stun_duration% seconds. <br><br>Pierces Spell Immunity.<br><br>Range: %tooltip_range%\\n<h1>Passive: Bash</h1> Grants melee heroes a %bash_chance_melee%%% chance on hit to stun the target for %bash_duration% seconds and deal %bonus_chance_damage% bonus magical damage.  Bash pierces evasion. Bash chance for ranged heroes is %bash_chance_ranged%%%.\\n<h1>Passive: Damage Block</h1> Grants a %block_chance%%% chance to block %block_damage_melee% damage from incoming attacks on melee heroes, and %block_damage_ranged% damage on ranged.",
+  "Description": "<h1>Active: Overwhelm</h1> Stuns a target enemy unit for %stun_duration% seconds. <br><br>Pierces Spell Immunity.<br><br>Range: %tooltip_range%\\n<h1>Passive: Bash</h1> Grants melee heroes a %bash_chance_melee%%% chance on hit to stun the target for %bash_duration% seconds and deal %bonus_chance_damage% bonus magical damage.  Bash chance for ranged heroes is %bash_chance_ranged%%%.\\n<h1>Passive: Damage Block</h1> Grants a %block_chance%%% chance to block %block_damage_melee% damage from incoming attacks on melee heroes, and %block_damage_ranged% damage on ranged.",
   "DisplayName": "Abyssal Blade",
   "Lore": "The lost blade of the Commander of the Abyss, this edge cuts into an enemy's soul."
  },
@@ -1352,7 +1352,7 @@
   "Lore": "Forged in the depths of the nether reaches, this hellish mail provides an army with increased armor and attack speed."
  },
  "item_basher": {
-  "Description": "<h1>Passive: Bash</h1> Grants melee heroes a %bash_chance_melee%%% chance on hit to stun the target for %bash_duration% seconds and deal %bonus_chance_damage% bonus magical damage.  Bash pierces evasion. Bash chance for ranged heroes is %bash_chance_ranged%%%.",
+  "Description": "<h1>Passive: Bash</h1> Grants melee heroes a %bash_chance_melee%%% chance on hit to stun the target for %bash_duration% seconds and deal %bonus_chance_damage% bonus magical damage.  Bash chance for ranged heroes is %bash_chance_ranged%%%.",
   "DisplayName": "Skull Basher",
   "Lore": "A feared weapon in the right hands, this maul's ability to shatter the defenses of its opponents should not be underestimated."
  },
@@ -1617,7 +1617,7 @@
   "Lore": "Preserved heart of an extinct monster, it bolsters the bearer's fortitude."
  },
  "item_heavens_halberd": {
-  "Description": "<h1>Active: Disarm</h1>Prevents a target from attacking for %disarm_melee% seconds on melee targets, and %disarm_range% seconds on ranged targets.<br><br>Range: %disarm_cast_range_tooltip% \\n<h1>Passive: Lesser Maim</h1>Each attack has a %maim_chance%%% chance to reduce enemy hero movement speed by %maim_slow_movement%%% and attack speed by %maim_slow_attack% if the user is melee. Reduces enemy hero movement by %maim_slow_movement_range%%% and attack speed by %maim_slow_attack_range% if the user is ranged. Effect lasts %maim_duration% seconds.",
+  "Description": "<h1>Active: Disarm</h1>Prevents a target from attacking for %disarm_melee% seconds on melee targets, and %disarm_range% seconds on ranged targets.<br><br>Range: %disarm_cast_range_tooltip% \\n<h1>Passive: Maim</h1>Each attack has a %maim_chance%%% chance to reduce enemy hero movement speed by %maim_slow_movement%%% and attack speed by %maim_slow_attack% if the user is melee. Reduces enemy hero movement by %maim_slow_movement_range%%% and attack speed by %maim_slow_attack_range% if the user is ranged. Effect lasts %maim_duration% seconds.",
   "DisplayName": "Heaven's Halberd",
   "Lore": "This halberd moves with the speed of a smaller weapon, allowing the bearer to win duels that a heavy edge would not."
  },
@@ -1679,7 +1679,7 @@
   "Lore": "The jewel at its center still reflects a pale image of its creator."
  },
  "item_maelstrom": {
-  "Description": "<h1>Passive: Chain Lightning</h1>Grants a %chain_chance%%% chance on attack to release a bolt of electricity that leaps between %chain_strikes% targets within a %chain_radius% radius, dealing %chain_damage% magical damage to each.",
+  "Description": "<h1>Passive: Chain Lightning</h1>Grants a %chain_chance%%% chance on attack to release a bolt of electricity that leaps between %chain_strikes% targets within a %chain_radius% radius, dealing %chain_damage% magical damage to each. Lightning proc pierces evasion.",
   "DisplayName": "Maelstrom",
   "Lore": "A hammer forged for the gods themselves, Maelstrom allows its user to harness the power of lightning."
  },
@@ -1727,12 +1727,12 @@
   "Lore": "A hammer forged of pure mithril."
  },
  "item_mjollnir": {
-  "Description": "<h1>Active: Static Charge</h1>Places a charged shield on a target unit for %static_duration% seconds which has a %static_chance%%% chance to release a %static_damage% magical damage shocking bolt at a nearby attacker and %static_strikes% additional enemies.<br><br>Range: %tooltip_range%\\n<h1>Passive: Chain Lightning</h1>Grants a %chain_chance%%% chance on attack to release a bolt of electricity that leaps between %chain_strikes% targets within a %chain_radius% radius, dealing %chain_damage% magical damage to each.",
+  "Description": "<h1>Active: Static Charge</h1>Places a charged shield on a target unit for %static_duration% seconds which has a %static_chance%%% chance to release a %static_damage% magical damage shocking bolt at a nearby attacker and %static_strikes% additional enemies.<br><br>Range: %tooltip_range%\\n<h1>Passive: Chain Lightning</h1>Grants a %chain_chance%%% chance on attack to release a bolt of electricity that leaps between %chain_strikes% targets within a %chain_radius% radius, dealing %chain_damage% magical damage to each. Lightning proc pierces evasion.",
   "DisplayName": "Mjollnir",
   "Lore": "Thor's magical hammer, made for him by the dwarves Brok and Eitri."
  },
  "item_monkey_king_bar": {
-  "Description": "<h1>Passive: Pierce</h1>Grants each attack a %bonus_chance%%% chance to pierce through evasion and deal %bonus_chance_damage% bonus pure damage.",
+  "Description": "<h1>Passive: Pierce</h1>Grants each attack a %bonus_chance%%% chance to pierce through evasion and deal %bonus_chance_damage% bonus magical damage.",
   "DisplayName": "Monkey King Bar",
   "Lore": "A powerful staff used by a master warrior."
  },
@@ -1798,7 +1798,7 @@
   "Lore": "A gem that grants heart to the bearer."
  },
  "item_phase_boots": {
-  "Description": "<h1>Active: Phase</h1> Gives %phase_movement_speed%%% increased movement speed on melee heroes, and %phase_movement_speed_range%%% on ranged heroes, and lets you move through units for %phase_duration% seconds.\\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
+  "Description": "<h1>Active: Phase</h1> Gives %phase_movement_speed%%% increased movement speed on melee heroes, and %phase_movement_speed_range%%% on ranged heroes, and lets you move through units and turn more quickly for %phase_duration% seconds.\\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
   "DisplayName": "Phase Boots",
   "Lore": "Boots that allow the wearer to travel between the ether."
  },
@@ -1922,6 +1922,9 @@
  "item_recipe_maelstrom": {
   "DisplayName": "Maelstrom Recipe"
  },
+ "item_recipe_magic_wand": {
+  "DisplayName": "Magic Wand Recipe"
+ },
  "item_recipe_manta": {
   "DisplayName": "Manta Style Recipe"
  },
@@ -2037,12 +2040,12 @@
   "Lore": "Atos, the Lord of Blight, has his essence stored in this deceptively simple wand."
  },
  "item_sange": {
-  "Description": "<h1>Passive: Lesser Maim</h1>Each attack has a %maim_chance%%% chance to reduce enemy hero movement speed by %maim_slow_movement%%% and attack speed by %maim_slow_attack% when used by a melee hero. Reduces enemy hero movement by %maim_slow_movement_range%%% and attack speed by %maim_slow_attack_range% when used by a ranged hero. Effect lasts %maim_duration% seconds.",
+  "Description": "<h1>Passive: Maim</h1>Each attack has a %maim_chance%%% chance to reduce enemy hero movement speed by %maim_slow_movement%%% and attack speed by %maim_slow_attack% when used by a melee hero. Reduces enemy hero movement by %maim_slow_movement_range%%% and attack speed by %maim_slow_attack_range% when used by a ranged hero. Effect lasts %maim_duration% seconds.",
   "DisplayName": "Sange",
   "Lore": "Sange is an unusually accurate weapon, seeking weak points automatically."
  },
  "item_sange_and_yasha": {
-  "Description": "<h1>Passive: Greater Maim</h1>Each attack has a %maim_chance%%% chance to reduce enemy hero movement speed by %maim_slow_movement%%% and attack speed by %maim_slow_attack% when used by a melee hero. Reduces enemy hero movement by %maim_slow_movement_range%%% and attack speed by %maim_slow_attack_range% when used by a ranged hero. Effect lasts %maim_duration% seconds.",
+  "Description": "<h1>Passive: Maim</h1>Each attack has a %maim_chance%%% chance to reduce enemy hero movement speed by %maim_slow_movement%%% and attack speed by %maim_slow_attack% when used by a melee hero. Reduces enemy hero movement by %maim_slow_movement_range%%% and attack speed by %maim_slow_attack_range% when used by a ranged hero. Effect lasts %maim_duration% seconds.",
   "DisplayName": "Sange and Yasha",
   "Lore": "Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination."
  },
@@ -5560,6 +5563,9 @@
  "special_bonus_mp_regen_14": {
   "DisplayName": "+14 Mana Regen"
  },
+ "special_bonus_mp_regen_150": {
+  "DisplayName": "+1.5 Mana Regen"
+ },
  "special_bonus_mp_regen_175": {
   "DisplayName": "+1.75 Mana Regen"
  },
@@ -5808,6 +5814,9 @@
   "Description": "Affects visible units only.",
   "DisplayName": "Global Flux"
  },
+ "special_bonus_unique_arc_warden_5": {
+  "DisplayName": "+400 Flux Cast Range"
+ },
  "special_bonus_unique_axe": {
   "DisplayName": "+120 Battle Hunger DPS"
  },
@@ -5991,7 +6000,7 @@
   "DisplayName": "+300 Shadow Realm Max Damage"
  },
  "special_bonus_unique_dark_willow_2": {
-  "DisplayName": "+1 Terrorize Duration"
+  "DisplayName": "+1.5 Terrorize Duration"
  },
  "special_bonus_unique_dazzle_1": {
   "DisplayName": "-4s Shadow Wave Cooldown"
@@ -6460,14 +6469,14 @@
   "DisplayName": "+600 Tree Dance Cast Range"
  },
  "special_bonus_unique_morphling_1": {
-  "DisplayName": "+300 Waveform Range"
+  "DisplayName": "+350 Waveform Range"
  },
  "special_bonus_unique_morphling_2": {
-  "DisplayName": "-25s Morph Cooldown"
+  "DisplayName": "-50 Morph Cooldown"
  },
  "special_bonus_unique_morphling_3": {
   "Description": "Two additional enemy units within cast range are also targeted by Adaptive Strike.",
-  "DisplayName": "+2 Multishot Adaptive Strike"
+  "DisplayName": "+3 Multishot Adaptive Strike"
  },
  "special_bonus_unique_morphling_4": {
   "Description": "Enemies hit by Waveform are also instantly attacked by Morphling.",
@@ -6632,7 +6641,7 @@
   "DisplayName": "+40% Illusory Orb Distance/Speed"
  },
  "special_bonus_unique_puck_2": {
-  "DisplayName": "-5s Waning Rift Cooldown"
+  "DisplayName": "-8s Waning Rift Cooldown"
  },
  "special_bonus_unique_puck_3": {
   "Description": "Puck instantly attacks all enemies while affected by Dream Coil, every %value% seconds.",
@@ -6666,7 +6675,7 @@
   "DisplayName": "+2s Decrepify Duration"
  },
  "special_bonus_unique_pugna_6": {
-  "DisplayName": "+2 Nether Ward Health"
+  "DisplayName": "+3 Nether Ward Health"
  },
  "special_bonus_unique_queen_of_pain": {
   "DisplayName": "650 AoE Shadow Strike"
@@ -7043,10 +7052,10 @@
   "DisplayName": "Tombstone On Death"
  },
  "special_bonus_unique_undying_4": {
-  "DisplayName": "+30 Decay Duration"
+  "DisplayName": "+50 Decay Duration"
  },
  "special_bonus_unique_undying_5": {
-  "DisplayName": "+4 Tombstone Attacks to Destroy"
+  "DisplayName": "+6 Tombstone Attacks to Destroy"
  },
  "special_bonus_unique_ursa": {
   "DisplayName": "+14 Fury Swipes Damage"
@@ -7209,8 +7218,11 @@
   "DisplayName": "Attack Tethered Ally's Target"
  },
  "special_bonus_unique_wisp_5": {
-  "Description": "While tethered to a friendly Hero, that Hero gains its Aghanim's Scepter ability upgrades for the duration.",
+  "Description": "While tethered to a friendly Hero, that Hero gains its Aghanim Scepter ability upgrades for the duration.",
   "DisplayName": "Tether Grants Scepter Bonus"
+ },
+ "special_bonus_unique_wisp_6": {
+  "DisplayName": "-60s Relocate Cooldown"
  },
  "special_bonus_unique_witch_doctor_1": {
   "DisplayName": "+125 Death Ward Attack Range"
@@ -7253,7 +7265,7 @@
   "DisplayName": "2x Skeletons Spawned"
  },
  "special_bonus_unique_zeus": {
-  "DisplayName": "+1% Static Field Damage"
+  "DisplayName": "+1.5% Static Field Damage"
  },
  "special_bonus_unique_zeus_2": {
   "DisplayName": "+170 Arc Lightning Damage"
@@ -7305,7 +7317,7 @@
   "Lore": "The signature strike of Barathrum's ghostly ball and chain."
  },
  "spirit_breaker_nether_strike": {
-  "Description": "Spirit Breaker slips into the nether realm, reappearing next to his hapless victim. Upon reappearing, a Greater Bash of the current level occurs and deals bonus damage.\\n\\nUpgradable by Aghanim's Scepter.",
+  "Description": "Spirit Breaker slips into the nether realm, reappearing next to his hapless victim. Upon reappearing, a Greater Bash of the current level occurs and deals bonus damage. Knocks back for double the normal distance. \\n\\nUpgradable by Aghanim's Scepter.",
   "DisplayName": "Nether Strike",
   "Lore": "Barathrum temporarily returns to the realm from where he came, bringing with him the retribution of both worlds."
  },
@@ -7507,7 +7519,7 @@
   "Lore": "One can never be too certain who, or what, might need protecting."
  },
  "treant_leech_seed": {
-  "Description": "Treant plants a life-sapping seed in an enemy unit, draining its health, while simultaneously slowing it. The seed heals friendly units around it.  Pulses 6 times.",
+  "Description": "Treant plants a life-sapping seed in an enemy unit, draining its health, while simultaneously slowing it. The seed heals friendly units around it.  Pulses 7 times.",
   "DisplayName": "Leech Seed",
   "Lore": "Rooftrellen nurtures the beings under his stewardship, sustained by the lifeforce of trespassers into his sacred ground."
  },
@@ -7816,20 +7828,20 @@
   "Lore": "Io is the embodiment of the mystery of the universe."
  },
  "wisp_spirits": {
-  "Description": "Summon five particle spirits that dance in a circle around Io. If a particle collides with an enemy hero, it explodes, damaging all enemy units in an area around it.  Creeps take minor damage from touching a particle spirit, but do not cause them to explode.  When its duration ends, any remaining Spirits explode.",
+  "Description": "Summon five particle spirits that dance in a circle around Io. If a particle collides with an enemy hero, it explodes, damaging and slowing all enemy units in an area around it.  Creeps take minor damage from touching a particle spirit, but do not cause them to explode.  When its duration ends, any remaining Spirits explode.",
   "DisplayName": "Spirits",
   "Lore": "Io twists the particles of the universe with its unimaginable capabilities."
  },
  "wisp_spirits_in": {
-  "Description": "Calls the spirits closer to you. Can be toggled on and off.",
-  "DisplayName": "Spirits In"
+  "Description": "Calls the spirits in and out.",
+  "DisplayName": "Spirits Movement"
  },
  "wisp_spirits_out": {
   "Description": "Sends the spirits farther away from you. Can be toggled on and off.",
   "DisplayName": "Spirits Out"
  },
  "wisp_tether": {
-  "Description": "Tethers Io to an allied unit, granting bonus movement speed to both. When Io restores health or mana, tethered units target gains a larger portion of that amount. Any enemy unit that crosses the tether is slowed. The tether breaks when the allied unit moves too far away, or Io cancels the tether.",
+  "Description": "Tethers Io to an allied unit, granting bonus movement speed to both. When Io restores health or mana, tethered units target gains a larger portion of that amount. The tether breaks when the allied unit moves too far away, or Io cancels the tether.",
   "DisplayName": "Tether",
   "Lore": "The benevolent touch of Io brings strength from between the planes."
  },

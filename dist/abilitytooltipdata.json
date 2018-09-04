@@ -2362,6 +2362,7 @@
  "special_bonus_mp_regen_1": {},
  "special_bonus_mp_regen_10": {},
  "special_bonus_mp_regen_14": {},
+ "special_bonus_mp_regen_150": {},
  "special_bonus_mp_regen_175": {},
  "special_bonus_mp_regen_2": {},
  "special_bonus_mp_regen_3": {},
@@ -2448,6 +2449,7 @@
  "special_bonus_unique_arc_warden_4": {
   "description": "Affects visible units only."
  },
+ "special_bonus_unique_arc_warden_5": {},
  "special_bonus_unique_axe": {},
  "special_bonus_unique_axe_2": {},
  "special_bonus_unique_axe_3": {
@@ -2975,8 +2977,9 @@
   "description": "While tethered to a friendly Hero, each time that Hero attacks, Io will attack the same target automatically."
  },
  "special_bonus_unique_wisp_5": {
-  "description": "While tethered to a friendly Hero, that Hero gains its Aghanim's Scepter ability upgrades for the duration."
+  "description": "While tethered to a friendly Hero, that Hero gains its Aghanim Scepter ability upgrades for the duration."
  },
+ "special_bonus_unique_wisp_6": {},
  "special_bonus_unique_witch_doctor_1": {},
  "special_bonus_unique_witch_doctor_2": {},
  "special_bonus_unique_witch_doctor_3": {},
@@ -3029,7 +3032,7 @@
   "lore": "The signature strike of Barathrum's ghostly ball and chain."
  },
  "spirit_breaker_nether_strike": {
-  "description": "Spirit Breaker slips into the nether realm, reappearing next to his hapless victim. Upon reappearing, a Greater Bash of the current level occurs and deals bonus damage.\\n\\nUpgradable by Aghanim's Scepter.",
+  "description": "Spirit Breaker slips into the nether realm, reappearing next to his hapless victim. Upon reappearing, a Greater Bash of the current level occurs and deals bonus damage. Knocks back for double the normal distance. \\n\\nUpgradable by Aghanim's Scepter.",
   "lore": "Barathrum temporarily returns to the realm from where he came, bringing with him the retribution of both worlds."
  },
  "storm_spirit_ball_lightning": {
@@ -3192,7 +3195,7 @@
   "lore": "One can never be too certain who, or what, might need protecting."
  },
  "treant_leech_seed": {
-  "description": "Treant plants a life-sapping seed in an enemy unit, draining its health, while simultaneously slowing it. The seed heals friendly units around it.  Pulses 6 times.",
+  "description": "Treant plants a life-sapping seed in an enemy unit, draining its health, while simultaneously slowing it. The seed heals friendly units around it.  Pulses 7 times.",
   "lore": "Rooftrellen nurtures the beings under his stewardship, sustained by the lifeforce of trespassers into his sacred ground."
  },
  "treant_living_armor": {
@@ -3439,17 +3442,17 @@
   "lore": "Io is the embodiment of the mystery of the universe."
  },
  "wisp_spirits": {
-  "description": "Summon five particle spirits that dance in a circle around Io. If a particle collides with an enemy hero, it explodes, damaging all enemy units in an area around it.  Creeps take minor damage from touching a particle spirit, but do not cause them to explode.  When its duration ends, any remaining Spirits explode.",
+  "description": "Summon five particle spirits that dance in a circle around Io. If a particle collides with an enemy hero, it explodes, damaging and slowing all enemy units in an area around it.  Creeps take minor damage from touching a particle spirit, but do not cause them to explode.  When its duration ends, any remaining Spirits explode.",
   "lore": "Io twists the particles of the universe with its unimaginable capabilities."
  },
  "wisp_spirits_in": {
-  "description": "Calls the spirits closer to you. Can be toggled on and off."
+  "description": "Calls the spirits in and out."
  },
  "wisp_spirits_out": {
   "description": "Sends the spirits farther away from you. Can be toggled on and off."
  },
  "wisp_tether": {
-  "description": "Tethers Io to an allied unit, granting bonus movement speed to both. When Io restores health or mana, tethered units target gains a larger portion of that amount. Any enemy unit that crosses the tether is slowed. The tether breaks when the allied unit moves too far away, or Io cancels the tether.",
+  "description": "Tethers Io to an allied unit, granting bonus movement speed to both. When Io restores health or mana, tethered units target gains a larger portion of that amount. The tether breaks when the allied unit moves too far away, or Io cancels the tether.",
   "lore": "The benevolent touch of Io brings strength from between the planes."
  },
  "wisp_tether_break": {

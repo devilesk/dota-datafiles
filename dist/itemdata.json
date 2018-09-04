@@ -17,6 +17,13 @@
   "ItemShopTags": "damage;str;hard_to_tag",
   "attributes": [
    {
+    "name": "bonus_damage",
+    "tooltip": "+$damage",
+    "value": [
+     25
+    ]
+   },
+   {
     "name": "bonus_health",
     "tooltip": "+$health",
     "value": [
@@ -101,10 +108,10 @@
   "cooldown": [
    35
   ],
-  "description": "<h1>Active: Overwhelm</h1> Stuns a target enemy unit for %stun_duration% seconds. <br><br>Pierces Spell Immunity.<br><br>Range: %tooltip_range%\\n<h1>Passive: Bash</h1> Grants melee heroes a %bash_chance_melee%%% chance on hit to stun the target for %bash_duration% seconds and deal %bonus_chance_damage% bonus magical damage.  Bash pierces evasion. Bash chance for ranged heroes is %bash_chance_ranged%%%.\\n<h1>Passive: Damage Block</h1> Grants a %block_chance%%% chance to block %block_damage_melee% damage from incoming attacks on melee heroes, and %block_damage_ranged% damage on ranged.",
+  "description": "<h1>Active: Overwhelm</h1> Stuns a target enemy unit for %stun_duration% seconds. <br><br>Pierces Spell Immunity.<br><br>Range: %tooltip_range%\\n<h1>Passive: Bash</h1> Grants melee heroes a %bash_chance_melee%%% chance on hit to stun the target for %bash_duration% seconds and deal %bonus_chance_damage% bonus magical damage.  Bash chance for ranged heroes is %bash_chance_ranged%%%.\\n<h1>Passive: Damage Block</h1> Grants a %block_chance%%% chance to block %block_damage_melee% damage from incoming attacks on melee heroes, and %block_damage_ranged% damage on ranged.",
   "displayname": "Abyssal Blade",
   "id": 208,
-  "itemcost": 6400,
+  "itemcost": 6900,
   "level": 0,
   "lore": "The lost blade of the Commander of the Abyss, this edge cuts into an enemy's soul.",
   "manacost": [
@@ -547,6 +554,13 @@
   "ItemShopTags": "damage;str;hard_to_tag",
   "attributes": [
    {
+    "name": "bonus_damage",
+    "tooltip": "+$damage",
+    "value": [
+     25
+    ]
+   },
+   {
     "name": "bonus_strength",
     "tooltip": "+$str",
     "value": [
@@ -587,10 +601,10 @@
   "cooldown": [
    2.3
   ],
-  "description": "<h1>Passive: Bash</h1> Grants melee heroes a %bash_chance_melee%%% chance on hit to stun the target for %bash_duration% seconds and deal %bonus_chance_damage% bonus magical damage.  Bash pierces evasion. Bash chance for ranged heroes is %bash_chance_ranged%%%.",
+  "description": "<h1>Passive: Bash</h1> Grants melee heroes a %bash_chance_melee%%% chance on hit to stun the target for %bash_duration% seconds and deal %bonus_chance_damage% bonus magical damage.  Bash chance for ranged heroes is %bash_chance_ranged%%%.",
   "displayname": "Skull Basher",
   "id": 143,
-  "itemcost": 2700,
+  "itemcost": 3200,
   "level": 0,
   "lore": "A feared weapon in the right hands, this maul's ability to shatter the defenses of its opponents should not be underestimated.",
   "manacost": [],
@@ -728,7 +742,7 @@
   "description": "<h1>Active: Chop Tree/Ward</h1> Destroy a target tree or ward.<br><br>Tree Cast Range: %cast_range_tooltip%<br>Ward Cast Range: %cast_range_ward% \\n<h1>Passive: Quell</h1> Increases attack damage against non-hero units by %tooltip_quelling_bonus%%% for melee heroes, and %tooltip_quelling_bonus_ranged%%% for ranged. \\n<h1>Passive: Cleave</h1> Deals %cleave_damage_percent%%% of attack damage as physical damage in a cone up to %cleave_distance% around the target. (Melee Only)",
   "displayname": "Battle Fury",
   "id": 145,
-  "itemcost": 4100,
+  "itemcost": 4400,
   "level": 0,
   "lore": "The bearer of this mighty axe gains the ability to cut down swaths of enemies at once.",
   "manacost": [],
@@ -974,7 +988,7 @@
    }
   ],
   "cooldown": [
-   14
+   15
   ],
   "description": "<h1>Active: Blink</h1> Teleport to a target point up to %blink_range% units away. <br><br>Blink Dagger cannot be used for %blink_damage_cooldown% seconds after taking damage from an enemy hero or Roshan.",
   "displayname": "Blink Dagger",
@@ -2010,7 +2024,11 @@
   "level": 0,
   "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
   "manacost": [
-   180
+   120,
+   140,
+   160,
+   180,
+   200
   ],
   "name": "item_dagon"
  },
@@ -2106,7 +2124,11 @@
   "level": 0,
   "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
   "manacost": [
-   180
+   120,
+   140,
+   160,
+   180,
+   200
   ],
   "name": "item_dagon_2"
  },
@@ -2202,7 +2224,11 @@
   "level": 0,
   "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
   "manacost": [
-   180
+   120,
+   140,
+   160,
+   180,
+   200
   ],
   "name": "item_dagon_3"
  },
@@ -2298,7 +2324,11 @@
   "level": 0,
   "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
   "manacost": [
-   180
+   120,
+   140,
+   160,
+   180,
+   200
   ],
   "name": "item_dagon_4"
  },
@@ -2392,7 +2422,11 @@
   "level": 0,
   "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user.",
   "manacost": [
-   180
+   120,
+   140,
+   160,
+   180,
+   200
   ],
   "name": "item_dagon_5"
  },
@@ -2777,13 +2811,13 @@
     "name": "hp_regen",
     "tooltip": "+$hp_regen",
     "value": [
-     1.0
+     0.7
     ]
    },
    {
     "name": "replenish_amount",
     "value": [
-     175
+     125
     ]
    },
    {
@@ -2797,7 +2831,7 @@
   "description": "<h1>Use: Eat Mango</h1> Instantly restores %replenish_amount% mana.<br><br>Range: %range_tooltip%",
   "displayname": "Enchanted Mango",
   "id": 216,
-  "itemcost": 100,
+  "itemcost": 70,
   "level": 0,
   "lore": "The bittersweet flavors of Jidi Isle are irresistible to amphibians.",
   "manacost": [],
@@ -3064,7 +3098,7 @@
     "name": "bonus_health_regen",
     "tooltip": "+$hp_regen",
     "value": [
-     5.0
+     2.0
     ]
    },
    {
@@ -3090,7 +3124,7 @@
   "level": 0,
   "lore": "Allows you to manipulate others, for good or evil.",
   "manacost": [
-   25
+   100
   ],
   "name": "item_force_staff"
  },
@@ -3646,31 +3680,31 @@
    {
     "name": "maim_chance",
     "value": [
-     35
+     40
     ]
    },
    {
     "name": "maim_slow_movement",
     "value": [
-     -20
+     -26
     ]
    },
    {
     "name": "maim_slow_attack",
     "value": [
-     -20
+     -26
     ]
    },
    {
     "name": "maim_slow_movement_range",
     "value": [
-     -10
+     -13
     ]
    },
    {
     "name": "maim_slow_attack_range",
     "value": [
-     -10
+     -13
     ]
    },
    {
@@ -3701,10 +3735,10 @@
   "cooldown": [
    18
   ],
-  "description": "<h1>Active: Disarm</h1>Prevents a target from attacking for %disarm_melee% seconds on melee targets, and %disarm_range% seconds on ranged targets.<br><br>Range: %disarm_cast_range_tooltip% \\n<h1>Passive: Lesser Maim</h1>Each attack has a %maim_chance%%% chance to reduce enemy hero movement speed by %maim_slow_movement%%% and attack speed by %maim_slow_attack% if the user is melee. Reduces enemy hero movement by %maim_slow_movement_range%%% and attack speed by %maim_slow_attack_range% if the user is ranged. Effect lasts %maim_duration% seconds.",
+  "description": "<h1>Active: Disarm</h1>Prevents a target from attacking for %disarm_melee% seconds on melee targets, and %disarm_range% seconds on ranged targets.<br><br>Range: %disarm_cast_range_tooltip% \\n<h1>Passive: Maim</h1>Each attack has a %maim_chance%%% chance to reduce enemy hero movement speed by %maim_slow_movement%%% and attack speed by %maim_slow_attack% if the user is melee. Reduces enemy hero movement by %maim_slow_movement_range%%% and attack speed by %maim_slow_attack_range% if the user is ranged. Effect lasts %maim_duration% seconds.",
   "displayname": "Heaven's Halberd",
   "id": 210,
-  "itemcost": 3400,
+  "itemcost": 3600,
   "level": 0,
   "lore": "This halberd moves with the speed of a smaller weapon, allowing the bearer to win duels that a heavy edge would not.",
   "manacost": [
@@ -3778,13 +3812,6 @@
     ]
    },
    {
-    "name": "attack_speed",
-    "tooltip": "+$attack",
-    "value": [
-     5
-    ]
-   },
-   {
     "name": "attack_speed_aura",
     "value": [
      20
@@ -3793,7 +3820,7 @@
    {
     "name": "hp_regen_aura",
     "value": [
-     8
+     7
     ]
    },
    {
@@ -3823,7 +3850,7 @@
    {
     "name": "tooltip_bounty",
     "value": [
-     125
+     200
     ]
    }
   ],
@@ -3936,7 +3963,7 @@
     "name": "bonus_health_regen",
     "tooltip": "+$hp_regen",
     "value": [
-     5.5
+     2.0
     ]
    },
    {
@@ -4012,7 +4039,7 @@
   "level": 0,
   "lore": "A legendary pike once held as royal sigil of the ancient wyvern riders.",
   "manacost": [
-   25
+   100
   ],
   "name": "item_hurricane_pike"
  },
@@ -4391,13 +4418,6 @@
     ]
    },
    {
-    "name": "bonus_attack_speed",
-    "tooltip": "+$attack",
-    "value": [
-     25
-    ]
-   },
-   {
     "name": "chain_chance",
     "value": [
      25
@@ -4406,7 +4426,7 @@
    {
     "name": "chain_damage",
     "value": [
-     120
+     170
     ]
    },
    {
@@ -4435,10 +4455,10 @@
    }
   ],
   "cooldown": [],
-  "description": "<h1>Passive: Chain Lightning</h1>Grants a %chain_chance%%% chance on attack to release a bolt of electricity that leaps between %chain_strikes% targets within a %chain_radius% radius, dealing %chain_damage% magical damage to each.",
+  "description": "<h1>Passive: Chain Lightning</h1>Grants a %chain_chance%%% chance on attack to release a bolt of electricity that leaps between %chain_strikes% targets within a %chain_radius% radius, dealing %chain_damage% magical damage to each. Lightning proc pierces evasion.",
   "displayname": "Maelstrom",
   "id": 166,
-  "itemcost": 2800,
+  "itemcost": 2700,
   "level": 0,
   "lore": "A hammer forged for the gods themselves, Maelstrom allows its user to harness the power of lightning.",
   "manacost": [],
@@ -4508,7 +4528,7 @@
    {
     "name": "max_charges",
     "value": [
-     17
+     20
     ]
    },
    {
@@ -4521,14 +4541,7 @@
     "name": "bonus_all_stats",
     "tooltip": "+$all",
     "value": [
-     2
-    ]
-   },
-   {
-    "name": "bonus_health_regen",
-    "tooltip": "+$hp_regen",
-    "value": [
-     1.5
+     3
     ]
    },
    {
@@ -4544,7 +4557,7 @@
   "description": "<h1>Active: Energy Charge</h1>Instantly restores %restore_per_charge% health and mana per charge stored. <br><br>Max %max_charges% charges. Gains a charge whenever a visible enemy within %charge_radius% range uses an ability.",
   "displayname": "Magic Wand",
   "id": 36,
-  "itemcost": 400,
+  "itemcost": 450,
   "level": 0,
   "lore": "A simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike.",
   "manacost": [],
@@ -4695,7 +4708,7 @@
   "description": "<h1>Active: Mirror Image</h1>Creates %images_count% images of your hero that last %tooltip_illusion_duration% seconds. <br><br>Melee images deal %tooltip_damage_outgoing_melee%%% damage and take %tooltip_damage_incoming_melee_total_pct%%% damage, while Ranged images deal %tooltip_damage_outgoing_ranged%%% and take %tooltip_damage_incoming_ranged_total_pct%%% damage. <br><br>Cooldown increased by %tooltip_ranged_cooldown_increase% seconds on ranged heroes.<br><br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>",
   "displayname": "Manta Style",
   "id": 147,
-  "itemcost": 5000,
+  "itemcost": 4800,
   "level": 0,
   "lore": "An axe made of reflective materials that causes confusion amongst enemy ranks.",
   "manacost": [
@@ -5110,7 +5123,7 @@
     "name": "bonus_attack_speed",
     "tooltip": "+$attack",
     "value": [
-     80
+     75
     ]
    },
    {
@@ -5170,7 +5183,7 @@
    {
     "name": "chain_damage",
     "value": [
-     150
+     170
     ]
    },
    {
@@ -5207,10 +5220,10 @@
   "cooldown": [
    35
   ],
-  "description": "<h1>Active: Static Charge</h1>Places a charged shield on a target unit for %static_duration% seconds which has a %static_chance%%% chance to release a %static_damage% magical damage shocking bolt at a nearby attacker and %static_strikes% additional enemies.<br><br>Range: %tooltip_range%\\n<h1>Passive: Chain Lightning</h1>Grants a %chain_chance%%% chance on attack to release a bolt of electricity that leaps between %chain_strikes% targets within a %chain_radius% radius, dealing %chain_damage% magical damage to each.",
+  "description": "<h1>Active: Static Charge</h1>Places a charged shield on a target unit for %static_duration% seconds which has a %static_chance%%% chance to release a %static_damage% magical damage shocking bolt at a nearby attacker and %static_strikes% additional enemies.<br><br>Range: %tooltip_range%\\n<h1>Passive: Chain Lightning</h1>Grants a %chain_chance%%% chance on attack to release a bolt of electricity that leaps between %chain_strikes% targets within a %chain_radius% radius, dealing %chain_damage% magical damage to each. Lightning proc pierces evasion.",
   "displayname": "Mjollnir",
   "id": 158,
-  "itemcost": 5700,
+  "itemcost": 5600,
   "level": 0,
   "lore": "Thor's magical hammer, made for him by the dwarves Brok and Eitri.",
   "manacost": [
@@ -5229,10 +5242,17 @@
   "ItemShopTags": "damage;attack_speed;hard_to_tag",
   "attributes": [
    {
+    "name": "bonus_damage",
+    "tooltip": "+$damage",
+    "value": [
+     52
+    ]
+   },
+   {
     "name": "bonus_attack_speed",
     "tooltip": "+$attack",
     "value": [
-     60
+     10
     ]
    },
    {
@@ -5244,15 +5264,15 @@
    {
     "name": "bonus_chance_damage",
     "value": [
-     60
+     100
     ]
    }
   ],
   "cooldown": [],
-  "description": "<h1>Passive: Pierce</h1>Grants each attack a %bonus_chance%%% chance to pierce through evasion and deal %bonus_chance_damage% bonus pure damage.",
+  "description": "<h1>Passive: Pierce</h1>Grants each attack a %bonus_chance%%% chance to pierce through evasion and deal %bonus_chance_damage% bonus magical damage.",
   "displayname": "Monkey King Bar",
   "id": 135,
-  "itemcost": 4200,
+  "itemcost": 4175,
   "level": 0,
   "lore": "A powerful staff used by a master warrior.",
   "manacost": [],
@@ -5377,7 +5397,7 @@
    {
     "name": "summon_duration",
     "value": [
-     50
+     60
     ]
    },
    {
@@ -5526,7 +5546,7 @@
    {
     "name": "summon_duration",
     "value": [
-     50
+     60
     ]
    },
    {
@@ -5673,7 +5693,7 @@
    {
     "name": "summon_duration",
     "value": [
-     50
+     60
     ]
    },
    {
@@ -6238,19 +6258,19 @@
    {
     "name": "phase_movement_speed",
     "value": [
-     24
+     20
     ]
    },
    {
     "name": "phase_movement_speed_range",
     "value": [
-     20
+     16
     ]
    },
    {
     "name": "phase_duration",
     "value": [
-     2.5
+     3.0
     ]
    },
    {
@@ -6269,7 +6289,7 @@
   "cooldown": [
    8
   ],
-  "description": "<h1>Active: Phase</h1> Gives %phase_movement_speed%%% increased movement speed on melee heroes, and %phase_movement_speed_range%%% on ranged heroes, and lets you move through units for %phase_duration% seconds.\\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
+  "description": "<h1>Active: Phase</h1> Gives %phase_movement_speed%%% increased movement speed on melee heroes, and %phase_movement_speed_range%%% on ranged heroes, and lets you move through units and turn more quickly for %phase_duration% seconds.\\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
   "displayname": "Phase Boots",
   "id": 50,
   "itemcost": 1340,
@@ -6815,8 +6835,8 @@
  "item_recipe_basher": {
   "ItemRecipe": 1,
   "ItemRequirements": [
+   "item_mithril_hammer",
    "item_belt_of_strength",
-   "item_javelin",
    "item_recipe_basher"
   ],
   "ItemResult": "item_basher",
@@ -6836,14 +6856,15 @@
   "ItemRequirements": [
    "item_demon_edge",
    "item_pers",
-   "item_quelling_blade"
+   "item_quelling_blade",
+   "item_recipe_bfury"
   ],
   "ItemResult": "item_bfury",
   "attributes": [],
   "cooldown": [],
   "description": null,
   "id": 144,
-  "itemcost": 0,
+  "itemcost": 300,
   "level": 0,
   "lore": null,
   "manacost": [],
@@ -7199,7 +7220,7 @@
   "ItemRecipe": 1,
   "ItemRequirements": [
    "item_staff_of_wizardry",
-   "item_ring_of_health",
+   "item_ring_of_regen",
    "item_recipe_force_staff"
   ],
   "ItemResult": "item_force_staff",
@@ -7208,7 +7229,7 @@
   "description": null,
   "displayname": "Force Staff Recipe",
   "id": 101,
-  "itemcost": 400,
+  "itemcost": 950,
   "level": 0,
   "lore": null,
   "manacost": [],
@@ -7475,8 +7496,7 @@
   "ItemRecipe": 1,
   "ItemRequirements": [
    "item_mithril_hammer",
-   "item_gloves",
-   "item_recipe_maelstrom"
+   "item_javelin"
   ],
   "ItemResult": "item_maelstrom",
   "attributes": [],
@@ -7484,7 +7504,7 @@
   "description": null,
   "displayname": "Maelstrom Recipe",
   "id": 165,
-  "itemcost": 700,
+  "itemcost": 0,
   "level": 0,
   "lore": null,
   "manacost": [],
@@ -7496,14 +7516,15 @@
    "item_magic_stick",
    "item_branches",
    "item_branches",
-   "item_enchanted_mango"
+   "item_recipe_magic_wand"
   ],
   "ItemResult": "item_magic_wand",
   "attributes": [],
   "cooldown": [],
   "description": null,
+  "displayname": "Magic Wand Recipe",
   "id": 35,
-  "itemcost": 0,
+  "itemcost": 150,
   "level": 0,
   "lore": null,
   "manacost": [],
@@ -7522,7 +7543,7 @@
   "description": null,
   "displayname": "Manta Style Recipe",
   "id": 146,
-  "itemcost": 900,
+  "itemcost": 500,
   "level": 0,
   "lore": null,
   "manacost": [],
@@ -7624,9 +7645,9 @@
  "item_recipe_monkey_king_bar": {
   "ItemRecipe": 1,
   "ItemRequirements": [
-   "item_hyperstone",
+   "item_demon_edge",
    "item_javelin",
-   "item_javelin"
+   "item_quarterstaff"
   ],
   "ItemResult": "item_monkey_king_bar",
   "attributes": [],
@@ -7996,7 +8017,7 @@
   "description": null,
   "displayname": "Sange Recipe",
   "id": 161,
-  "itemcost": 500,
+  "itemcost": 700,
   "level": 0,
   "lore": null,
   "manacost": [],
@@ -8402,7 +8423,7 @@
   "description": null,
   "displayname": "Yasha Recipe",
   "id": 169,
-  "itemcost": 500,
+  "itemcost": 700,
   "level": 0,
   "lore": null,
   "manacost": [],
@@ -8829,31 +8850,31 @@
    {
     "name": "maim_chance",
     "value": [
-     30
+     40
     ]
    },
    {
     "name": "maim_slow_movement",
     "value": [
-     -20
+     -26
     ]
    },
    {
     "name": "maim_slow_attack",
     "value": [
-     -20
+     -26
     ]
    },
    {
     "name": "maim_slow_movement_range",
     "value": [
-     -10
+     -13
     ]
    },
    {
     "name": "maim_slow_attack_range",
     "value": [
-     -10
+     -13
     ]
    },
    {
@@ -8864,10 +8885,10 @@
    }
   ],
   "cooldown": [],
-  "description": "<h1>Passive: Lesser Maim</h1>Each attack has a %maim_chance%%% chance to reduce enemy hero movement speed by %maim_slow_movement%%% and attack speed by %maim_slow_attack% when used by a melee hero. Reduces enemy hero movement by %maim_slow_movement_range%%% and attack speed by %maim_slow_attack_range% when used by a ranged hero. Effect lasts %maim_duration% seconds.",
+  "description": "<h1>Passive: Maim</h1>Each attack has a %maim_chance%%% chance to reduce enemy hero movement speed by %maim_slow_movement%%% and attack speed by %maim_slow_attack% when used by a melee hero. Reduces enemy hero movement by %maim_slow_movement_range%%% and attack speed by %maim_slow_attack_range% when used by a ranged hero. Effect lasts %maim_duration% seconds.",
   "displayname": "Sange",
   "id": 162,
-  "itemcost": 1950,
+  "itemcost": 2150,
   "level": 0,
   "lore": "Sange is an unusually accurate weapon, seeking weak points automatically.",
   "manacost": [],
@@ -8956,10 +8977,10 @@
    }
   ],
   "cooldown": [],
-  "description": "<h1>Passive: Greater Maim</h1>Each attack has a %maim_chance%%% chance to reduce enemy hero movement speed by %maim_slow_movement%%% and attack speed by %maim_slow_attack% when used by a melee hero. Reduces enemy hero movement by %maim_slow_movement_range%%% and attack speed by %maim_slow_attack_range% when used by a ranged hero. Effect lasts %maim_duration% seconds.",
+  "description": "<h1>Passive: Maim</h1>Each attack has a %maim_chance%%% chance to reduce enemy hero movement speed by %maim_slow_movement%%% and attack speed by %maim_slow_attack% when used by a melee hero. Reduces enemy hero movement by %maim_slow_movement_range%%% and attack speed by %maim_slow_attack_range% when used by a ranged hero. Effect lasts %maim_duration% seconds.",
   "displayname": "Sange and Yasha",
   "id": 154,
-  "itemcost": 3900,
+  "itemcost": 4300,
   "level": 0,
   "lore": "Sange and Yasha, when attuned by the moonlight and used together, become a very powerful combination.",
   "manacost": [],
@@ -9677,7 +9698,7 @@
     "name": "bonus_all_stats",
     "tooltip": "+$all",
     "value": [
-     15
+     13
     ]
    },
    {
@@ -11134,7 +11155,7 @@
   "description": null,
   "displayname": "Yasha",
   "id": 170,
-  "itemcost": 1950,
+  "itemcost": 2150,
   "level": 0,
   "lore": "Yasha is regarded as the swiftest weapon ever created.",
   "manacost": [],

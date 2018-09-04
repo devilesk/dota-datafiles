@@ -4692,9 +4692,9 @@
       "name": "damage",
       "tooltip": "DAMAGE PER SECOND:",
       "value": [
-       15,
-       30,
-       45
+       20,
+       40,
+       60
       ]
      },
      {
@@ -4893,9 +4893,9 @@
       "name": "damage",
       "tooltip": "DAMAGE PER SECOND:",
       "value": [
-       15,
-       30,
-       45
+       20,
+       40,
+       60
       ]
      },
      {
@@ -5094,9 +5094,9 @@
       "name": "damage",
       "tooltip": "DAMAGE PER SECOND:",
       "value": [
-       15,
-       30,
-       45
+       20,
+       40,
+       60
       ]
      },
      {
@@ -6578,7 +6578,7 @@
   "HasInventory": 0,
   "abilities": [],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 8,
+  "armorphysical": 0,
   "attackdamagemax": 10,
   "attackdamagemin": 9,
   "attackpoint": 0.5,
@@ -6592,9 +6592,9 @@
   "attributeintelligencegain": 0,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
   "attributestrengthgain": 0,
-  "bountygoldmax": 21,
-  "bountygoldmin": 16,
-  "bountyxp": 20,
+  "bountygoldmax": 3,
+  "bountygoldmin": 3,
+  "bountyxp": 3,
   "displayname": "Spiderite",
   "level": 0,
   "magicalresistance": 50,
@@ -6765,9 +6765,9 @@
    }
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
-  "armorphysical": 8,
-  "attackdamagemax": 19,
-  "attackdamagemin": 18,
+  "armorphysical": 0,
+  "attackdamagemax": 16,
+  "attackdamagemin": 14,
   "attackpoint": 0.5,
   "attackrange": 100,
   "attackrate": 1.35,
@@ -6779,9 +6779,9 @@
   "attributeintelligencegain": 0,
   "attributeprimary": "DOTA_ATTRIBUTE_STRENGTH",
   "attributestrengthgain": 0,
-  "bountygoldmax": 13,
-  "bountygoldmin": 11,
-  "bountyxp": 31,
+  "bountygoldmax": 9,
+  "bountygoldmin": 9,
+  "bountyxp": 9,
   "displayname": "Spiderling",
   "level": 0,
   "magicalresistance": 50,
@@ -15387,8 +15387,8 @@
   "abilities": [],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
   "armorphysical": 1,
-  "attackdamagemax": 19,
-  "attackdamagemin": 15,
+  "attackdamagemax": 28,
+  "attackdamagemin": 24,
   "attackpoint": 0.33,
   "attackrange": 90,
   "attackrate": 1.2,
@@ -15410,7 +15410,7 @@
   "movementturnrate": 0.5,
   "name": "npc_dota_lycan_wolf1",
   "projectilespeed": 0,
-  "statushealth": 200,
+  "statushealth": 230,
   "statushealthregen": 0.5,
   "statusmana": 0,
   "statusmanaregen": 0,
@@ -15426,8 +15426,8 @@
   "abilities": [],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
   "armorphysical": 1,
-  "attackdamagemax": 30,
-  "attackdamagemin": 26,
+  "attackdamagemax": 36,
+  "attackdamagemin": 32,
   "attackpoint": 0.33,
   "attackrange": 90,
   "attackrate": 1.1,
@@ -15449,7 +15449,7 @@
   "movementturnrate": 0.5,
   "name": "npc_dota_lycan_wolf2",
   "projectilespeed": 0,
-  "statushealth": 240,
+  "statushealth": 260,
   "statushealthregen": 0.5,
   "statusmana": 0,
   "statusmanaregen": 0,
@@ -15552,8 +15552,8 @@
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
   "armorphysical": 1,
-  "attackdamagemax": 39,
-  "attackdamagemin": 35,
+  "attackdamagemax": 44,
+  "attackdamagemin": 40,
   "attackpoint": 0.33,
   "attackrange": 90,
   "attackrate": 1,
@@ -15575,7 +15575,7 @@
   "movementturnrate": 0.5,
   "name": "npc_dota_lycan_wolf3",
   "projectilespeed": 0,
-  "statushealth": 280,
+  "statushealth": 290,
   "statushealthregen": 0.5,
   "statusmana": 0,
   "statusmanaregen": 0,
@@ -15744,8 +15744,8 @@
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
   "armorphysical": 1,
-  "attackdamagemax": 48,
-  "attackdamagemin": 44,
+  "attackdamagemax": 52,
+  "attackdamagemin": 48,
   "attackpoint": 0.33,
   "attackrange": 90,
   "attackrate": 0.9,
@@ -24688,8 +24688,8 @@
       "tooltip": "DAMAGE:",
       "value": [
        30,
-       40,
-       50
+       50,
+       70
       ]
      }
     ],
@@ -24869,8 +24869,8 @@
       "tooltip": "DAMAGE:",
       "value": [
        30,
-       40,
-       50
+       50,
+       70
       ]
      }
     ],
@@ -24925,7 +24925,7 @@
   "movementturnrate": 0.5,
   "name": "npc_dota_warlock_golem_2",
   "projectilespeed": 0,
-  "statushealth": 1500,
+  "statushealth": 2000,
   "statushealthregen": 50,
   "statusmana": 0,
   "statusmanaregen": 0,
@@ -25050,8 +25050,8 @@
       "tooltip": "DAMAGE:",
       "value": [
        30,
-       40,
-       50
+       50,
+       70
       ]
      }
     ],
@@ -25106,7 +25106,7 @@
   "movementturnrate": 0.5,
   "name": "npc_dota_warlock_golem_3",
   "projectilespeed": 0,
-  "statushealth": 2000,
+  "statushealth": 3000,
   "statushealthregen": 75,
   "statusmana": 0,
   "statusmanaregen": 0,
@@ -25231,8 +25231,8 @@
       "tooltip": "DAMAGE:",
       "value": [
        30,
-       40,
-       50
+       50,
+       70
       ]
      }
     ],
@@ -25412,8 +25412,8 @@
       "tooltip": "DAMAGE:",
       "value": [
        30,
-       40,
-       50
+       50,
+       70
       ]
      }
     ],
@@ -25468,7 +25468,7 @@
   "movementturnrate": 0.5,
   "name": "npc_dota_warlock_golem_scepter_2",
   "projectilespeed": 0,
-  "statushealth": 1125,
+  "statushealth": 1500,
   "statushealthregen": 50,
   "statusmana": 0,
   "statusmanaregen": 0,
@@ -25593,8 +25593,8 @@
       "tooltip": "DAMAGE:",
       "value": [
        30,
-       40,
-       50
+       50,
+       70
       ]
      }
     ],
@@ -25649,7 +25649,7 @@
   "movementturnrate": 0.5,
   "name": "npc_dota_warlock_golem_scepter_3",
   "projectilespeed": 0,
-  "statushealth": 1500,
+  "statushealth": 2250,
   "statushealthregen": 75,
   "statusmana": 0,
   "statusmanaregen": 0,
