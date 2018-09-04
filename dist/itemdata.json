@@ -1050,12 +1050,6 @@
     ]
    },
    {
-    "name": "mana_per_charge",
-    "value": [
-     "0.35"
-    ]
-   },
-   {
     "name": "var_Type",
     "value": [
      "F",
@@ -1069,6 +1063,12 @@
      "O",
      "A",
      "T"
+    ]
+   },
+   {
+    "name": "mana_per_charge",
+    "value": [
+     "0.35"
     ]
    }
   ],

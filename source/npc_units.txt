@@ -171,7 +171,7 @@
 		"AttributeAgilityGain"		"0"			// Agility bonus per level.
 
 		"BountyXP"					"69"		// Experience earn.
-		"BountyGoldMin"				"54"		// Gold earned min.
+		"BountyGoldMin"				"48"		// Gold earned min.
 		"BountyGoldMax"				"60"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
@@ -372,7 +372,7 @@
 		"AttributeAgilityGain"		"0"			// Agility bonus per level.
 
 		"BountyXP"					"69"		// Experience earn.
-		"BountyGoldMin"				"54"		// Gold earned min.
+		"BountyGoldMin"				"48"		// Gold earned min.
 		"BountyGoldMax"				"60"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
@@ -2314,8 +2314,8 @@
 		"AttributeBaseAgility"		"0"			// Base agility
 		"AttributeAgilityGain"		"0"			// Agility bonus per level.
 
-		"BountyGoldMin"				"125"		// Gold earned min.
-		"BountyGoldMax"				"125"		// Gold earned max.
+		"BountyGoldMin"				"75"		// Gold earned min.
+		"BountyGoldMax"				"75"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_FILLER"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"100"
@@ -2391,8 +2391,8 @@
 		"MovementSpeed"				"0"			// Speed
 		"MovementTurnRate"			"0"			// Turning rate.
 
-		"StatusHealth"				"1500"		// Base health.
-		"StatusHealthRegen"			"0"			// Health regeneration rate.
+		"StatusHealth"				"1750"		// Base health.
+		"StatusHealthRegen"			"5"			// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
 
@@ -2444,8 +2444,8 @@
 		"AttributeBaseAgility"		"0"			// Base agility
 		"AttributeAgilityGain"		"0"			// Agility bonus per level.
 
-		"BountyGoldMin"				"125"		// Gold earned min.
-		"BountyGoldMax"				"125"		// Gold earned max.
+		"BountyGoldMin"				"75"		// Gold earned min.
+		"BountyGoldMax"				"75"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_FILLER"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"100"
@@ -2521,8 +2521,8 @@
 		"MovementSpeed"				"0"			// Speed
 		"MovementTurnRate"			"0"			// Turning rate.
 
-		"StatusHealth"				"1500"		// Base health.
-		"StatusHealthRegen"			"0"			// Health regeneration rate.
+		"StatusHealth"				"1750"		// Base health.
+		"StatusHealthRegen"			"5"			// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
 
@@ -2585,7 +2585,7 @@
 		"MovementSpeed"				"0"			// Speed
 		"MovementTurnRate"			"0"			// Turning rate.
 
-		"StatusHealth"				"1500"		// Base health.
+		"StatusHealth"				"1800"		// Base health.
 		"StatusHealthRegen"			"5"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -2649,7 +2649,7 @@
 		"MovementSpeed"				"0"			// Speed
 		"MovementTurnRate"			"0"			// Turning rate.
 
-		"StatusHealth"				"1500"		// Base health.
+		"StatusHealth"				"1800"		// Base health.
 		"StatusHealthRegen"			"5"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -2713,7 +2713,7 @@
 		"MovementSpeed"				"0"			// Speed
 		"MovementTurnRate"			"0"			// Turning rate.
 
-		"StatusHealth"				"1500"		// Base health.
+		"StatusHealth"				"1800"		// Base health.
 		"StatusHealthRegen"			"5"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -2970,7 +2970,7 @@
 		"MovementSpeed"				"0"			// Speed
 		"MovementTurnRate"			"0"			// Turning rate.
 
-		"StatusHealth"				"1500"		// Base health.
+		"StatusHealth"				"1800"		// Base health.
 		"StatusHealthRegen"			"5"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -3035,7 +3035,7 @@
 		"MovementSpeed"				"0"			// Speed
 		"MovementTurnRate"			"0"			// Turning rate.
 
-		"StatusHealth"				"1500"		// Base health.
+		"StatusHealth"				"1800"		// Base health.
 		"StatusHealthRegen"			"5"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -3098,7 +3098,7 @@
 		"MovementSpeed"				"0"			// Speed
 		"MovementTurnRate"			"0"			// Turning rate.
 
-		"StatusHealth"				"1500"		// Base health.
+		"StatusHealth"				"1800"		// Base health.
 		"StatusHealthRegen"			"5"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
