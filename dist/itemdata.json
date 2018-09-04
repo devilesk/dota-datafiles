@@ -1064,6 +1064,12 @@
     ]
    },
    {
+    "name": "mana_per_charge",
+    "value": [
+     "0.35"
+    ]
+   },
+   {
     "name": "var_Type",
     "value": [
      "F",
@@ -1077,12 +1083,6 @@
      "O",
      "A",
      "T"
-    ]
-   },
-   {
-    "name": "mana_per_charge",
-    "value": [
-     "0.35"
     ]
    }
   ],
@@ -1276,13 +1276,13 @@
    {
     "name": "health_restore",
     "value": [
-     80
+     100
     ]
    },
    {
     "name": "mana_restore",
     "value": [
-     40
+     50
     ]
    },
    {
@@ -2811,7 +2811,7 @@
     "name": "hp_regen",
     "tooltip": "+$hp_regen",
     "value": [
-     0.7
+     0.6
     ]
    },
    {
@@ -5330,6 +5330,29 @@
   "lore": "Said to be a tear from the lunar goddess Selemene.",
   "manacost": [],
   "name": "item_moon_shard"
+ },
+ "item_mutation_tombstone": {
+  "AbilityBehavior": [
+   "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+   "DOTA_ABILITY_BEHAVIOR_CHANNELLED",
+   "DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
+  ],
+  "AbilityCastPoint": 0,
+  "AbilityCastRange": 100,
+  "ItemInitialCharges": 1,
+  "ItemQuality": "consumable",
+  "ItemShopTags": "consumable",
+  "ItemStackable": 1,
+  "attributes": [],
+  "cooldown": [],
+  "description": null,
+  "displayname": "Tombstone",
+  "id": 1028,
+  "itemcost": 0,
+  "level": 0,
+  "lore": null,
+  "manacost": [],
+  "name": "item_mutation_tombstone"
  },
  "item_mystic_staff": {
   "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
@@ -9934,6 +9957,42 @@
   "manacost": [],
   "name": "item_stout_shield"
  },
+ "item_super_blink": {
+  "AbilityBehavior": [
+   "DOTA_ABILITY_BEHAVIOR_POINT",
+   "DOTA_ABILITY_BEHAVIOR_DIRECTIONAL",
+   "DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
+  ],
+  "AbilityCastPoint": 0,
+  "AbilityCastRange": 0,
+  "attributes": [
+   {
+    "name": "blink_range",
+    "value": [
+     1200
+    ]
+   },
+   {
+    "name": "blink_range_clamp",
+    "value": [
+     960
+    ]
+   }
+  ],
+  "cooldown": [
+   15
+  ],
+  "description": "<h1>Active: Blink</h1> Teleport to a target point up to %blink_range% units away.",
+  "displayname": "Super Blink Dagger",
+  "id": 1029,
+  "itemcost": 0,
+  "level": 0,
+  "lore": "The fabled dagger used by the fastest assassin ever to walk the lands.",
+  "manacost": [
+   0
+  ],
+  "name": "item_super_blink"
+ },
  "item_talisman_of_evasion": {
   "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
   "ItemAliases": [
@@ -10902,7 +10961,7 @@
   "description": "<h1>Use: Plant</h1> Plant the currently active ward.  Double-Click to switch the currently active ward.<br><br>Range: %tooltip_range%",
   "displayname": "Observer and Sentry Wards",
   "id": 218,
-  "itemcost": 180,
+  "itemcost": 175,
   "level": 0,
   "lore": "Advancements in stacking efficiency have made wards easier to carry than ever.",
   "manacost": [],
@@ -10927,7 +10986,7 @@
   "ItemQuality": "consumable",
   "ItemShopTags": "consumable",
   "ItemStackable": 1,
-  "ItemStockTime": 150,
+  "ItemStockTime": 135,
   "ItemSupport": 1,
   "attributes": [
    {
@@ -10967,7 +11026,7 @@
   "description": "<h1>Use: Plant</h1>Plants an Observer Ward, an invisible watcher that gives ground vision in a %vision_range% radius to your team. Lasts %duration_minutes_tooltip% minutes.<br><br>Hold Control to give one Observer Ward to an allied hero.<br><br>Range: %tooltip_range%",
   "displayname": "Observer Ward",
   "id": 42,
-  "itemcost": 80,
+  "itemcost": 75,
   "level": 0,
   "lore": "A form of half-sentient plant, often cultivated by apprentice wizards.",
   "manacost": [],

@@ -43542,7 +43542,7 @@
     "name": "damage_growth",
     "tooltip": "DAMAGE GROWTH PER MINUTE:",
     "value": [
-     8
+     10
     ]
    }
   ],

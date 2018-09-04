@@ -172,7 +172,7 @@
 
 		"BountyXP"					"69"		// Experience earn.
 		"BountyGoldMin"				"48"		// Gold earned min.
-		"BountyGoldMax"				"60"		// Gold earned max.
+		"BountyGoldMax"				"58"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
@@ -239,7 +239,7 @@
 
 		"BountyXP"					"22"		// Experience earn.
 		"BountyGoldMin"				"21"		// Gold earned min.
-		"BountyGoldMax"				"29"		// Gold earned max.
+		"BountyGoldMax"				"28"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
@@ -306,7 +306,7 @@
 
 		"BountyXP"					"22"		// Experience earn.
 		"BountyGoldMin"				"21"		// Gold earned min.
-		"BountyGoldMax"				"29"		// Gold earned max.
+		"BountyGoldMax"				"28"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
@@ -373,7 +373,7 @@
 
 		"BountyXP"					"69"		// Experience earn.
 		"BountyGoldMin"				"48"		// Gold earned min.
-		"BountyGoldMax"				"60"		// Gold earned max.
+		"BountyGoldMax"				"58"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
@@ -440,7 +440,7 @@
 
 		"BountyXP"					"22"		// Experience earn.
 		"BountyGoldMin"				"21"		// Gold earned min.
-		"BountyGoldMax"				"29"		// Gold earned max.
+		"BountyGoldMax"				"28"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
@@ -507,7 +507,7 @@
 
 		"BountyXP"					"22"		// Experience earn.
 		"BountyGoldMin"				"21"		// Gold earned min.
-		"BountyGoldMax"				"29"		// Gold earned max.
+		"BountyGoldMax"				"28"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
@@ -573,8 +573,8 @@
 		"AttributeAgilityGain"		"0"			// Agility bonus per level.
 
 		"BountyXP"					"57"		// Experience earn.
-		"BountyGoldMin"				"37"		// Gold earned min.
-		"BountyGoldMax"				"43"		// Gold earned max.
+		"BountyGoldMin"				"35"		// Gold earned min.
+		"BountyGoldMax"				"41"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
@@ -640,8 +640,8 @@
 		"AttributeAgilityGain"		"0"			// Agility bonus per level.
 
 		"BountyXP"					"25"		// Experience earn.
-		"BountyGoldMin"				"19"		// Gold earned min.
-		"BountyGoldMax"				"27"		// Gold earned max.
+		"BountyGoldMin"				"18"		// Gold earned min.
+		"BountyGoldMax"				"26"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
@@ -707,8 +707,8 @@
 		"AttributeAgilityGain"		"0"			// Agility bonus per level.
 
 		"BountyXP"					"25"		// Experience earn.
-		"BountyGoldMin"				"19"		// Gold earned min.
-		"BountyGoldMax"				"27"		// Gold earned max.
+		"BountyGoldMin"				"18"		// Gold earned min.
+		"BountyGoldMax"				"26"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
@@ -774,8 +774,8 @@
 		"AttributeAgilityGain"		"0"			// Agility bonus per level.
 
 		"BountyXP"					"57"		// Experience earn.
-		"BountyGoldMin"				"37"		// Gold earned min.
-		"BountyGoldMax"				"43"		// Gold earned max.
+		"BountyGoldMin"				"35"		// Gold earned min.
+		"BountyGoldMax"				"41"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
@@ -841,8 +841,8 @@
 		"AttributeAgilityGain"		"0"			// Agility bonus per level.
 
 		"BountyXP"					"25"		// Experience earn.
-		"BountyGoldMin"				"19"		// Gold earned min.
-		"BountyGoldMax"				"27"		// Gold earned max.
+		"BountyGoldMin"				"18"		// Gold earned min.
+		"BountyGoldMax"				"26"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
@@ -908,8 +908,8 @@
 		"AttributeAgilityGain"		"0"			// Agility bonus per level.
 
 		"BountyXP"					"25"		// Experience earn.
-		"BountyGoldMin"				"19"		// Gold earned min.
-		"BountyGoldMax"				"27"		// Gold earned max.
+		"BountyGoldMin"				"18"		// Gold earned min.
+		"BountyGoldMax"				"26"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_REGULAR"			// Hull type used for navigation/locomotion.
 		"RingRadius"				"45"
@@ -3356,7 +3356,7 @@
 		"MovementTurnRate"			"0"			// Turning rate.
 
 		"StatusHealth"				"4250"		// Base health.
-		"StatusHealthRegen"			"8"			// Health regeneration rate.
+		"StatusHealthRegen"			"12"			// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
 
@@ -3421,7 +3421,7 @@
 		"MovementTurnRate"			"0"			// Turning rate.
 
 		"StatusHealth"				"4250"		// Base health.
-		"StatusHealthRegen"			"8"			// Health regeneration rate.
+		"StatusHealthRegen"			"12"			// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
 
@@ -6913,8 +6913,8 @@
 		"MovementSpeed"				"380"		// Speed
 		"MovementTurnRate"			"0.5"		// Turning rate.
 	
-		"BountyGoldMin"				"175"		// Gold earned min.
-		"BountyGoldMax"				"175"		// Gold earned max.
+		"BountyGoldMin"				"125"		// Gold earned min.
+		"BountyGoldMax"				"125"		// Gold earned max.
 
 		"StatusHealth"				"75"		// Base health.
 		"StatusHealthRegen"			"0.5"			// Health regeneration rate.
@@ -8178,8 +8178,8 @@
 		"MagicalResistance"				"55"									// Magical protection (percentage).
 
 		"AttackCapabilities"		"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"			"65"		// Damage range min.
-		"AttackDamageMax"			"65"		// Damage range max.
+		"AttackDamageMin"			"75"		// Damage range min.
+		"AttackDamageMax"			"75"		// Damage range max.
 		"AttackDamageType"			"DAMAGE_TYPE_ArmorPhysical"
 		"AttackRate"				"2.0"			// Speed of attack.
 		"AttackAnimationPoint"		"0.6"		// Normalized time in animation cycle to attack.
@@ -8200,7 +8200,7 @@
 		"MovementSpeed"				"270"		// Speed
 		"MovementTurnRate"			"1.0"		// Turning rate.
 
-		"StatusHealth"				"5500"		// Base health.
+		"StatusHealth"				"6000"		// Base health.
 		"StatusHealthRegen"			"20"		// Health regeneration rate.
 		"StatusMana"				"0"		// Base mana.
 		"StatusManaRegen"			"0"		// Mana regeneration rate.

@@ -846,7 +846,7 @@
       "ShouldBeInitiallySuggested": "1",
       "AbilitySpecial": [
         {
-          "hp_regen": 0.7
+          "hp_regen": 0.6
         },
         {
           "replenish_amount": 125
@@ -945,10 +945,10 @@
       "ShouldBeInitiallySuggested": "1",
       "AbilitySpecial": [
         {
-          "health_restore": 80
+          "health_restore": 100
         },
         {
-          "mana_restore": 40
+          "mana_restore": 50
         },
         {
           "restore_time": 2.5
@@ -971,7 +971,7 @@
       "AbilityCastRange": "500",
       "AbilityCastPoint": "0.0",
       "AbilityCooldown": "1.0",
-      "ItemCost": "80",
+      "ItemCost": "75",
       "ItemShopTags": "consumable",
       "ItemQuality": "consumable",
       "ItemAliases": "observer ward",
@@ -981,7 +981,7 @@
       "ItemInitialCharges": "1",
       "ItemStockMax": "4",
       "ItemStockInitial": "2",
-      "ItemStockTime": "150.0",
+      "ItemStockTime": "135.0",
       "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES",
       "ItemSupport": "1",
       "IsTempestDoubleClonable": "0",
@@ -1068,7 +1068,7 @@
       "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
       "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
       "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO",
-      "ItemCost": "180",
+      "ItemCost": "175",
       "ItemQuality": "common",
       "ItemAliases": "ward",
       "ItemShareability": "ITEM_FULLY_SHAREABLE_STACKING",
@@ -6561,6 +6561,46 @@
       "AbilitySpecial": [
         {
           "paint_duration": 900
+        }
+      ]
+    },
+    "item_mutation_tombstone": {
+      "ID": "1028",
+      "AbilityName": "item_tombstone",
+      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+      "Model": "models/props_gameplay/tombstoneb01.vmdl",
+      "PingOverrideText": "DOTA_Chat_Tombstone_Pinged",
+      "precache": {
+        "particle_folder": "particles/units/heroes/hero_morphling"
+      },
+      "AbilityCastRange": "100",
+      "AbilityCastPoint": "0.0",
+      "ItemCost": "0",
+      "ItemPurchasable": "0",
+      "ItemShopTags": "consumable",
+      "ItemQuality": "consumable",
+      "ItemStackable": "1",
+      "ItemShareability": "ITEM_FULLY_SHAREABLE",
+      "ItemPermanent": "0",
+      "ItemInitialCharges": "1",
+      "ItemCastOnPickup": "1",
+      "ItemKillable": "0"
+    },
+    "item_super_blink": {
+      "ID": "1029",
+      "AbilityName": "item_super_blink",
+      "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_DIRECTIONAL | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+      "ItemPurchasable": "0",
+      "AbilityCastRange": "0",
+      "AbilityCastPoint": "0.0",
+      "AbilityCooldown": "15.0",
+      "AbilityManaCost": "0",
+      "AbilitySpecial": [
+        {
+          "blink_range": 1200
+        },
+        {
+          "blink_range_clamp": 960
         }
       ]
     }

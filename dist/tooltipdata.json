@@ -1741,6 +1741,9 @@
   "DisplayName": "Moon Shard",
   "Lore": "Said to be a tear from the lunar goddess Selemene."
  },
+ "item_mutation_tombstone": {
+  "DisplayName": "Tombstone"
+ },
  "item_mystic_staff": {
   "DisplayName": "Mystic Staff",
   "Lore": "Enigmatic staff made of only the most expensive crystals."
@@ -2124,6 +2127,11 @@
   "Description": "<h1>Passive: Damage Block</h1>Grants a %block_chance%%% chance to block %damage_block_melee% damage from incoming attacks on melee heroes, and %damage_block_ranged% damage on ranged.",
   "DisplayName": "Stout Shield",
   "Lore": "One man's wine barrel bottom is another man's shield."
+ },
+ "item_super_blink": {
+  "Description": "<h1>Active: Blink</h1> Teleport to a target point up to %blink_range% units away.",
+  "DisplayName": "Super Blink Dagger",
+  "Lore": "The fabled dagger used by the fastest assassin ever to walk the lands."
  },
  "item_talisman_of_evasion": {
   "DisplayName": "Talisman of Evasion",
