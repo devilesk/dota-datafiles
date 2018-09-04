@@ -411,7 +411,7 @@
   "lore": "Clinkz simply lights his arrows from his flaming essence for quite the destructive effect."
  },
  "clinkz_strafe": {
-  "description": "Clinkz nimbly attacks with a barrage of arrows. Dramatically increases attack speed for a short time and grants Clinkz the ability to automatically dodge up to 4 projectiles.",
+  "description": "Clinkz nimbly attacks with a barrage of arrows. Dramatically increases attack speed for a short time and grants Clinkz the ability to automatically dodge projectiles.",
   "lore": "It's hard to say whether the blur around the Bone Fletcher is from his flaming heart or his speed with the quiver."
  },
  "clinkz_wind_walk": {
@@ -1541,7 +1541,7 @@
   "lore": "A vision of the twisted maw of Balanar etches itself into the minds of the poor souls unlucky enough to cross his path."
  },
  "night_stalker_darkness": {
-  "description": "Night Stalker smothers the sun and summons instant darkness, so that he might use his powers at their fullest. While Darkness is in effect, enemy heroes, units, wards, and buildings have their vision range reduced. \\n\\nUpgradable by Aghanim's Scepter.",
+  "description": "Night Stalker smothers the sun and summons instant darkness, so that he might use his powers at their fullest. While Darkness is in effect, enemy heroes, units and wards have their vision range reduced. \\n\\nUpgradable by Aghanim's Scepter.",
   "lore": "It is a humbling sight to see when the mightiest of warriors become afraid of the dark."
  },
  "night_stalker_hunter_in_the_night": {
@@ -2031,7 +2031,7 @@
   "lore": "Ostarion calls on his damned lineage, laying waste to his opponents."
  },
  "skeleton_king_mortal_strike": {
-  "description": "Wraith King passively gains a chance to deal bonus damage on an attack. Kill non-player units when it triggers and convert them into a skeleton army.",
+  "description": "Wraith King passively gains a chance to deal bonus damage on an attack. Every two kills on an enemy unit adds a skeleton charge.",
   "lore": "One blow to crush a foe."
  },
  "skeleton_king_reincarnation": {
@@ -2342,6 +2342,7 @@
  "special_bonus_movement_speed_45": {},
  "special_bonus_movement_speed_50": {},
  "special_bonus_movement_speed_60": {},
+ "special_bonus_movement_speed_65": {},
  "special_bonus_movement_speed_75": {},
  "special_bonus_movement_speed_90": {},
  "special_bonus_mp_100": {},
@@ -2617,6 +2618,7 @@
   "description": "Spawns 3 Ghostships, 2.8 seconds apart, towards the target location."
  },
  "special_bonus_unique_kunkka_4": {},
+ "special_bonus_unique_kunkka_5": {},
  "special_bonus_unique_legion_commander": {},
  "special_bonus_unique_legion_commander_2": {},
  "special_bonus_unique_legion_commander_3": {},
@@ -2742,6 +2744,7 @@
  "special_bonus_unique_pangolier_3": {},
  "special_bonus_unique_pangolier_4": {},
  "special_bonus_unique_pangolier_5": {},
+ "special_bonus_unique_pangolier_6": {},
  "special_bonus_unique_phantom_assassin": {
   "description": "Launches a second Stifling Dagger towards a random visible enemy within the cast range."
  },
@@ -2921,6 +2924,7 @@
  "special_bonus_unique_ursa_3": {},
  "special_bonus_unique_ursa_4": {},
  "special_bonus_unique_ursa_5": {},
+ "special_bonus_unique_ursa_6": {},
  "special_bonus_unique_vengeful_spirit_1": {},
  "special_bonus_unique_vengeful_spirit_2": {},
  "special_bonus_unique_vengeful_spirit_3": {},

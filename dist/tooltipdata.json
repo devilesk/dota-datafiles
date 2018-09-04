@@ -521,7 +521,7 @@
   "Lore": "Clinkz simply lights his arrows from his flaming essence for quite the destructive effect."
  },
  "clinkz_strafe": {
-  "Description": "Clinkz nimbly attacks with a barrage of arrows. Dramatically increases attack speed for a short time and grants Clinkz the ability to automatically dodge up to 4 projectiles.",
+  "Description": "Clinkz nimbly attacks with a barrage of arrows. Dramatically increases attack speed for a short time and grants Clinkz the ability to automatically dodge projectiles.",
   "DisplayName": "Strafe",
   "Lore": "It's hard to say whether the blur around the Bone Fletcher is from his flaming heart or his speed with the quiver."
  },
@@ -1814,6 +1814,9 @@
   "DisplayName": "Platemail",
   "Lore": "Thick metal plates that protect the entire upper body. Avoid dropping on feet."
  },
+ "item_pocket_tower": {
+  "DisplayName": "Pocket Tower"
+ },
  "item_point_booster": {
   "Description": "",
   "DisplayName": "Point Booster",
@@ -2883,7 +2886,7 @@
   "Lore": "A vision of the twisted maw of Balanar etches itself into the minds of the poor souls unlucky enough to cross his path."
  },
  "night_stalker_darkness": {
-  "Description": "Night Stalker smothers the sun and summons instant darkness, so that he might use his powers at their fullest. While Darkness is in effect, enemy heroes, units, wards, and buildings have their vision range reduced. \\n\\nUpgradable by Aghanim's Scepter.",
+  "Description": "Night Stalker smothers the sun and summons instant darkness, so that he might use his powers at their fullest. While Darkness is in effect, enemy heroes, units and wards have their vision range reduced. \\n\\nUpgradable by Aghanim's Scepter.",
   "DisplayName": "Darkness",
   "Lore": "It is a humbling sight to see when the mightiest of warriors become afraid of the dark."
  },
@@ -4727,7 +4730,7 @@
   "Lore": "Ostarion calls on his damned lineage, laying waste to his opponents."
  },
  "skeleton_king_mortal_strike": {
-  "Description": "Wraith King passively gains a chance to deal bonus damage on an attack. Kill non-player units when it triggers and convert them into a skeleton army.",
+  "Description": "Wraith King passively gains a chance to deal bonus damage on an attack. Every two kills on an enemy unit adds a skeleton charge.",
   "DisplayName": "Mortal Strike",
   "Lore": "One blow to crush a foe."
  },
@@ -5511,6 +5514,9 @@
  "special_bonus_movement_speed_60": {
   "DisplayName": "+60 Movement Speed"
  },
+ "special_bonus_movement_speed_65": {
+  "DisplayName": "+65 Movement Speed"
+ },
  "special_bonus_movement_speed_75": {
   "DisplayName": "+75 Movement Speed"
  },
@@ -5876,7 +5882,7 @@
   "DisplayName": "+75 Blood Rite Damage"
  },
  "special_bonus_unique_bloodseeker_3": {
-  "DisplayName": "+14% Rupture Damage"
+  "DisplayName": "+18% Rupture Damage"
  },
  "special_bonus_unique_bloodseeker_4": {
   "DisplayName": "+20 Max Thirst MS and Damage"
@@ -5909,7 +5915,7 @@
   "DisplayName": "+25 Quill Stack Damage"
  },
  "special_bonus_unique_bristleback_3": {
-  "DisplayName": "+20 Warpath Damage Per Stack"
+  "DisplayName": "+30 Warpath Damage Per Stack"
  },
  "special_bonus_unique_broodmother_1": {
   "DisplayName": "+60 Insatiable Hunger Damage/Lifesteal"
@@ -5961,7 +5967,7 @@
   "DisplayName": "+30 Searing Arrows Damage"
  },
  "special_bonus_unique_clinkz_2": {
-  "DisplayName": "+4s Strafe Stacks/Duration"
+  "DisplayName": "+4s Strafe Duration"
  },
  "special_bonus_unique_clinkz_3": {
   "Description": "When using Searing Arrows, a second Searing Arrow targets a random enemy within the spell's range.",
@@ -6276,6 +6282,9 @@
  "special_bonus_unique_kunkka_4": {
   "DisplayName": "+50% Tidebringer Cleave"
  },
+ "special_bonus_unique_kunkka_5": {
+  "DisplayName": "-1.5s Tidebringer Cooldown"
+ },
  "special_bonus_unique_legion_commander": {
   "DisplayName": "+40 Duel Damage Bonus"
  },
@@ -6527,7 +6536,7 @@
   "DisplayName": "+40 Death Pulse Heal"
  },
  "special_bonus_unique_nevermore_1": {
-  "DisplayName": "+3 Damage Per Soul"
+  "DisplayName": "+2 Damage Per Soul"
  },
  "special_bonus_unique_nevermore_2": {
   "DisplayName": "+150 Shadowraze Damage"
@@ -6539,7 +6548,7 @@
   "DisplayName": "+20 Max Souls"
  },
  "special_bonus_unique_nevermore_5": {
-  "DisplayName": "-3 Presence Aura Armor"
+  "DisplayName": "-5 Presence Aura Armor"
  },
  "special_bonus_unique_night_stalker": {
   "DisplayName": "-8s Crippling Fear Cooldown"
@@ -6600,13 +6609,16 @@
   "DisplayName": "2s Shield Crash CD in Ball"
  },
  "special_bonus_unique_pangolier_3": {
-  "DisplayName": "+30 Swashbuckle Damage"
+  "DisplayName": "+40 Swashbuckle Damage"
  },
  "special_bonus_unique_pangolier_4": {
   "DisplayName": "-3s Swashbuckle Cooldown"
  },
  "special_bonus_unique_pangolier_5": {
-  "DisplayName": "-16s Rolling Thunder"
+  "DisplayName": "-35s Rolling Thunder Cooldown"
+ },
+ "special_bonus_unique_pangolier_6": {
+  "DisplayName": "+2s Rolling Thunder Duration"
  },
  "special_bonus_unique_phantom_assassin": {
   "Description": "Launches a second Stifling Dagger towards a random visible enemy within the cast range.",
@@ -6888,7 +6900,7 @@
   "DisplayName": "+80 Static Remnant Damage"
  },
  "special_bonus_unique_sven": {
-  "DisplayName": "-5s Storm Hammer Cooldown"
+  "DisplayName": "-6s Storm Hammer Cooldown"
  },
  "special_bonus_unique_sven_2": {
   "DisplayName": "+40 STR God's Strength"
@@ -6898,7 +6910,7 @@
   "DisplayName": "Storm Hammer Dispels Enemies"
  },
  "special_bonus_unique_sven_4": {
-  "DisplayName": "+0.75s Storm Hammer Stun Duration"
+  "DisplayName": "+1.25s Storm Hammer Stun Duration"
  },
  "special_bonus_unique_techies": {
   "DisplayName": "+300 Blast Off Damage"
@@ -7066,7 +7078,7 @@
   "DisplayName": "+6 Tombstone Attacks to Destroy"
  },
  "special_bonus_unique_ursa": {
-  "DisplayName": "+14 Fury Swipes Damage"
+  "DisplayName": "+12 Fury Swipes Damage"
  },
  "special_bonus_unique_ursa_2": {
   "DisplayName": "-1s Earthshock Cooldown"
@@ -7079,6 +7091,9 @@
  },
  "special_bonus_unique_ursa_5": {
   "DisplayName": "+600 AoE Earthshock"
+ },
+ "special_bonus_unique_ursa_6": {
+  "DisplayName": "Enrage gains 80% Status Resistance"
  },
  "special_bonus_unique_vengeful_spirit_1": {
   "DisplayName": "+400 Magic Missile Damage"
@@ -7213,7 +7228,7 @@
   "DisplayName": "Splinter Blast 2s Stun"
  },
  "special_bonus_unique_wisp": {
-  "DisplayName": "+90 Spirits Hero Damage"
+  "DisplayName": "+75 Spirits Hero Damage"
  },
  "special_bonus_unique_wisp_2": {
   "DisplayName": "Tether Stuns"

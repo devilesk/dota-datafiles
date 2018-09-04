@@ -111,7 +111,7 @@
   "description": "<h1>Active: Overwhelm</h1> Stuns a target enemy unit for %stun_duration% seconds. <br><br>Pierces Spell Immunity.<br><br>Range: %tooltip_range%\\n<h1>Passive: Bash</h1> Grants melee heroes a %bash_chance_melee%%% chance on hit to stun the target for %bash_duration% seconds and deal %bonus_chance_damage% bonus magical damage.  Bash chance for ranged heroes is %bash_chance_ranged%%%.\\n<h1>Passive: Damage Block</h1> Grants a %block_chance%%% chance to block %block_damage_melee% damage from incoming attacks on melee heroes, and %block_damage_ranged% damage on ranged.",
   "displayname": "Abyssal Blade",
   "id": 208,
-  "itemcost": 6900,
+  "itemcost": 6750,
   "level": 0,
   "lore": "The lost blade of the Commander of the Abyss, this edge cuts into an enemy's soul.",
   "manacost": [
@@ -479,7 +479,7 @@
   "description": "<h1>Toggle: Unholy Strength</h1>When active, Unholy Strength grants +%unholy_bonus_damage% damage, +%unholy_bonus_strength% strength and +%unholy_bonus_armor% armor, but drains %unholy_health_drain_per_second_tooltip% health per second.<br><br> You cannot die from the health drain when Unholy Strength is activated, nor from the strength loss when Unholy Strength is deactivated.",
   "displayname": "Armlet of Mordiggian",
   "id": 151,
-  "itemcost": 2370,
+  "itemcost": 2380,
   "level": 0,
   "lore": "Weapon of choice among brutes, the bearer sacrifices his life energy to gain immense strength and power.",
   "manacost": [],
@@ -604,7 +604,7 @@
   "description": "<h1>Passive: Bash</h1> Grants melee heroes a %bash_chance_melee%%% chance on hit to stun the target for %bash_duration% seconds and deal %bonus_chance_damage% bonus magical damage.  Bash chance for ranged heroes is %bash_chance_ranged%%%.",
   "displayname": "Skull Basher",
   "id": 143,
-  "itemcost": 3200,
+  "itemcost": 3050,
   "level": 0,
   "lore": "A feared weapon in the right hands, this maul's ability to shatter the defenses of its opponents should not be underestimated.",
   "manacost": [],
@@ -915,7 +915,7 @@
   "description": null,
   "displayname": "Blades of Attack",
   "id": 2,
-  "itemcost": 420,
+  "itemcost": 430,
   "level": 0,
   "lore": "The damage of these small, concealable blades should not be underestimated.",
   "manacost": [],
@@ -1064,12 +1064,6 @@
     ]
    },
    {
-    "name": "mana_per_charge",
-    "value": [
-     "0.35"
-    ]
-   },
-   {
     "name": "var_Type",
     "value": [
      "F",
@@ -1083,6 +1077,12 @@
      "O",
      "A",
      "T"
+    ]
+   },
+   {
+    "name": "mana_per_charge",
+    "value": [
+     "0.35"
     ]
    }
   ],
@@ -1192,7 +1192,7 @@
   "description": "<h1>Active: Soul Rend</h1> Silences a target for %silence_duration% seconds. At the end of the silence, an additional %silence_damage_percent%%% of all damage taken during the silence will be dealt to the target as magical damage.<br><br>All attacks on the silenced target will have True Strike and %tooltip_crit_chance%%% chance to crit for %target_crit_multiplier%%% damage.<br><br>Range: %tooltip_range%\\n<h1>Passive: Critical Strike</h1> Grants a %crit_chance%%% chance for attacks to inflict %crit_multiplier%%% damage.",
   "displayname": "Bloodthorn",
   "id": 250,
-  "itemcost": 7195,
+  "itemcost": 7205,
   "level": 0,
   "lore": "A reviled blade that bites deeper with each wriggle of its victim's final throes.",
   "manacost": [
@@ -2811,7 +2811,7 @@
     "name": "hp_regen",
     "tooltip": "+$hp_regen",
     "value": [
-     0.6
+     0.5
     ]
    },
    {
@@ -3299,7 +3299,7 @@
   "description": "<h1>Active: Glimmer</h1> After a %fade_delay% second delay, grants invisibility and %active_magical_armor%%% magic resistance to you or a target allied unit for %duration% seconds.<br><br>Range: %tooltip_range%<br><br>Can be cast while channelling.",
   "displayname": "Glimmer Cape",
   "id": 254,
-  "itemcost": 1850,
+  "itemcost": 1950,
   "level": 0,
   "lore": "The stolen cape of a master illusionist.",
   "manacost": [
@@ -3371,7 +3371,7 @@
   "description": "<h1>Passive: Critical Strike</h1>Grants each attack a %crit_chance%%% chance to deal %crit_multiplier%%% damage.",
   "displayname": "Daedalus",
   "id": 141,
-  "itemcost": 5320,
+  "itemcost": 5330,
   "level": 0,
   "lore": "A weapon of incredible power that is difficult for even the strongest of warriors to control.",
   "manacost": [],
@@ -3535,7 +3535,7 @@
    }
   ],
   "cooldown": [
-   100
+   95
   ],
   "description": "<h1>Active: Transmute</h1> Kills a non-hero target for %bonus_gold% gold and %xp_multiplier%x experience. <br><br> Cannot be used on Ancient Creeps.<br><br>Range: %transmute_cast_range_tooltip%",
   "displayname": "Hand of Midas",
@@ -4187,7 +4187,7 @@
   "description": "<h1>Active: Shadow Walk</h1>Makes you invisible for %windwalk_duration% seconds, or until you attack or cast a spell.  While Shadow Walk is active, you move %windwalk_movement_speed%%% faster and can move through units.  <br><br>If attacking to end the invisibility, you gain %windwalk_bonus_damage% bonus physical damage on that attack.",
   "displayname": "Shadow Blade",
   "id": 152,
-  "itemcost": 2700,
+  "itemcost": 2800,
   "level": 0,
   "lore": "The blade of a fallen king, it allows you to move unseen and strike from the shadows.",
   "manacost": [
@@ -4298,7 +4298,7 @@
   "description": "<h1>Passive: Critical Strike</h1>Grants each attack a %crit_chance%%% chance to deal %crit_multiplier%%% damage.",
   "displayname": "Crystalys",
   "id": 149,
-  "itemcost": 2120,
+  "itemcost": 2130,
   "level": 0,
   "lore": "A blade forged from rare crystals, it seeks weak points in enemy armor.",
   "manacost": [],
@@ -5299,7 +5299,7 @@
     "name": "bonus_attack_speed",
     "tooltip": "+$attack",
     "value": [
-     130
+     140
     ]
    },
    {
@@ -5909,7 +5909,7 @@
    {
     "name": "projectile_speed",
     "value": [
-     900
+     750
     ]
    },
    {
@@ -6315,7 +6315,7 @@
   "description": "<h1>Active: Phase</h1> Gives %phase_movement_speed%%% increased movement speed on melee heroes, and %phase_movement_speed_range%%% on ranged heroes, and lets you move through units and turn more quickly for %phase_duration% seconds.\\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
   "displayname": "Phase Boots",
   "id": 50,
-  "itemcost": 1340,
+  "itemcost": 1360,
   "level": 0,
   "lore": "Boots that allow the wearer to travel between the ether.",
   "manacost": [],
@@ -6447,6 +6447,25 @@
   "lore": "Thick metal plates that protect the entire upper body. Avoid dropping on feet.",
   "manacost": [],
   "name": "item_platemail"
+ },
+ "item_pocket_tower": {
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastPoint": 0,
+  "AbilityCastRange": 600,
+  "attributes": [],
+  "cooldown": [
+   15
+  ],
+  "description": null,
+  "displayname": "Pocket Tower",
+  "id": 1030,
+  "itemcost": 0,
+  "level": 0,
+  "lore": null,
+  "manacost": [
+   0
+  ],
+  "name": "item_pocket_tower"
  },
  "item_point_booster": {
   "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
@@ -6868,7 +6887,7 @@
   "description": null,
   "displayname": "Skull Basher Recipe",
   "id": 142,
-  "itemcost": 1150,
+  "itemcost": 1000,
   "level": 0,
   "lore": null,
   "manacost": [],
@@ -8021,7 +8040,7 @@
   "description": null,
   "displayname": "Rod of Atos Recipe",
   "id": 205,
-  "itemcost": 1100,
+  "itemcost": 1000,
   "level": 0,
   "lore": null,
   "manacost": [],
@@ -8131,7 +8150,7 @@
   "description": null,
   "displayname": "Silver Edge Recipe",
   "id": 248,
-  "itemcost": 700,
+  "itemcost": 600,
   "level": 0,
   "lore": null,
   "manacost": [],
@@ -8842,7 +8861,7 @@
   "description": "<h1>Active: Cripple</h1>Roots the target for %duration% seconds.<br><br>Range: %tooltip_range%",
   "displayname": "Rod of Atos",
   "id": 206,
-  "itemcost": 3030,
+  "itemcost": 2930,
   "level": 0,
   "lore": "Atos, the Lord of Blight, has his essence stored in this deceptively simple wand.",
   "manacost": [
@@ -9110,7 +9129,7 @@
   "description": "<h1>Active: Fade</h1>Grants invisibility to you or a target allied hero as long as the target unit remains still.  <br><br>Has a %fade_time% second fade time, and breaks instantly upon moving. <br><br>There is no cooldown when using this item on yourself.<br><br>Range: %tooltip_range%",
   "displayname": "Shadow Amulet",
   "id": 215,
-  "itemcost": 1300,
+  "itemcost": 1400,
   "level": 0,
   "lore": "A small talisman that clouds the senses of one's enemies when held perfectly still.",
   "manacost": [
@@ -10800,7 +10819,7 @@
    {
     "name": "mana_regen_aura",
     "value": [
-     0.65
+     1.0
     ]
    },
    {
@@ -10911,7 +10930,7 @@
    {
     "name": "lifetime_sentry",
     "value": [
-     240
+     360
     ]
    },
    {
@@ -10945,7 +10964,7 @@
     "name": "sentry_duration_minutes_tooltip",
     "tooltip": "SENTRY DURATION (MINUTES):",
     "value": [
-     4
+     6
     ]
    },
    {
@@ -11056,7 +11075,7 @@
    {
     "name": "lifetime",
     "value": [
-     240
+     360
     ]
    },
    {

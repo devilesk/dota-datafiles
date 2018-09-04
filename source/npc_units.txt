@@ -2585,7 +2585,7 @@
 		"MovementSpeed"				"0"			// Speed
 		"MovementTurnRate"			"0"			// Turning rate.
 
-		"StatusHealth"				"1800"		// Base health.
+		"StatusHealth"				"2000"		// Base health.
 		"StatusHealthRegen"			"5"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -2649,7 +2649,7 @@
 		"MovementSpeed"				"0"			// Speed
 		"MovementTurnRate"			"0"			// Turning rate.
 
-		"StatusHealth"				"1800"		// Base health.
+		"StatusHealth"				"2000"		// Base health.
 		"StatusHealthRegen"			"5"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -2713,7 +2713,7 @@
 		"MovementSpeed"				"0"			// Speed
 		"MovementTurnRate"			"0"			// Turning rate.
 
-		"StatusHealth"				"1800"		// Base health.
+		"StatusHealth"				"2000"		// Base health.
 		"StatusHealthRegen"			"5"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -2970,7 +2970,7 @@
 		"MovementSpeed"				"0"			// Speed
 		"MovementTurnRate"			"0"			// Turning rate.
 
-		"StatusHealth"				"1800"		// Base health.
+		"StatusHealth"				"2000"		// Base health.
 		"StatusHealthRegen"			"5"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -3035,7 +3035,7 @@
 		"MovementSpeed"				"0"			// Speed
 		"MovementTurnRate"			"0"			// Turning rate.
 
-		"StatusHealth"				"1800"		// Base health.
+		"StatusHealth"				"2000"		// Base health.
 		"StatusHealthRegen"			"5"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -3098,7 +3098,7 @@
 		"MovementSpeed"				"0"			// Speed
 		"MovementTurnRate"			"0"			// Turning rate.
 
-		"StatusHealth"				"1800"		// Base health.
+		"StatusHealth"				"2000"		// Base health.
 		"StatusHealthRegen"			"5"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -7482,8 +7482,8 @@
 		"ProjectileSpeed"			"900"		// Speed of projectile.
 
 		"BountyXP"					"12"		// Experience earn.
-		"BountyGoldMin"				"22"		// Gold earned min.
-		"BountyGoldMax"				"36"		// Gold earned max.
+		"BountyGoldMin"				"20"		// Gold earned min.
+		"BountyGoldMax"				"26"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 		"HealthBarOffset"			"130"
@@ -7543,8 +7543,8 @@
 		"ProjectileSpeed"			"900"		// Speed of projectile.
 
 		"BountyXP"					"12"		// Experience earn.
-		"BountyGoldMin"				"22"		// Gold earned min.
-		"BountyGoldMax"				"36"		// Gold earned max.
+		"BountyGoldMin"				"20"		// Gold earned min.
+		"BountyGoldMax"				"26"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 		"HealthBarOffset"			"135"
@@ -7604,8 +7604,8 @@
 		"ProjectileSpeed"			"900"		// Speed of projectile.
 
 		"BountyXP"					"12"		// Experience earn.
-		"BountyGoldMin"				"22"		// Gold earned min.
-		"BountyGoldMax"				"36"		// Gold earned max.
+		"BountyGoldMin"				"20"		// Gold earned min.
+		"BountyGoldMax"				"26"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 		"HealthBarOffset"			"140"
@@ -7665,8 +7665,8 @@
 		"ProjectileSpeed"			"900"		// Speed of projectile.
 
 		"BountyXP"					"12"		// Experience earn.
-		"BountyGoldMin"				"22"		// Gold earned min.
-		"BountyGoldMax"				"36"		// Gold earned max.
+		"BountyGoldMin"				"20"		// Gold earned min.
+		"BountyGoldMax"				"26"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALL"			// Hull type used for navigation/locomotion.
 		"HealthBarOffset"			"145"
@@ -7916,7 +7916,7 @@
 		"MovementSpeed"				"350"		// Speed
 		"MovementTurnRate"			"0.5"		// Turning rate.
 
-		"StatusHealth"				"250"		// Base health.
+		"StatusHealth"				"280"		// Base health.
 		"StatusHealthRegen"			"2.0"		// Health regeneration rate.
 		"StatusMana"				"0"			// Base mana.
 		"StatusManaRegen"			"0"			// Mana regeneration rate.
@@ -8082,9 +8082,9 @@
 		"ProjectileModel"			""			// Particle system model for projectile.
 		"ProjectileSpeed"			""			// Speed of projectile.
 
-		"BountyXP"					"15"		// Experience earn.
-		"BountyGoldMin"				"15"			// Gold earned min.
-		"BountyGoldMax"				"15"		// Gold earned max.
+		"BountyXP"					"5"		// Experience earn.
+		"BountyGoldMin"				"5"			// Gold earned min.
+		"BountyGoldMax"				"5"		// Gold earned max.
 
 		"BoundsHullName"			"DOTA_HULL_SIZE_SMALLEST"			// Hull type used for navigation/locomotion.
 		"HealthBarOffset"			"140"

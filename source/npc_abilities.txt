@@ -428,7 +428,7 @@
 		"AbilityCastPoint"				"0.4"
 
 		"AbilityCooldown"				"8"
-		"AbilityDuration"				"14 16 18 20"
+		"AbilityDuration"				"8 12 16 20"
 
 		"AbilityManaCost"				"95"		
 
@@ -443,7 +443,7 @@
 			"02"
 			{
 				"var_type"						"FIELD_INTEGER"
-				"enfeeble_tooltip_duration"		"14 16 18 20"
+				"enfeeble_tooltip_duration"		"8 12 16 20"
 			}
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
@@ -2076,7 +2076,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"duration"				"15.0"
+				"duration"				"18.0"
 			}
 			"03"
 			{
@@ -2122,7 +2122,7 @@
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"leap_speedbonus_as"	"40 60 80 100"
+				"leap_speedbonus_as"	"60 80 100 120"
 				"LinkedSpecialBonus"	"special_bonus_unique_mirana_1"
 			}
 			"06"
@@ -2954,7 +2954,7 @@
 	"phantom_lancer_doppelwalk"
 	{
 		"ID"					"5066"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
-		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
 		"FightRecapLevel"				"1"
 		"AbilitySound"			"Hero_PhantomLancer.Doppelganger.Cast"
 
@@ -3352,9 +3352,9 @@
 		"AbilityCastRange"				"1000 1100 1200 1300"
 		"AbilityCastPoint"				"0.3 0.3 0.3 0.3"
 
-		"AbilityCooldown"				"14 13 12 11"
+		"AbilityCooldown"				"17 15 13 11"
 
-		"AbilityDamage"					"90 180 270 360"
+		"AbilityDamage"					"150 220 290 360"
 
 		"AbilityManaCost"				"140"
 
@@ -3982,7 +3982,7 @@
 
 		"AbilityCooldown"				"50"
 
-		"AbilityManaCost"				"75"
+		"AbilityManaCost"				"30 45 60 75"
 
 
 
@@ -4000,21 +4000,16 @@
 			}
 			"03"
 			{
-				"var_type"					"FIELD_INTEGER"
-				"mortal_chance"				"9 11 13 15"
-			}
-			"04"
-			{
 				"var_type"				"FIELD_FLOAT"
 				"skeleton_duration"			"90"
 			}
-			"05"
+			"04"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"max_skeleton_charges"		"4 5 6 7"
+				"max_skeleton_charges"		"2 4 6 8"
 				"LinkedSpecialBonus"	"special_bonus_unique_wraith_king_5"
 			}
-			"06"
+			"05"
 			{
 				"var_type"				"FIELD_FLOAT"
 				"spawn_interval"			"0.25"
@@ -4235,7 +4230,7 @@
 
 		"AbilityCooldown"				"0"
 		
-		"AbilityManaCost"				"70 65 60 55"
+		"AbilityManaCost"				"70"
 
 		"AbilitySpecial"
 		{
@@ -4872,7 +4867,7 @@
 			"05"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"caustic_finale_slow"		"-30"
+				"caustic_finale_slow"		"-21 -24 -27 -30"
 			}
 			"06"
 			{
@@ -5098,7 +5093,7 @@
 			"03"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"bonus_damage_buildings"				"60 80 100 120"
+				"bonus_damage_buildings"				"90 120 150 180"
 			}
 			"04"
 			{
@@ -5164,7 +5159,7 @@
 			"05"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"splash_pct"				"100"
+				"splash_pct"				"130"
 			}
 		}
 	}
@@ -5225,7 +5220,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"arc_damage"			"85 100 115 145"
+				"arc_damage"			"70 95 120 145"
 				"LinkedSpecialBonus"	"special_bonus_unique_zeus_2"
 			}
 			"02"
@@ -5258,10 +5253,10 @@
 		"FightRecapLevel"				"1"
 		"AbilitySound"					"Hero_Zuus.LightningBolt"
 
-		"AbilityCastRange"				"700"
+		"AbilityCastRange"				"700 750 800 850"
 		"AbilityCastPoint"				"0.4 0.4 0.4 0.4"
 
-		"AbilityDamage"					"100 175 275 350"
+		"AbilityDamage"					"125 200 275 350"
 
 		"AbilityCooldown"				"6.0 6.0 6.0 6.0"
 
@@ -5275,24 +5270,29 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"true_sight_radius"		"750"
+				"cast_range_tooltip"	"700 750 800 850"
 			}
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"sight_radius_day"		"750"
+				"true_sight_radius"		"750"
 			}
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"sight_radius_night"	"750"
+				"sight_radius_day"		"750"
 			}
 			"04"
+			{
+				"var_type"				"FIELD_INTEGER"
+				"sight_radius_night"	"750"
+			}
+			"05"
 			{
 				"var_type"				"FIELD_FLOAT"
 				"sight_duration"		"4.5"
 			}
-			"05"
+			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
 				"spread_aoe"	"325"
@@ -5363,7 +5363,7 @@
 			}
 			"02"
 			{
-				"var_type"					"FIELD_INTEGER"
+				"var_type"					"FIELD_FLOAT"
 				"damage_health_pct"			"4 6 8 10"
 				"LinkedSpecialBonus"		"special_bonus_unique_zeus"
 			}
@@ -5532,7 +5532,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_damage"			"60 80 100 120"
+				"bonus_damage"			"80 100 120 140"
 				"LinkedSpecialBonus"	"special_bonus_unique_slardar_2"
 			}
 			"03"
@@ -5783,7 +5783,7 @@
 		"AbilityCastRange"				"500"
 		"AbilityCastPoint"				"0.3 0.3 0.3 0.3"
 		
-		"AbilityCooldown"				"13 12 11 10"
+		"AbilityCooldown"				"10"
 
 		"AbilityManaCost"				"110 120 130 140"
 
@@ -5877,7 +5877,7 @@
 
 		"AbilityDamage"					"45 70 95 120"
 
-		"AbilityManaCost"				"40 40 40 40"
+		"AbilityManaCost"				"25 30 35 40"
 
 		"AbilitySpecial"
 		{
@@ -6096,7 +6096,7 @@
 			"02"
 			{
 				"var_type"			"FIELD_FLOAT"
-				"mana_regen_self"	"1.3 2.2 3.1 4.0"
+				"mana_regen_self"	"1.6 2.4 3.2 4.0"
 			}
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
@@ -6575,7 +6575,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"damage"				"280 370 460"
+				"damage"				"300 400 500"
 			}
 			"02"
 			{
@@ -6615,7 +6615,7 @@
 			"09"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"damage_scepter"		"370 460 550"
+				"damage_scepter"		"400 500 600"
 			}
 			"10"
 			{
@@ -6890,7 +6890,7 @@
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_CUSTOM"
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_CUSTOM"
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
-		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
 		"AbilitySound"					"Hero_Riki.Blink_Strike"
 
 		"AbilityCastRange"				"800"
@@ -6946,7 +6946,7 @@
 			"04"
 			{
 				"var_type"					"FIELD_FLOAT"
-				"fade_delay"				"6 5 4 3"
+				"fade_delay"				"7.5 6 4.5 3"
 			}
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
@@ -6969,7 +6969,7 @@
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_4"
 		"AbilityChannelAnimation"		"ACT_DOTA_CHANNEL_ABILITY_4"
 
-		"AbilityCooldown"				"40 35 30"
+		"AbilityCooldown"				"50 45 40"
 		"AbilityManaCost"				"75"
 
 
@@ -7640,7 +7640,7 @@
 			"05"
 			{
 				"var_type"		"FIELD_FLOAT"
-				"mana_regen"	"2 2.25 2.5 2.75"
+				"mana_regen"	"2.25 2.5 2.75 3"
 			}	
 			"06"
 			{
@@ -9070,7 +9070,7 @@
 			"02"
 			{
 				"var_type"					"FIELD_FLOAT"
-				"mana_multiplier"			"1.0 1.25 1.50 1.75"
+				"mana_multiplier"			"1.25 1.50 1.75 2.0"
 				"LinkedSpecialBonus"		"special_bonus_unique_pugna_3"
 			}
 			"03"
@@ -10125,7 +10125,7 @@
 			"02"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"bonus_movement_speed"		"25 25 25"
+				"bonus_movement_speed"		"30"
 			}
 			"03"
 			{
@@ -10221,7 +10221,7 @@
 		"AbilityCastRange"				"600 700 800 900"
 		"AbilityCastPoint"				"0.3 0.3 0.3 0.3"
 		
-		"AbilityCooldown"				"35 30 25 20"
+		"AbilityCooldown"				"27 24 21 18"
 
 		"AbilityManaCost"				"80"
 				
@@ -10247,7 +10247,7 @@
 			"04"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"targets"					"4 5 6 7"
+				"targets"					"2 4 6 8"
 			}
 			"05"
 			{	
@@ -10472,7 +10472,7 @@
 		
 		"AbilityCooldown"				"15"
 		
-		"AbilityManaCost"				"50 60 70 80"
+		"AbilityManaCost"				"80"
 		
 		"AbilitySpecial"
 		{
@@ -10735,7 +10735,7 @@
 		"HasScepterUpgrade"			"1"
 
 
-		"AbilityCastRange"				"800"
+		"AbilityCastRange"				"650 700 750 800"
 		"AbilityCastPoint"				"0.4"
 		
 		"AbilityCooldown"				"4"
@@ -11533,12 +11533,6 @@
 				"var_type"					"FIELD_INTEGER"
 				"attack_speed_bonus_pct"	"80 140 200 260"
 			}
-			"03"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"disjoint_count"			"4"
-				"LinkedSpecialBonus"	"special_bonus_unique_clinkz_2"
-			}
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_1"
 	}
@@ -11859,7 +11853,7 @@
 		"AbilityDuration"				"11"
 
 		
-		"AbilityManaCost"				"140"
+		"AbilityManaCost"				"110 120 130 140"
 		
 		"AbilitySpecial"
 		{
@@ -11949,7 +11943,7 @@
 		"AbilityCooldown"				"22 18 14 10"
 		"AbilityDuration"				"16 16 16 16"
 
-		"AbilityManaCost"				"170 170 170 170"
+		"AbilityManaCost"				"140 150 160 170"
 		
 		"AbilityModifierSupportValue"	"0.0"	// already gets credit for the healing
 
@@ -11959,7 +11953,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"heal"					"10"
+				"heal"					"12"
 			}
 			"02"
 			{
@@ -12084,12 +12078,12 @@
 			"01"
 			{
 				"var_type"					"FIELD_FLOAT"
-				"health_cost_percent"		"0.34 0.38 0.42"
+				"health_cost_percent"		"0.34 0.39 0.44"
 			}
 			"02"
 			{
 				"var_type"					"FIELD_FLOAT"
-				"health_damage"				"0.34 0.38 0.42"
+				"health_damage"				"0.34 0.39 0.44"
 			}
 			"03"
 			{
@@ -12281,17 +12275,7 @@
 			"02"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"blind_percentage"				"-25 -30 -35"
-			}
-			"03"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"fixed_vision"			"675"
-			}
-			"04"
-			{
-				"var_type"				"FIELD_INTEGER"
-				"fixed_vision_others"			"800"
+				"blind_percentage"				"-25"
 			}
 		}
 	}
@@ -12800,7 +12784,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"damage"				"75 100 125 150"
+				"damage"				"80 110 140 170"
 				"LinkedSpecialBonus"	"special_bonus_unique_weaver_1"
 			}
 			"02"
@@ -13676,7 +13660,7 @@
 	{
 		"ID"							"5336"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
-		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
+		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
 
 		"AbilitySpecial"
 		{
@@ -13840,7 +13824,7 @@
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_movement_speed_pct"	"14"
+				"bonus_movement_speed_pct"	"11 12 13 14"
 			}
 			"05"
 			{
@@ -13872,7 +13856,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"burn_damage"			"25 30 35 40"
+				"burn_damage"			"25"
 			}
 			"02"
 			{
@@ -14784,7 +14768,7 @@
 			"03"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"damage_first"				"200 275 350"
+				"damage_first"				"150 250 350"
 			}
 			"04"
 			{
@@ -15018,7 +15002,7 @@
 			"05"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"bounty_multiplier_tooltip"		"3.0"
+				"bounty_multiplier_tooltip"		"3.5"
 			}
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
@@ -15180,7 +15164,7 @@
 		"HasScepterUpgrade"			"1"
 
 		"AbilityCooldown"				"6"
-		"AbilityManaCost"				"40"
+		"AbilityManaCost"				"0"
 		"AbilityCastAnimation"			"ACT_INVALID"
 		
 		"AbilitySpecial"
@@ -15864,7 +15848,7 @@
 			"01"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"damage"			"14 22 30 38"
+				"damage"			"16 24 32 40"
 				"LinkedSpecialBonus"	"special_bonus_unique_silencer"
 			}
 			"02"
@@ -15939,7 +15923,7 @@
 		"AbilityCastPoint"				"0.3"
 		"AbilityCastRange"				"900"
 
-		"AbilityCooldown"				"30 24 18 12"
+		"AbilityCooldown"				"28 22 16 10"
 		"AbilityManaCost"				"115"
 
 		"AbilityModifierSupportValue"	"0.3"	// Applies multiple modifiers
@@ -16420,7 +16404,7 @@
 			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"crit_multiplier"		"160 180 200"
+				"crit_multiplier"		"150 175 200"
 			}
 		}
 	}
@@ -17308,7 +17292,7 @@
 		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 		"AbilitySound"					"Hero_ShadowDemon.ShadowPoison"
 
-		"AbilityDuration"				"10.0 10.0 10.0 10.0"
+		"AbilityDuration"				"10"
 		"AbilityCooldown"				"2.5"
 
 		"AbilityCastRange"				"1500"
@@ -17350,7 +17334,7 @@
 			"06"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"tooltip_duration"		"10.0 10.0 10.0 10.0"
+				"tooltip_duration"		"10"
 			}
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
@@ -17652,7 +17636,7 @@
 			"03"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"speed"					"857"
+				"speed"					"900"
 			}
 			"04"
 			{
@@ -17896,7 +17880,7 @@
 			"02"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"health_regen"		"4 7 10 13"
+				"health_regen"		"4 8 12 16"
 			}
 			"03"
 			{
@@ -18210,19 +18194,19 @@
 			"01"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"multicast_2_times"		"0.4 0.5 0.6"
+				"multicast_2_times"		"0.6 0.6 0.6"
 			}
 
 			"02"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"multicast_3_times"		"0 0.2 0.25"
+				"multicast_3_times"		"0 0.3 0.3"
 			}
 
 			"03"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"multicast_4_times"		"0 0 0.125"
+				"multicast_4_times"		"0 0 0.15"
 			}
 
 			"04"
@@ -18351,7 +18335,7 @@
 
 		"AbilityCooldown"				"24.0 18.0 12.0 6.0"
 
-		"AbilityManaCost"				"100 110 120 130"		
+		"AbilityManaCost"				"80 95 110 125"		
 		
 		"AbilityCastRange"				"750"
 
@@ -18853,7 +18837,7 @@
 
 		"AbilityCastPoint"				"0.05 0.05 0.05 0.05"
 
-		"AbilityCooldown"				"12 11 10 9"
+		"AbilityCooldown"				"15 13 11 9"
 
 		"AbilityManaCost"				"130 130 130 130"
 		
@@ -20518,7 +20502,7 @@
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"pounce_damage"			"40 80 120 160"
+				"pounce_damage"			"30 60 90 120"
 			}
 			"06"
 			{
@@ -21073,7 +21057,7 @@
 
 		"AbilityCastPoint"				"0.5 0.5 0.5 0.5"
 		"AbilityCooldown"				"13.0 13.0 13.0 13.0"
-		"AbilityManaCost"				"130"
+		"AbilityManaCost"				"115 120 125 130"
 		
 		"AbilitySpecial"
 		{
@@ -21343,12 +21327,12 @@
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"cleave_ending_width"			"240"
+				"cleave_ending_width"			"330"
 			}			
 			"06"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"cleave_distance"			"460"
+				"cleave_distance"			"625"
 			}
 			"07"
 			{
@@ -21978,7 +21962,7 @@
 		"AbilityCastRange"				"2000"
 		"AbilityCastPoint"				"0.1 0.1 0.1 0.1"
 
-		"AbilityCooldown"				"21.0 18.0 15.0 12.0"
+		"AbilityCooldown"				"23.0 20.0 17.0 14.0"
 
 
 		"AbilityManaCost"				"100 105 110 115"
@@ -24358,7 +24342,7 @@
 			"07"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"damage_per_second"				"10 30 50 70"
+				"damage_per_second"				"20 40 60 80"
 				"LinkedSpecialBonus"	"special_bonus_unique_phoenix_3"
 			}
 			"08"
@@ -24601,7 +24585,7 @@
 			"07"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"damage_per_second"				"10 30 50 70"
+				"damage_per_second"				"20 40 60 80"
 				"LinkedSpecialBonus"	"special_bonus_unique_phoenix_3"
 			}
 			"08"
@@ -25116,7 +25100,7 @@
 			"06"
 			{
 				"var_type"							"FIELD_INTEGER"
-				"bonus_armor"						"8 14 20"
+				"bonus_armor"						"12 18 24"
 				"LinkedSpecialBonus"		"special_bonus_unique_monkey_king_4"
 			}
 			"07"
@@ -25372,7 +25356,6 @@
 		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
 
 		"AbilityCooldown"				"70"
-		"AbilityDuration"				"8.0"
 
 		"AbilityManaCost"				"100"
 
@@ -25439,7 +25422,8 @@
 			"11"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"duration"				"6.0 7.0 8.0"
+				"duration"				"8.0"
+				"LinkedSpecialBonus"	"special_bonus_unique_pangolier_6"
 			}
 			"12"
 			{
@@ -25544,7 +25528,7 @@
 
 		"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_4"
 
-		"AbilityCooldown"				"40 35 30"
+		"AbilityCooldown"				"30"
 		
 		"AbilityManaCost"				"100 150 200"
 		
@@ -25583,7 +25567,7 @@
 			"07"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"roaming_duration"		"4.0"
+				"roaming_duration"		"5.0"
 			}
 		}
 	}
@@ -30240,7 +30224,7 @@
 
 		"AbilityDamage"					"100 180 260 340"
 
-		"AbilityManaCost"				"120 130 140 150"
+		"AbilityManaCost"				"90 110 130 150"
 
 		"AbilitySpecial"
 		{
@@ -30262,12 +30246,12 @@
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"bonus_movespeed"		"-25"
+				"bonus_movespeed"		"-30"
 			}
 			"05"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"movespeed_slow_tooltip"		"25"
+				"movespeed_slow_tooltip"		"30"
 			}
 			"06"
 			{
@@ -30316,7 +30300,7 @@
 			"03"
 			{	
 				"var_type"			"FIELD_FLOAT"
-				"heal_percentage"	"3.0 4.0 5.0 6.0"
+				"heal_percentage"	"3 4 5 6"
 			}
 		}
 		"AbilityCastAnimation"		"ACT_DOTA_CAST_ABILITY_3"
@@ -30465,7 +30449,7 @@
 
 		"AbilityCooldown"				"20"
 
-		"AbilityManaCost"				"80 90 100 110"
+		"AbilityManaCost"				"50 70 90 110"
 		
 		"AbilityCastRange"				"900"
 
@@ -32325,6 +32309,22 @@
 			{
 				"var_type"					"FIELD_INTEGER"
 				"value"				"60"
+			}
+		}
+	}
+
+	"special_bonus_movement_speed_65"
+	{
+		"ID"					"7130"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"value"				"65"
 			}
 		}
 	}
@@ -36753,7 +36753,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"value"				"5"
+				"value"				"6"
 			}
 		}
 	}
@@ -36801,7 +36801,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_FLOAT"
-				"value"				"0.75"
+				"value"				"1.25"
 			}
 		}
 	}
@@ -37686,7 +37686,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"value"				"3"
+				"value"				"2"
 			}
 		}
 	}
@@ -37750,7 +37750,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"value"				"-3"
+				"value"				"-5"
 			}
 		}
 	}
@@ -38123,7 +38123,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"value"				"20"
+				"value"				"30"
 			}
 		}
 	}
@@ -38593,6 +38593,22 @@
 			{
 				"var_type"					"FIELD_INTEGER"
 				"value"				"50"
+			}
+		}
+	}
+
+	"special_bonus_unique_kunkka_5"
+	{
+		"ID"					"7131"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_FLOAT"
+				"value"				"1.5"
 			}
 		}
 	}
@@ -39551,7 +39567,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"value"				"14"
+				"value"				"12"
 			}
 		}
 	}
@@ -39616,6 +39632,22 @@
 			{
 				"var_type"					"FIELD_INTEGER"
 				"value"				"600"
+			}
+		}
+	}
+
+	"special_bonus_unique_ursa_6"
+	{
+		"ID"					"7133"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"					"FIELD_INTEGER"
+				"value"				"80"
 			}
 		}
 	}
@@ -42825,7 +42857,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"value"				"14"
+				"value"				"18"
 			}
 		}
 	}
@@ -43113,7 +43145,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"value"				"90"
+				"value"				"75"
 			}
 		}
 	}
@@ -43568,7 +43600,7 @@
 			"01"
 			{
 				"var_type"			"FIELD_INTEGER"
-				"value"				"30"
+				"value"				"40"
 			}
 		}
 	}
@@ -43602,7 +43634,24 @@
 			"01"
 			{
 				"var_type"			"FIELD_FLOAT"
-				"value"				"16.0"
+				"value"				"35.0"
+			}
+		}
+	}
+	
+
+	"special_bonus_unique_pangolier_6"
+	{
+		"ID"					"9135"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
+		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
+		
+		"AbilitySpecial"
+		{
+			"01"
+			{
+				"var_type"			"FIELD_FLOAT"
+				"value"				"2"
 			}
 		}
 	}
