@@ -70,7 +70,7 @@
    {
     "name": "bash_duration",
     "value": [
-     1.4
+     1.5
     ]
    },
    {
@@ -568,7 +568,7 @@
    {
     "name": "bash_duration",
     "value": [
-     1.4
+     1.5
     ]
    },
    {
@@ -1634,7 +1634,7 @@
    {
     "name": "mana_regen",
     "value": [
-     3.2
+     3.0
     ]
    },
    {
@@ -3565,7 +3565,7 @@
     "name": "bonus_strength",
     "tooltip": "+$str",
     "value": [
-     40
+     45
     ]
    },
    {
@@ -5279,7 +5279,7 @@
     "name": "bonus_attack_speed",
     "tooltip": "+$attack",
     "value": [
-     120
+     130
     ]
    },
    {
@@ -5866,7 +5866,7 @@
    {
     "name": "projectile_speed",
     "value": [
-     1200
+     900
     ]
    },
    {
@@ -8432,7 +8432,7 @@
     "name": "bonus_mana_regen",
     "tooltip": "+$mana_regen",
     "value": [
-     3.0
+     5.0
     ]
    }
   ],
@@ -9009,7 +9009,7 @@
    {
     "name": "unholy_duration",
     "value": [
-     4.5
+     5.0
     ]
    }
   ],
@@ -9305,12 +9305,12 @@
    {
     "name": "backstab_duration",
     "value": [
-     5.0
+     4.0
     ]
    }
   ],
   "cooldown": [
-   24
+   22
   ],
   "description": "<h1>Active: Shadow Walk</h1>Makes you invisible for %windwalk_duration% seconds, or until you attack or cast a spell.  While invisible, you move %windwalk_movement_speed%%% faster and can move through units.  <br><br>Attacking to end the invisibility will deal %windwalk_bonus_damage% bonus physical damage to the target, and for %backstab_duration% seconds, disable their passive abilities.",
   "displayname": "Silver Edge",
@@ -9825,7 +9825,7 @@
    {
     "name": "enemy_hp_drain",
     "value": [
-     3.0
+     4.5
     ]
    },
    {

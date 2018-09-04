@@ -23687,10 +23687,17 @@
       ]
      },
      {
-      "name": "bonus_speed",
-      "tooltip": "%BONUS SPEED:",
+      "name": "bonus_move_speed",
+      "tooltip": "%BONUS MOVE SPEED:",
       "value": [
        50
+      ]
+     },
+     {
+      "name": "bonus_attack_speed",
+      "tooltip": "BONUS ATTACK SPEED:",
+      "value": [
+       75
       ]
      },
      {
@@ -23877,10 +23884,17 @@
       ]
      },
      {
-      "name": "bonus_speed",
-      "tooltip": "%BONUS SPEED:",
+      "name": "bonus_move_speed",
+      "tooltip": "%BONUS MOVE SPEED:",
       "value": [
        50
+      ]
+     },
+     {
+      "name": "bonus_attack_speed",
+      "tooltip": "BONUS ATTACK SPEED:",
+      "value": [
+       75
       ]
      },
      {
@@ -24888,8 +24902,8 @@
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
   "armorphysical": 9,
-  "attackdamagemax": 100,
-  "attackdamagemin": 100,
+  "attackdamagemax": 125,
+  "attackdamagemin": 125,
   "attackpoint": 0.26,
   "attackrange": 225,
   "attackrate": 1.2,
@@ -25069,8 +25083,8 @@
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
   "armorphysical": 12,
-  "attackdamagemax": 125,
-  "attackdamagemin": 125,
+  "attackdamagemax": 175,
+  "attackdamagemin": 175,
   "attackpoint": 0.26,
   "attackrange": 225,
   "attackrate": 1.2,
@@ -25431,8 +25445,8 @@
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
   "armorphysical": 9,
-  "attackdamagemax": 75,
-  "attackdamagemin": 75,
+  "attackdamagemax": 94,
+  "attackdamagemin": 94,
   "attackpoint": 0.26,
   "attackrange": 225,
   "attackrate": 1.2,
@@ -25612,8 +25626,8 @@
   ],
   "abilityunitdamagetype": "DAMAGE_TYPE_ArmorPhysical",
   "armorphysical": 12,
-  "attackdamagemax": 94,
-  "attackdamagemin": 94,
+  "attackdamagemax": 131,
+  "attackdamagemin": 131,
   "attackpoint": 0.26,
   "attackrange": 225,
   "attackrate": 1.2,

@@ -1609,7 +1609,7 @@
   "lore": "Batter up!"
  },
  "ogre_magi_multicast": {
-  "description": "Enables Ogre Magi to cast his spells multiple times with each use, while also granting his spells greater potency:\\n<font color=\\\"#EEF10D\\\">Fireblast</font> has its cooldown decreased, its range increased, and its mana cost increased.\\n<font color=\\\"#DE8930\\\">Ignite</font> hits enemies in an area, its range is increased, and it may be cast onto random nearby enemies when used.\\n<font color=\\\"#E34F4F\\\">Bloodlust</font> has its cooldown reduced, and may be cast on random nearby allies when used.",
+  "description": "Enables Ogre Magi to cast his spells multiple times with each use, while also granting his spells greater potency:\\n<font color=\\\"#EEF10D\\\">Fireblast</font> has its cooldown decreased, its range increased.\\n<font color=\\\"#DE8930\\\">Ignite</font> hits enemies in an area, its range is increased, and it may be cast onto random nearby enemies when used.\\n<font color=\\\"#E34F4F\\\">Bloodlust</font> has its cooldown reduced, and may be cast on random nearby allies when used.",
   "lore": "Despite being largely incapacitated by his IQ, the Ogre Magi's success in battle is attributed to pure skill."
  },
  "ogre_magi_unrefined_fireblast": {
@@ -1847,7 +1847,7 @@
   "lore": "Since his escape during the night of his betrayal, Riki has valued the use of a simple smoke screen to confuse his opponents."
  },
  "riki_tricks_of_the_trade": {
-  "description": "CHANNELED - Riki phases out of the world while striking every enemy from behind in an area around him once per second.\\n\\nUpgradable by Aghanim's Scepter.",
+  "description": "CHANNELED - Riki phases out of the world while striking random enemy heroes from behind in an area around him.\\n\\nUpgradable by Aghanim's Scepter.",
   "lore": "The Stealth Assassin is not afraid to fight dirty, and specializes in attacking his opponents from behind."
  },
  "roshan_bash": {
@@ -2071,7 +2071,7 @@
   "lore": "A swift crush of might and water breaks even the toughest of defenses."
  },
  "slardar_sprint": {
-  "description": "Slardar slithers ahead, moving significantly faster and passing through units, though becoming more vulnerable to damage.  At ability level 4, Slardar may move at 700 speed while in the river.",
+  "description": "Slardar slithers ahead, moving significantly faster and passing through units.  At ability level 4, Slardar may move at 700 speed while in the river.",
   "lore": "As Slardar has made the transition from the Deeps, it has been necessary to use his powerful tail for sprinting instead of swimming."
  },
  "slark_dark_pact": {
@@ -3021,7 +3021,7 @@
   "lore": "Barathrum erupts from the darkness with unwieldy force."
  },
  "spirit_breaker_empowering_haste": {
-  "description": "Causes Spirit Breaker to gain power with higher movement speed. His presence increases the movement speed of nearby allied units. Can be cast to improve the movement speed bonus for %duration% seconds, however afterward the passive bonus will be halved while the ability is on cooldown.",
+  "description": "Causes Spirit Breaker to gain power with higher movement speed. His presence increases the movement speed of nearby allied units. Can be cast to improve the movement speed bonus for %duration% seconds.",
   "lore": "Aspiring heroes gain speed and power from simply observing the Spirit Breaker's dominance on the battle field."
  },
  "spirit_breaker_greater_bash": {
@@ -3449,7 +3449,7 @@
   "description": "Sends the spirits farther away from you. Can be toggled on and off."
  },
  "wisp_tether": {
-  "description": "Tethers Io to an allied unit, granting bonus movement speed to both. When Io restores health or mana, tethered units target gain 1.5x the amount. Any enemy unit that crosses the tether is slowed. The tether breaks when the allied unit moves too far away, or Io cancels the tether.",
+  "description": "Tethers Io to an allied unit, granting bonus movement speed to both. When Io restores health or mana, tethered units target gains a larger portion of that amount. Any enemy unit that crosses the tether is slowed. The tether breaks when the allied unit moves too far away, or Io cancels the tether.",
   "lore": "The benevolent touch of Io brings strength from between the planes."
  },
  "wisp_tether_break": {
