@@ -188,7 +188,7 @@
    }
   ],
   "cooldown": [
-   100
+   90
   ],
   "description": "<h1>Passive: Combo Breaker</h1> When you take damage and your health falls below %health_threshold_pct%%, a strong dispel is applied and you gain a %buff_duration% second buff that causes all damage you deal and are dealt to be reduced to zero. Only triggers on player based damage. \\n\\n<h1>Passive: Status Resistance</h1> Reduces status effect durations by %status_resistance%%.",
   "displayname": "Aeon Disk",
@@ -372,7 +372,7 @@
   "description": "<h1>Active: Replenish Mana</h1>Restores %replenish_amount% mana to all nearby allies.<br><br>Radius: %replenish_radius%\\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
   "displayname": "Arcane Boots",
   "id": 180,
-  "itemcost": 1300,
+  "itemcost": 1400,
   "level": 0,
   "lore": "Magi equipped with these boots are valued in battle.",
   "manacost": [
@@ -787,7 +787,7 @@
   "cooldown": [
    70
   ],
-  "description": "<h1>Active: Avatar</h1> Grants Spell Immunity and 100%% Magic Damage Resistance.  Duration and cooldown decrease with each use. <br><br>Duration: %duration% <br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>",
+  "description": "<h1>Active: Avatar</h1> Grants Spell Immunity and 100%% Magic Damage Resistance.  Duration decreases with each use. <br><br>Duration: %duration% <br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>",
   "displayname": "Black King Bar",
   "id": 116,
   "itemcost": 3975,
@@ -1049,12 +1049,6 @@
     ]
    },
    {
-    "name": "mana_per_charge",
-    "value": [
-     "0.35"
-    ]
-   },
-   {
     "name": "var_Type",
     "value": [
      "F",
@@ -1068,6 +1062,12 @@
      "O",
      "A",
      "T"
+    ]
+   },
+   {
+    "name": "mana_per_charge",
+    "value": [
+     "0.35"
     ]
    }
   ],
@@ -1199,7 +1199,7 @@
     "name": "bonus_movement_speed",
     "tooltip": "+$move_speed",
     "value": [
-     40
+     50
     ]
    }
   ],
@@ -1207,7 +1207,7 @@
   "description": "Flat movement speed bonuses from multiple pairs of boots do not stack.",
   "displayname": "Boots of Speed",
   "id": 29,
-  "itemcost": 400,
+  "itemcost": 500,
   "level": 0,
   "lore": "Fleet footwear, increasing movement.",
   "manacost": [],
@@ -3444,7 +3444,7 @@
   "description": "<h1>Active: Mend</h1>Restores %replenish_health% health and %replenish_mana% mana to nearby allies, and removes most negative effects from the caster.<br><br>Radius: %replenish_radius%<br>Dispel Type: <span class=\\\"GameplayValues GameplayVariable\\\">Basic Dispel</span>\\n<h1>Passive: Guardian Aura</h1> Provides nearby allies with %aura_health_regen% health regeneration and %aura_armor% bonus armor. If an allied hero's health falls below %aura_bonus_threshold%%%, they receive %aura_health_regen_bonus% health regeneration and %aura_armor_bonus% armor.\\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
   "displayname": "Guardian Greaves",
   "id": 231,
-  "itemcost": 5350,
+  "itemcost": 5450,
   "level": 0,
   "lore": "One of many holy instruments constructed to honor the Omniscience.",
   "manacost": [
@@ -6206,7 +6206,7 @@
     "name": "bonus_movement_speed",
     "tooltip": "+$move_speed",
     "value": [
-     45
+     50
     ]
    },
    {
@@ -6271,7 +6271,7 @@
   "description": "<h1>Active: Phase</h1> Gives %phase_movement_speed%%% increased movement speed on melee heroes, and %phase_movement_speed_range%%% on ranged heroes, and lets you move through units for %phase_duration% seconds.\\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
   "displayname": "Phase Boots",
   "id": 50,
-  "itemcost": 1240,
+  "itemcost": 1340,
   "level": 0,
   "lore": "Boots that allow the wearer to travel between the ether.",
   "manacost": [],
@@ -6454,7 +6454,7 @@
     "name": "bonus_movement_speed",
     "tooltip": "+$move_speed",
     "value": [
-     45
+     50
     ]
    },
    {
@@ -6482,7 +6482,7 @@
   "description": "<h1>Active: Switch Attribute</h1>Switches between +%bonus_stat% Strength, +%bonus_stat% Agility, or +%bonus_stat% Intelligence.\\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
   "displayname": "Power Treads",
   "id": 63,
-  "itemcost": 1350,
+  "itemcost": 1450,
   "level": 0,
   "lore": "A pair of tough-skinned boots that change to meet the demands of the wearer.",
   "manacost": [],
@@ -9630,7 +9630,7 @@
    {
     "name": "health_sacrifice",
     "value": [
-     150
+     170
     ]
    },
    {
@@ -10068,7 +10068,7 @@
    {
     "name": "xp_bonus",
     "value": [
-     500
+     700
     ]
    },
    {
@@ -10232,7 +10232,7 @@
   "description": "<h1>Passive: Break</h1> Whenever you attack or are attacked, the bonus %bonus_health_regen% HP regen is lost and the movement speed bonus is reduced to %broken_movement_speed% for %break_time% seconds.\\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
   "displayname": "Tranquil Boots",
   "id": 214,
-  "itemcost": 950,
+  "itemcost": 1050,
   "level": 0,
   "lore": "While they increase the longevity of the wearer, this boot is not particularly reliable.",
   "manacost": [
@@ -10294,7 +10294,7 @@
   "description": "<h1>Active: Teleport</h1>Teleports you to an allied non-hero unit or structure. Teleporting to a unit is interrupted if the target unit dies.<br><br>Shares a cooldown with Town Portal Scroll.\\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
   "displayname": "Boots of Travel",
   "id": 48,
-  "itemcost": 2400,
+  "itemcost": 2500,
   "level": 0,
   "lore": "Winged boots that grant omnipresence.",
   "manacost": [
@@ -10354,7 +10354,7 @@
   "description": "<h1>Active: Teleport</h1> Teleports you to any allied structure or unit, including heroes. Teleporting to a unit is interrupted if the target unit dies.<br><br>Shares a cooldown with Town Portal Scroll.\\nFlat movement speed bonuses from multiple pairs of boots do not stack.",
   "displayname": "Boots of Travel",
   "id": 220,
-  "itemcost": 4400,
+  "itemcost": 4500,
   "level": 0,
   "lore": "Winged boots that grant omnipresence.",
   "manacost": [

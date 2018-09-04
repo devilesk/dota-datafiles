@@ -223,7 +223,7 @@
   "lore": "The Flayed Twins are ever willing to aid those who spill blood upon the field of battle."
  },
  "bloodseeker_bloodrage": {
-  "description": "Drives a unit into a bloodthirsty rage during which a unit deals, and takes, increased damage. Units affected by Bloodrage will be healed for a percentage of the max health of any units they kill. Units affected by Bloodrage when killed will heal a percentage of their max health to their killer.",
+  "description": "Drives a unit into a bloodthirsty rage during which a unit deals, and takes, increased damage. Units affected by Bloodrage will be healed for a percentage of the max health of any units they kill. Units affected by Bloodrage when killed will heal a percentage of their max health to their killer. If you do not get the last hit, but are within 300 AoE of the dying hero, you will take 50% of the heal.",
   "lore": "Strygwyr shares his animalistic thirst for bloodshed."
  },
  "bloodseeker_rupture": {
@@ -411,7 +411,7 @@
   "lore": "Clinkz simply lights his arrows from his flaming essence for quite the destructive effect."
  },
  "clinkz_strafe": {
-  "description": "Clinkz nimbly attacks with a barrage of arrows. Dramatically increases attack speed for a short time and grants Clinkz the ability to automatically dodge up to 3 projectiles.",
+  "description": "Clinkz nimbly attacks with a barrage of arrows. Dramatically increases attack speed for a short time and grants Clinkz the ability to automatically dodge up to 4 projectiles.",
   "lore": "It's hard to say whether the blur around the Bone Fletcher is from his flaming heart or his speed with the quiver."
  },
  "clinkz_wind_walk": {
@@ -940,7 +940,7 @@
   "lore": "This newly revamped Gyrocopter has attached enough armaments to assault in a 360 degree radius."
  },
  "gyrocopter_homing_missile": {
-  "description": "Fires a homing missile to seek the targeted enemy unit. The missile gains speed over time, dealing damage and stunning when it impacts the target.  Homing Missile deals greater damage the further it has traveled.  Enemy units can destroy the missile before it reaches its target.",
+  "description": "Fires a homing missile to seek the targeted enemy unit. The missile gains speed over time, dealing damage and stunning when it impacts the target. Enemy units can destroy the missile before it reaches its target.",
   "lore": "The biggest missile Aurel could possibly attach to his craft, The Bomb\u2122 has carefully calculated aerodynamics and explosives for maximum impact."
  },
  "gyrocopter_rocket_barrage": {
@@ -1438,7 +1438,7 @@
   "lore": "Shifting water makes it difficult to discern the nature of Morphling."
  },
  "morphling_replicate": {
-  "description": "Morphling changes his form to match the targeted enemy, gaining their basic abilities.\\n\\nDISPEL TYPE: Basic Dispel",
+  "description": "Morphling changes his form to match the targeted enemy, gaining their basic abilities. Can be toggled for the duration of the ability. \\n\\nDISPEL TYPE: Basic Dispel",
   "lore": "Staring into Morphling produces a reflection that mimics the beholder."
  },
  "morphling_waveform": {
@@ -2208,6 +2208,7 @@
  "special_bonus_cast_range_175": {},
  "special_bonus_cast_range_200": {},
  "special_bonus_cast_range_250": {},
+ "special_bonus_cast_range_275": {},
  "special_bonus_cast_range_300": {},
  "special_bonus_cast_range_350": {},
  "special_bonus_cast_range_400": {},
@@ -2216,8 +2217,10 @@
  "special_bonus_cast_range_75": {},
  "special_bonus_cleave_100": {},
  "special_bonus_cleave_15": {},
+ "special_bonus_cleave_150": {},
  "special_bonus_cleave_20": {},
  "special_bonus_cleave_25": {},
+ "special_bonus_cleave_30": {},
  "special_bonus_cleave_60": {},
  "special_bonus_cooldown_reduction_10": {},
  "special_bonus_cooldown_reduction_12": {},
@@ -2227,6 +2230,7 @@
  "special_bonus_cooldown_reduction_30": {},
  "special_bonus_cooldown_reduction_40": {},
  "special_bonus_cooldown_reduction_50": {},
+ "special_bonus_cooldown_reduction_65": {},
  "special_bonus_cooldown_reduction_8": {},
  "special_bonus_corruption_4": {},
  "special_bonus_corruption_5": {},
@@ -2247,6 +2251,7 @@
  "special_bonus_exp_boost_35": {},
  "special_bonus_exp_boost_40": {},
  "special_bonus_exp_boost_5": {},
+ "special_bonus_exp_boost_60": {},
  "special_bonus_gold_income_10": {},
  "special_bonus_gold_income_15": {},
  "special_bonus_gold_income_20": {},
@@ -2429,6 +2434,7 @@
  "special_bonus_unique_ancient_apparition_3": {},
  "special_bonus_unique_ancient_apparition_4": {},
  "special_bonus_unique_ancient_apparition_5": {},
+ "special_bonus_unique_ancient_apparition_6": {},
  "special_bonus_unique_antimage": {},
  "special_bonus_unique_antimage_2": {},
  "special_bonus_unique_antimage_3": {},
@@ -2438,6 +2444,10 @@
  },
  "special_bonus_unique_arc_warden": {},
  "special_bonus_unique_arc_warden_2": {},
+ "special_bonus_unique_arc_warden_3": {},
+ "special_bonus_unique_arc_warden_4": {
+  "description": "Affects visible units only."
+ },
  "special_bonus_unique_axe": {},
  "special_bonus_unique_axe_2": {},
  "special_bonus_unique_axe_3": {
@@ -2528,8 +2538,11 @@
  "special_bonus_unique_doom_3": {},
  "special_bonus_unique_doom_4": {},
  "special_bonus_unique_doom_5": {},
+ "special_bonus_unique_doom_6": {},
  "special_bonus_unique_dragon_knight": {},
  "special_bonus_unique_dragon_knight_2": {},
+ "special_bonus_unique_dragon_knight_3": {},
+ "special_bonus_unique_dragon_knight_4": {},
  "special_bonus_unique_drow_ranger_1": {},
  "special_bonus_unique_drow_ranger_2": {},
  "special_bonus_unique_drow_ranger_3": {},
@@ -2580,7 +2593,7 @@
  },
  "special_bonus_unique_invoker_3": {},
  "special_bonus_unique_invoker_4": {
-  "description": "Launched when Sun Strike is double tapped. Puts it on a 90 second cooldown. Creates 2 visible Sun Strikes within 175-250 range of each enemy hero."
+  "description": "Launched when Sun Strike is double tapped. Puts it on a 90 second cooldown. Creates 2 visible Sun Strikes within 160-220 range of each enemy hero."
  },
  "special_bonus_unique_invoker_5": {},
  "special_bonus_unique_invoker_6": {},
@@ -2609,6 +2622,7 @@
  "special_bonus_unique_leshrac_1": {},
  "special_bonus_unique_leshrac_2": {},
  "special_bonus_unique_leshrac_3": {},
+ "special_bonus_unique_leshrac_4": {},
  "special_bonus_unique_lich_1": {},
  "special_bonus_unique_lich_2": {},
  "special_bonus_unique_lich_3": {},
@@ -2660,6 +2674,7 @@
  "special_bonus_unique_meepo": {},
  "special_bonus_unique_meepo_2": {},
  "special_bonus_unique_meepo_3": {},
+ "special_bonus_unique_meepo_4": {},
  "special_bonus_unique_mirana_1": {},
  "special_bonus_unique_mirana_2": {
   "description": "The extra arrows are launched in a cone shape, 30 degrees to the left and right of the original arrow, and cannot hit the same target."
@@ -2693,6 +2708,8 @@
  "special_bonus_unique_naga_siren_4": {},
  "special_bonus_unique_necrophos": {},
  "special_bonus_unique_necrophos_2": {},
+ "special_bonus_unique_necrophos_3": {},
+ "special_bonus_unique_necrophos_4": {},
  "special_bonus_unique_nevermore_1": {},
  "special_bonus_unique_nevermore_2": {},
  "special_bonus_unique_nevermore_3": {},
@@ -2784,6 +2801,7 @@
  "special_bonus_unique_shadow_demon_4": {},
  "special_bonus_unique_shadow_demon_5": {},
  "special_bonus_unique_shadow_demon_6": {},
+ "special_bonus_unique_shadow_demon_7": {},
  "special_bonus_unique_shadow_shaman_1": {},
  "special_bonus_unique_shadow_shaman_2": {},
  "special_bonus_unique_shadow_shaman_3": {},
@@ -2830,6 +2848,7 @@
  "special_bonus_unique_sven_3": {
   "description": "Applies a basic dispel on all enemies hit."
  },
+ "special_bonus_unique_sven_4": {},
  "special_bonus_unique_techies": {},
  "special_bonus_unique_techies_2": {},
  "special_bonus_unique_techies_3": {},
@@ -2867,10 +2886,12 @@
  "special_bonus_unique_treant": {},
  "special_bonus_unique_treant_2": {},
  "special_bonus_unique_treant_3": {
-  "description": "Any tree that is destroyed on the map will respawn 3 seconds later."
+  "description": "Any tree that is destroyed on the map will respawn 2 seconds later."
  },
  "special_bonus_unique_treant_4": {},
  "special_bonus_unique_treant_5": {},
+ "special_bonus_unique_treant_6": {},
+ "special_bonus_unique_treant_7": {},
  "special_bonus_unique_troll_warlord": {},
  "special_bonus_unique_troll_warlord_2": {},
  "special_bonus_unique_troll_warlord_3": {},
@@ -2969,6 +2990,8 @@
  },
  "special_bonus_unique_wraith_king_5": {},
  "special_bonus_unique_wraith_king_6": {},
+ "special_bonus_unique_wraith_king_7": {},
+ "special_bonus_unique_wraith_king_8": {},
  "special_bonus_unique_zeus": {},
  "special_bonus_unique_zeus_2": {},
  "special_bonus_unique_zeus_3": {},
@@ -3326,6 +3349,9 @@
  "visage_soul_assumption": {
   "description": "Visage gathers charges of soul essence each time nearby heroes take more than %damage_limit% damage. When the essence is released, it deals base damage as well as damage for each gathered soul charge.",
   "lore": "The collected souls of the dead reach out to bring another into their fold."
+ },
+ "visage_stone_form_self_cast": {
+  "description": "After a short delay, the Familiar turns into stone and smashes into the ground, stunning and damaging all targets in the area.  The Familiar becomes invulnerable, and will regain its health very rapidly.  After %stone_duration% seconds, the Familiar will automatically leave Stone Form."
  },
  "visage_summon_familiars": {
   "description": "Conjures two blind Familiars to fight for Visage.  Familiars possess the Stone Form ability, that allows them to turn into stone, stunning enemies upon landing.  While in Stone Form, Familiars are invulnerable, and rapidly regenerate their health.  Familiars grant high bounty when killed.\\n\\nUpgradable by Aghanim's Scepter.",

@@ -5323,6 +5323,18 @@
      23,
      25
     ]
+   },
+   {
+    "name": "health_bonus_aoe",
+    "value": [
+     300
+    ]
+   },
+   {
+    "name": "health_bonus_share_percent",
+    "value": [
+     50
+    ]
    }
   ],
   "behavior": [
@@ -9267,7 +9279,7 @@
     "name": "disjoint_count",
     "tooltip": "DODGE STACKS:",
     "value": [
-     3
+     4
     ]
    }
   ],
@@ -16415,10 +16427,10 @@
     "name": "bonus_hero_damage",
     "tooltip": "BONUS HERO DAMAGE:",
     "value": [
-     25,
-     50,
-     75,
-     100
+     30,
+     60,
+     90,
+     120
     ]
    },
    {
@@ -16696,7 +16708,7 @@
   "displayname": "Nature's Attendants",
   "level": 0,
   "manacost": [
-   125
+   140
   ],
   "name": "enchantress_natures_attendants"
  },
@@ -18307,8 +18319,6 @@
    "DOTA_ABILITY_BEHAVIOR_POINT"
   ],
   "cooldown": [
-   70,
-   65,
    60
   ],
   "damage": [
@@ -21977,9 +21987,9 @@
    {
     "name": "charge_restore_time",
     "value": [
-     20,
-     17,
-     14,
+     26,
+     21,
+     16,
      11
     ]
    }
@@ -21989,9 +21999,9 @@
    "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
   ],
   "cooldown": [
-   20,
-   17,
-   14,
+   26,
+   21,
+   16,
    11
   ],
   "damage": [
@@ -26042,9 +26052,9 @@
     "tooltip": "DAMAGE BONUS:",
     "value": [
      25,
-     45,
-     65,
-     85
+     50,
+     75,
+     100
     ]
    },
    {
@@ -26785,9 +26795,9 @@
   "displayname": "Lightning Storm",
   "level": 0,
   "manacost": [
+   75,
    90,
-   100,
-   110,
+   105,
    120
   ],
   "name": "leshrac_lightning_storm"
@@ -28684,10 +28694,10 @@
     "name": "movespeed",
     "tooltip": "%MOVEMENT SLOW:",
     "value": [
-     14,
      16,
-     18,
-     20
+     19,
+     22,
+     25
     ]
    }
   ],
@@ -31864,10 +31874,10 @@
   "displayname": "Starstorm",
   "level": 0,
   "manacost": [
-   100,
-   120,
-   140,
-   160
+   80,
+   105,
+   130,
+   155
   ],
   "name": "mirana_starfall"
  },
@@ -33010,10 +33020,7 @@
    "DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING"
   ],
   "cooldown": [
-   0,
-   0,
-   0,
-   0
+   1
   ],
   "damage": [
    0,
@@ -33814,8 +33821,8 @@
   "level": 0,
   "manacost": [
    100,
-   100,
-   100
+   150,
+   200
   ],
   "name": "naga_siren_song_of_the_siren"
  },
@@ -35085,6 +35092,9 @@
     "name": "stack_bonus_damage",
     "tooltip": "BONUS PER STACK:",
     "value": [
+     50,
+     60,
+     70,
      80
     ]
    },
@@ -35172,6 +35182,9 @@
     "name": "stack_bonus_damage",
     "tooltip": "BONUS PER STACK:",
     "value": [
+     50,
+     60,
+     70,
      80
     ]
    },
@@ -35259,6 +35272,9 @@
     "name": "stack_bonus_damage",
     "tooltip": "BONUS PER STACK:",
     "value": [
+     50,
+     60,
+     70,
      80
     ]
    },
@@ -36332,10 +36348,10 @@
   "displayname": "Astral Imprisonment",
   "level": 0,
   "manacost": [
-   120,
    140,
    160,
-   180
+   180,
+   200
   ],
   "name": "obsidian_destroyer_astral_imprisonment"
  },
@@ -37332,10 +37348,7 @@
    "DOTA_ABILITY_BEHAVIOR_AOE"
   ],
   "cooldown": [
-   11,
-   10,
-   9,
-   8
+   11
   ],
   "damage": [
    0,
@@ -40605,9 +40618,9 @@
     "name": "rot_slow",
     "tooltip": "%MOVE SLOW:",
     "value": [
-     -20,
-     -24,
-     -28,
+     -17,
+     -22,
+     -27,
      -32
     ]
    },
@@ -42042,7 +42055,7 @@
   "displayname": "Static Link",
   "level": 0,
   "manacost": [
-   50
+   65
   ],
   "name": "razor_static_link"
  },
@@ -45134,6 +45147,15 @@
     "tooltip": "%ILLUSION DAMAGE TAKEN:",
     "value": [
      300.0
+    ]
+   },
+   {
+    "name": "charge_restore_time",
+    "value": [
+     27,
+     24,
+     21,
+     18
     ]
    }
   ],
@@ -54145,6 +54167,64 @@
   ],
   "name": "special_bonus_cast_range_250"
  },
+ "special_bonus_cast_range_275": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7117,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     275
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "+275 Cast Range",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_cast_range_275"
+ },
  "special_bonus_cast_range_300": {
   "AbilityCastPoint": [
    0,
@@ -54609,6 +54689,64 @@
   ],
   "name": "special_bonus_cleave_15"
  },
+ "special_bonus_cleave_150": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7124,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     150
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "+150% Cleave",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_cleave_150"
+ },
  "special_bonus_cleave_20": {
   "AbilityCastPoint": [
    0,
@@ -54724,6 +54862,64 @@
    0
   ],
   "name": "special_bonus_cleave_25"
+ },
+ "special_bonus_cleave_30": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7122,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     30
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "+30% Cleave",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_cleave_30"
  },
  "special_bonus_cleave_60": {
   "AbilityCastPoint": [
@@ -55246,6 +55442,64 @@
    0
   ],
   "name": "special_bonus_cooldown_reduction_50"
+ },
+ "special_bonus_cooldown_reduction_65": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7109,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     65
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "65% Cooldown Reduction",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_cooldown_reduction_65"
  },
  "special_bonus_cooldown_reduction_8": {
   "AbilityCastPoint": [
@@ -56406,6 +56660,64 @@
    0
   ],
   "name": "special_bonus_exp_boost_5"
+ },
+ "special_bonus_exp_boost_60": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7125,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     60
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "+60% XP Gain",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_exp_boost_60"
  },
  "special_bonus_gold_income_10": {
   "AbilityCastPoint": [
@@ -66368,7 +66680,7 @@
    {
     "name": "value",
     "value": [
-     250
+     225
     ]
    }
   ],
@@ -66387,7 +66699,7 @@
    0,
    0
   ],
-  "displayname": "+250 Aphotic Shield Health",
+  "displayname": "+225 Aphotic Shield Health",
   "level": 0,
   "manacost": [
    0,
@@ -66426,7 +66738,7 @@
    {
     "name": "value",
     "value": [
-     50
+     60
     ]
    }
   ],
@@ -66445,7 +66757,7 @@
    0,
    0
   ],
-  "displayname": "+50 Mist Coil Heal/Damage",
+  "displayname": "+60 Mist Coil Heal/Damage",
   "level": 0,
   "manacost": [
    0,
@@ -66890,7 +67202,7 @@
    {
     "name": "value",
     "value": [
-     1.5
+     2.5
     ]
    }
   ],
@@ -66909,7 +67221,7 @@
    0,
    0
   ],
-  "displayname": "-1.5s Ice Vortex Cooldown",
+  "displayname": "-2.5s Ice Vortex Cooldown",
   "level": 0,
   "manacost": [
    0,
@@ -67035,6 +67347,64 @@
   ],
   "name": "special_bonus_unique_ancient_apparition_5"
  },
+ "special_bonus_unique_ancient_apparition_6": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7106,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     900
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "900 AoE Cold Feet",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_unique_ancient_apparition_6"
+ },
  "special_bonus_unique_antimage": {
   "AbilityCastPoint": [
    0,
@@ -67064,7 +67434,7 @@
    {
     "name": "value",
     "value": [
-     2
+     2.5
     ]
    }
   ],
@@ -67083,7 +67453,7 @@
    0,
    0
   ],
-  "displayname": "-2s Blink Cooldown",
+  "displayname": "-2.5s Blink Cooldown",
   "level": 0,
   "manacost": [
    0,
@@ -67180,7 +67550,7 @@
    {
     "name": "value",
     "value": [
-     300
+     400
     ]
    }
   ],
@@ -67199,7 +67569,7 @@
    0,
    0
   ],
-  "displayname": "+300 Blink Cast Range",
+  "displayname": "+400 Blink Cast Range",
   "level": 0,
   "manacost": [
    0,
@@ -67424,7 +67794,7 @@
    {
     "name": "value",
     "value": [
-     2.0
+     3.0
     ]
    }
   ],
@@ -67443,7 +67813,7 @@
    0,
    0
   ],
-  "displayname": "+2s Flux Duration",
+  "displayname": "+3s Flux Duration",
   "level": 0,
   "manacost": [
    0,
@@ -67452,6 +67822,122 @@
    0
   ],
   "name": "special_bonus_unique_arc_warden_2"
+ },
+ "special_bonus_unique_arc_warden_3": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7104,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     1.5
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "-1.5s Spark Wraith Cooldown",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_unique_arc_warden_3"
+ },
+ "special_bonus_unique_arc_warden_4": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7105,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     0.0
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "Global Flux",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_unique_arc_warden_4"
  },
  "special_bonus_unique_axe": {
   "AbilityCastPoint": [
@@ -69512,7 +69998,7 @@
    {
     "name": "value",
     "value": [
-     250
+     300
     ]
    }
   ],
@@ -69531,7 +70017,7 @@
    0,
    0
   ],
-  "displayname": "+250 Double Edge Damage",
+  "displayname": "+300 Double Edge Damage",
   "level": 0,
   "manacost": [
    0,
@@ -70730,7 +71216,7 @@
    {
     "name": "value",
     "value": [
-     300
+     400
     ]
    }
   ],
@@ -70749,7 +71235,7 @@
    0,
    0
   ],
-  "displayname": "300 AoE Surge",
+  "displayname": "400 AoE Surge",
   "level": 0,
   "manacost": [
    0,
@@ -71078,7 +71564,7 @@
    {
     "name": "value",
     "value": [
-     30
+     45
     ]
    }
   ],
@@ -71097,7 +71583,7 @@
    0,
    0
   ],
-  "displayname": "+30 Poison Touch DPS",
+  "displayname": "+45 Poison Touch DPS",
   "level": 0,
   "manacost": [
    0,
@@ -71977,6 +72463,64 @@
   ],
   "name": "special_bonus_unique_doom_5"
  },
+ "special_bonus_unique_doom_6": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7123,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     16
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "+16% Scorched Earth Movement Speed",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_unique_doom_6"
+ },
  "special_bonus_unique_dragon_knight": {
   "AbilityCastPoint": [
    0,
@@ -72093,6 +72637,122 @@
   ],
   "name": "special_bonus_unique_dragon_knight_2"
  },
+ "special_bonus_unique_dragon_knight_3": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7113,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     -20
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "-20% Breathe Fire Damage Reduction",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_unique_dragon_knight_3"
+ },
+ "special_bonus_unique_dragon_knight_4": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7114,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     900
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "Dragon Blood Aura",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_unique_dragon_knight_4"
+ },
  "special_bonus_unique_drow_ranger_1": {
   "AbilityCastPoint": [
    0,
@@ -72180,7 +72840,7 @@
    {
     "name": "value",
     "value": [
-     400
+     550
     ]
    }
   ],
@@ -72199,7 +72859,7 @@
    0,
    0
   ],
-  "displayname": "+400 Gust Distance/Knockback",
+  "displayname": "+550 Gust Distance/Knockback",
   "level": 0,
   "manacost": [
    0,
@@ -72296,7 +72956,7 @@
    {
     "name": "value",
     "value": [
-     2.0
+     3.0
     ]
    }
   ],
@@ -72315,7 +72975,7 @@
    0,
    0
   ],
-  "displayname": "+2s Gust Duration",
+  "displayname": "+3s Gust Duration",
   "level": 0,
   "manacost": [
    0,
@@ -74750,13 +75410,13 @@
    {
     "name": "min_range",
     "value": [
-     175
+     160
     ]
    },
    {
     "name": "max_range",
     "value": [
-     250
+     220
     ]
    }
   ],
@@ -74930,7 +75590,7 @@
    {
     "name": "value",
     "value": [
-     1.5
+     2.5
     ]
    }
   ],
@@ -74949,7 +75609,7 @@
    0,
    0
   ],
-  "displayname": "+1.5s Cold Snap Duration",
+  "displayname": "+2.5s Cold Snap Duration",
   "level": 0,
   "manacost": [
    0,
@@ -74988,7 +75648,7 @@
    {
     "name": "value",
     "value": [
-     0.3
+     0.5
     ]
    }
   ],
@@ -75007,7 +75667,7 @@
    0,
    0
   ],
-  "displayname": "+0.3s Tornado Lift Time",
+  "displayname": "+0.5s Tornado Lift Time",
   "level": 0,
   "manacost": [
    0,
@@ -76235,6 +76895,64 @@
   ],
   "name": "special_bonus_unique_leshrac_3"
  },
+ "special_bonus_unique_leshrac_4": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7101,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     1
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "Diabolic Edict Gains Ethereal",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_unique_leshrac_4"
+ },
  "special_bonus_unique_lich_1": {
   "AbilityCastPoint": [
    0,
@@ -76322,7 +77040,7 @@
    {
     "name": "value",
     "value": [
-     30
+     40
     ]
    },
    {
@@ -76347,7 +77065,7 @@
    0,
    0
   ],
-  "displayname": "Attacks Apply 30% MS and AS Slow",
+  "displayname": "Attacks Apply 40% MS and AS Slow",
   "level": 0,
   "manacost": [
    0,
@@ -77268,7 +77986,7 @@
    {
     "name": "value",
     "value": [
-     8
+     12
     ]
    }
   ],
@@ -77287,7 +78005,7 @@
    0,
    0
   ],
-  "displayname": "-8s Savage Roar Cooldown",
+  "displayname": "-12s Savage Roar Cooldown",
   "level": 0,
   "manacost": [
    0,
@@ -77674,7 +78392,7 @@
    {
     "name": "value",
     "value": [
-     3
+     4
     ]
    }
   ],
@@ -77693,7 +78411,7 @@
    0,
    0
   ],
-  "displayname": "-3s Lucent Beam Cooldown",
+  "displayname": "-4s Lucent Beam Cooldown",
   "level": 0,
   "manacost": [
    0,
@@ -78428,7 +79146,7 @@
    {
     "name": "value",
     "value": [
-     0.75
+     1.0
     ]
    }
   ],
@@ -78447,7 +79165,7 @@
    0,
    0
   ],
-  "displayname": "+0.75s Reverse Polarity Stun Duration",
+  "displayname": "+1s Reverse Polarity Stun Duration",
   "level": 0,
   "manacost": [
    0,
@@ -78863,6 +79581,64 @@
   ],
   "name": "special_bonus_unique_meepo_3"
  },
+ "special_bonus_unique_meepo_4": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7102,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     750
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "+750 Earthbind Cast Range",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_unique_meepo_4"
+ },
  "special_bonus_unique_mirana_1": {
   "AbilityCastPoint": [
    0,
@@ -79066,7 +79842,7 @@
    {
     "name": "value",
     "value": [
-     70
+     80
     ]
    }
   ],
@@ -79085,7 +79861,7 @@
    0,
    0
   ],
-  "displayname": "-70 Moonlight Shadow Cooldown",
+  "displayname": "-80 Moonlight Shadow Cooldown",
   "level": 0,
   "manacost": [
    0,
@@ -79240,7 +80016,7 @@
    {
     "name": "value",
     "value": [
-     300
+     400
     ]
    }
   ],
@@ -79259,7 +80035,7 @@
    0,
    0
   ],
-  "displayname": "+300 Primal Spring Damage",
+  "displayname": "+400 Primal Spring Damage",
   "level": 0,
   "manacost": [
    0,
@@ -79356,7 +80132,7 @@
    {
     "name": "value",
     "value": [
-     150
+     300
     ]
    }
   ],
@@ -79375,7 +80151,7 @@
    0,
    0
   ],
-  "displayname": "150 Tree Dance Vision AoE",
+  "displayname": "300 Tree Dance Vision AoE",
   "level": 0,
   "manacost": [
    0,
@@ -79478,7 +80254,7 @@
    {
     "name": "value",
     "value": [
-     300
+     600
     ]
    }
   ],
@@ -79497,7 +80273,7 @@
    0,
    0
   ],
-  "displayname": "+300 Tree Dance Cast Range",
+  "displayname": "+600 Tree Dance Cast Range",
   "level": 0,
   "manacost": [
    0,
@@ -80318,6 +81094,122 @@
    0
   ],
   "name": "special_bonus_unique_necrophos_2"
+ },
+ "special_bonus_unique_necrophos_3": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7110,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     16
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "+16% Ghost Shroud Slow",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_unique_necrophos_3"
+ },
+ "special_bonus_unique_necrophos_4": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7111,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     40
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "+40 Death Pulse Heal",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_unique_necrophos_4"
  },
  "special_bonus_unique_nevermore_1": {
   "AbilityCastPoint": [
@@ -82319,7 +83211,7 @@
    {
     "name": "value",
     "value": [
-     5
+     7
     ]
    }
   ],
@@ -82338,7 +83230,7 @@
    0,
    0
   ],
-  "displayname": "-5s Doppelganger CD",
+  "displayname": "-7s Doppelganger CD",
   "level": 0,
   "manacost": [
    0,
@@ -82435,7 +83327,7 @@
    {
     "name": "value",
     "value": [
-     1
+     1.25
     ]
    }
   ],
@@ -82454,7 +83346,7 @@
    0,
    0
   ],
-  "displayname": "+1s Supernova Stun Duration",
+  "displayname": "+1.25s Supernova Stun Duration",
   "level": 0,
   "manacost": [
    0,
@@ -83833,7 +84725,7 @@
    {
     "name": "value",
     "value": [
-     5
+     7
     ]
    }
   ],
@@ -83852,7 +84744,7 @@
    0,
    0
   ],
-  "displayname": "-5s Smokescreen Cooldown",
+  "displayname": "-7s Smokescreen Cooldown",
   "level": 0,
   "manacost": [
    0,
@@ -84123,7 +85015,7 @@
    {
     "name": "value",
     "value": [
-     35
+     45
     ]
    }
   ],
@@ -84142,7 +85034,7 @@
    0,
    0
   ],
-  "displayname": "-35 Fade Bolt Hero Attack",
+  "displayname": "-45 Fade Bolt Hero Attack",
   "level": 0,
   "manacost": [
    0,
@@ -84819,7 +85711,7 @@
    {
     "name": "value",
     "value": [
-     6.0
+     5.0
     ]
    }
   ],
@@ -84905,6 +85797,64 @@
    0
   ],
   "name": "special_bonus_unique_shadow_demon_6"
+ },
+ "special_bonus_unique_shadow_demon_7": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7118,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     2.0
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "2 Charges of Disruption",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_unique_shadow_demon_7"
  },
  "special_bonus_unique_shadow_shaman_1": {
   "AbilityCastPoint": [
@@ -85515,7 +86465,7 @@
    {
     "name": "value",
     "value": [
-     6
+     8
     ]
    }
   ],
@@ -85534,7 +86484,7 @@
    0,
    0
   ],
-  "displayname": "-6s Ancient Seal Cooldown",
+  "displayname": "-8s Ancient Seal Cooldown",
   "level": 0,
   "manacost": [
    0,
@@ -86617,7 +87567,7 @@
    {
     "name": "value",
     "value": [
-     20
+     40
     ]
    }
   ],
@@ -86636,7 +87586,7 @@
    0,
    0
   ],
-  "displayname": "+20% Haunt Illusion Damage",
+  "displayname": "+40% Haunt Illusion Damage",
   "level": 0,
   "manacost": [
    0,
@@ -87197,7 +88147,7 @@
    {
     "name": "value",
     "value": [
-     9
+     5
     ]
    }
   ],
@@ -87216,7 +88166,7 @@
    0,
    0
   ],
-  "displayname": "-9s Storm Hammer Cooldown",
+  "displayname": "-5s Storm Hammer Cooldown",
   "level": 0,
   "manacost": [
    0,
@@ -87341,6 +88291,64 @@
    0
   ],
   "name": "special_bonus_unique_sven_3"
+ },
+ "special_bonus_unique_sven_4": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7112,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     0.75
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "+0.75s Storm Hammer Stun Duration",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_unique_sven_4"
  },
  "special_bonus_unique_techies": {
   "AbilityCastPoint": [
@@ -89001,7 +90009,7 @@
    {
     "name": "value",
     "value": [
-     6
+     2
     ]
    }
   ],
@@ -89020,7 +90028,7 @@
    0,
    0
   ],
-  "displayname": "+6 Living Armor Block Instances",
+  "displayname": "+2 Living Armor Block Instances",
   "level": 0,
   "manacost": [
    0,
@@ -89117,7 +90125,7 @@
    {
     "name": "value",
     "value": [
-     3
+     2
     ]
    }
   ],
@@ -89136,7 +90144,7 @@
    0,
    0
   ],
-  "displayname": "3s Tree Respawn Time",
+  "displayname": "2s Tree Respawn Time",
   "level": 0,
   "manacost": [
    0,
@@ -89261,6 +90269,122 @@
    0
   ],
   "name": "special_bonus_unique_treant_5"
+ },
+ "special_bonus_unique_treant_6": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7103,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     0
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "Global Living Armor",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_unique_treant_6"
+ },
+ "special_bonus_unique_treant_7": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7115,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     700
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "700 AoE Living Armor",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_unique_treant_7"
  },
  "special_bonus_unique_troll_warlord": {
   "AbilityCastPoint": [
@@ -89407,7 +90531,7 @@
    {
     "name": "value",
     "value": [
-     50
+     75
     ]
    }
   ],
@@ -89426,7 +90550,7 @@
    0,
    0
   ],
-  "displayname": "+50 Whirling Axes Damage",
+  "displayname": "+75 Whirling Axes Damage",
   "level": 0,
   "manacost": [
    0,
@@ -90219,7 +91343,7 @@
    {
     "name": "value",
     "value": [
-     20
+     30
     ]
    }
   ],
@@ -90238,7 +91362,7 @@
    0,
    0
   ],
-  "displayname": "+20 Decay Duration",
+  "displayname": "+30 Decay Duration",
   "level": 0,
   "manacost": [
    0,
@@ -90277,7 +91401,7 @@
    {
     "name": "value",
     "value": [
-     3
+     4
     ]
    }
   ],
@@ -90296,7 +91420,7 @@
    0,
    0
   ],
-  "displayname": "+3 Tombstone Attacks",
+  "displayname": "+4 Tombstone Attacks",
   "level": 0,
   "manacost": [
    0,
@@ -91147,7 +92271,7 @@
    {
     "name": "value",
     "value": [
-     6
+     7
     ]
    }
   ],
@@ -91166,7 +92290,7 @@
    0,
    0
   ],
-  "displayname": "+6s Poison Nova Duration",
+  "displayname": "+7s Poison Nova Duration",
   "level": 0,
   "manacost": [
    0,
@@ -91263,7 +92387,7 @@
    {
     "name": "value",
     "value": [
-     600
+     800
     ]
    }
   ],
@@ -91282,7 +92406,7 @@
    0,
    0
   ],
-  "displayname": "+600 Poison Nova AoE",
+  "displayname": "+800 Poison Nova AoE",
   "level": 0,
   "manacost": [
    0,
@@ -92191,7 +93315,7 @@
    {
     "name": "value",
     "value": [
-     250
+     300
     ]
    }
   ],
@@ -92210,7 +93334,7 @@
    0,
    0
   ],
-  "displayname": "250 Shadow Word AoE",
+  "displayname": "300 Shadow Word AoE",
   "level": 0,
   "manacost": [
    0,
@@ -92829,7 +93953,7 @@
    {
     "name": "value",
     "value": [
-     0.5
+     1.0
     ]
    }
   ],
@@ -92848,7 +93972,7 @@
    0,
    0
   ],
-  "displayname": "+0.5s Shackleshot Duration",
+  "displayname": "+1s Shackleshot Duration",
   "level": 0,
   "manacost": [
    0,
@@ -93989,7 +95113,7 @@
    {
     "name": "value",
     "value": [
-     30
+     25
     ]
    }
   ],
@@ -94008,7 +95132,7 @@
    0,
    0
   ],
-  "displayname": "+30 Skeletons Attack Damage",
+  "displayname": "+25 Skeletons Attack Damage",
   "level": 0,
   "manacost": [
    0,
@@ -94017,6 +95141,122 @@
    0
   ],
   "name": "special_bonus_unique_wraith_king_6"
+ },
+ "special_bonus_unique_wraith_king_7": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7107,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     1.5
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "+1.5s Wraithfire Blast Slow Duration",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_unique_wraith_king_7"
+ },
+ "special_bonus_unique_wraith_king_8": {
+  "AbilityCastPoint": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7108,
+  "abilitytype": "DOTA_ABILITY_TYPE_ATTRIBUTES",
+  "attributes": [
+   {
+    "name": "value",
+    "value": [
+     2.0
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_PASSIVE"
+  ],
+  "cooldown": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "2x Skeletons Spawned",
+  "level": 0,
+  "manacost": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "name": "special_bonus_unique_wraith_king_8"
  },
  "special_bonus_unique_zeus": {
   "AbilityCastPoint": [
@@ -97187,13 +98427,6 @@
     ]
    },
    {
-    "name": "attack_slow_tooltip",
-    "tooltip": "ATTACK SLOW:",
-    "value": [
-     25
-    ]
-   },
-   {
     "name": "range",
     "tooltip": "RADIUS:",
     "value": [
@@ -97877,10 +99110,10 @@
     ]
    },
    {
-    "name": "cast_range_scepter",
+    "name": "scepter_bounce_range",
     "tooltip": "SCEPTER REFRACT RADIUS:",
     "value": [
-     650
+     400
     ]
    }
   ],
@@ -97902,9 +99135,9 @@
   "displayname": "Laser",
   "level": 0,
   "manacost": [
-   95,
-   120,
-   145,
+   110,
+   130,
+   150,
    170
   ],
   "name": "tinker_laser"
@@ -98268,9 +99501,9 @@
    "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
   ],
   "cooldown": [
-   18,
+   24,
+   20,
    16,
-   14,
    12
   ],
   "damage": [
@@ -100947,7 +102180,7 @@
     "name": "bonus_reset_time_roshan",
     "tooltip": "RESET TIME (ROSHAN):",
     "value": [
-     6.0
+     10.0
     ]
    },
    {
@@ -102519,6 +103752,98 @@
   ],
   "name": "visage_soul_assumption"
  },
+ "visage_stone_form_self_cast": {
+  "AbilityCastPoint": 0,
+  "AbilityCastRange": 0,
+  "AbilityCastRangeBuffer": 250,
+  "AbilityChannelTime": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityDuration": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "AbilityModifierSupportBonus": 0,
+  "AbilityModifierSupportValue": 1,
+  "ID": 7116,
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+  "abilitytype": "DOTA_ABILITY_TYPE_BASIC",
+  "attributes": [
+   {
+    "name": "stun_radius",
+    "tooltip": "STUN RADIUS:",
+    "value": [
+     350
+    ]
+   },
+   {
+    "name": "stun_delay",
+    "value": [
+     0.55
+    ]
+   },
+   {
+    "name": "stun_damage",
+    "tooltip": "DAMAGE:",
+    "value": [
+     60,
+     100,
+     140
+    ]
+   },
+   {
+    "name": "stun_duration",
+    "tooltip": "STUN DURATION:",
+    "value": [
+     1,
+     1.25,
+     1.5
+    ]
+   },
+   {
+    "name": "stone_duration",
+    "value": [
+     6.0
+    ]
+   },
+   {
+    "name": "hp_regen",
+    "tooltip": "BONUS REGEN:",
+    "value": [
+     150,
+     175,
+     200
+    ]
+   }
+  ],
+  "behavior": [
+   "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+   "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+   "DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+   "DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+   "DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE"
+  ],
+  "cooldown": [
+   0
+  ],
+  "damage": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "displayname": "Stone Form",
+  "level": 0,
+  "manacost": [
+   0
+  ],
+  "name": "visage_stone_form_self_cast"
+ },
  "visage_summon_familiars": {
   "AbilityCastPoint": [
    0,
@@ -103876,10 +105201,10 @@
   "displayname": "Shackleshot",
   "level": 0,
   "manacost": [
-   90,
+   70,
+   85,
    100,
-   110,
-   120
+   115
   ],
   "name": "windrunner_shackleshot"
  },
@@ -104108,9 +105433,6 @@
   "displayname": "Arctic Burn",
   "level": 0,
   "manacost": [
-   120,
-   110,
-   100,
    90
   ],
   "name": "winter_wyvern_arctic_burn"
@@ -104804,12 +106126,7 @@
    0,
    0
   ],
-  "AbilityDuration": [
-   12,
-   12,
-   12,
-   12
-  ],
+  "AbilityDuration": 14,
   "AbilityModifierSupportBonus": 0,
   "AbilityModifierSupportValue": 1,
   "ID": 5485,
@@ -104858,10 +106175,7 @@
     "name": "tether_duration",
     "tooltip": "TETHER DURATION:",
     "value": [
-     12,
-     12,
-     12,
-     12
+     14.0
     ]
    },
    {
