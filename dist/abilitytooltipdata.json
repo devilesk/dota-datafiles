@@ -1649,7 +1649,7 @@
   "lore": "Like a hall of mirrors might amplify the light of a single candle, the shattered walls of the universe can transform the light of prophecy into a burning torch."
  },
  "pangolier_gyroshell": {
-  "description": "Pangolier curls into a magic-immune ball and rolls out. When rolling, he moves at an increased speed and can move through trees, but has a decreased ability to turn. Striking enemies knocks them back, inflicting damage and stunning them when they land. \\n\\nColliding with walls or cliffs will cause a temporary pause while Pangolier reverses in direction.",
+  "description": "Pangolier curls into a magic-immune ball and rolls out. When rolling, he moves at an increased speed and can move through trees, but has a decreased ability to turn. Striking enemies knocks them back, inflicting damage and stunning them when they land. \\n\\nColliding with walls or cliffs will cause a temporary pause while Pangolier reverses in direction.\\n\\nDISPEL TYPE: Basic Dispel",
   "lore": "Where his ancestors sought only refuge, the Pangolier saw opportunity..."
  },
  "pangolier_gyroshell_stop": {
@@ -1661,7 +1661,7 @@
   "lore": "These fools know nothing of real armor..."
  },
  "pangolier_shield_crash": {
-  "description": "Pangolier jumps in the air and slams back to the ground, damaging all enemies in a radius. For each enemy hero hit, he gains a percentage of incoming damage reduction for a short time.\\n\\nForward movement is maintained if Shield Crash is used while Rolling Thunder is active, and allows Rolling Thunder to clear walls or cliffs.\\n\\nDISPEL TYPE: Basic Dispel",
+  "description": "Pangolier jumps in the air and slams back to the ground, damaging all enemies in a radius. For each enemy hero hit, he gains a percentage of incoming damage reduction for a short time.\\n\\nForward movement is maintained if Shield Crash is used while Rolling Thunder is active, and allows Rolling Thunder to clear walls or cliffs.",
   "lore": "Only in the midst of his enemies does the Pangolier truly thrive."
  },
  "pangolier_swashbuckle": {
@@ -2475,7 +2475,7 @@
  "special_bonus_unique_broodmother_3": {},
  "special_bonus_unique_broodmother_4": {},
  "special_bonus_unique_centaur_1": {
-  "description": "Friendly units in a 900 radius around Centaur gain the affects of Return; the damage is based on Centaur's strength."
+  "description": "Friendly units in a 900 radius around Centaur gain the effects of Return; the damage is based on Centaur's strength."
  },
  "special_bonus_unique_centaur_2": {},
  "special_bonus_unique_centaur_3": {},
@@ -2776,7 +2776,7 @@
  "special_bonus_unique_sand_king_2": {},
  "special_bonus_unique_sand_king_3": {},
  "special_bonus_unique_sand_king_4": {
-  "description": "Enemy units in range of Sand Storm have their movement speed speed slowed by %value%%% and miss %value%%% of their attacks."
+  "description": "Enemy units in range of Sand Storm have their movement speed slowed by %value%%% and miss %value%%% of their attacks."
  },
  "special_bonus_unique_shadow_demon_1": {},
  "special_bonus_unique_shadow_demon_2": {},
@@ -2822,7 +2822,7 @@
  "special_bonus_unique_storm_spirit_2": {},
  "special_bonus_unique_storm_spirit_3": {},
  "special_bonus_unique_storm_spirit_4": {
-  "description": "Every 500 distance travelled in Ball Lightning creates a Static Remnant"
+  "description": "Every 500 distance travelled in Ball Lightning creates a Static Remnant."
  },
  "special_bonus_unique_storm_spirit_5": {},
  "special_bonus_unique_sven": {},

@@ -7767,7 +7767,7 @@
   "visionnighttimerange": 750
  },
  "npc_dota_creep_badguys_ranged": {
-  "AttackAcquisitionRange": 800,
+  "AttackAcquisitionRange": 600,
   "AttackRangeBuffer": 250,
   "FollowRange": 100,
   "HasInventory": 0,
@@ -7845,7 +7845,7 @@
   "visionnighttimerange": 750
  },
  "npc_dota_creep_badguys_ranged_upgraded": {
-  "AttackAcquisitionRange": 800,
+  "AttackAcquisitionRange": 600,
   "AttackRangeBuffer": 250,
   "FollowRange": 100,
   "HasInventory": 0,
@@ -7884,7 +7884,7 @@
   "visionnighttimerange": 750
  },
  "npc_dota_creep_badguys_ranged_upgraded_mega": {
-  "AttackAcquisitionRange": 800,
+  "AttackAcquisitionRange": 600,
   "AttackRangeBuffer": 250,
   "FollowRange": 100,
   "HasInventory": 0,
@@ -8075,7 +8075,7 @@
   "visionnighttimerange": 750
  },
  "npc_dota_creep_goodguys_ranged": {
-  "AttackAcquisitionRange": 800,
+  "AttackAcquisitionRange": 600,
   "AttackRangeBuffer": 250,
   "FollowRange": 100,
   "HasInventory": 0,
@@ -8153,7 +8153,7 @@
   "visionnighttimerange": 750
  },
  "npc_dota_creep_goodguys_ranged_upgraded": {
-  "AttackAcquisitionRange": 800,
+  "AttackAcquisitionRange": 600,
   "AttackRangeBuffer": 250,
   "FollowRange": 100,
   "HasInventory": 0,
@@ -8192,7 +8192,7 @@
   "visionnighttimerange": 750
  },
  "npc_dota_creep_goodguys_ranged_upgraded_mega": {
-  "AttackAcquisitionRange": 800,
+  "AttackAcquisitionRange": 600,
   "AttackRangeBuffer": 250,
   "FollowRange": 100,
   "HasInventory": 0,

@@ -1659,13 +1659,13 @@
 		"AbilityCastRange"				"165"
 		"AbilityCastPoint"				"0.0"
 		
-		"ItemCost"						"150"
+		"ItemCost"						"90"
 		"ItemShopTags"					"consumable"
 		"ItemQuality"					"consumable"
 		"ItemAliases"					"tango"
 		"ItemStackable"					"1"
 		"ItemPermanent"					"0"
-		"ItemInitialCharges"			"5"
+		"ItemInitialCharges"			"3"
 		"SideShop"						"0"
 		"IsTempestDoubleClonable"		"0"
 		"ShouldBeInitiallySuggested"	"1"
@@ -1690,7 +1690,7 @@
 			"04"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"tooltip_charges"				"5"
+				"tooltip_charges"				"3"
 			}
 			"05"
 			{
@@ -1755,7 +1755,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
 		"ItemDeclarations"				"DECLARE_PURCHASES_TO_TEAMMATES"
 		
-		"ItemCost"						"200"
+		"ItemCost"						"50"
 		"ItemShopTags"					"consumable"
 		"ItemQuality"					"consumable"
 		"ItemAliases"					"donkey;chicken;animal courier"
@@ -2953,7 +2953,6 @@
 		"ItemAliases"					"rob;ring of basilius"
 		"ItemDisassembleRule"			"DOTA_ITEM_DISASSEMBLE_ALWAYS"
 		"ActiveDescriptionLine"			"2"
-		"ShouldBeSuggested"				"1"
 		
 		"UIPickupSound"					"Item.PickUpRingShop"
 		"UIDropSound"					"Item.DropRingShop"

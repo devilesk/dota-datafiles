@@ -1049,6 +1049,12 @@
     ]
    },
    {
+    "name": "mana_per_charge",
+    "value": [
+     "0.35"
+    ]
+   },
+   {
     "name": "var_Type",
     "value": [
      "F",
@@ -1062,12 +1068,6 @@
      "O",
      "A",
      "T"
-    ]
-   },
-   {
-    "name": "mana_per_charge",
-    "value": [
-     "0.35"
     ]
    }
   ],
@@ -1728,7 +1728,7 @@
   "description": "<h1>Use: Deploy Courier</h1> Deploys a creature to carry items to and from your team's base.",
   "displayname": "Animal Courier",
   "id": 45,
-  "itemcost": 200,
+  "itemcost": 50,
   "level": 0,
   "lore": "Losing the courier is punishable by death.",
   "manacost": [],
@@ -9950,7 +9950,7 @@
    "DOTA_UNIT_TARGET_CUSTOM"
   ],
   "ItemAliases": "tango",
-  "ItemInitialCharges": 5,
+  "ItemInitialCharges": 3,
   "ItemQuality": "consumable",
   "ItemShopTags": "consumable",
   "ItemStackable": 1,
@@ -9976,7 +9976,7 @@
    {
     "name": "tooltip_charges",
     "value": [
-     5
+     3
     ]
    },
    {
@@ -9990,7 +9990,7 @@
   "description": "<h1>Use: Devour</h1> Consumes a target tree to gain %health_regen% health regeneration for %buff_duration% seconds. Consuming a ward or Ironwood Tree doubles the heal amount.<br><br>Comes with %tooltip_charges% charges.  Can be used on an allied hero to give them one Tango.<br><br>Range: %tooltip_range%<br>Ward Range: %cast_range_ward%",
   "displayname": "Tango",
   "id": 44,
-  "itemcost": 150,
+  "itemcost": 90,
   "level": 0,
   "lore": "Forage to survive on the battlefield.",
   "manacost": [],
