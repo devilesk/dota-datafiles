@@ -1,6 +1,6 @@
 {
   "name": "dota-datafiles",
-  "version": "0.20.0",
+  "version": "0.21.0",
   "description": "Dota JSON data",
   "main": "index.js",
   "scripts": {
