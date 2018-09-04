@@ -14,7 +14,10 @@ def get_item_upgrades(itemdata):
 
 def get_item_cost(item, itemdata, upgradedata):
     if item == 'item_ward_dispenser' or not item in upgradedata:
-        return itemdata[item]['itemcost']
+        if 'itemcost' in itemdata[item]:
+            return itemdata[item]['itemcost']
+        else:
+            return 0
     else:
         return sum([get_item_cost(x, itemdata, upgradedata) for x in upgradedata[item]])
 

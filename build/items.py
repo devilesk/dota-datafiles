@@ -6,4 +6,4 @@ exclude_items = ["diffusal_blade_2", "aegis","cheese","recipe","courier","flying
     "necronomicon_3","dagon_2","dagon_3","dagon_4","dagon_5","halloween_candy_corn","present","mystery_arrow","mystery_hook",
     "mystery_missile","mystery_toss","mystery_vacuum","winter_cake","winter_coco","winter_cookie","winter_greevil_chewy",
     "winter_greevil_garbage","winter_greevil_treat","winter_ham","winter_kringle","winter_mushroom","winter_skates",
-    "winter_stocking","winter_band","greevil_whistle","greevil_whistle_toggle","halloween_rapier","iron_talon","poor_mans_shield","trident","combo_breaker"]
+    "winter_stocking","winter_band","greevil_whistle","greevil_whistle_toggle","halloween_rapier","iron_talon","poor_mans_shield","trident","combo_breaker","super_blink"]
